@@ -14,3 +14,6 @@ Das ganze Projekt ist noch recht frisch, aber wir können tatkräftige Hilfe geb
 ## andere Gruppierungen
 * [Piratenpartei Bremen](http://piraten-hb.de/mitmachen/projekte/piratenfreifunk/)
 * [CCC Bremen](http://www.ccchb.de/wiki/Freifunk)
+
+## Technisches
+* [[DNS]]
