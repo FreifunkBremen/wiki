@@ -19,6 +19,7 @@ Das ganze Projekt ist noch recht frisch, aber wir können tatkräftige Hilfe geb
 * http://www.rhhb.de/2013/02/freifunk/
 
 ## Technisches
+* [[Netze]]
 * [[DNS]]
 * [[Vernetzen]]
 * [[Mesh-VPN]]
