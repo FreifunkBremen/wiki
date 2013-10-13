@@ -4,7 +4,7 @@ Das Mesh-VPN verbindet einzelne Freifunkrouter, die sich nicht direkt sehen kön
 
 ## Funktionsweise
 
-Jeder Knoten, der mit dem Internet verbunden wird, baut eine verschlüsselte Verbindung zu unseren VPN-Gateways auf, von Freiwilligen betriebene Server. In diesem Fall sie die ansonsten nötigen Richtfunkstrecken um Freifunk-"Inseln" zu verbinden.
+Jeder Knoten, der mit dem Internet verbunden wird, baut eine verschlüsselte Verbindung zu unseren VPN-Gateways auf, von Freiwilligen betriebene Server. In diesem Fall ersetzen sie die ansonsten nötigen Richtfunkstrecken um Freifunk-"Inseln" zu verbinden.
 
 ## Technisches
 
