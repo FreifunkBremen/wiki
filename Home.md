@@ -10,3 +10,7 @@ Freifunk ist ein Projekt, das versucht ein stadtweites Datennetz auf Basis von W
 
 ## Was kann ich tun?
 Das ganze Projekt ist noch recht frisch, aber wir können tatkräftige Hilfe gebrauchen - vor allem brauchen wir Leute, die bereit sind die Freifunk-Wolke in Bremen zu vergrößern: Also stell dir einen Freifunkrouter ins Fenster. So ein Router kostet einmalig ungefähr 25 Euro.
+
+## andere Gruppierungen
+* [Piratenpartei Bremen](http://piraten-hb.de/mitmachen/projekte/piratenfreifunk/)
+* [CCC Bremen](http://www.ccchb.de/wiki/Freifunk)
