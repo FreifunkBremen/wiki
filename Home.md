@@ -1,6 +1,8 @@
+# Freifunk Bremen
+
 ## Willkommen
 
-Hier bist du nun. Entweder hast du tatsächlich ein WLAN mit der SSID bremen.freifunk.net gesehen oder jemand hat dir gesagt, dass du das Projekt hier findest oder du bist durch $suchmaschine hier gelandet.
+Hier bist du nun. Entweder hast du tatsächlich ein WLAN mit der SSID **bremen.freifunk.net** gesehen oder jemand (vielleicht auch eine Suchmaschine?) hat dir gesagt, dass du das Projekt hier findest.
 
 In jedem Fall: Willkommen beim Freifunk Bremen Projekt.
 
@@ -12,11 +14,13 @@ Freifunk ist ein Projekt, das versucht ein stadtweites Datennetz auf Basis von W
 Das ganze Projekt ist noch recht frisch, aber wir können tatkräftige Hilfe gebrauchen - vor allem brauchen wir Leute, die bereit sind die Freifunk-Wolke in Bremen zu vergrößern: Also stell dir einen Freifunkrouter ins Fenster. So ein Router kostet einmalig ungefähr 25 Euro.
 
 ## andere Gruppierungen
-* [Piratenpartei Bremen](http://piraten-hb.de/mitmachen/projekte/piratenfreifunk/)
-* [CCC Bremen](http://www.ccchb.de/wiki/Freifunk)
+Es gibt in Bremen noch zwei weitere Projekte, die eine ähnliche Ausrichtung haben:
+
+* [Piratenpartei Bremen](http://piraten-hb.de/mitmachen/projekte/piratenfreifunk/): Ebenfalls geplant, aber noch nicht aktiv
+* [CCC Bremen](http://www.ccchb.de/wiki/Freifunk): Früher mal geplant und scheinbar im Sande verlaufen
 
 ## Spannendes
-* http://www.rhhb.de/2013/02/freifunk/
+* [Frage an den Bremer Senat zum Thema Freifunk](http://www.rhhb.de/2013/02/freifunk/)
 
 ## Technisches
 * [[Netze]]
