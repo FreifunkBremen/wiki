@@ -22,6 +22,9 @@ Es gibt in Bremen noch zwei weitere Projekte, die eine ähnliche Ausrichtung hab
 ## Spannendes
 * [Frage an den Bremer Senat zum Thema Freifunk](http://www.rhhb.de/2013/02/freifunk/)
 
+## Katzenbild
+![Katze](http://farm8.staticflickr.com/7233/7316573568_c7eae0b75a_z.jpg)
+
 ## Technisches
 * [[Netze]]
 * [[DNS]]
