@@ -30,3 +30,4 @@ Es gibt in Bremen noch zwei weitere Projekte, die eine ähnliche Ausrichtung hab
 
 ## Kontakt
 * [Mailingliste](mailto:liste@bremen.freifunk.net)
+ * [Abonnieren](https://planetcyborg.de/mailman/listinfo/ff-bremen)
