@@ -29,4 +29,4 @@ Es gibt in Bremen noch zwei weitere Projekte, die eine ähnliche Ausrichtung hab
 * [[Mesh-VPN]]
 
 ## Kontakt
-* [Mailingliste](mailto:ff-bremen@lists.planetcyborg.de)
+* [Mailingliste](mailto:liste@bremen.freifunk.net)
