@@ -27,3 +27,6 @@ Es gibt in Bremen noch zwei weitere Projekte, die eine ähnliche Ausrichtung hab
 * [[DNS]]
 * [[Vernetzen]]
 * [[Mesh-VPN]]
+
+## Kontakt
+* [Mailingliste](mailto:ff-bremen@lists.planetcyborg.de)
