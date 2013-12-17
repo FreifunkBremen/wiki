@@ -23,6 +23,7 @@ Es gibt in Bremen noch zwei weitere Projekte, die eine ähnliche Ausrichtung hab
 * [Frage an den Bremer Senat zum Thema Freifunk](http://www.rhhb.de/2013/02/freifunk/)
 
 ## Technisches
+* [Netmon](https://netmon.wellenfunk.de)
 * [[Netze]]
 * [[DNS]]
 * [[Vernetzen]]
