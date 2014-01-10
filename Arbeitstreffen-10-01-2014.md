@@ -74,4 +74,15 @@ Es wurde sich dafür entschieden die Lübecker Firmware zu nutzen und
   * Finanzierung
 * Recherche über Förderverein Freie Netzwerke e.V. 
 
+#### Nächster Termin
+
+* Datum: 10.02.2014
+* Zeit: 19 Uhr
+* Ort: Hackerspace Bremen e.V.
+
+#### Philosophien
+
+* Freies Internet
+* Eigenes Netz aufbauen
+
 **Bitte vergessenes nachtragen!**
