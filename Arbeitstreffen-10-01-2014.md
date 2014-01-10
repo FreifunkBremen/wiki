@@ -52,11 +52,10 @@ Es wurde sich dafür entschieden die Lübecker Firmware zu nutzen und
 * Freifunk-API soll zunächst statisch auf wellenfunk.de angeboten werden
   * Informationen zu Freifunk-API: http://freifunk.net/blog/2013/12/die-freifunk-api/
   * Directory-Verzeichnis wo URL stehen muss: https://github.com/freifunk/directory.api.freifunk.net
-  * etc?
 
 #### Fokus auf welche Orte
 
-* Thema sollte besprochen werden, sobald Firmware steht
+* Thema sollte später besprochen werden, sobald Firmware steht
 * Wir sind uns einig: Innenstadt, Hauptbahnhof, Viertel
 * Liste möglicher Orte soll im Wiki erstellt werden
 
@@ -64,6 +63,15 @@ Es wurde sich dafür entschieden die Lübecker Firmware zu nutzen und
 
 #### Wie die Router einkaufen?
 
-* 
+* Später besprechen
+* Könnte im Rahmen des Hackerspaces oder eines eigenen e.V. oder dem Förderverein freie Netzwerke e.V. geschehen
+
+#### e.V.
+
+* Aspekte
+  * Öffentliches Auftreten
+  * Haftung
+  * Finanzierung
+* Recherche über Förderverein Freie Netzwerke e.V. 
 
 **Bitte vergessenes nachtragen!**
