@@ -30,7 +30,7 @@
 #### Weitere Planung
 
 * Vergleich Firmware (Oldenburger, Lübeck)
-  * 
+  * Es wurde sich dafür entschieden die Lübecker Firmware zu nutzen und mit den netmon Skripten zu erweitern
 
 
 **Bitte vergessenes nachtragen!**
