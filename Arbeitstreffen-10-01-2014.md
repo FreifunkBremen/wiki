@@ -1,26 +1,26 @@
-# Protokoll Treffen 10.01.2014
+# Arbeitstreffen 10.01.2014
 
-**Datum:** 20.12.2013 **Uhrzeit:** 18 Uhr **Ort:** Hackspace Bremen http://www.hackerspace-bremen.de
+**Datum:** 20.12.2013 **Uhrzeit:** 18 Uhr **Ort:** [Hackerspace Bremen e.V.](http://http://www.hackerspace-bremen.de)
 
 ## Tagesordnung
 
 * Technisches
   * 
 
-## Technisches
+## Protokoll
 
-### Aktueller Status:
+### Technisches
+
+#### Aktueller Status:
 
 * Internet funktioniert
 * Meshing funktioniert
 * 
 
-### Weitere Planung
+#### Weitere Planung
 
 * Vergleich Firmware (Oldenburger, Lübeck)
 * 
-
-
 
 
 **Bitte vergessenes nachtragen!**
