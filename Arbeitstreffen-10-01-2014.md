@@ -32,5 +32,19 @@
 * Vergleich Firmware (Oldenburger, Lübeck)
   * Es wurde sich dafür entschieden die Lübecker Firmware zu nutzen und mit den netmon Skripten zu erweitern
 
+Vergleich Firmware (Oldenburger, Lübeck)
+Es wurde sich dafür entschieden die Lübecker Firmware zu nutzen und 
+### Publicity/Doku/Rollout
+
+#### Optimierung der Wiki auf wellenfunk.de
+* Neue Startseite wurde schon entwickelt
+  * Muss nicht Teil des Wikis sein 
+* Wiki
+  * Es wurde vorgeschlagen ein anderes Wiki zu benutzen
+  * Soll aber erstmal so bestehen bleiben
+* Es werden mehr Anleitungen benötigt
+  * Anleitungen für Firmware und Einrichtung natürlich erst wenn diese fest/nutzbar ist.
+* Verwendung des Namen 'wellenfunk' soll auf Mailingliste diskutiert werden.
+ 
 
 **Bitte vergessenes nachtragen!**
