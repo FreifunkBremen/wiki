@@ -1,7 +1,11 @@
 # Protokoll Treffen 10.01.2014
 
-Ort: Hackerspace Bremen e.V.
+**Datum:** 20.12.2013 **Uhrzeit:** 18 Uhr **Ort:** Hackspace Bremen http://www.hackerspace-bremen.de
 
+## Tagesordnung
+
+* Technisches
+  * 
 
 ## Technisches
 
