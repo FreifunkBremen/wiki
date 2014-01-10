@@ -25,15 +25,12 @@
 
 * Internet funktioniert
 * Meshing funktioniert
-* 
 
 #### Weitere Planung
 
 * Vergleich Firmware (Oldenburger, Lübeck)
   * Es wurde sich dafür entschieden die Lübecker Firmware zu nutzen und mit den netmon Skripten zu erweitern
 
-Vergleich Firmware (Oldenburger, Lübeck)
-Es wurde sich dafür entschieden die Lübecker Firmware zu nutzen und 
 ### Publicity/Doku/Rollout
 
 #### Optimierung der Wiki auf wellenfunk.de
@@ -42,6 +39,7 @@ Es wurde sich dafür entschieden die Lübecker Firmware zu nutzen und
 * Wiki
   * Es wurde vorgeschlagen ein anderes Wiki zu benutzen
   * Soll aber erstmal so bestehen bleiben
+  * ggf. ermöglichen Tabellen zu zeichnen
 * Es werden mehr Anleitungen benötigt
   * Anleitungen für Firmware und Einrichtung natürlich erst wenn diese fest/nutzbar ist.
 * Verwendung des Namen 'wellenfunk' soll auf Mailingliste diskutiert werden.
