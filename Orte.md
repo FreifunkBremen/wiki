@@ -5,6 +5,7 @@ Die folgende Liste ist eine Ideensammlung, welche Orte einen Vorteil durch Freif
 ## Bahnhofsviertel
 
 * Bahnhofsvorplatz
+* Café noon
 
 ## Viertel
 
