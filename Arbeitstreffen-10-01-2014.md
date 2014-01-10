@@ -47,4 +47,23 @@ Es wurde sich dafür entschieden die Lübecker Firmware zu nutzen und
 * Verwendung des Namen 'wellenfunk' soll auf Mailingliste diskutiert werden.
  
 
+#### Personalisierung des netmon
+
+* Freifunk-API soll zunächst statisch auf wellenfunk.de angeboten werden
+  * Informationen zu Freifunk-API: http://freifunk.net/blog/2013/12/die-freifunk-api/
+  * Directory-Verzeichnis wo URL stehen muss: https://github.com/freifunk/directory.api.freifunk.net
+  * etc?
+
+#### Fokus auf welche Orte
+
+* Thema sollte besprochen werden, sobald Firmware steht
+* Wir sind uns einig: Innenstadt, Hauptbahnhof, Viertel
+* Liste möglicher Orte soll im Wiki erstellt werden
+
+### Organisatorisches
+
+#### Wie die Router einkaufen?
+
+* 
+
 **Bitte vergessenes nachtragen!**
