@@ -29,6 +29,8 @@
 #### Weitere Planung
 
 * Vergleich Firmware (Oldenburger, Lübeck)
+  * [Gegenüberstellung der Firmwares](https://jplitza.de/tmp/FF-Firmwares.pdf)
+  * Besonders die fehlende Verschlüsselung und der SSH-Server sind problematisch
   * Es wurde sich dafür entschieden die Lübecker Firmware zu nutzen und mit den netmon Skripten zu erweitern
 
 ### Publicity/Doku/Rollout
