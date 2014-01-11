@@ -15,3 +15,11 @@ Die folgende Liste ist eine Ideensammlung, welche Orte einen Vorteil durch Freif
 ## Innenstadt
 
 * Domshof
+
+## Findorff
+
+* lokal²
+
+## Überseestadt
+
+* Abfertigung
