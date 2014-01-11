@@ -32,6 +32,7 @@
   * [Gegenüberstellung der Firmwares](https://jplitza.de/tmp/FF-Firmwares.pdf)
   * Besonders die fehlende Verschlüsselung und der SSH-Server sind problematisch
   * Es wurde sich dafür entschieden die Lübecker Firmware zu nutzen und mit den netmon Skripten zu erweitern
+* Es wurde auch viel über Skalierbarkeit von BATMAN geredet, siehe dazu [diese Präsentation](http://wiki.freifunk.net/images/e/e1/Batman-adv-scalability.pdf)
 
 ### Publicity/Doku/Rollout
 
