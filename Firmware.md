@@ -2,7 +2,7 @@
 
 **ACHTUNG: Die Firmware ist noch im Entwicklungsstadium, Benutzung auf eigene Gefahr und nur von technisch versierten Benutzern!**
 
-Jede Nacht werden bei Änderungen [Nightlies](https://wellenfunk.de/firmware/nightly/) gebaut, die man sich runterladen und flashen kann. Falls der Auto-Updater funktioniert (sollte er eigentlich) werden sie (früher oder später) auch automatisch auf den Router geladen, falls man vorher schon ne Nightly benutzt hat.
+Jede Nacht werden bei Änderungen [Nightlies](http://wellenfunk.de/firmware/nightly/) gebaut, die man sich runterladen und flashen kann. Falls der Auto-Updater funktioniert (sollte er eigentlich) werden sie (früher oder später) auch automatisch auf den Router geladen, falls man vorher schon ne Nightly benutzt hat.
 
 ### Ersteinrichtung
 
