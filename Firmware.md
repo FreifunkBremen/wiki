@@ -4,13 +4,13 @@
 
 Jede Nacht werden bei Änderungen [Nightlies](http://wellenfunk.de/firmware/nightly/) gebaut, die man sich runterladen und flashen kann. Falls der Auto-Updater funktioniert (sollte er eigentlich) werden sie (früher oder später) auch automatisch auf den Router geladen, falls man vorher schon eine Nightly benutzt hat.
 
-### Ersteinrichtung
+### Ersteinrichtung/Config-Mode
 
-Wenn man die Firmware das erste Mal auf einem Router installiert, muss man sich hinterher per Kabel mit einem beliebigen LAN-Port des Routers verbinden und auf seinem Rechner DHCP anmachen oder aber manuell eine Adresse aus dem Bereich 192.168.1.0/24 zuweisen und anschließend die auf [192.168.1.1](http://192.168.1.1/) im Browser zugreifen.
+Wenn man die Firmware das erste Mal auf einem Router installiert, startet der Router im sog. Config-Mode, in den man den Router später auch wieder bringen kann indem man den Knopf 3-5 Sekunden lang drückt. In diesem Modus muss man sich per Kabel mit einem beliebigen LAN-Port des Routers verbinden und auf seinem Rechner DHCP anmachen oder aber manuell eine Adresse aus dem Bereich 192.168.1.0/24 zuweisen und anschließend die auf [192.168.1.1](http://192.168.1.1/) im Browser zugreifen.
 
-Dort beantwortet man ein paar grundlegende Fragen und bestätigt einmal. Dann zeigt der Browser ggf. den VPN-Key an, während der Router neustartet. Um diesen auf den VPN-Server zu übertragen, verbindet man sich wieder mit dem Internet (nicht über den Freifunk-Router!) und klickt dann auf den Link, der im Text über dem Schlüssel im Browser hoffentlich noch offen ist.
+Dort beantwortet man ein paar grundlegende Fragen, setzt falls gewünscht ein Passwort per Telnet und bestätigt einmal. Dann zeigt der Browser ggf. den VPN-Key an, während der Router neustartet. Um diesen auf den VPN-Server zu übertragen, verbindet man sich wieder mit dem Internet (nicht über den Freifunk-Router!) und klickt dann auf den Link, der im Text über dem Schlüssel im Browser hoffentlich noch offen ist.
 
-Danach läuft der Router im normalen Betrieb total abgeschottet: Weder per SSH noch per HTTP ist ein Zugriff möglich. Um die getroffenen Einstellungen nachträglich zu ändern, drückt man den Knopf des Routers 3-5 Sekunden lang. Er startet dann neu und ist wieder im Config-Modus, in dem man immer per telnet auf den Router kommt. Setzt man dort ein Passwort, kann man im normalen Betrieb per SSH auf den Router.
+Danach läuft der Router im normalen Betrieb standardmäßig total abgeschottet: Weder per SSH noch per HTTP ist ein Zugriff möglich. Um die getroffenen Einstellungen nachträglich zu ändern, drückt man wie eingangs erwähnt den Knopf des Routers 3-5 Sekunden lang. Er startet dann neu und ist wieder im Config-Modus. Hat man im Config-Mode jedoch ein Passwort gesetzt, kann man im normalen Betrieb per SSH auf den Router.
 
 ### Auto-Update
 
