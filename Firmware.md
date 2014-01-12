@@ -2,7 +2,7 @@
 
 **ACHTUNG: Die Firmware ist noch im Entwicklungsstadium, Benutzung auf eigene Gefahr und nur von technisch versierten Benutzern!**
 
-Jede Nacht werden bei Änderungen [Nightlies](http://wellenfunk.de/firmware/nightly/) gebaut, die man sich runterladen und flashen kann. Falls der Auto-Updater funktioniert (sollte er eigentlich) werden sie (früher oder später) auch automatisch auf den Router geladen, falls man vorher schon ne Nightly benutzt hat.
+Jede Nacht werden bei Änderungen [Nightlies](http://wellenfunk.de/firmware/nightly/) gebaut, die man sich runterladen und flashen kann. Falls der Auto-Updater funktioniert (sollte er eigentlich) werden sie (früher oder später) auch automatisch auf den Router geladen, falls man vorher schon eine Nightly benutzt hat.
 
 ### Ersteinrichtung
 
@@ -10,7 +10,7 @@ Wenn man die Firmware das erste Mal auf einem Router installiert, muss man sich 
 
 Dort beantwortet man ein paar grundlegende Fragen und bestätigt einmal. Dann zeigt der Browser ggf. den VPN-Key an, während der Router neustartet. Um diesen auf den VPN-Server zu übertragen, verbindet man sich wieder mit dem Internet (nicht über den Freifunk-Router!) und klickt dann auf den Link, der im Text über dem Schlüssel im Browser hoffentlich noch offen ist.
 
-Danach läuft der Router im normalen Betrieb total abgeschottet: Weder per SSH noch per HTTP ist ein Zugriff möglich. Um die getroffenen Einstellungen nachträglich zu ändern, drückt man den Knopf des Routers 3-5 Sekunden lang. Er startet dann neu und ist wieder im Config-Modus, in dem man übrigens immer per telnet auf den Router kommt. Setzt man dort ein Passwort, kann man auch im normalen Betrieb per SSH auf den Router.
+Danach läuft der Router im normalen Betrieb total abgeschottet: Weder per SSH noch per HTTP ist ein Zugriff möglich. Um die getroffenen Einstellungen nachträglich zu ändern, drückt man den Knopf des Routers 3-5 Sekunden lang. Er startet dann neu und ist wieder im Config-Modus, in dem man immer per telnet auf den Router kommt. Setzt man dort ein Passwort, kann man im normalen Betrieb per SSH auf den Router.
 
 ### Auto-Update
 
