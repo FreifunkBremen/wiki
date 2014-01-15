@@ -21,3 +21,11 @@ In späteren Phasen (testing und stable im Gegensatz zu nightly) müssen die Ima
 ## Entwicklung
 
 Unsere Firmware basiert auf [gluon](https://github.com/freifunk-gluon/gluon), einem allgemein gehaltenem Framework der Lübecker. In unserem [github-Account](https://github.com/FreifunkBremen/) gibt es Forks falls wir etwas zu Patchen gefunden haben und vor allem die benötigte [site-Config](https://github.com/FreifunkBremen/gluon-site-ffhb).
+
+### ToDo
+
+Folgende Punkte sind bereits bekannt und sollten mal geändert werden™:
+
+* Schönere Bestätigung nach Übermittlung des VPN-Keys
+* falscher Hostname im VPN-Key-Link
+* teils noch hardcoded "Lübeck" im Config-Mode
