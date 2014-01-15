@@ -26,6 +26,6 @@ Unsere Firmware basiert auf [gluon](https://github.com/freifunk-gluon/gluon), ei
 
 Folgende Punkte sind bereits bekannt und sollten mal geändert werden™:
 
-* Schönere Bestätigung nach Übermittlung des VPN-Keys
-* falscher Hostname im VPN-Key-Link
+* ~~Schönere Bestätigung nach Übermittlung des VPN-Keys~~ [erledigt](http://vpn.bremen.freifunk.net/newkey.php)
+* ~~falscher Hostname im VPN-Key-Link~~ hoffentlich erledigt
 * teils noch hardcoded "Lübeck" im Config-Mode
