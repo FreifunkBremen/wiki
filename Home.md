@@ -25,6 +25,6 @@ In jedem Fall: Willkommen beim Freifunk Bremen Projekt.
 ## Kontakt
 * [Mailingliste](mailto:liste@bremen.freifunk.net)
  * [Abonnieren](https://planetcyborg.de/mailman/listinfo/ff-bremen)
- * 
- * ## Space Cat!
- * ![](http://2.bp.blogspot.com/-OWvm3mTQCXU/UhrdeG-tGYI/AAAAAAAALEU/iUSYkbO5j9Y/s1600/freebestapp1.jpg)
+  
+ ## Space Cat!
+ ![](http://2.bp.blogspot.com/-OWvm3mTQCXU/UhrdeG-tGYI/AAAAAAAALEU/iUSYkbO5j9Y/s1600/freebestapp1.jpg)
