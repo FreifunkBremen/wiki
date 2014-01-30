@@ -59,7 +59,7 @@
 * Thema sollte später besprochen werden, sobald Firmware steht
 * Wir sind uns einig: Innenstadt, Hauptbahnhof, Viertel
 * Liste möglicher Orte soll im Wiki erstellt werden
-  * Nun unter [[Orte]] zu finden 
+  * Nun unter [[Publicity#Orte-für-Freifunk]] zu finden 
 
 ### Organisatorisches
 
