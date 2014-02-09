@@ -11,7 +11,7 @@ In jedem Fall: Willkommen beim Freifunk Bremen Projekt.
 [Freifunk](http://freifunk.net) ist ein Projekt, das versucht ein stadtweites Datennetz auf Basis von WLAN-Routern aufzubauen. Dieses Netz soll eine freie Kommunikation innerhalb der ganzen Stadt und, mithilfe von VPN-Verbindungen, zu anderen Städten, auch überregional ermöglichen. Um dies zu erreichen, werden Freifunknoten (das sind die Router mit den Antennen), von Freiwilligen an vielen Orten in der Stadt betrieben. Jedes WLAN-fähige Gerät, also beispielsweise Handy oder Notebook, kann sich in der Nähe eines solchen Knotens mit dem Netz verbinden und darüber mit anderen Teilnehmern kommunizieren. Auch ein Zugang zum Internet steht meistens zur Verfügung.
 
 ## Nächstes Treffen
-* [[Arbeitstreffen-10-02-2014]]
+* [Arbeitstreffen am 10.02.2014 im Hackerspace Bremen[Arbeitstreffen-10-02-2014]]
 
 ## Inhalt dieses Wikis
 * [[Publicity]]
