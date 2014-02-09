@@ -12,3 +12,5 @@
 * Organisatorisches
   * Jeden 2ten Montag im Monat treffen? 
   * Wie die Router einkaufen?
+
+## Protokoll
