@@ -10,4 +10,5 @@
   * Doku
   * diese Anzeige http://vpn02.bremen.freifunk.net/map/?10:fe:ed:e5:fb:22 mit dem Namen in der Liste verlinken? https://netmon.wellenfunk.de/map/list.html möglich?
 * Organisatorisches
+  * Jeden 2ten Montag im Monat treffen? 
   * Wie die Router einkaufen?
