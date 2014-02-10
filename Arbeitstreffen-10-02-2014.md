@@ -1,6 +1,6 @@
 # Treffen 10.02.2014
 
-**Datum:** 10.02.2014 **Uhrzeit:** 19 Uhr **Ort:** [Hackerspace Bremen e.V.](http://http://www.hackerspace-bremen.de)
+**Datum:** 10.02.2014 **Uhrzeit:** 19 Uhr **Ort:** [Hackerspace Bremen e.V.](http://www.hackerspace-bremen.de)
 
 ## Tagesordnung
 
