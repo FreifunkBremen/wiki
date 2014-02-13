@@ -1,6 +1,6 @@
 #Unterstützte Router
 
-Im folgenden findest du alle Router-Modelle für die wir eine passende Freifunk-Firmware bereitstellen.
+Hier findest du alle Router-Modelle für die wir eine passende Freifunk-Firmware bereitstellen.
 
 **TP-Link**
 
