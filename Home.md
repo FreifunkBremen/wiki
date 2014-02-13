@@ -28,5 +28,8 @@ In jedem Fall: Willkommen beim Freifunk Bremen Projekt.
 ## Kontakt
 * [Mailingliste](mailto:liste@bremen.freifunk.net)
  * [Abonnieren](https://planetcyborg.de/mailman/listinfo/ff-bremen)
+* IRC
+ * Channel: #ffhb
+ * Server: [hackint](http://hackint.eu)
 * Twitter
  * [@FreifunkHB](https://twitter.com/FreifunkHB)  
