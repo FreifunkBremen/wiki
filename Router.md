@@ -1,6 +1,6 @@
 #Unterstützte Router
 
-Welche Router wir in der Community nutzen, erfährst du in den folgenden Listen.
+Im folgenden findest du alle Router-Modelle für die wir eine passende Freifunk-Firmware bereitstellen.
 
 **TP-Link**
 
