@@ -13,5 +13,5 @@ Wenn du dir einen passenden Router besorgst, kann du diesen natürlich auch selb
 Einfach einen Router beim Händler deiner Wahl kaufen, die passende Firmware aufspielen, konfigurieren, fertig!
 
 * [Unterstütze Router](http://wiki.bremen.freifunk.net/Unterstuetzte-Router)
-* [Firmware](http://downloads.bremen.freifunk.net)
+* [Firmware](http://downloads.bremen.freifunk.net/firmware/)
 * Anleitung
