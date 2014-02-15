@@ -2,7 +2,7 @@
 
 Unsere Community Treffen finden derzeit im monatlichen Rhythmuss statt.
 Der [Hackerspace Bremen](https://www.hackerspace-bremen.de/) bietet uns dafür die Räumlichkeiten an.
-Organisiert werden die Treffen meist über unsere [Mailingliste](https://planetcyborg.de/mailman/listinfo/ff-bremen).
+Organisiert werden die Treffen über unsere [Mailingliste](https://planetcyborg.de/mailman/listinfo/ff-bremen).
 
 ##Vergangene Treffen
 * [[Treffen 2014-02-10]]
