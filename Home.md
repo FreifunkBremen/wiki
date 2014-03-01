@@ -11,7 +11,7 @@ In jedem Fall: Willkommen beim Freifunk Bremen Projekt.
 [Freifunk](http://freifunk.net) ist ein Projekt, das versucht ein stadtweites Datennetz auf Basis von WLAN-Routern aufzubauen. Dieses Netz soll eine freie Kommunikation innerhalb der ganzen Stadt und, mithilfe von VPN-Verbindungen, zu anderen Städten, auch überregional ermöglichen. Um dies zu erreichen, werden Freifunknoten (das sind die Router mit den Antennen), von Freiwilligen an vielen Orten in der Stadt betrieben. Jedes WLAN-fähige Gerät, also beispielsweise Handy oder Notebook, kann sich in der Nähe eines solchen Knotens mit dem Netz verbinden und darüber mit anderen Teilnehmern kommunizieren. Auch ein Zugang zum Internet steht meistens zur Verfügung.
 
 ## Nächstes Treffen
-[Umfrage für März](https://dudle.inf.tu-dresden.de/35b3kqmb/)
+[[Treffen 2014-03-14]]
 
 ## Inhalt dieses Wikis
 * [[Publicity]]
@@ -26,10 +26,6 @@ In jedem Fall: Willkommen beim Freifunk Bremen Projekt.
  * [[Mesh-VPN]]
 
 ## Kontakt
-* [Mailingliste](mailto:liste@bremen.freifunk.net)
- * [Abonnieren](https://planetcyborg.de/mailman/listinfo/ff-bremen)
-* IRC
- * Channel: #ffhb
- * Server: [hackint](http://hackint.eu)
-* Twitter
- * [@FreifunkHB](https://twitter.com/FreifunkHB)  
+* Mailingliste: [liste@bremen.freifunk.net](mailto:liste@bremen.freifunk.net) ([Abonnieren](https://planetcyborg.de/mailman/listinfo/ff-bremen))
+* IRC: [#ffhb im Hackint](irc:://irc.hackint.org/ffhb)
+* Twitter: [@FreifunkHB](https://twitter.com/FreifunkHB)  
