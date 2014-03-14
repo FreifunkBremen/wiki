@@ -19,6 +19,7 @@ In jedem Fall: Willkommen beim Freifunk Bremen Projekt.
 
 ### Technisches
 * [[Firmware]]
+ * [[Firmware-flashen]]
 * [[Gluon-Router]]
 * [[DNS]]
 * [[Netze]]
