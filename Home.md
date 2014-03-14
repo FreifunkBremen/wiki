@@ -23,6 +23,7 @@ In jedem Fall: Willkommen beim Freifunk Bremen Projekt.
 * [[Gluon-Router]]
 * [[DNS]]
 * [[Netze]]
+ * [Info zum aktuell verbundenen Router](http://node.ffhb)
  * [[Vernetzen]]
  * [[Mesh-VPN]]
 
