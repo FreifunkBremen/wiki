@@ -1,7 +1,7 @@
 # Freifunk Bremen
 
 ## Nächstes Treffen
-[[Treffen 2014-03-14]]
+[Abstimmung für April](https://dudle.hackerspace-bremen.de/Freifunk_Treffen_April/)
 
 ## Inhalt dieses Wikis
 * [[Publicity]]
