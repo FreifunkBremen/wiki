@@ -6,6 +6,7 @@
 ## Inhalt dieses Wikis
 * [[Publicity]]
 * [[Treffen]]
+* [[Dienste]]
 
 ### Technisches
 * [[Firmware]]
@@ -13,7 +14,6 @@
  * [[Firmware-flashen]]
 * [[DNS]]
 * [[Netze]]
- * [Info zum aktuell verbundenen Router](http://node.ffhb)
  * [[Vernetzen]]
 
 ## Kontakt
