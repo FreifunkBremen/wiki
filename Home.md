@@ -11,7 +11,6 @@
 * [[Firmware]]
  * [[Unterstuetzte Router]] 
  * [[Firmware-flashen]]
-* [[Gluon-Router]]
 * [[DNS]]
 * [[Netze]]
  * [Info zum aktuell verbundenen Router](http://node.ffhb)
