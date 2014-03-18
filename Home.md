@@ -15,7 +15,6 @@
 * [[Netze]]
  * [Info zum aktuell verbundenen Router](http://node.ffhb)
  * [[Vernetzen]]
- * [[Mesh-VPN]]
 
 ## Kontakt
 * Mailingliste: [liste@bremen.freifunk.net](mailto:liste@bremen.freifunk.net) ([Abonnieren](https://planetcyborg.de/mailman/listinfo/ff-bremen))
