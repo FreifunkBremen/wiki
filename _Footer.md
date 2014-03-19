@@ -1,1 +1,1 @@
-[Imprint/Impressum](https://mortzu.de/impressum/)
+[Imprint/Impressum](https://mortzu.de/impressum)
