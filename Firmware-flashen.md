@@ -1,6 +1,6 @@
 Auf dieser Seite wird erklärt, wie die Router geflasht werden können.
 
-## TP-LINK Router flashen
+## TP-Link Router flashen
 
 Wenn ein TP-Link Router neu gekauft wird, kann der Flash-Vorgang über den Browser vorgenommen werden:
 
