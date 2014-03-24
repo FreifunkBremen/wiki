@@ -1,6 +1,11 @@
 # Öffentlichtkeitsarbeit
 Noch sind wir in der Phase der technischen Entwicklung, sodass Öffentlichkeitsarbeit noch nicht sinnvoll ist. Es könnte sich zu häufig noch irgendwo unvorhergesehen alles ändern.
 
+## Werbematerial
+
+* [Flyer](http://bremen.freifunk.net/flyer/Flyer.pdf) ([github-Repo](https://github.com/FreifunkBremen/flyer/))
+* [Logo](http://bremen.freifunk.net/logo/logo.svg) ([github-Repo](https://github.com/FreifunkBremen/logo/))
+
 ## Orte für Freifunk
 
 Die folgende Liste ist eine Ideensammlung, welche Orte einen Vorteil durch Freifunk hätten. Bitte Orte nach Stadtteil sortieren
