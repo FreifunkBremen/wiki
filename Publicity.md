@@ -4,7 +4,8 @@ Noch sind wir in der Phase der technischen Entwicklung, sodass Öffentlichkeitsa
 ## Werbematerial
 
 * [Flyer](http://bremen.freifunk.net/flyer/Flyer.pdf) ([github-Repo](https://github.com/FreifunkBremen/flyer/))
-* [Logo](http://bremen.freifunk.net/images/logo/logo.svg) ([github-Repo](https://github.com/FreifunkBremen/logo/), [Swiss-911 Extra-compressed Font](https://encrypted.google.com/search?q=Swiss-911 Extra-compressed) benötigt)
+* [Logo](http://bremen.freifunk.net/images/logo/logo.svg) ([github-Repo](https://github.com/FreifunkBremen/logo/))
+* [Swiss-911 Extra-compressed Font](https://encrypted.google.com/search?q=Swiss-911 Extra-compressed) (die Schrift im Logo)
 
 ## Orte für Freifunk
 
