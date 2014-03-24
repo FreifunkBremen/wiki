@@ -1,8 +1,8 @@
 ## Benutzung
 
-**ACHTUNG: Die Firmware ist noch im Entwicklungsstadium, Benutzung auf eigene Gefahr und nur von technisch versierten Benutzern!**
+**ACHTUNG: Die Firmware ist noch im Teststadium, es kann noch hin und wieder vorkommen, dass etwas kaputt geht und ein manueller Eingriff des Router-Besitzers erforderlich ist!**
 
-Jede Nacht werden bei Änderungen [Nightlies](http://downloads.bremen.freifunk.net/firmware/nightly/) gebaut, die man sich runterladen und [flashen](Firmware-flashen) kann. Falls der Auto-Updater funktioniert (sollte er eigentlich) werden sie (früher oder später) auch automatisch auf den Router geladen, falls man vorher schon eine Nightly benutzt hat.
+Die aktuelle [Testing](http://downloads.bremen.freifunk.net/firmware/testing/)-Version kann man sich einfach runterladen und [flashen](Firmware-flashen) kann. Durch den Auto-Updater werden neue Versionen (früher oder später) dann automatisch auf den Router geladen (sofern man ihn nicht deaktiviert hat).
 
 ### Ersteinrichtung/Config-Mode
 
@@ -16,7 +16,7 @@ Danach läuft der Router im normalen Betrieb standardmäßig total abgeschottet:
 
 Wenn man bei der Erstinstallation das automatische Update aktiviert hat, prüft der Router einmal pro Stunde mit einer gewissen Wahrscheinlichkeit, ob ein neues Update verfügbar ist. Die Wahrscheinlichkeit dient der Entlastung des Servers, damit er nicht alle Anfragen aller Router auf einmal verarbeiten muss. Falls es dann eine neue Version gibt, wird diese installiert.
 
-In späteren Phasen (testing und stable im Gegensatz zu nightly) müssen die Images erst von einem oder mehreren Entwicklern signiert werden, bevor die Router sie automatisch installieren.
+Nightly-Images werden automatisch signiert, in testing und stable müssen die Images erst von einem oder mehreren Entwicklern signiert werden, bevor die Router sie automatisch installieren.
 
 ## Entwicklung
 
