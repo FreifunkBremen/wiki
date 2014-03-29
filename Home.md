@@ -1,7 +1,7 @@
 # Freifunk Bremen
 
 ## Nächstes Treffen
-[[Treffen-2014-04-18]]
+[[Treffen am 2014 04 18]]
 
 ## Inhalt dieses Wikis
 * [[Publicity]]
