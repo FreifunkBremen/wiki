@@ -11,4 +11,4 @@
 
 
 ## Flashparty 
-Wir Unterstützen Interessierte dabei Ihre Nodes zu flashen und bieten gleichzeitig noch die Möglichkeit Fragen zu beantworten und uns kennenzulernen. 
+Auf jedem Treffen besteht die Möglichkeit, dass wir Interessierten dabei unterstützen ihre Nodes mit unserer Freifunk-Firmware zu flashen und gleichzeitig offene Fragen zu beantworten.
