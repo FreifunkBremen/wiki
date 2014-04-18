@@ -27,4 +27,4 @@ Auf jedem Treffen besteht die Möglichkeit, dass wir Interessierten dabei unters
 
 ### Dienste anderer Freifunk Communities funktioniert nicht
 
-* Getestet wurden ffhl Dienste
+* Getestet wurden ffhl und ffhh Dienste
