@@ -17,9 +17,14 @@ Auf jedem Treffen besteht die Möglichkeit, dass wir Interessierten dabei unters
 
 ## Protokoll
 
-* Fehler auf Testing
-  * Router mit der Tetsing-Version können sich nicht mit anderen Routern meshen
-* Nodewatcher
-  * Besteht die Möglichkeit die Mail bereits zu verschicken, sobald der Node als Offline auf der Karte erkannt wird?
-* Dienste anderer Freifunk Communities funktioniert nicht
-  * Getestet wurden ffhl Dienste
+### Fehler auf Testing
+
+* Router mit der Tetsing-Version können sich nicht mit anderen Routern meshen
+
+### Nodewatcher
+
+* Besteht die Möglichkeit die Mail bereits zu verschicken, sobald der Node als Offline auf der Karte erkannt wird?
+
+### Dienste anderer Freifunk Communities funktioniert nicht
+
+* Getestet wurden ffhl Dienste
