@@ -9,13 +9,20 @@
 * Erstellung einer Erklärung zur Störerhaftung (um den Nutzer der Router Sicherheit zu geben)
 * Fehler beim Meshing auf Testing Version
 * Nodewatcher: E-Mail früher versenden? 
-* Dienste anderer Freifunk Communities funktioniert nicht
+* Dienste anderer Freifunk Communities sind nicht aufrufbar
+* Verschlüsselung im Freifunk Netz
 
 
 ## Flashparty 
 Auf jedem Treffen besteht die Möglichkeit, dass wir Interessierten dabei unterstützen ihre Nodes mit unserer Freifunk-Firmware zu flashen und gleichzeitig offene Fragen zu beantworten.
 
 ## Protokoll
+
+Es waren 6 Personen bei dem Treffen anwesend.
+
+### Erstellung einer Erklärung zur Störerhaftung (um den Nutzer der Router Sicherheit zu geben)
+
+* Dieser Punkt wurde auf das nächste Treffen verschoben
 
 ### Fehler auf Testing
 
@@ -25,6 +32,13 @@ Auf jedem Treffen besteht die Möglichkeit, dass wir Interessierten dabei unters
 
 * Besteht die Möglichkeit die Mail bereits zu verschicken, sobald der Node als Offline auf der Karte erkannt wird?
 
-### Dienste anderer Freifunk Communities funktioniert nicht
+### Dienste anderer Freifunk Communities sind nicht aufrufbar
 
 * Getestet wurden ffhl und ffhh Dienste
+
+### Verschlüsselung im Freifunk Netz
+
+* Eike hat noch bedenken mit der nicht verschlüsselten Verbindung im Freifunk Netz.
+* Seine Frage war, ob man die Verschlüsselung zum Router über WPA realisieren könnte
+* Nach vielen Diskussionen, wurde festgestellt, dass dies keine Option wäre
+* Eike wird nun ein VPN-Dienst im Freifunk realisieren, um den Teilnehmern am Netzwerk die Option an einer sicheren Verbindung zu bieten.
