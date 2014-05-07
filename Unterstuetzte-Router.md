@@ -18,6 +18,8 @@ TL-WR740N/ND	|	v4      ||TL-WR941N/ND	|	v4
 TL-WR741N/ND	|	v1	||TL-WR1043N/ND	|	v1
 TL-WR741N/ND	|	v2	|||| 
 
+**ACHTUNG:** Die Firmware für TP-Link TR841N in Version 9.x ist fehlerhaft. **Bitte nicht aufspielen!**
+
 **Ubiquiti**
 
 Model		|
