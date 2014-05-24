@@ -11,7 +11,8 @@ Wenn du dich dazu entschieden hast beim Freifunk mitzumachen, hast du anfangs di
 
 Wir empfehlen den  **TP-Link TL-WR841N**, wovon es noch eine fast baugleiche Version mit einem „D“ im Namen, gibt. Bei dieser kann man noch die Antennen abnehmen (d steht für „detach“).
 
-Hat man sich nun für einen Router entschieden, muss man noch die richtige Firmware aussuchen und runter laden. Dabei ist darauf zu achten, das man auch die **richtige Version** aussucht (Achtung: Es kommt vor, dass die neusten Versionen der Modell von der Freifunk-Firmware noch nicht unterstützt werden!)
+Hat man sich nun für einen Router entschieden, muss man noch die richtige Firmware aussuchen und runter laden. Dabei ist darauf zu achten, das man auch die **richtige Version** (v.x) aussucht.  
+**Achtung: Es kommt vor, dass die neusten Versionen der Modelle von der Freifunk-Firmware noch nicht unterstützt werden!**
 
 Nun lädst du dir die richtige **Factory Firmware** von http://downloads.bremen.freifunk.net/firmware/testing/factory/ runter.
 
