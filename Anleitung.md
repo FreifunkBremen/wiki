@@ -7,14 +7,12 @@ Auf dieser Seite findest du eine sehr ausführliche Anleitung zur **Vorbereitung
 
 ## Vorbereitung
 
-Wenn du dich dazu entschieden hast beim Freifunk mitzumachen, hast du anfangs die Qual der Wahl beim Aussuchen eines Routers. Welche Router die Freifunk-Firmware unterstützen findest du unter http://wiki.bremen.freifunk.net/Unterstuetzte-Router.   
+Wenn du dich dazu entschieden hast beim Freifunk mitzumachen, hast du anfangs die Qual der Wahl beim Aussuchen eines Routers. Welche Router und Versionen die Freifunk-Firmware unterstützen findest du unter http://wiki.bremen.freifunk.net/Unterstuetzte-Router.   
 
-Wir empfehlen den  **TP-Link TL-WR841N**, wovon es noch eine fast baugleiche Version mit einem „D“ im Namen, gibt. Bei dieser kann man noch die Antennen abnehmen (d steht für „detach“).
+Wir empfehlen den  **TP-Link TL-WR841N**, wovon es noch ein fast baugleiches Model mit einem „D“ im Namen, gibt. Bei dieser kann man noch die Antennen abnehmen (d steht für „detach“).
 
-Hat man sich nun für einen Router entschieden, muss man noch die richtige Firmware aussuchen und runter laden. Dabei ist darauf zu achten, das man auch die **richtige Version** (v.x) aussucht.  
-**Achtung: Es kommt vor, dass die neusten Versionen der Modelle von der Freifunk-Firmware noch nicht unterstützt werden!**
-
-Nun lädst du dir die richtige **Factory Firmware** von http://downloads.bremen.freifunk.net/firmware/testing/factory/ runter.
+Hat man sich nun für einen Router entschieden, muss man noch die richtige Firmware aussuchen und [runter laden](http://downloads.bremen.freifunk.net/firmware/testing/factory/).  
+**Achtung: Es kommt vor, dass die neusten Versionen der Modelle von der Freifunk-Firmware noch nicht unterstützt werden! Das Aufspielen einer falschen Version kann das Gerät unbrauchbar machen**
 
 In diesem Beispiel laden wir uns also für den  _TP-Link TL-WR841N v8.x_ die Datei _gluon-ffhb-*FW-VERSION*-tp-link-tl-wr841n-nd-v8.bin_ herunter.
 
