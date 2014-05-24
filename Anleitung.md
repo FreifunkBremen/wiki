@@ -36,7 +36,8 @@ Nun die folgenden Schritte abgehen:
 5. Die Zugangsdaten stehen auf der Rückseite des Routers (in der Regel admin/admin)
 6. Nun unter System Tools -> Firmware Upgrade, die vorhin runter geladene  Datei auswählen und einspielen  
 (_gluon-ffhb-*FW-VERSION*-tp-link-tl-wr841n-nd-v8.bin_)  
-	Wichtig ist hier, dass man nun den Router jetzt nicht vom Strom trennt!
+
+> Wichtig ist hier, dass man nun den Router jetzt nicht vom Strom trennt oder anders das Aufspielen unterbricht!
 
 7. Wenn der Vorgang abgeschlossen ist, ruft man nun http://192.168.1.1 auf (Achtung, wenn vorhin die Netzwerkeinstellungen manuell vorgenommen wurden, muss nun die IP-Adresse und der Gateway angepasst werden!).  
 Wenn nun alles gut verlaufen ist, sieht du nun unsere Seite für die Einstellungen des Freifunk-Routers.
