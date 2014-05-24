@@ -17,7 +17,7 @@ Hat man sich nun für einen Router entschieden, muss man noch die richtige Firmw
 
 In diesem Beispiel laden wir uns also für den  _TP-Link TL-WR841N v8.x_ die Datei _gluon-ffhb-*FW-VERSION*-tp-link-tl-wr841n-nd-v8.bin_ herunter. Hierbei muss auf die Modellbezeichnung und Version geachtet werden!
 
->**Achtung**: Es kommt vor, dass die neusten Versionen der Modelle von der Freifunk-Firmware noch nicht unterstützt werden! Das Aufspielen einer falschen Version kann das Gerät unbrauchbar machen
+>**Achtung**: Es kommt vor, dass die neusten Versionen der Modelle von der Freifunk-Firmware noch nicht unterstützt werden! Das Aufspielen einer falschen Version kann das Gerät unbrauchbar machen. Die Version des Modell steht unter dem Gerät in der Nähe des Strichcodes.
 
 ## Firmware aufspielen  
 
@@ -34,7 +34,7 @@ Nun die folgenden Schritte abgehen:
   1. IP-Adresse: 192.168.0.2
   2. Subnetzmaske: 255.255.255.0
   3. Gateway: 192.168.0.1
-4. 	Im Browser deiner Wahl folgendes aufrufen: http://192.168.0.1
+4. 	Im Browser deiner Wahl http://192.168.0.1 aufrufen
 5. Die Zugangsdaten stehen auf der Rückseite des Routers (in der Regel admin/admin)
 6. Nun unter System Tools -> Firmware Upgrade, die vorhin runter geladene  Datei auswählen und einspielen  
 (_gluon-ffhb-*FW-VERSION*-tp-link-tl-wr841n-nd-v8.bin_)  
