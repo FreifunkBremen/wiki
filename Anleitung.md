@@ -12,9 +12,10 @@ Wenn du dich dazu entschieden hast beim Freifunk mitzumachen, hast du anfangs di
 Wir empfehlen den  **TP-Link TL-WR841N**, wovon es noch ein fast baugleiches Model mit einem „D“ im Namen, gibt. Bei dieser kann man noch die Antennen abnehmen (d steht für „detach“).
 
 Hat man sich nun für einen Router entschieden, muss man noch die richtige Firmware aussuchen und [runter laden](http://downloads.bremen.freifunk.net/firmware/testing/factory/).  
-**Achtung: Es kommt vor, dass die neusten Versionen der Modelle von der Freifunk-Firmware noch nicht unterstützt werden! Das Aufspielen einer falschen Version kann das Gerät unbrauchbar machen**
 
 In diesem Beispiel laden wir uns also für den  _TP-Link TL-WR841N v8.x_ die Datei _gluon-ffhb-*FW-VERSION*-tp-link-tl-wr841n-nd-v8.bin_ herunter.
+
+>**Achtung**: Es kommt vor, dass die neusten Versionen der Modelle von der Freifunk-Firmware noch nicht unterstützt werden! Das Aufspielen einer falschen Version kann das Gerät unbrauchbar machen
 
 ## Firmware aufspielen  
 
@@ -55,11 +56,11 @@ Aber gehen wir jeden Punkt durch:
 
 Da wir nun erstmal den Router das erste mal betriebsbereit nehmen wollen, lassen wir den Expertenmodus aus. Dieser wird weiter unten noch erklärt.
 
-Wurden nun alle gewünschten Einstellungen vorgenommen, klickt man auf „Fertig“ und der Router startet zum ersten mal in den produktiven Modus und du wirst auf eine neue Seite weitergleitet. Verbinde dich zuerst wieder mit deinem eigenen Netzwerk und klicke dann den Link. Dadurch wird die Node im VPN angemeldet bzw. bekannt gemacht.
+Wurden nun alle gewünschten Einstellungen vorgenommen, klickt man auf „**Fertig**“ und der Router startet zum ersten mal in den produktiven Modus und du wirst auf eine neue Seite weitergleitet. Verbinde dich zuerst wieder mit deinem eigenen Netzwerk und klicke dann den Link. Dadurch wird die Node im VPN angemeldet bzw. bekannt gemacht.
 
 Den Freifunk-Router verbindet man nun über den WAN-Port (blau) mit dem LAN-Port eines DSL-Routers und nach kurzer Zeit solltest du auch ein W-LAN mit der SSID **bremen.freifunk.net** finden 
 
-## Testen & Fertig!
+## Testen
 
 Um zu überprüfen ob sich der Router richtig mit dem Freifunk-Netz verbunden hat, rufst du einmal über deinen DSL-Router eine Seite auf, die dir deine aktuelle IP-Adresse anzeigt und verbindest dich dann mit dem Freifunk-Netz. Wenn die Adressen unterschiedlich sind, ist der Router richtig mit dem Freifunk verbunden. Ebenfalls wird nach kurzer Zeit der Name deines Routers in der [Knotenliste](http://bremen.freifunk.net/map/list.html) auftauchen. 
 
