@@ -1,5 +1,6 @@
     Diesen Artikel sollten noch mal zwei drei Personen überprüfen, bevor wir den Text nutzen können.
     Bitte daher hier ein entsprechendes OK oder Änderungwünsche angeben (Stand: 24.05.2014): 
+       Beispiel für das ermitteln der richtigen Bandbreite
 
 
 
@@ -9,7 +10,7 @@ Auf dieser Seite findest du eine sehr ausführliche Anleitung zur **Vorbereitung
 
 Wenn du dich dazu entschieden hast beim Freifunk mitzumachen, hast du anfangs die Qual der Wahl beim Aussuchen eines Routers. Welche Router und Versionen die Freifunk-Firmware unterstützen findest du unter http://wiki.bremen.freifunk.net/Unterstuetzte-Router.   
 
-Wir empfehlen den  **TP-Link TL-WR841N**, wovon es noch ein fast baugleiches Model mit einem „D“ im Namen, gibt. Bei dieser kann man noch die Antennen abnehmen (d steht für „detach“).
+Wir empfehlen den  **TP-Link TL-WR841N** für knapp 20€, wovon es noch ein fast baugleiches Model mit einem „D“ im Namen, gibt. DEr Anschaffungspreis ist etwas höher, man hat aber da die Möglichkeit die Antennen abzunhemen (d steht für „detach“).
 
 Hat man sich nun für einen Router entschieden, muss man noch die richtige Firmware aussuchen und [runter laden](http://downloads.bremen.freifunk.net/firmware/testing/factory/).  
 
