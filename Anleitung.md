@@ -29,7 +29,7 @@ Nun die folgenden Schritte abgehen:
 
 1. Router ans Stromnetz anschließen
 2. Router per LAN-Kabel (LAN-Port 1/gelb) mit einem Rechner verbinden.
-3. Den Rechner in den Netzwerkeinstellungen auf DHCP stellen oder folgende Einstellungen vornehmen:
+3. Den Rechner in den Netzwerkeinstellungen auf DHCP stellen **oder** folgende Einstellungen vornehmen:
   1. IP-Adresse: 192.168.0.2
   2. Subnetzmaske: 255.255.255.0
   3. Gateway: 192.168.0.1
