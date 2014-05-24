@@ -15,13 +15,13 @@ Wir empfehlen den  **TP-Link TL-WR841N** für knapp 20€, wovon es noch ein fas
 
 Hat man sich nun für einen Router entschieden, muss man noch die richtige Firmware aussuchen und [runter laden](http://downloads.bremen.freifunk.net/firmware/testing/factory/).  
 
-In diesem Beispiel laden wir uns also für den  _TP-Link TL-WR841N v8.x_ die Datei _gluon-ffhb-*FW-VERSION*-tp-link-tl-wr841n-nd-v8.bin_ herunter.
+In diesem Beispiel laden wir uns also für den  _TP-Link TL-WR841N v8.x_ die Datei _gluon-ffhb-*FW-VERSION*-tp-link-tl-wr841n-nd-v8.bin_ herunter. Hierbei muss auf die Modellbezeichnung und Version geachtet werden!
 
 >**Achtung**: Es kommt vor, dass die neusten Versionen der Modelle von der Freifunk-Firmware noch nicht unterstützt werden! Das Aufspielen einer falschen Version kann das Gerät unbrauchbar machen
 
 ## Firmware aufspielen  
 
-**Achtung!  
+>**Achtung!  
 Fehler können dazu führen, dass das Gerät unbrauchbar wird, bzw. man einen erhöhten Aufwand der Wiederherstellung hat.**
 
 Das Aufspielen der Firmware auf den neuen Router erfolgt über die Weboberfläche.
