@@ -1,6 +1,7 @@
     Diesen Artikel sollten noch mal zwei drei Personen überprüfen, bevor wir den Text nutzen können.
     Bitte daher hier ein entsprechendes OK oder Änderungwünsche angeben (Stand: 24.05.2014): 
        Beispiel für das ermitteln der richtigen Bandbreite
+       Hinweis zu den Modell Versionen verbessern
 
 
 
