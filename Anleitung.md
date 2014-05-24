@@ -1,5 +1,5 @@
     Diesen Artikel sollten noch mal zwei drei Personen überprüfen, bevor wir den Text nutzen können.
-    Bitte daher hier ein entsprechendes OK oder Änderungwünsche angeben: 
+    Bitte daher hier ein entsprechendes OK oder Änderungwünsche angeben (Stand: 24.05.2014): 
 
 
 
