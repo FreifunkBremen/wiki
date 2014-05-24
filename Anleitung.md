@@ -5,7 +5,7 @@
 
 Auf dieser Seite findest du eine sehr ausführliche Anleitung zur **Vorbereitung**, zum **Aufspielen der Freifunk-Firmware** und zur **Konfiguration des Freifunk-Routers**.
 
-**Vorbereitung:**
+## Vorbereitung
 
 Wenn du dich dazu entschieden hast beim Freifunk mitzumachen, hast du anfangs die Qual der Wahl beim Aussuchen eines Routers. Welche Router die Freifunk-Firmware unterstützen findest du unter http://wiki.bremen.freifunk.net/Unterstuetzte-Router.   
 
@@ -17,7 +17,7 @@ Nun lädst du dir die richtige **Factory Firmware** von http://downloads.bremen.
 
 In diesem Beispiel laden wir uns also für den  _TP-Link TL-WR841N v8.x_ die Datei _gluon-ffhb-*FW-VERSION*-tp-link-tl-wr841n-nd-v8.bin_ herunter.
 
-**Firmware aufspielen:**  
+## Firmware aufspielen  
 
 **Achtung!  
 Fehler können dazu führen, dass das Gerät unbrauchbar wird, bzw. man einen erhöhten Aufwand der Wiederherstellung hat.**
@@ -42,7 +42,7 @@ Nun die folgenden Schritte abgehen:
 Wenn nun alles gut verlaufen ist, sieht du nun unsere Seite für die Einstellungen des Freifunk-Routers.
 
 
-**Freifunk-Router konfigurieren:**
+## Freifunk-Router konfigurieren
 
 Auf der ersten Seite (dem Wizzard) kann man verschiedene Einstellungen für den Router vornehmen. Darunter sind zum Beispiel die Bandbreitenbegrenzung oder die Standortangabe. Alle Einstellungen lassen sich später wieder ändern.
 
@@ -60,11 +60,11 @@ Wurden nun alle gewünschten Einstellungen vorgenommen, klickt man auf „Fertig
 
 Den Freifunk-Router verbindet man nun über den WAN-Port (blau) mit dem LAN-Port eines DSL-Routers und nach kurzer Zeit solltest du auch ein W-LAN mit der SSID **bremen.freifunk.net** finden 
 
-**Testen & Fertig!**
+## Testen & Fertig!
 
 Um zu überprüfen ob sich der Router richtig mit dem Freifunk-Netz verbunden hat, rufst du einmal über deinen DSL-Router eine Seite auf, die dir deine aktuelle IP-Adresse anzeigt und verbindest dich dann mit dem Freifunk-Netz. Wenn die Adressen unterschiedlich sind, ist der Router richtig mit dem Freifunk verbunden. Ebenfalls wird nach kurzer Zeit der Name deines Routers in der [Knotenliste](http://bremen.freifunk.net/map/list.html) auftauchen. 
 
-**Expertenmodus:**  
+## Expertenmodus  
 
 Dieser sollte immer vor den Änderungen im Wizzard vorgenommen werden, da beim Verlassen der Seite die Informationen nicht automatisch gespeichert werden.
 
