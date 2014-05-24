@@ -21,8 +21,8 @@ In diesem Beispiel laden wir uns also für den  _TP-Link TL-WR841N v8.x_ die Dat
 
 ## Firmware aufspielen  
 
->**Achtung!  
-Fehler können dazu führen, dass das Gerät unbrauchbar wird, bzw. man einen erhöhten Aufwand der Wiederherstellung hat.**
+>**Achtung!**  
+Fehler können dazu führen, dass das Gerät unbrauchbar wird, bzw. man einen erhöhten Aufwand der Wiederherstellung hat.
 
 Das Aufspielen der Firmware auf den neuen Router erfolgt über die Weboberfläche.
 
