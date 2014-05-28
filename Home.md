@@ -1,10 +1,13 @@
 # Freifunk Bremen
 
-## Nächstes Treffen
+## Infos zu unseren Treffen
 
 Wir treffen uns einmal im Monat, immer am 3. Freitag ab 19 Uhr im [Hackerspace Bremen](https://www.hackerspace-bremen.de/).
 
-[[Treffen 2014-05-16]]
+* Nächstes Treffen: [[Treffen 2014-06-20]]
+* Letztes Treffen: [[Treffen 2014-05-16]]
+
+
 
 ## Inhalt dieses Wikis
 * [[Publicity]]
