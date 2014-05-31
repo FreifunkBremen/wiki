@@ -1,3 +1,5 @@
+Hier kann man Punkte aufführen, die durchgeführt und getestet werden, wenn eine neue Firmware ausgerollt wird.
+
 Ideensammlung:
 
  * Up & Downstream-Beschränkungen testen
