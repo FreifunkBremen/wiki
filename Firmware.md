@@ -2,7 +2,7 @@
 
 **ACHTUNG: Die Firmware ist noch im Teststadium, es kann noch hin und wieder vorkommen, dass etwas kaputt geht und ein manueller Eingriff des Router-Besitzers erforderlich ist!**
 
-Die aktuelle [Testing](http://downloads.bremen.freifunk.net/firmware/testing/)-Version kann man sich einfach runterladen und [flashen](Firmware-flashen) kann. Durch den Auto-Updater werden neue Versionen (früher oder später) dann automatisch auf den Router geladen (sofern man ihn nicht deaktiviert hat).
+Die aktuelle [Testing](http://downloads.bremen.freifunk.net/firmware/testing/)-Version kann man sich einfach runterladen und [flashen](Firmware-flashen). Durch den Auto-Updater werden neue Versionen (früher oder später) dann automatisch auf den Router geladen (sofern man ihn nicht deaktiviert hat).
 
 ### Ersteinrichtung/Config-Mode
 
