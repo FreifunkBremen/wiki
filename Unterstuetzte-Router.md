@@ -26,5 +26,6 @@ Model		|
 ---|
 |Bullet M|
 |Nanostation (Loco?)M|
+|PicoStation M2/M5|
 |Unifi AP|
 
