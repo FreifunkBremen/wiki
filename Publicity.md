@@ -29,10 +29,6 @@ Die folgende Liste ist eine Ideensammlung, welche Orte einen Vorteil durch Freif
 
 * lokal²
 
-### Überseestadt
-
-* Abfertigung
-
 ## Gruppierungen
 
 Es gibt in Bremen noch zwei weitere Projekte, die eine ähnliche Ausrichtung haben:
