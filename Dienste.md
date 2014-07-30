@@ -1,7 +1,5 @@
 Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Dienste anbieten, die wir auf dieser Seite sammeln wollen:
 
-* [doomsdayPi](http://10.196.2.102/) Daten für den Ernstfall (Firmware, Mirrors, usw)
-
 ## Infos zum aktuellen Router
 Unter http://node.ffhb/ findest du Informationen zu dem Router, mit dem du momentan verbunden bist.
 
