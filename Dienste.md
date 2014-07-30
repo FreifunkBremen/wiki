@@ -9,6 +9,7 @@ Folgende IP-Adressen sind vergeben:
 
 * 10.196.0.1 VPN-Server (mortzu)
 * 10.196.0.2 VPN-Server (jplitza)
+* 10.196.0.3 zukünftiger VPN-Server (?) (Julian)
 * 10.196.0.127 node.ffhb
 * 10.196.1.2-10.196.1.254 per DHCP vergeben von 10.196.0.1
 * 10.196.2.2-10.196.2.254 per DHCP vergeben von 10.196.0.2
