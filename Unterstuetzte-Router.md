@@ -4,8 +4,8 @@ Hier findest du alle Router-Modelle für die wir eine passende Freifunk-Firmware
 
 **D-Link**
 
-Model    |Versionen	| | | | |
---- |---  |--- |--- |--- |---   
+Model    |Versionen
+--- |---  
 DIR-615 | rev e1
 DIR-825 | rev b1
 
