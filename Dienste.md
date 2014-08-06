@@ -1,6 +1,7 @@
 Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Dienste anbieten, die wir auf dieser Seite sammeln wollen:
 
 * [Backup-Pi](http://10.196.0.69) Spiegelung von Daten für den Ernstfall (Firmware, Mirrors, usw)
+* [Wikipedia-Mirror (mit Bildern)](http://wiki.ffhb)
 
 ## Infos zum aktuellen Router
 Unter http://node.ffhb/ findest du Informationen zu dem Router, mit dem du momentan verbunden bist.
@@ -14,6 +15,7 @@ Folgende IP-Adressen sind vergeben:
 * 10.196.0.3 zukünftiger VPN-Server (?) (Julian)
 * 10.196.0.69 Testdienst und Mirror von Firmware (anon6789)
 * 10.196.0.127 node.ffhb
+* 10.196.0.200 Dienste von jplitza
 * 10.196.1.2-10.196.1.254 per DHCP vergeben von 10.196.0.1
 * 10.196.2.2-10.196.2.254 per DHCP vergeben von 10.196.0.2
 
