@@ -1,7 +1,7 @@
 Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Dienste anbieten, die wir auf dieser Seite sammeln wollen:
 
 * [Backup-Pi](http://10.196.0.69) Spiegelung von Daten für den Ernstfall (Firmware, Mirrors, usw)
-* [Wikipedia-Mirror (mit Bildern)](http://wiki.ffhb)
+* [Wikipedia-Mirror (mit Bildern)](http://wikipedia.ffhb)
 
 ## Infos zum aktuellen Router
 Unter http://node.ffhb/ findest du Informationen zu dem Router, mit dem du momentan verbunden bist.
