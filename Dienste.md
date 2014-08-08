@@ -10,16 +10,21 @@ Unter http://node.ffhb/ findest du Informationen zu dem Router, mit dem du momen
 
 Folgende IP-Adressen sind vergeben:
 
-* 10.196.0.1 VPN-Server (mortzu)
-* 10.196.0.2 VPN-Server (jplitza)
-* 10.196.0.3 zukünftiger VPN-Server (?) (Julian)
-* 10.196.0.69 Testdienst und Mirror von Firmware (anon6789)
-* 10.196.0.127 node.ffhb
-* 10.196.0.200 Dienste von jplitza
-* 10.196.1.2-10.196.1.254 per DHCP vergeben von 10.196.0.1
-* 10.196.2.2-10.196.2.254 per DHCP vergeben von 10.196.0.2
+* 10.196.0.0/17
+    * 10.196.0.1 VPN-Server (mortzu)
+    * 10.196.0.2 VPN-Server (jplitza)
+    * 10.196.0.3 zukünftiger VPN-Server (?) (Julian)
+    * 10.196.0.69 Testdienst und Mirror von Firmware (anon6789)
+    * 10.196.0.127 node.ffhb
+    * 10.196.0.200 Dienste von jplitza
+    * 10.196.1.2-10.196.1.254 per DHCP vergeben von 10.196.0.1
+    * 10.196.2.2-10.196.2.254 per DHCP vergeben von 10.196.0.2
+* 10.196.128.0/17
+    * 10.196.128.0/27 Dienste von mortzu
+        * 10.196.128.1 DNS-Server
+        * 19.196.128.2 HTTP-Server (Firmware)
 
-Feste IP-Adressen von Servern sollten denke ich erstmal in 10.196.0.0/24 liegen. Einfach hier eintragen und nehmen. Wenn der Bereich voll ist können wir immer noch die DHCP-Bereiche verschieben.
+Feste IP-Adressen von an Freifunk-Knoten angeschlossenen Servern sollten denke ich erstmal in 10.196.0.0/24 liegen. Einfach hier eintragen und nehmen. Wenn der Bereich voll ist können wir immer noch die DHCP-Bereiche verschieben.
 
 Momentan ist alles ein großes Layer-2-Netz, also immer Netmask /16 bzw. 255.255.0.0
 
