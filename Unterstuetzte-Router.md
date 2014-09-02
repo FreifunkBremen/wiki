@@ -32,8 +32,9 @@ TL-WR1043N/ND | v1
 
 Model		|
 ---|
-|Bullet M|
+|Bullet M2|
+|Nanostation M2|
 |Nanostation Loco M2|
-|PicoStation M2/M5|
+|PicoStation M2|
 |Unifi AP|
 
