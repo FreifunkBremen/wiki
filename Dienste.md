@@ -16,6 +16,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.3 zukünftiger VPN-Server (?) (Julian)
     * 10.196.0.69 Testdienst und Mirror von Firmware (anon6789)
     * 10.196.0.127 node.ffhb
+    * 10.196.0.196 Dienste von Eike
     * 10.196.0.200 Dienste von jplitza
     * 10.196.1.2-10.196.1.254 per DHCP vergeben von 10.196.0.1
     * 10.196.2.2-10.196.2.254 per DHCP vergeben von 10.196.0.2
