@@ -11,6 +11,7 @@ Offene Fragen:
 3. Nehmen wir Aufkleber mit? Und wenn ja wie viele? 
 4. Wer mag sich mal vor Ort umschauen und ggf schon mal einen Test vom Bürgerzentrum starten?
 5. Wer kann zu wann schon  fest zusagen am Stand zu stehen?
+6. Wie viele Router wollen wir mitnehmen?
 
 Hinweise/Infos
 
@@ -25,7 +26,5 @@ von/bis |04.10.2014 | 05.10.2014 |
 --- |---  |--- |--- 
  morgens bis mittags |	rbtz,X,X,X |X,X,X,X
 mittags bis abends | X,X,X,X |  X,X,X,X
-
-*
 
 *ich kann am Sonntag sowohl morgends als auch abends - rbtz -
