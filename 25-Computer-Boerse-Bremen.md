@@ -4,7 +4,6 @@
 * http://computer-boerse-bremen.de
 * http://berliner-freiheit.de/
 
-
 Offene Fragen:
 
 1. Wie viele Flyer wollen wir mitnehmen und wer kann die drucken (lassen)? Freiwillige?
@@ -14,3 +13,9 @@ Offene Fragen:
 5. Wer kann zu wann schon  fest zusagen am Stand zu stehen?
 
 
+von/bis |04.10.2014 | 05.10.2014 |
+--- |---  |--- |--- 
+ Mo-Mi |	rbtz,X,X,X |X,X,X,X
+Mi-Ab | X,X,X,X |  X,X,X,X
+
+*ich kann am Sonntag sowohl morgends als auch Abends
