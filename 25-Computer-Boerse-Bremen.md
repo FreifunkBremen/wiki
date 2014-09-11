@@ -4,6 +4,7 @@
 * http://computer-boerse-bremen.de
 * http://berliner-freiheit.de/
 
+--
 Offene Fragen:
 
 1. Wie viele Flyer wollen wir mitnehmen und wer kann die drucken (lassen)? Freiwillige?
@@ -14,7 +15,7 @@ Offene Fragen:
 6. Wie viele Router wollen wir mitnehmen und wer organsisiert das?
 7. Wer kann zu wann schon fest zusagen um am Stand zu stehen?
 
-
+--
 Hinweise/Infos
 
 + Börse startet offiziell um 11 Uhr, es wurde aber geraten schon früher (8-9 Uhr) zu erscheinen.
@@ -23,6 +24,9 @@ Hinweise/Infos
 Flyer dürfen nur am Stand verteilt werden.
 + Die Stände sollten so aufgebaut sein, dass in der Nacht nichts abfallen kann und damit die Alarmanlage auslöst
 
+
+--
+Wer hat Zeit am Stand zu stehen?
 
 von/bis |04.10.2014 | 05.10.2014 |
 --- |---  |--- |--- 
