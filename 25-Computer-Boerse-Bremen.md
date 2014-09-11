@@ -12,10 +12,20 @@ Offene Fragen:
 4. Wer mag sich mal vor Ort umschauen und ggf schon mal einen Test vom Bürgerzentrum starten?
 5. Wer kann zu wann schon  fest zusagen am Stand zu stehen?
 
+Hinweise/Infos
+
++ Börse startet offiziell um 11 Uhr, es wurde aber geraten schon früher (8-9 Uhr) zu erscheinen.
++ Aufbau des Standes ist schon am 3. Oktober möglich
++ Plakatieren/Hostessen/Flyerverteiler ist nicht erwünscht! Werbematerial wird nur am Stand abgegeben!
+Flyer dürfen nur am Stand verteilt werden.
++ Die Stände sollten so aufgebaut sein, dass in der Nacht nichts abfallen kann und damit die Alarmanlage auslöst
+
 
 von/bis |04.10.2014 | 05.10.2014 |
 --- |---  |--- |--- 
- Mo-Mi |	rbtz,X,X,X |X,X,X,X
-Mi-Ab | X,X,X,X |  X,X,X,X
+ morgens bis mittags |	rbtz,X,X,X |X,X,X,X
+mittags bis abends | X,X,X,X |  X,X,X,X
 
-*ich kann am Sonntag sowohl morgends als auch Abends
+*
+
+*ich kann am Sonntag sowohl morgends als auch abends - rbtz -
