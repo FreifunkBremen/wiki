@@ -29,7 +29,7 @@ Flyer dürfen nur am Stand verteilt werden.
 Wer hat Zeit am Stand zu stehen?
 
 von/bis |04.10.2014 | 05.10.2014 |
---- |---  |--- |--- 
+
  morgens bis mittags |	rbtz,X,X,X |X,X,X,X
 mittags bis abends | X,X,X,X |  X,X,X,X
 
