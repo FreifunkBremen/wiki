@@ -11,7 +11,9 @@ Offene Fragen:
 3. Nehmen wir Aufkleber mit? Und wenn ja wie viele? 
 4. Wer mag sich mal vor Ort umschauen und ggf schon mal einen Test vom Bürgerzentrum starten?
 5. Wer kann zu wann schon  fest zusagen am Stand zu stehen?
-6. Wie viele Router wollen wir mitnehmen?
+6. Wie viele Router wollen wir mitnehmen und wer organsisiert das?
+7. Wer kann zu wann schon fest zusagen um am Stand zu stehen?
+
 
 Hinweise/Infos
 
