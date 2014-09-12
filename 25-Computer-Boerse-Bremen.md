@@ -27,7 +27,8 @@
 ## Wer hat Zeit am Stand zu stehen?
 
 | von/bis             | 04.10.2014   | 05.10.2014 |
-| morgens bis mittags |	rbtz,X,X,X   | X,X,X,X |
-| mittags bis abends  | X,X,X,X      | X,X,X,X |
+|---------------------|--------------|------------|
+| morgens bis mittags |	rbtz,jplitza,X,X   | jplitza,X,X,X |
+| mittags bis abends  | jplitza,X,X,X      | jplitza,X,X,X |
 
 * ich kann am Sonntag sowohl morgends als auch abends - rbtz -
