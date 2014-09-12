@@ -28,7 +28,7 @@
 
 | von/bis             | 04.10.2014   | 05.10.2014 |
 |---------------------|--------------|------------|
-| morgens bis mittags |	rbtz,jplitza,Nebirosh,X   | jplitza,X,X,X |
-| mittags bis abends  | jplitza,X,X,X      | jplitza,X,X,X |
+| morgens bis mittags |	rbtz,jplitza,Nebirosh,X   | jplitza,eike,X,X |
+| mittags bis abends  | jplitza,eike,X,X      | jplitza,X,X,X |
 
 * ich kann am Sonntag sowohl morgends als auch abends - rbtz -
