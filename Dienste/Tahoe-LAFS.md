@@ -3,7 +3,8 @@
 ## Idee
 
 Tahoe-LAFS stellt ein verteiltes, zuverlässiges und verschlüsseltes Dateisystem bereit.
-Umsetzung
+
+## Umsetzung
 
 Im Netzwerk laufen einige Knoten, die Speicherplatz zur Verfügung stellen und beliebige Daten speichern und bereitstellen. Über Tahoe-LAFS-Clients können nun Daten in diese Wolke geschoben werden. Diese werden dabei auf dem lokalen Client verschlüsselt und redundant im Netzwerk ablegt.
 
