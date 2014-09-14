@@ -15,6 +15,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.2 VPN-Server (jplitza)
     * 10.196.0.3 zukünftiger VPN-Server (?) (Julian)
     * 10.196.0.69 Testdienst und Mirror von Firmware (anon6789)
+    * 10.196.0.100 Tahoe-LAFS node (mortzu)
     * 10.196.0.127 node.ffhb
     * 10.196.0.196 Dienste von Eike
     * 10.196.0.200 Dienste von jplitza
