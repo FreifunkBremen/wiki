@@ -18,6 +18,7 @@ Wir treffen uns einmal im Monat, immer am 3. Freitag ab 19 Uhr im [Hackerspace B
  * [[Firmware-flashen]]
 * [[DNS]]
 * [[Netze]]
+* [[Monitoring]]
 
 ### Änderungen mitbekommen
 
