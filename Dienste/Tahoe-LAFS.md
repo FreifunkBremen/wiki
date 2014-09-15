@@ -20,17 +20,19 @@ Auch zum Erweitern der Speicherkapazität dieser Cloud muss man einen eigene Tah
 
 ## Notwendige Software und Einstellungen
 
-Zum Betrieb eines Tahoe-LAFS-Knotens muss von die Datei https://tahoe-lafs.org/source/tahoe-lafs/releases/allmydata-tahoe-1.10.0.zip herunter geladen werden, wenn die aktuelle Version 1.10 nicht im jeweiligen Repository der Distribution. Diese muss dann entpackt werden. Mit python2 setup.py build && sudo python2 setup.py install bauen und installieren.
+Zum Betrieb eines Tahoe-LAFS-Knotens muss [der Quellcode](https://tahoe-lafs.org/source/tahoe-lafs/releases/allmydata-tahoe-1.10.0.zip) herunter geladen werden, wenn die aktuelle Version 1.10 nicht im jeweiligen Repository der Distribution enthalten ist. Dieser muss dann entpackt und mit `python2 setup.py build && sudo python2 setup.py install` gebaut und installiert werden.
 
-Vor dem ersten Start wird ein Tahoe-LAFS-Knoten mit bin/tahoe create-node oder mit bin/tahoe create-client ein reiner Client (ohne eigenen Storage) erzeugt. Dabei wird ein .tahoe-Ordner im home-Verzeichnis angelegt. In dessen tahoe.cfg-Datei muss dann noch unter introducer.furl ein Link zu unserer Wolke eingefügt werden:
+Vor dem ersten Start wird ein Tahoe-LAFS-Knoten mit `bin/tahoe create-node` oder `mit bin/tahoe create-client` ein reiner Client (ohne eigenen Storage) erzeugt. Dabei wird ein `.tahoe`-Ordner im home-Verzeichnis angelegt. In dessen `tahoe.cfg`-Datei muss dann noch unter `introducer.furl` ein Link zu unserer Wolke eingefügt werden:
 
+```
 introducer.furl = pb://rzovwxeiykc6f6usyhqphpyn4nik5nzt@introducer.tahoe-lafs.services.ffhb:44411/introducer
+```
 
-Mit bin/tahoe start wird der lokale Knoten dann gestartet.
+Mit `bin/tahoe start` wird der lokale Knoten dann gestartet.
 
 ## Verwendung
 
-Wenn der lokale Knoten läuft, kann man dessen Web-interface mit einem beliebigen Browser über http://localhost:3456 erreichen. In diesem ist die Bedienung recht intuitiv.
+Wenn der lokale Knoten läuft, kann man dessen Web-interface mit einem beliebigen Browser über [http://localhost:3456](http://localhost:3456) erreichen. In diesem ist die Bedienung recht intuitiv.
 
 ## Weitere Infos
 
