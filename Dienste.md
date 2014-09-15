@@ -3,6 +3,7 @@ Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Die
 * [Backup-Pi](http://10.196.0.69) Spiegelung von Daten für den Ernstfall (Firmware, Mirrors, usw)
 * [Wikipedia-Mirror (mit Bildern)](http://wikipedia.ffhb)
 * [Tahoe-LAFS](Dienste/Tahoe-LAFS)
+* [Smokeping](http://10.196.0.196/smokeping/smokeping.cgi) Erreichbarkeitsmessung zu verschiedenen Zielen
 
 ## Infos zum aktuellen Router
 Unter http://node.ffhb/ findest du Informationen zu dem Router, mit dem du momentan verbunden bist.
