@@ -4,6 +4,7 @@ Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Die
 * [Wikipedia-Mirror (mit Bildern)](http://wikipedia.ffhb)
 * [Tahoe-LAFS](Dienste/Tahoe-LAFS)
 * [Smokeping](http://10.196.0.196/smokeping/smokeping.cgi) Erreichbarkeitsmessung zu verschiedenen Zielen
+* [Straßenbahn-Fahrplan Sielwall](http://10.196.0.70) Echtzeit Haltestellendaten (noch Testbetrieb)
 
 ## Infos zum aktuellen Router
 Unter http://node.ffhb/ findest du Informationen zu dem Router, mit dem du momentan verbunden bist.
@@ -17,6 +18,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.2 VPN-Server (jplitza)
     * 10.196.0.3 zukünftiger VPN-Server (?) (Julian)
     * 10.196.0.69 Testdienst und Mirror von Firmware (anon6789)
+    * 10.196.0.70 Meine S-Bahn Fahrplan freigegeben (anon6789)
     * 10.196.0.100 Tahoe-LAFS node (mortzu)
     * 10.196.0.127 node.ffhb
     * 10.196.0.196 Dienste von Eike
