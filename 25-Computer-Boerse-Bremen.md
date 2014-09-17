@@ -30,5 +30,3 @@
 |---------------------|--------------|------------|
 | morgens bis mittags |	rbtz,jplitza,Nebirosh,X   | jplitza,eike,X,X |
 | mittags bis abends  | jplitza,eike,X,X      | jplitza,X,X,X |
-
-* ich kann am Sonntag sowohl morgends als auch abends - rbtz -
