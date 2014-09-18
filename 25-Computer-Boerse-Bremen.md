@@ -28,5 +28,10 @@
 
 | von/bis             | 04.10.2014   | 05.10.2014 |
 |---------------------|--------------|------------|
-| morgens bis mittags |	rbtz,jplitza,Nebirosh,X   | jplitza,eike,X,X |
-| mittags bis abends  | jplitza,eike,X,X      | jplitza,X,X,X |
+| morgens bis mittags |	rbtz,jplitza,Nebirosh,X   | jplitza,eike,rbtz,X |
+| mittags bis abends  | jplitza,eike,rbtz,X      | jplitza,rbtz,X,X |
+
+Offizielle Zeiten der CBB:
+Sa/So: 11 Uhr - 18 Uhr
+
+Wenn wir den Aufbau Samstag erst durchführen, sollten wir schon vor 9 Uhr vor Ort sein.
