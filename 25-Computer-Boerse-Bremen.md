@@ -27,8 +27,8 @@
 
 | von/bis             | 04.10.2014   | 05.10.2014 |
 |---------------------|--------------|------------|
-| morgens bis mittags |	rbtz,jplitza,Nebirosh,X   | jplitza,eike,rbtz,X |
-| mittags bis abends  | jplitza,eike,rbtz,X      | jplitza,rbtz,X,X |
+| morgens bis mittags |	rbtz,jplitza,Nebirosh,X   | rbtz,jplitza,eike,X |
+| mittags bis abends  | rbtz,jplitza,eike,X      | rbtz,jplitza,X,X |
 
 Offizielle Zeiten der CBB:
 Sa/So: 11 Uhr - 18 Uhr
