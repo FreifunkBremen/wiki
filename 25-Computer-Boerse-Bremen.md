@@ -8,12 +8,26 @@
 
 ## Offene Fragen:
 
-1. Wie viele Flyer wollen wir mitnehmen und wer kann die drucken (lassen)? Freiwillige?
-2. Wer kann 1-2 Banner erstellen und die im HSHB ausdrucken? (Ich werde vorher noch mal beim Veranstalter wegen der Tischgröße anfragen.)
+1. Wie viele Flyer wollen wir mitnehmen und wer kann die drucken (lassen)? Freiwillige? **Antwort**: 100 Stück
+2. Wer kann 1-2 Banner erstellen und die im HSHB ausdrucken? (Ich werde vorher noch mal beim Veranstalter wegen der Tischgröße anfragen.) **Antwort**: rbtz & Jan-Philipp
 3. Nehmen wir Aufkleber mit? Und wenn ja wie viele? 
 4. Wer mag sich mal vor Ort umschauen und ggf schon mal einen Test vom Bürgerzentrum starten?
-5. Wer kann zu wann schon  fest zusagen am Stand zu stehen?
-6. Wie viele Router wollen wir mitnehmen und wer organsisiert das?
+5. Wer kann zu wann schon fest zusagen am Stand zu stehen?
+6. Wie viele Router wollen wir mitnehmen und wer organsisiert das? **Antwort**: Es werden 50 Stück bestellt.
+
+**Weitere Fragen** wurden beim Treffen am 19.09. besprochen und können dort [im Protokoll](http://wiki.bremen.freifunk.net/Treffen/2014_09_19) gefunden werden.
+
+Auszug aus dem Protokoll:
+* **Computer-Börse Vahr**:
+ * Siehe [Wikiseite](http://wiki.bremen.freifunk.net/25-Computer-Boerse-Bremen)
+ * Flyer (100stk) können **nicht** im Hackerspace gedruckt werden
+ * Großes Plakat wird auf A0 Plotter im HSHB gedruckt und von rbtz und Jan-Philipp entworfen
+ * Internet vor Ort: Wird evaluirt
+ * **Winni** wird bei Geschäften nachfragen ob wir dort eine Node aufstellen können
+ * **Eike** testet ob man eine Node über einen Router an einem Telekom-Hotspot einloggen kann
+ * **rbtz** wird beim Veranstalter nachfragen ob wir eine Stromversorgung am Stand haben 
+ * **rbtz** wird außerdem fragen wo unser Stand ist damit unser Uplink in Funkreichweite eingerichtet werden kann
+ * 50 Router werden bestellt das Geld wird von folgenden Personen vorgestreckt: Klaus 30stk, Walter 10stk, Julian 10stk
 
 ## Hinweise/Infos
 
