@@ -24,6 +24,6 @@
 
 ***
 
-*) Die Konfiguration kann durch Drücken der Reset-Taste für 3-5 Sekunden wiederholt werden. Die bisherige Konfiguration wird hierdurch gelöscht! Anschließend kann mit Schritt 3 fortgefahren werden.
+*) Der Konfigurationsmodus wird durch achtsekündiges Drücken der Reset-Taste wieder aktivierbar. Anschließend kann mit Schritt 3 fortgefahren werden.
 
 **) Einen Zugang zum Internet kann der Freifunk-Router nur bereitstellen, wenn dieser mit dem Freifunk-Netz verbunden ist. Mit dem Freifunk-Netz kann der Router per Mesh-VPN oder in der Nähe befindlichen Freifunk-Knoten verbunden werden (letztere sind in der Regel nicht in Reichweite).
