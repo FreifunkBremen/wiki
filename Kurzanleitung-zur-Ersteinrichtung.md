@@ -2,7 +2,7 @@
 
 1. Schließe den Freifunk-Router mit dem mitgelieferten Netzteil an das Stromnetz an.
 
-2. Stecke das mitgelieferte LAN-Kabel mit dem einen Ende in die LAN-Buchse deines Computers und mit dem anderen in eine freie LAN-Buchse des Freifunk-Routers.
+2. Stecke das mitgelieferte LAN-Kabel mit dem einen Ende in die LAN-Buchse deines Computers und mit dem anderen in eine LAN-Buchse des Freifunk-Routers.
 
 3. Rufe im Browser deines Computers 192.168.1.1 auf.
 
