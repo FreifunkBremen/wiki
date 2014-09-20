@@ -4,7 +4,7 @@
 
 2. Stecke das mitgelieferte LAN-Kabel mit dem einen Ende in die LAN-Buchse deines Computers und mit dem anderen in eine freie LAN-Buchse des Freifunk-Routers.
 
-3. Rufe im Browser deines Computers die Seite http://192.168.1.1/ auf.
+3. Rufe im Browser deines Computers 192.168.1.1 auf.
 
 4. Konfiguriere deinen Freifunk-Router. Nach erfolgreicher Konfiguration wird der Freifunk-Router nicht mehr über obige Adresse erreichbar sein. *
 
