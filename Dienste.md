@@ -31,7 +31,5 @@ Folgende IP-Adressen sind vergeben:
 
 Feste IP-Adressen von an Freifunk-Knoten angeschlossenen Servern sollten denke ich erstmal in 10.196.0.0/24 liegen. Einfach hier eintragen und nehmen. Wenn der Bereich voll ist können wir immer noch die DHCP-Bereiche verschieben.
 
-Momentan ist alles ein großes Layer-2-Netz, also immer Netmask /16 bzw. 255.255.0.0
-
 ## Andere Netze
 Aus dem Bremer Freifunk-Netz heraus erreichst du auch die Freifunk-Netze andere Städte und deren Dienste, beispielsweise [jene in Lübeck](http://luebeck.freifunk.net/wiki/Freifunk-verwenden). Auch zu anderen Netzen wie dem [dn42](http://dn42.net) oder [Chaos-VPN](http://wiki.hamburg.ccc.de/index.php/ChaosVPN) besteht eine Verbindung.
