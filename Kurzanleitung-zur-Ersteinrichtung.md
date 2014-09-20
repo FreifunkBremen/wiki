@@ -1,6 +1,6 @@
 # Kurzanleitung zur Inbetriebnahme
 
-1. Schließe den Freifunk-Router an das mitgelieferte Netzteil an.
+1. Schließe den Freifunk-Router mit dem mitgelieferten Netzteil an das Stromnetz an.
 
 2. Stecke das mitgelieferte LAN-Kabel mit dem einen Ende in die LAN-Buchse deines Computers und mit dem anderen in eine freie LAN-Buchse des Freifunk-Routers.
 
@@ -10,7 +10,7 @@
 
 5. Setze ein Häkchen bei "Mesh-VPN aktivieren" um den Freifunk-Router über das Internet mit dem Freifunknetz zu verbinden. **
 
-6. Klicke unten links auf "Fertig".
+6. Klicke unten rechts auf "Fertig".
 
 7. Entferne nun das LAN-Kabel.
 
