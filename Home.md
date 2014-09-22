@@ -16,7 +16,6 @@ Wir treffen uns einmal im Monat, immer am 3. Freitag ab 19 Uhr im [Hackerspace B
 * [[Firmware]]
  * [[Unterstuetzte Router]] 
  * [[Firmware-flashen]]
- * [[Kurzanleitung zur Ersteinrichtung]]
 * [[DNS]]
 * [[Netze]]
 * [[Monitoring]]
