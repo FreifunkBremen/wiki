@@ -44,7 +44,13 @@ Auszug aus dem Protokoll:
 | morgens bis mittags |	anon6789,rbtz,jplitza,Nebirosh,X   | anon6789,rbtz,jplitza,eike,X |
 | mittags bis abends  | anon6789,rbtz,jplitza,eike,X      | anon6789,rbtz,jplitza,X,X |
 
+Zeitraum:
+Sa/So 9-18 Uhr
+
 Offizielle Zeiten der CBB:
 Sa/So: 11 Uhr - 18 Uhr
+
+Freitag Treffen um 15 Uhr bei der BF
+
 
 Wenn wir den Aufbau Samstag erst durchführen, sollten wir schon vor 9 Uhr vor Ort sein.
