@@ -54,14 +54,14 @@ Freitag Treffen um 15 Uhr bei der BF
 
 Wenn wir den Aufbau Samstag erst durchführen, sollten wir schon vor 9 Uhr vor Ort sein.
 
-Merkzettel:
+## Merkzettel
 
-Plakate (rbtz)
-Aufkleber (rbtz)
-Flyer (rbtz)
-Monitor (anon) + RaspberryPi für Anzeige unserer Karte (Nebirosh)
-Panzertape - für alle Fälle - liegen bei den Nodes
-Kabeltrommel/Mehrfachsteckdose (Walter)
+* Plakate (rbtz)
+* Aufkleber (rbtz)
+* Flyer (rbtz)
+* Monitor (anon) + RaspberryPi für Anzeige unserer Karte (Nebirosh)
+* Panzertape - für alle Fälle - liegen bei den Nodes
+* Kabeltrommel/Mehrfachsteckdose (Walter)
 
 
 
