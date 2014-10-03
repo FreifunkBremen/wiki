@@ -20,6 +20,9 @@ Wir treffen uns einmal im Monat, immer am 3. Freitag ab 19 Uhr im [Hackerspace B
 * [[Netze]]
 * [[Monitoring]]
 
+### Organisatorisches
+* [[Sammebestellung]]
+
 ### Änderungen mitbekommen
 
 Wer sich dafür interessiert, wann sich etwas an diesem Wiki ändert, kann das über das entsprechende [Repository auf github](https://github.com/FreifunkBremen/wiki/) tun, z.B. per [Atom-Feed](https://github.com/FreifunkBremen/wiki/commits/master.atom).
