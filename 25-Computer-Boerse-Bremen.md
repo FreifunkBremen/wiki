@@ -56,9 +56,9 @@ Wenn wir den Aufbau Samstag erst durchführen, sollten wir schon vor 9 Uhr vor O
 
 ## Merkzettel
 
-* Plakate (rbtz)
-* Aufkleber (rbtz)
-* Flyer (rbtz)
+* 2 Plakate (rbtz)
+* ca. 100 Aufkleber (rbtz)
+* 100 Flyer (rbtz)
 * Laminierte Infoblätter (rbtz)
 * Monitor (anon) + RaspberryPi für Anzeige unserer Karte (Nebirosh)
 * Panzertape - für alle Fälle - liegen bei den Nodes
