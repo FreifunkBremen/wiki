@@ -21,7 +21,7 @@ Wir treffen uns einmal im Monat, immer am 3. Freitag ab 19 Uhr im [Hackerspace B
 * [[Monitoring]]
 
 ### Organisatorisches
-* [[Sammelbestellung Router| SammelbestellungRouter]]
+* [[Sammelbestellung Access Points | SammelbestellungAps]]
 
 ### Änderungen mitbekommen
 
