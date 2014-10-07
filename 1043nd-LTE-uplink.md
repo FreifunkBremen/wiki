@@ -4,7 +4,7 @@
 
 ### Hardware
 
-Zum mobilen Betrieb ist zum einen ein Akkupack mit passendem Hohlstecker-Adapter nötig. Außerdem ist ein Router mit USB-Schnittstelle nötig. Hier exemplatisch ein TP-Link TL-WR1043ND. Zum Tethern wird außerdem ein Android-Smartphone nötig.
+Zum mobilen Betrieb ist zum einen ein Akkupack mit passendem Hohlstecker-Adapter nötig, sowie ein Router mit USB-Schnittstelle. Hier exemplatisch ein TP-Link TL-WR1043ND. Zum Tethern wird außerdem ein Android-Smartphone benötigt.
 
 ### Einrichtung USB-Tethering
 Zuerst Paketquellen aktualisieren und nötige Pakete installieren : 
@@ -13,7 +13,7 @@ Zuerst Paketquellen aktualisieren und nötige Pakete installieren :
 opkg update
 opkg install kmod-usb2 kmod-usb-net
 ```
-eventuell Pakete ist es notwendig, folgende Pakete auch zu installieren [1] 
+eventuell ist es notwendig, folgende Pakete auch zu installieren [1] 
 
 <code> kmod-usb-net-rndis kmod-usb-net-cdc-ether usbutils udev </code>
 
@@ -60,18 +60,19 @@ $(/bin/sed -i "s/.*latitude.*/option latitude \'$lat'/" /etc/config/gluon-node-i
 $(/bin/sed -i "s/.*longitude.*/option longitude \'$long'/" /etc/config/gluon-node-info)
 ```
 
-In der Androidapp unter Protokollierungseinstellungen muss nun als "Logge zu einem Server" folgender Link angegeben werden:
+In der Android-App unter Protokollierungseinstellungen muss nun als "Logge zu einem Server" folgender Link angegeben werden:
 
 <code>http://NODE_IP/cgi/setGeo?%LON?%LAT</code>
 
 Der Haken bei "Logge zu einem Server" muss gesetzt werden.
 
-
-aus:
+Quellen:
 
 http://wiki.openwrt.org/doc/howto/usb.tethering
 
 http://wiki.openwrt.org/doc/howto/usb.essentials
+
+http://wiki.openwrt.org/doc/howto/http.httpd
 
 Android-App:
 
