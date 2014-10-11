@@ -11,6 +11,7 @@ In diesem HowTo soll beschrieben werden wie der StatusBot installiert und bedien
     * 2.3.1 willie
   * 2.4 einrichten
     * 2.4.1 auf einem i386 System erfolgreich durchgeführt muss nur noch dokumentiert werden
+      * 2.4.1.1 Läuft auf dem Server hackint im Raum #ffhb als IRobot
 * 3. Installation Erweiterung Paderborn installieren
   * 3.1 ToDo
 * 4. Programmierung Erweiterung Bremen
