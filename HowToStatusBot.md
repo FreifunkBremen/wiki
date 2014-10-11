@@ -1,11 +1,14 @@
 In diesem HowTo soll beschrieben werden wie der StatusBot installiert und bedient wird.
 
 * 1. Voraussetzungen überprüfen
-*   1.1 (Script in Arbeit)
+  * 1.1 (Script in Arbeit)
 * 2. Installation Basispaket (Willie) beschreiben
-  * 2.1 Basissystem: LinuxMint 17 Server 64bit
+  * 2.1 Basissystem
+    * 2.1.1 LinuxMint 17 Server 64bit
   * 2.2 Softwarepakete installieren (Debian)
+    * 2.2.1 python, pip, sqlite, ...
   * 2.3 Softwarepakete installieren (python)
+    * 2.3.1 willie
   * 2.4 einrichten
     * 2.4.1 auf einem i386 System erfolgreich durchgeführt muss nur noch dokumentiert werden
 * 3. Installation Erweiterung Paderborn installieren
