@@ -80,7 +80,7 @@
 	if [ $1 -eq 1 ]; then
 	echo	"________________________________________________________________________________"
 	echo	"willie-4.5.1.tar.gz						0	1"
-	echo	"			wget https://pypi.python.org/packages/source/w/willie/willie-4.5.1.tar.gz"
+	echo	"		wget https://pypi.python.org/packages/source/w/willie/willie-4.5.1.tar.gz"
 	fi
 	sudo updatedb
 	locate	willie-4.5.1.tar.gz	> /dev/null	2> /dev/null
@@ -91,7 +91,7 @@
 	echo	"Installation:		sudo pip install willie-4.5.1.tar.gz"
 	echo	"Deinstallation: 	sudo pip uninstall willie"
 	echo	"________________________________________________________________________________"
-	if [ -f /usr/local/bin/willie ]; then Status_willie_installiert="ja"; else Status_willie_installiert="nein"; fi
+	if [ -f /usr/local/bin/willie ]; then Status_willie_inst="ja"; else Status_willie_inst="nein"; fi
 	fi
 	echo	"python: 		$Status_python	muss 0 sein"
 	echo	"pip:			$Status_pip	muss 0 sein"
@@ -99,7 +99,7 @@
 	echo	"mysqlcheck:		$Status_mysqlcheck	egal	0=installiert 127=nicht installiert"
 	echo	"postgres:		$Status_postgres	egal	0=installiert 127=nicht installiert"
 	echo	"willie: 		$Status_willie	0=Download vorhanden"
-	echo	"willie installiert:	$Status_willie_installiert"
+	echo	"willie installiert:	$Status_willie_inst"
 	echo	"________________________________________________________________________________"
 
 	if [ $1 -eq 1 ]; then exit 1; else exit 0; fi
