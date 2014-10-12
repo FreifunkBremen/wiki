@@ -2,6 +2,7 @@ In diesem HowTo soll beschrieben werden wie der StatusBot installiert und bedien
 
 * 1. Voraussetzungen überprüfen
   * 1.1 (Script in Arbeit)
+      * Pruefen Voraussetzung fuer Willie
 * 2. Installation Basispaket (Willie) beschreiben
   * 2.1 Basissystem
     * 2.1.1 LinuxMint 17 Server 64bit
