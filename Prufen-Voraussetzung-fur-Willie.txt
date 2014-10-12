@@ -2,14 +2,14 @@
 	clear
 	echo	"________________________________________________________________________________"
 	if [ $1 -eq 4 ]; then
-	echo	"Anzahl Parameter	#	$#"	#	echo "I was called with $# parameters"
-	echo	"Name			0	$0"	#	echo "My name is $0"
-	echo	"Parameter 1		1	$1"	#	echo "My first parameter is $1"
-	echo	"Parameter 2		2	$2"	#	echo "My second parameter is $2"
-	echo	"Alle Parameter		@	$@"	#	echo "All parameters are $@"
-	echo 	"Alle Parameter		*	$*"	#	"File with spaces" becomes "File" "with" "spaces"
-	echo 	"PID			$	$$"	#	
-	echo	"Rückkehrcode		?	$?"	#	Another special variable is $?. This contains the exit value of the last run command.
+	echo	"Anzahl Parameter	#	$#"
+	echo	"Name			0	$0"
+	echo	"Parameter 1		1	$1"
+	echo	"Parameter 2		2	$2"
+	echo	"Alle Parameter		@	$@"
+	echo 	"Alle Parameter		*	$*"
+	echo 	"PID			$	$$"	
+	echo	"Rückkehrcode		?	$?"
 	echo	"________________________________________________________________________________"
 	echo	"Value 127 is returned by /bin/sh when the given command is not found within your"
 	echo	"PATH system variable and it is not a built-in shell command. In other words, the"
