@@ -91,8 +91,8 @@
 	echo	"Installation:		sudo pip install willie-4.5.1.tar.gz"
 	echo	"Deinstallation: 	sudo pip uninstall willie"
 	echo	"________________________________________________________________________________"
-	if [ -f /usr/local/bin/willie ]; then Status_willie_2="ja"; else Status_willie_2="nein"; fi
 	fi
+	if [ -f /usr/local/bin/willie ]; then Status_willie_2="ja"; else Status_willie_2="nein"; fi
 	echo	"python: 		$Status_python	muss 0 sein"
 	echo	"pip:			$Status_pip	muss 0 sein"
 	echo	"sqlite: 		$Status_sqlite	muss 1 sein"
