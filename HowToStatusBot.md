@@ -10,8 +10,28 @@ In diesem HowTo soll beschrieben werden wie der StatusBot installiert und bedien
   * 2.3 Softwarepakete installieren (python)
     * 2.3.1 willie
   * 2.4 einrichten
-    * 2.4.1 auf einem i386 System erfolgreich durchgeführt muss nur noch dokumentiert werden
-      * 2.4.1.1 Läuft auf dem Server hackint im Raum #ffhb als IRobot
+      * Aufruf "willie" (Erststart) oder "willie -w" (Ändern)
+      * Enter the nickname for your bot [Willie]: Willie_ffhb
+      * Enter the server to connect to [irc.dftba.net]: irc.hackint.eu
+      * Should the bot connect with SSL (y/n)? [n]
+      * Enter the port to connect on [6667]: 6667
+      * Enter your own IRC name (or that of the bot's owner): HeinzBoettjer
+      * Enter the channels to connect to by default, one at a time. When done, hit enter again.
+Channel: #ffhb
+      * Channel:
+      * Would you like to set up a settings database now (y/n)? [n] y
+      * What type of database would you like to use? (sqlite/mysql/postgres) [sqlite]:
+      * Location for the database file: willieDatenbank.sqlite
+      * Would you like to see if there are any modules that need configuring (y/n)? [n] y
+      * Configure meetbot (y/n)? [n] y
+      * Path to meeting logs storage directory (should be an absolute path, accessible on a webserver): /var/www/meeting_logs
+      * Base URL for the meeting logs directory (eg. http://example.com/logs): localhost/logs
+      * Error loading ip: No module named pygeoip (in config.py)
+      * Configure radio module (y/n)? [n]
+      * Exclude certain URLs from automatic title display (y/n)? [n]
+      * Preferred time zone (http://dft.ba/-tz) [UTC]:
+      * ...
+
 * 3. Installation Erweiterung Paderborn installieren
   * 3.1 ToDo
 * 4. Programmierung Erweiterung Bremen
