@@ -20,7 +20,7 @@ Channel: <b>#ffhb_Maschinenraum</b>
       * Channel:
       * Would you like to set up a settings database now (y/n)? [n] <b>y</b>
       * What type of database would you like to use? (sqlite/mysql/postgres) [sqlite]:
-      * Location for the database file: <b>willieDatenbank.sqlite</b>
+      * Location for the database file: <b>~/.willie/WillieDatenbank.sqlite</b>
       * Would you like to see if there are any modules that need configuring (y/n)? [n] y
       * Configure meetbot (y/n)? [n] <b>y</b>
       * Path to meeting logs storage directory (should be an absolute path, accessible on a webserver): <b>/var/www/meeting_logs</b>
