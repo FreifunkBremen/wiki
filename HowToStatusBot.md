@@ -30,7 +30,9 @@ Channel: <b>#ffhb_Maschinenraum</b>
       * Exclude certain URLs from automatic title display (y/n)? [n]
       * Preferred time zone (http://dft.ba/-tz) [UTC]:
       * ...
-
+    * 2.5 bearbeiter der Datei ./willie/default.cfg
+      * am Ende vom Bereich [core] folgende Zeile einfügen:
+        * exclude = find_updates
 * 3. Installation Erweiterung Paderborn installieren
   * 3.1 ToDo
 * 4. Programmierung Erweiterung Bremen
