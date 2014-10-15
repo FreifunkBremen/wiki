@@ -16,7 +16,7 @@ In diesem HowTo soll beschrieben werden wie der StatusBot installiert und bedien
       * Enter the port to connect on [6667]:
       * Enter your own IRC name (or that of the bot's owner): HeinzBoettjer
       * Enter the channels to connect to by default, one at a time. When done, hit enter again.
-Channel: #ffhb
+Channel: #ffhb_Maschinenraum
       * Channel:
       * Would you like to set up a settings database now (y/n)? [n] y
       * What type of database would you like to use? (sqlite/mysql/postgres) [sqlite]:
