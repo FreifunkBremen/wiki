@@ -51,6 +51,9 @@ Channel: <b>#ffhb_Maschinenraum</b>
     * !info <name>
     * !hamburg
     * !status
+    * !mesh
+    * !ping
+    * !link
     * ...
   * 7.3 Bremen (§)
     * §bremen
