@@ -8,7 +8,7 @@ In diesem HowTo soll beschrieben werden wie der StatusBot installiert und bedien
   * 2.2 Softwarepakete installieren (Debian)
     * 2.2.1 python, pip, sqlite, ...
   * 2.3 Softwarepakete installieren (python)
-    * 2.3.1 willie
+    * 2.3.1 willie, pygeoip
   * 2.4 einrichten beim ersten Start oder später mit "willie -w" zum ändern
       * Enter the nickname for your bot [Willie]: <b>Willie_ffhb</b>
       * Enter the server to connect to [irc.dftba.net]: <b>irc.hackint.eu</b>
