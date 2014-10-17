@@ -4,6 +4,7 @@ Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Die
 * [Tahoe-LAFS](Dienste/Tahoe-LAFS)
 * [Smokeping](http://smokeping.bremen.freifunk.net/smokeping/smokeping.cgi) Erreichbarkeitsmessung zu verschiedenen Zielen
 * [Straßenbahn-Fahrplan Sielwall](http://10.196.0.69) Echtzeit Haltestellendaten (noch Testbetrieb)
+* [Freifunk Store](http://10.196.0.69/ff_store/) unkommerzielle Router-, Antennen und Teilebörse
 
 ## Infos zum aktuellen Router
 Unter http://node.ffhb/ findest du Informationen zu dem Router, mit dem du momentan verbunden bist.
@@ -16,8 +17,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.1 VPN-Server (mortzu)
     * 10.196.0.2 VPN-Server (jplitza)
     * 10.196.0.3 zukünftiger VPN-Server (?) (Julian)
-    * 10.196.0.69 Testdienst und Mirror von Firmware (anon6789)
-    * 10.196.0.70 Meine S-Bahn Fahrplan freigegeben (anon6789)
+    * 10.196.0.69 S-Bahn Fahrplan + Store (anon6789)
     * 10.196.0.100 Tahoe-LAFS node (mortzu)
     * 10.196.0.101 DNS-Server (mortzu)
     * 10.196.0.102 Tahoe-LAFS node (mortzu)
