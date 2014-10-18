@@ -1,70 +1,81 @@
-    Diesen Artikel sollten noch mal zwei drei Personen überprüfen, bevor wir den Text nutzen können.
-    Bitte daher hier ein entsprechendes OK oder Änderungwünsche angeben (Stand: 24.05.2014): 
-       Beispiel für das ermitteln der richtigen Bandbreite
-       Hinweis zu den Modell Versionen verbessern
+# Anleitung Freifunkrouter Flashen und Einrichten #
+Damit dein Router Teil des Freifunk-Netzes werden kann, muss er mit dem Freifunk-Betriebssystem (der „Firmware“) **bespielt**, **eingerichtet** und entsprechend **angeschlossen** werden. Im folgenden leiten wir dich durch diese drei kurzen Schritte durch. 
+
+Aber eins vorweg: falls du dir unsicher bist, richten wir dir auch gerne einen Router bei einem der nächsten Freifunktreffen ein!
+
+## Vorbereitung ##
+
+Wenn du dich dazu entscheidest beim Freifunk mitzumachen, hast du anfangs die Qual der Wahl beim Aussuchen eines Routers. Welche Router und Versionen die Freifunk-Firmware unterstützen findest du unter http://wiki.bremen.freifunk.net/Unterstuetzte-Router.   
+
+Wir empfehlen den  **TP-Link TL-WR841N** für knapp 20€, oder das etwas besser ausgestattete Modell **TP-Link TL-WDR3600**, für ca. 40€.
 
 
+## Neue Firmware ##
+### Firmware downloaden ###
+Zuerst brauchst du die passende Freifunk-Firmware für deinen Router. Die **Rückseite** deines Gerätes verrät dir, welche Firmware du genau brauchst.
 
-Auf dieser Seite findest du eine sehr ausführliche Anleitung zur **Vorbereitung**, zum **Aufspielen der Freifunk-Firmware** und zur **Konfiguration des Freifunk-Routers**.
+<img src="http://jel.to/ff_pics/router_rueckseite.jpg" title="Rückseite deines Routers" />
 
-## Vorbereitung
+Unter **„1.“** findest du die **Modellnummer** und unter **„2.“** die **Revisionsnummer**. „Ver 8.1“ steht dabei allgemein für Version 8, „Ver 7.4“ für Version 7 usw..
+Auf der [Downlaodseite](http://downloads.bremen.freifunk.net/firmware/testing/factory/) suchst du dir nun die Datei, die genau deinem Modell und deiner Revision entspricht und **lädst diese herunter**.
 
-Wenn du dich dazu entschieden hast beim Freifunk mitzumachen, hast du anfangs die Qual der Wahl beim Aussuchen eines Routers. Welche Router und Versionen die Freifunk-Firmware unterstützen findest du unter http://wiki.bremen.freifunk.net/Unterstuetzte-Router.   
+In oberen Fall wäre es die Datei mit dem Namen gluon-ffhb-0.x~VERSION-tp-link-tl-**wr841n**-nd-**v8**.bin. Achte bitte unbedingt darauf, dass Modellbezeichnung und Revisions genau zu deinem Gerät passen. Einzig das N bzw. ND im Modellnamen ist irrelevant, die Firmware für den wr841n ist auch zum wr841nd kompatibel.
 
-Wir empfehlen den  **TP-Link TL-WR841N** für knapp 20€, wovon es noch ein fast baugleiches Model mit einem „D“ im Namen, gibt. Der Anschaffungspreis ist etwas höher, man hat aber da die Möglichkeit die Antennen abzunhemen (d steht für „detach“).
+**Eine falsche Firmware kann dazu führen, dass wir den Router mit sehr großem Aufwand reanimieren müssen.**
 
-Hat man sich nun für einen Router entschieden, muss man noch die richtige Firmware aussuchen und [runter laden](http://downloads.bremen.freifunk.net/firmware/testing/factory/).  
+### Firmware aufspielen
+Nachdem du dir die neue Firmware besorgt hast, musst du deinen **Computer mit dem Freifunkrouter verbinden**. Dazu setzt du den Router unter Strom (**„1.“**, Knopf ganz links rein drücken). Das „LAN“-Kabel steckst du in eine der **gelben Buchsen („2“)**. Die blaue Buchse brauchst du erst später. Verbinde das andere Ende des LAN-Kabels mit deinem Computer.
+Am besten du verwendest das graue LAN-Kabel, was schon im Karton deines Routers dabei war.
 
-In diesem Beispiel laden wir uns also für den  _TP-Link TL-WR841N v8.x_ die Datei _gluon-ffhb-*FW-VERSION*-tp-link-tl-wr841n-nd-v8.bin_ herunter. Hierbei muss auf die Modellbezeichnung und Version geachtet werden!
+<img src="http://jel.to/ff_pics/router_anschluesse.jpg" title="Anschlüsse deines Routers" />
 
->**Achtung!**: Es kommt vor, dass die neusten Versionen der Modelle von der Freifunk-Firmware noch nicht unterstützt werden! Das Aufspielen einer falschen Version kann das Gerät unbrauchbar machen. Die Version des Modell steht unter dem Gerät in der Nähe des Strichcodes.
+Das Menü deines Router, über den wir die neue Firmware aufspielen erreist du über den **Webbrowser**. Tippe dazu folgende Adresse in deine Navigationsleiste **(„1.“) : 192.168.0.1**
 
-## Firmware aufspielen  
+Standardmäßig musst du dich mit einem Benutzernamen und einem Password **authentifizieren**, diese lauten im Auslieferungszustand **„admin“** und **„admin“**.
 
->**Achtung!**  
-Fehler können dazu führen, dass das Gerät unbrauchbar wird, bzw. man einen erhöhten Aufwand der Wiederherstellung hat.
+<img src="http://jel.to/ff_pics/menu_stock_1.jpg" title="Standard Weboberfläche">
 
-Das Aufspielen der Firmware auf den neuen Router erfolgt über die Weboberfläche.
+Den für uns interessanten  Menüpunkt erreichst du links unter **„System Tools“ („2.“) → „Firmware Upgrade“ („3.“)**. Hier musst du nurnoch die richtige **Firmwaredatei aus dem vorherigen Schritt auswählen („4.“)** und **hochladen („5.“)**. Prüfe bitte noch einmal, ob die Firmware wirklich zu deinem Routermodell passt, bevor du auf „Upgrade“ klickst! 
 
-Nun die folgenden Schritte abgehen:
+<img src="http://jel.to/ff_pics/menu_stock_2.jpg" title="Standard Weboberfläche">
 
-1. Router ans Stromnetz anschließen
-2. Router per LAN-Kabel (LAN-Port 1/gelb) mit einem Rechner verbinden.
-3. Den Rechner in den Netzwerkeinstellungen auf DHCP stellen **oder** folgende Einstellungen vornehmen:
-  1. IP-Adresse: 192.168.0.2
-  2. Subnetzmaske: 255.255.255.0
-  3. Gateway: 192.168.0.1
-4. 	Im Browser deiner Wahl http://192.168.0.1 aufrufen
-5. Die Zugangsdaten stehen auf der Rückseite des Routers (in der Regel admin/admin)
-6. Nun unter System Tools -> Firmware Upgrade, die vorhin runter geladene  Datei auswählen und einspielen  
-(_gluon-ffhb-*FW-VERSION*-tp-link-tl-wr841n-nd-v8.bin_)  
-Wichtig ist jetzt, dass man nun den Router nicht vom Strom trennt oder anders das Aufspielen unterbricht!  
+Nach wenigen Minuten sollte dein Router folgende Meldung anzeigen und neu starten.
 
-7. Wenn der Vorgang abgeschlossen ist, ruft man nun http://192.168.1.1 auf  (Wenn vorhin die Netzwerkeinstellungen manuell vorgenommen wurden, muss nun die IP-Adresse und der Gateway angepasst werden!).  
-Wenn nun alles gut verlaufen ist, sieht du nun unsere Seite für die Einstellungen des Freifunk-Routers
-
+<img src="http://jel.to/ff_pics/success.png" width="300px" title="Erfolgreich geflasht">
 
 ## Freifunk-Router konfigurieren
 
-Auf der ersten Seite (dem Wizzard) kann man verschiedene Einstellungen für den Router vornehmen. Darunter sind zum Beispiel die Bandbreitenbegrenzung oder die Standortangabe. Alle Einstellungen lassen sich später wieder ändern.
+Nach dem Neustart des Routers ist dieser unter einer **anderen IP** zu erreichen, daher hat es sich bewährt, das LAN-Kabel zwischen Computer und Router für einen kurzen Augenblick zu entfernen, damit der Computer danach eine neue Adresse beziehen kann.
 
-Aber gehen wir jeden Punkt durch:
+Um das neue Menü des Routers zu erreichen, tippst du diesmal die **Adresse 192.168.1.1 in deine Navigationsleiste des Browsers ein**. Dort lassen sich verschiedene Einstellungen für den Router vornehmen. 
 
-1. Als erstes kann man dem Router einen Namen geben, der dann in unserer Knotenliste steht (optional).
-2. Danach kann man entscheiden ob die Firmware des Routers automatisch aktualisiert wird oder ob man das lieber selbst macht. Hier empfehlen wir die automatische Aktualisierung. Andernfalls müsstest du dich in Sachen Firmware Updates selbst um Aktualität kümmern.
-3. Beim nächsten Punkt musst du dich entscheiden wie du den Router einsetzen willst bzw. kannst. Wenn du einen Zugang zum Internet hast und den Router hinter dem entsprechenden DSL-Router anschließt, solltest du einen Haken bei „Mesh-VPN aktivieren“ setzen. Danach kannst du auch noch die Bandbreite einstellen, die du dem Freifunk Netz maximal zur Verfügung stellen möchtest. Wenn kein Haken bei „Mesh-VPN aktivieren“ machst, verbindet sich der Router nur noch mit anderen in der Umgebung befindlichen Freifunk-Routern.
-4. Den Standort des Routers kann man ebenfalls in Form von Koordinaten eintragen. Diese sollte man sich vor der Konfiguration ggf. zwischenspeichern. Auf unserer [Freifunkkarte](http://bremen.freifunk.net/map/geomap.html) kannst du dir die gewünschten Koordinaten anzeigen lassen.
-5. Im letzten Feld kannst du Kontaktdaten angeben, die aber von jedem abrufbar sind. Darüber kannst du dich aber auch informieren lassen, wenn der Router mal keine Verbindung mehr zum Freifunk-Netz hat. Dazu kannst du dich per Mail, XMPP/Jabber und/oder per Twitter benachrichtigen lassen.
+<img src="http://jel.to/ff_pics/gluon_1.jpg" title="Neue Weboberfläche">
 
-Da wir nun erstmal den Router das erste mal betriebsbereit nehmen wollen, lassen wir den Expertenmodus aus. Dieser wird weiter unten noch erklärt.
+Zuerst kannst du dir einen **beliebigen Namen** für deinen  Freifunkrouter ausdenken (oder ihn so lassen).
+Außerdem musst du festlegen, ob die Firmware des Routers sich automatisch aktualisieren soll. In den meisten Fällen ist eine automatische Aktualisierung sinnvoll, so ist dein Router immer auf dem neusten Stand und unerwartete  Netzausfälle bleiben aus.
 
-Wurden nun alle gewünschten Einstellungen vorgenommen, klickt man auf „**Fertig**“ und der Router startet zum ersten mal in den produktiven Modus und du wirst auf eine neue Seite weitergleitet. Verbinde dich zuerst wieder mit deinem eigenen Netzwerk und klicke dann den Link. Dadurch wird die Node im VPN angemeldet bzw. bekannt gemacht.
+<img src="http://jel.to/ff_pics/gluon_2.png" width="350px" title="Mesh-VPN">
 
-Den Freifunk-Router verbindet man nun über den WAN-Port (blau) mit dem LAN-Port eines DSL-Routers und nach kurzer Zeit solltest du auch ein W-LAN mit der SSID **bremen.freifunk.net** finden 
+Im folgenden musst du noch angeben, ob dein Freifunkrouter sich über das Internet mit anderen Routern verbinden soll (**Mesh-VPN**). Diese Option ist immer nötig, außer der Router fungiert rein als Repeater und verbindet sich über andere Router ins Freifunk-Netz. Zum Beispiel für den Router im Gartenhäuschen ohne direkten Zugang zum Internet ist dies sinnvoll. 
+Falls gewünscht, kann die **Bandbreite**, die der Freifunkrouter maximal nutzten darf, über die darauf folgende Option **eingeschränkt werden** (optional).
 
-## Testen
+<img src="http://jel.to/ff_pics/gluon_5.png" width="350px" title="Geo-Koordinaten">
 
-Um zu überprüfen ob sich der Router richtig mit dem Freifunk-Netz verbunden hat, rufst du einmal über deinen DSL-Router eine Seite auf, die dir deine aktuelle IP-Adresse anzeigt und verbindest dich dann mit dem Freifunk-Netz. Wenn die Adressen unterschiedlich sind, ist der Router richtig mit dem Freifunk verbunden. Ebenfalls wird nach kurzer Zeit der Name deines Routers in der [Knotenliste](http://bremen.freifunk.net/map/list.html) auftauchen. 
+Damit andere Freifunker oder Nachbarn den Router auch auf der **Freifunk-Karte** finden, können die **Koordinaten** des Routers eingetragen werden. Lässt man den Haken weg, so erscheint der Router nicht auf der Karte.
+Die Koordinaten sollte man sich vor der Konfiguration ggf. zwischenspeichern. Auf unserer [Freifunkkarte](http://bremen.freifunk.net/map/geomap.html) kannst du dir die gewünschten Koordinaten anzeigen lassen (ganz oben "Koordinaten beim nächsten Klick anzeigen").
+
+<img src="http://jel.to/ff_pics/gluon_3.png" width="350px" title="Geo-Koordinaten">
+
+Nachdem du, natürlich auch **optional**, deine **Kontaktadresse** eingetragen hast, schließt du die Konfiguration mit einem Click auf den **„Fertig“-Button** ab. Der Kontakt dient dazu, dass du du dich informieren lassen kannst, wenn der Router mal keine Verbindung mehr zum Freifunk-Netz hat.
+Der Folgende Bildschirm bestätigt dir die erfolgreiche Einrichtung. Dein Router ist fertig eingerichtet und startet neu in den produktiven Modus. Deinen Schlüssel musst du **nicht** mehr, wie beschrieben, über einen Link übertragen.
+
+## Anschluss an den Heimrouter
+Jetzt, wo dein Router geflasht und eingerichtet wurde, musst du ihn einfach nur noch **an deine Heimrouter anschließen**. Nehme dazu das graue LAN-Kabel aus dem Karton und stecke es in den **blauen „WAN“-Anschluss** deines Freifunkrouters **(„1.“)**. **Nicht die gelben Ports** verwenden, dann kann der Router keine Verbindung zum Freifunknetz über das Internet aufbauen!
+
+<img src="http://jel.to/ff_pics/ff_an_fritz.jpg" title="Anschluss Freifunkrouter">
+
+Das andere Ende des grauen LAN-Kabels kommt in den (oft) **gelben LAN-Port deines Providerrouters** (Fritzbox, Speedport, Easybox usw.) **(„2.“)**. An dem Kabel, was aus der Wand (TAE-Dose) zu deiner Providerrouter kommt und im blauen Port steckt, musst du **nichts weiter verändern** (in diesem fall das orangene Kabel). 
+Sobald beide Geräte mit Strom versorgt werden, hast du nach wenigen Minuten deinen Freifunkrouter am Netz! Ebenfalls wird nach kurzer Zeit der Name deines Routers in der [Knotenliste](http://bremen.freifunk.net/map/list.html) auftauchen. 
 
 ## Expertenmodus  
 
@@ -74,3 +85,7 @@ Im Expertenmodus ist es zudem noch möglich einen SSH-Zugriff einzurichten, dami
 Desweiteren kann man sich für einen Versionszweig entscheiden, der auf dem Router immer automatisch aufgespielt wird. Wir empfehlen die Standard-Einstellung.  
 
 Solltest du vorhin das automatische Aktualisieren deaktiviert haben, kannst du bei „Firmware aktualisieren“ eine andere Version einspielen oder aber auch gar eine ganz andere Firmware.
+
+# Diagnose und Fehlerbehebung
+
+in Arbeit ;)
