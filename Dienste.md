@@ -2,7 +2,6 @@ Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Die
 
 * [Wikipedia-Mirror (mit Bildern)](http://wikipedia.ffhb)
 * [Tahoe-LAFS](Dienste/Tahoe-LAFS)
-* [Smokeping](http://smokeping.bremen.freifunk.net/smokeping/smokeping.cgi) Erreichbarkeitsmessung zu verschiedenen Zielen
 * [Straßenbahn-Fahrplan Sielwall](http://10.196.0.69) Echtzeit Haltestellendaten (noch Testbetrieb)
 * [Freifunk Store](http://10.196.0.69/ff_store/) unkommerzielle Router-, Antennen und Teilebörse
 
