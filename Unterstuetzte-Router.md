@@ -4,8 +4,8 @@
 
 Für die Ubiquiti Picostation M2 musst du das mit Image mit "bullet" im Namen benutzen.
 
-| MCU   	| NRF51822QFAA 		|
-|:------------- |:--------------------- |
-| Family	| ARM Cortex-M0 	|
-| Vendor	| Nordic Semiconductor	|
-| RAM		| 16Kb	|
+| Merkmal   	| TP-Link MR841N/ND | TP-Link xyz	|
+|:------------- |:--------------------- |:----- |
+| eins	| ...	| ... |
+| zwei	| ...	| ... |
+| drei | ...	| ... |
