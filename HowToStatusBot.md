@@ -43,10 +43,7 @@ Channel: <b>#ffhb_Maschinenraum</b>
   * 6.1 In Planung, Wunschtermin 31.03.2015
 * 7. Dokumentation Befehlsübersicht
   * 7.1 Willie (.)
-    * .dice
-    * .tell <nick> <message>
-    * .ask <nick> <message>
-    * ...
+    * [[Befehlsuebersicht Willie Original]]
   * 7.2 Paderborn (!)
     * !info <name>
     * !hamburg
