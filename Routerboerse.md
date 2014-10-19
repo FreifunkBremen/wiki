@@ -3,4 +3,4 @@ Falls jemand also seinen alten freifunkfähigen Router zB wegen einem Upgrade lo
 
 | Biete | Kosten | Kontakt |
 |:-----| :---- | :----|
-| TP-Link MR841N/ND | 20 Euro  | Kann im Hackerspace Bremen abgeholt werden |
+| Beispiel: TP-Link MR841N/ND | 20 Euro  | Kann im Hackerspace Bremen abgeholt werden |
