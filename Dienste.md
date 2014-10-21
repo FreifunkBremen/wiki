@@ -20,6 +20,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.100 Tahoe-LAFS node (mortzu)
     * 10.196.0.101 DNS-Server (mortzu)
     * 10.196.0.102 Tahoe-LAFS node (mortzu)
+    * 10.196.0.103 misc (morpheus)
     * 10.196.0.127 node.ffhb
     * 10.196.0.196 Dienste von Eike
     * 10.196.0.200 Dienste von jplitza
