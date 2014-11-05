@@ -26,6 +26,8 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.200 Dienste von jplitza
     * 10.196.1.2-10.196.1.254 per DHCP vergeben von 10.196.0.1
     * 10.196.2.2-10.196.2.254 per DHCP vergeben von 10.196.0.2
+* 10.196.126.0/24
+  * 10.196.126.0/24 Dienste von Nebirosh
 * 10.196.128.0/17
     * 10.196.128.0/27 Dienste von mortzu
         * 10.196.128.1 DNS-Server
