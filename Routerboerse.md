@@ -3,10 +3,8 @@ Falls jemand also seinen alten freifunkfähigen Router zB wegen einem Upgrade lo
 
 | Biete | Kosten | Kontakt |
 |:-----| :---- | :----|
-| TP Link MR841N | 20 Euro | Hackerspace Bremen e.V., Bornstraße 14 <br> Öffnungszeiten siehe www.hackerspace-bremen.de |
-| TP-Link MR841N | 20 Euro | nahe der Domsheide im Schnoor von<br> 09-23:00 im Restaurant KatzenCafe / ToshiDo.<br>Bitte vorher auf der Mailingliste (ML) klären ob verfügbar.|
-| TP-Link MR841N | 20 Euro | Borgfeld/Lilienthal jew. 1km von deren Zentren entfernt dazwischen in Butendiek.<br>Bitte vorher auf der ML klären ob und wann verfügbar |
-| TP-Link MR841N | 20 Euro | Universität <br>Bitte vorher auf der ML klären wo und wann verfügbar |
-| TP-Link MR841N | 20 Euro | Peterswerder<br>Bitte vorher auf der ML oder im chat klären wo und wann verfügbar |
-| ... |
-| Beispiel:<br>TP-Link<br>MR841N/ND | 20 Euro  | Kann im Hackerspace Bremen abgeholt werden |
+| TP Link WR841N | 20 Euro | Hackerspace Bremen e.V., Bornstraße 14 <br> Öffnungszeiten siehe www.hackerspace-bremen.de |
+| TP-Link WR841N | 20 Euro | lagernde Neuware. Nahe der Domsheide im Schnoor von 9-23:00 im Restaurant KatzenCafe / ToshiDo.<br>Bitte vorher über freifunk-ÄT-nukeUS.de klären ob verfügbar und ob ev. RuheTag.|
+| TP-Link WR841N | 20 Euro | lagernde Neuware. Borgfeld/Lilienthal jew. 1km von deren Zentren entfernt dazwischen in Butendiek. <br>Auch Anlieferung zum ÖPNV mögl. Bitte vorher über freifunk-ÄT-nukeUS.de klären ob und wann verfügbar. |
+| TP-Link WR841N | 20 Euro | Universität.<br>Bitte vorher auf der MailingListe (ML) klären wo und wann verfügbar. |
+| TP-Link WR841N | 20 Euro | Peterswerder.<br>Bitte vorher auf der ML oder im Chat klären wo und wann verfügbar. |
