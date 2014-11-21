@@ -1,1 +1,24 @@
+# Treffen 19.12.2014
+
 **Termin:** 19.12.2014 19 Uhr
+<br>
+**Ort:** Hackerspace Bremen e.V. ([Anfahrt](https://www.hackerspace-bremen.de/anfahrt/))
+
+## Tagesordnung
+
+### Technik
+* **foo** bar
+* **foo** bar
+* **foo** bar
+* **foo** bar
+* **Dienste im Freifunk** [Heinz] Deutsche Welle via Outernet http://www.dw.de/nachrichten-weltweit-über-outernet/a-17875458
+
+### Organisatorisches
+* **foo** bar
+* **foo** bar
+* **foo** bar
+
+## Flashparty
+Auf jedem Treffen besteht die Möglichkeit, dass wir Interessierten dabei unterstützen ihre Nodes mit unserer Freifunk-Firmware zu flashen und gleichzeitig offene Fragen zu beantworten. Wir haben auch immer ein paar Router zum ausgeben die wir gerne mit dir zusammen fertig einrichten.
+
+## Protokoll
