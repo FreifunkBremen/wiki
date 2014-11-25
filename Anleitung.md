@@ -69,6 +69,8 @@ Die Koordinaten sollte man sich vor der Konfiguration ggf. zwischenspeichern. Au
 Nachdem du, natürlich auch **optional**, deine **Kontaktadresse** eingetragen hast, schließt du die Konfiguration mit einem Click auf den **„Fertig“-Button** ab. Der Kontakt dient dazu, dass du du dich informieren lassen kannst, wenn der Router mal keine Verbindung mehr zum Freifunk-Netz hat.
 Der Folgende Bildschirm bestätigt dir die erfolgreiche Einrichtung. Dein Router ist fertig eingerichtet und startet neu in den produktiven Modus. Deinen Schlüssel musst du **nicht** mehr, wie beschrieben, über einen Link übertragen.
 
+Wenn du zu einem späteren Zeitpunkt nochmal Einstellungen im Config-Mode vornehmen möchtest, musst du den Reset-Button gedrückt halten. Nach einigen Sekunden blinken die Status-LEDs kurz auf und erlöschen wieder, der Router startet neu in den Config-Mode. Jetzt kannst du, wie unter "Freifunk-Router einrichten" beschrieben, erneut vorgehen.
+
 ## Anschluss an den Heimrouter
 Jetzt, wo dein Router geflasht und eingerichtet wurde, musst du ihn einfach nur noch **an deine Heimrouter anschließen**. Nehme dazu das graue LAN-Kabel aus dem Karton und stecke es in den **blauen „WAN“-Anschluss** deines Freifunkrouters **(„1.“)**. **Nicht die gelben Ports** verwenden, dann kann der Router keine Verbindung zum Freifunknetz über das Internet aufbauen!
 
