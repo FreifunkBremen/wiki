@@ -29,6 +29,9 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.2.2-10.196.2.254 per DHCP vergeben von 10.196.0.2
 * 10.196.126.0/24
   * 10.196.126.0/24 Dienste von Nebirosh
+* 10.196.127.0/24
+  * 10.196.127.1 Scanner an ffhb-ASM100
+  * 10.196.127.2 Scanner an ffhb-dvb15
 * 10.196.128.0/17
     * 10.196.128.0/27 Dienste von mortzu
         * 10.196.128.1 DNS-Server
