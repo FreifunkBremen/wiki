@@ -35,7 +35,7 @@ Folgende IP-Adressen sind vergeben:
 * 10.196.128.0/17
     * 10.196.128.0/27 Dienste von mortzu
         * 10.196.128.1 DNS-Server
-        * 19.196.128.2 HTTP-Server (Firmware)
+        * 10.196.128.2 HTTP-Server (Firmware)
 
 Feste IP-Adressen von an Freifunk-Knoten angeschlossenen Servern sollten denke ich erstmal in 10.196.0.0/24 liegen. Einfach hier eintragen und nehmen. Wenn der Bereich voll ist können wir immer noch die DHCP-Bereiche verschieben.
 
