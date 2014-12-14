@@ -19,8 +19,6 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.42 server, mumble, experimentell (diega)
     * 10.196.0.69 S-Bahn Fahrplan + Store (anon6789)
     * 10.196.0.100 Tahoe-LAFS node (mortzu)
-    * 10.196.0.101 DNS-Server (mortzu)
-    * 10.196.0.102 Tahoe-LAFS node (mortzu)
     * 10.196.0.103 misc (morpheus)
     * 10.196.0.127 node.ffhb
     * 10.196.0.196 Dienste von Eike
@@ -32,10 +30,6 @@ Folgende IP-Adressen sind vergeben:
 * 10.196.127.0/24
   * 10.196.127.1 Scanner an ffhb-ASM100
   * 10.196.127.2 Scanner an ffhb-dvb15
-* 10.196.128.0/17
-    * 10.196.128.0/27 Dienste von mortzu
-        * 10.196.128.1 DNS-Server
-        * 10.196.128.2 HTTP-Server (Firmware)
 
 Feste IP-Adressen von an Freifunk-Knoten angeschlossenen Servern sollten denke ich erstmal in 10.196.0.0/24 liegen. Einfach hier eintragen und nehmen. Wenn der Bereich voll ist können wir immer noch die DHCP-Bereiche verschieben.
 
