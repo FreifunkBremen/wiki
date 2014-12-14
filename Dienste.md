@@ -16,7 +16,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.1 VPN-Server (mortzu)
     * 10.196.0.2 VPN-Server (jplitza)
     * 10.196.0.3 zukünftiger VPN-Server (?) (Julian)
-    * 10.196.0.42 server, diverse dienste, experimentell (diega)
+    * 10.196.0.42 server, mumble, experimentell (diega)
     * 10.196.0.69 S-Bahn Fahrplan + Store (anon6789)
     * 10.196.0.100 Tahoe-LAFS node (mortzu)
     * 10.196.0.101 DNS-Server (mortzu)
