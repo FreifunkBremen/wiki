@@ -6,7 +6,7 @@ Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Die
 * [Freifunk Store](http://10.196.0.69/ff_store/) unkommerzielle Router-, Antennen und Teilebörse
 
 ## Infos zum aktuellen Router
-Unter http://node.ffhb/ findest du Informationen zu dem Router, mit dem du momentan verbunden bist.
+Unter http://node.ffhb findest du Informationen zu dem Router, mit dem du momentan verbunden bist.
 
 ## IP-Adressen
 
