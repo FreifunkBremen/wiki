@@ -18,7 +18,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.3 zukünftiger VPN-Server (?) (Julian)
     * 10.196.0.42 server, mumble, experimentell (diega)
     * 10.196.0.69 S-Bahn Fahrplan + Store (anon6789)
-    * 10.196.0.100 Tahoe-LAFS node (mortzu)
+    * 10.196.0.100-120 Dienste von mortzu
     * 10.196.0.127 node.ffhb
     * 10.196.0.196 Dienste von Eike
     * 10.196.0.200 Dienste von jplitza
