@@ -1,0 +1,22 @@
+# Treffen 16.01.2015
+
+**Termin:** 16.01.2015 19 Uhr
+<br>
+**Ort:** Hackerspace Bremen e.V. ([Anfahrt](https://www.hackerspace-bremen.de/anfahrt/))
+
+## Tagesordnung
+
+### Technik
+* **Server-Meeting**
+* **Server-Ausbau**
+* **Dienste im Freifunk** [Heinz] Deutsche Welle via Outernet http://www.dw.de/nachrichten-weltweit-über-outernet/a-17875458
+* **Kanalwechsel** und Stable?
+
+### Organisatorisches
+* Bremer Stadtforscher
+* Status Verein
+
+## Flashparty
+Auf jedem Treffen besteht die Möglichkeit, dass wir Interessierten dabei unterstützen ihre Nodes mit unserer Freifunk-Firmware zu flashen und gleichzeitig offene Fragen zu beantworten. Wir haben auch immer ein paar Router zum ausgeben die wir gerne mit dir zusammen fertig einrichten.
+
+## Protokoll
