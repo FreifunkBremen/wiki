@@ -1,3 +1,4 @@
+Hier bitte eintragen falls eine neue Anfrage eingeht oder der Status sich ändert damit niemand lange warten muss.
 | Anfragender | zuständiger Freifunker | Status | Knoten-Idee |
 | :---- | :---- | :---- | :---- |
 | Ortsamt Horn | Winfried Rokita | warten auf Rückmeldung | ffhb- |
