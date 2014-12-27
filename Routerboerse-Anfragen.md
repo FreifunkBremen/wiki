@@ -3,7 +3,7 @@ Hier bitte eintragen falls eine neue Anfrage eingeht oder der Status sich änder
 | Anfragender | zuständiger Freifunker | Status | Knoten-Idee |
 | :---- | :---- | :---- | :---- |
 | Ortsamt Horn | Winfried Rokita | warten auf Rückmeldung | ffhb- |
-| Stefan Pastoor | Jelto Wodstrcil | jetzt Freifunker | ffhb-getel |
+| Stefan Pastoor | Jelto Wodstrcil | jetzt Freifunker | ffhb-gete1 |
 | Michael Meiche | Jelto Wodstrcil | warten auf Rückmeldung | ffhb- |
 | Julian Scheer | Jelto Wodstrcil | warten auf Rückmeldung | ffhb- |
 | Jens Wirdemann | Jelto Wodstrcil | Termin 02.01.2015 11:00 | ffhb- |
