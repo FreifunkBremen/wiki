@@ -3,12 +3,12 @@ Hier bitte eintragen falls eine neue Anfrage eingeht oder der Status sich änder
 | Anfragender | zuständiger Freifunker | Status | Knoten-Idee |
 | :---- | :---- | :---- | :---- |
 | Ortsamt Horn | Winfried Rokita | warten auf Rückmeldung nach MAC-Frei-schaltung (Node schon lange angeschlossen und verbraucht schon Strom #rolleyes#) | OrtsAmt-HornLehe |
-| Stefan Pastoor | Jelto Wodstrcil | jetzt Freifunker | ffhb-gete1 |
-| Michael Meiche | Jelto Wodstrcil | warten auf Rückmeldung | ffhb- |
-| Julian Scheer | Jelto Wodstrcil | warten auf Rückmeldung | ffhb- |
-| Jens Wirdemann | Jelto Wodstrcil | Termin 2.1.2015 11:00 | ffhb- |
-| Thorsten Jahn | Heinz Böttjer | Router ist fertig, warten auf Rückmeldung | ffhb-hs125 |
-| Ulf Buschmann | Heinz Böttjer | Meldet sich in 2015 wieder | ffhb- |
-| Sven Petersen | Winfried Rokita | warten auf Rückmeldung | 'HintermRennPlatz-PlischWeg-WilhelmBusch4tel' bzw. er entscheidet das selber|
-| Marcel Baumgart | Heinz Böttjer | beantwortet| - |
+| Stefan P. | anon6789 | jetzt Freifunker | ffhb-gete1 |
+| Michael M. | anon6789 | warten auf Rückmeldung | ffhb- |
+| Julian S. | anon6789 | warten auf Rückmeldung | ffhb- |
+| Jens W. | anon6789 | Termin 2.1.2015 11:00 | ffhb- |
+| Thorsten J. | Heinz Böttjer | Router ist fertig, warten auf Rückmeldung | ffhb-hs125 |
+| Ulf B. | Heinz Böttjer | Meldet sich in 2015 wieder | ffhb- |
+| Sven P. | Winfried Rokita | warten auf Rückmeldung | 'HintermRennPlatz-PlischWeg-WilhelmBusch4tel' bzw. er entscheidet das selber|
+| Marcel B. | Heinz Böttjer | beantwortet| - |
 | Liegeplatz Bremen | Hendrick Schlange | beantwortet | - |
