@@ -10,3 +10,4 @@ Hier bitte eintragen falls eine neue Anfrage eingeht oder der Status sich änder
 | Thorsten Jahn | Heinz Böttjer | Router ist fertig, warten auf Rückmeldung | ffhb-hs125 |
 | Ulf Buschmann | Heinz Böttjer | Meldet sich in 2015 wieder | ffhb- |
 | Sven Petersen | Winfried Rokita | warten auf Rückmeldung | 'HintermRennPlatz-PlischWeg-WilhelmBusch4tel' bzw. er entscheidet das selber|
+| Marcel Baumgart | Heinz Böttjer | beantwortet| - |
