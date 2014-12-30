@@ -2,7 +2,7 @@ Hier bitte eintragen falls eine neue Anfrage eingeht oder der Status sich änder
 
 | Anfragender | zuständiger Freifunker | Status | Knoten-Idee |
 | :---- | :---- | :---- | :---- |
-| Ortsamt Horn | Winfried Rokita | warten auf Rückmeldung nach MAC-Frei-schaltung (Node schon lange angeschlossen und verbraucht schon Strom #rolleyes#) | OrtsAmt-HornLehe |
+| Ortsamt Horn | Winfried Rokita | warten auf Rückmeldung nach MAC-Freischaltung (Node schon lange angeschlossen und verbraucht schon Strom #rolleyes#) | OrtsAmt-HornLehe |
 | Stefan P. | anon6789 | jetzt Freifunker | ffhb-gete1 |
 | Michael M. | anon6789 | warten auf Rückmeldung | ffhb- |
 | Julian S. | anon6789 | warten auf Rückmeldung | ffhb- |
