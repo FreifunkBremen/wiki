@@ -9,6 +9,6 @@ Hier bitte eintragen falls eine neue Anfrage eingeht oder der Status sich änder
 | Jens W. | anon6789 | Termin 2.1.2015 11:00 | ffhb- |
 | Thorsten J. | Heinz Böttjer | Router ist fertig, warten auf Rückmeldung | ffhb-hs125 |
 | Ulf B. | Heinz Böttjer | Meldet sich in 2015 wieder | ffhb- |
-| Sven P. | Winfried Rokita | warten auf Rückmeldung | 'HintermRennPlatz-PlischWeg-WilhelmBusch4tel' bzw. er entscheidet das selber|
+| Sven P. | Winfried Rokita | in Betrieb (ffhb.plisch.01) | 'HintermRennPlatz-PlischWeg-WilhelmBusch4tel' bzw. er entscheidet das selber|
 | Marcel B. | Heinz Böttjer | beantwortet| - |
 | Liegeplatz Bremen | Nebirosh | Termin 7.1.2015 | - |
