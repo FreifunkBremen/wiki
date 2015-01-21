@@ -29,6 +29,32 @@ Die folgende Liste ist eine Ideensammlung, welche Orte einen Vorteil durch Freif
 
 * lokal²
 
+### Hemelingen (durch PowerStat in Bearbeitung)
+
+* Kubiko / Ortsamt Hemelingen
+* Bürgerhaus Hemelingen
+* Ein Haus für unsere Freundschaft
+* Mobile Familienzentrum
+* Jugendhaus
+* Übergangswohnheim Arbergen
+* Die Tafel
+
+* Bürgerhaus Mahndorf
+* Kidsclub Sebaldsbrück
+* Sportvereine
+
+* Paulaner's
+* Arberger Hof
+* Grothenns Gasthaus
+* Centralhallen Hemelingen
+* Centralhallen Mahnorf
+* Bremer Heimstiftung
+
+Termine
+
+* 26.02. 17.30 Uhr WIN-Forum Hemelingen
+* 31.5. Gewerbeschau Hemelingen
+
 ## Gruppierungen
 
 Es gibt in Bremen noch zwei weitere Projekte, die eine ähnliche Ausrichtung haben:
@@ -37,6 +63,11 @@ Es gibt in Bremen noch zwei weitere Projekte, die eine ähnliche Ausrichtung hab
 * [CCC Bremen](http://www.ccchb.de/wiki/Freifunk): Früher mal geplant und scheinbar im Sande verlaufen
 
 Vielleicht möchten von dort noch Leute mitmachen oder können Erfahrungen beisteuern.
+
+## Fördermöglichkeiten
+
+* Globalmittel der jeweiligen Beiräte
+* In WIN-Gebieten WIN-Mittel und Soziale Stadt
 
 ## Sonstiges
 
