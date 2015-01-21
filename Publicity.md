@@ -41,10 +41,13 @@ Die folgende Liste ist eine Ideensammlung, welche Orte einen Vorteil durch Freif
 
 * Bürgerhaus Mahndorf
 * Kidsclub Sebaldsbrück
+* Schulmuseum Bremen
+* Buche Förderverein Bibliothek Hemelingen e.V.
 * Sportvereine
 
 * Paulaner's
 * Arberger Hof
+* Restaurant Kerkyra
 * Grothenns Gasthaus
 * Centralhallen Hemelingen
 * Centralhallen Mahnorf
