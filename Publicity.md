@@ -50,7 +50,7 @@ Die folgende Liste ist eine Ideensammlung, welche Orte einen Vorteil durch Freif
 * Restaurant Kerkyra
 * Grothenns Gasthaus
 * Centralhallen Hemelingen
-* Centralhallen Mahnorf
+* Centralhallen Mahndorf
 * Bremer Heimstiftung
 
 Termine
