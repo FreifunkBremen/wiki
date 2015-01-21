@@ -1,5 +1,5 @@
 # Anleitung Freifunkrouter Flashen und Einrichten #
-Damit dein Router Teil des Freifunk-Netzes werden kann, muss er mit dem Freifunk-Betriebssystem (der „Firmware“) **bespielt**, **eingerichtet** und entsprechend **angeschlossen** werden. Im folgenden leiten wir dich durch diese drei kurzen Schritte durch. 
+Damit dein Router Teil des Freifunk-Netzes werden kann, muss er mit dem Freifunk-Betriebssystem (der „Firmware“) **bespielt**, **eingerichtet** und entsprechend **angeschlossen** werden. Im Folgenden leiten wir dich durch diese drei kurzen Schritte durch. 
 
 Aber eins vorweg: falls du dir unsicher bist, richten wir dir auch gerne einen Router bei einem der nächsten Freifunktreffen ein!
 
@@ -29,13 +29,13 @@ Am besten du verwendest das graue LAN-Kabel, was schon im Karton deines Routers 
 
 <img src="http://jel.to/ff_pics/router_anschluesse.jpg" title="Anschlüsse deines Routers" />
 
-Das Menü deines Router, über den wir die neue Firmware aufspielen erreist du über den **Webbrowser**. Tippe dazu folgende Adresse in deine Navigationsleiste **(„1.“) : 192.168.0.1**
+Das Menü deines Routers, über den wir die neue Firmware aufspielen, erreichst du über den **Webbrowser**. Tippe dazu folgende Adresse in deine Navigationsleiste **(„1.“) : 192.168.0.1**
 
 Standardmäßig musst du dich mit einem Benutzernamen und einem Password **authentifizieren**, diese lauten im Auslieferungszustand **„admin“** und **„admin“**.
 
 <img src="http://jel.to/ff_pics/menu_stock_1.jpg" title="Standard Weboberfläche">
 
-Den für uns interessanten  Menüpunkt erreichst du links unter **„System Tools“ („2.“) → „Firmware Upgrade“ („3.“)**. Hier musst du nurnoch die richtige **Firmwaredatei aus dem vorherigen Schritt auswählen („4.“)** und **hochladen („5.“)**. Prüfe bitte noch einmal, ob die Firmware wirklich zu deinem Routermodell passt, bevor du auf „Upgrade“ klickst! 
+Den für uns interessanten Menüpunkt erreichst du links unter **„System Tools“ („2.“) → „Firmware Upgrade“ („3.“)**. Hier musst du nur noch die richtige **Firmwaredatei aus dem vorherigen Schritt auswählen („4.“)** und **hochladen („5.“)**. Prüfe bitte noch einmal, ob die Firmware wirklich zu deinem Routermodell passt, bevor du auf „Upgrade“ klickst! 
 
 <img src="http://jel.to/ff_pics/menu_stock_2.jpg" title="Standard Weboberfläche">
 
@@ -56,7 +56,7 @@ Außerdem musst du festlegen, ob die Firmware des Routers sich automatisch aktua
 
 <img src="http://jel.to/ff_pics/gluon_2.png" width="350px" title="Mesh-VPN">
 
-Im folgenden musst du noch angeben, ob dein Freifunkrouter sich über das Internet mit anderen Routern verbinden soll (**Mesh-VPN**). Diese Option ist immer nötig, außer der Router fungiert rein als Repeater und verbindet sich über andere Router ins Freifunk-Netz. Zum Beispiel für den Router im Gartenhäuschen ohne direkten Zugang zum Internet ist dies sinnvoll. 
+Im Folgenden musst du noch angeben, ob dein Freifunkrouter sich über das Internet mit anderen Routern verbinden soll (**Mesh-VPN**). Diese Option ist immer nötig, außer der Router fungiert rein als Repeater und verbindet sich über andere Router ins Freifunk-Netz. Zum Beispiel für den Router im Gartenhäuschen ohne direkten Zugang zum Internet ist dies sinnvoll. 
 Falls gewünscht, kann die **Bandbreite**, die der Freifunkrouter maximal nutzten darf, über die darauf folgende Option **eingeschränkt werden** (optional).
 
 <img src="http://jel.to/ff_pics/gluon_5.png" width="350px" title="Geo-Koordinaten">
@@ -76,15 +76,15 @@ Jetzt, wo dein Router geflasht und eingerichtet wurde, musst du ihn einfach nur 
 
 <img src="http://jel.to/ff_pics/ff_an_fritz.jpg" title="Anschluss Freifunkrouter">
 
-Das andere Ende des grauen LAN-Kabels kommt in den (oft) **gelben LAN-Port deines Providerrouters** (Fritzbox, Speedport, Easybox usw.) **(„2.“)**. An dem Kabel, was aus der Wand (TAE-Dose) zu deinem Providerrouter führt und im blauen Port steckt, musst du **nichts weiter verändern** (in diesem fall das orangene Kabel). 
+Das andere Ende des grauen LAN-Kabels kommt in den (oft) **gelben LAN-Port deines Providerrouters** (Fritzbox, Speedport, Easybox usw.) **(„2.“)**. An dem Kabel, was aus der Wand (TAE-Dose) zu deinem Providerrouter führt und im blauen Port steckt, musst du **nichts weiter verändern** (in diesem Fall das orangene Kabel). 
 Sobald beide Geräte mit Strom versorgt werden, hast du nach wenigen Minuten deinen Freifunkrouter am Netz! Ebenfalls wird nach kurzer Zeit der Name deines Routers in der [Knotenliste](http://bremen.freifunk.net/map/list.html) auftauchen. 
 
 ## Expertenmodus  
 
 Dieser sollte immer vor den Änderungen im Wizzard vorgenommen werden, da beim Verlassen der Seite die Informationen nicht automatisch gespeichert werden.
 
-Im Expertenmodus ist es zudem noch möglich einen SSH-Zugriff einzurichten, damit man auch im produktiven Betrieb auf den Freifunk-Router, per SSH zugrreifen kann. Bitte dieses nur durchführen, wenn man sich damit auskennt!  
-Desweiteren kann man sich für einen Versionszweig entscheiden, der auf dem Router immer automatisch aufgespielt wird. Wir empfehlen die Standard-Einstellung.  
+Im Expertenmodus ist es zudem noch möglich einen SSH-Zugriff einzurichten, damit man auch im produktiven Betrieb auf den Freifunk-Router, per SSH zugreifen kann. Bitte dieses nur durchführen, wenn man sich damit auskennt!  
+Des Weiteren kann man sich für einen Versionszweig entscheiden, der auf dem Router immer automatisch aufgespielt wird. Wir empfehlen die Standard-Einstellung.  
 
 Solltest du vorhin das automatische Aktualisieren deaktiviert haben, kannst du bei „Firmware aktualisieren“ eine andere Version einspielen oder aber auch gar eine ganz andere Firmware.
 
