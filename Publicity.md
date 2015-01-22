@@ -31,13 +31,17 @@ Die folgende Liste ist eine Ideensammlung, welche Orte einen Vorteil durch Freif
 
 ### Hemelingen (durch PowerStat in Bearbeitung)
 
+Über WIN-Mittel finanzierbare Hardware
+
 * Kubiko / Ortsamt Hemelingen
 * Bürgerhaus Hemelingen
 * Ein Haus für unsere Freundschaft
 * Mobile Familienzentrum
 * Jugendhaus
-* Übergangswohnheim Arbergen
+* Übergangswohnheim Arbergen (Koordination über Krankenhaus Mitte)
 * Die Tafel
+
+Über Beirats Globalmittel finanzierbar
 
 * Bürgerhaus Mahndorf
 * Freizeitstätte Arberger Sommerbad e.V.
@@ -45,6 +49,8 @@ Die folgende Liste ist eine Ideensammlung, welche Orte einen Vorteil durch Freif
 * Schulmuseum Bremen
 * Buche Förderverein Bibliothek Hemelingen e.V.
 * Sportvereine
+
+Potentielle Fördermitglieder
 
 * Paulaner's
 * Arberger Hof
