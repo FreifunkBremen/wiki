@@ -1,0 +1,2 @@
+* Ich habe alles angeschlossen und konfiguriert, aber mein Freifunk Router bekommt kein Internet.
+Hast Du das Ethernet-Kable von Deinem Heimrouter auch in den richtigen Port am Freifunkrouter gesteckt. Er muss im **blauen WAN-Port** stecken.
