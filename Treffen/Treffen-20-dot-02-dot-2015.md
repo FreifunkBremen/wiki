@@ -7,4 +7,7 @@
 ## Tagesordnung
 
 * **Server-Meeting**
-* **Bericht von der [Bremer Stadtforscher](http://www.uni-bremen.de/zedis/transfer/bremer-stadtforscher.html)-"Messe"** vom 4.2.2015
+* **Server-Ausbau**: Status vpn02
+* **[Bremer Stadtforscher](http://www.uni-bremen.de/zedis/transfer/bremer-stadtforscher.html)-"Messe"** Bericht vom 4.2.2015
+* **Traum Ferienwohnungen** Bericht?
+* **Telefonat mit RTL Nord**
