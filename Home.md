@@ -4,8 +4,8 @@
 
 Wir treffen uns einmal im Monat, immer am 3. Freitag ab 19 Uhr im [Hackerspace Bremen](https://www.hackerspace-bremen.de/). 
 
-* Letztes Treffen: [[19.12.2014|Treffen/2014_12_19]]
-* Nächstes Treffen: [[16.01.2015|Treffen/2015_01_16]]
+* Letztes Treffen: [[16.01.2015|Treffen/2015_01_16]]
+* Nächstes Treffen: [[20.02.2015|Treffen/2015_02_20]]
 
 ## Inhalt dieses Wikis
 * [[Publicity]]
