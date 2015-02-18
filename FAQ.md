@@ -55,6 +55,7 @@ Du kannst uns auch aktiv unterstützen, indem Du einen eignen Knoten (Zugangspun
 Nein. Freifunk funktioniert auf freiwilliger Basis. Jede_r bringt sich so ein, wie er oder sie es für richtig hält. Eine Verpflichtung besteht nicht.
 
 ### Wo bekomme ich einen Router?
+[Da](http://wiki.bremen.freifunk.net/Routerboerse)
 
 ## Technik
 
@@ -115,7 +116,7 @@ Dies ist durch editieren der OpenWRT Netzwerkeinstellungen möglich. Jedoch exis
 ## Rechtliches
 
 ### Kann ich als Knotenbetreiber_in dafür verantwortlich gemacht werden was andere über mein Freifunk tun? (Störerhaftung)
-Nein. Der Datenverkehr wird verschlüsselt durch sogenannte Gateway Server getunnelt. Dadurch ist ist der Datenverkehr nicht zu Deinem Anschluss zurückverfolgbar und in Folge dessen diese Auslegung der Störerhaftung nicht durchsetzbar.
+Nein. Der Datenverkehr wird verschlüsselt durch sogenannte Gateway Server getunnelt. Dadurch ist ist der Datenverkehr nicht zu Deinem Anschluss zurückverfolgbar und die sog. 'Störerhaftung' nicht durchsetzbar.
 
 ### Darf ich überhaupt WLAN außerhalb meiner Wohnung versenden?
 TODO
