@@ -1,7 +1,10 @@
 # Häufig gestellte Fragen (FAQ)
-TODO: schönes Accordion oder sowas basteln und auf Hauptseite verlinken
-TODO: hyperlinks pflegen
-TODO: reviewen
+### Todos:
+* TODO: schönes Accordion oder sowas basteln 
+* TODO: FAQ und auf Hauptseite portieren
+* TODO: hyperlinks pflegen
+* TODO: reviewen beim nächsten Treffen
+
 ## Allgemein
 ### Was ist Freifunk?
 Freifunk ist ein Funknetzwerk in Bürgerhand. Privatleute stellen freiwillig offene WLAN Zugangspunkte zur Verfügung, die jeder kostenlos nutzen kann. Diese Zugangspunkte sind untereinander verbunden (in der Fachsprache: sie “meshen” miteinander) und bilden so ein dezentrales vermaschtes Netzwerk. Man kann sich Freifunk als stadtweites “Intranet” vorstellen, also ein “Internet im Kleinen”. So kann man im Freifunknetz beispielsweise Websiten aufrufen, die es nur im Freifunknetz, aber nicht im Internet gibt. Hier findest du eine Liste der verfügbaren Dienste.
