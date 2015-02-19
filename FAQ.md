@@ -18,6 +18,12 @@ Wir sind die unterschiedlichsten Menschen, die in unserer Freizeit ehrenamtlich 
 
 In naher Zukunft werden wir uns außerdem in die enge Hülle eines eingetragenen Vereins zwängen, sodass wir nach außen ein homogenes Auftreten haben.
 
+### Warum überhaupt Freifunk?
+In Zeiten von permanenter Massenüberwachung, Volumentarifen, Zensur, Monopolisierung, Abmahnwellen und einer immer größen Schere zwischen Arm und Reich ist es zwingend notwendig, freie Kommunikationsinfrastruktur zu schaffen.
+
+Freifunk-Netzwerke ermöglichen allen Menschen freien Zugriff auf Informationen und Kommunikation. Es werden zusätzlich die lokalen sozialen Strukturen gestärkt.
+Freifunk-Netzwerke lasssen sich schwerer überwachen, zensieren oder abschalten als herkömmliche zentralisierte Lösungen. 
+
 ### Warum macht ihr das?
 Weil es super viel Spaß macht ;)!
 
