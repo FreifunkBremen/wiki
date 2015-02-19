@@ -24,7 +24,7 @@ Betreiben von Bremen firmware in Städten, die bereits ein eigenes Freifunk-Netz
 Im Moment kommen ständig neue Freifunk-Gemeinden dazu. Welche Gemeinden es schon gibt, siehts Du in dieser Übersicht.
 
 ### Moment, aber ich geh doch mit Freifunk ins Internet! Wieso sagt ihr, ihr seid ein Intranet?
-Freifunk soll primär keinen HotSpot-Internetzugang darstellen wie ihn die Telekom oder FON bereits anbietet. Die Vision von Freifunk ist, ein auf WLAN basierendes eigenständiges Netz aufzubauen, ein Bürgernetz. Die Verbindung zum Internet ist daher nur ein zusätzliches optionales Feature.
+Freifunk soll primär keinen HotSpot-Internetzugang darstellen wie ihn die Telekom oder FON bereits anbietet. Die Vision von Freifunk ist, ein auf WLAN basierendes eigenständiges Netz aufzubauen, ein Bürgernetz. Die Verbindung zum Internet ist daher nur ein zusätzliches, optionales Feature.
 
 Unser Anliegen ist also nicht nur, jedem kostenlos Zugang zum Internet zu gewähren, sondern vielmehr ein Funknetzwerk in Bürgerhand aufzubauen, an dem jeder partizipieren kann und das von Niemandem kontrolliert, überwacht oder eingeschränkt werden soll.
 
@@ -39,20 +39,20 @@ Ja, Du darfst Freifunk ohne zu bezahlen und schlechtes Gewissen nutzen. Und wenn
 ### Was kostet Freifunk?
 Für die Nutzung fallen für Dich keine Kosten an. Falls Du selbst einen Freifunk-Zugang anbieten möchtest benötigst Du neben Deinem eigenen Internetanschluss (falls noch kein anderer Freifunk-Knoten in Reichweite ist) einen passenden Router. Diese kostet je nach Modell ab 20€. Du kannst ihm im Laden kaufen oder von uns bekommen. Die jährlichen Stromkosten für das Betreiben des Routers belaufen sich auf unter 10€, weitere Kosten fallen nicht an.
 
-Auf Seiten unseres Backbones fallen zusätzlich Kosten für die Server und die VPN-Zugänge an. Dies wird momentan durch Privatpersonen finanziert bzw. gespendet. In Zukunft möchten wir unter anderem diese Kosten durch regelmäßige Spenden und Mitgliedsbeiträge decken.
+Auf Seiten unseres Backbones fallen zusätzlich Kosten für die Server und die VPN-Zugänge an. Diese werden momentan durch Privatpersonen finanziert bzw. gespendet. In Zukunft möchten wir unter anderem diese Kosten durch regelmäßige Spenden und Mitgliedsbeiträge decken.
 
 ### Ich habe keine Ahnung von Technik. Kann ich dennoch einen Zugangspunkt betreiben?
 Die kurze Antwort ist: Ja, Du kannst! Auch wenn Du absolut keine Ahnung von Technik hast, aber dennoch einen Knoten betreiben möchtest, kannst Du über uns einen vorbereiteten Knoten bekommen, den Du nur noch an das Stromnetz (und gegebenenfalls an deinem bereits vorhandenen Internet-Router) anschließen musst. Ein derart vorbereiteter Knoten funktioniert “einfach so”.
 
 ### Ich habe ein wenig Ahnung von Technik, aber noch nie ein Gerät geflasht. Ist es schwer, die Freifunksoftware auf den Router aufzuspielen?
-Nein, die Installation unserer Software ist nicht schwer und wird von uns so einfach wie möglich gehalten. Wirf doch einfach einen Blick in die [Anleitung](LINK) und entscheide selbst, ob du dir das Flashen zutraust oder nicht.
+Nein, die Installation unserer Software ist nicht schwer und wird von uns so einfach wie möglich gehalten. Wirf doch einfach einen Blick in die [Anleitung](http://wiki.bremen.freifunk.net/Anleitung) und entscheide selbst, ob du dir das Flashen zutraust oder nicht.
 
-Bei Rückfragen helfen wir gerne auf einem [Treffen](LINK).
+Bei Rückfragen helfen wir gerne auf einem Treffen (siehe 'Wann trefft ihr euch?').
 
 ### Wie kann ich bei Freifunk mitmachen?
 Es gibt viele Möglichkeiten, sich für Freifunk einzusetzen. Eine einfache, aber effektive Möglichkeit uns zu helfen ist Mundpropaganda: Erzähl Deinen Freund_innen und Deiner Familie von dem Projekt und zeig ihnen, wo und wie sie Freifunk nutzen können.
 
-Du kannst uns auch aktiv unterstützen, indem Du einen eignen Knoten (Zugangspunkt) aufstellst. Du bist herzlich eingeladen zu unseren [Treffen](). Dort können wir dann besprechen, was gerade konkret anliegt und wie du dich auch mit eigenen Ideen einbringen kannst.
+Du kannst uns auch aktiv unterstützen, indem Du einen eignen Knoten (Zugangspunkt) aufstellst. Du bist herzlich eingeladen zu unseren . Dort können wir dann besprechen, was gerade konkret anliegt und wie du dich auch mit eigenen Ideen einbringen kannst.
 
 ### Muss ich zu den Treffen, wenn ich nur einen Router aufstellen möchte oder gelegentlich das WLAN mit meinem Smartphone nutze?
 Nein. Freifunk funktioniert auf freiwilliger Basis. Jede_r bringt sich so ein, wie er oder sie es für richtig hält. Eine Verpflichtung besteht nicht.
@@ -69,7 +69,7 @@ Hast Du das Ethernet-Kable von Deinem Heimrouter in den richtigen Port am Freifu
 Ja! Ein bereits in einen Freifunk-Knoten umgewandeltes Gerät kann jederzeit wieder mit der original Hersteller-Firmware geflasht (bespielt) werden und entspricht damit wieder dem Original.
 
 ### Wie schnell ist mein Zugang im Freifunk?
-Innerhalb des Funknetzes hängt die Geschwindigkeit stark von der Qualität der Funk-Verbindung ab und über wie viele Knoten sie geht. Die Geschwindigkeit der Knoten ins kabelgebundene Netz (z.B. Internet) wird jedoch maßgeblich durch die Prozessor-Leistung der Knoten begrenzt. Denn die müssen den VPN-Tunnel ver- & endschlüsseln, was viel Rechenleistung benötigt. Gemessene Richtwerte pro Modell findest Du [hier](https://projects.universe-factory.net/projects/fastd/wiki/Benchmarks).
+Innerhalb des Funknetzes hängt die Geschwindigkeit stark von der Qualität der Funk-Verbindung ab und über wie viele Knoten sie geht. Die Geschwindigkeit der Knoten ins kabelgebundene Netz (z.B. Internet) wird jedoch maßgeblich durch die Prozessor-Leistung der Knoten begrenzt. Denn die müssen den VPN-Tunnel ver- & endschlüsseln, was viel Rechenleistung benötigt. Gemessene Richtwerte pro Modell findest Du [hier](https://projects.universe-factory.net/projects/fastd/wiki/Benchmarks). Grundsätzlich surfst du also übers Freifunk minimal langsamer.
 
 ### Mein Freifunk-Router spannt ein zweites WLAN mit dem Namen mesh.ffhb auf. Was bedeutet das?
 Das zweite WLAN mit einer SSID mesh.ffhb ist ein Ad-hoc-WLAN und dient der Vernetzung der einzelnen Router untereinander. “Sehen” sich zwei Freifunk-Konten in ihrem Empfangsbereich, so nehmen sie über diese WLAN-SSID miteinander Kontakt auf und leiten den Datenverkehr weiter. Wie sprechen dann davon, dass sie “meshen”, der eigentlichen Funktion des Freifunk-Netzes.
@@ -90,7 +90,9 @@ Config Mode
     Netzseite ist erreichbar auf 192.168.1.1
 
 ssh: Wenn du im Config Mode eine Root-Kennwort oder einen ssh-Schlüssel hinterlegt hast geht folgendes…
-ssh root@[IPv6-des-Freifunk-Knotens]
+
+    ssh root@[IPv6-des-Freifunk-Knotens] oder ssh root@node.ffhb oder ssh root@10.196.0.127 bei direkter Verbindung.
+    
 Wenn der Knoten am Netz ist, taucht er in dieser Liste auf. Klickst du auf den Knotennamen, siehst du seine IPv6.
 
 OpenWRT Safemode (failsafe), wenn gar nichts mehr geht…
@@ -119,12 +121,17 @@ Dies ist durch editieren der OpenWRT Netzwerkeinstellungen möglich. Jedoch exis
 ### Wie passe ich die Sendeleistung an?
 Um die Sendeleistung anzupassen ist ein Fernzugriff über SSH/Telnet notwendig.
 Mit folgendem Befehl passen wir die Sendeleistung auf einer Ubiquiti Nanostation M2 loco auf maximale 8db an:
+
     uci set wireless.radio0.txpower=8
     uci commit
     wifi
+    
 Alternativ kann auch in /etc/config/wireless eine weitere Option im radio0 hinzugefügt werden:
+
     option txpower '8'
+    
 anschließend einmal neustarten
+
     reboot
 
 ## Rechtliches
