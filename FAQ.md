@@ -28,6 +28,9 @@ Freifunk soll primär keinen HotSpot-Internetzugang darstellen wie ihn die Telek
 
 Unser Anliegen ist also nicht nur, jedem kostenlos Zugang zum Internet zu gewähren, sondern vielmehr ein Funknetzwerk in Bürgerhand aufzubauen, an dem jeder partizipieren kann und das von Niemandem kontrolliert, überwacht oder eingeschränkt werden soll.
 
+### Wann und wo trefft ihr euch immer/kann man mit euch sprechen?
+Wir treffen uns jeden dritten Freitag ab 19:00 im [Hackerspace Bremen](https://www.hackerspace-bremen.de/anfahrt/).
+
 ## Mitmachen
 
 ### Darf ich Freifunk einfach so benutzen?
@@ -113,15 +116,40 @@ Prinzipiell ja. Allerdings ist es nicht sehr Effizient, da dann schon Mesh, clie
 ### Kann ich ein privates WLAN parallel auf meinem Freifunk-Knoten herausgeben oder privates Netz über die LAN-Ports?
 Dies ist durch editieren der OpenWRT Netzwerkeinstellungen möglich. Jedoch existiert dafür noch keine Anleitung. Wenn du eine gefunden oder geschrieben hast, verknüpfe sie im Wiki.
 
+### Wie passe ich die Sendeleistung an?
+Um die Sendeleistung anzupassen ist ein Fernzugriff über SSH/Telnet notwendig.
+Mit folgendem Befehl passen wir die Sendeleistung auf einer Ubiquiti Nanostation M2 loco auf maximale 8db an:
+    uci set wireless.radio0.txpower=8
+    uci commit
+    wifi
+Alternativ kann auch in /etc/config/wireless eine weitere Option im radio0 hinzugefügt werden:
+    option txpower '8'
+anschließend einmal neustarten
+    reboot
+
 ## Rechtliches
 
 ### Kann ich als Knotenbetreiber_in dafür verantwortlich gemacht werden was andere über mein Freifunk tun? (Störerhaftung)
 Nein. Der Datenverkehr wird verschlüsselt durch sogenannte Gateway Server getunnelt. Dadurch ist ist der Datenverkehr nicht zu Deinem Anschluss zurückverfolgbar und die sog. 'Störerhaftung' nicht durchsetzbar.
 
 ### Darf ich überhaupt WLAN außerhalb meiner Wohnung versenden?
-TODO
+Grundstücksübergreifende Datenverbindungen (also eine WLAN-Verbindung zum Nachbarn) waren früher lizenzflichtig.
+Seit der Verfügung 89/2003 können jedoch ohne Abnahme und Genehmigung duch die Bundesnetzagentur grundstücksübergreifende WLAN-Netzwerke eingerichtet werden.
+Diese Regelung gilt für 2.4GHz und 5GHz.
 
 ### Darf ich meinen Internetanschluss überhaupt mit Anderen teilen?
+Grundsätzlich spricht nichts dagegen. Einige Internetprovider schließen jedoch per AGB aus, dass der eigene Anschluss mit anderen geteilt werden darf.
+Eine kleine Zusammenstellung findet sich [hier](http://wiki.freifunk.net/AGB). Besonders kommerzielle Mitnutzung wird von fast allen Providern verboten. 
 
 ### Wie ist das mit der Sendeleistung? 
-TODO
+Die Sendeleistung ist Abhängig von der Antenne und dem Frequenzband (2.4Ghz oder 5Ghz) mit dem das Gerät arbeitet.
+Sendeleistung und Antennengewinn ergeben zusammen die sog. 'mittleren äquivalenten isotropen Strahlungsleistung' (kurz EIRP).
+Im 2.4GHz-Band ist eine maximale 'Strahlenleistung' von 100mW bzw. 20db zulässig, im 5GHz-Band 200mW (23db) bzw. 30db (1W) (und als Provider sogar 4W (36db) ;)).
+Für die Nutzung der vollen 1W bzw. 30db ist es jedoch nötig, dass vom Gerät die Standards TPC und DFS implementiert werden. 
+Daher gelten für unsere Freifunkrouter als Maximalwerte 100mW (20db) im 2.4GHz Band und 200mW in 5Ghz-Band (23db).
+
+Unsere Standardrouter TP-Link 841N haben beispielsweise eine 3db Antenne und somit eine Sendeleistung von 17db, um auf den zulässigen Maximalwert von 20db (100mW) zu kommen.
+Besonders bei den Ubiquiti Geräten mit stärkerer Antenne ist es wichtig, die Sendeleistung zu kontrollieren und gegebenenfalls anzupassen.
+
+### Weitere rechtliche Fragen?
+[hier](http://wiki.freifunk.net/FAQ_Rechtliches) werden noch weitere rechtliche Fragen beantwortet.
