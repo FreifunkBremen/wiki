@@ -28,6 +28,13 @@ Freifunk soll primär keinen HotSpot-Internetzugang darstellen wie ihn die Telek
 
 Unser Anliegen ist also nicht nur, jedem kostenlos Zugang zum Internet zu gewähren, sondern vielmehr ein Funknetzwerk in Bürgerhand aufzubauen, an dem jeder partizipieren kann und das von Niemandem kontrolliert, überwacht oder eingeschränkt werden soll.
 
+### Wie sicher ist es im Freifunk zu surfen?
+Freifunk bietet ein offenes WLAN an, es ist also ohne weiteres möglich allen unverschlüsselten Verkehr mitzuschneiden und später auszuwerten. Abhilfe schafft hier die konsequente Nutzung von HTTPS wo möglich (z.B. Addon https everywhere) oder von zusätzlichen VPNs.
+
+Eine weitere Gefahr kann vom Freifunknetz selbst ausgehen. Durch die offene Netzstruktur kann *jeder Teilnehmer mit jedem kommunizieren*. Es  kann also nicht ausgeschlossen werden, dass einige böse Buben Angriffe auf andere Freifunk-Teilnehmer unternehmen. Abhilfe schaffen hier restriktive Firewalleinstellungen und zeitnahe Updates.
+
+Mehr dazu [hier](http://wiki.freifunk.net/Sicherheit).
+
 ### Wann und wo trefft ihr euch immer/kann man mit euch sprechen?
 Wir treffen uns jeden dritten Freitag ab 19:00 im [Hackerspace Bremen](https://www.hackerspace-bremen.de/anfahrt/).
 
