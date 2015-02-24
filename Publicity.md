@@ -15,11 +15,27 @@ Die folgende Liste ist eine Ideensammlung, welche Orte einen Vorteil durch Freif
 
 * Bahnhofsvorplatz
 * Café noon &#10003;
+* Bremer Informationszentrum
+für Menschenrechte und Entwicklung (beim Cinemax und außerdem Büroräume, die Fenster Richtung Breitenweg haben).
+* https://www.facebook.com/kioskbu.de (Anhänger von "Die Partei", daher vielleicht offen)
+
+### Walle
+
+* Freiraum
+* Karo
+* Hart Backbord
+* Lox
+* Naturkostladen Blockhaus Walle
+* Cafe Wallou
+* Walle Center (die versuchen gerade das Center attraktiver zu machen)
+* Rad am Turm (der Typ ist nett und offen)
+* Blaumeier Atelier
 
 ### Viertel
 
 * Sielwall-Kreuzung
 * Entlang der Straßenbahn
+* Café Sand
 
 ### Innenstadt
 
