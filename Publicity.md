@@ -44,6 +44,9 @@ für Menschenrechte und Entwicklung (beim Cinemax und außerdem Büroräume, die
 ### Findorff
 
 * lokal²
+* veganbar
+* Leuchturmfabrik
+* nah & gut (gehört Björn Haste, dem berühmten Spar in der Neustadt)
 
 ### Hemelingen (durch PowerStat in Bearbeitung)
 
