@@ -83,7 +83,7 @@ Potentielle Fördermitglieder
 Termine
 
 * 26.02. 17.30 Uhr WIN-Forum Hemelingen
-* 31.5. Gewerbeschau Hemelingen
+* 31.5. Gewerbeschau Hemelingen [Anmeldung](http://www.hemelingen-marketing.de/images/www_marketing_hemelingen/beitraege_und_module_DE/Fotos/Fotos_Veranstaltungen/2015/Gewerbeschau/Abfrage_HEVi_050215.pdf)
 
 ## Gruppierungen
 
