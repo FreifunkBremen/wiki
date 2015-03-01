@@ -18,6 +18,9 @@ Die folgende Liste ist eine Ideensammlung, welche Orte einen Vorteil durch Freif
 * Bremer Informationszentrum
 für Menschenrechte und Entwicklung (beim Cinemax und außerdem Büroräume, die Fenster Richtung Breitenweg haben).
 * https://www.facebook.com/kioskbu.de (Anhänger von "Die Partei", daher vielleicht offen)
+* Fahrradstation (wird vom ADFC betrieben)
+* Kino City46
+* Gewerkschaftshaus des DGB
 
 ### Walle
 
@@ -30,16 +33,23 @@ für Menschenrechte und Entwicklung (beim Cinemax und außerdem Büroräume, die
 * Walle Center (die versuchen gerade das Center attraktiver zu machen)
 * Rad am Turm (der Typ ist nett und offen)
 * Blaumeier Atelier
+* Hafencasino
+* Hafenmuseum
 
 ### Viertel
 
 * Sielwall-Kreuzung
 * Entlang der Straßenbahn
 * Café Sand
+* Bauernladen / Erzeuger-Verbraucher-Genossenschaft
+* BUND Bremen
 
 ### Innenstadt
 
 * Domshof
+* Bremer Geschichtenhaus (Schnoor)
+* Haus der Wissenschaft
+* Emmis Suppenbar (im Forum bei der Stadtbibliothek)
 
 ### Findorff
 
