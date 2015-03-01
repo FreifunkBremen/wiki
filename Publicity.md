@@ -31,7 +31,7 @@ für Menschenrechte und Entwicklung (beim Cinemax und außerdem Büroräume, die
 * Naturkostladen Blockhaus Walle
 * Cafe Wallou
 * Walle Center (die versuchen gerade das Center attraktiver zu machen)
-* Rad am Turm (der Typ ist nett und offen)
+* Rad am Turm (der Typ ist nett und offen, die Lage direkt beim Wochenmarkt, Sparkasse, Straßenbahnhaltestelle)
 * Blaumeier Atelier
 * Hafencasino
 * Hafenmuseum
@@ -42,7 +42,7 @@ für Menschenrechte und Entwicklung (beim Cinemax und außerdem Büroräume, die
 * Entlang der Straßenbahn
 * Café Sand
 * Bauernladen / Erzeuger-Verbraucher-Genossenschaft
-* BUND Bremen
+* BUND Bremen (am besten über BUNDjugend)
 
 ### Innenstadt
 
