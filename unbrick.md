@@ -19,7 +19,11 @@ Folgende Dinge werden benötigt:
 Zuerst gilt es die Version und das Modell des Routers herauszufinden. Anschließend darf das Gehäuse des Routers vorsichtig geöffnet werden. Dazu die zwei Schrauben unter den hinteren beiden Füßen lösen und dann den Deckel vorsichtig abhebeln.
 Nun gilt es die drei Kontakte der seriellen Schnittstelle ausfindig zu machen. Mit der Suchmaschiene deine Wahl und den Begriffen "PCB Layout + $Routermodell" "ttl pins  + $Routermodell" o.ä. sind diese leicht zu finden. Einige uns schon bekannte Pole befinden sich hier:
 
-Bilder todo
+<img src="http://jel.to/ff_pics/741v2-1.jpg" title="PCB 741v2" />
+
+<img src="http://jel.to/ff_pics/841ndv7.2.jpg" title="PCV 841v7" />
+
+...mehr folgen
 
 ## Serielle Verbindung aufbauen
 Sind die Kontaktpunkte auf der Platine ausfindig gemacht, müssen diese mit Pins bestückt werden (ja löten!). Auf diese Pins werden jetzt entsprechend die Pins des TTL-USB-Wandlers gesteckt. 
@@ -32,6 +36,8 @@ Dabei erfolgt das Verbinden wie folgt:
 ### Was tun bei 5V Wandler?
 Die Pegel des Router laufen nur bei 3.3V, es muss also gewandelt werden. Am einfachsten geht das mit einem Spannungsteiler am RX-Pin des Routers.
 Schaltung wie folgt:
+
+<img src="http://jel.to/ff_pics/spannungsteiler.jpg" title="Spannungsteiler" />
 
 ### Auf dem Computer
 Ist der Wandler richtig am Router angeschlossen muss der Adapter auch in den Computer eingesteckt werden. Mit einem Terminal-Programm öffnen wir die Schnittstelle:
