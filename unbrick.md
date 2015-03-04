@@ -35,9 +35,9 @@ Schaltung wie folgt:
 
 ### Auf dem Computer
 Ist der Wandler richtig am Router angeschlossen muss der Adapter auch in den Computer eingesteckt werden. Mit einem Terminal-Programm öffnen wir die Schnittstelle:
-
+```
 picocom -b 115200 /dev/ttyUSB0 
-
+```
 Putty, Hyperterminal o.ä. geht natürlich auch.
 Die Baudrate von 115200 muss gegebenenfalls auf das Routermodell angepasst werden.
 
@@ -45,9 +45,9 @@ Die Baudrate von 115200 muss gegebenenfalls auf das Routermodell angepasst werde
 Der Router soll später das neue Image über FTP herunterladen. Dazu ist es notwendig, dass ein (trivial) FTP-Server installiert und gestartet ist.
 Zuerst wird also tftp installiert (tftp-hpa unter Arch).
 Gestartet wird es mit
-
+```
 systemctl start tftpd.socket
-
+```
 (Socket muss eventuell erst erstellt werden)
 
 Standardmäßig ist das Verzeichnis des FTP-Servers unter Arch /srv/tftp/, hier gilt es also das ***passende*** Image hin zu kopieren. 
@@ -57,5 +57,45 @@ Mit netstat und ps aux | grep tftp prüfen, ob Server wirklich läuft
 # Console öffnen
 Sobald der Router startet müssten wir Ausgaben in der Console sehen (er rebootet ständig). Nun hämmern wir die Buchstaben "tpl" in das serielle Fenster, damit wir eine Console bekommen.
 
+## Netzwerkschnittstellen Konfigurieren
+Zuerst wird die Netzwerkschnittstelle des Computer mit der des Router verbunden (LAN oder WAN ist afaik egal). Beim Computer legen wir die IP-Adresse statisch auf 192.168.1.1/24 fest.
 
+In der Konsole des Routers legen wir Client und Server Adresse fest:
+```
+ar7240> 
+ar7240> set ipaddr 192.168.1.2
+ar7240> set serverip 192.168.1.1
+```
+## Image Übertragen
+Beide Rechner sollten jetzt über Netzwerk miteinander kommunizieren können. Mit dem Befehl:
+```
+ar7240> tftpboot 0x80000000 tplink.bin
+```
+versucht der Router das Image mit dem Namen "tplink.bin" vom FTP-Server herunterzuladen. Dieser Name muss also gegebenenfalls angepasst werden.
+
+Der Erfolg wird wie folgt quittiert:
+```
+done
+Bytes transferred = 3932160 (3c0000 hex)
+```
+Falls es zu keiner Verbindung kommen sollte, Schritte wiederholen. Eventuell gibt es ein Problem mit ARP (ich musste den ARP Eintrag für den Router bei mir auf dem Rechner statis festlegen)
+Dazu : 
+```
+sudo arp -s 192.168.1.2 $MACADRESSEDESROUTER
+```
+Die Mac-Adresse des Router lässt sich z.B. mit Wireshark herausfinden. Löschen des statischen eintrags mit:
+```
+sudo arp -d 192.168.1.2
+```
+## Firmware schreiben
+Der nächste Befehl, wichtig hierbei ist der Offset (+0x3x0000, der aus der Erfolgsmeldung übernommen werden muss, vgl. oben).
+```
+ar7240> erase 0x9f020000 +0x3c0000
+```
+Es folgt:
+```
+ar7240> cp.b 0x80000000 0x9f020000 0x3c0000
+ar7240> bootm 0x9f020000
+```
+Nun solltet ihr wieder einen ansprechbaren Router haben!
 
