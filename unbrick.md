@@ -19,8 +19,10 @@ Folgende Dinge werden benötigt:
 Zuerst gilt es die Version und das Modell des Routers herauszufinden. Anschließend darf das Gehäuse des Routers vorsichtig geöffnet werden. Dazu die zwei Schrauben unter den hinteren beiden Füßen lösen und dann den Deckel vorsichtig abhebeln.
 Nun gilt es die drei Kontakte der seriellen Schnittstelle ausfindig zu machen. Mit der Suchmaschiene deine Wahl und den Begriffen "PCB Layout + $Routermodell" "ttl pins  + $Routermodell" o.ä. sind diese leicht zu finden. Einige uns schon bekannte Pole befinden sich hier:
 
+Platine des 741v2:
 <img src="http://jel.to/ff_pics/741v2-1.jpg" title="PCB 741v2" />
 
+Platine des 841v7:
 <img src="http://jel.to/ff_pics/841ndv7.2.jpg" title="PCV 841v7" />
 
 ...mehr folgen
