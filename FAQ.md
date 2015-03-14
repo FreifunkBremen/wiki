@@ -22,7 +22,7 @@
 
 ### Mitmachen
 
-[Wann und wo trefft ihr euch immer/kann man mit euch sprechen?]()
+[Wann und wo trefft ihr euch immer/kann man mit euch sprechen?](http://wiki.bremen.freifunk.net/FAQ#h%C3%A4ufig-gestellte-fragen-faq_allgemein_mitmachen_technik_rechtliches_allgemein_was-ist-freifunk_wie-kann-ich-freifunk-nutzen_wer-seid-ihr_warum-%C3%BCberhaupt-freifunk_warum-macht-ihr-das_was-ist-ein-knoten-node_kann-ich-einen-freifunk-knoten-mit-bremer-firmware-ausserhalb-bremens-betreiben_moment-aber-ich-geh-doch-mit-freifunk-ins-internet-wieso-sagt-ihr-ihr-seid-ein-intranet_wie-sicher-ist-es-im-freifunk-zu-surfen_mitmachen_wann-und-wo-trefft-ihr-euch-immer-kann-man-mit-euch-sprechen)
 
 [Darf ich Freifunk einfach so benutzen?]()
 
