@@ -2,7 +2,7 @@
 
 ### Allgemein
 
-[Was ist Freifunk?](http://wiki.bremen.freifunk.net/FAQ#h%C3%A4ufig-gestellte-fragen-faq_allgemein_mitmachen_technik_rechtliches_allgemein_was-ist-freifunk)
+[Was ist Freifunk?](#test)
 
 [Wie kann ich Freifunk nutzen](http://wiki.bremen.freifunk.net/FAQ#h%C3%A4ufig-gestellte-fragen-faq_allgemein_mitmachen_technik_rechtliches_allgemein_was-ist-freifunk_wie-kann-ich-freifunk-nutzen)
 
@@ -74,8 +74,8 @@
 
 
 ## Allgemein
-### Was ist Freifunk?
-Freifunk ist ein Funknetzwerk in Bürgerhand. Privatleute stellen freiwillig offene WLAN Zugangspunkte zur Verfügung, die jeder kostenlos nutzen kann. Diese Zugangspunkte sind untereinander verbunden (in der Fachsprache: sie “meshen” miteinander) und bilden so ein dezentrales vermaschtes Netzwerk. Man kann sich Freifunk als stadtweites “Intranet” vorstellen, also ein “Internet im Kleinen”. So kann man im Freifunknetz beispielsweise Websiten aufrufen, die es nur im Freifunknetz, aber nicht im Internet gibt. Hier findest du eine Liste der verfügbaren Dienste.
+<span id ="test">### Was ist Freifunk?
+Freifunk ist ein Funknetzwerk in Bürgerhand. Privatleute stellen freiwillig offene WLAN Zugangspunkte zur Verfügung, die jeder kostenlos nutzen kann. Diese Zugangspunkte sind untereinander verbunden (in der Fachsprache: sie “meshen” miteinander) und bilden so ein dezentrales vermaschtes Netzwerk. Man kann sich Freifunk als stadtweites “Intranet” vorstellen, also ein “Internet im Kleinen”. So kann man im Freifunknetz beispielsweise Websiten aufrufen, die es nur im Freifunknetz, aber nicht im Internet gibt. Hier findest du eine Liste der verfügbaren Dienste.</span>
 
 ### Wie kann ich Freifunk nutzen?
 Im Empfangsbereich eines Zugangspunktes kannst Du das Freifunk-Netz mit jedem WLAN-fähigen Endgerät nutzen. Wenn Du bei eingeschaltetem WLAN den Netzwerknamen bremen.freifunk.net siehst, kannst Du Dich einfach und ohne Passwort mit dem Funknetzwerk verbinden. Den nächsten Zugangspunkt findest Du unter
