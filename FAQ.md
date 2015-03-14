@@ -2,11 +2,11 @@
 
 ### Allgemein
 
-[Was ist Freifunk?](http://wiki.bremen.freifunk.net/FAQ#h%C3%A4ufig-gestellte-fragen-faq_todos_allgemein_was-ist-freifunk)
+[Was ist Freifunk?](http://wiki.bremen.freifunk.net/FAQ#h%C3%A4ufig-gestellte-fragen-faq_allgemein_mitmachen_technik_rechtliches_allgemein_was-ist-freifunk)
 
-[Wie kann ich Freifunk nutzen]()
+[Wie kann ich Freifunk nutzen](http://wiki.bremen.freifunk.net/FAQ#h%C3%A4ufig-gestellte-fragen-faq_allgemein_mitmachen_technik_rechtliches_allgemein_was-ist-freifunk_wie-kann-ich-freifunk-nutzen)
 
-[Wer seid ihr?]()
+[Wer seid ihr?](http://wiki.bremen.freifunk.net/FAQ#h%C3%A4ufig-gestellte-fragen-faq_allgemein_mitmachen_technik_rechtliches_allgemein_was-ist-freifunk_wie-kann-ich-freifunk-nutzen_wer-seid-ihr)
 
 [Warum überhaupt Freifunk?]()
 
