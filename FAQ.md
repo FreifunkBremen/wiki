@@ -79,6 +79,7 @@
 <span id ="was_ist_freifunk">
 ### Was ist Freifunk?
 Freifunk ist ein Funknetzwerk in Bürgerhand. Privatleute stellen freiwillig offene WLAN Zugangspunkte zur Verfügung, die jeder kostenlos nutzen kann. Diese Zugangspunkte sind untereinander verbunden (in der Fachsprache: sie “meshen” miteinander) und bilden so ein dezentrales vermaschtes Netzwerk. Man kann sich Freifunk als stadtweites “Intranet” vorstellen, also ein “Internet im Kleinen”. So kann man im Freifunknetz beispielsweise Websiten aufrufen, die es nur im Freifunknetz, aber nicht im Internet gibt. Hier findest du eine Liste der verfügbaren Dienste.
+[zurück](http://wiki.bremen.freifunk.net/FAQ#h%C3%A4ufig-gestellte-fragen-faq)
 </span>
 
 <span id ="wie_kann_ich_freifunk_nutzen">
