@@ -8,17 +8,17 @@
 
 [Wer seid ihr?](http://wiki.bremen.freifunk.net/FAQ#h%C3%A4ufig-gestellte-fragen-faq_allgemein_mitmachen_technik_rechtliches_allgemein_was-ist-freifunk_wie-kann-ich-freifunk-nutzen_wer-seid-ihr)
 
-[Warum überhaupt Freifunk?]()
+[Warum überhaupt Freifunk?](http://wiki.bremen.freifunk.net/FAQ#h%C3%A4ufig-gestellte-fragen-faq_allgemein_mitmachen_technik_rechtliches_allgemein_was-ist-freifunk_wie-kann-ich-freifunk-nutzen_wer-seid-ihr_warum-%C3%BCberhaupt-freifunk)
 
-[Warum macht ihr das?]()
+[Warum macht ihr das?](http://wiki.bremen.freifunk.net/FAQ#h%C3%A4ufig-gestellte-fragen-faq_allgemein_mitmachen_technik_rechtliches_allgemein_was-ist-freifunk_wie-kann-ich-freifunk-nutzen_wer-seid-ihr_warum-%C3%BCberhaupt-freifunk_warum-macht-ihr-das)
 
-[Was ist ein Knoten (Node)?]()
+[Was ist ein Knoten (Node)?](http://wiki.bremen.freifunk.net/FAQ#h%C3%A4ufig-gestellte-fragen-faq_allgemein_mitmachen_technik_rechtliches_allgemein_was-ist-freifunk_wie-kann-ich-freifunk-nutzen_wer-seid-ihr_warum-%C3%BCberhaupt-freifunk_warum-macht-ihr-das_was-ist-ein-knoten-node)
 
-[Kann ich einen Freifunk-Knoten mit Bremer Firmware ausserhalb Bremens betreiben?]()
+[Kann ich einen Freifunk-Knoten mit Bremer Firmware ausserhalb Bremens betreiben?](http://wiki.bremen.freifunk.net/FAQ#h%C3%A4ufig-gestellte-fragen-faq_allgemein_mitmachen_technik_rechtliches_allgemein_was-ist-freifunk_wie-kann-ich-freifunk-nutzen_wer-seid-ihr_warum-%C3%BCberhaupt-freifunk_warum-macht-ihr-das_was-ist-ein-knoten-node_kann-ich-einen-freifunk-knoten-mit-bremer-firmware-ausserhalb-bremens-betreiben)
 
-[Moment, aber ich geh doch mit Freifunk ins Internet! Wieso sagt ihr, ihr seid ein Intranet?]()
+[Moment, aber ich geh doch mit Freifunk ins Internet! Wieso sagt ihr, ihr seid ein Intranet?](http://wiki.bremen.freifunk.net/FAQ#h%C3%A4ufig-gestellte-fragen-faq_allgemein_mitmachen_technik_rechtliches_allgemein_was-ist-freifunk_wie-kann-ich-freifunk-nutzen_wer-seid-ihr_warum-%C3%BCberhaupt-freifunk_warum-macht-ihr-das_was-ist-ein-knoten-node_kann-ich-einen-freifunk-knoten-mit-bremer-firmware-ausserhalb-bremens-betreiben_moment-aber-ich-geh-doch-mit-freifunk-ins-internet-wieso-sagt-ihr-ihr-seid-ein-intranet)
 
-[Wie sicher ist es im Freifunk zu surfen?]()
+[Wie sicher ist es im Freifunk zu surfen?](http://wiki.bremen.freifunk.net/FAQ#h%C3%A4ufig-gestellte-fragen-faq_allgemein_mitmachen_technik_rechtliches_allgemein_was-ist-freifunk_wie-kann-ich-freifunk-nutzen_wer-seid-ihr_warum-%C3%BCberhaupt-freifunk_warum-macht-ihr-das_was-ist-ein-knoten-node_kann-ich-einen-freifunk-knoten-mit-bremer-firmware-ausserhalb-bremens-betreiben_moment-aber-ich-geh-doch-mit-freifunk-ins-internet-wieso-sagt-ihr-ihr-seid-ein-intranet_wie-sicher-ist-es-im-freifunk-zu-surfen)
 
 ### Mitmachen
 
@@ -122,10 +122,10 @@ Eine weitere Gefahr kann vom Freifunknetz selbst ausgehen. Durch die offene Netz
 
 Mehr dazu [hier](http://wiki.freifunk.net/Sicherheit).
 
+## Mitmachen
+
 ### Wann und wo trefft ihr euch immer/kann man mit euch sprechen?
 Wir treffen uns jeden dritten Freitag ab 19:00 im [Hackerspace Bremen](https://www.hackerspace-bremen.de/anfahrt/).
-
-## Mitmachen
 
 ### Darf ich Freifunk einfach so benutzen?
 Ja, Du darfst Freifunk ohne zu bezahlen und schlechtes Gewissen nutzen. Und wenn Du doch eins bekommst, mach mit, indem Du einen Knoten aufstellst. ;)
