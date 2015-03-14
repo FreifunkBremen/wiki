@@ -1,9 +1,77 @@
 # Häufig gestellte Fragen (FAQ)
-### Todos:
-* TODO: schönes Accordion oder sowas basteln 
-* TODO: FAQ und auf Hauptseite portieren
-* TODO: hyperlinks pflegen
-* TODO: reviewen beim nächsten Treffen
+
+### Allgemein
+
+[Was ist Freifunk?](http://wiki.bremen.freifunk.net/FAQ#h%C3%A4ufig-gestellte-fragen-faq_todos_allgemein_was-ist-freifunk)
+
+[Wie kann ich Freifunk nutzen]()
+
+[Wer seid ihr?]()
+
+[Warum überhaupt Freifunk?]()
+
+[Warum macht ihr das?]()
+
+[Was ist ein Knoten (Node)?]()
+
+[Kann ich einen Freifunk-Knoten mit Bremer Firmware ausserhalb Bremens betreiben?]()
+
+[Moment, aber ich geh doch mit Freifunk ins Internet! Wieso sagt ihr, ihr seid ein Intranet?]()
+
+[Wie sicher ist es im Freifunk zu surfen?]()
+
+### Mitmachen
+
+[Wann und wo trefft ihr euch immer/kann man mit euch sprechen?]()
+
+[Darf ich Freifunk einfach so benutzen?]()
+
+[Was kostet Freifunk?]()
+
+[Ich habe keine Ahnung von Technik. Kann ich dennoch einen Zugangspunkt betreiben?]()
+
+[Ich habe ein wenig Ahnung von Technik, aber noch nie ein Gerät geflasht. Ist es schwer, die Freifunksoftware auf den Router aufzuspielen?]()
+
+[Wie kann ich bei Freifunk mitmachen?]()
+
+[Muss ich zu den Treffen, wenn ich nur einen Router aufstellen möchte oder gelegentlich das WLAN mit meinem Smartphone nutze?]()
+
+[Wo bekomme ich einen Router?]()
+
+### Technik
+
+[Ich habe alles angeschlossen und konfiguriert, aber mein Freifunk Router bekommt kein Internet.]()
+
+[Lässt sich die original Firmware wieder einspielen?]()
+
+[Wie schnell ist mein Zugang im Freifunk?]()
+
+[Mein Freifunk-Router spannt ein zweites WLAN mit dem Namen mesh.ffhb auf. Was bedeutet das?]()
+
+[Kann ich den Funkkanal wechseln?]()
+
+[Kann ich meine Knotendaten (Name, Ort auf der Knotenkarte, etc.) ändern?]()
+
+[Wie kann ich meine Knoteneinstellungen ändern?]()
+
+[Wie ist die Belegung der Ports?]()
+
+[Kann ich Uplink über WLAN machen statt über Kabel?]()
+
+[Wie passe ich die Sendeleistung an?]()
+
+### Rechtliches
+
+[Kann ich als Knotenbetreiber_in dafür verantwortlich gemacht werden was andere über mein Freifunk tun? (Störerhaftung)]()
+
+[Darf ich überhaupt WLAN außerhalb meiner Wohnung versenden?]()
+
+[Darf ich meinen Internetanschluss überhaupt mit Anderen teilen?]()
+
+[Wie ist das mit der Sendeleistung?]()
+
+[Weitere rechtliche Fragen?]()
+
 
 ## Allgemein
 ### Was ist Freifunk?
@@ -88,7 +156,7 @@ Nein. Freifunk funktioniert auf freiwilliger Basis. Jede_r bringt sich so ein, w
 
 ## Technik
 
-## Ich habe alles angeschlossen und konfiguriert, aber mein Freifunk Router bekommt kein Internet.
+### Ich habe alles angeschlossen und konfiguriert, aber mein Freifunk Router bekommt kein Internet.
 Hast Du das Ethernet-Kable von Deinem Heimrouter in den richtigen Port am Freifunkrouter gesteckt? Es muss im **blauen WAN-Port** stecken.
 
 ### Lässt sich die original Firmware wieder einspielen?
