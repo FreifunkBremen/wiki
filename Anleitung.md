@@ -90,4 +90,7 @@ Solltest du vorhin das automatische Aktualisieren deaktiviert haben, kannst du b
 
 # Diagnose und Fehlerbehebung
 
-in Arbeit ;)
+## Störung des heimischen WLANs
+
+Sollte es zu Störungen des heimischen WLANs kommen, da dieses z.B. ebenfalls auf 2.4GHz sendet ist eine Möglichkeit, dieses auf das weniger verwendete 5Ghz (802.11a/n) Frequenzband umzustellen. Einfach in der Fritzbox oder
+ähnlichen Providerroutern schauen, wie die Umstellung des Frequenzbandes funktioniert. Dieses Frequenzband wird bereits von vielen Geräten unterstüzt, auch wenn diese nicht mehr ganz so aktuell sind - z.B. Thinkpad x300 von 2008.
