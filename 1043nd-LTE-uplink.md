@@ -45,7 +45,7 @@ Unter Android läuft die App "GPS Logger", welcher nicht nur in Dateien schreibe
 
 Die URL kann wie folgt aussehen:
 
-<code>http://node.ffhb/cgi-bin/setGeo?10?20</code>
+<code>http://node.ffhb.de/cgi-bin/setGeo?10?20</code>
 
 Folgendes Script liegt in <code>lib/gluon/status-page/www/cgi-bin</code> und nimmt Breiten- und Längengrad entgegen:
 
