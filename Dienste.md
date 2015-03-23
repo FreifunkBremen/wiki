@@ -13,9 +13,7 @@ Unter http://node.ffhb findest du Informationen zu dem Router, mit dem du moment
 Folgende IP-Adressen sind vergeben:
 
 * 10.196.0.0/17
-    * 10.196.0.1 VPN-Server (mortzu)
-    * 10.196.0.2 VPN-Server (jplitza)
-    * 10.196.0.3 zukünftiger VPN-Server (?) (Julian)
+    * 10.196.0.1 – 10.196.0.9 VPN-Server
     * 10.196.0.42 server, mumble, experimentell (diega)
     * 10.196.0.69 S-Bahn Fahrplan + Store (anon6789)
     * 10.196.0.70 anon6789
@@ -23,8 +21,9 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.128-159 Dienste von mortzu
     * 10.196.0.196 Dienste von Eike
     * 10.196.0.200 Dienste von jplitza
-    * 10.196.10.1 - 10.196.19.254 per DHCP vergeben von 10.196.0.1
-    * 10.196.20.1 - 10.196.29.254 per DHCP vergeben von 10.196.0.2
+    * 10.196.10.0 – 10.196.19.255 per DHCP vergeben von 10.196.0.1
+    * 10.196.20.0 – 10.196.29.255 per DHCP vergeben von 10.196.0.2
+    * 10.196.30.0 – 10.196.39.255 per DHCP vergeben von 10.196.0.3
 * 10.196.126.0/24
   * 10.196.126.0/24 Dienste von Nebirosh
 * 10.196.127.0/24
