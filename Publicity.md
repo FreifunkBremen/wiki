@@ -57,8 +57,7 @@ für Menschenrechte und Entwicklung (beim Cinemax und außerdem Büroräume, die
 * veganbar
 * Leuchturmfabrik
 * nah & gut (gehört Björn Haste, dem berühmten Spar in der Neustadt)
-* Findorffer Geschäftsleute (SimJoSt)
-  angefragt und Termin in Planung
+* Findorffer Geschäftsleute (SimJoSt), angefragt und Termin in Planung
 
 ### Hemelingen (durch PowerStat in Bearbeitung)
 
