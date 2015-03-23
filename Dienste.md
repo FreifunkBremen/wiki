@@ -1,6 +1,6 @@
 Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Dienste anbieten, die wir auf dieser Seite sammeln wollen:
 
-* [Wikipedia-Mirror (mit Bildern)](http://wikipedia.ffhb)
+* [Wikipedia-Mirror (mit Bildern)](http://wikipedia.ffhb.de)
 * [Tahoe-LAFS](Dienste/Tahoe-LAFS)
 * [Straßenbahn-Fahrplan Sielwall](http://10.196.0.69) Echtzeit Haltestellendaten (noch Testbetrieb)
 * [Freifunk Store](http://10.196.0.69/ff_store/) unkommerzielle Router-, Antennen und Teilebörse
