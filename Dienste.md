@@ -4,6 +4,8 @@ Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Die
 * [Tahoe-LAFS](Dienste/Tahoe-LAFS)
 * [Straßenbahn-Fahrplan Sielwall](http://10.196.0.69) Echtzeit Haltestellendaten (noch Testbetrieb)
 * [Freifunk Store](http://10.196.0.69/ff_store/) unkommerzielle Router-, Antennen und Teilebörse
+* [Gitlab](http://gitlab.services.ffhb.de/) per Aktivierung von genofire
+* [Chat](http://chat.services.ffhb.de/) Noch in der Entwicklung (genofire)
 
 ## Infos zum aktuellen Router
 Unter http://node.ffhb.de findest du Informationen zu dem Router, mit dem du momentan verbunden bist.
@@ -16,7 +18,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.42 server, mumble, experimentell (diega)
     * 10.196.0.69 S-Bahn Fahrplan + Store (anon6789)
     * 10.196.0.70 anon6789
-    * 10.196.0.90-95 genofire (10.196.0.90: Gitlab - Login per Anfrage)
+    * 10.196.0.90-95 genofire
     * 10.196.0.127 node.ffhb.de
     * 10.196.0.128 alternativer DNS Server (mortzu)
     * 10.196.0.129-159 Dienste von mortzu
