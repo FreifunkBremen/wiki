@@ -18,7 +18,8 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.70 anon6789
     * 10.196.0.90-95 genofire (10.196.0.90: Gitlab - Login per Anfrage)
     * 10.196.0.127 node.ffhb.de
-    * 10.196.0.128-159 Dienste von mortzu
+    * 10.196.0.128 alternativer DNS Server (mortzu)
+    * 10.196.0.129-159 Dienste von mortzu
     * 10.196.0.196 Dienste von Eike
     * 10.196.0.200 Dienste von jplitza
     * 10.196.10.0 – 10.196.19.255 per DHCP vergeben von 10.196.0.1
