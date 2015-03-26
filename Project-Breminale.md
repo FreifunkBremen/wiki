@@ -2,13 +2,9 @@
 Herzlich willkommen auf der Wiki Seite für das Project Breminale.
 Alle Informationen werden hier gesammelt.
 
-Zurück geht es hier:
-* [bremen.freifunk.net](http://bremen.freifunk.net)
-* [wiki.bremen.freifunk.net](http://wiki.bremen.freifunk.net)
-
 ## Hardware
 * VPN-Box
-* außen Stationen
+* Außenstationen
 
 ## Finanzierung der nötigen Hardware
 ### Förderung
