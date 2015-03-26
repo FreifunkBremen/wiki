@@ -1,5 +1,5 @@
-# Project Breminale
-Herzlich willkommen auf der Wiki Seite für das Project Breminale.
+# Projekt Breminale
+Herzlich willkommen auf der Wikiseite für das Projekt Breminale.
 Alle Informationen werden hier gesammelt.
 
 ## Hardware
