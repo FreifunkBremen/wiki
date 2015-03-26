@@ -1,5 +1,5 @@
 # Freifunk Bremen
-Herzlich Willkommen im Freifunk Bremen Wiki.
+Herzlich willkommen im Freifunk Bremen Wiki.
 Das Wiki stellt eine Informationssammlung da, an der jede und jeder mitarbeiten kann. Du findest hier Informationen zu den unterschiedlichsten Themen.
 
 Die wichtigsten Themen findest du unten, unter "Inhalt dieses Wikis". Alle erstellten Seiten findes du [hier](http://wiki.bremen.freifunk.net/pages). 
