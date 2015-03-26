@@ -3,7 +3,7 @@ Herzlich willkommen auf der Wikiseite für das Projekt Breminale.
 Alle Informationen werden hier gesammelt.
 
 ## Hardware
-* VPN-Box
+* VPN-Box (mortzu)
 * Außenstationen
 
 ## Finanzierung der nötigen Hardware
