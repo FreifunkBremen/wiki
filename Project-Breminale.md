@@ -2,45 +2,35 @@
 Herzlich willkommen auf der Wiki Seite für das Project Breminale.
 Alle Informationen werden hier gesammelt.
 
-Die wichtigsten Themen findest du unten, unter "Inhalt dieses Wikis". Alle erstellten Seiten findes du [hier](http://wiki.bremen.freifunk.net/pages). 
-
-Zurück zur Freifunk Hauptseite geht es [hier](http://bremen.freifunk.net) lang.
-Zurück zur Wiki Hauptseite geht es [hier](http://wiki.bremen.freifunk.net) lang.
+Zurück geht es hier:
+* [bremen.freifunk.net](http://bremen.freifunk.net)
+* [wiki.bremen.freifunk.net](http://wiki.bremen.freifunk.net)
 
 ## Navigation
-* [hier](http://bremen.freifunk.net)
+* [bremen.freifunk.net](#project-breminale_Technisches)
 
+## Finanzierung der nötigen Hardware
+### Förderung
+#### O2 ThinkBig Upgrade (1000 Euro)
+Durch die erfolgreiche Umsetzung eines O2 ThinkBig Basic Projektes, wie z. B. dieses [Freifunk für Findorff](https://www.think-big.org/projekt/freifunk-fuer-findorff/), ist es möglich ein Folgeprojekt mir einer höheren Fördersumme als 400 Euro bewilligt zu bekommen.
 
-## Infos zu unseren Treffen
+Kontakt: [SimJoSt](https://www.about.me/SimJoSt)
 
-Wir treffen uns einmal im Monat, immer am 3. Freitag ab 19 Uhr im [Hackerspace Bremen](https://www.hackerspace-bremen.de/). 
+### Sponsoren
+Hat jemand irgendwelche Ideen?
 
-* Letztes Treffen: [[20.03.2015|Treffen/2015_03_20]]
-* Nächstes Treffen: [[17.04.2015|Treffen/2015_04_17]]
+### Privatpersonen
+Es wird auf die Unterstützung von Bewohnern am Osterdeich gehofft. Dafür müsste noch einiges an Werbung gemacht werden.
 
-## Inhalt dieses Wikis
-* [[Publicity]]
-* [[Treffen]]
-* [[Dienste]]
+Außerdem wären Leihgeräte, vor allem Außenstationen, sehr erwünscht.
 
-### Technisches
-* [[Firmware]]
- * [[Unterstuetzte Router]] 
- * [[Firmware-flashen|Anleitung]]
-* [[DNS]]
-* [[Monitoring]]
-* [[FAQ]]
+## Kontakt zur Breminale
+* Sternkulutur
+  * Telefon: +49 421 500 504
+  * E-Mail: info@sternkultur.de
+* Max Maurer - Geschäftsführer Sternkultur UG
+  * E-Mail: maurer@sternkultur.de
 
-### Organisatorisches
-* [[ Wo bekomme ich einen Router? | Routerboerse ]]
-* [[Sammelbestellung Access Points | SammelbestellungAps]]
-
-### Änderungen mitbekommen
-
-Wer sich dafür interessiert, wann sich etwas an diesem Wiki ändert, kann das über das entsprechende [Repository auf github](https://github.com/FreifunkBremen/wiki/) tun, z.B. per [Atom-Feed](https://github.com/FreifunkBremen/wiki/commits/master.atom).
-
-## Kontakt
-* Mailingliste: [liste@bremen.freifunk.net](mailto:liste@bremen.freifunk.net) ([Abonnieren](https://planetcyborg.de/mailman/listinfo/ff-bremen))
-* IRC: [#ffhb im Hackint](irc:://irc.hackint.org/ffhb)
-* Twitter: [@FreifunkHB](https://twitter.com/FreifunkHB)  
-* Facebook: https://facebook.com/FreifunkBremen
+## Promotion
+### Stand
+### Aufsteller
