@@ -6,6 +6,10 @@ Zurück geht es hier:
 * [bremen.freifunk.net](http://bremen.freifunk.net)
 * [wiki.bremen.freifunk.net](http://wiki.bremen.freifunk.net)
 
+## Hardware
+* VPN-Box
+* außen Stationen
+
 ## Finanzierung der nötigen Hardware
 ### Förderung
 #### O2 ThinkBig Upgrade (1000 Euro)
@@ -29,5 +33,7 @@ Außerdem wären Leihgeräte, vor allem Außenstationen, sehr erwünscht.
   * E-Mail: maurer@sternkultur.de
 
 ## Promotion
-### Stand
 ### Aufsteller
+Der Gruppenkonsens ist, dass Aufsteller an allen Ecken eine stärkere Werbewirkung haben würden, als ein Stand. Außerdem müssten diese eh aufgestellt werden, um auf das freie WLAN aufmerksam zu machen.
+
+### Stand
