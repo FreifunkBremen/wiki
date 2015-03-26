@@ -1,0 +1,46 @@
+# Project Breminale
+Herzlich willkommen auf der Wiki Seite für das Project Breminale.
+Alle Informationen werden hier gesammelt.
+
+Die wichtigsten Themen findest du unten, unter "Inhalt dieses Wikis". Alle erstellten Seiten findes du [hier](http://wiki.bremen.freifunk.net/pages). 
+
+Zurück zur Freifunk Hauptseite geht es [hier](http://bremen.freifunk.net) lang.
+Zurück zur Wiki Hauptseite geht es [hier](http://wiki.bremen.freifunk.net) lang.
+
+## Navigation
+* [hier](http://bremen.freifunk.net)
+
+
+## Infos zu unseren Treffen
+
+Wir treffen uns einmal im Monat, immer am 3. Freitag ab 19 Uhr im [Hackerspace Bremen](https://www.hackerspace-bremen.de/). 
+
+* Letztes Treffen: [[20.03.2015|Treffen/2015_03_20]]
+* Nächstes Treffen: [[17.04.2015|Treffen/2015_04_17]]
+
+## Inhalt dieses Wikis
+* [[Publicity]]
+* [[Treffen]]
+* [[Dienste]]
+
+### Technisches
+* [[Firmware]]
+ * [[Unterstuetzte Router]] 
+ * [[Firmware-flashen|Anleitung]]
+* [[DNS]]
+* [[Monitoring]]
+* [[FAQ]]
+
+### Organisatorisches
+* [[ Wo bekomme ich einen Router? | Routerboerse ]]
+* [[Sammelbestellung Access Points | SammelbestellungAps]]
+
+### Änderungen mitbekommen
+
+Wer sich dafür interessiert, wann sich etwas an diesem Wiki ändert, kann das über das entsprechende [Repository auf github](https://github.com/FreifunkBremen/wiki/) tun, z.B. per [Atom-Feed](https://github.com/FreifunkBremen/wiki/commits/master.atom).
+
+## Kontakt
+* Mailingliste: [liste@bremen.freifunk.net](mailto:liste@bremen.freifunk.net) ([Abonnieren](https://planetcyborg.de/mailman/listinfo/ff-bremen))
+* IRC: [#ffhb im Hackint](irc:://irc.hackint.org/ffhb)
+* Twitter: [@FreifunkHB](https://twitter.com/FreifunkHB)  
+* Facebook: https://facebook.com/FreifunkBremen
