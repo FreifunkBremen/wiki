@@ -5,7 +5,7 @@ Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Die
 * [Straßenbahn-Fahrplan Sielwall](http://10.196.0.69) Echtzeit Haltestellendaten (noch Testbetrieb)
 * [Freifunk Store](http://10.196.0.69/ff_store/) unkommerzielle Router-, Antennen und Teilebörse
 * [Gitlab](http://gitlab.services.ffhb.de/) per Aktivierung von genofire
-* [Chat](http://chat.services.ffhb.de/) Noch in der Entwicklung (genofire)
+* [Chat](http://chat.services.ffhb.de/) Jabber Server. ( Webclient noch in der Entwicklung - genofire)
 
 ## Infos zum aktuellen Router
 Unter http://node.ffhb.de findest du Informationen zu dem Router, mit dem du momentan verbunden bist.
