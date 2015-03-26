@@ -6,9 +6,6 @@ Zurück geht es hier:
 * [bremen.freifunk.net](http://bremen.freifunk.net)
 * [wiki.bremen.freifunk.net](http://wiki.bremen.freifunk.net)
 
-## Navigation
-* [bremen.freifunk.net](#project-breminale_Technisches)
-
 ## Finanzierung der nötigen Hardware
 ### Förderung
 #### O2 ThinkBig Upgrade (1000 Euro)
