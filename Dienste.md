@@ -6,6 +6,7 @@ Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Die
 * [Freifunk Store](http://10.196.0.69/ff_store/) unkommerzielle Router-, Antennen und Teilebörse
 * [Gitlab](http://gitlab.services.ffhb.de/) per Aktivierung von genofire
 * [Chat](http://chat.services.ffhb.de/) Jabber Server. ( Webclient noch in der Entwicklung - genofire)
+* [SIP Server](http://10.196.2.50/web) Asterisk SIP Server ( alpha )
 
 ## Infos zum aktuellen Router
 Unter http://node.ffhb.de findest du Informationen zu dem Router, mit dem du momentan verbunden bist.
