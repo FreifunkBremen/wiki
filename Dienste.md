@@ -36,7 +36,7 @@ Folgende IP-Adressen sind vergeben:
 Feste IP-Adressen von an Freifunk-Knoten angeschlossenen Servern sollten in 10.196.0.0/24 liegen. Hier eintragen und glücklich sein.
 
 ## IPv6-Adressen
-mortzu hat bei bei SixXS das ULA-Netz fd2f:5119:0f2c::/48 registriert.
+mortzu hat bei bei SixXS das ULA-Netz fd2f:5119:0f2c::/48 registriert. Wir haben aber auch den globalen Bereich 2001:bf7:540::/43 vom Freie Netze e.V. Momentan werden beide verteilt, in der Firmware ist das ULA-Netz eingetragen.
 
 ## Andere Netze
 Aus dem Bremer Freifunk-Netz heraus erreichst du auch die Freifunk-Netze andere Städte und deren Dienste, beispielsweise [jene in Lübeck](http://luebeck.freifunk.net/wiki/Freifunk-verwenden). Auch zu anderen Netzen wie dem [dn42](http://dn42.net) oder [Chaos-VPN](http://wiki.hamburg.ccc.de/index.php/ChaosVPN) besteht eine Verbindung.
