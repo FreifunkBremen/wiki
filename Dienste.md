@@ -31,8 +31,9 @@ Folgende IP-Adressen sind vergeben:
 * 10.196.126.0/24
   * 10.196.126.0/24 Dienste von Nebirosh
 * 10.196.127.0/24
-  * 10.196.127.1 Scanner an ffhb-ASM100
+  * 10.196.127.1 Scanner an ffhb-asm100
   * 10.196.127.2 Scanner an ffhb-dvb15
+  * 10.196.127.3 Linux-ISO-Server an ffhb-asm100 (in Vorbereitung)
 
 Feste IP-Adressen von an Freifunk-Knoten angeschlossenen Servern sollten in 10.196.0.0/24 liegen. Hier eintragen und glücklich sein.
 
