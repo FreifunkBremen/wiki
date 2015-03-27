@@ -7,6 +7,7 @@ Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Die
 * [Gitlab](http://gitlab.services.ffhb.de/) per Aktivierung von genofire
 * [Chat](http://chat.services.ffhb.de/) Jabber Server. ( Webclient noch in der Entwicklung - genofire)
 * [SIP Server](http://sip.services.ffhb.de/web/) Asterisk SIP Server ( alpha - Nebirosh)
+* [Etherpad-lite](http://pads.services.ffhb.de/) kollaboratives Schreiben von Texten 
 
 ## Infos zum aktuellen Router
 Unter http://node.ffhb.de findest du Informationen zu dem Router, mit dem du momentan verbunden bist.
