@@ -8,7 +8,7 @@ Auf dieser Seite wird dargelegt welche Daten welchen Dienstes wie lange gespeich
 | Webserver     | ja           | 1 Monat                 | Serverzeit + 3 Tage    |
 | Traffic       | TODO         | TODO                    | -    |
 | Mailingliste                    | nein         | 1 Monat                       | Serverzeit + 3 Tage    |
-| E-Mail-Server | nein         | 1 Monat                 | Serverzeit + 8 Tage    |
+| E-Mail-Server | ja         | 1 Monat                 | Serverzeit + 8 Tage    |
 | Wiki Historie | TODO | TODO | - |
 | DHCP-Leases | TODO | TODO | TODO |
 | MAC und IP-Adressen für BATMAN | TODO  | TODO | TODO |
