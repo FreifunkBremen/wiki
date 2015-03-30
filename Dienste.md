@@ -18,6 +18,7 @@ Folgende IP-Adressen sind vergeben:
 * 10.196.0.0/17
     * 10.196.0.1 – 10.196.0.9 VPN-Server
     * 10.196.0.42 server, mumble, experimentell (diega)
+    * 10.196.0.60 notebook (bis dhcp zuverlässig läuft (diega))
     * 10.196.0.69 S-Bahn Fahrplan + Store (anon6789)
     * 10.196.0.70 anon6789
     * 10.196.0.90-95 genofire
