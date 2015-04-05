@@ -45,6 +45,10 @@ Wir versuchen den Grad der Sensibilität der Daten durch diese "Bezugsart" zu ve
 
 ⁶ im [Archiv der Mailingliste](https://planetcyborg.de/mailman/private/ff-bremen/) (nur für Mitglieder zugänglich)
 
+## Datenverarbeitung
+
+Es findet keine automatisierte Verarbeitung der Daten, beispielsweise zum Zweck von Profilbildung, statt. Viele der knotenbezogenen Daten inkl. Nutzungsstatistiken werden in graphischer Form aufgearbeitet und ebenso wie die Rohdaten als [Karte](http://bremen.freifunk.net/map/geomap.html) oder in [Graphen](http://bremen.freifunk.net/map/node.html?id=c6:b6:a5:52:3a:9a) der Öffentlichkeit zur Verfügung gestellt.
+
 ## Einschränkungen und künstliche Limitierungen
 Um die Verlangsamung des Gesamtnetzes zu verhindern blockieren die VPN-Server Filesharing-Diensten den Zugang ins Internet. Die Limitierung in Form von Durchsatz, Verfügbarkeit, Latenz sind ausschließlich durch Rahmenbedingungen des Netzwerkes, deren Ressourcen und der aktuellen Nutzung begrenzt.
 
