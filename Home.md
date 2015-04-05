@@ -26,6 +26,7 @@ Wir treffen uns einmal im Monat, immer am 3. Freitag ab 19 Uhr im [Hackerspace B
 * [[DNS]]
 * [[Monitoring]]
 * [[FAQ]]
+* [[Datenschutz]]
 
 ### Organisatorisches
 * [[ Wo bekomme ich einen Router? | Routerboerse ]]
