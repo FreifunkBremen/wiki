@@ -41,7 +41,7 @@ Wir versuchen den Grad der Sensibilität der Daten durch diese "Bezugsart" zu ve
 | Mails an die Mailingliste  | Person       | ✔           | ✔⁶         | 1 Monat       | +3 Tage    |
 | Änderungsverlauf im Wiki   | keine⁵       | ✔           | ✔          | unbegrenzt    | unbegrenzt |
 
-⁵ "keine" heißt hier, dass zur Speicherung von Informationen der Verweis auf eindeutige Identifikationsnummern (z.B. IP-Adressen, Session Daten) komplett bei der Erhebung oder kurze Zeit später entfernt oder stark verkürzt wird. Bei IPv4-Adressen bedeutet das konkret, dass die letzten beiden Bytes mit Nullen ersetzt werden.
+⁵ "keine" heißt hier, dass zur Speicherung von Informationen der Verweis auf eindeutige Identifikationsnummern (z.B. IP-Adressen, Session Daten) komplett bei der Erhebung oder kurze Zeit später entfernt oder stark verkürzt wird. Bei IPv4-Adressen bedeutet das konkret, dass sie durch Nullen ersetzt werden.
 
 ⁶ im [Archiv der Mailingliste](https://planetcyborg.de/mailman/private/ff-bremen/) (nur für Mitglieder zugänglich)
 
