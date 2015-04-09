@@ -8,3 +8,8 @@ Aufgrund von Nachfrage von an Freifunk interessierten Personen/Geschäften, soll
 
 
 # Gewerbe/Geschäfte
+* evtl. Schlachthofkneipe
+
+
+# Events
+* evtl. Breminale
