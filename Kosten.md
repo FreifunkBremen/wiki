@@ -7,6 +7,7 @@
 | vpn01  | mortzu        | Hetzner  | 10 € / Monat |
 | vpn02  | Plutex        | Bremen   | unbekannt    |
 | vpn03  | planet cyborg | Bremen   | 10 € / Monat |
+| vpn04  | Nebirosh      | Hetzner  | unbekannt    |
 
 ## Netzzugänge
 
