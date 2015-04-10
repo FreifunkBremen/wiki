@@ -11,9 +11,9 @@
 
 ## Netzzugänge
 
-| Uplink-Anbieter | Sponsor       | Kosten       |
-|:----------------|:--------------|:-------------|
-| hide.me         | mortzu        | 132 € / Jahr |
+| Uplink-Anbieter | Sponsor       | Kosten       | Gültig bis |
+|:----------------|:--------------|:-------------|:---------- |
+| hide.me         | mortzu        | 132 € / Jahr | 22.12.2015 |
 
 ## Domains
 
