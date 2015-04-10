@@ -22,7 +22,7 @@ Es wird auf die Unterstützung von Bewohnern am Osterdeich gehofft. Dafür müss
 Außerdem wären Leihgeräte, vor allem Außenstationen, sehr erwünscht.
 
 ## Kontakt zur Breminale
-* Sternkulutur
+* Sternkultur
   * Telefon: +49 421 500 504
   * E-Mail: info@sternkultur.de
 * Max Maurer - Geschäftsführer Sternkultur UG
