@@ -17,6 +17,9 @@ Folgende IP-Adressen sind vergeben:
 
 * 10.196.0.0/17
     * 10.196.0.1 – 10.196.0.9 VPN-Server
+      * 10.196.0.1 vpn01 (DNS, Gateway)
+      * 10.196.0.2 vpn02 (DNS, Gateway)
+      * 10.196.0.3 vpn03 (DNS, Gateway)
     * 10.196.0.42 server, mumble, experimentell (diega)
     * 10.196.0.60 notebook (bis dhcp zuverlässig läuft (diega))
     * 10.196.0.69 S-Bahn Fahrplan + Store (anon6789)
