@@ -33,3 +33,14 @@ Außerdem wären Leihgeräte, vor allem Außenstationen, sehr erwünscht.
 Der Gruppenkonsens ist, dass Aufsteller an allen Ecken eine stärkere Werbewirkung haben würden, als ein Stand. Außerdem müssten diese eh aufgestellt werden, um auf das freie WLAN aufmerksam zu machen.
 
 ### Stand
+
+
+# Aufbau Plan:
+
+## Anbindung
+* Richtfunk
+  * Umgedrehte Kommode
+* Oberweserstr.
+
+## Nodes
+  Möglichs wenig Meshing
