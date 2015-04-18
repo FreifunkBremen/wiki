@@ -24,7 +24,7 @@ Damit wir bei einem Produkt landen hinter dem wir stehen, müssen die folgenden 
   2. Wie soll Vertrauen/Legitimität etabliert werden?
   3. Sollen alle Aspekte von Freifunk erklärt werden?
 
-## Vorschlag / Antwortentwurf der Leitfragen
+## Vorschlag / Antwortentwurf der Leitfragen (by SimJoSt)
 
 1. **Zielperson**
   1. An wen wird der Flyer ausgegeben?
@@ -34,3 +34,11 @@ Damit wir bei einem Produkt landen hinter dem wir stehen, müssen die folgenden 
   2. Wo wird er ausliegen?
     1. Hackerspace
 2. **Sinn / Ziel**
+  1. Was soll mit dem Flyer erreicht werden?
+    1. Leuten, die von Freifunk schon gehört haben, erklären wie es geht und überzeugen, *dass* es geht.
+    2. Leuten, die noch *nie* von Freifunk gehört haben, eine Idee geben was es ist und was es will.
+    3. einen Leitfaden geben, an dem sich Freifunk gut erklären lässt
+    4. konkret Möglichkeiten aufzeigen zum Mitmachen (Spenden / Gerät aufstellen / Teil der Organisation werden)
+    5. Angst vor rechtlichen Konsequenzen nehmen
+  2. Welche Information soll beim Leser ankommen?
+    1. 
