@@ -1,6 +1,6 @@
-# Projekt Breminale
-Herzlich willkommen auf der Wikiseite für das Projekt Breminale.
-Alle Informationen werden hier gesammelt.
+# Team
+Schreibt euch hier gerne rein, dann sehen alle wer dabei ist. Kontakt-Möglichkeit ist natürlich optional:
+* SimJoSt - about.me/SimJoSt
 
 ## Hardware
 * VPN-Box (mortzu)
