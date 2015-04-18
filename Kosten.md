@@ -1,4 +1,4 @@
-# Kosten
+# laufende Kosten
 
 ## Server
 
