@@ -1,6 +1,6 @@
 # Team
 Schreibt euch hier gerne rein, dann sehen alle wer dabei ist. Kontakt-Möglichkeit ist natürlich optional:
-* SimJoSt - about.me/SimJoSt
+* SimJoSt - http://about.me/SimJoSt
 
 ## Hardware
 * VPN-Box (mortzu)
