@@ -1,6 +1,7 @@
 # Team
 Schreibt euch hier gerne rein, dann sehen alle wer dabei ist. Kontakt-Möglichkeit ist natürlich optional:
-* [SimJoSt](http://about.me/SimJoSt)
+* SimJoSt - about.me/SimJoSt
+* geno - geno@fireorbit.de (Mail, JID und als genofire im IRC)
 
 ## Hardware
 * VPN-Box (mortzu)
@@ -15,6 +16,10 @@ Kontakt: [SimJoSt](https://www.about.me/SimJoSt)
 
 ### Sponsoren
 Hat jemand irgendwelche Ideen?
+
+* [Digineo GmbH](http://www.digineo.de/) - Kontakt: Julian
+  * TL-WDR3600 soviele wie wir brauchen (Leihgabe)
+  * einen Server
 
 ### Privatpersonen
 Es wird auf die Unterstützung von Bewohnern am Osterdeich gehofft. Dafür müsste noch einiges an Werbung gemacht werden.
@@ -44,3 +49,9 @@ Der Gruppenkonsens ist, dass Aufsteller an allen Ecken eine stärkere Werbewirku
 
 ## Nodes
   Möglichs wenig Meshing
+
+Vorschlag (Julian):
+* Access-Points in Abständen von 50-100 Metern installieren
+* Kabel sollte robst sein und für spätere Projekte wiederverwendet werden können. Beispielsweise:
+  * 50m vorkonfektioniert: http://www.amazon.de/exec/obidos/ASIN/B00EOTHDWQ
+  * 300m-Rolle: http://www.amazon.de/exec/obidos/ASIN/B00EOTHG0K
