@@ -1,6 +1,7 @@
 # Team
 Schreibt euch hier gerne rein, dann sehen alle wer dabei ist. Kontakt-Möglichkeit ist natürlich optional:
 * SimJoSt - about.me/SimJoSt
+* geno - geno@fireorbit.de (Mail, JID und als genofire im IRC)
 
 ## Hardware
 * VPN-Box (mortzu)
