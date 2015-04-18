@@ -3,10 +3,6 @@ Schreibt euch hier gerne rein, dann sehen alle wer dabei ist. Kontakt-Möglichke
 * SimJoSt - about.me/SimJoSt
 * geno - geno@fireorbit.de (Mail, JID und als genofire im IRC)
 
-## Hardware
-* VPN-Box (mortzu)
-* Außenstationen
-
 ## Finanzierung der nötigen Hardware
 ### Förderung
 #### O2 ThinkBig Upgrade (1000 Euro)
@@ -44,12 +40,25 @@ Der Gruppenkonsens ist, dass Aufsteller an allen Ecken eine stärkere Werbewirku
 
 ## Anbindung
 * Richtfunk
-  * Umgedrehte Kommode
+  * -Umgedrehte Kommode- (Anderes Gebäude)
 * Oberweserstr.
+
+### Hardware zur Anbindung
+* VPN-Box (mortzu)
+* ein Server von [Digineo GmbH](http://www.digineo.de/) - Kontakt: Julian
+
+
 
 ## Nodes
   Möglichs wenig Meshing
+  
+  Leihgaben:
+  * 30-50 x TL-WDR3600 [Digineo GmbH](http://www.digineo.de/) - Kontakt: Julian
+  * 3 x Uniquity AP (Nebirosh)
+  * 25 x NanoStation (nukeUS)
+  * 5 x Loco (nukeUS)
 
+## Verkabelung
 Vorschlag (Julian):
 * Access-Points (WDR3600) in Abständen von 50-100 Metern installieren und untereinander verkabeln
 * Kabel sollte robst sein und für spätere Projekte wiederverwendet werden können.
