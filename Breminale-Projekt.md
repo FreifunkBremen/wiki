@@ -51,7 +51,5 @@ Der Gruppenkonsens ist, dass Aufsteller an allen Ecken eine stärkere Werbewirku
   Möglichs wenig Meshing
 
 Vorschlag (Julian):
-* Access-Points in Abständen von 50-100 Metern installieren
-* Kabel sollte robst sein und für spätere Projekte wiederverwendet werden können. Beispielsweise:
-  * 50m vorkonfektioniert: http://www.amazon.de/exec/obidos/ASIN/B00EOTHDWQ
-  * 300m-Rolle: http://www.amazon.de/exec/obidos/ASIN/B00EOTHG0K
+* Access-Points (WDR3600) in Abständen von 50-100 Metern installieren und untereinander verkabeln
+* Kabel sollte robst sein und für spätere Projekte wiederverwendet werden können.
