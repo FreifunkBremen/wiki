@@ -125,7 +125,7 @@ Diese können Ignoriert werden oder der 'on establish'-Teil einmalig per Hand od
 
 ```
 alfred -i ffhb -b ffhb
-batadv-vis -i ffhb-s
+batadv-vis -i ffhb -s
 ```
 
 Achtung: Mac-Adresse von ffhb und ffhbVPN sollten gleich heißen!
