@@ -92,8 +92,12 @@ Diese sollte nachher genutzt werden um die Geräte nachzuverfolgen, damit nichts
 
 ## Verkabelung
 Vorschlag (Julian):
-* Access-Points (WDR3600) in Abständen von 50-100 Metern installieren und untereinander verkabeln
+* Nodes (WDR3600) in Abständen von 50-100 Metern installieren und untereinander verkabeln
 * Kabel sollte robust sein und für spätere Projekte wiederverwendet werden können.
+* Kein Meshing auf den Nodes, aber [Multicast-Filter](https://github.com/freifunk-gluon/packages/tree/master/gluon/gluon-ebtables-filter-multicast/files/lib/gluon/ebtables)
+* Zetraler Router für DHCP und Load-Balancing
+* Switch-Konfiguration des WDR3600: Alle Ports ins gleiche VLAN, oder zwei VLANs (management + Freifunk)
+
 
 Vorschlag (Eike):
 * Das Netzwerkkabel sollte von den Personen mitverlegt werden die die Stände mit Strom verkabeln. Es wird sicher einen Plan geben was wo hinkommt auf der Breminale. Da könnten wir entsprechend markieren wo Access-Points hinsollen. Kabel dann am besten von der Rolle und wir müssen da Stecker oder Dosen anbringen.
