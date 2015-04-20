@@ -46,6 +46,10 @@ Man könnte eine handvoll verschiedene NodeModelle verkaufen. (nuki)
 * Richtfunk
   * -Umgedrehte Kommode- (Anderes Gebäude)
 * Oberweserstr.
+* Bürgerhaus Weserterassen (wer Fragt?)
+* Henner Flügger Domgemeinde Bremen (wer Fragt?)
+* Bremer Treff (wer Fragt?)
+* Cafe Sand (wer Fragt?)
 
 ### Hardware zur Anbindung
 * VPN-Box (mortzu)
