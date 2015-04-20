@@ -57,7 +57,7 @@ Diese sollte nachher genutzt werden um die Geräte nachzuverfolgen, damit nichts
 ## Anbindung
 * Ideen für Frage nach Uplink:
   * Privat:
-      * Oberweserstr. (Lars ehem. Lehrer)
+      * Oberweserstr.
       * Freifunker in Reederstraße
   * Firmen/öffentlich:
       * Brekom
@@ -93,9 +93,9 @@ Diese sollte nachher genutzt werden um die Geräte nachzuverfolgen, damit nichts
 ## Verkabelung
 Vorschlag (Julian):
 * Nodes (WDR3600) in Abständen von 50-100 Metern installieren und untereinander verkabeln
-* Kabel sollte robust sein und für spätere Projekte wiederverwendet werden können.
+* Kabel sollte robust sein und für spätere Projekte wiederverwendet werden können. Bis 50m vorkonfektioniert, über 50m selbst crimpen.
 * Kein Meshing auf den Nodes, aber [Multicast-Filter](https://github.com/freifunk-gluon/packages/tree/master/gluon/gluon-ebtables-filter-multicast/files/lib/gluon/ebtables)
-* Zetraler Router für DHCP und Load-Balancing
+* Zetraler Router für DHCP, VPN und Load-Balancing
 * Switch-Konfiguration des WDR3600: Alle Ports ins gleiche VLAN, oder zwei VLANs (management + Freifunk)
 
 
