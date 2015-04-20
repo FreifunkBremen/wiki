@@ -68,7 +68,7 @@ Vorschlag (Julian):
 * Kabel sollte robust sein und für spätere Projekte wiederverwendet werden können.
 
 Idee (nukeUS)
-* Nodes (wenn nicht outdoor, dann in Tüten mit AbstandsHaltern aus Pappe oder so damit der Node Luft zum Atmen hat) auf Stangen oder Rohren entlang des UferWeges auf der Seite zur Weser UND (mit Versatz) auf der Linie wo die DeichSchräge beginnt (Knick).
+* Nodes (wenn nicht outdoor, dann in stabilen Tüten [mit AbstandsHaltern aus Pappe oder so damit der Node Luft zum Atmen hat] oder in sonstwas für Boxen) auf min. 3-4 m hohen Stangen (Baustahl) oder Rohren (hab ich ca 5 Stk) entlang des UferWeges auf der Seite zur Weser UND (mit Versatz) auf der Linie wo die DeichSchräge beginnt (Knick). So würden die Kabel beim Abbau (zB der Zelte) nicht stören. Man könnte den ein oder anderen Node aber auch in den höchsten Punkt von den Zelten hängen.
 
 * Kabel 5-10cm tief im ErdReich, in einen (mit einem Spaten gemachten) Schlitz, verlegen. Entlang der Stangen (senkrecht) die Kabel zB mit PappRohren (StoffHandel entsorgt viele, habe nur 15 Stk, a 1,5m) schützen.
 
