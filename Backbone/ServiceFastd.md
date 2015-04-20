@@ -143,8 +143,8 @@ und in Cronjob-Eintragen:
 ```
 */1    * * * * /root/ffnord-alfred-announce/announce.sh -b ffhb -i ffhb > /dev/null
 ```
-
-**Achtung:** Möglicher Bug in announce.sh Zeile 11 muss `INTERFACE="-i $1"` heißen.
+Falls ein andere Hostname als der Systemweite für alfred benutzt werden soll,
+ ändern sie die Datei '/root/ffnord-alfred-announce/nodeinfo.d/hostname' ab.
 
 # TODO
  Anpassung von fastd durch das Anlege von systemd-units und netcfg.
