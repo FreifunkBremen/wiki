@@ -4,6 +4,7 @@ Schreibt euch hier gerne rein, dann sehen alle wer dabei ist. Kontakt-Möglichke
 * geno - geno@fireorbit.de (Mail, JID und als genofire im IRC)
 * nukeUS (ff@nukeUS.de, IRC)
 * anon6789
+* Eike (ffhb-breminale at kexs.info)
 
 ## Finanzierung der nötigen Hardware
 ### Förderung
@@ -67,6 +68,9 @@ Man könnte eine handvoll verschiedene NodeModelle verkaufen. (nuki)
 Vorschlag (Julian):
 * Access-Points (WDR3600) in Abständen von 50-100 Metern installieren und untereinander verkabeln
 * Kabel sollte robust sein und für spätere Projekte wiederverwendet werden können.
+
+Vorschlag (Eike):
+* Das Netzwerkkabel sollte von den Personen mitverlegt werden die die Stände mit Strom verkabeln. Es wird sicher einen Plan geben was wo hinkommt auf der Breminale. Da könnten wir entsprechend markieren wo Access-Points hinsollen. Kabel dann am besten von der Rolle und wir müssen da Stecker oder Dosen anbringen.
 
 Idee (nukeUS)
 * Nodes (wenn nicht outdoor, dann in stabilen Tüten [mit AbstandsHaltern aus Pappe oder so damit der Node Luft zum Atmen hat] oder in sonstwas für Boxen) auf min. 3-4 m hohen Stangen (Baustahl) oder Rohren (hab ich ca 5 Stk) entlang des UferWeges auf der Seite zur Weser UND (mit Versatz) auf der Linie wo die DeichSchräge beginnt (Knick). So würden die Kabel beim Abbau (zB der Zelte) nicht stören. Man könnte den ein oder anderen Node aber auch in den höchsten Punkt von den Zelten hängen.
