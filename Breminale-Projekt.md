@@ -61,6 +61,7 @@ Man könnte eine handvoll verschiedene NodeModelle verkaufen. (nuki)
       * Bürgerhaus Weserterrassen
       * Ambiente
       * St. Petri Domgemeinde (Osterdeich 70A oder Osterdeich 87 [Pastor Henner Flügger])
+      * bremer-treff.org Altenwall 29 / Ecke Tiefer
       * Umgedrehte Kommode (wird wohl nix)
 
 ### Hardware zur Anbindung
