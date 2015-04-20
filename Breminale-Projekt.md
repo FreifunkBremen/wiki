@@ -43,13 +43,23 @@ Man könnte eine handvoll verschiedene NodeModelle verkaufen. (nuki)
 # Aufbau Plan:
 
 ## Anbindung
-* Richtfunk
-  * -Umgedrehte Kommode- (Anderes Gebäude)
-* Oberweserstr.
-* Bürgerhaus Weserterassen (auch dauerhaft eine Node) (wer Fragt?)
-* Henner Flügger Domgemeinde Bremen (auch dauerhaft eine Node) (wer Fragt?)
-* Bremer Treff (auch dauerhaft eine Node)(wer Fragt?)
-* Cafe Sand (auch dauerhaft eine Node) (wer Fragt?)
+* Ideen für Frage nach Uplink:
+  * Privat:
+      * Oberweserstr.
+      * Freifunker in Reederstraße
+  * Firmen/öffentlich:
+      * Brekom
+      * LWLCom
+      * Hochschule Werderstraße / Olbersplanetarium
+      * Kunsthalle Bremen
+      * Theater am Goetheplatz
+      * Stadtbibliothek
+      * Gerhard-Marks-Haus
+      * Willhelm-Wagenfeld-Haus
+      * Villa Ichon
+      * Gesamtschule Mitte an der Brokstraße
+      * Bürgerhaus Weserterrassen
+      * Umgedrehte Kommode (wird wohl nix)
 
 ### Hardware zur Anbindung
 * VPN-Box (mortzu)
