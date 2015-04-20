@@ -64,6 +64,12 @@ Man könnte eine handvoll verschiedene NodeModelle verkaufen. (nuki)
 
   * 3 x Uniquity AP (Nebirosh)
 
+## Offene Fragen
+
+* Freifunk Firmware oder andere? z.B. mesht die Freifunkfirmware was nicht soll?
+* "Magic-Box" die den Traffic auf verschiedene Internetzugänge verteilt und ausfälle abfängt.
+* Wasserfeste Boxen für WDR-4300 und WDR-3600 ?
+
 ## Verkabelung
 Vorschlag (Julian):
 * Access-Points (WDR3600) in Abständen von 50-100 Metern installieren und untereinander verkabeln
