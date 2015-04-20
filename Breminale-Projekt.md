@@ -50,7 +50,7 @@ Man könnte eine handvoll verschiedene NodeModelle verkaufen. (nuki)
 * Wasserfeste Boxen für WDR-4300 und WDR-3600 ?
 
 # Strukturübersicht
-Hier eine kleine [(Google:(-)Karte](https://www.google.de/maps/@53.0708917,8.8166142,16z/data=!3m1!4b1!4m2!6m1!1szLIdiavRRcUY.kHkfMt2Tp8Dk?hl=de)[EDIT](https://www.google.com/maps/d/edit?mid=zLIdiavRRcUY.kHkfMt2Tp8Dk), für den mögliche Aufbau.
+Hier eine kleine [(Google-) Karte](https://www.google.de/maps/@53.0708917,8.8166142,16z/data=!3m1!4b1!4m2!6m1!1szLIdiavRRcUY.kHkfMt2Tp8Dk?hl=de) [[Edit](https://www.google.com/maps/d/edit?mid=zLIdiavRRcUY.kHkfMt2Tp8Dk)], für den mögliche Aufbau.
 
 Diese sollte nachher genutzt werden um die Geräte nachzuverfolgen, damit nichts verloren geht.
 
