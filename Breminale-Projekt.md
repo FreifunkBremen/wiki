@@ -40,7 +40,19 @@ Der Gruppenkonsens ist, dass Aufsteller an allen Ecken eine stärkere Werbewirku
 
 Man könnte eine handvoll verschiedene NodeModelle verkaufen. (nuki)
 
-# Aufbau Plan:
+
+# Aufbau Plan
+
+## Offene Fragen
+
+* Freifunk Firmware oder andere? z.B. mesht die Freifunkfirmware was nicht soll?
+* "Magic-Box" die den Traffic auf verschiedene Internetzugänge verteilt und ausfälle abfängt.
+* Wasserfeste Boxen für WDR-4300 und WDR-3600 ?
+
+# Strukturübersicht
+Hier eine kleine [Karte](https://www.google.com/maps/d/edit?mid=zLIdiavRRcUY.kHkfMt2Tp8Dk), für den mögliche Aufbau.
+
+Diese sollte nachher genutzt werden um die Geräte nachzuverfolgen, damit nichts verloren geht.
 
 ## Anbindung
 * Ideen für Frage nach Uplink:
@@ -74,16 +86,9 @@ Man könnte eine handvoll verschiedene NodeModelle verkaufen. (nuki)
   Leihgaben:
   * 30-50 x TL-WDR3600 [Digineo GmbH](http://www.digineo.de) - Kontakt: Julian
 
-  * nukeUS:  20x WDR4300, 10x 3600, 2x 3500 (süß :), dutzende PlasteRouter (2.4GHz, 1-3 Antennen), 2x PicoStation 2HP, NSM2, NSM5, 3x NanoBridge 2.4 GHz, Parabol 6° (FF-Firmware läuft direkt darauf)
-  * 10-25 x NS 5 Loco, 2x NS 2 (FF-Firmware läuft NICHT darauf, aber jew. 2 als Bridge ersetzen ein Kabel oder im AccessPointModus an LAN-Ports von Nodes nutzbar)
+  * 20x WDR4300, 10x 3600, 2x 3500 (süß :), dutzende PlasteRouter (2.4GHz, 1-3 Antennen), 2x PicoStation 2HP, NSM2, NSM5, 3x NanoBridge 2.4 GHz, Parabol 6° (FF-Firmware läuft direkt darauf) (nukeUS)
 
   * 3 x Uniquity AP (Nebirosh)
-
-## Offene Fragen
-
-* Freifunk Firmware oder andere? z.B. mesht die Freifunkfirmware was nicht soll?
-* "Magic-Box" die den Traffic auf verschiedene Internetzugänge verteilt und ausfälle abfängt.
-* Wasserfeste Boxen für WDR-4300 und WDR-3600 ?
 
 ## Verkabelung
 Vorschlag (Julian):
@@ -93,7 +98,7 @@ Vorschlag (Julian):
 Vorschlag (Eike):
 * Das Netzwerkkabel sollte von den Personen mitverlegt werden die die Stände mit Strom verkabeln. Es wird sicher einen Plan geben was wo hinkommt auf der Breminale. Da könnten wir entsprechend markieren wo Access-Points hinsollen. Kabel dann am besten von der Rolle und wir müssen da Stecker oder Dosen anbringen.
 
-Idee (nukeUS)
+Vorschlag (nukeUS):
 * Nodes (wenn nicht outdoor, dann in stabilen Tüten [mit AbstandsHaltern aus Pappe oder so damit der Node Luft zum Atmen hat] oder in sonstwas für Boxen) auf min. 3-4 m hohen Stangen (Baustahl) oder Rohren (hab ich ca 5 Stk) entlang des UferWeges auf der Seite zur Weser UND (mit Versatz) auf der Linie wo die DeichSchräge beginnt (Knick). So würden die Kabel beim Abbau (zB der Zelte) nicht stören. Man könnte den ein oder anderen Node aber auch in den höchsten Punkt von den Zelten hängen.
 
 * Kabel 5-10cm tief im ErdReich, in einen (mit einem Spaten gemachten) Schlitz, verlegen. Entlang der Stangen (senkrecht) die Kabel zB mit PappRohren (StoffHandel entsorgt viele, habe nur 15 Stk, a 1,5m) schützen.
