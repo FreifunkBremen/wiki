@@ -2,9 +2,10 @@ Aufgrund von Nachfrage von an Freifunk interessierten Personen/Geschäften, soll
 
 # Öffentliche Einrichtungen
 
-## Gewerbe / Geschäfte
-
 * evtl. Kulturzentrum Schlachthof
+
+# Gewerbe / Geschäfte
+
 
 # Privatpersonen
 
