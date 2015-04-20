@@ -3,6 +3,7 @@ Schreibt euch hier gerne rein, dann sehen alle wer dabei ist. Kontakt-Möglichke
 * SimJoSt - about.me/SimJoSt
 * geno - geno@fireorbit.de (Mail, JID und als genofire im IRC)
 * nukeUS (ff@nukeUS.de, IRC)
+* anon6789
 
 ## Finanzierung der nötigen Hardware
 ### Förderung
