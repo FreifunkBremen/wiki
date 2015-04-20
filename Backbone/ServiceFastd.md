@@ -148,3 +148,5 @@ und in Cronjob-Eintragen:
 
 # TODO
  Anpassung von fastd durch das Anlege von systemd-units und netcfg.
+# Author(en)
+genofire (mail,jid:geno@fireorbit.de - jid:genofire@chat.ffhb.de)
