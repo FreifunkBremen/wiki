@@ -1,4 +1,4 @@
-Hier wird kurz beschrieben, wie mit Fastd ein ServiceServer (Gateway Server ohne InterCity, ohne Uplink und als Fastd-Client).
+Hier wird kurz beschrieben, wie mit Fastd ein ServiceServer (Gateway Server ohne InterCity, ohne Uplink und als Fastd-Client) eingerichtet werden kann.
 
 # Installationen
 
@@ -6,6 +6,7 @@ Hier wird kurz beschrieben, wie mit Fastd ein ServiceServer (Gateway Server ohne
 Eintrage von Freifunk Repository:
 [freifunk-rheinland repo](https://wiki.archlinux.org/index.php/Unofficial_user_repositories#freifunk-rheinland)
 
+In /etc/pacman.conf
 ```
 [freifunk-rheinland]
 Server = http://mirror.fluxent.de/archlinux-custom/$repo/os/$arch
@@ -21,11 +22,16 @@ pacman -S ethtools lsb-release batman-alfred fastd batman-adv-dkms batctl
 ## Fastd (und batman)
 
 Zunächste muss ein private Key mit `fastd --generate-key` generiert werden,
- diese bitte Sicher aufheben.
+ diesen bitte sicher aufheben.
 
 Dannach die folgende Konfigurationsdatei (Dateiname-hier:ffhb-service-fastd.conf) anpassen:
-Aktualisieren der folgenden Einträge anhand [Site.conf für gluon-Nodes](https://github.com/FreifunkBremen/gluon-site-ffhb/blob/master/site.conf).
-IP-Adresse kann per `dhclient ffhb` oder wie untern Manuell gesetzt werden (beachte erlaubte IP-Bereiche und der gewählten [Ins Wiki][Dienste] einzutragen):
+Diese muss ggf. aktualisiert werden, hierzu dient [Site.conf für gluon-Nodes](https://github.com/FreifunkBremen/gluon-site-ffhb/blob/master/site.conf).
+IP-Adresse kann per `dhclient ffhb` oder wie untern Manuell gesetzt werden (beachte erlaubte IP-Bereiche und die gewählten IP-Adresse ins Wiki [Dienste] eintragen):
+
+Zu editierende Werte:
+* PRIVATE-KEY (der vorher generiert wurde)
+* FREIE-IP-ADRESSE
+* MACADDRESS (Welche sich ausgedacht wurde - villt. einfach einmal ohne fastd aufrufen)
 
 ```
 interface "ffhbVPN";
@@ -65,7 +71,7 @@ on up "
 #    ip route add $VPN via $ROUTE proto static metric 600
 #  done
 
-  ip link set up $INTERFACE address MACADDRESS-WELCHE-SICH-GENERIET_AUSGEDACHT-WURDE;
+  ip link set up $INTERFACE address MACADDRESS;
 
 ";
 on establish "
@@ -73,8 +79,8 @@ on establish "
   batctl -m ffhb if add $INTERFACE;
 
   echo 'Setup FFHB'
-  ip link set up ffhb address MACADDRESS-WELCHE-SICH-GENERIET_AUSGEDACHT-WURDE;
-  ip addr add 10.196.FREIE-IP-ADRESSE/17 broadcast 10.196.127.255 dev ffhb
+  ip link set up ffhb address MACADDRESS;
+  ip addr add FREIE-IP-ADRESSE/17 broadcast 10.196.127.255 dev ffhb
   ip route add 10.196.0.0/17 dev ffhb  proto kernel  scope link  src FREIE-IP-ADRESSE metric 50
 
 
@@ -115,7 +121,7 @@ Dannach sich mit Hilfe diese fastd starten.
 
 ### Achtung
 Dies ist nur ein Prototyp, der mit Vorsicht zu genießen ist.
-Später sollten daraus mehrer systemd-units werden.
+Später sollten daraus mehrer systemd-units und netcfg werden.
 
 Es werden Fehlermeldungen erscheinen, wenn man sich mit mehreren VPNS-Verbindet.
 Diese können Ignoriert werden oder der 'on establish'-Teil einmalig per Hand oder Skript ausgeführt werden.
@@ -128,14 +134,17 @@ alfred -i ffhb -b ffhb
 batadv-vis -i ffhb -s
 ```
 
-Achtung: Mac-Adresse von ffhb und ffhbVPN sollten gleich heißen!
+**Achtung:** Mac-Adresse von ffhb und ffhbVPN sollten gleich heißen!
 
 
-### Alfred Annoucen
+### Alfred Annoucen (Namen und Statistik übermitteln)
 Aus [Github](https://github.com/ffnord/ffnord-alfred-announce) clonen.
 und in Cronjob-Eintragen:
 ```
 */1    * * * * /root/ffnord-alfred-announce/announce.sh -b ffhb -i ffhb > /dev/null
 ```
 
-Achtung: Möglicher Bug in announce.sh Zeile 11 muss `INTERFACE="-i $1"` heißen.
+**Achtung:** Möglicher Bug in announce.sh Zeile 11 muss `INTERFACE="-i $1"` heißen.
+
+# TODO
+ Anpassung von fastd durch das Anlege von systemd-units und netcfg.
