@@ -72,4 +72,4 @@ Idee (nukeUS)
 
 * Kabel 5-10cm tief im ErdReich, in einen (mit einem Spaten gemachten) Schlitz, verlegen. Entlang der Stangen (senkrecht) die Kabel zB mit PappRohren (StoffHandel entsorgt viele, habe nur 15 Stk, a 1,5m) schützen.
 
-* Sternförmige Verkabelung wäre wohl technisch am besten, aber pragmatisch gesehen müssen wir die LAN-Ports bridgen und alle Nodes hintereinanderhängen, oder?.
+* Sternförmige Verkabelung wäre wohl technisch am besten, aber pragmatisch gesehen müssen wir die LAN-Ports bridgen, oder lieber auf unsere FF-FW verzichten und Open- oder DD- WRT oder die origiale FW nutzen und alle Nodes hintereinanderhängen, oder?.
