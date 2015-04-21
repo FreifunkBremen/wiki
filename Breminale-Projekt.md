@@ -1,22 +1,21 @@
 # Fragen fürs Treffen
-* Pläne
+* **Pläne**
   * Kabelspinne (mit Klassifizierung der Kabel)(Karte zum Planen)
   * Zelte
   * alles
-* Anbindung
+* **Anbindung**
   * bereits vor Ort?
   * Ideen für Ansprechpartner?
-  * 
-* Aufbau
+* **Aufbau**
   * inwiefern werden Kabel verlegt?
   * Platz für Stand oder NOC?
   * sind Masten vorhanden? oder dürfen wir einen eigenen Mast aufstellen? (Zelte bewegen sich bei Wind)
   * wo können INDOOR Nodes unterbringen (damit wir uns die Gehäuse sparen)
-* Promotion / Publicity
+* **Promotion / Publicity**
   * Aufsteller
   * Stand (bei NOC?)
   * welche Ankündigungsmöglichkeiten hat die Breminale (für Freifunk)?
-* Dienste
+* **Dienste**
   * Breminale-App Aktualisierung
   * Breminale-Web-Site (was sollte / kann drauf?)
   * Live-Musik-Streams aus den Zelten im Freifunk?
