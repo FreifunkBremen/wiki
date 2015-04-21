@@ -1,3 +1,24 @@
+# Fragen fürs Treffen
+* Pläne
+  * Kabelspinne (mit Klassifizierung der Kabel)(Karte zum Planen)
+  * Zelte
+  * alles
+* Anbindung
+  * bereits vor Ort?
+  * Ideen für Ansprechpartner?
+  * 
+* Aufbau
+  * inwiefern werden Kabel verlegt?
+  * Platz für Stand oder NOC?
+* Promotion
+  * Aufsteller
+  * Stand (bei NOC?)
+  
+### Leitgedanken
+* keine festen Zusagen
+* nichts (außen) selbst verlegen
+
+
 # Team
 Schreibt euch hier gerne rein, dann sehen alle wer dabei ist. Kontakt-Möglichkeit ist natürlich optional:
 * SimJoSt - about.me/SimJoSt
@@ -73,6 +94,7 @@ Diese sollte nachher genutzt werden um die Geräte nachzuverfolgen, damit nichts
       * Bürgerhaus Weserterrassen
       * Cafe Sand
       * Umgedrehte Kommode (wird wohl nix)
+  * Dedizierter VPN-Server (von Julian bei Plutex)
 
 ### Hardware zur Anbindung
 * VPN-Box (mortzu)
