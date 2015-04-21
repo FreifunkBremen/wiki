@@ -10,6 +10,8 @@
 * Aufbau
   * inwiefern werden Kabel verlegt?
   * Platz für Stand oder NOC?
+  * dürfen wir einen eigenen Mast aufstellen? (Zelte bewegen sich bei Wind)
+  * wo können INDOOR Nodes unterbringen (damit wir uns die Gehäuse sparen)
 * Promotion
   * Aufsteller
   * Stand (bei NOC?)
