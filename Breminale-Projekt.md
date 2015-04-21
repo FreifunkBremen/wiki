@@ -19,7 +19,7 @@
 * Dienste
   * Breminale-App Aktualisierung
   * Breminale-Web-Site (was sollte / kann drauf?)
-  * Live-Audio-Streams aus den Zelten im Freifunk?
+  * Live-Musik-Streams aus den Zelten im Freifunk?
   
 ### Leitgedanken
 * keine festen Zusagen
