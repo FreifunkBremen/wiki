@@ -32,6 +32,7 @@ Schreibt euch hier gerne rein, dann sehen alle wer dabei ist. Kontakt-Möglichke
 * nukeUS (ff@nukeUS.de, IRC)
 * anon6789
 * Eike (ffhb-breminale at kexs.info)
+* Julian (corny im IRC)
 
 ## Finanzierung der nötigen Hardware
 ### Förderung
