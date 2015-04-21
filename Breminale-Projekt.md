@@ -17,7 +17,8 @@
   * Stand (bei NOC?)
   * welche Ankündigungsmöglichkeiten hat die Breminale (für Freifunk)?
 * Dienste
-  * Breminale-App 
+  * Breminale-App Aktualisierung
+  * Breminale-Web-Site
   
 ### Leitgedanken
 * keine festen Zusagen
@@ -26,7 +27,7 @@
 
 # Team
 Schreibt euch hier gerne rein, dann sehen alle wer dabei ist. Kontakt-Möglichkeit ist natürlich optional:
-* SimJoSt - about.me/SimJoSt
+* SimJoSt - http://about.me/SimJoSt
 * geno - geno@fireorbit.de (Mail, JID und als genofire im IRC)
 * nukeUS (ff@nukeUS.de, IRC)
 * anon6789
