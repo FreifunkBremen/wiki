@@ -10,11 +10,14 @@
 * Aufbau
   * inwiefern werden Kabel verlegt?
   * Platz für Stand oder NOC?
-  * dürfen wir einen eigenen Mast aufstellen? (Zelte bewegen sich bei Wind)
+  * sind Masten vorhanden? oder dürfen wir einen eigenen Mast aufstellen? (Zelte bewegen sich bei Wind)
   * wo können INDOOR Nodes unterbringen (damit wir uns die Gehäuse sparen)
-* Promotion
+* Promotion / Publicity
   * Aufsteller
   * Stand (bei NOC?)
+  * welche Ankündigungsmöglichkeiten hat die Breminale (für Freifunk)?
+* Dienste
+  * Breminale-App 
   
 ### Leitgedanken
 * keine festen Zusagen
