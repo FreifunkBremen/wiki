@@ -116,9 +116,10 @@ Diese sollte nachher genutzt werden um die Geräte nachzuverfolgen, damit nichts
   Leihgaben:
   * 30-50 x TL-WDR3600 [Digineo GmbH](http://www.digineo.de) - Kontakt: Julian
 
-  * 20x WDR4300, 10x 3600, 2x 3500 (süß :), dutzende PlasteRouter (2.4GHz, 1-3 Antennen), 2x PicoStation 2HP, NSM2, NSM5, 3x NanoBridge 2.4 GHz, Parabol 6° (FF-Firmware läuft direkt darauf) (nukeUS)
+  * 14x WDR4300, 10x 3600, 2x 3500 (süß :), dutzende PlasteRouter (2.4GHz, 1-3 Antennen), 2x PicoStation 2HP, NSM2, NSM5, 3x NanoBridge 2.4 GHz, Parabol 6° (FF-Firmware läuft direkt darauf)
+  * 10+ bald 31 x NS 5 Loco, NS2, NS2 loco, 9x NS5 (bald) (FF-Firmware läuft NICHT darauf, aber jew. 2  als Bridge ersetzen ein Kabel oder im AccessPointModus an LAN-Ports von  Nodes nutzbar) (nukeUS)
 
-  * 3 x Uniquity AP (Nebirosh)
+  * 3 x UniFi AP (Nebirosh)
 
 ## Verkabelung
 Vorschlag (Julian):
@@ -132,8 +133,7 @@ Vorschlag (Eike):
 * Das Netzwerkkabel sollte von den Personen mitverlegt werden die die Stände mit Strom verkabeln. Es wird sicher einen Plan geben was wo hinkommt auf der Breminale. Da könnten wir entsprechend markieren wo Access-Points hinsollen. Kabel dann am besten von der Rolle und wir müssen da Stecker oder Dosen anbringen.
 
 Vorschlag (nukeUS):
-* Nodes (wenn nicht outdoor, dann in stabilen Tüten [mit AbstandsHaltern aus Pappe oder so damit der Node Luft zum Atmen hat] oder in sonstwas für Boxen) auf min. 3-4 m hohen Stangen (Baustahl) oder Rohren (hab ich ca 5 Stk) entlang des UferWeges auf der Seite zur Weser UND (mit Versatz) auf der Linie wo die DeichSchräge beginnt (Knick). So würden die Kabel beim Abbau (zB der Zelte) nicht stören. Man könnte den ein oder anderen Node aber auch in den höchsten Punkt von den Zelten hängen.
+* Nodes (wenn nicht outdoor, dann in BrotDosen oder sonstwas für Boxen) auf vorhandenen Masten entlang des UferWeges auf der Seite zur Weser UND (mit Versatz) auf der Linie wo die DeichSchräge beginnt (Knick). So würden die Kabel beim Abbau (zB der Zelte) nicht stören. Man könnte den ein oder anderen Node aber auch in den höchsten Punkt von den Zelten hängen.
 
-* Kabel 5-10cm tief im ErdReich, in einen (mit einem Spaten gemachten) Schlitz, verlegen. Entlang der Stangen (senkrecht) die Kabel zB mit PappRohren (StoffHandel entsorgt viele, habe nur 15 Stk, a 1,5m) schützen.
 
-* Sternförmige Verkabelung wäre wohl technisch am besten, aber pragmatisch gesehen müssen wir die LAN-Ports bridgen, oder lieber auf unsere FF-FW verzichten und Open- oder DD- WRT oder die origiale FW nutzen und alle Nodes hintereinanderhängen, oder?.
+
