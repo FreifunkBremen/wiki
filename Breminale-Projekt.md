@@ -57,7 +57,7 @@ Diese sollte nachher genutzt werden um die Geräte nachzuverfolgen, damit nichts
 ## Anbindung
 * Ideen für Frage nach Uplink:
   * Privat:
-      * Oberweserstr.
+      * Oberweserstr.(Lars ehem. Lehrer)
       * Freifunker in Reederstraße
   * Firmen/öffentlich:
       * Brekom
