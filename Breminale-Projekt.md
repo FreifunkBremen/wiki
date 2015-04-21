@@ -18,7 +18,7 @@
   * welche Ankündigungsmöglichkeiten hat die Breminale (für Freifunk)?
 * Dienste
   * Breminale-App Aktualisierung
-  * Breminale-Web-Site
+  * Breminale-Web-Site (was sollte / kann drauf?)
   
 ### Leitgedanken
 * keine festen Zusagen
