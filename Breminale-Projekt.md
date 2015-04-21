@@ -122,10 +122,10 @@ Diese sollte nachher genutzt werden um die Geräte nachzuverfolgen, damit nichts
 
 ## Verkabelung
 Vorschlag (Julian):
-* Nodes (WDR3600) in Abständen von 50-100 Metern installieren, untereinander verkabeln und auf die verfügbaren WLAN-Kanäle verteilen.
+* Nodes (WDR3600 oder WDR4300) in Abständen von 50-100 Metern installieren, untereinander verkabeln und auf die verfügbaren WLAN-Kanäle verteilen.
 * Kabel sollte robust sein und für spätere Projekte wiederverwendet werden können.
 * Zetraler Router für DHCP, VPN und Load-Balancing
-* Switch-Konfiguration des WDR3600: Alle Ports ins gleiche VLAN, oder zwei VLANs (management + Freifunk)
+* Switch-Konfiguration des WDR{3600,4300}: Alle Ports ins gleiche VLAN, oder zwei VLANs (management + Freifunk)
 
 
 Vorschlag (Eike):
