@@ -30,7 +30,7 @@
 * evtl. Glasfaser (hatte Radiobremen)
 * evtl. mehrere DSL-Leitungen über "magischen Stein"
 * evtl. Kooperation mit SWB (Sponsoring)
-* Platz für Richtungantennen-Antennen:
+* Platz für Richtfunkantennen:
   * Bürocontainer auf dem Deich
   * Fahnenmast (Binnenschiffahrtsmast), es gibt eine sehr lange Leiter vor Ort
 * Switches passen evtl. in Stromkästen, Zugang nur über Elektriker
