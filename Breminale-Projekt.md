@@ -125,6 +125,7 @@ Vorschlag (Julian):
 * Kabel sollte robust sein und für spätere Projekte wiederverwendet werden können.
 * Zentraler Router für DHCP, VPN, Load-Balancing und Traffic-Shaping
 * Switch-Konfiguration des WDR{3600,4300}: Alle Ports ins gleiche VLAN, oder zwei VLANs (management + Freifunk)
+* Kein Meshing, Monitoring evtl. mit Alfred - muss auch ohne Internet funktionieren.
 
 
 Vorschlag (Eike):
