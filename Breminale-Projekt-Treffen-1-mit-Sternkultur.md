@@ -37,10 +37,10 @@
 
 ### Haftung:
 * Veranstalter haftet für Personenschäden (jemand stolpert, etc.)
-* auch wenn wir Kabel verlegen
 
 ### Aufbau:
 * Mittwoch und Donnerstag wird Strom verlegt
+* Netzwerkkabel am besten neben Stromkabel legen und mit Kabelbindern befestigen
 * Ab Freitag:
   * Zelte
   * Bürocontainer
