@@ -96,7 +96,7 @@ Diese sollte nachher genutzt werden um die Geräte nachzuverfolgen, damit nichts
 Vorschlag (Julian):
 * Nodes (WDR3600 oder WDR4300) in Abständen von 50-100 Metern installieren, untereinander verkabeln und auf die verfügbaren WLAN-Kanäle verteilen.
 * Kabel sollte robust sein und für spätere Projekte wiederverwendet werden können.
-* Zentraler Router für DHCP, VPN, Load-Balancing und Traffic-Shaping
+* Zentraler Router für DHCP, DNS, VPN, Load-Balancing und Traffic-Shaping
 * Switch-Konfiguration des WDR{3600,4300}: Alle Ports ins gleiche VLAN, oder zwei VLANs (management + Freifunk)
 * Kein Meshing, Monitoring evtl. mit Alfred - muss auch ohne Internet funktionieren.
 
