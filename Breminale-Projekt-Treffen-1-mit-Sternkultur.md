@@ -84,15 +84,15 @@
 
 ### Mini-Office für uns:
 * wird noch geklärt
-* wahrscheinlich auf dem Deich
+* wahrscheinlich auf dem Deich, da kann man sich auch schneller bewegen.
 
 ### MS Treue:
 * zuerst gibt es Musik draußen auf Deck
 * später auch unter Deck
-* Müsste Richtfunk sein, weil Kabel hinlegen nicht geht (zu Weit und Wege dazwischen)
-* nice to have, noch nicht kontaktieren
+* Müsste Richtfunk sein, weil Kabel hinlegen nicht geht (zu weit und Wege dazwischen)
+* nice to have, erst kontaktieren wenn alles andere steht.
 
 ### Programmheft:
-* Freifunk kann erwähnt werden
+* Freifunk kann darin erwähnt werden
 * Redaktionsschluss ist der 2. Juni (Abgabetermin für Textschnpisel)
   * z.B. Zweizeiler und Logo
