@@ -113,7 +113,7 @@ Diese sollte nachher genutzt werden um die Geräte nachzuverfolgen, damit nichts
   Möglichst wenig Meshing  !!
   
   Leihgaben:
-  * 30-50 x TL-WDR3600 und ein Router (z.B. APU.1D) - [Digineo GmbH](http://www.digineo.de) / Kontakt: Julian
+  * 30-50 x TL-WDR3600 und ein Router (z.B. [APU.1D](http://www.pcengines.ch/apu1d.htm)) - [Digineo GmbH](http://www.digineo.de) / Kontakt: Julian
   * 14x WDR4300, 10x 3600, 2x 3500 (süß :), dutzende PlasteRouter (2.4GHz, 1-3 Antennen), 2x PicoStation 2HP, NSM2, NSM5, 3x NanoBridge 2.4 GHz, Parabol 6° (FF-Firmware läuft direkt darauf)
   * 10+ bald 31 x NS 5 Loco, NS2, NS2 loco, 9x NS5 (bald) (FF-Firmware läuft NICHT darauf, aber jew. 2  als Bridge ersetzen ein Kabel oder im AccessPointModus an LAN-Ports von  Nodes nutzbar) (nukeUS)
 
