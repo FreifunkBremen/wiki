@@ -17,19 +17,19 @@
   * Freifunker Plenum *(Rücksprachen mit anderen Freifunker?)*
 
 ## Zeitplanung während des Events
-* **07/08** - 07/09
- * Kabelverlegung
-* **07/10**
- * Zelte aufbau
- * Veranstallter erst jetzt da
-* **07/15**
+* **07/08** - 07/09 (Mittwoch+Donnerstag)
+ * Verlegung von Stromnetz
+* **07/10** (Freitag)
+ * Aufbau Zelte
+ * Veranstalter erst jetzt da
+* **07/15** (Mittwoch)
  * Begin Breminale
-*  *07/17*
-  * *Freifunker Plenum (villt. im NOC auf der Breminale verlegen?)*
-* **07/19**
+* **07/17** (Freitag)
+  * *Freifunker Plenum (vllt. im NOC auf der Breminale verlegen?)*
+* **07/19** (Sonntag)
  * Ende Breminale
- * Nachts Abbau
-* **07/20** - 07/21
+ * Abends Beginn des Abbaus
+* **07/20** - 07/21 (Montag+Dienstag)
  * Abbau
-* **07/22** - 07/23
+* **07/22** - 07/23 (Mittwoch+Donnerstag)
  * Mülltrupp räumt auf
