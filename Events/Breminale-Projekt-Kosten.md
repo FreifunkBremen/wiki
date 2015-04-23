@@ -1,5 +1,5 @@
-# Kosten
-Hier werden die Kosten für das Breminale Projekt Dokumentiert.
+# Finanzierungen
+Hier werden die Kosten und Einnahmen für das Breminale Projekt Dokumentiert.
 
 ## Geleistete Finanzierungen
 
