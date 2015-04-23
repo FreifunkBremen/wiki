@@ -6,14 +6,15 @@ Hier werden die Kosten für das Breminale Projekt Dokumentiert.
 ### Kosten
 |   Position                 | Kosten | Ausgelegt von |
 |----------------------------|--------|---------------|
-|Spendennode für Sternkultur | 18     | HeinzBoettjer |
-|Summe                       | 18     | -             |
+|Spendennode für Sternkultur | 20     | HeinzBoettjer |
+|Summe                       | 20     | -             |
 
 
 ### Einnahmen
-|   Einzahlung von | Betrag | Gelegenheit              |
-|------------------|--------|--------------------------|
-| HeinzBoettjer    | 3      | SpendeNode - IRC (23.04) |
-| Summe            | 3      | -                        |
+|   Einzahlung von | Betrag | Gelegenheit                            |
+|------------------|--------|----------------------------------------|
+| HeinzBoettjer    | 3      | SpendeNode - IRC (23.04)               |
+| Nebirosh         | 17     | Private gegen Rechnungen - IRC (23.04) |
+| Summe            | 3      | -                                      |
 
 ## Geplante Finanzierungen
