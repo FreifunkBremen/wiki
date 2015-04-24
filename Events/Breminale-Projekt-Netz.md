@@ -21,5 +21,8 @@ Welche Ziele wir davon wie weit erreichen können, hängt ab von:
 * Zentraler Router auf dem Gelände. Ein Ersatzgerät wäre gut.
 * Switches: Gbit-Switches wo möglich.
 * Access-Points: Möglichst Dual-Band.
-* Kabel und was dazu gehört
+* Kabel und sonstiges Material
 * Evtl. Richtfunk-Antennen
+
+Genauere Auflistung von Material und Stückzahlen:
+[[Events/Breminale-Projekt-notwendiges-Material]]
