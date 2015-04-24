@@ -1,3 +1,6 @@
+
+Um unser [[Events/Breminale-Projekt-Netz]] zu bauen brauchen wir viel Material.
+
 ### Notwendiges Material
 
 2000 - 2500 m CAT 7 S/FTP simplex Kabel auf 500m Trommeln
