@@ -4,7 +4,7 @@
 
 Jeder Besucher der Breminale sollte über unser Netz einen möglichst performanten Zugang zum Internet erhalten, sowie auf Dienste von uns zugreifen können. Am besten:
 
-* Ausreichend Access-Points für alle Besucher auf dem gesamten Gelände.
+* Ausreichend Access-Points für alle Besucher (10-20k) auf dem gesamten Gelände (25.000 m²).
 * Unbegrenzte Bandbreite und geringe Latenz ins Internet.
 * Egal was ausfällt, der Rest sollte weiter funktionieren.
 
