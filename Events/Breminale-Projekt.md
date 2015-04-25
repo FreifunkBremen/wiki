@@ -91,6 +91,7 @@ Diese sollte nachher genutzt werden um die Geräte nachzuverfolgen, damit nichts
   * 10+ bald 31 x NS 5 Loco, NS2, NS2 loco, 9x NS5 (bald) (FF-Firmware läuft NICHT darauf, aber jew. 2  als Bridge ersetzen ein Kabel oder im AccessPointModus an LAN-Ports von  Nodes nutzbar) (nukeUS)
 
   * 3 x UniFi AP (Nebirosh)
+  * Nano M (Emanuel)
 
 ## Verkabelung
 Vorschlag (Julian):
