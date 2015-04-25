@@ -25,6 +25,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.69 S-Bahn Fahrplan + Store (anon6789)
     * 10.196.0.70 anon6789
     * 10.196.0.90-95 genofire
+    * 10.196.0.100 Dienste von Lorenz
     * 10.196.0.127 node.ffhb.de
     * 10.196.0.128 alternativer DNS Server (mortzu)
     * 10.196.0.129-159 Dienste von mortzu
