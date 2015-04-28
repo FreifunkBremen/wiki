@@ -8,7 +8,7 @@
 
 #### Kein Meshing, zentraler Router (Julian)
 * Ports der WDR-Router ins gleiche VLAN
-* Ein zentraler Router (Debian/FreeBSD) für DHCP und VPN-Routing (GRE-Tunnel [Besser/schneller als pptp?(und openvpn) ]   )
+* Ein zentraler Router (Debian/FreeBSD) für DHCP und VPN-Routing (GRE-Tunnel, weil performanter als alles andere)
 * Testen: Durchsatz und Latenz des WDR-Switches (einzeln und über mehrere Nodes)
 * Testen: Funktioniert so eine Konfiguration mit Gluon? Insbesondere:
  * Funktioniert der Multicast-Filter weiterhin?
