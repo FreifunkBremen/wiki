@@ -1,5 +1,5 @@
 
-Um unser [[Events/Breminale-Projekt-Netz]] zu bauen brauchen wir viel Material.
+Um unser [[Events/Breminale/Netz]] zu bauen brauchen wir viel Material.
 
 ### Notwendiges Material
 
