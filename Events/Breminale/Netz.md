@@ -11,7 +11,7 @@ Jeder Besucher der Breminale sollte über unser Netz einen möglichst performant
 Welche Ziele wir davon wie weit erreichen können, hängt ab von:
 * Freiwilligen Helfern
 * Leihgaben
-* Finanzierung der Internet-Anbindung und benötigter Materialien ([[Events/Breminale-Projekt-Finanzierungen]])
+* Finanzierung der Internet-Anbindung und benötigter Materialien ([[Events/Breminale/Finanzierungen]])
 
 ### Wir wünschen uns
 
@@ -25,4 +25,4 @@ Welche Ziele wir davon wie weit erreichen können, hängt ab von:
 * Evtl. Richtfunk-Antennen
 
 Genauere Auflistung von Material und Stückzahlen:
-[[Events/Breminale-Projekt-notwendiges-Material]]
+[[Events/Breminale/notwendiges-Material]]
