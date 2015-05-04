@@ -1,6 +1,6 @@
 # Unterstützte Router
 
-[Hier](http://gluon.readthedocs.org/en/v2014.3/#supported-devices) findest du alle Router-Modelle für die wir eine passende Freifunk-Firmware bereitstellen.
+[Hier](http://gluon.readthedocs.org/en/v2014.4/#supported-devices) findest du alle Router-Modelle für die wir eine passende Freifunk-Firmware bereitstellen.
 
 ## Ubiquiti Besonderheiten
 * Für die Ubiquiti Picostation M2 muss das Image der Bullet benutzt werden.
