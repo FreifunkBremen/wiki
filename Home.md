@@ -13,6 +13,7 @@ Wir treffen uns einmal im Monat, immer am 3. Freitag ab 19 Uhr im [Hackerspace B
 
 * Letztes Treffen: [[17.04.2015|Treffen/2015_04_17]]
 * Nächstes Treffen: [[15.05.2015|Treffen/2015_05_15]]
+* [[Liste aller Treffen|pages/Treffen/]]
 
 ## Inhalt dieses Wikis
 * [[Oeffentlichtkeitsarbeit]]
