@@ -45,10 +45,11 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st√
 
 ### Router-Konfiguration
 
+* IPv4-Netz: 10.169.128.0/19?
+* IPv6-Netz: kommt von LWLCOM, wenn wir kein VPN machen
 * DHCPv4-Server: ISC-DCHPD oder Dnsmasq?
-  * Netz: z.B. 10.169.128.0/19
   * Lease Time: 1 Stunde?
-* radvd f√ºr IPv6 (Netz?)
+* radvd
 * DNS-Resolver? (Unbound?)
 * Wie Verbindung zu VPN-Servern?
 
