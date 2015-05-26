@@ -47,10 +47,9 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st√
 
 * IPv4-Netz: 10.169.128.0/19?
 * IPv6-Netz: kommt von LWLCOM, wenn wir kein VPN machen
-* DHCPv4-Server: ISC-DCHPD oder Dnsmasq?
-  * Lease Time: 1 Stunde?
-* radvd
+* DHCPv4-Server: ISC-DCHPD oder Dnsmasq? Lease Time: 1 Stunde?
 * DNS-Resolver? (Unbound?)
+* radvd
 * Wie Verbindung zu VPN-Servern?
 
 ### Node-Konfiguration
