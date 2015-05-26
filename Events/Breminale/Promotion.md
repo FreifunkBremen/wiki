@@ -1,6 +1,7 @@
 ## Breminale Programmheft
 
 ## Flyer
+Der Flyer Redesign läuft noch: [[Flyer-Redesign]]
 
 ## Portalseite
 Es gibt eine eigen Wiki-Seite für die [Portalseite](http://wiki.bremen.freifunk.net/Events/Breminale/Portalseite) .
