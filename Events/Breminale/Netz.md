@@ -48,6 +48,14 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st�
 * DNS-Resolver/Forwarder?
 * Wie Verbindung zu VPN-Servern?
 
+### Router-Standort
+* Sternkultur Büro-Container  
+  Standort Höhe Deichstraße; nicht 100% sicher nachts (nächtliche Abschaltung und Lagerung im Lager-Container?)
+* Sternkultur Lagercontainer  
+  Standort Höhe Deichstraße; immer bewacht, dickes Schloss, Zugriff auf die Hardware erschwert
+* Duschcontainer der Darsteller  
+  Standort Höhe Mozartstraße (direkt bei LWLcom Uplink; nicht 100% sicher, jedoch immer abgeschlossen und keiner vermutet Server-Hardware dort, wir sparen uns 160 Meter an Kabeln für die Anbindung
+
 ### Node-Konfiguration
 
 * Drei Varianten für das Switch:
