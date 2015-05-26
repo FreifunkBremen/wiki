@@ -28,6 +28,6 @@ NukeUS wollte gerne eine kleine Ausstellung aller aktuellen Geräte zur Veransch
 Über Aufsteller haben wir nicht mehr gesprochen, da die Verbreitung der Info, DASS es WLAN gibt schon recht groß ist (Zelt-Info-Tafeln, Programmheft, Radio, Website).
 Aufsteller müssten auch zusätzlich besorgt werden.
 
-## Zelt-Infoschilder
+## Zelt-Programschilder
 Zusätzlich zu dem QR-Code der auf die Portalseite zeigt, wird ein winziger Hinweis auf das WLAN dran geschrieben: "freies WLAN" ist der momentane Stand.
 Das Freifunk-Logo wird vermutlich in den QR-Code integriert.
