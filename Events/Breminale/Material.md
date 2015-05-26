@@ -25,7 +25,8 @@ n Sektorantennen um den Bereich vor den Bühnen gezielt ausleuchten zu können
 ### Nodes
   Leihgaben:
   * 30-50 x TL-WDR3600 und ein Router (z.B. [APU.1D](http://www.pcengines.ch/apu1d.htm)) - [Digineo GmbH](http://www.digineo.de) / Kontakt: Julian
-  * 14x WDR4300,  
+  * nukeUS:
+    14x WDR4300,  
     10x WDR3600,  
     2x WDR3500 (süß :),  
     dutzende PlasteRouter (2.4GHz, 1-3 Antennen),  
@@ -38,6 +39,5 @@ n Sektorantennen um den Bereich vor den Bühnen gezielt ausleuchten zu können
     NS2,  
     NS2 loco,  
     9x NS5 (bald) (FF-Firmware läuft NICHT darauf, aber jew. 2  als Bridge ersetzen ein Kabel oder im AccessPointModus an LAN-Ports von  Nodes nutzbar)  
-    Kontakt: nukeUS
   * 3 x UniFi AP (Nebirosh)
   * NS M2, NS M2 loco (Emanuel)
