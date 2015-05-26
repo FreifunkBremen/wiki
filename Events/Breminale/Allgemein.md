@@ -3,7 +3,7 @@ Um Freifunk in Bremen ein bisschen bekannter zu machen, haben wir beschlossen un
 Da diese Aktion ein Promotion-Zweck ist und normale Freifunk-Router dem Ansturm nicht standhalten würden, wird es einige Abweichungen vom normalen Aufbau vom Freifunk-Netz geben.  
 Es sollen weiterhin alle Freifunk-Dienste vor Ort nutzbar sein, aber gleichzeitig eine gesicherte Verbindung zum Internet.
 
-Alle Seiten zum Thema Projekt-Breminale findet ihr hier: [[/Events/Breminale/]]
+Alle Seiten zum Thema Projekt-Breminale findet ihr hier: [[http://wiki.bremen.freifunk.net/pages/Events/Breminale/]]
 
 # Team
 Schreibt euch hier gerne rein, dann sehen alle wer dabei ist. Kontakt-Möglichkeit ist natürlich optional:
