@@ -45,22 +45,28 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st�
 
 * IPv4-Netz: 10.169.128.0/19 ist noch frei
 * IPv6-Netz: kommt von LWLCOM, wenn wir kein VPN machen
-* DHCPv4-Server: ISC-DCHPD oder Dnsmasq? Lease Time: 1 Stunde?
-* DNS-Resolver? (Unbound?)
+* DNS-Resolver/Forwarder?
 * radvd
 * Wie Verbindung zu VPN-Servern?
 
 ### Node-Konfiguration
 
 * Drei Varianten für das Switch:
- * Batman auf einzelne Ports
- * Software-Bridge mit STP
- * kein STP und kein Batman
+ 1. Batman auf einzelne Ports
+ 2. Software-Bridge mit STP
+ 3. kein STP und kein Batman
 * maximal 10 dBm Sendeleistung (Empfehlung von morpheus)
 * 2.4 GHz-Kanäle: 1,5,9,13
 * 5 GHz-Kanäle: 100-140
-* Standard-Freifunk-Firmware
+* Standard-Freifunk-Firmware mit SSH-Keys
 * Meshing über WLAN abgeschaltet
+
+### Management und Monitoring
+
+* Muss auch ohne Internet funktionieren
+* Konfiguration der Nodes: Shell-Scripting, Ansible, ... ?
+* Monitoring: Icinga, Karte mit Router-Positionen, ... ?
+* ...
 
 ### Verkabelung
 Sobald am Mi 08.07. die Verlegung der Stromkabel erfolgt, können wir starten die Netzwerkkabel an ihnen entlang zu legen und mit Kabelbindern festzumachen. Brilliant wäre es am Do 09.07. zum Ende des Tages fertig zu sein, damit wir am Fr 10.07. uns nicht in die Quere kommen mit den "Zeltaufbauern".
@@ -69,9 +75,6 @@ Vorschlag (Julian):
 * Nodes (WDR3600 oder WDR4300) in Abständen von 50-100 Metern installieren, untereinander verkabeln und auf die verfügbaren WLAN-Kanäle verteilen.
 * Kabel sollte robust sein und für spätere Projekte wiederverwendet werden können.
 * Zentraler Router für DHCP, DNS, VPN, Load-Balancing und Traffic-Shaping
-* Switch-Konfiguration des WDR{3600,4300}: Alle Ports ins gleiche VLAN, oder zwei VLANs (management + Freifunk)
-* Kein Meshing, Monitoring evtl. mit Alfred - muss auch ohne Internet funktionieren.
-
 
 Vorschlag (Eike):
 * Das Netzwerkkabel sollte von den Personen mitverlegt werden die die Stände mit Strom verkabeln. Es wird sicher einen Plan geben was wo hinkommt auf der Breminale. Da könnten wir entsprechend markieren wo Access-Points hinsollen. Kabel dann am besten von der Rolle und wir müssen da Stecker oder Dosen anbringen.
