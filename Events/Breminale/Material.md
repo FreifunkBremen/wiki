@@ -25,7 +25,7 @@ n Sektorantennen um den Bereich vor den Bühnen gezielt ausleuchten zu können
 ### Nodes
   Leihgaben:
   * 30-50 x TL-WDR3600 und ein Router (z.B. [APU.1D](http://www.pcengines.ch/apu1d.htm)) - [Digineo GmbH](http://www.digineo.de) / Kontakt: Julian
-  * nukeUS:
+  * nukeUS:  
     14x WDR4300,  
     10x WDR3600,  
     2x WDR3500 (süß :),  
