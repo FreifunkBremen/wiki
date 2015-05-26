@@ -14,3 +14,8 @@
 * Hosting
  * bei der Breminale vor Ort
  * "extern" für Internet-Zugriff
+
+# zusätliche Service
+## SIP-Server für Kommunikation auf der Breminale
+Erwüschnt wäre ein Server vor Ort
+Fragen an Nebirosh: Verlagerung des Server für die Zeit der Breminale denkbar?
