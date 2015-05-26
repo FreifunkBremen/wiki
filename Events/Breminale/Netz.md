@@ -62,7 +62,9 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st�
 * Standard-Freifunk-Firmware
 * Meshing über WLAN abgeschaltet
 
-## Verkabelung
+### Verkabelung
+Sobald am Mi 08.07. die Verlegung der Stromkabel erfolgt, können wir starten die Netzwerkkabel an ihnen entlang zu legen und mit Kabelbindern festzumachen. Brilliant wäre es am Do 09.07. zum Ende des Tages fertig zu sein, damit wir am Fr 10.07. uns nicht in die Quere kommen mit den "Zeltaufbauern".
+
 Vorschlag (Julian):
 * Nodes (WDR3600 oder WDR4300) in Abständen von 50-100 Metern installieren, untereinander verkabeln und auf die verfügbaren WLAN-Kanäle verteilen.
 * Kabel sollte robust sein und für spätere Projekte wiederverwendet werden können.
