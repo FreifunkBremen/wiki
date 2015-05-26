@@ -33,3 +33,9 @@
  * Abbau
 * **07/22** - 07/23 (Mittwoch+Donnerstag)
  * Mülltrupp räumt auf
+
+## Termine ohne Datum
+* Treffen mit Strom-Kasten-Firma (Test: passen Nodes in die Kästen)
+* Treffen mit Bierstand-Firma (Test: wo werden Nodes sicher vor Beschädigung und Verschmutzung, sowie Nerv-frei an- oder untergebracht)
+* Nord-West Radio Auftritt Vorbereitung
+* Nord-West Radio Auftritt
