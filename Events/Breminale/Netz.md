@@ -26,3 +26,38 @@ Welche Ziele wir davon wie weit erreichen können, hängt ab von:
 
 Genauere Auflistung von Material und Stückzahlen:
 [[Events/Breminale/notwendiges-Material]]
+
+## Umsetzung
+
+### Haftung
+
+Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger störanfällig ist:
+
+1. Sternkultur ist Anschlussinhaber, Traffic wird über VPN von Mortzu getunnelt
+2. Digineo GmbH ist Anschlussinhaber, Traffic geht direkt raus
+
+### Komponenten (haben wir sicher)
+
+* Gbit-Fiber und Transceiver (SFP) von LWLCOM
+* Zentraler Router und Switch (Julian), Backup: ?
+* Kleine Debian-Kiste für Monitoring und andere Dienste (Julian), Backup?
+* WDR3600/WDR4300 als Nodes (Julian und nukeUS)
+
+### Router-Konfiguration
+
+* DHCPv4-Server: ISC-DCHPD oder Dnsmasq?
+  * Netz: z.B. 10.169.160.0/19
+  * Lease Time: 1 Stunde?
+* radvd für IPv6 (Netz?)
+* DNS-Resolver? (Unbound?)
+* Wie Verbindung zu VPN-Servern?
+
+### Node-Konfiguration
+
+* Drei Varianten für das Switch:
+ * Batman auf einzelne Ports
+ * Software-Bridge mit STP
+ * kein STP und kein Batman
+* maximal 10 dBm Sendeleistung (Empfehlung von morpheus)
+* 2.4 GHz-Kanäle: 1,5,9,13
+* 5 GHz-Kanäle: 100-140
