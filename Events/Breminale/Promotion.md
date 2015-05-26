@@ -13,7 +13,7 @@ Es gibt eine eigen Wiki-Seite für die [Portalseite](http://wiki.bremen.freifunk
 Es ist ein Auftriff bei Nord-West Radio geplant, dafür wurde eine normale Anfrage gemacht. Wenn dies nicht erfolgreich sein sollte, würde uns Sternkultur aushelfen.  
 Vorbereitungen dafür stehen noch aus.
 
-## Stand
+## Info-Stand
 Wir bekommen auf der Breminale Platz für einen Stand direkt am Fahnenmast (Breminale Schlachte-Seite).  
 Wie groß der Platz ist wird uns noch gesagt.  
 Dieser Stand wird unser **NOC** sein. Dort wird ein Bildschirm (Marke Jelto) stehen, der das Monitoring erleichtern soll. Solange es keine Probleme mit dem Netz gibt, sind die Freifunker frei für Fragen und Beratung.
