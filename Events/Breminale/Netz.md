@@ -61,3 +61,4 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st�
 * maximal 10 dBm Sendeleistung (Empfehlung von morpheus)
 * 2.4 GHz-Kanäle: 1,5,9,13
 * 5 GHz-Kanäle: 100-140
+* Meshing über WLAN abgeschaltet
