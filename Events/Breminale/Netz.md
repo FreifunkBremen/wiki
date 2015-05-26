@@ -46,7 +46,7 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st√
 ### Router-Konfiguration
 
 * DHCPv4-Server: ISC-DCHPD oder Dnsmasq?
-  * Netz: z.B. 10.169.160.0/19
+  * Netz: z.B. 10.169.128.0/19
   * Lease Time: 1 Stunde?
 * radvd f√ºr IPv6 (Netz?)
 * DNS-Resolver? (Unbound?)
