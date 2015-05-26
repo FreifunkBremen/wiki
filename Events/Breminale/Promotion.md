@@ -1,6 +1,7 @@
 ## Breminale Programmheft
-Im Moment wird noch geklärt wie viele Zeichen wir zur Verfügung haben werden.
-Wir werden auf der selben Seite wie der Spendenzaun landen (wer ein altes Programmheft hat, Überschrift: "Glückliche Wiese").
+Im Moment wird noch geklärt wie viele Zeichen wir zur Verfügung haben werden.  
+Wir werden auf der selben Seite wie der Spendenzaun landen (wer ein altes Programmheft hat, Überschrift: "Glückliche Wiese"). Das wäre nach aktuellem Stand inkl. Cover die 4. Seite.  
+An dieser Stelle wird **kein** Logo möglich sein. Dies wird mit allen anderen Logos am Ende des Heftes landen. Evtl. können wir jedoch mit den Freifunk Farben den Artikel stylen und/oder ein Foto einbinden.
 
 ## Flyer
 Der Flyer Redesign läuft noch: [[Flyer-Redesign]]
