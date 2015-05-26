@@ -16,8 +16,6 @@ Welche Ziele wir davon wie weit erreichen können, hängt ab von:
 ### Wir wünschen uns
 
 * Möglichst viele Helfer
-* Uplinks: Mehrere Glasfaser mit Gbit oder VDSL-Leitungen
-* VPN-Server: Mindestens zwei mit ausreichender Anbindung und Leistung
 * Zentraler Router auf dem Gelände. Ein Ersatzgerät wäre gut.
 * Switches: Gbit-Switches wo möglich.
 * Access-Points: Möglichst Dual-Band.
@@ -61,4 +59,5 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st�
 * maximal 10 dBm Sendeleistung (Empfehlung von morpheus)
 * 2.4 GHz-Kanäle: 1,5,9,13
 * 5 GHz-Kanäle: 100-140
+* Standard-Freifunk-Firmware
 * Meshing über WLAN abgeschaltet
