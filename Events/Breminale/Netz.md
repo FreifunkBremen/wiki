@@ -46,7 +46,6 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st√
 * IPv4-Netz: 10.169.128.0/19 ist noch frei
 * IPv6-Netz: kommt von LWLCOM, wenn wir kein VPN machen
 * DNS-Resolver/Forwarder?
-* radvd
 * Wie Verbindung zu VPN-Servern?
 
 ### Node-Konfiguration
