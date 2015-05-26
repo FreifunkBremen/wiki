@@ -1,4 +1,6 @@
 ## Breminale Programmheft
+Im Moment wird noch geklärt wie viele Zeichen wir zur Verfügung haben werden.
+Wir werden auf der selben Seite wie der Spendenzaun landen (wer ein altes Programmheft hat, Überschrift: "Glückliche Wiese").
 
 ## Flyer
 Der Flyer Redesign läuft noch: [[Flyer-Redesign]]
