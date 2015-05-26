@@ -4,7 +4,7 @@
 Der Flyer Redesign läuft noch: [[Flyer-Redesign]]
 
 ## Portalseite
-Es gibt eine eigen Wiki-Seite für die [Portalseite](http://wiki.bremen.freifunk.net/Events/Breminale/Portalseite) .
+Es gibt eine eigen Wiki-Seite für die [Portalseite](http://wiki.bremen.freifunk.net/Events/Breminale/Portalseite-und-Services) .
 
 ## Radio-Auftritte
 Es ist ein Auftriff bei Nord-West Radio geplant, dafür wurde eine normale Anfrage gemacht. Wenn dies nicht erfolgreich sein sollte, würde uns Sternkultur aushelfen.  
