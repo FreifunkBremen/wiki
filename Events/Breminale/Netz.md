@@ -61,3 +61,8 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st�
 * 5 GHz-Kanäle: 100-140
 * Standard-Freifunk-Firmware
 * Meshing über WLAN abgeschaltet
+
+## Strukturübersicht
+Hier eine kleine [(Google-) Karte](https://www.google.de/maps/@53.0708917,8.8166142,16z/data=!3m1!4b1!4m2!6m1!1szLIdiavRRcUY.kHkfMt2Tp8Dk?hl=de) [[Detailiert](https://www.google.com/maps/d/edit?mid=zLIdiavRRcUY.kHkfMt2Tp8Dk)], für den mögliche Aufbau.
+
+Diese sollte nachher genutzt werden um die Geräte nachzuverfolgen, damit nichts verloren geht.
