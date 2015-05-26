@@ -11,9 +11,9 @@
   * Treffen 1 mit Sternkultur
 * **05/15**
   * Freifunker Plenum *(Rücksprachen mit anderen Freifunker?)*
-* **05/25**
+* **05/25 19 Uhr**
   * Freifunker Plenum für Breminale
-* **06/01**
+* **06/01 20 Uhr**
   * Freifunker Plenum für Breminale (1 Tag vor Redaktionsschluss!)
 * **06/02**
   * Redaktionsschluss
