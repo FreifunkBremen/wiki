@@ -67,18 +67,33 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st�
 * Monitoring: Icinga, Karte mit Router-Positionen, ... ?
 * ...
 
+### Node-Standorte
+* in den Stromverteilerkästen; zum Weiterleiten
+* in Ständen zwischen den Musikzelten
+* in Bierständen
+* Musikzelte? niedrigere Priorität
+
 ### Verkabelung
+#### Aufbau
 Sobald am Mi 08.07. die Verlegung der Stromkabel erfolgt, können wir starten die Netzwerkkabel an ihnen entlang zu legen und mit Kabelbindern festzumachen. Brilliant wäre es am Do 09.07. zum Ende des Tages fertig zu sein, damit wir am Fr 10.07. uns nicht in die Quere kommen mit den "Zeltaufbauern".
 
+#### Infos
+* LWLcom Glasfaser-Anschluss auf Höhe Mozartstraße
+* Sternkultur Büro-Container auf Höhe Deichstraße
+* Entfernung von Glasfaser zu Container 140m; mit 160m Kabel auf jeden Fall rechnen
+* bessere Variante/Standort für Router in Duschcontainer; direkt an Mozartstraße
+
+#### Vorschläge
 Vorschlag (Julian):
 * Nodes (WDR3600 oder WDR4300) in Abständen von 50-100 Metern installieren, untereinander verkabeln und auf die verfügbaren WLAN-Kanäle verteilen.
 * Kabel sollte robust sein und für spätere Projekte wiederverwendet werden können.
 * Zentraler Router für DHCP, DNS, VPN, Load-Balancing und Traffic-Shaping
 
-Vorschlag (Eike):
+Vorschlag (Eike): (nicht aktuell, da Kabel von uns Freifunkern selbst verlegt werden)
 * Das Netzwerkkabel sollte von den Personen mitverlegt werden die die Stände mit Strom verkabeln. Es wird sicher einen Plan geben was wo hinkommt auf der Breminale. Da könnten wir entsprechend markieren wo Access-Points hinsollen. Kabel dann am besten von der Rolle und wir müssen da Stecker oder Dosen anbringen.
 
-Vorschlag (nukeUS):
+
+Vorschlag (nukeUS): (nicht aktuell, Kabel werden entlang der Stromkabel gelegt, Zelte im Moment nicht explizit abgedeckt)
 * Nodes (wenn nicht outdoor, dann in BrotDosen oder sonstwas für Boxen) auf vorhandenen Masten entlang des UferWeges auf der Seite zur Weser UND (mit Versatz) auf der Linie wo die DeichSchräge beginnt (Knick). So würden die Kabel beim Abbau (zB der Zelte) nicht stören. Man könnte den ein oder anderen Node aber auch in den höchsten Punkt von den Zelten hängen.
 
 ### Strukturübersicht (nicht aktuell)
