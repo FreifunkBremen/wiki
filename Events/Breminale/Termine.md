@@ -2,7 +2,7 @@
 
 ## Wichtige Termin zuvor
 * **06/02**
- * Redaktionsschluss
+ * Redaktionsschluss für Breminale Programmheft
 
 ## Termine vor Event
 * **04/21**
@@ -14,9 +14,9 @@
 * **05/25 19 Uhr**
   * Freifunker Plenum für Breminale
 * **06/01 20 Uhr**
-  * Freifunker Plenum für Breminale (1 Tag vor Redaktionsschluss!)
+  * Freifunker Plenum für Breminale (1 Tag vor Redaktionsschluss für Breminale Programmheft!)
 * **06/02**
-  * Redaktionsschluss
+  * Redaktionsschluss für Breminale Programmheft
 * **06/19**
   * Freifunker Plenum *(Rücksprachen mit anderen Freifunker?)*
 
