@@ -18,7 +18,7 @@
 * **06/02**
   * Redaktionsschluss für Breminale Programmheft
 * **06/05 10 Uhr**
-  * InBev Bierwagen Besichtigungstermin
+  * InBev Bierwagen Besichtigungstermin (Test: wo werden Nodes sicher vor Beschädigung und Verschmutzung, sowie Nerv-frei an- oder untergebracht)
 * **06/19**
   * Freifunker Plenum *(Rücksprachen mit anderen Freifunker?)*
 
@@ -42,6 +42,5 @@
 
 ## Termine ohne Datum
 * Treffen mit Strom-Kasten-Firma (Test: passen Nodes in die Kästen)
-* Treffen mit Bierstand-Firma (Test: wo werden Nodes sicher vor Beschädigung und Verschmutzung, sowie Nerv-frei an- oder untergebracht)
 * Nord-West Radio Auftritt Vorbereitung
 * Nord-West Radio Auftritt
