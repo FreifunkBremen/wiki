@@ -17,6 +17,8 @@
   * Freifunker Plenum für Breminale (1 Tag vor Redaktionsschluss für Breminale Programmheft!)
 * **06/02**
   * Redaktionsschluss für Breminale Programmheft
+* **06/05 10 Uhr**
+  * InBev Bierwagen Besichtigungstermin
 * **06/19**
   * Freifunker Plenum *(Rücksprachen mit anderen Freifunker?)*
 
