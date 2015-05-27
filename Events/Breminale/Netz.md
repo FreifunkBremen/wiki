@@ -44,7 +44,7 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st√
 ### Router-Konfiguration
 
 * IPv4-Netz: 10.169.128.0/19 ist noch frei
-* IPv6-Netz: kommt von LWLCOM, wenn wir kein VPN machen
+* IPv6-Netz: wird von LWLCOM zugewiesen
 * DNS-Resolver/Forwarder?
 * Wie Verbindung zu VPN-Servern?
 
