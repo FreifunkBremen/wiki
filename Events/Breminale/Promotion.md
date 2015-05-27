@@ -15,7 +15,7 @@ Vorbereitungen dafür stehen noch aus.
 
 ## Info-Stand
 Wir bekommen auf der Breminale Platz für einen Stand direkt am Fahnenmast (Breminale Schlachte-Seite).  
-Wie groß der Platz ist wird uns noch gesagt.  
+Die Platzgröße betraäg 3 x 5 Meter.  
 Dieser Stand wird unser **NOC** sein. Dort wird ein Bildschirm (Marke Jelto) stehen, der das Monitoring erleichtern soll. Solange es keine Probleme mit dem Netz gibt, sind die Freifunker frei für Fragen und Beratung.
 
 ###### ehemals:
