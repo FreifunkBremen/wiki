@@ -31,8 +31,8 @@ Genauere Auflistung von Material und Stückzahlen:
 
 Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger störanfällig ist:
 
-1. Sternkultur ist Anschlussinhaber, Traffic wird über VPN von Mortzu getunnelt
-2. Digineo GmbH ist Anschlussinhaber, Traffic geht direkt raus
+1. ~~Sternkultur ist Anschlussinhaber, Traffic wird über VPN von Mortzu getunnelt~~
+2. Digineo GmbH ist Anschlussinhaber, Traffic geht direkt raus. "Wird wohl gehen"
 
 ### Komponenten (haben wir sicher)
 
@@ -63,8 +63,8 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st�
  2. Software-Bridge mit STP
  3. kein STP und kein Batman
 * 2.4 GHz: Kanäle 1,5,9,13 und 10 dBm Sendeleistung (Empfehlung von morpheus)
-* 5 GHz-Kanäle: 100-140
-* Standard-Freifunk-Firmware mit SSH-Keys
+* 5 GHz: Kanäle 100-140
+* Angepasste Freifunk-Firmware mit SSH-Keys
 * Meshing über WLAN abgeschaltet
 
 ### Node-Standorte
