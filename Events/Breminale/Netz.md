@@ -23,7 +23,7 @@ Welche Ziele wir davon wie weit erreichen können, hängt ab von:
 * Evtl. Richtfunk-Antennen
 
 Genauere Auflistung von Material und Stückzahlen:
-[[Events/Breminale/notwendiges-Material]]
+[[Events/Breminale/Material]]
 
 ## Umsetzung
 
@@ -68,18 +68,18 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st�
 * Standard-Freifunk-Firmware mit SSH-Keys
 * Meshing über WLAN abgeschaltet
 
+### Node-Standorte
+* in den Stromverteilerkästen; zum Weiterleiten
+* in Ständen zwischen den Musikzelten
+* in Bierständen (Termin für Besichtung von Beispiel-Bierständen wird organisiert)
+* Musikzelte? niedrigere Priorität
+
 ### Management und Monitoring
 
 * Muss auch ohne Internet funktionieren
 * Konfiguration der Nodes: Shell-Scripting, Ansible, ... ?
 * Monitoring: Icinga, Karte mit Router-Positionen, ... ?
 * ...
-
-### Node-Standorte
-* in den Stromverteilerkästen; zum Weiterleiten
-* in Ständen zwischen den Musikzelten
-* in Bierständen
-* Musikzelte? niedrigere Priorität
 
 ### Verkabelung
 #### Aufbau
