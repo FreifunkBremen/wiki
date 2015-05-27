@@ -62,8 +62,7 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st�
  1. Batman auf einzelne Ports
  2. Software-Bridge mit STP
  3. kein STP und kein Batman
-* maximal 10 dBm Sendeleistung (Empfehlung von morpheus)
-* 2.4 GHz-Kanäle: 1,5,9,13
+* 2.4 GHz: Kanäle 1,5,9,13 und 10 dBm Sendeleistung (Empfehlung von morpheus)
 * 5 GHz-Kanäle: 100-140
 * Standard-Freifunk-Firmware mit SSH-Keys
 * Meshing über WLAN abgeschaltet
