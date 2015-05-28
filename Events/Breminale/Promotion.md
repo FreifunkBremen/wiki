@@ -11,7 +11,8 @@ Es gibt eine eigen Wiki-Seite für die [Portalseite](http://wiki.bremen.freifunk
 
 ## Radio-Auftritte
 Es ist ein Auftriff bei Nord-West Radio geplant, dafür wurde eine normale Anfrage gemacht. Wenn dies nicht erfolgreich sein sollte, würde uns Sternkultur aushelfen.  
-Vorbereitungen dafür stehen noch aus.
+Vorbereitungen dafür stehen noch aus.  
+Als Vorbereitung sollte dieses Interview aus Berlin angeschaut werden: http://chaosradio.ccc.de/cr203.html
 
 ## Info-Stand
 Wir bekommen auf der Breminale Platz für einen Stand direkt am Fahnenmast (Breminale Schlachte-Seite).  
