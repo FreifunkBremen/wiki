@@ -36,8 +36,10 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st√
 
 ### Komponenten (haben wir sicher)
 
-* Gbit-Fiber und Transceiver (SFP) von LWLCOM
-* Zentraler Router und Switch (Julian), Backup: ?
+* Gbit-Fiber und Transceiver (SFP-Modul) von LWLCOM
+* 100m SingleMode Patchkabel und Adapter (Walter)
+* Zentraler Router: EdgeRouter Lite (Julian), Backup: ?
+* Switch: HP 1920-8G mit SFP (Julian)
 * Kleine Debian-Kiste f√ºr Monitoring und andere Dienste (Julian), Backup?
 * WDR3600/WDR4300 als Nodes (Julian und nukeUS)
 
