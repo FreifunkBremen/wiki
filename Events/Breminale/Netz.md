@@ -45,8 +45,8 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st�
 
 * IPv4-Netz: 10.169.128.0/19 ist noch frei
 * IPv6-Netz: wird von LWLCOM zugewiesen
-* DNS-Resolver/Forwarder?
-* Wie Verbindung zu VPN-Servern?
+* DNS-Cache und Forwarder
+* GRE-Tunnel zu einem VPN-Server für Verbindung zum restlichen Freifunk-Netz (Redundanz ist nicht so wichtig).
 
 ### Router-Standort
 * Sternkultur Büro-Container  
