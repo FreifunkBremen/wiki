@@ -5,10 +5,10 @@ Hier werden die Kosten und Einnahmen für das Breminale Projekt Dokumentiert.
 
 ### Kosten
 
-    Position                 | Kosten | Ausgelegt von 
-:----------------------------|-------:|:--------------
- Spendennode für Sternkultur | 20     | anonymous     
- Summe                       | 20     | -             
+  Position | Kosten | Ausgelegt von
+:-------------|---------:|:------------
+ Spendennode für Sternkultur | 20 | anonymous 
+ Summe | 20 | -
 
 
 ### Einnahmen
