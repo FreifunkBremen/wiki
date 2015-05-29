@@ -19,6 +19,7 @@ Hier werden die Kosten und Einnahmen für das Breminale Projekt Dokumentiert.
 | Nebirosh         | 17     | Private gegen Rechnungen - IRC (23.04) |
 | Summe            | 20     | -                                      |
 
+
 ## Geplante Finanzierungen
 ### Senator für Kultur über Sternkultur
 500 € (95% sicher)
