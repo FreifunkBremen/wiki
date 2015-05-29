@@ -4,6 +4,7 @@ Hier werden die Kosten und Einnahmen für das Breminale Projekt Dokumentiert.
 ## Geleistete Finanzierungen
 
 ### Kosten
+
 |   Position                 | Kosten | Ausgelegt von |
 |----------------------------|--------|---------------|
 |Spendennode für Sternkultur | 20     | anonymous     |
@@ -11,6 +12,7 @@ Hier werden die Kosten und Einnahmen für das Breminale Projekt Dokumentiert.
 
 
 ### Einnahmen
+
 |   Einzahlung von | Betrag | Gelegenheit                            |
 |------------------|--------|----------------------------------------|
 | anonymous        | 3      | Node für Sternkultur - IRC (23.04)     |
