@@ -8,19 +8,19 @@
 * VPN für Verbindung zwischen Knoten und Gateway
 * Verbindung zwischen Gateways (mit Batman)
 
-### tinc (IC-VPN)
+### tinc ([IC-VPN](http://wiki.freifunk.net/IC-VPN))
 
 * VPN P2P Daemon für Verbindung zu allen Rechner im ICVPN
 * Dynamisch vollvermascht, keine Server
 * Verbindung wird vorgehalten zu allen Teilnehmern
 * Layer2 10.207/16
-* Pubkeys anderer in Git Repo + IP-Netz
+* Pubkeys anderer in [Git Repo](https://github.com/freifunk/icvpn/tree/master/hosts) + IP-Netz
 * Uplink ipv6 nach Berlin
 
 ### bird (Routen)
 * Routing Daemon für Routen aus ICVPN
 * Spricht über Layer2 Netz aus TINC BGP und tauscht Routen aus
-* Wird generiert (Script)
+* Wird generiert ([Script](https://github.com/freifunk/icvpn-scripts))
 
 ### openvpn (hide.me/Berlin uplink)
 
