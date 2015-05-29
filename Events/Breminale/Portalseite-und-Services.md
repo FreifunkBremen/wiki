@@ -2,7 +2,7 @@
 * Hinweis auf freies WLAN
 * Links
  * Breminale-Website
- * Breminlae-App
+ * Breminale-App
  * bremen.freifunk.net
 * (aktuelle) Unwetterwarnung(en) (eingebettet über [Breminale-Facebook-Seite](http://facebook.com/Breminale) #unwetter / #unwetterwarnung)
 * evtl. alle weiteren auf Facebook geposteten Inhalte
