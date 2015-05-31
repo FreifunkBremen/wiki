@@ -6,6 +6,7 @@
  * bremen.freifunk.net
 * (aktuelle) Unwetterwarnung(en) (eingebettet über [Breminale-Facebook-Seite](http://facebook.com/Breminale) #unwetter / #unwetterwarnung)
 * evtl. alle weiteren auf Facebook geposteten Inhalte
+* Link zum Meshviewer
 * gar keine Logos von Dritten! :-)
 
 # ToDos
