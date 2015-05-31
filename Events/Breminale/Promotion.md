@@ -5,6 +5,7 @@ An dieser Stelle wird **kein** Logo möglich sein. Dies wird mit allen anderen L
 
 ### Überschriften
 * Freifunk Bremen – WLAN für alle, überall
+* Freifunk Bremen – Ziel: WLAN für alle, überall
 * Freifunk Bremen – WLAN auf der Breminale
 
 
