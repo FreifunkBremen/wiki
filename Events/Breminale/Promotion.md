@@ -3,21 +3,40 @@ Im Moment wird noch geklärt wie viele Zeichen wir zur Verfügung haben werden.
 Wir werden auf der selben Seite wie der Spendenzaun landen (wer ein altes Programmheft hat, Überschrift: "Glückliche Wiese"). Das wäre nach aktuellem Stand inkl. Cover die 4. Seite.  
 An dieser Stelle wird **kein** Logo möglich sein. Dies wird mit allen anderen Logos am Ende des Heftes landen. Evtl. können wir jedoch mit den Freifunk Farben den Artikel stylen und/oder ein Foto einbinden.
 
-### Überschriften
+### Überschrift-Ideen
 * Freifunk Bremen – WLAN für alle, überall
 * Freifunk Bremen – Ziel: WLAN für alle, überall
 * Freifunk Bremen – WLAN auf der Breminale
 
+### grober Textinhalt
+* Breminale
+* SSID
+* jeder kann mitmachen
+* Freifunk erklärt?
 
-### Entwurf 1 von SimJoSt [725 Zeichen]
+
+### Text-Ideen
+#### Entwurf 1 von SimJoSt [725 Zeichen]
 Auf der Breminale bekommt man alles was man nur wollen könnte. Außer guten Handy-Empfang. Dieses Jahr will Freifunk Bremen genau das ändern.  
 Die Initiative Freifunk setzt sich für offene WLAN-Netze und freies Internet ein. Jeder kann mitmachen, ein Freifunk-Gerät auf seine Fensterbank stellen und ohne Sorge um rechtliche Konsequenzen und sein privates Heimnetz sein Internet-Zugang mit anderen teilen.  
 In Bremen gibt es inzwischen 200 Stellen mit kostenlosem WLAN über Freifunk welches von bis zu 600 Geräte gleichzeitig genutzt wird. Der Großteil dieser Geräte werden von Privatpersonen betrieben, jedoch eignet sich genauso für den Betreiber eines Cafés der seinen Gästen einfachen Zugang zum Internet ermöglichen möchte.
 
-### Entwurf 2 von SimJoSt [718 Zeichen]
+#### Entwurf 2 von SimJoSt [718 Zeichen]
 Auf der Breminale bekommt man alles was man nur wollen könnte. Außer guten Empfang für das Mobilgerät. Dieses Jahr will Freifunk Bremen genau das ändern und baut ein WLAN-Netz über Großteile der Breminale auf. Das WLAN trägt den Namen **„bremen.freifunk.net“** und besitzt **kein Passwort**.  
 Sobald man sich einmal eingewählt hat, verbindet sich das eigene Gerät sofort mit einem Freifunk-WLAN, wenn wieder eines in Reichweite ist, wie zum Beispiel auf dem **Sielwall**.  
 **Jeder** kann sich ein Freifunk-Gerät abholen oder selber einrichten, es neben seine, Zuhause vorhanden, Geräte stellen und an das Internet anschließen. Nun können Gäste simpel im Internet surfen ohne, dass man sich Sorgen um rechtliche Konsequenzen machen muss.
+
+#### Entwurf 3 von SimJoSt [771 Zeichen]
+Dieses Jahr auf der Breminale gibt es kostenloses Internet über WLAN von Freifunk.  
+Freifunk heißt, jeder der will stellt sich ein Freifunk-Gerät auf (ein normaler WLAN-Router mit Freifunk-Software) und diese Geräte verbinden sich miteinander, wenn sie sich in Sicht- bzw. Funk(reich)weite befinden. So entsteht Stück für Stück ein stadtweites Bürgernetz.  
+Zusätzlich können Teilnehmer ihre Geräte an das eigene Internet anschließen und versorgen damit das WLAN-Bürgernetz mit kostenlosem Internet. Jeder der mit ihm verbunden ist, kann ins Internet, ohne dass derjenige der es teilt, Sorge vor rechtlichen Konsequenzen haben muss.  
+Das WLAN heißt überall bremen.freifunk.net und ist damit sofort erkennbar und einmal verbunden Geräte verbinden sich immer wieder automatisch.
+
+#### Entwurf 4 von SimJoSt [747 Zeichen]
+Wir Freifunker wünschen uns, dass es überall einfachen und kostenlosen Zugang zum Internet gibt. Und wir tun etwas dafür. Jeder kann sich ein Freifunk-Gerät aufstellen und sein Internet Sorgenlos teilen.  
+Als eine Herausforderung und aus Liebe zu Ihr, sprachen wir die Betreiber der Breminale an, welche gleich Feuer und Flamme für unser Projekt waren.  
+Das Ergebnis dieser Zusammenarbeit könnte ihr am Osterdeich sehen (jedenfalls euer Handy kann es).
+Ihr kommt kostenlos ins Internet wenn ihr das WLAN bremen.freifunk.net benutzt. Das gibt es in Bremen auch schon an 200 Stellen. Zum Beispiel auf der Sielwallkreuzung. Jedes Mal wenn ihr in die Nähe kommt, wird sich euer Handy automatisch wieder damit verbinden, sobald ihr einmal verbunden seid.
 
 
 
