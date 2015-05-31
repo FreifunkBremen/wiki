@@ -39,6 +39,10 @@ Als eine Herausforderung und aus Liebe zu Ihr, sprachen wir die Betreiber der Br
 Das Ergebnis dieser Zusammenarbeit könnte ihr am Osterdeich sehen (jedenfalls euer Handy kann es).
 Ihr kommt kostenlos ins Internet wenn ihr das WLAN **bremen.freifunk.net** benutzt. Das gibt es in Bremen auch schon an 200 Stellen. Zum Beispiel auf der Sielwallkreuzung. Jedes Mal wenn ihr in die Nähe kommt, wird sich euer Handy automatisch wieder damit verbinden, sobald ihr einmal verbunden seid.
 
+#### Entwurf 5 von SimJoSt [710 Zeichen]
+Es gibt WLAN auf der Breminale! Das passwortlose Netzwerk bremen.freifunk.net bietet euch freien Zugang zum Internet.  
+Das Ganze wird realisiert von dem Projekt Freifunk Bremen. Dessen Mission ist es mit Bürgerengagement möglichst viele WLAN-Router aufzustellen, welche sich miteinander verbinden und so ein lokales Netz in Bürgerhand aufbaut, sowie einen Zugang zum Internet bietet. Freifunk gibt es schon an 200 Orten, wie der Sielwallkreuzung.  
+Ob für private Gäste oder Kunden eines Geschäftes, jeder kann Freifunk nutzen und zur Verfügung stellen. Dafür holt ihr euch ein vorbereitetes Gerät ab oder richtet es selbst ein, Strom angeschlossen und wenn ihr wollte euer Internet und schon seid ihr Freifunker.
 
 
 ## Flyer
