@@ -3,6 +3,23 @@ Im Moment wird noch geklärt wie viele Zeichen wir zur Verfügung haben werden.
 Wir werden auf der selben Seite wie der Spendenzaun landen (wer ein altes Programmheft hat, Überschrift: "Glückliche Wiese"). Das wäre nach aktuellem Stand inkl. Cover die 4. Seite.  
 An dieser Stelle wird **kein** Logo möglich sein. Dies wird mit allen anderen Logos am Ende des Heftes landen. Evtl. können wir jedoch mit den Freifunk Farben den Artikel stylen und/oder ein Foto einbinden.
 
+### Überschriften
+* Freifunk Bremen – WLAN für alle, überall
+* Freifunk Bremen – WLAN auf der Breminale
+
+
+### Entwurf 1 von SimJoSt [725 Zeichen]
+Auf der Breminale bekommt man alles was man nur wollen könnte. Außer guten Handy-Empfang. Dieses Jahr will Freifunk Bremen genau das ändern.  
+Die Initiative Freifunk setzt sich für offene WLAN-Netze und freies Internet ein. Jeder kann mitmachen, ein Freifunk-Gerät auf seine Fensterbank stellen und ohne Sorge um rechtliche Konsequenzen und sein privates Heimnetz sein Internet-Zugang mit anderen teilen.  
+In Bremen gibt es inzwischen 200 Stellen mit kostenlosem WLAN über Freifunk welches von bis zu 600 Geräte gleichzeitig genutzt wird. Der Großteil dieser Geräte werden von Privatpersonen betrieben, jedoch eignet sich genauso für den Betreiber eines Cafés der seinen Gästen einfachen Zugang zum Internet ermöglichen möchte.
+
+### Entwurf 2 von SimJoSt [718 Zeichen]
+Auf der Breminale bekommt man alles was man nur wollen könnte. Außer guten Empfang für das Mobilgerät. Dieses Jahr will Freifunk Bremen genau das ändern und baut ein WLAN-Netz über Großteile der Breminale auf. Das WLAN trägt den Namen „bremen.freifunk.net“ und besitzt kein Passwort.
+Sobald man sich einmal eingewählt hat, verbindet sich das eigene Gerät sofort mit einem Freifunk-WLAN, wenn wieder eines in Reichweite ist, wie zum Beispiel auf dem Sielwall.
+Jeder kann sich ein Freifunk-Gerät abholen oder selber einrichten, es neben seine, Zuhause vorhanden, Geräte stellen und an das Internet anschließen. Nun können Gäste simpel im Internet surfen ohne, dass man sich sorgen um rechtliche Konsequenzen machen muss.
+
+
+
 ## Flyer
 Der Flyer Redesign läuft noch: [[Flyer-Redesign]]
 
