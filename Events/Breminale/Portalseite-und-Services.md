@@ -1,3 +1,9 @@
+# Verfügbarkeit
+* breminale.ffhb.de  
+  im Freifunk (bald auch nicht im Freifunk)
+* breminale.ffhb.fireorbit.de  
+  nicht im Freifunk
+
 # Inhalte
 * Hinweis auf freies WLAN
 * Links
