@@ -16,6 +16,7 @@ An dieser Stelle wird **kein** Logo möglich sein. Dies wird mit allen anderen L
 
 
 ### Text-Ideen
+
 #### Entwurf 1 von SimJoSt [725 Zeichen]
 Auf der Breminale bekommt man alles was man nur wollen könnte. Außer guten Handy-Empfang. Dieses Jahr will Freifunk Bremen genau das ändern.  
 Die Initiative Freifunk setzt sich für offene WLAN-Netze und freies Internet ein. Jeder kann mitmachen, ein Freifunk-Gerät auf seine Fensterbank stellen und ohne Sorge um rechtliche Konsequenzen und sein privates Heimnetz sein Internet-Zugang mit anderen teilen.  
