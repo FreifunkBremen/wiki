@@ -37,7 +37,7 @@ Das WLAN heißt überall bremen.freifunk.net und ist damit sofort erkennbar und 
 Wir Freifunker wünschen uns, dass es überall einfachen und kostenlosen Zugang zum Internet gibt. Und wir tun etwas dafür. Jeder kann sich ein Freifunk-Gerät aufstellen und sein Internet Sorgenlos teilen.  
 Als eine Herausforderung und aus Liebe zu Ihr, sprachen wir die Betreiber der Breminale an, welche gleich Feuer und Flamme für unser Projekt waren.  
 Das Ergebnis dieser Zusammenarbeit könnte ihr am Osterdeich sehen (jedenfalls euer Handy kann es).
-Ihr kommt kostenlos ins Internet wenn ihr das WLAN bremen.freifunk.net benutzt. Das gibt es in Bremen auch schon an 200 Stellen. Zum Beispiel auf der Sielwallkreuzung. Jedes Mal wenn ihr in die Nähe kommt, wird sich euer Handy automatisch wieder damit verbinden, sobald ihr einmal verbunden seid.
+Ihr kommt kostenlos ins Internet wenn ihr das WLAN **bremen.freifunk.net** benutzt. Das gibt es in Bremen auch schon an 200 Stellen. Zum Beispiel auf der Sielwallkreuzung. Jedes Mal wenn ihr in die Nähe kommt, wird sich euer Handy automatisch wieder damit verbinden, sobald ihr einmal verbunden seid.
 
 
 
