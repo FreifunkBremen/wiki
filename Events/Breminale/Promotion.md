@@ -45,10 +45,10 @@ Das Ganze wird realisiert von dem Projekt Freifunk Bremen. Dessen Mission ist es
 Ob für private Gäste oder Kunden eines Geschäftes, jeder kann Freifunk nutzen und zur Verfügung stellen. Dafür holt ihr euch ein vorbereitetes Gerät ab oder richtet es selbst ein, Strom angeschlossen und wenn ihr wollte euer Internet und schon seid ihr Freifunker.
 
 #### Entwurf 5b geändert von Julian [649 Zeichen]
-Ihr könnt surfen auf der Breminale! Das offene WLAN **bremen.freifunk.net** bietet euch freien Zugang zum Internet.
+Ihr könnt surfen auf der Breminale! Das offene WLAN **bremen.freifunk.net** bietet euch freien Zugang zum Internet.  
 Das Ganze wird realisiert von den Freifunkern aus Bremen. Deren Mission besteht darin, mit Bürgerengagement möglichst viele WLAN-Router aufzustellen, welche sich miteinander verbinden und so ein lokales Netzwerk in Bürgerhand aufbauen, sowie einen Zugang zum Internet bieten.
-Freifunk gibt es schon an über 200 Orten in Bremen!
-Ob für private Gäste oder Kunden eines Geschäftes - jeder kann Freifunk nutzen oder rechtssicher selbst anbieten.
+Freifunk gibt es schon an über 200 Orten in Bremen!  
+Ob für private Gäste oder Kunden eines Geschäftes - jeder kann Freifunk nutzen oder rechtssicher selbst anbieten.  
 Schon ab 20 € bekommt ihr die benötigte Hardware. Alle Infos findet ihr auf bremen.freifunk.net
 
 
