@@ -1,5 +1,5 @@
 # Team
-Schreibt euch hier gerne rein, dann sehen alle wer dabei ist. Kontakt-Möglichkeit ist natürlich optional:
+Schreibt euch hier gerne rein, dann sehen alle wer dabei ist. Kontakt-Möglichkeit ist natürlich optional:  
 * [SimJoSt](http://about.me/SimJoSt)
 * nukeUS (im IRC & ff@nukeUS.de)* 
 
