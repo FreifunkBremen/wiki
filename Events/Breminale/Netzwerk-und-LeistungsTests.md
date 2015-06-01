@@ -20,3 +20,12 @@
     * APU1.D: 440 Mbit/s durch GRE unter FreeBSD
     * Alternativen?
 * Nachteil: SPoF. --jplitza
+
+### Durchsatz-Tests
+
+Verbindung           | Durchsatz
+:--------------------|:------------
+Hardware-Switch      | 935 Mbits/sec
+Software-Switch      | ??? Mbits/sec
+BATMAN Laptop-Laptop | 447 MBits/sec
+BATMAN über Knoten   | 239 MBits/sec
