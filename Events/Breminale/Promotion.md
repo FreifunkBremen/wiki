@@ -44,12 +44,20 @@ Es gibt WLAN auf der Breminale! Das passwortlose Netzwerk **bremen.freifunk.net*
 Das Ganze wird realisiert von dem Projekt Freifunk Bremen. Dessen Mission ist es mit Bürgerengagement möglichst viele WLAN-Router aufzustellen, welche sich miteinander verbinden und so ein lokales Netz in Bürgerhand aufbaut, sowie einen Zugang zum Internet bietet. Freifunk gibt es schon an 200 Orten, wie der Sielwallkreuzung.  
 Ob für private Gäste oder Kunden eines Geschäftes, jeder kann Freifunk nutzen und zur Verfügung stellen. Dafür holt ihr euch ein vorbereitetes Gerät ab oder richtet es selbst ein, Strom angeschlossen und wenn ihr wollte euer Internet und schon seid ihr Freifunker.
 
-#### Entwurf 5b geändert von Julian [654 Zeichen]
+#### Entwurf 5b geändert von Julian [649 Zeichen]
 Ihr könnt surfen auf der Breminale! Das offene WLAN **bremen.freifunk.net** bietet euch freien Zugang zum Internet.  
-Das Ganze wird realisiert von den FreifunkerInnen aus Bremen. Deren Mission besteht darin, mit Bürgerengagement möglichst viele WLAN-Router aufzustellen, welche sich miteinander verbinden und so ein lokales Netzwerk in Bürgerhand aufbauen, sowie einen Zugang zum Internet bieten.
+Das Ganze wird realisiert von den Freifunkern aus Bremen. Deren Mission besteht darin, mit Bürgerengagement möglichst viele WLAN-Router aufzustellen, welche sich miteinander verbinden und so ein lokales Netzwerk in Bürgerhand aufbauen, sowie einen Zugang zum Internet bieten.
 Freifunk gibt es schon an über 200 Orten in Bremen!  
 Ob für private Gäste oder Kunden eines Geschäftes - jeder kann Freifunk nutzen oder rechtssicher selbst anbieten.  
 Schon ab 20 € bekommt ihr die benötigte Hardware. Alle Infos findet ihr auf bremen.freifunk.net
+
+#### Entwurf 5c geändert von SimJoSt [723 Zeichen]
+Es gibt WLAN auf der Breminale! In den Vorjahren bekam man alles was man sich nur erträumte, nur kein gutes Netz.  
+Das offene WLAN bremen.freifunk.net bietet euch freien Zugang zum Internet.  
+Jetzt bleibt ihr immer informiert und in Kontakt.  
+Das Ganze wird realisiert von den Freifunkern aus Bremen, mit bereits über 200 Standorten (Sielwall). Deren Mission besteht darin, mit Bürgerengagement möglichst viele WLAN-Router aufzustellen, welche sich miteinander verbinden und so ein lokales Netzwerk in Bürgerhand aufbauen, sowie einen Zugang zum Internet bieten. Jeder kann Freifunk nutzen oder rechtssicher selbst anbieten.  
+Alle Infos und Fragen bekommt ihr beantwortet bei unserem Stand am Fahnenmast und auf bremen.freifunk.net/breminale.ffhb.de
+
 
 
 ## Flyer
