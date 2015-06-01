@@ -4,8 +4,8 @@ Schreibt euch hier gerne rein, dann sehen alle wer dabei ist. Kontakt-Möglichke
 * nukeUS (im IRC & ff@nukeUS.de)
 * 
 
-* was geht
-* *wer
+* [SimJoSt](http://about.me/SimJoSt)
+* nukeUS
 
 # Vorgehensweise
 Damit wir bei einem Produkt landen, hinter dem wir stehen, müssen die folgenden Punkte in Reihenfolge abgearbeitet werden:
