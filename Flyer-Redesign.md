@@ -1,7 +1,7 @@
 # Team
 Schreibt euch hier gerne rein, dann sehen alle wer dabei ist. Kontakt-Möglichkeit ist natürlich optional:
-* SimJoSt
-* nukeUS (im IRC & ff@nukeUS.de)* 
+* [SimJoSt](http://about.me/SimJoSt)
+* nukeUS (im IRC & ff@nukeUS.de)
 
 # Vorgehensweise
 Damit wir bei einem Produkt landen, hinter dem wir stehen, müssen die folgenden Punkte in Reihenfolge abgearbeitet werden:
