@@ -23,9 +23,11 @@
 
 ### Durchsatz-Tests
 
-Verbindung           | Durchsatz
-:--------------------|:------------
-Hardware-Switch      | 935 Mbits/sec
-Software-Switch      | ??? Mbits/sec
-BATMAN Laptop-Laptop | 447 MBits/sec
-BATMAN über Knoten   | 239 MBits/sec
+Verbindung           | Durchsatz     | Latenz
+:--------------------|:--------------|:---------
+Hardware-Switch      | 935 Mbits/sec | 14 µs
+Software-Switch      | 359 Mbits/sec | 105 µs
+BATMAN Laptop-Laptop | 447 MBits/sec |
+BATMAN über Knoten   | 239 MBits/sec | 
+
+Latenz ist die Differenz zur Direktverbindung zwischen den Testsystemen.
