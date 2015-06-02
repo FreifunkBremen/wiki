@@ -59,10 +59,9 @@ Freifunk gibt es schon an über 200 Orten in Bremen!
 Ob für private Gäste oder Kunden eines Geschäftes - jeder kann Freifunk nutzen oder rechtssicher selbst anbieten.  
 Schon ab 20 € bekommt ihr die benötigte Hardware. Alle Infos findet ihr auf bremen.freifunk.net
 
-#### Entwurf 5c geändert von SimJoSt [723 Zeichen]
-
-##### Freifunk Bremen – WLAN für alle, überall
-Es gibt **WLAN** auf der Breminale!  
-Das offene WLAN **bremen.freifunk.net** bietet euch freien Zugang zum Internet.  
-Realisiert wird dies von Bürgern an bereits über 200 Standorten in Bremen. Das Ziel der Freifunker besteht darin viele WLAN-Router aufzustellen, welche sich untereinander verbinden und so ein lokales Netzwerk mit Internetzugang in Bürgerhand aufbauen. Jeder kann Freifunk nutzen oder rechtssicher selbst anbieten - beispielsweise für Gäste.  
-Alle Infos und Fragen bekommt ihr beantwortet beim Freifunk-Stand am Fahnenmast und auf bremen.freifunk.net
+#### Entwurf 5c geändert von SimJoSt und Lingsam [723 Zeichen]
+Es gibt WLAN auf der Breminale! In den Vorjahren bekam man alles was man sich nur erträumte, nur kein gutes Netz.  
+Das offene WLAN bremen.freifunk.net bietet euch freien Zugang zum Internet. 
+Jetzt bleibt ihr immer informiert und in Kontakt.  
+Das Ganze wird realisiert von den Freifunkern aus Bremen, mit bereits über 200 Standorten (Sielwall). Deren Mission besteht darin, mit Bürgerengagement möglichst viele WLAN-Router aufzustellen, welche sich miteinander verbinden und so ein lokales Netzwerk in Bürgerhand aufbauen, sowie einen Zugang zum Internet bieten. Jeder kann Freifunk nutzen oder rechtssicher selbst anbieten.  
+Alle Infos und Fragen bekommt ihr beantwortet bei unserem Stand am Fahnenmast und auf [bremen.freifunk.net ODER breminale.ffhb.de]
