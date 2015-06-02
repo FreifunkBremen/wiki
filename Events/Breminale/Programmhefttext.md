@@ -16,7 +16,9 @@ An dieser Stelle wird **kein** Logo möglich sein. Dies wird mit allen anderen L
 
 
 ### finaler Text
+
 #### Entwurf 5d geändert von Freifunk Breminale Plenum [559 Zeichen]:
+
 ##### Freifunk Bremen – WLAN für alle, überall
 Es gibt **WLAN** auf der Breminale!  
 Das offene WLAN **bremen.freifunk.net** bietet euch freien Zugang zum Internet.  
