@@ -3,6 +3,16 @@ Wir haben **750 Zeichen** zur Verfügung haben. Es besteht aber die Möglichkeit
 Wir werden auf der selben Seite wie der Spendenzaun landen (wer ein altes Programmheft hat, Überschrift: "Glückliche Wiese"). Das wäre nach aktuellem Stand inkl. Cover die 4. Seite.  
 An dieser Stelle wird **kein** Logo möglich sein. Dies wird mit allen anderen Logos am Ende des Heftes landen. Evtl. können wir jedoch mit den Freifunk Farben den Artikel stylen und/oder ein Foto einbinden.
 
+### finaler Text
+
+#### Entwurf 5d geändert von Freifunk Breminale Plenum [559 Zeichen]:
+
+##### Freifunk Bremen – WLAN für alle, überall
+Es gibt **WLAN** auf der Breminale!  
+Das offene WLAN **bremen.freifunk.net** bietet euch freien Zugang zum Internet.  
+Realisiert wird dies von **Bürgern** an bereits über 200 Standorten in Bremen. Das Ziel der Freifunker besteht darin viele WLAN-Router aufzustellen, welche sich untereinander verbinden und so ein lokales Netzwerk mit Internetzugang in Bürgerhand aufbauen. Jeder kann Freifunk nutzen oder rechtssicher selbst anbieten - beispielsweise für Gäste.  
+Alle Infos und Fragen bekommt ihr beantwortet beim Freifunk-Stand am Fahnenmast und auf bremen.freifunk.net
+
 ### Überschrift-Ideen
 * Freifunk Bremen – WLAN für alle, überall
 * Freifunk Bremen – Ziel: WLAN für alle, überall
@@ -13,17 +23,6 @@ An dieser Stelle wird **kein** Logo möglich sein. Dies wird mit allen anderen L
 * SSID
 * jeder kann mitmachen
 * Freifunk erklärt?
-
-
-### finaler Text
-
-#### Entwurf 5d geändert von Freifunk Breminale Plenum [559 Zeichen]:
-
-##### Freifunk Bremen – WLAN für alle, überall
-Es gibt **WLAN** auf der Breminale!  
-Das offene WLAN **bremen.freifunk.net** bietet euch freien Zugang zum Internet.  
-Realisiert wird dies von **Bürgern** an bereits über 200 Standorten in Bremen. Das Ziel der Freifunker besteht darin viele WLAN-Router aufzustellen, welche sich untereinander verbinden und so ein lokales Netzwerk mit Internetzugang in Bürgerhand aufbauen. Jeder kann Freifunk nutzen oder rechtssicher selbst anbieten - beispielsweise für Gäste.  
-Alle Infos und Fragen bekommt ihr beantwortet beim Freifunk-Stand am Fahnenmast und auf bremen.freifunk.net
 
 ### vorherige Text-Entwürfe
 
