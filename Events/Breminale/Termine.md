@@ -18,7 +18,11 @@
 * **06/02**
   * Redaktionsschluss für Breminale Programmheft
 * **06/05 10 Uhr**
-  * InBev Bierwagen Besichtigungstermin (Test: wo werden Nodes sicher vor Beschädigung und Verschmutzung, sowie Nerv-frei an- oder untergebracht)
+  * InBev Bierwagen Besichtigungstermin (Test: wo werden Nodes sicher vor Beschädigung und Verschmutzung, sowie Nerv-frei an- oder untergebracht)  
+    Duckwitzstraße 78A, 28199 Bremen
+* **06/05 11:30 Uhr**
+  * Test Stromkasten und WLAN-Router  
+    Alte Waller Str. 13, Alte Waller Straße 13, 28219 Bremen
 * **06/19**
   * Freifunker Plenum *(Rücksprachen mit anderen Freifunker?)*
 
