@@ -94,8 +94,9 @@ Sobald am Mi 08.07. die Verlegung der Stromkabel erfolgt, können wir starten di
 #### Infos
 * LWLcom Glasfaser-Anschluss auf Höhe Mozartstraße
 * Sternkultur Büro-Container auf Höhe Deichstraße
-* Entfernung von Glasfaser zu Container 140m; mit 160m Kabel auf jeden Fall rechnen
-* bessere Variante/Standort für Router in Duschcontainer; direkt an Mozartstraße
+* bessere Variante/Standort für Router am/auf Duschcontainer; direkt an Mozartstraße
+* Kabel entlang der Wasserrohre und -schläuche ist gesetzlich nicht erlaubt (weiterführende Nachfrage bei Sternkultur läuft)
+* Netzwerkkabel entlang von Stromkabeln werden stark gestört, deswegen wird der Hinweis von Nebirosh ernst genommen und Cat7e Kabel genommen
 
 #### Bereiche
 ##### Deichwiesen
