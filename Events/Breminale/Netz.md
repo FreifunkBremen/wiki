@@ -97,6 +97,14 @@ Sobald am Mi 08.07. die Verlegung der Stromkabel erfolgt, können wir starten di
 * Entfernung von Glasfaser zu Container 140m; mit 160m Kabel auf jeden Fall rechnen
 * bessere Variante/Standort für Router in Duschcontainer; direkt an Mozartstraße
 
+#### Bereiche
+##### Deichwiesen
+##### Himmlische Wiese
+Der Tunnel ist mit 120 m erstmal zu lang für ein Netwerkkabel.  
+Strom würde für uns and den Tunneleingang extra für uns gelegt werden.  
+Lampions hängen entlang der himmlischen Wiese an der Straße und habe eine direkte Verbindung zum Backstage des Himmelwärts.
+##### Treue
+
 #### Vorschläge
 Vorschlag (Julian):
 * Nodes (WDR3600 oder WDR4300) in Abständen von 50-100 Metern installieren, untereinander verkabeln und auf die verfügbaren WLAN-Kanäle verteilen.
