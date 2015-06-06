@@ -58,7 +58,7 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st�
 * **Duschcontainer der Darsteller** - aktuell bevorzugte Variante  
   Standort Höhe Mozartstraße  
   direkt bei LWLcom Uplink; nicht im Dach möglich, nur auf dem Dach oder daneben; nicht 100% sicher, jedoch keiner vermutet Server-Hardware dort, wir sparen uns 160 Meter an Kabeln für die Anbindung; umzäunt aber nicht gesichert
-  10 Meter Glasfaser-Verlängerung benötigt
+  10 Meter Glasfaser-Verlängerung benötigt, sowie eine wasserfeste Box 
 
 ### Node-Konfiguration
 
