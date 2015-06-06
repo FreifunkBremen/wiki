@@ -51,19 +51,24 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st�
 * GRE-Tunnel zu einem VPN-Server für Verbindung zum restlichen Freifunk-Netz (Redundanz ist nicht so wichtig).
 
 ### Router-Standort
-* Sternkultur Büro-Container  
+* **Sternkultur Büro-Container**  
   Standort Höhe Deichstraße; nicht 100% sicher nachts (nächtliche Abschaltung und Lagerung im Lager-Container?)
-* Sternkultur Lagercontainer  
+* **Sternkultur Lagercontainer**  
   Standort Höhe Deichstraße; immer bewacht, dickes Schloss, Zugriff auf die Hardware erschwert
-* Duschcontainer der Darsteller  
-  Standort Höhe Mozartstraße (direkt bei LWLcom Uplink; nicht 100% sicher, jedoch immer abgeschlossen und keiner vermutet Server-Hardware dort, wir sparen uns 160 Meter an Kabeln für die Anbindung
+* **Duschcontainer der Darsteller** - aktuell bevorzugte Variante  
+  Standort Höhe Mozartstraße  
+  direkt bei LWLcom Uplink; nicht im Dach möglich, nur auf dem Dach oder daneben; nicht 100% sicher, jedoch keiner vermutet Server-Hardware dort, wir sparen uns 160 Meter an Kabeln für die Anbindung; umzäunt aber nicht gesichert
+  10 Meter Glasfaser-Verlängerung benötigt
 
 ### Node-Konfiguration
 
-* Drei Varianten für das Switch:
- 1. Batman auf einzelne Ports
- 2. Software-Bridge mit STP
- 3. kein STP und kein Batman
+* Drei Varianten für das Switch: ([siehe Tests](http://wiki.bremen.freifunk.net/Events/Breminale/Netzwerk-und-LeistungsTests))
+ 1. Batman auf einzelne Ports  
+    Verkabelung mit Redundanz möglich, Durchsatzverringerung, belastung der Node-CPU, welche schon durch die vielen Clients gefordert ist
+ 2. Software-Bridge mit STP  
+    Verkabelung mit Redundanz möglich, Durchsatzverringerung
+ 3. kein STP und kein Batman  
+    keine Verkabelung mit Redundanz möglich, außer einzelne manuelle Hardware-"Breaks"
 * 2.4 GHz: Kanäle 1,5,9,13 und 10 dBm Sendeleistung (Empfehlung von morpheus)
 * 5 GHz: Kanäle 100-140
 * Angepasste Freifunk-Firmware mit SSH-Keys
