@@ -21,13 +21,16 @@ Hier werden die Kosten und Einnahmen für das Breminale Projekt Dokumentiert.
 
 
 ## Geplante Finanzierungen
-### Senator für Kultur über Sternkultur
+### Förderungen
+#### Senator für Kultur über Sternkultur
 500 € (95% sicher)
 
-### O2 ThinkBig Upgrade (1000 Euro)
-Durch die erfolgreiche Umsetzung eines O2 ThinkBig Basic Projektes, wie z. B. dieses [Freifunk für Findorff](http://www.think-big.org/projekt/freifunk-fuer-findorff), ist es möglich ein Folgeprojekt mir einer höheren Fördersumme als 400 Euro bewilligt zu bekommen.
+#### Bremische Landesmedienanstalt
 
-Kontakt: [SimJoSt](http://www.about.me/SimJoSt)
+#### O2 ThinkBig [SimJoSt]
+Die Chancen stehen im Moment schlecht.  
+Leider ist es nicht möglich SimJoSts vorhandenes Projekt für Findorff bis zur Breminale in die nächste Phase zu bringen (400 € -> 1.000 €).  
+Es besteht die Möglichkeit eine Zusage für ein neues 400 € Projekt zu bekommen. Der Antragssteller dürfte nicht SimJoSt sein. Das Projekt sollte sich möglichst stark von SimJoSts Findorff Projekt unterscheiden.
 
 ### Sponsoren
 Hat jemand irgendwelche Ideen?
@@ -36,6 +39,13 @@ Hat jemand irgendwelche Ideen?
   * einen Server
   * WDR3600 soviele wie wir brauchen (Leihgabe)
   * evtl. Unterschrift für LWLcom-Uplink
+* Radio Bremen [SimJoSt]  
+  Es wird geprüft, ob die Abteilung für Kabel welche abgeben könnte.
+  Sie sind schon Sponsoren der Breminale.
+* SWB [SimJoSt]
+* Conrad [SimJoSt]
+* Saturn [SimJoSt]
+* Atelco [SimJoSt]
 
 ### Privatpersonen
 
