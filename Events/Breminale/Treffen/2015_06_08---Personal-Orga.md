@@ -7,7 +7,7 @@
 ## Umsetzung
 ### Personal
 * **Wer kann wann**  
-  https://dudle.hackerspace-bremen.de/FFHB-Breminale/
+  https://dudle.hackerspace-bremen.de/FFHB-Breminale/  
   http://wiki.bremen.freifunk.net/Events/Breminale/Termine#termine_zeitplanung-während-des-events
 * **Aufbau**  
   Wer? Was? (Wir müssen Kabel verlegen?)
@@ -32,3 +32,15 @@
 ### Aufsteller
 
 ### Spendenbox
+
+
+## Protokoll
+* Stand 
+  Gerne an 3 Meter Bühne
+* Personal
+  * Wer kann wann  
+    Dudle wird erweitert und Teilnahme erzwungen
+  * Aufbau  
+      * Plan vorher
+      * Chef vor Ort  
+        mit Plan und bereits erledigten Aufgaben
