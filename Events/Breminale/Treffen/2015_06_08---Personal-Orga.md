@@ -45,8 +45,9 @@
   * Chef vor Ort  
     mit Plan und bereits erledigten Aufgaben
   * Verkabelung entlang der Stromkabel
-      * Problem:  
-        XXX  
+      * Probleme:  
+          * Potential
+          * Brummen
         Resultat: evlt. Stromschläge (Handschuhe?)  
       * evlt. **Lösung** (die wahrscheinlich funktioniert): RJ45-Doppeldaten-Dose  
       Erdung über die Schirmung, welche in der Dose angelegt wird, also Erde durchgereicht vom Switch/Router/Patchpanel
@@ -55,3 +56,50 @@
             Breminale in Untergebiete aufteilen
           * Variante 2  
             alles mit normalem Meshing
+
+
+
+### Varianten
+
+**Variante 1 - Netzwerkabel am Starkstrom entlang**
+  Probleme
+Potentialausgleich
+Brummen
+Kabelpreis
+Arbeitsaufwand (Krimpen...)
+
+  Vorteile
+Geschwindigkeit
+"Stabilität"
+
+**Variante 2a - Kupfer in den Bäumen + Nanos**
+  Probleme
+Potentialausgleich
+Genehmigung
+Bäume
+  Arbeit
+  Dämpfung
+Abdeckung nicht gesichert
+Überlastung der "Nodes"
+
+ Vorteile
+kein Brummen
+
+**Variante 2b - Funk in den Bäumen + Nanos**
+  Probleme
+Genehmigung
+Bäume
+  Arbeit
+  Dämpfung
+Abdeckung nicht gesichert
+Überlastung der "Nodes"
+
+ Vorteile
+kein Brummen
+kein Potentialausgleich
+
+**Variante 3 - Insellösung**
+
+
+**Variante 4 - kleinere Inseln**
+
