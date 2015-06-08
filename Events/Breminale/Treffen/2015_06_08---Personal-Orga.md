@@ -40,7 +40,12 @@
 * Personal
   * Wer kann wann  
     Dudle wird erweitert und Teilnahme erzwungen
-  * Aufbau  
-      * Plan vorher
-      * Chef vor Ort  
-        mit Plan und bereits erledigten Aufgaben
+* Aufbau  
+  * Plan vorher
+  * Chef vor Ort  
+    mit Plan und bereits erledigten Aufgaben
+  * Verkabelung ohne Erdung
+    
+      Resultat: evlt. Stromschläge (Handschuhe?)  
+      * evlt. **Lösung** (die wahrscheinlich funktioniert): RJ45-Doppeldaten-Dose  
+      Erdung über die Schirmung, welche in der Dose angelegt wird, also Erde durchgereicht vom Switch/Router
