@@ -44,8 +44,14 @@
   * Plan vorher
   * Chef vor Ort  
     mit Plan und bereits erledigten Aufgaben
-  * Verkabelung ohne Erdung
-    
-      Resultat: evlt. Stromschläge (Handschuhe?)  
+  * Verkabelung entlang der Stromkabel
+      * Problem:  
+        XXX  
+        Resultat: evlt. Stromschläge (Handschuhe?)  
       * evlt. **Lösung** (die wahrscheinlich funktioniert): RJ45-Doppeldaten-Dose  
-      Erdung über die Schirmung, welche in der Dose angelegt wird, also Erde durchgereicht vom Switch/Router
+      Erdung über die Schirmung, welche in der Dose angelegt wird, also Erde durchgereicht vom Switch/Router/Patchpanel
+      * Funk-Lösung
+          * Variante 1  
+            Breminale in Untergebiete aufteilen
+          * Variante 2  
+            alles mit normalem Meshing
