@@ -61,45 +61,39 @@
 
 ### Varianten
 
-**Variante 1 - Netzwerkabel am Starkstrom entlang**
-  Probleme
-Potentialausgleich
-Brummen
-Kabelpreis
-Arbeitsaufwand (Krimpen...)
+#### Variante 1 - Netzwerkabel am Starkstrom entlang
+  Probleme  
+Potentialausgleich  
+Brummen  
+Kabelpreis  
+Arbeitsaufwand (Krimpen...)  
+Strom für Node im Stromkasten?  
 
   Vorteile
 Geschwindigkeit
 "Stabilität"
 
-**Variante 2a - Kupfer in den Bäumen + Nanos**
-  Probleme
-Potentialausgleich
-Genehmigung
-Bäume
-  Arbeit
-  Dämpfung
-Abdeckung nicht gesichert
-Überlastung der "Nodes"
+#### Variante 2
+##### Untervarianten
+1. Kupfer in den Bäumen + Nanos
+2. Funk in den Bäumen + Nanos
 
- Vorteile
-kein Brummen
+##### Probleme
+Potentialausgleich (1.)  
+Genehmigung  
+Bäume  
+  Arbeit  
+  Dämpfung  
+Abdeckung nicht gesichert  
+Überlastung der "Nodes"  
+Strom  
 
-**Variante 2b - Funk in den Bäumen + Nanos**
-  Probleme
-Genehmigung
-Bäume
-  Arbeit
-  Dämpfung
-Abdeckung nicht gesichert
-Überlastung der "Nodes"
+##### Vorteile
+kein Brummen  
+kein Potentialausgleich (2.)  
 
- Vorteile
-kein Brummen
-kein Potentialausgleich
-
-**Variante 3 - Insellösung**
+**Variante 3 - Insellösung** (3-4 Inseln)
 
 
-**Variante 4 - kleinere Inseln**
+**Variante 4 - kleinere Inseln** (zwischen 2 Zelten 2 Inseln)
 
