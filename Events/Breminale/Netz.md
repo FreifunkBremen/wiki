@@ -122,6 +122,8 @@ Auf jeden Fall würde ich die WDRs auf die Seite der Bäume hängen wo sie zur S
 
 Man hätte immernoch direkt 2 Ports frei für jew. eine meiner 30 Stück + x (x = Anzahl von 5 GHz Nanostations die wir noch zusätzlich [zB leihweise] bekommen könnten) NanoStation 5 loco (5GHz) und jew. an jedem 2. Baum (wären bei 15 Stück ca 500 E, gerne aber auch an jeden eine, dann 1000E)eine noch anzuschaffende Nanostation M2 loco (2.4 GHz)  oder könnte mit einem HaushaltsSwitch noch mehr NSs dranhängen.
 
+Auf allen würde AirOS bleiben und sie wären als AccesPoint konfiguriert. Die einzelnen WDRs zählen die Clients dann trotzdem und man hat eine schöne Ansicht im MeshViewer und en Stats.
+
 AUF JEDEN FALL würde ich in Erwägung ziehen (informieren, recherchieren, fragen) die Nanos horizontal aufzuhängen, auf die Weser zu zielen und sogar dann rechts und links daneben und ev. nach unten hin ein KuchenBlech-grosses Blech (zB von alten TowerPCs und HeizungsAnlagen, ich habe aber auch Blei und man kann auf SchrottPlätzen schauen) hinzubauen damit die quasi Scheuklappen haben und nur die Signale aus einem schmalen Slot empfangen für den sie zuständig sind.
 
 Jede Gruppe aus WDR+Nano(s) braucht aber eben vor Ort in sagen wir mal weniger als 30m Entfernung vom EinsatzOrt eine 220V-SchukoSteckDose damit es nicht unwirtschaftlich wird bzw. überhaupt funktioniert.
