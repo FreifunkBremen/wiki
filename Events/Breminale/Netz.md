@@ -118,7 +118,14 @@ Man könnte auf eine lineare Topologie setzen, also einen Strang oder 2 oder gar
 
 Oder eben eine ringförmige Topologie (wobei sich die Kabel nur wenige Meter entfernt voneinander im Baum befinden würden, oder gar als Paar verlegt werden würden) bei der es dann aber wahrscheinlich Sinn macht komlett dieselbe KabelQualität einzusetzen (hab jetzt keine Lust das weiter zu durchdenken).
 
-Auf jeden Fall würde ich die WDRs auf die Seite der Bäume hängen wo sie zur Strasse blicken, so dass sich möglichst wenig Clients von unten damit verbinden und die Nanos nicht gestört werden (der Baum blockt das dann ja) und auf den WDRs Gluon laufen lassen.
+Auf jeden Fall würde ich die WDRs auf die Seite der Bäume hängen wo sie zur Strasse blicken, so dass sie möglichst nicht nach unten senden und sich somit auch nicht soviele Clients von unten damit verbinden und die Nanos nicht durch die WDRs gestört werden (der Baum blockt das dann ja) und auf den WDRs Gluon laufen lassen.
+
+Clients die sich auf der DeichSchräge aufhalten, können sich dann schon noch verbinden, aber eben nicht direkt zu dem WDR (aus ihrer perspektive hinter dem) Baum der am nächsten ist, sondern zu einem weiter links oder rechts.
+
+Und mit den Nanos sollten sich die Clients die sich auf der DeichSchräge aufhalten möglichst nicht verbinden, da sie mit den Clients unten genug zu tuen haben.
+
+Das kann man durch ein Blech verhindern. Dazu unten mehr.
+
 
 Man hätte immernoch direkt 2 Ports frei für jew. eine meiner 30 Stück + x (x = Anzahl von 5 GHz Nanostations die wir noch zusätzlich [zB leihweise] bekommen könnten) NanoStation 5 loco (5GHz) und jew. an jedem 2. Baum (wären bei 15 Stück ca 500 E, gerne aber auch an jeden eine, dann 1000E)eine noch anzuschaffende Nanostation M2 loco (2.4 GHz)  oder könnte mit einem HaushaltsSwitch noch mehr NSs dranhängen.
 
