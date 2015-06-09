@@ -44,29 +44,17 @@
   * vorher schon Plan haben
   * einen Chef vor Ort  
     mit Plan und bereits erledigten Aufgaben, welcher koordiniert
-  * Verkabelung entlang der Stromkabel (ursprünglicher/aktueller Aufbauplan)
-      * Probleme:  
-          * Potential
-          * Brummen
-        Resultat: evlt. Stromschläge (Handschuhe?)  
-      * evlt. **Lösung** (die wahrscheinlich funktioniert): RJ45-Doppeldaten-Dose  
-      Erdung über die Schirmung, welche in der Dose angelegt wird, also Erde durchgereicht vom Switch/Router/Patchpanel
-      * Funk-Lösung
-          * Variante 1  
-            Breminale in Untergebiete aufteilen
-          * Variante 2  
-            alles mit normalem Meshing
-
 
 
 ### Varianten
+Verkabelung entlang der Stromkabel (ursprünglicher/aktueller Aufbauplan) wirft Probleme auf, durchgerechnet von Nebirosh, deswegen Brainstorming von Varianten mit pro und contra
 
 #### Variante 1 - Netzwerkabel am Starkstrom entlang
 ##### Untervarianten
-1. **LAN-Kabel an Starkstromkabeln entlang, Switching von Nodes in Stromverteilern (aktueller Plan)**
+1. **Patch-Kabel an Starkstromkabeln entlang, Switching von Nodes in Stromverteilern (aktueller Plan)**
 2. **gleich, aber mit RJ45-Doppeldaten-Dosen an jedem Node der weiterreicht**  
 (funktioniert wahrscheinlich)  
-Erdung über die Schirmung, welche in der Dose angelegt wird, also Erde durch die Schirmung aller LAN-Kabel durchgereicht vom Patchpanel
+Erdung über die Schirmung, welche in der Dose angelegt wird, also Erde durch die Schirmung aller Patch-Kabel durchgereicht vom Patchpanel
 
 ##### Probleme  
 * Potentialausgleich (1.)  
@@ -80,6 +68,7 @@ Erdung über die Schirmung, welche in der Dose angelegt wird, also Erde durch di
 * Geschwindigkeit  
 * "Stabilität"  
 * kein Potentialausgleich (2.)
+
 
 #### Variante 2
 ##### Untervarianten
@@ -102,8 +91,28 @@ statt Kabel wird Richtfunk durch die Bäume verwendet
 * kein Brummen  
 * kein Potentialausgleich (2.)  
 
-**Variante 3 - Insellösung** (3-4 Inseln)
+
+#### Variante 3 - Insellösung (3-4 Inseln
+Die einzelnen Inseln werden mit Richtfunk angesprochen.  
+Damit der Potentialausgleich nicht wieder ein Problem ist, werden alle Nodes stern-verkabelt von einem geerdeten Patchpanel aus.
 
 
-**Variante 4 - kleinere Inseln** (zwischen 2 Zelten 2 Inseln)
+#### Variante 4 - kleinere Inseln (zwischen 2 Zelten 2 Inseln)
+Die einzelnen Inseln werden mit Richtfunk angesprochen.  
+Nodes untereinander verbunden mit
+1. WLAN-Meshing
+2. Patch-Kabel
 
+##### Probleme  
+* evtl. Potentialausgleich (2.)(da unteschiedlich starke Verbraucher, obwohl Strom für Nodes vom gleiche Stromkreis)  
+* Brummen (2.)(minimal, da nur kurze Strecken und nicht entlang von starken Stromleitungen)  
+* Arbeitsaufwand (Aufbau erst bei aufgebauten Ständen)  
+* reduzierter Durchsatz (2.)
+* Richtfunk muss eingerichtet werden
+
+##### Vorteile
+* kein Potentialausgleich (1.)
+* kein Brummen (1.)
+* keine Kabelverlegung
+  * reduzierter Arbeitsaufwand
+  * Ausfallrate wegen Kabeldefekt reduziert
