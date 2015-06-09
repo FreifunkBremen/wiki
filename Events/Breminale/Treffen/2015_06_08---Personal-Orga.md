@@ -41,10 +41,10 @@
   * Wer kann wann  
     Dudle wird erweitert und Teilnahme erzwungen
 * Aufbau  
-  * Plan vorher
-  * Chef vor Ort  
-    mit Plan und bereits erledigten Aufgaben
-  * Verkabelung entlang der Stromkabel
+  * vorher schon Plan haben
+  * einen Chef vor Ort  
+    mit Plan und bereits erledigten Aufgaben, welcher koordiniert
+  * Verkabelung entlang der Stromkabel (ursprünglicher/aktueller Aufbauplan)
       * Probleme:  
           * Potential
           * Brummen
@@ -62,35 +62,45 @@
 ### Varianten
 
 #### Variante 1 - Netzwerkabel am Starkstrom entlang
-  Probleme  
-Potentialausgleich  
-Brummen  
-Kabelpreis  
-Arbeitsaufwand (Krimpen...)  
-Strom für Node im Stromkasten?  
+##### Untervarianten
+1. **LAN-Kabel an Starkstromkabeln entlang, Switching von Nodes in Stromverteilern (aktueller Plan)**
+2. **gleich, aber mit RJ45-Doppeldaten-Dosen an jedem Node der weiterreicht**  
+(funktioniert wahrscheinlich)  
+Erdung über die Schirmung, welche in der Dose angelegt wird, also Erde durch die Schirmung aller LAN-Kabel durchgereicht vom Patchpanel
 
-  Vorteile
-Geschwindigkeit
-"Stabilität"
+##### Probleme  
+* Potentialausgleich (1.)  
+* Brummen  
+* Kabelpreis  
+* Dosenpreis (2.)
+* Arbeitsaufwand (Krimpen...)  
+* Strom für Node im Stromkasten?  
+
+##### Vorteile
+* Geschwindigkeit  
+* "Stabilität"  
+* kein Potentialausgleich (2.)
 
 #### Variante 2
 ##### Untervarianten
-1. Kupfer in den Bäumen + Nanos
-2. Funk in den Bäumen + Nanos
+1. **Kupfer durch die Bäume + Nanos**  
+die Nanos strahlen vom Deich runter auf die Breminale
+2. **Funk durch die Bäume + Nanos**  
+statt Kabel wird Richtfunk durch die Bäume verwendet
 
 ##### Probleme
-Potentialausgleich (1.)  
-Genehmigung  
-Bäume  
-  Arbeit  
-  Dämpfung  
-Abdeckung nicht gesichert  
-Überlastung der "Nodes"  
-Strom  
+* Potentialausgleich (1.)  
+* Genehmigung  
+* Bäume  
+  * Arbeit  
+  * Dämpfung  
+* Abdeckung nicht gesichert  
+* Überlastung der "Nodes"  
+* Strom  
 
 ##### Vorteile
-kein Brummen  
-kein Potentialausgleich (2.)  
+* kein Brummen  
+* kein Potentialausgleich (2.)  
 
 **Variante 3 - Insellösung** (3-4 Inseln)
 
