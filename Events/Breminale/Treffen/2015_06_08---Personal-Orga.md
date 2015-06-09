@@ -92,15 +92,25 @@ statt Kabel wird Richtfunk durch die Bäume verwendet
 * kein Potentialausgleich (2.)  
 
 
-#### Variante 3 - Insellösung (3-4 Inseln
+#### Variante 3 - Insellösung (3-4 Inseln)
 Die einzelnen Inseln werden mit Richtfunk angesprochen.  
 Damit der Potentialausgleich nicht wieder ein Problem ist, werden alle Nodes stern-verkabelt von einem geerdeten Patchpanel aus.
 
+##### Probleme  
+* Kosten für Patchpanel  
+* Arbeitsaufwand (Krimpen...) 
+* Kabel-Wege nicht klar
+* Richtfunk muss eingerichtet werden
+
+##### Vorteile
+* kein Potentialausgleich
+* kein Brummen (wenn nicht verlegt entlang Starkstromkabel)
+ 
 
 #### Variante 4 - kleinere Inseln (zwischen 2 Zelten 2 Inseln)
 Die einzelnen Inseln werden mit Richtfunk angesprochen.  
-Nodes untereinander verbunden mit
-1. WLAN-Meshing
+Nodes untereinander verbunden über:  
+1. WLAN-Meshing  
 2. Patch-Kabel
 
 ##### Probleme  
@@ -116,3 +126,6 @@ Nodes untereinander verbunden mit
 * keine Kabelverlegung
   * reduzierter Arbeitsaufwand
   * Ausfallrate wegen Kabeldefekt reduziert
+
+
+##### Variante 5 - alles über ganz normales WLAN-Meshing
