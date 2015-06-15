@@ -6,14 +6,13 @@ Stromkästen und Bierstände
 
 
 ## Protokoll
-* Wir brauchen pro Insel eine (einzige) lokale Erdung.
-* Einbau in:
-  * Stromkästen
-  * Bierkästen
-  * Dörfer: Zwei Stromkästen bestücken und 8-10 Router in die Buden/Zelte.
-* Kabelauswahl:
-   * Bei mehr als 10 Metern neben Starkstromkabel: Cat 7
-   * Für andere Strecken mindestens Cat 5e (geschirmt!)
+
+
+* Stromkäster für Langedistanzen mit Patchpanel oder Dosen
+  * Cat7 auflegen auf Dose
+  * Dose -> Patchkabel -> Node
+  * Node -> Cat5 -> Stern
+
 
 * Webseite:
   * Scroll nach rechts, bei langen Webseits
@@ -25,3 +24,17 @@ Stromkästen und Bierstände
   * Diverse Zubehör über hackerspace
 * Einkauf Geräten:
   * Kabel Cat7 wird nur eingekauft, benutzt jede Category
+
+
+### TODO  
+* KnowHow
+  * Krimpen
+  * Auflegen (Dosen \& Patchpanels)
+  * (Erdung)
+  * 
+* Zubehör
+  * 2x Patchpanel Auflegezangen (Eike)
+
+  * **Brauchen:**
+      * Isolier-Abzieher
+      * Kripzangen
