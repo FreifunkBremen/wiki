@@ -36,6 +36,6 @@ Stromkästen und Bierstände
   * 2x Patchpanel Auflegezangen (Eike)
 
   * **Brauchen:**
-      * Isolier-Abzieher
-      * Kripzangen
+      * Abisolierzange (für LAN)
+      * Crimpzange
 
