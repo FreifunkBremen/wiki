@@ -27,7 +27,7 @@ Stromkästen und Bierstände
 
 
 ### TODO  
-* KnowHow
+* KnowHow (Workshop, nächste Woche)
   * Krimpen
   * Auflegen (Dosen \& Patchpanels)
   * (Erdung)
@@ -38,3 +38,4 @@ Stromkästen und Bierstände
   * **Brauchen:**
       * Isolier-Abzieher
       * Kripzangen
+
