@@ -6,10 +6,14 @@ Stromkästen und Bierstände
 
 
 ## Protokoll
-* Einbau nur in:
+* Wir brauchen pro Insel eine (einzige) lokale Erdung.
+* Einbau in:
   * Stromkästen
   * Bierkästen
-  * 
+  * Dörfer: Zwei Stromkästen bestücken und 8-10 Router in die Buden/Zelte.
+* Kabelauswahl:
+   * Bei mehr als 10 Metern neben Starkstromkabel: Cat 7
+   * Für andere Strecken mindestens Cat 5e (geschirmt!)
 
 * Webseite:
   * Scroll nach rechts, bei langen Webseits
