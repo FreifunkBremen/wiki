@@ -41,3 +41,8 @@ n Sektorantennen um den Bereich vor den Bühnen gezielt ausleuchten zu können
     9x NS5 (bald) (FF-Firmware läuft NICHT darauf, aber jew. 2  als Bridge ersetzen ein Kabel oder im AccessPointModus an LAN-Ports von  Nodes nutzbar)  
   * 3 x UniFi AP (Nebirosh)
   * NS M2, NS M2 loco (Emanuel)
+  * 
+  
+  ## Kaufquellen für Material
+[50m CAT.5e S/FTP doppelt geschirmt Netzwerkkabel schwarz](http://www.ebay.de/itm/130940952917)
+
