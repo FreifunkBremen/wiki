@@ -38,11 +38,12 @@ Hat jemand irgendwelche Ideen?
 * [Digineo GmbH](http://www.digineo.de) - Kontakt: Julian
   * einen Server
   * WDR3600 soviele wie wir brauchen (Leihgabe)
-  * evtl. Unterschrift für LWLcom-Uplink
+  * Unterschrift für LWLcom-Uplink
 * Radio Bremen [SimJoSt]  
   Es wird geprüft, ob die Abteilung für Kabel welche abgeben könnte.
   Sie sind schon Sponsoren der Breminale.
-* SWB [SimJoSt]
+* ~~SWB [SimJoSt]~~  
+  wurde von der Sternkultur schon geprüft und ist nicht möglich
 * Conrad [SimJoSt]
 * Saturn [SimJoSt]
 * Atelco [SimJoSt]
