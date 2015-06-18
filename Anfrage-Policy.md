@@ -8,4 +8,4 @@ Um die Anfragen von Menschen nach Freifunkroutern möglichst positiv abschließe
   * Es antwortet möglichst immer nur eine Person, dies gilt auch für CC
   * Die Mail sollte sich auf das wichtigste Beschränken
 * Alle Anfragen werden, bis ein richtiges Ticketsystem aufgesetzt ist [hier](http://wiki.bremen.freifunk.net/Routerboerse-Anfragen) festgehalten.
-  * Die Nachnamen der Anfragenden werden dabei gekürtz
+  * Die Nachnamen der Anfragenden werden dabei gekürzt
