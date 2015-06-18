@@ -36,25 +36,32 @@ Es besteht die Möglichkeit eine Zusage für ein neues 400 € Projekt zu bekomm
 ### Sponsoren
 Hat jemand irgendwelche Ideen?
 
-* [Digineo GmbH](http://www.digineo.de) - Kontakt: Julian
-  * einen Server
-  * WDR3600 soviele wie wir brauchen (Leihgabe)
-  * Unterschrift für LWLcom-Uplink
-* ~~Radio Bremen~~ [SimJoSt]  
+##### **[Digineo GmbH](http://www.digineo.de)** - Kontakt: Julian
+* einen Server
+* WDR3600 soviele wie wir brauchen (Leihgabe)
+* Unterschrift für LWLcom-Uplink
+
+##### ~~**Radio Bremen**~~ [SimJoSt]  
   Sie können keine Hardware-Spende tätigen, da sie ihr Equipment selber benötigen.  
   Eine finanzielle Förderung benötigt sehr viel Zeit (3 Monate) um durch die benötigten Stellen zu laufen. Gerne beim nächsten Projekt frühzeitig Bescheid sagen.
-* ~~SWB~~ [SimJoSt]  
-  wurde von der Sternkultur schon geprüft und ist nicht möglich
-* Conrad [SimJoSt]  
-  Es wird auf Rückmeldung gewartet.
-* Saturn [SimJoSt]  
-  Ansprechspartner ist am Montag, den 22. wieder da
-* Atelco [SimJoSt]  
-  Es sieht nicht gut aus, es wird auf erweiterte Rückmeldung gewartet.
-* real [SimJoSt]  
-  Es wird auf Rückmeldung gewartet.
-* MediaMarkt [SimJoSt]  
-  Es sieht nicht gut aus, es wird auf erweiterte Rückmeldung gewartet.
+
+##### ~~**SWB**~~ [SimJoSt]  
+Wurde von der Sternkultur schon geprüft und ist nicht möglich.
+
+##### **Conrad** [SimJoSt]  
+Es wird auf Rückmeldung gewartet.
+
+##### **Saturn** [SimJoSt]  
+Ansprechspartner ist am Montag, den 22. wieder da
+
+##### **Atelco** [SimJoSt]  
+Es sieht nicht gut aus, es wird auf erweiterte Rückmeldung gewartet.
+
+##### **real** [SimJoSt]  
+Es wird auf Rückmeldung gewartet.
+
+##### **MediaMarkt** [SimJoSt]  
+Es sieht nicht gut aus, es wird auf erweiterte Rückmeldung gewartet.
 
 ### Privatpersonen
 
