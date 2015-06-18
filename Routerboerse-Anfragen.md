@@ -12,3 +12,4 @@ Hier bitte eintragen falls eine neue Anfrage eingeht oder der Status sich änder
 | Sven P.           | Winfried Rokita         | in Betrieb (ffhb.plisch.01)               | 'HintermRennPlatz-PlischWeg-WilhelmBusch4tel' bzw. er entscheidet das selber |
 | Marcel B.         | Heinz Böttjer           | beantwortet                               | -           |
 | Liegeplatz Bremen | Nebirosh                | Termin 7.1.2015                           | -           |
+| ServiceBureau     | SimJoSt                 | hat angefragt, wartet auf Geräte (sind direkt neben einem zukünftigen Flüchtlingsheim | - |
