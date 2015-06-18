@@ -26,6 +26,7 @@ Hier werden die Kosten und Einnahmen für das Breminale Projekt Dokumentiert.
 500 € (95% sicher)
 
 #### Bremische Landesmedienanstalt
+Der angepasste (formellere) Antrag ist eingereicht.
 
 #### O2 ThinkBig [SimJoSt]
 Die Chancen stehen im Moment schlecht.  
