@@ -45,4 +45,4 @@ Diese Leute stehen in Kontakt mit dem Senat zwecks Umsetzung des [Bürgerschafts
 * JP / Jan-Philipp / jplitza
 * Moritz / mortzu
 * Claus / Nebirosh
-* Simon / SimJoSt
+* Simon / SimJoSt (seit 2014-03 dabei)
