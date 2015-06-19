@@ -2,6 +2,8 @@
 
 Diese Seite listet auf, was von wem getan wird und wer folglich zu welchen Themen ein passender Ansprechpartner ist. Natürlich spricht nichts dagegen, einfach auf die [Liste](liste@bremen.freifunk.net) zu schreiben oder auf einem Treffen in die Runde zu fragen.
 
+Wenn du dich zu einem dieser Themenkomplexe zugehörig fühlst, darfst du natürlich gerne die anderen Personen die sich darum kümmern unterstützen! Kontaktiere bitte das bisherige Team, um Informationen über technische Voraussetzungen und bisherige Verfahrensweisen in diesem Bereich zu erhalten.
+
 ## Nutzeranfragen / Hilfe
 
 Diese Leute kümmern sich um Anfragen von Knotenbesitzern und jenen, die es werden möchten, sowie von Nutzern des Netzes.
