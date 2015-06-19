@@ -68,7 +68,7 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st�
   * VLAN 1: Management-Netz
   * VLAN 2: Freifunk-Netz
   * VLAN 3: Büro-Netz
-  * VLAN 11 auf Port 1, VLAN 12 auf Port 2, ..., VLAN 15 auf Port 5 (Zur Ermittlung der Topologie)
+  * ein eigenes untagged VLAN pro Port zur Ermittlung der Topologie (corny: habe ich jplitza so richtig verstanden?)
 * 2.4 GHz: Kanäle 1,5,9,13 und 10 dBm Sendeleistung (Empfehlung von morpheus)
 * 5 GHz: Kanäle 100-140
 * Announced soll die Anzahl der 2.4 und 5 GHz-Clients getrennt ausgeben.
