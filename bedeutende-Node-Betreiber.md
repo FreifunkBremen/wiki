@@ -15,6 +15,8 @@ Aufgrund von Nachfrage von an Freifunk interessierten Personen/Geschäften, soll
   http://bremen.freifunk.net/meshviewer/#!n:e894f667e62e
 * **Sieben Sachen** (Bekleidungsgeschäft)  
   http://bremen.freifunk.net/meshviewer/#!n:10feed40802e
+* **KuKoon** (Restaurant)
+  http://bremen.freifunk.net/map/node.html?id=c6:72:1f:e7:b1:de
 
 
 ### Privatpersonen
