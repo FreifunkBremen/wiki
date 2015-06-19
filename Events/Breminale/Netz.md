@@ -104,7 +104,7 @@ Sobald am Mi 08.07. die Verlegung der Stromkabel erfolgt, können wir starten di
 
 Wurde beim [Treffen](/Events/Breminale/Treffen/2015_06_15-viertes-Breminale-Treffen) entschieden:
 
-* Verkabelung der Stromkästen: Cat.7 und Netzwerkdosen/Patchpanels
+* Verkabelung der Stromkästen: Cat.7 und Netzwerkdosen/Patchpanels mit zentraler Erdung
 * Kürzere Strecken mit höchstens 10 Metern Starkstrom: Cat.5e-Patchkabel
 
 ##### Himmlische Wiese
