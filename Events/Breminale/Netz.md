@@ -64,13 +64,21 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st�
 
 * Angepasste Freifunk-Firmware mit einem "Breminale-Key"
 * Kein Meshing
+* Firewall: Vollst채ndig deaktivieren?
+* Bridges:
+  * br-client: Freifunk-Netz
+  * br-wan: Management-Netz
 * Switch-Konfiguration
   * VLAN 1: Management-Netz
   * VLAN 2: Freifunk-Netz
   * VLAN 3: B체ro-Netz
   * ein eigenes untagged VLAN pro Port zur Ermittlung der Topologie (corny: habe ich jplitza so richtig verstanden?)
-* 2.4 GHz: Kan채le 1,5,9,13 und 10 dBm Sendeleistung (Empfehlung von morpheus)
-* 5 GHz: Kan채le 100-140
+* WLANs:
+  * bremen.freifunk.net (unverschl체sselt) an br-client
+  * management (WPA2-PSK) an br-wan
+* WLAN-Kan채le und Sendeleistung:
+  * 2.4 GHz: Kan채le 1,5,9,13 und 10 dBm Sendeleistung (Empfehlung von morpheus)
+  * 5 GHz: Kan채le 100-140
 * Announced soll die Anzahl der 2.4 und 5 GHz-Clients getrennt ausgeben.
 
 #### Himmlische Wiese
