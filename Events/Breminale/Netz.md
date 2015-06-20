@@ -81,8 +81,6 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st�
   * 5 GHz: Kanäle 100-140
 * Announced soll die Anzahl der 2.4 und 5 GHz-Clients getrennt ausgeben.
 
-#### Himmlische Wiese
-* Standard-Firmware
 
 ### Node-Standorte
 * in den Stromverteilerkästen; zum Weiterleiten
