@@ -73,11 +73,14 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st�
 * 5 GHz: Kanäle 100-140
 * Announced soll die Anzahl der 2.4 und 5 GHz-Clients getrennt ausgeben.
 
+#### Himmlische Wiese
+* Standard-Firmware
+
 ### Node-Standorte
 * in den Stromverteilerkästen; zum Weiterleiten
 * in Ständen zwischen den Musikzelten
-* in Bierständen (Termin für Besichtung von Beispiel-Bierständen wird organisiert)
-* Musikzelte? niedrigere Priorität
+* in Bierständen
+* Musikzelte? niedrigere Priorität (Ansprechpartner ist der Elektriker oder Max; selten ein Zelt-Beauftragter)
 
 ### Management und Monitoring
 
@@ -106,6 +109,8 @@ Wurde beim [Treffen](/Events/Breminale/Treffen/2015_06_15-viertes-Breminale-Tref
 
 * Verkabelung der Stromkästen: Cat.7 und Netzwerkdosen/Patchpanels mit zentraler Erdung
 * Kürzere Strecken mit höchstens 10 Metern Starkstrom: Cat.5e-Patchkabel
+
+Falls nicht genug Kabel vorhanden, wird nicht die Breminale hoch UND runter (im Deichknick UND and der Weser) verkabelt, sondern nur im Deichknick. Die Reichweite der Router sollte ausreichen.
 
 ##### Himmlische Wiese
 Der Tunnel ist mit 120 m erstmal zu lang für ein Kupferkabel.
