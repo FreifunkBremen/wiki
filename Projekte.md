@@ -16,7 +16,8 @@ SimJoSt
 Mit einer 400 € Förderung von Think-Big.org ein paar Freifunk-Geräte kostenlos aufzustellen, um das Thema Freifunk im Stadtteil bekannter und attraktiver zu machen.
 #### Status
 Aus Sicht von Think-Big.org abgeschlossen sind fast alle Geräte aufgestellt.  
-Weiterführend werden die aktuellen Betreiber nach Testphase auf Unterstützung angesprochen, damit neue Geräte gekauft werden, sowie der Erschließung neuer Standorte, zur Verbindung (Mesh) der vorhanden Standorte.
+Weiterführend werden die aktuellen Betreiber nach Testphase auf Unterstützung angesprochen, damit neue Geräte gekauft werden, sowie der Erschließung neuer Standorte, zur Verbindung (Mesh) der vorhanden Standorte.  
+Aktuellster Status, sowie Projekt-Verlauf auf dem Think-Big.org [**Blog**](https://www.think-big.org/projekt/freifunk-fuer-findorff/).
 
 ## Projekt-Vorschläge
 
