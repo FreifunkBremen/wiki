@@ -5,7 +5,8 @@ Wenn möglich schreibt **kurz** einen aktuellen Status dazu.
 
 ## aktive Projekte
 
-
+### [Breminale](http://wiki.bremen.freifunk.net/pages/Events/Breminale/)
+Aufgrund der Größe des Breminale-Projektes und des Charakters als Event gibt es einen eigenen Projekt-Ordner: [http://wiki.bremen.freifunk.net/pages/Events/Breminale/]
 
 ## inaktive Projekte
 
