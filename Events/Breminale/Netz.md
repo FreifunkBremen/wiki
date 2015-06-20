@@ -64,7 +64,7 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st�
 
 * Angepasste Freifunk-Firmware mit einem "Breminale-Key"
 * Kein Meshing
-* Firewall: Vollständig deaktivieren?
+* Firewall: Vollständig deaktivieren für br-wan?
 * Bridges:
   * br-client: Freifunk-Netz
   * br-wan: Management-Netz
