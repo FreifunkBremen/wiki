@@ -42,6 +42,7 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st√
 * Switch: HP 1920-8G mit SFP (Julian)
 * Kleine Debian-Kiste f√ºr Monitoring und andere Dienste (Julian), Backup?
 * WDR3600/WDR4300 als Nodes (Julian und nukeUS)
+* NanoStations M5 (nukeUS)
 
 ### Router-Konfiguration
 
