@@ -11,6 +11,7 @@ Diese Leute kümmern sich um Anfragen von Knotenbesitzern und jenen, die es werd
 **Erreichbarkeit:** hilfe@bremen.freifunk.net
 
 * Simon Joda Stößer / SimJoSt (seit 2014-03 dabei)
+* Malte / ec8or
 * Personen gesucht!
 
 ## Presse
