@@ -10,6 +10,7 @@ Diese Leute kümmern sich um Anfragen von Knotenbesitzern und jenen, die es werd
 
 **Erreichbarkeit:** hilfe@bremen.freifunk.net
 
+* Simon Joda Stößer / SimJoSt (seit 2014-03 dabei)
 * Personen gesucht!
 
 ## Presse
@@ -19,6 +20,7 @@ Diese Leute kennen sich gut mit dem Projekt aus und sind bereit, Presseanfragen 
 **Erreichbarkeit:** presse@bremen.freifunk.net
 
 * JP / Jan-Philipp / jplitza
+* Simon Joda Stößer / SimJoSt (seit 2014-03 dabei)
 * Personen gesucht!
 
 ## Firmware
@@ -47,4 +49,4 @@ Diese Leute stehen in Kontakt mit dem Senat zwecks Umsetzung des [Bürgerschafts
 * JP / Jan-Philipp / jplitza
 * Moritz / mortzu
 * Claus / Nebirosh
-* Simon / SimJoSt (seit 2014-03 dabei)
+* Simon Joda Stößer / SimJoSt (seit 2014-03 dabei)
