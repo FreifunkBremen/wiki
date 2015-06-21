@@ -29,27 +29,52 @@
   * Freifunker Plenum *(Rücksprachen mit anderen Freifunker?)*
 
 ## Zeitplanung während des Events
-* **07/08 - 07/09** (Mittwoch+Donnerstag)
- * Verlegung von Stromnetz
-* **07/10** (Freitag)
+### 1. Woche
+##### Mittwoch 08.07.
+* Verlegung von Stromnetz
+
+##### Donnerstag 09.07.
+* Verlegung von Stromnetz
+* Start Aufbau Drei Meter Bretter
+
+##### Freitag 10.07.
  * Aufbau Zelte
  * Veranstalter erst jetzt da
  * Aufbau Wasserleitungen beginnt
-* **07/13** (Montag)
-  * Aufbau Wasserleitungen abgeschlossen
-* **07/15** (Mittwoch)
- * Begin Breminale
-* **07/17** (Freitag)
-  * *Freifunker Plenum (absagen, stattdessen Freifunk Party auf Breminale)*
-* **07/19** (Sonntag)
- * Ende Breminale
- * Abends Beginn des Abbaus
-* **07/20** - 07/21 (Montag+Dienstag)
- * Abbau
-* **07/22** - 07/23 (Mittwoch+Donnerstag)
- * Mülltrupp räumt auf
 
-## Termine ohne Datum
-* Treffen mit Strom-Kasten-Firma (Test: passen Nodes in die Kästen)
-* Nord-West Radio Auftritt Vorbereitung
-* Nord-West Radio Auftritt
+##### Samstag 11.07.
+
+##### Sonntag 12.07.
+
+### 2. Woche
+
+##### Montag 13.07.
+* Aufbau Wasserleitungen abgeschlossen
+
+##### Dienstag 14.07.
+
+##### Mittwoch 15.07.
+* Begin Breminale
+
+##### Donnerstag 16.07.
+
+##### Freitag 17.07.
+* Freifunker Plenum (absagen, stattdessen Freifunk Party auf Breminale)*
+
+##### Samstag 18.07.
+
+##### Sonntag 19.07
+* Ende Breminale
+* Abends Beginn des Abbaus
+
+##### Montag 20.07.
+* Abbau
+
+##### Dienstag 21.07.
+* Abbau
+
+##### Mittwoch 22.07.
+* Mülltrupp räumt auf
+
+##### Donnerstag 23.07.
+* Mülltrupp räumt auf
