@@ -73,7 +73,7 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st�
   * VLAN 1: Management-Netz
   * VLAN 2: Freifunk-Netz
   * VLAN 3: Büro-Netz
-  * ein eigenes untagged VLAN pro Port zur Ermittlung der Topologie (corny: habe ich jplitza so richtig verstanden?)
+  * (ein eigenes untagged VLAN pro Port zur Ermittlung der Topologie (corny: habe ich jplitza so richtig verstanden?)) besser: Link Layer Discovery Protocol (LLDP)
 * WLANs:
   * bremen.freifunk.net (unverschlüsselt) an br-client
   * management (WPA2-PSK) an br-wan
