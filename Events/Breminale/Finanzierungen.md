@@ -30,10 +30,9 @@ Hier werden die Kosten und Einnahmen für das Breminale Projekt Dokumentiert.
 #### Bremische Landesmedienanstalt
 Der angepasste (formellere) Antrag ist eingereicht.
 
-#### O2 ThinkBig [SimJoSt]
-Die Chancen stehen im Moment schlecht.  
+#### ThinkBig [SimJoSt]
 Leider ist es nicht möglich SimJoSts vorhandenes Projekt für Findorff bis zur Breminale in die nächste Phase zu bringen (400 € -> 1.000 €).  
-Es besteht die Möglichkeit eine Zusage für ein neues 400 € Projekt zu bekommen. Der Antragssteller dürfte nicht SimJoSt sein. Das Projekt sollte sich möglichst stark von SimJoSts Findorff Projekt unterscheiden.
+Es ist außerdem nicht möglich, dass ein anderer Antragsteller 400 € beantragt, da das Breminale-Projekt dem Findorff-Projekt zu ähnlich ist.
 
 ### Sponsoren
 Hat jemand irgendwelche Ideen?
