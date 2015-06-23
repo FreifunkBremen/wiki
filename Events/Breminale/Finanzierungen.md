@@ -25,7 +25,7 @@ Hier werden die Kosten und Einnahmen für das Breminale Projekt Dokumentiert.
 ## Geplante Finanzierungen
 ### Förderungen
 #### Senator für Kultur über Sternkultur
-500 € (95% sicher)
+500 € netto, 595 € brutto
 
 #### Bremische Landesmedienanstalt
 Der angepasste (formellere) Antrag ist eingereicht.
