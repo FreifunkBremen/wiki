@@ -13,13 +13,13 @@ Hier werden die Kosten und Einnahmen für das Breminale Projekt Dokumentiert.
 
 ### Einnahmen
 
- Einzahlung von   | Betrag    | Gelegenheit                             
- :--------------- |---------: | :--------------------------------------- 
- anonymous        | 3         | Node für Sternkultur - IRC (23.04)      
- Nebirosh         | 17        | Private gegen Rechnungen - IRC (23.04)  
- Sternkultur      | 500       | Förderung von Senator für Kultur
- Hackerspace      | 270       | Spenden an Freifunk Freifunk
- Summe            | 790       | -                                       
+ Einzahlung von   | Betrag      | Gelegenheit                             
+ :--------------- |-----------: | :--------------------------------------- 
+ anonymous        | 3           | Node für Sternkultur - IRC (23.04)      
+ Nebirosh         | 17          | Private gegen Rechnungen - IRC (23.04)  
+ Sternkultur      | 500 (netto) | Förderung von Senator für Kultur (Brutto 595 €)
+ Hackerspace      | 270         | Spenden an Freifunk Freifunk
+ Summe            | 790         | -                                       
 
 
 ## Geplante Finanzierungen
