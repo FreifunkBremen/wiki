@@ -6,18 +6,14 @@ Aufgrund von Nachfrage von an Freifunk interessierten Personen/Geschäften, soll
 
 
 ### Gewerbe / Geschäfte
-
-* **Lilie** (Restaurant)  
-  http://bremen.freifunk.net/meshviewer/#!n:e894f6337380
-* **feliz** (Café)  
-  http://bremen.freifunk.net/meshviewer/#!n:c04a008d72fc
-* **Port Piet** (Biergarten)  
-  http://bremen.freifunk.net/meshviewer/#!n:e894f667e62e
-* **Sieben Sachen** (Bekleidungsgeschäft)  
-  http://bremen.freifunk.net/meshviewer/#!n:10feed40802e
-* **KuKoon** (Restaurant)
-  http://bremen.freifunk.net/map/node.html?id=c6:72:1f:e7:b1:de
-
+Stadtteil | Name              | Typ         | Kommentar
+--------  | ----------------- | ----------- | ----------
+Findorff  | **feliz**         | Café        | gehört zur Gruppe Lilie, Port Piet, feliz; bekannt in Findorff
+Findorff  | **Lilie**         | Restaurant  | gehört zur Gruppe Lilie, Port Piet, feliz; bekannt in Findorff
+Findorff  | **Port Piet**     | Biergarten  | gehört zur Gruppe Lilie, Port Piet, feliz; bekannt in Findorff
+Findorff  | **Schlachthof**   | Kultur      | Kulturzentrum sowie Kneipe
+Findorff  | **Sieben Sachen** | Bekleidung  | Inhaberin ist Geschäftsführerin der Findorffer Geschäftsleute
+Neustadt  | **Kukoon**        | Restaurant   | 
 
 ### Privatpersonen
 
