@@ -38,6 +38,16 @@ Es wird gerwartet:
 * Abschluss des Breminale-Projektes als Referenz
 
 ## Ideen-Liste
+### Altstadt
+Standort                | Kommentar
+:---------------------- | :------------------------------------------------
+Domshof Passage         | Inhaber: Objekt-Entwicklung; direkt Geschäfteinhaber ansprechen
+
+### Blockdiek
+Standort                  | Kommentar
+:------------------------ | :------------------------------------------------
+Einkaufszentrum Blockdiek | Inhaber: Objekt-Entwicklung; direkt Geschäfteinhaber ansprechen
+
 ### Burglesum
 Standort                | Kommentar
 :---------------------- | :------------------------------------------------
