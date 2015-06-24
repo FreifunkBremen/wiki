@@ -13,6 +13,12 @@ Um unser [[Events/Breminale/Netz]] zu bauen brauchen wir viel Material.
 
 5 - 10 Stk. wetterfeste Gehäuse ( passend für größere Routermodelle )
 
+### Werkzeug
+* LAS-Auflegewerkzeug   
+  1 x JP
+* "Abmantler"  
+  1 x JP
+
 ## Bedarfsmaterial
 
 4 - 6 Richtfunkantennen ( für den Fall das höhere Gebäude verwendet werden können
