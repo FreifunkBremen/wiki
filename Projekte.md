@@ -22,7 +22,7 @@ Aus Sicht von Think-Big.org abgeschlossen sind fast alle Geräte aufgestellt.
 Weiterführend werden die aktuellen Betreiber nach Testphase auf Unterstützung angesprochen, damit neue Geräte gekauft werden, sowie der Erschließung neuer Standorte, zur Verbindung (Mesh) der vorhanden Standorte.  
 Aktuellster Status, sowie Projekt-Verlauf auf dem Think-Big.org [**Blog**](https://www.think-big.org/projekt/freifunk-fuer-findorff/).
 
-## Projekt-Vorschläge
+## konkrete Projekt-Vorschläge
 
 ### Freifunk für den Bahnhof Bremen
 #### Team
@@ -36,6 +36,14 @@ Durch die Umsetzung sollen Erfahrungswerte mit Freifunk-Routern in Verbindung vo
 Es wird gerwartet:
 * Am 22.6. ist die Bewerbungsphase für ein 1.000 € Förderungsprojekt eröffnet.  
 * Abschluss des Breminale-Projektes als Referenz
+
+## Ideen-Liste
+
+    Stadteil      |   Standort              |   Kommentar
+  :-------------- | :---------------------- | :------------------------------------------------
+  Burglesum       | Einkaufszentrum marßel  | Inhaber: Objekt-Entwicklung; direkt Geschäfteinhaber ansprechen
+  Findorff        | Jan-Reiners-Center      | Inhaber: Objekt-Entwicklung; direkt Geschäfteinhaber ansprechen
+  Neue Vahr       | Berliner Freiheit       | Inhaber: Objekt-Entwicklung; direkt Geschäfteinhaber ansprechen; **langfristig flächendeckende WLAN-Abedeckung geplant; in Gesprächen mit Uplink-Anbietern**
 
 ## abgeschlossene Projekte
 
