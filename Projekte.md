@@ -38,14 +38,20 @@ Es wird gerwartet:
 * Abschluss des Breminale-Projektes als Referenz
 
 ## Ideen-Liste
-  Stadteil      |   Standort              |   Kommentar
-:-------------- | :---------------------- | :------------------------------------------------
-Burglesum       | Einkaufszentrum marßel  | Inhaber: Objekt-Entwicklung; direkt Geschäfteinhaber ansprechen
+### Burglesum
+Standort                | Kommentar
+:---------------------- | :------------------------------------------------
+Einkaufszentrum marßel  | Inhaber: Objekt-Entwicklung; direkt Geschäfteinhaber ansprechen
 
-Findorff        | Jan-Reiners-Center      | Inhaber: Objekt-Entwicklung; direkt Geschäfteinhaber ansprechen
+### Findorff
+Standort                |   Kommentar
+:---------------------- | :------------------------------------------------
+Jan-Reiners-Center      | Inhaber: Objekt-Entwicklung; direkt Geschäfteinhaber ansprechen
 
-Neue Vahr       | Berliner Freiheit       | Inhaber: Objekt-Entwicklung; direkt Geschäfteinhaber ansprechen; **langfristig flächendeckende WLAN-Abedeckung geplant; in Gesprächen mit Uplink-Anbietern**
-[Test]
+### Neue Vahr
+Standort                | Kommentar
+:---------------------- | :------------------------------------------------
+Berliner Freiheit       | Inhaber: Objekt-Entwicklung; direkt Geschäfteinhaber ansprechen; **langfristig flächendeckende WLAN-Abedeckung geplant; in Gesprächen mit Uplink-Anbietern**
 
 ## abgeschlossene Projekte
 
