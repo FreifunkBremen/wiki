@@ -102,7 +102,7 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st�
 Sobald am Mi 08.07. die Verlegung der Stromkabel erfolgt, können wir starten die Netzwerkkabel an ihnen entlang zu legen und mit Kabelbindern festzumachen. Brilliant wäre es am Do 09.07. zum Ende des Tages fertig zu sein, damit wir am Fr 10.07. uns nicht in die Quere kommen mit den "Zeltaufbauern".
 
 #### Infos
-* LWLcom Glasfaser-Anschluss auf Höhe Mozartstraße
+* LWLcom Glasfaser-Anschluss auf Höhe Mozartstraße (https://goo.gl/LM3P41)
 * Sternkultur Büro-Container auf Höhe Deichstraße
 * bessere Variante/Standort für Router am/auf Duschcontainer; direkt an Mozartstraße
 * Kabel entlang der Wasserrohre und -schläuche ist gesetzlich nicht erlaubt (weiterführende Nachfrage bei Sternkultur läuft)
