@@ -49,8 +49,8 @@ Hat jemand irgendwelche Ideen?
 ##### ~~SWB~~ [SimJoSt]  
 Wurde von der Sternkultur schon geprüft und ist nicht möglich.
 
-##### Conrad [SimJoSt]  
-Es wird auf Rückmeldung gewartet.
+##### ~~Conrad~~ [SimJoSt]  
+Eine Kooperation ist aus unbekannten Gründen nicht möglich.
 
 ##### Saturn [SimJoSt]  
 Ansprechspartner ist am Montag, den 22. wieder da
