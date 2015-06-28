@@ -4,8 +4,7 @@ Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Die
 * [Tahoe-LAFS](Dienste/Tahoe-LAFS)
 * [Straßenbahn-Fahrplan Sielwall](http://10.196.0.69) Echtzeit Haltestellendaten (noch Testbetrieb)
 * [Freifunk Store](http://10.196.0.69/ff_store/) unkommerzielle Router-, Antennen und Teilebörse
-* [Gitlab](http://gitlab.services.ffhb.de/) per Aktivierung von genofire
-* [Chat](http://chat.services.ffhb.de/) Jabber Server. ( Webclient noch in der Entwicklung - genofire)
+* [Chat](http://chat.ffhb.de/) Jabber Server. ( Down - genofire)
 * [SIP Server](http://sip.services.ffhb.de/web/) Asterisk SIP Server ( alpha - Nebirosh)
 * [Etherpad-lite](http://pads.services.ffhb.de/) kollaboratives Schreiben von Texten 
 
@@ -24,7 +23,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.60 notebook (bis dhcp zuverlässig läuft (diega))
     * 10.196.0.69 S-Bahn Fahrplan + Store (anon6789)
     * 10.196.0.70 anon6789
-    * 10.196.0.90-95 genofire
+    * 10.196.0.90-94 genofire
     * 10.196.0.100 Dienste von Lorenz
     * 10.196.0.127 node.ffhb.de
     * 10.196.0.128 alternativer DNS Server (mortzu)
