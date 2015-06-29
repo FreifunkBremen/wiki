@@ -1,7 +1,16 @@
 # 2015_06_29 Unterstützung
-## 750 € - wie setzen wir es ein?
-* weitere 500m Cat7 Kabel als Puffer
-* Glasfaser-Strecken
+## 750 € zusätzlich
+* Patchkabel
+  * 20 x 30m  
+    **200 €** = 20 x 10 €
+  * 5 x 50m 
+    **60 €** = 5 x 13 €
+* 3 x Aufputzdosen (2 x RJ45)  
+  **15** = 3 x 5 €
+* 4 x Patchpanel  
+  **52** = 4 x 13 €
+* Glasfaser-Strecken  
+  **651 €**
     * 500m LWL-Kabel  
       **292 €**
     * 2 x Konfektionierung  
@@ -12,3 +21,7 @@
       **81 €** = 3 x 27 €
     * Versand  
       **8 €**
+
+## mehr
+* weitere 500m Cat7 Kabel als Puffer  
+  **250 €**
