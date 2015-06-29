@@ -1,6 +1,12 @@
 
 Um unser [[Events/Breminale/Netz]] zu bauen brauchen wir viel Material.
 
+## vorhandenes Material
+
+6x 20 Meter Patchkabel (lagernd bei Eike)
+2x 500M Cat7 Kabel (lagernd bei Julian)
+17x Netzwerkdosen (lagernd bei Julian)
+
 ## Notwendiges Material
 
 2000 - 2500 m CAT 7 S/FTP simplex Kabel auf 500m Trommeln
