@@ -25,3 +25,4 @@
 ## mehr
 * weitere 500m Cat7 Kabel als Puffer  
   **250 €**
+* Kabelbinder: 1000x 200mm lang und 4,8mm dick = **17€** Brutto
