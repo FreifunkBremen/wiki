@@ -4,7 +4,7 @@
   * 20 x 30m  
     **200 €** = 20 x 10 €
   * 5 x 50m 
-    **60 €** = 5 x 13 €
+    **65 €** = 5 x 13 €
 * 3 x Aufputzdosen (2 x RJ45)  
   **15** = 3 x 5 €
 * 4 x Patchpanel  
