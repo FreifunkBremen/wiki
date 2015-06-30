@@ -5,7 +5,9 @@
 * 15 x Aufputzdose (2 x RJ45)  
   **75** € = 15 x 5 €
 
-###### Gesamt: 575 €
+##### Gesamt: 575 € (Bestellung bereits getätigt)
+
+### 270 € Hackerspace (soll gerne geschohnt werden)
 
 ### 750 € BreMa
 * 1000x Kabelbinder 200mm lang und 4,8mm dick  
@@ -18,10 +20,8 @@
     **65 €** = 5x 13 €
 * 3x Aufputzdosen (2 x RJ45)  
   **15 €** = 3x 5 €
-* 4x Patchpanel  
-  **52 €** = 4x 13 €
 * Glasfaser-Strecken  
-  **651 €**
+  **703 €**
     * 500m LWL-Kabel  
       **292 €**
     * 2x Konfektionierung  
@@ -30,12 +30,14 @@
       **70 €** = 2x 35 €
     * 3 Medienkonverter  
       **81 €** = 3x 27 €
+    * 4x Patchpanel  
+    **52 €** = 4x 13 €
     * Versand  
       **8 €**
 
-###### Gesamt: 1.000 €
+##### Gesamt: 1.000 €
 
-### mehr
+### mehr?
 * weitere 500m Cat7 Kabel als Puffer  
   **250 €**
 * Nodes
@@ -43,4 +45,4 @@
   * Außenstationen
   * Richtfunk-Hardware
 
-###### Gesamt: 250 €
+##### Gesamt: 250 €
