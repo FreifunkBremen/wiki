@@ -3,18 +3,21 @@ Um unser [[Events/Breminale/Netz]] zu bauen brauchen wir viel Material.
 
 ## vorhandenes Material
 
-* 6x 20 Meter Patchkabel (lagernd bei Eike)
-* 2x 500M Cat7 Kabel (lagernd bei Julian)
+* 6x 20m Patchkabel (lagernd bei Eike)
+* 2x 500m Cat7 Kabel (lagernd bei Julian)
 * 15x Netzwerkdosen (lagernd bei Julian)
 * 2x Netzwerkdosen (lagernd bei Eike)
+* 3x SFP Gbit Transceiver (Walter)
+* 1x LWL-Kupplung für LC-Stecker (Walter)
+
+## Bestelltes Material
+* 1x 200m Single Mode Fiber mit LC-Steckern
+* 1x 300m Single Mode Fiber mit LC-Steckern
+* 50x 50cm Patchkabel
 
 ## Notwendiges Material
 
-2000 - 2500 m CAT 7 S/FTP simplex Kabel auf 500m Trommeln
-
 3000 - 5000 Stk. Kabelbinder ( Industriequalität )
-
-60 - 100 Stk. RJ45 Stecker zum crimpen
 
 10 - 20 Paar PoE Peitschen
 
