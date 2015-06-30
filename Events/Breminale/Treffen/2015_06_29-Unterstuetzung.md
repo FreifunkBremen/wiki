@@ -5,7 +5,7 @@
 * 15 x Aufputzdose (2 x RJ45)  
   **75** € = 15 x 5 €
 
-##### Gesamt: 575 € (Bestellung bereits getätigt)
+##### Gesamt: 575 € (Bestellung getätigt und erhalten)
 
 ### 270 € Hackerspace (soll gerne geschohnt werden)
 
