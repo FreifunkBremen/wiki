@@ -1,16 +1,25 @@
 # 2015_06_29 Unterstützung
-## 750 € zusätzlich
-* Kabelbinder: 1000x 200mm lang und 4,8mm dick  
+### 500 € netto Kulturressort (595 € brutto)
+* 2x 500m Cat7 Kabel  
+  **500 €** = 2x 250 €
+* 15 x Aufputzdose (2 x RJ45)  
+  **75** € = 15 x 5 €
+
+###### Gesamt: 575 €
+
+### 750 € BreMa
+* 1000x Kabelbinder 200mm lang und 4,8mm dick  
   **17 €** Brutto (Quelle Ebay)
-* Patchkabel
+* Patchkabel  
+  **265 €**
   * 20x 30m  
     **200 €** = 20x 10 €
-  * 5x 50m 
+  * 5x 50m  
     **65 €** = 5x 13 €
 * 3x Aufputzdosen (2 x RJ45)  
-  **15** = 3x 5 €
+  **15 €** = 3x 5 €
 * 4x Patchpanel  
-  **52** = 4x 13 €
+  **52 €** = 4x 13 €
 * Glasfaser-Strecken  
   **651 €**
     * 500m LWL-Kabel  
@@ -24,10 +33,14 @@
     * Versand  
       **8 €**
 
-## mehr
+###### Gesamt: 1.000 €
+
+### mehr
 * weitere 500m Cat7 Kabel als Puffer  
   **250 €**
 * Nodes
   * für Leihgaben / Testgeräte
   * Außenstationen
   * Richtfunk-Hardware
+
+###### Gesamt: 250 €
