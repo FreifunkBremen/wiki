@@ -4,7 +4,7 @@ Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Die
 * [Tahoe-LAFS](Dienste/Tahoe-LAFS)
 * [Straßenbahn-Fahrplan Sielwall](http://10.196.0.69) Echtzeit Haltestellendaten (noch Testbetrieb)
 * [Freifunk Store](http://10.196.0.69/ff_store/) unkommerzielle Router-, Antennen und Teilebörse
-* [Chat](http://chat.ffhb.de/) Jabber Server. ( Down - genofire)
+* [Chat](http://chat.ffhb.de/) Jabber Server. ( nach der Breminale für 1 Woche Down - genofire)
 * [SIP Server](http://sip.services.ffhb.de/web/) Asterisk SIP Server ( alpha - Nebirosh)
 * [Etherpad-lite](http://pads.services.ffhb.de/) kollaboratives Schreiben von Texten 
 
