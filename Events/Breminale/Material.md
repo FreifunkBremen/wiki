@@ -9,11 +9,15 @@ Um unser [[Events/Breminale/Netz]] zu bauen brauchen wir viel Material.
 * 2x Netzwerkdosen (lagernd bei Eike)
 * 3x SFP Gbit Transceiver (Walter)
 * 1x LWL-Kupplung für LC-Stecker (Walter)
+* 1x Medienkonverter TP-Link MC220L
 
 ## Bestelltes Material
-* 1x 200m Single Mode Fiber mit LC-Steckern
-* 1x 300m Single Mode Fiber mit LC-Steckern
+* 1x 200m LWL-Kabel Single Mode mit LC-Steckern
+* 1x 300m LWL-Kabel Single Mode mit LC-Steckern
+* 3x Netzwerkdosen
 * 50x 50cm Patchkabel
+* 30x 30m Patchkabel
+* 2x Medienkonverter TP-Link MC220L
 
 ## Notwendiges Material
 
@@ -25,9 +29,9 @@ Um unser [[Events/Breminale/Netz]] zu bauen brauchen wir viel Material.
 
 ### Werkzeug
 * LAS-Auflegewerkzeug   
-  1 x JP
+  1x JP, 1x Julian
 * "Abmantler"  
-  1 x JP
+  1x JP
 
 ## Bedarfsmaterial
 
