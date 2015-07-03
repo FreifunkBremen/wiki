@@ -12,6 +12,7 @@ Diese Leute kümmern sich um Anfragen von Knotenbesitzern und jenen, die es werd
 
 * Simon Joda Stößer / SimJoSt (seit 2014-03 dabei)
 * Malte / ec8or
+* nukeUS (Winni)
 * Personen gesucht!
 
 ## Presse
@@ -23,6 +24,7 @@ Diese Leute kennen sich gut mit dem Projekt aus und sind bereit, Presseanfragen 
 * JP / Jan-Philipp / jplitza
 * Simon Joda Stößer / SimJoSt (seit 2014-03 dabei)
 * Personen gesucht!
+* nukeUS (Winni)
 
 ## Firmware
 
