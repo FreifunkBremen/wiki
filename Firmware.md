@@ -1,8 +1,10 @@
 ## Benutzung
 
-**ACHTUNG: Die Firmware ist noch im Teststadium, es kann noch hin und wieder vorkommen, dass etwas kaputt geht und ein manueller Eingriff des Router-Besitzers erforderlich ist!**
+Die aktuelle [stable](http://downloads.bremen.freifunk.net/firmware/stable/factory/)-Version kann man sich runterladen und [flashen](Firmware-flashen). Durch den Auto-Updater werden neue Versionen (früher oder später) dann automatisch auf den Router geladen (sofern man ihn nicht deaktiviert hat).
 
-Die aktuelle [Testing](http://downloads.bremen.freifunk.net/firmware/testing/)-Version kann man sich einfach runterladen und [flashen](Firmware-flashen). Durch den Auto-Updater werden neue Versionen (früher oder später) dann automatisch auf den Router geladen (sofern man ihn nicht deaktiviert hat).
+
+Weiterhin wird es auch neue [Testing](http://downloads.bremen.freifunk.net/firmware/testing/)-Versionen geben, die insbesondere eine Reihe neuer Geräte unterstützen wird, unter anderem den WDR4900 von TP-Link. Außerdem kann man dann mehrere Knoten an den LAN-Anschlüssen (bei TP-Link die gelben) per Kabel verbinden, wenn man im Config-Mode die entsprechende Option aktiviert ("Mesh-on-LAN").
+
 
 ### Ersteinrichtung/Config-Mode
 
