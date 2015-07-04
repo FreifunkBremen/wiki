@@ -7,7 +7,7 @@ Um unser [[Events/Breminale/Netz]] zu bauen brauchen wir viel Material.
 * 2x 500m Cat7 Kabel (lagernd bei Julian)
 * 15x Netzwerkdosen (lagernd bei Julian)
 * 2x Netzwerkdosen (lagernd bei Eike)
-* 3x SFP Gbit Transceiver (Walter)
+* 3x SFP Gbit Transceiver (Walter) (müssen es nicht 4 SFP-Module sein?)
 * 1x LWL-Kupplung für LC-Stecker (Walter)
 * 3x Medienkonverter TP-Link MC220L (lagernd bei Julian)
 * 1x Patch-Panel (lagernd bei Eike)
