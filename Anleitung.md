@@ -17,7 +17,7 @@ Zuerst brauchst du die passende Freifunk-Firmware für deinen Router. Die **Rüc
 <img src="http://jel.to/ff_pics/router_rueckseite.jpg" title="Rückseite deines Routers" />
 
 Unter **„1.“** findest du die **Modellnummer** und unter **„2.“** die **Revisionsnummer**. „Ver 8.1“ steht dabei allgemein für Version 8, „Ver 7.4“ für Version 7 usw..
-Auf der [Downloadseite](http://downloads.bremen.freifunk.net/firmware/testing/factory/) suchst du dir nun die Datei, die genau deinem Modell und deiner Revision entspricht und **lädst diese herunter**.
+Auf der [Downloadseite](http://downloads.bremen.freifunk.net/firmware/stable/factory/) suchst du dir nun die Datei, die genau deinem Modell und deiner Revision entspricht und **lädst diese herunter**.
 
 In oberen Fall wäre es die Datei mit dem Namen gluon-ffhb-0.x~VERSION-tp-link-tl-**wr841n**-nd-**v8**.bin. Achte bitte unbedingt darauf, dass Modellbezeichnung und Revisions genau zu deinem Gerät passen. Einzig das N bzw. ND im Modellnamen ist irrelevant, die Firmware für den wr841n ist auch zum wr841nd kompatibel.
 
