@@ -12,7 +12,7 @@ Um unser [[Events/Breminale/Netz]] zu bauen brauchen wir viel Material.
 * 3x Medienkonverter TP-Link MC220L (lagernd bei Julian)
 * 1x Patch-Panel (lagernd bei Eike)
 * 50x 50cm Patchkabel (lagernd bei Julian)
-* 4x 30m Patchkabell (lagernd bei Julian)
+* 4x 30m Patchkabel (lagernd bei Julian)
 
 ## Bestelltes Material
 * 1x 200m LWL-Kabel Single Mode mit LC-Steckern
