@@ -49,7 +49,7 @@
 
 ##### Freitag 10.07.
 * Zelte - Aufbau
-* Veranstalter erst jetzt da
+* Veranstalter erst jetzt da (9 Uhr Container)
 * Wasserleitungen - Aufbau beginnt
 * Drei Meter Bretter - Start Aufbau
 
