@@ -39,7 +39,7 @@ n Sektorantennen um den Bereich vor den Bühnen gezielt ausleuchten zu können
 ## bereits zugesagtes Material
 ### Nodes
   Leihgaben:
-  * 30-50 x TL-WDR3600 und ein Router (z.B. [APU.1D](http://www.pcengines.ch/apu1d.htm)) - [Digineo GmbH](http://www.digineo.de) / Kontakt: Julian
+  * 30x TL-WDR3600, Router und Switch - [Digineo GmbH](http://www.digineo.de) / Kontakt: Julian
   * nukeUS:  
     14x WDR4300,  
     10x WDR3600,  
@@ -57,7 +57,4 @@ n Sektorantennen um den Bereich vor den Bühnen gezielt ausleuchten zu können
   * 3 x UniFi AP (Nebirosh)
   * NS M2, NS M2 loco (Emanuel)
   * 
-  
-  ## Kaufquellen für Material
-[50m CAT.5e S/FTP doppelt geschirmt Netzwerkkabel schwarz](http://www.ebay.de/itm/130940952917)
 
