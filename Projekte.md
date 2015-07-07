@@ -8,19 +8,6 @@ Wenn möglich schreibt **kurz** einen aktuellen Status dazu.
 ### [Breminale](http://wiki.bremen.freifunk.net/pages/Events/Breminale/)
 Aufgrund der Größe des Breminale-Projektes und des Charakters als Event gibt es einen eigenen Projekt-Ordner: [http://wiki.bremen.freifunk.net/pages/Events/Breminale/]
 
-## inaktive Projekte
-
-### Freifunk für Findorff
-#### Team
-SimJoSt
-
-#### Ziel
-Mit einer 400 € Förderung von Think-Big.org ein paar Freifunk-Geräte kostenlos aufzustellen, um das Thema Freifunk im Stadtteil bekannter und attraktiver zu machen.
-
-#### Status
-Aus Sicht von Think-Big.org abgeschlossen sind fast alle Geräte aufgestellt.  
-Weiterführend werden die aktuellen Betreiber nach Testphase auf Unterstützung angesprochen, damit neue Geräte gekauft werden, sowie der Erschließung neuer Standorte, zur Verbindung (Mesh) der vorhanden Standorte.  
-Aktuellster Status, sowie Projekt-Verlauf auf dem Think-Big.org [**Blog**](https://www.think-big.org/projekt/freifunk-fuer-findorff/).
 
 ## konkrete Projekt-Vorschläge
 
@@ -34,8 +21,11 @@ Durch die Umsetzung sollen Erfahrungswerte mit Freifunk-Routern in Verbindung vo
 
 #### Status
 Es wird gerwartet:
-* Am 22.6. ist die Bewerbungsphase für ein 1.000 € Förderungsprojekt eröffnet.  
+* Am 25.8. ist die Bekanntgabe der geförderten 1.000 € Projekte.  
 * Abschluss des Breminale-Projektes als Referenz
+
+Es kann nicht das gesamte Budget für Anschaffungen ausgegeben werden. Alternative Kostenpunkte könnten beispielsweise Rechtshilfe für Vereinsgründung, Flyer-Design, Video-Produktion für eine Crowdfunding-Kampagne sein.
+
 
 ## Ideen-Liste
 ### Altstadt
@@ -58,6 +48,11 @@ Standort                |   Kommentar
 :---------------------- | :------------------------------------------------
 Jan-Reiners-Center      | Inhaber: Objekt-Entwicklung; direkt Geschäfteinhaber ansprechen
 
+### Huchting
+Standort            |   Kommentar
+:-----------------  | :------------------------------------------------
+Roland Center       | Ansprechpartner: Tropeter; SimJoSt übernimmt erste Kontaktanfrage; mehr erst nach der Breminale; Julian (Digineo) wird beim Treffen dabei sein
+
 ### Neue Vahr
 Standort                | Kommentar
 :---------------------- | :------------------------------------------------
@@ -65,3 +60,14 @@ Berliner Freiheit       | Inhaber: Objekt-Entwicklung; direkt Geschäfteinhaber 
 
 ## abgeschlossene Projekte
 
+### Freifunk für Findorff
+#### Team
+SimJoSt
+
+#### Ziel
+Mit einer 400 € Förderung von Think-Big.org ein paar Freifunk-Geräte kostenlos aufzustellen, um das Thema Freifunk im Stadtteil bekannter und attraktiver zu machen.
+
+#### Status
+Aus Sicht von Think-Big.org abgeschlossen sind fast alle Geräte aufgestellt.  
+Weiterführend werden die aktuellen Betreiber nach Testphase auf Unterstützung angesprochen, damit neue Geräte gekauft werden, sowie der Erschließung neuer Standorte, zur Verbindung (Mesh) der vorhanden Standorte.  
+Aktuellster Status, sowie Projekt-Verlauf auf dem Think-Big.org [**Blog**](https://www.think-big.org/projekt/freifunk-fuer-findorff/).
