@@ -69,6 +69,7 @@
 
 ##### Montag 20.07.
 * Abbau
+* Crew-Party 19 Uhr
 
 ##### Dienstag 21.07.
 * Abbau
