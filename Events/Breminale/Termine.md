@@ -29,18 +29,29 @@
   * Freifunker Plenum *(Rücksprachen mit anderen Freifunker?)*
 
 ## Zeitplanung während des Events
+
+
+                    | 08 Mi | 09 Do | 10 Fr | 11 Sa | 12 Fr | 13 Fr | 14 Di
+------------------- | :---: | :---: | :---: | :---: | :---: | :---: | :---:
+Stromnetz           | X     |
+Wassernetz          | 
+Drei Meter Bretter  | 
+Zelte               | 
+
+
 ### 1. Woche
 ##### Mittwoch 08.07.
 * Verlegung von Stromnetz
 
 ##### Donnerstag 09.07.
 * Verlegung von Stromnetz
-* Start Aufbau Drei Meter Bretter
+* Drei Meter Bretter - Bretterhaufen am Abend
 
 ##### Freitag 10.07.
- * Aufbau Zelte
- * Veranstalter erst jetzt da
- * Aufbau Wasserleitungen beginnt
+* Zelte - Aufbau
+* Veranstalter erst jetzt da
+* Wasserleitungen - Aufbau beginnt
+* Drei Meter Bretter - Start Aufbau
 
 ##### Samstag 11.07.
 
@@ -49,7 +60,7 @@
 ### 2. Woche
 
 ##### Montag 13.07.
-* Aufbau Wasserleitungen abgeschlossen
+* Wasserleitungen - Aufbau abgeschlossen
 
 ##### Dienstag 14.07.
 
@@ -65,7 +76,7 @@
 
 ##### Sonntag 19.07
 * Ende Breminale
-* Abends Beginn des Abbaus
+* Abends Abbaubeginn
 
 ##### Montag 20.07.
 * Abbau
