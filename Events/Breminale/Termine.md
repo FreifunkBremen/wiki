@@ -31,12 +31,12 @@
 ## Zeitplanung während des Events
 
 
-                    | 08 Mi | 09 Do | 10 Fr | 11 Sa | 12 Fr | 13 Fr | 14 Di
-------------------- | :---: | :---: | :---: | :---: | :---: | :---: | :---:
-Stromnetz           | X     |
-Wassernetz          | 
-Drei Meter Bretter  | 
-Zelte               | 
+                        | 08 Mi | 09 Do | 10 Fr | 11 Sa | 12 So |     | 13 Mo | 14 Di
+----------------------- | :---: | :---: | :---: | :---: | :---: | --- | :---: | :---:
+**Stromnetz**           | **x** | **x** |       |       |       |     |
+**Wassernetz**          |       |       | **x** | **x** | **x** |     | **x** |
+**Drei Meter Bretter**  |       | **x** | **x** | **x** |       |     |
+**Zelte**               |       |       | **x** | **x** | **x** |     |
 
 
 ### 1. Woche
