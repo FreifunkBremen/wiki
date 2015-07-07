@@ -20,14 +20,7 @@ Um unser [[Events/Breminale/Netz]] zu bauen brauchen wir viel Material.
 * 1x 300m LWL-Kabel Single-Mode mit LC-Steckern
 * 26x 30m Patchkabel
 * 5x 50m Patchkabel
-
-## Notwendiges Material
-
-3000 - 5000 Stk. Kabelbinder ( Industriequalität )
-
-10 - 20 Paar PoE Peitschen
-
-5 - 10 Stk. wetterfeste Gehäuse ( passend für größere Routermodelle )
+* 4000 Stk. Kabelbinder (4,8mm x 200mm)
 
 ### Werkzeug
 * LAS-Auflegewerkzeug   
