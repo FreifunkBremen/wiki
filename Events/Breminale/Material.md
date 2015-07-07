@@ -15,11 +15,11 @@ Um unser [[Events/Breminale/Netz]] zu bauen brauchen wir viel Material.
 * 4x 30m Patchkabel (lagernd bei Julian)
 
 ## Bestelltes Material
-* 1x 200m LWL-Kabel Single Mode mit LC-Steckern
-* 1x 300m LWL-Kabel Single Mode mit LC-Steckern
 * 2x Netzwerkdosen
-* 4x Patch-Panel
+* 1x 200m LWL-Kabel Single-Mode mit LC-Steckern
+* 1x 300m LWL-Kabel Single-Mode mit LC-Steckern
 * 26x 30m Patchkabel
+* 5x 50m Patchkabel
 
 ## Notwendiges Material
 
