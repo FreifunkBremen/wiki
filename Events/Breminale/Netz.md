@@ -46,12 +46,12 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st�
 
 ### Router-Konfiguration
 
-* IPv4-Netz: 10.169.128.0/19 ist noch frei
+* IPv4-Netz: 192.168.0.0/17 (10.196.50.0 - 10.196.89.255)
 * IPv6-Netz: wird von LWLCOM zugewiesen
 * DNS-Cache und Forwarder
 * GRE-Tunnel zu einem VPN-Server für Verbindung zum restlichen Freifunk-Netz (Redundanz ist nicht so wichtig).
 
-### Router-Standort
+### Router-Standort1
 * **Sternkultur Büro-Container**  
   Standort Höhe Deichstraße; nicht 100% sicher nachts (nächtliche Abschaltung und Lagerung im Lager-Container?)
 * **Sternkultur Lagercontainer**  
