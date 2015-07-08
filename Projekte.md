@@ -29,9 +29,9 @@ Es kann nicht das gesamte Budget für Anschaffungen ausgegeben werden. Alternati
 ### Richtfunk Standort Walle (Hart Backbord)
 #### Ansprechpartner
 * SimJoSt
-* Alex
-  Besitzer Hart Backbord
-  +49 163 6327531
+* Alex  
+  Besitzer Hart Backbord  
+  +49 163 6327531 
 
 #### Ziel
 Im Rahmen der [Vernetzung Walles](http://wiki.bremen.freifunk.net/Treffen/2015_08_07#treffen-07-08-2015_tagesordnung_walle-wir-haben-g%C3%A4ste), aber auch davon losgelöst, würde der Besitzer des Hart Backboards seine Dachterasse für Richtunkanlagen zur Verfügung stellen.   
