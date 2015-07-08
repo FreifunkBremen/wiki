@@ -12,7 +12,7 @@ Aufgrund der Größe des Breminale-Projektes und des Charakters als Event gibt e
 ## konkrete Projekt-Vorschläge
 
 ### Freifunk für den Bahnhof Bremen
-#### Team
+#### Ansprechpartner
 SimJoSt
 
 #### Ziel
@@ -26,6 +26,20 @@ Es wird gerwartet:
 
 Es kann nicht das gesamte Budget für Anschaffungen ausgegeben werden. Alternative Kostenpunkte könnten beispielsweise Rechtshilfe für Vereinsgründung, Flyer-Design, Video-Produktion für eine Crowdfunding-Kampagne sein.
 
+### Richtfunk Standort Walle (Hart Backbord)
+#### Ansprechpartner
+* SimJoSt
+* Alex
+  Besitzer Hart Backbord
+  +49 163 6327531
+
+#### Ziel
+Im Rahmen der [Vernetzung Walles](http://wiki.bremen.freifunk.net/Treffen/2015_08_07#treffen-07-08-2015_tagesordnung_walle-wir-haben-g%C3%A4ste), aber auch davon losgelöst, würde der Besitzer des Hart Backboards seine Dachterasse für Richtunkanlagen zur Verfügung stellen.   
+Für einen besseren Überblick und zur Planung von Strecken wurde dieses Panorama angefertigt: https://goo.gl/94v7Rx
+Die Mauer an der Tür ist massiv und ermöglicht das Anbringen von Stangen oder ähnlichen Konstruktionen.
+
+#### Status
+Es besteht bis jetzt nur die Idee.
 
 ## Ideen-Liste
 ### Altstadt
