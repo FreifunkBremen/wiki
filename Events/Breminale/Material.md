@@ -3,25 +3,22 @@ Um unser [[Events/Breminale/Netz]] zu bauen brauchen wir viel Material.
 
 ## vorhandenes Material
 
-* 2x 500m Cat7 Kabel (bei Simon)
+* 2x 500m Cat7 Kabel
 * 4000 Stk. Kabelbinder (4,8mm x 200mm)
-* 7x 3m DC-Verlängerungskabel (bei Julian)
+* 7x 3m DC-Verlängerungskabel
 * LWL-Technik:
   * 4x SFP Gbit Transceiver (Walter)
   * 1x LWL-Kupplung für LC-Stecker (Walter)
-  * 1x Medienkonverter TP-Link MC220L (lagernd bei Eike)
-  * 2x Medienkonverter TP-Link MC220L (bei Simon)
+  * 3x Medienkonverter TP-Link MC220L
 * Netzwerkdosen/Patchpanels:
-  * 18x Netzwerkdosen (bei Simon)
-  * 2x Netzwerkdosen (lagernd bei Eike)
-  * 1x Patch-Panel (bei Eike)
-  * 4x Patch-Panel (bei Simon)
+  * 20x Netzwerkdosen
+  * 5x Patch-Panel
 * Patchkabel:
-  * 45x 50cm Patchkabel (bei Simon)
+  * 45x 50cm Patchkabel
   * 5x 50cm Patchkabel (Hackerspace)
-  * 6x 20m Patchkabel (lagernd bei Eike)
-  * 25x 30m Patchkabel (bei Simon)
-  * 5x 50m Patchkabell (bei Simon)
+  * 6x 20m Patchkabel
+  * 25x 30m Patchkabel
+  * 5x 50m Patchkabell
 
 ## Bestelltes Material
 * 1x 200m LWL-Kabel Single-Mode mit LC-Steckern
