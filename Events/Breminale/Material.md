@@ -4,6 +4,7 @@ Um unser [[Events/Breminale/Netz]] zu bauen brauchen wir viel Material.
 ## vorhandenes Material
 
 * 2x 500m Cat7 Kabel (bei Simon)
+* 4000 Stk. Kabelbinder (4,8mm x 200mm)
 * LWL-Technik:
   * 4x SFP Gbit Transceiver (Walter)
   * 1x LWL-Kupplung für LC-Stecker (Walter)
@@ -24,7 +25,6 @@ Um unser [[Events/Breminale/Netz]] zu bauen brauchen wir viel Material.
 ## Bestelltes Material
 * 1x 200m LWL-Kabel Single-Mode mit LC-Steckern
 * 1x 300m LWL-Kabel Single-Mode mit LC-Steckern
-* 4000 Stk. Kabelbinder (4,8mm x 200mm)
 
 ### Werkzeug
 * LAS-Auflegewerkzeug   
