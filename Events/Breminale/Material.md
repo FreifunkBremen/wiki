@@ -5,6 +5,7 @@ Um unser [[Events/Breminale/Netz]] zu bauen brauchen wir viel Material.
 
 * 2x 500m Cat7 Kabel (bei Simon)
 * 4000 Stk. Kabelbinder (4,8mm x 200mm)
+* 7x 3m DC-Verlängerungskabel (bei Julian)
 * LWL-Technik:
   * 4x SFP Gbit Transceiver (Walter)
   * 1x LWL-Kupplung für LC-Stecker (Walter)
