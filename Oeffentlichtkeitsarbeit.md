@@ -40,6 +40,8 @@ für Menschenrechte und Entwicklung (beim Cinemax und außerdem Büroräume, die
 * Waller Mitte (ehemaliger Sportplatz, wird zum öffentlichen Begegnungsort entwickelt).
 * Spielplatz und Sporthalle eingefasst von Bremervörder, Bremerhavener Str., Steffensweg, Columbusstr. und Nordstr.
 * Union-Brauerei (eröffnet zum Jahresende 2015 mit Gastronomie)
+* AGAB (Beratungsstelle für ALG II -Empfänger in der Grenzstr)
+ 
 
 ### Viertel
 
