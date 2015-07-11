@@ -36,6 +36,7 @@ für Menschenrechte und Entwicklung (beim Cinemax und außerdem Büroräume, die
 * Blaumeier Atelier
 * Hafencasino
 * Hafenmuseum
+* Imbiss Bremerhavener Str. 69 (der Mensch ist dort bestimmt ansprechbar)
 
 ### Viertel
 
