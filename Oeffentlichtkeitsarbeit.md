@@ -38,7 +38,8 @@ für Menschenrechte und Entwicklung (beim Cinemax und außerdem Büroräume, die
 * Hafenmuseum
 * Imbiss Bremerhavener Str. 69 (der Mensch ist dort bestimmt ansprechbar)
 * Waller Mitte (ehemaliger Sportplatz, wird zum öffentlichen Begegnungsort entwickelt).
-* Spielplatz und Sporthalle eingefasst von Bremervörder, Bremerhavener Str., Steffensweg, Columbusstr.
+* Spielplatz und Sporthalle eingefasst von Bremervörder, Bremerhavener Str., Steffensweg, Columbusstr. und Nordstr.
+* Union-Brauerei (eröffnet zum Jahresende 2015 mit Gastronomie)
 
 ### Viertel
 
