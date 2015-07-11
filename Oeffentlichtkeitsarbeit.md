@@ -37,6 +37,8 @@ für Menschenrechte und Entwicklung (beim Cinemax und außerdem Büroräume, die
 * Hafencasino
 * Hafenmuseum
 * Imbiss Bremerhavener Str. 69 (der Mensch ist dort bestimmt ansprechbar)
+* Waller Mitte (ehemaliger Sportplatz, wird zum öffentlichen Begegnungsort entwickelt).
+* 
 
 ### Viertel
 
