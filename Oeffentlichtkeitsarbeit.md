@@ -30,18 +30,11 @@ für Menschenrechte und Entwicklung (beim Cinemax und außerdem Büroräume, die
 * Lox
 * Naturkostladen Blockhaus Walle
 * Cafe Wallou
-* Cafe Klatsch
-* Walle Center (die versuchen gerade das Center attraktiver zu machen, auch Delia von der Wallerie (Gallerie im Walle-Center) ansprechen)
-* Rad am Turm (der Typ ist nett und offen, die Lage direkt beim Wochenmarkt, Sparkasse, Straßenbahnhaltestelle, der Mensch ist auch in der Iniative Waller Geschäftsleute aktiv)
+* Walle Center (die versuchen gerade das Center attraktiver zu machen)
+* Rad am Turm (der Typ ist nett und offen, die Lage direkt beim Wochenmarkt, Sparkasse, Straßenbahnhaltestelle)
 * Blaumeier Atelier
 * Hafencasino
 * Hafenmuseum
-* Imbiss Bremerhavener Str. 69 (der Mensch ist dort bestimmt ansprechbar)
-* Waller Mitte (ehemaliger Sportplatz, wird zum öffentlichen Begegnungsort entwickelt).
-* Spielplatz und Sporthalle eingefasst von Bremervörder, Bremerhavener Str., Steffensweg, Columbusstr. und Nordstr.
-* Union-Brauerei (eröffnet zum Jahresende 2015 mit Gastronomie)
-* AGAB (Beratungsstelle für ALG II -Empfänger in der Grenzstr)
- 
 
 ### Viertel
 
