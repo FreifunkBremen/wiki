@@ -32,7 +32,7 @@ für Menschenrechte und Entwicklung (beim Cinemax und außerdem Büroräume, die
 * Cafe Wallou
 * Cafe Klatsch
 * Walle Center (die versuchen gerade das Center attraktiver zu machen, auch Delia von der Wallerie (Gallerie im Walle-Center) ansprechen)
-* Rad am Turm (der Typ ist nett und offen, die Lage direkt beim Wochenmarkt, Sparkasse, Straßenbahnhaltestelle)
+* Rad am Turm (der Typ ist nett und offen, die Lage direkt beim Wochenmarkt, Sparkasse, Straßenbahnhaltestelle, der Mensch ist auch in der Iniative Waller Geschäftsleute aktiv)
 * Blaumeier Atelier
 * Hafencasino
 * Hafenmuseum
