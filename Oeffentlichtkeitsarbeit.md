@@ -30,6 +30,7 @@ für Menschenrechte und Entwicklung (beim Cinemax und außerdem Büroräume, die
 * Lox
 * Naturkostladen Blockhaus Walle
 * Cafe Wallou
+* Cafe Klatsch
 * Walle Center (die versuchen gerade das Center attraktiver zu machen)
 * Rad am Turm (der Typ ist nett und offen, die Lage direkt beim Wochenmarkt, Sparkasse, Straßenbahnhaltestelle)
 * Blaumeier Atelier
