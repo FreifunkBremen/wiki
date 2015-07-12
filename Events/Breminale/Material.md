@@ -26,9 +26,9 @@ Um unser [[Events/Breminale/Netz]] zu bauen brauchen wir viel Material.
 
 ### Werkzeug
 * LAS-Auflegewerkzeug   
-  1x JP, 1x Julian
-* "Abmantler"  
-  1x JP
+  1x JP (SimJoSt)
+  1x Julian (SimJoSt)
+* Abmantler (SimJoSt)
 
 ## Bedarfsmaterial
 
