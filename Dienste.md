@@ -19,6 +19,7 @@ Folgende IP-Adressen sind vergeben:
       * 10.196.0.1 vpn01 (DNS, Gateway)
       * 10.196.0.2 vpn02 (DNS, Gateway)
       * 10.196.0.3 vpn03 (DNS, Gateway)
+      * 10.196.0.5 Breminale-Gateway
     * 10.196.0.42 server, mumble, experimentell (diega)
     * 10.196.0.60 notebook (bis dhcp zuverlässig läuft (diega))
     * 10.196.0.69 S-Bahn Fahrplan + Store (anon6789)
@@ -33,6 +34,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.10.0 – 10.196.19.255 per DHCP vergeben von 10.196.0.1
     * 10.196.20.0 – 10.196.29.255 per DHCP vergeben von 10.196.0.2
     * 10.196.30.0 – 10.196.39.255 per DHCP vergeben von 10.196.0.3
+    * 10.196.50.0 - 10.196.89.255 per DHCP vergeben von 10.196.0.5
 * 10.196.126.0/24
   * 10.196.126.0/24 Dienste von Nebirosh
 * 10.196.127.0/24
