@@ -14,8 +14,7 @@ Um unser [[Events/Breminale/Netz]] zu bauen brauchen wir viel Material.
   * 20x Netzwerkdosen
   * 5x Patch-Panel
 * Patchkabel:
-  * 45x 50cm Patchkabel
-  * 5x 50cm Patchkabel (Hackerspace)
+  * 50x 50cm Patchkabel
   * 6x 20m Patchkabel
   * 25x 30m Patchkabel
   * 5x 50m Patchkabell
