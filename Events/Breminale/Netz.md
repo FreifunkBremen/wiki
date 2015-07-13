@@ -50,6 +50,8 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st√
 * IPv6-Netz: 2a00:c380:dead::/48
 * DNS-Cache und Forwarder
 * GRE-Tunnel zu einem VPN-Server f√ºr Verbindung zum restlichen Freifunk-Netz (Redundanz ist nicht so wichtig).
+* eth0: Uplink (untagged)
+* eth1: VLAN1+2 tagged
 
 ### VLANs
 
