@@ -47,19 +47,26 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st�
 ### Router-Konfiguration
 
 * IPv4-Netz: 192.168.0.0/17 (10.196.50.0 - 10.196.89.255)
-* IPv6-Netz: wird von LWLCOM zugewiesen
+* IPv6-Netz: 2a00:c380:dead::/48
 * DNS-Cache und Forwarder
 * GRE-Tunnel zu einem VPN-Server für Verbindung zum restlichen Freifunk-Netz (Redundanz ist nicht so wichtig).
 
-### Router-Standort1
-* **Sternkultur Büro-Container**  
-  Standort Höhe Deichstraße; nicht 100% sicher nachts (nächtliche Abschaltung und Lagerung im Lager-Container?)
-* **Sternkultur Lagercontainer**  
-  Standort Höhe Deichstraße; immer bewacht, dickes Schloss, Zugriff auf die Hardware erschwert
-* **Duschcontainer der Darsteller** - aktuell bevorzugte Variante  
-  Standort Höhe Mozartstraße  
-  direkt bei LWLcom Uplink; nicht im Dach möglich, nur auf dem Dach oder daneben; nicht 100% sicher, jedoch keiner vermutet Server-Hardware dort, wir sparen uns 160 Meter an Kabeln für die Anbindung; umzäunt aber nicht gesichert
-  10 Meter Glasfaser-Verlängerung benötigt, sowie eine wasserfeste Box 
+### VLANs
+
+* VLAN 1: Freifunk-Netz
+* VLAN 2: Management-Netz
+* VLAN 9: Uplink
+
+### Switch-Konfiguration
+
+Erreichbar über http://192.168.23.2/
+
+* Port 1:   untagged VLAN 9
+* Port 2:   untagged VLAN 2, tagged VLAN 1
+* Port 3-6,10: tagged VLAN 1,2
+* Port 7:   untagged VLAN 2
+* Port 8:   untagged VLAN 1
+* Port 9:   untagged VLAN 9
 
 ### Node-Konfiguration
 
@@ -69,11 +76,6 @@ Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger st�
 * Bridges:
   * br-client: Freifunk-Netz
   * br-wan: Management-Netz
-* Switch-Konfiguration
-  * VLAN 1: Management-Netz
-  * VLAN 2: Freifunk-Netz
-  * VLAN 3: Büro-Netz
-  * (ein eigenes untagged VLAN pro Port zur Ermittlung der Topologie (corny: habe ich jplitza so richtig verstanden?)) besser: Link Layer Discovery Protocol (LLDP)
 * WLANs:
   * bremen.freifunk.net (unverschlüsselt) an br-client
   * management (WPA2-PSK) an br-wan
