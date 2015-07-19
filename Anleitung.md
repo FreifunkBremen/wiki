@@ -91,5 +91,13 @@ Solltest du vorhin das automatische Aktualisieren deaktiviert haben, kannst du b
 # Diagnose und Fehlerbehebung
 
 ## Störung des heimischen WLANs
+An dieser Stelle werden Probleme und mögliche Lösungen besprochen, die sich
+mit dem heimischen WLAN beschäftigen.
 
+### Methode 1: anderes Frequenzband
 Sollte es zu Störungen des heimischen WLANs kommen, da dieses z.B. ebenfalls auf 2.4GHz sendet ist eine Möglichkeit, dieses auf das weniger verwendete 5Ghz (802.11a/n) Frequenzband umzustellen. Einfach in der Fritzbox oder ähnlichen Providerroutern schauen, wie die Umstellung des Frequenzbandes funktioniert. Dieses Frequenzband wird bereits von vielen Geräten unterstüzt, auch wenn diese nicht mehr ganz so aktuell sind - z.B. Thinkpad x300 von 2008.
+
+### Methode 2: zusätzlicher Router
+Eine andere Möglichkeit ist die Abschaltung des WLANs z.B. der Fritzbox, da diese per Default eher kleine Antennen hat und für eine größere Reichweite Reapter verwendet werden sollen.
+Um WLan trotzdem noch zur Verfügung zu stellen, kann ein weiterer TP-Link Router verwendet werden. Diese habe größere Antennen, welche sich auch leichter tauschen lassen. Die Fritzbox dient somit nur noch als Modem, wobei das eigentliche WLan über einen zweiten Router zur Verfügung gestellt wird.
+Wird dieser noch mit OpenWRT bespielt ergeben sich zusätzliche Möglichkeiten zur Konfiguration.
