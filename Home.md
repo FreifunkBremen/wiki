@@ -2,15 +2,13 @@
 Herzlich willkommen im Freifunk Bremen Wiki.
 Das Wiki stellt eine Informationssammlung da, an der jede und jeder mitarbeiten kann. Du findest hier Informationen zu den unterschiedlichsten Themen.
 
-Die wichtigsten Themen findest du unten, unter "[Inhalt dieses Wikis](#freifunk-bremen-wiki_inhalt-dieses-wikis)". Alle erstellten Seiten findest du [hier](http://wiki.bremen.freifunk.net/pages).
+Alle erstellten Seiten findest du [hier](http://wiki.bremen.freifunk.net/pages).
 
 Zurück geht es [hier](http://bremen.freifunk.net) lang.
-
 
 ## Infos zu unseren Treffen
 
 Wir treffen uns zweimal im Monat, jeweils am 1. und 3. Freitag ab 19 Uhr im [Hackerspace Bremen](https://www.hackerspace-bremen.de).
-
 
 **Das Treffen am 17.07. entfällt. Ihr seid eingeladen uns auf der Breminale zu unterstützen, bzw. zu besuchen.**
 * Letzte Treffen: [[19.06.2015|Treffen/2015_06_19]] | [[03.07.2015|Treffen/2015_07_03]]
