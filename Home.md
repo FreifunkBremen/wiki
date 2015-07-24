@@ -19,7 +19,7 @@ Wir treffen uns zweimal im Monat, jeweils am 1. und 3. Freitag ab 19 Uhr im [Hac
 
 ## Inhalt dieses Wikis
 * [[Oeffentlichtkeitsarbeit]]
-* [[Treffen]]
+* [[Treffen/Home]]
 * [[Dienste]]
 
 ### Technisches
