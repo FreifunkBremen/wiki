@@ -15,13 +15,12 @@ Wir treffen uns zweimal im Monat, jeweils am 1. und 3. Freitag ab 19 Uhr im [Hac
 * Nächste Treffen: [[07.08.2015|Treffen/2015_08_07]] | [[21.08.2015|Treffen/2015_08_21]]
 * [[Liste aller Treffen|Treffen/Home]]
 
-### Organisatorisches
+## Organisatorisches
 * [[Oeffentlichtkeitsarbeit]]
-* [[Treffen|Treffen/Home]]
 * [[Wo bekomme ich einen Router?|Routerboerse]]
 * [[Sammelbestellung Access Points|SammelbestellungAPs]]
 
-### Technisches
+## Technisches
 * [[Firmware]]
  * [[Unterstuetzte Router]]
  * [[Firmware-flashen|Anleitung]]
@@ -31,7 +30,7 @@ Wir treffen uns zweimal im Monat, jeweils am 1. und 3. Freitag ab 19 Uhr im [Hac
 * [[FAQ]]
 * [[Datenschutz]]
 
-### Änderungen mitbekommen
+## Änderungen mitbekommen
 
 Wer sich dafür interessiert, wann sich etwas an diesem Wiki ändert, kann das über das entsprechende [Repository auf Github](https://github.com/FreifunkBremen/wiki/) tun, z.B. per [Atom-Feed](https://github.com/FreifunkBremen/wiki/commits/master.atom).
 
