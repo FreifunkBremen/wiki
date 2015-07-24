@@ -1,32 +1,29 @@
-Hier wird kurz beschrieben, wie mit Fastd ein ServiceServer (Gateway Server ohne InterCity, ohne Uplink und als Fastd-Client) eingerichtet werden kann.
+Beschreibung wie man mit fastd einen Server an das Freifunk Bremen Mesh anbindet.
 
-# Installationen
+# Software
 
-## Archlinux
-Eintrage von Freifunk Repository:
-[freifunk-rheinland repo](https://wiki.archlinux.org/index.php/Unofficial_user_repositories#freifunk-rheinland)
+## Einbindung des [freifunk-rheinland](https://wiki.archlinux.org/index.php/Unofficial_user_repositories#freifunk-rheinland)-Repositories
 
-In /etc/pacman.conf
+In /etc/pacman.conf hinzufügen:
 ```
 [freifunk-rheinland]
 Server = http://mirror.fluxent.de/archlinux-custom/$repo/os/$arch
 ```
 
-### Installation
+## Installation
 ```
 pacman -S ethtools lsb-release batman-alfred fastd batman-adv-dkms batctl
 ```
 
 # Konfiguration
 
-## Fastd (und batman)
+## fastd (und batman)
 
-Zunächste muss ein private Key mit `fastd --generate-key` generiert werden,
- diesen bitte sicher aufheben.
+Zunächste muss ein privater Schlüssel mit `fastd --generate-key` generiert werden, welcher sicher aufbewahrt werden muss.
 
-Dannach die folgende Konfigurationsdatei (Dateiname-hier:ffhb-service-fastd.conf) anpassen:
+Danach die folgende Konfigurationsdatei (Dateiname-hier:ffhb-service-fastd.conf) anpassen:
 Diese muss ggf. aktualisiert werden, hierzu dient [Site.conf für gluon-Nodes](https://github.com/FreifunkBremen/gluon-site-ffhb/blob/master/site.conf).
-IP-Adresse kann per `dhclient ffhb` oder wie untern Manuell gesetzt werden (beachte erlaubte IP-Bereiche und die gewählten IP-Adresse ins Wiki [Dienste] eintragen):
+IP-Adresse kann per `dhclient ffhb` oder wie manuell gesetzt werden (beachte erlaubte IP-Bereiche und die gewählten IP-Adresse ins Wiki [Dienste] eintragen):
 
 Zu editierende Werte:
 * PRIVATE-KEY (der vorher generiert wurde)
@@ -134,7 +131,7 @@ alfred -i ffhb -b ffhb
 batadv-vis -i ffhb -s
 ```
 
-**Achtung:** Mac-Adresse von ffhb und ffhbVPN sollten gleich heißen!
+**Achtung:** MAC-Adresse von ffhb und ffhbVPN sollten gleich heißen!
 
 
 ### Alfred Annoucen (Namen und Statistik übermitteln)
@@ -143,10 +140,11 @@ und in Cronjob-Eintragen:
 ```
 */1    * * * * /root/ffnord-alfred-announce/announce.sh -b ffhb -i ffhb > /dev/null
 ```
-Falls ein andere Hostname als der Systemweite für alfred benutzt werden soll,
+Falls ein andere Hostname als der systemweite für alfred benutzt werden soll,
  ändern sie die Datei '/root/ffnord-alfred-announce/nodeinfo.d/hostname' ab.
 
 # TODO
- Anpassung von fastd durch das Anlege von systemd-units und netcfg.
+ Anpassung von fastd durch das Anlegen von systemd-units und netctl.
+
 # Author(en)
 genofire (mail,jid:geno@fireorbit.de - jid:genofire@chat.ffhb.de)
