@@ -1,1 +1,0 @@
-Siehe auch die [FAQ auf unserer Webseite](http://bremen.freifunk.net/faq.html). Hier bitte nur neue Fragen sammeln, die noch beantwortet werden sollen.
