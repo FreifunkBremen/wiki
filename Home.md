@@ -19,15 +19,15 @@ Wir treffen uns zweimal im Monat, jeweils am 1. und 3. Freitag ab 19 Uhr im [Hac
 
 ## Inhalt dieses Wikis
 * [[Oeffentlichtkeitsarbeit]]
-* [[Treffen/Home|Treffen]]
+* [[Treffen|Treffen/Home]]
 * [[Dienste]]
 
 ### Technisches
 * [[Firmware]]
  * [[Unterstuetzte Router]] 
  * [[Firmware-flashen|Anleitung]]
-* [[Dienste/DNS|DNS]]
-* [[Dienste/Monitoring|Monitoring]]
+* [[DNS|Dienste/DNS]]
+* [[Monitoring|Dienste/Monitoring]]
 * [[FAQ]]
 * [[Datenschutz]]
 
