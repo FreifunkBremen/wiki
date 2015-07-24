@@ -10,4 +10,4 @@ Wenn ein TP-Link Router neu gekauft wird, kann der Flash-Vorgang über den Brows
 4. Nun unter System Tools -> Firmware Upgrade das entsprechende [Factory](http://downloads.bremen.freifunk.net/firmware/stable/factory/) einspielen
 5. Warten bis der Flash-Vorgang abgeschlossen ist ("Completed" erscheint auf Bildschirm und Browser versucht zu refreshen).
 
-Damit ist der Flashvorgang abgeschlossen und der Router kann unter [192.168.1.1](http://192.168.1.1) konfiguriert werden. Weitere Informationen zum Konfig-Mode finden sich auf [[Firmware]] 
+Damit ist der Flashvorgang abgeschlossen und der Router kann unter [192.168.1.1](http://192.168.1.1) konfiguriert werden. Weitere Informationen zum Konfig-Mode finden sich auf [[/Anleitungen/Firmware/Home|Firmware]] 
