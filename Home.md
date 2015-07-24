@@ -15,7 +15,7 @@ Wir treffen uns zweimal im Monat, jeweils am 1. und 3. Freitag ab 19 Uhr im [Hac
 **Das Treffen am 17.07. entfällt. Ihr seid eingeladen uns auf der Breminale zu unterstützen, bzw. zu besuchen.**
 * Letzte Treffen: [[19.06.2015|Treffen/2015_06_19]] | [[03.07.2015|Treffen/2015_07_03]]
 * Nächste Treffen: [[07.08.2015|Treffen/2015_08_07]] | [[21.08.2015|Treffen/2015_08_21]]
-* [[Liste aller Treffen|Treffen]]
+* [[Liste aller Treffen|Treffen/]]
 
 ## Inhalt dieses Wikis
 * [[Oeffentlichtkeitsarbeit]]
