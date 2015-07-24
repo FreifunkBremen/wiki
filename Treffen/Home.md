@@ -5,4 +5,4 @@ Der [Hackerspace Bremen](https://www.hackerspace-bremen.de/) bietet uns dafür s
 Organisiert werden die Treffen über unsere [Mailingliste](https://planetcyborg.de/mailman/listinfo/ff-bremen).
 
 ## Vergangene Treffen
-Siehe [[Liste der vergangenen Treffen|Treffen]].
+Siehe [[Liste der vergangenen Treffen|Treffen/]].
