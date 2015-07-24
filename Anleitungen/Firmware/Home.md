@@ -1,12 +1,12 @@
 ## Benutzung
 
-Die aktuelle [stable](http://downloads.bremen.freifunk.net/firmware/stable/factory/)-Version kann man sich runterladen und [[/Anleitungen/Firmware/Flashen|flashen]]. Durch den Auto-Updater werden neue Versionen (früher oder später) dann automatisch auf den Router geladen (sofern man ihn nicht deaktiviert hat).
+Die aktuelle [stable](http://downloads.bremen.freifunk.net/firmware/stable/factory/)-Version kann man sich runterladen und [[flashen|/Anleitungen/Firmware/Flashen]]. Durch den Auto-Updater werden neue Versionen (früher oder später) dann automatisch auf den Router geladen (sofern man ihn nicht deaktiviert hat).
 
 Weiterhin wird es auch neue [Testing](http://downloads.bremen.freifunk.net/firmware/testing/)-Versionen geben, die insbesondere eine Reihe neuer Geräte unterstützen werden, unter anderem den WDR4900 von TP-Link. Außerdem kann man dann mehrere Knoten an den LAN-Anschlüssen (bei TP-Link die gelben) per Kabel verbinden, wenn man im Config-Mode die entsprechende Option aktiviert ("Mesh-on-LAN").
 
 ### Ersteinrichtung/Config-Mode
 
-Wenn man die Firmware das erste Mal auf einem Router installiert (siehe [[/Anleitungen/Firmware/Flashen|Firmware flashen]]), startet der Router im sog. Config-Mode, in den man den Router später auch wieder bringen kann indem man den Knopf 3-5 Sekunden lang drückt. In diesem Modus muss man sich per Kabel mit einem beliebigen LAN-Port des Routers verbinden und auf seinem Rechner DHCP aktivieren oder aber manuell eine Adresse aus dem Bereich 192.168.1.0/24 zuweisen und anschließend auf [192.168.1.1](http://192.168.1.1) im Browser zugreifen.
+Wenn man die Firmware das erste Mal auf einem Router installiert (siehe [[Firmware flashen|/Anleitungen/Firmware/Flashen]]), startet der Router im sog. Config-Mode, in den man den Router später auch wieder bringen kann indem man den Knopf 3-5 Sekunden lang drückt. In diesem Modus muss man sich per Kabel mit einem beliebigen LAN-Port des Routers verbinden und auf seinem Rechner DHCP aktivieren oder aber manuell eine Adresse aus dem Bereich 192.168.1.0/24 zuweisen und anschließend auf [192.168.1.1](http://192.168.1.1) im Browser zugreifen.
 
 Dort beantwortet man ein paar grundlegende Fragen, trägt falls gewünscht die Koordinaten des Routers ein (bekommt man einfach von der [Knotenkarte](http://bremen.freifunk.net/map/geomap.html) mit dem Button ganz oben), setzt falls gewünscht ein Passwort per Telnet und bestätigt einmal. Dann zeigt der Browser ggf. den VPN-Key an, während der Router neustartet. Um diesen auf den VPN-Server zu übertragen, verbindet man sich wieder mit dem Internet (nicht über den Freifunk-Router!) und klickt dann auf den Link, der im Text über dem Schlüssel im Browser hoffentlich noch offen ist. Außerdem muss man ein LAN-Kabel mit Internetzugang (also einem laufenden DHCP-Server) in den WAN-Port des Routers stecken, damit dieser den VPN-Server erreicht.
 
