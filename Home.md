@@ -17,23 +17,21 @@ Wir treffen uns zweimal im Monat, jeweils am 1. und 3. Freitag ab 19 Uhr im [Hac
 * Nächste Treffen: [[07.08.2015|Treffen/2015_08_07]] | [[21.08.2015|Treffen/2015_08_21]]
 * [[Liste aller Treffen|Treffen/Home]]
 
-## Inhalt dieses Wikis
+### Organisatorisches
 * [[Oeffentlichtkeitsarbeit]]
 * [[Treffen|Treffen/Home]]
-* [[Dienste]]
+* [[Wo bekomme ich einen Router?|Routerboerse]]
+* [[Sammelbestellung Access Points|SammelbestellungAPs]]
 
 ### Technisches
 * [[Firmware]]
- * [[Unterstuetzte Router]] 
+ * [[Unterstuetzte Router]]
  * [[Firmware-flashen|Anleitung]]
-* [[DNS|Dienste/DNS]]
-* [[Monitoring|Dienste/Monitoring]]
+* [[Dienste|Dienste/Home]]
+ * [[DNS|Dienste/DNS]]
+ * [[Monitoring|Dienste/Monitoring]]
 * [[FAQ]]
 * [[Datenschutz]]
-
-### Organisatorisches
-* [[Wo bekomme ich einen Router?|Routerboerse]]
-* [[Sammelbestellung Access Points|SammelbestellungAPs]]
 
 ### Änderungen mitbekommen
 
