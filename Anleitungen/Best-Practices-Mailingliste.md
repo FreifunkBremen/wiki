@@ -25,3 +25,7 @@ Genauso sind längere Texte nötig wenn tatsächlich viel Informationen weiterge
 3. Auf keine Fall wird auf private Sachen eingegangen.
 
  _Aussagen wie ich hab es in meiner Stammkneipe, bei ein Freund oder sonstwo das erstemal genutzt ist irrelevant für uns (wir haben unsere Statistiken) - wenn die betroffende Person mehr sagen wollte hätte er es getan._
+ 
+4. Auf Anreden und Grußworte wird nicht eingegangen.
+
+ _Es ist nicht förderlich sich über Anreden wie 'Hallo Ihr Nerds' oder sonst welche aufzuregen oder selbst zu verfassen_
