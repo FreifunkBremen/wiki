@@ -8,7 +8,7 @@ Aber eins vorweg: Falls du dir unsicher bist, richten wir dir auch gerne einen R
 
 Wenn du dich dazu entscheidest beim Freifunk mitzumachen, hast du anfangs die Qual der Wahl beim Aussuchen eines Routers. Welche Router und Versionen die Freifunk-Firmware unterstützen findest du unter http://wiki.bremen.freifunk.net/Unterstuetzte-Router.   
 
-Wir empfehlen den  **TP-Link TL-WR841N** für knapp 20€, oder das etwas besser ausgestattete Modell **TP-Link TL-WDR4300**, für ca. 50€.
+Wir empfehlen den  **TP-Link TL-WR841N** (und die ählinchen Varianten) für knapp 20€, oder eines der deutlich besser ausgestatteten Modelle **TP-Link TL-WD3500**,  **TP-Link TL-WDR3600** und  **TP-Link TL-WDR4300**, für ca. 50€.
 
 
 ## Neue Firmware
