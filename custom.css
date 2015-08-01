@@ -1,3 +1,24 @@
+#wiki-sidebar {
+	position: relative;
+	z-index: 1;
+	margin-left: 1em;
+	width: 250px;
+}
+#wiki-body .markdown-body {
+	overflow: visible;
+}
+.has-sidebar #wiki-body {
+	clear: none;
+	width: auto;
+	float: none;
+}
+
+@media all and (max-width: 640px) {
+	#wiki-sidebar {
+		width: 100%;
+	}
+}
+
 #sidebar-content.markdown-body {
 	padding: 0;
 }
@@ -63,9 +84,11 @@ ol.tree li input + ol > li { display: none; margin-left: -14px !important; paddi
 ol.tree li label
 {
   background: url(images/fileview/folder-horizontal.png) 15px 1px no-repeat;
-  cursor: pointer;
   display: block;
   padding-left: 37px;
+}
+ol.tree li.file label {
+  cursor: pointer;
 }
 
 ol.tree li input:checked + ol
