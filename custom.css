@@ -1,6 +1,28 @@
 .markdown-body ul, .markdown-body ol {
 	margin: 0;
 }
+/* Footer */
+.has-sidebar #wiki-footer {
+	width: auto;
+	margin: 0;
+}
+#wiki-footer #footer-content {
+	background-color: transparent;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+	padding: .9em 0 0 0;
+}
+#wiki-footer #footer-content :first-child {
+	float: left;
+}
+#wiki-footer #footer-content :last-child {
+	float: right;
+}
+.page #footer {
+	border: 0;
+	margin: 1em 0;
+}
 /* Sidebar */
 #wiki-sidebar {
 	position: relative;
