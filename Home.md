@@ -15,8 +15,8 @@ Wir treffen uns zweimal im Monat, jeweils am 1. und 3. Freitag ab 19 Uhr im [Hac
 * [[Liste aller Treffen|Treffen/Home]]
 
 ## Organisatorisches
-* [[Oeffentlichtkeitsarbeit]]
-* [[Wo bekomme ich einen Router?|Router/Routerboerse]]
+* [[Öffentlichtkeitsarbeit]]
+* [[Wo bekomme ich einen Router?|Router/Routerbörse]]
 * [[Sammelbestellung Access Points|Router/SammelbestellungAPs]]
 
 ## Technisches
