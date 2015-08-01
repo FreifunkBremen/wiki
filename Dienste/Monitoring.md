@@ -8,9 +8,9 @@
   * [Statistik](http://bremen.freifunk.net/map/stats.html) Graph der die Anzahl der verbundenen Clients und aktiven Knoten darstellt. 
   * [Liste](http://bremen.freifunk.net/map/list.html) Zeigt eine Liste aller bekannten Knoten mit ein paar Details: Name, Anzahl CLients, Anzahl Meshverbindungen, sind Koordinaten hinterlegt?, Routermodel, Installiere Firmware-Version. Von dieser Liste aus, kann man auf die Detailseite eines Knoten navigieren.
   * Knotenstatistik, z.B. [ffhb-14cc2030cade](http://bremen.freifunk.net/map/node.html?id=16:d0:20:30:ca:de). zeigt die Primäte MAC-Adresse, das Model, die Firmware-Version und ggf. die Koordinaten an. Zusätzlich gibt es grafische Statistiken: Anzahl der der Clients, Meshingverbindungen, Prozessorauslastung, gesendete und empfangene Pakete oder Bytes. Die letzten beiden verfügen über mehrere Graphen die wie folgt zu interpretieren sind:
-  * **rx_*** ist das, was der Knoten runtergeladen hat
-  * **tx_*** ist das, was der Knoten gesendet hat
-  * **\*\_mgmt_*** sind Daten die zum Verwalten des Netzes nötig sind, nämlich Routing-Informationen für Batman selbst (z.B. welcher Client an welchem Knoten hängt).
+    * **rx_*** ist das, was der Knoten runtergeladen hat
+    * **tx_*** ist das, was der Knoten gesendet hat
+    * **\*\_mgmt_*** sind Daten die zum Verwalten des Netzes nötig sind, nämlich Routing-Informationen für Batman selbst (z.B. welcher Client an welchem Knoten hängt).
 
 Viel Spass beim Erkunden verbessern unseres Netzes!<br/>
 PS. Wenn Ihr neues zum Monitoring beitragen könnt, bitte eintragen. DANKE
