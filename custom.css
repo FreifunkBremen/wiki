@@ -1,3 +1,7 @@
+.markdown-body ul, .markdown-body ol {
+	margin: 0;
+}
+/* Sidebar */
 #wiki-sidebar {
 	position: relative;
 	z-index: 1;
