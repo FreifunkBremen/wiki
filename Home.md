@@ -21,7 +21,7 @@ Wir treffen uns zweimal im Monat, jeweils am 1. und 3. Freitag ab 19 Uhr im [Hac
 
 ## Technisches
 * [[Firmware|Anleitungen/Firmware/Home]]
- * [[Unterstuetzte Router|Anleitungen/Firmware/Unterstuetzte Router]]
+ * [[Unterstuetzte Router|Anleitungen/Firmware/Unterstützte Router]]
  * [[Flashen|Anleitungen/Firmware/Flashen]]
 * [[Dienste|Dienste/Home]]
  * [[DNS|Dienste/DNS]]
