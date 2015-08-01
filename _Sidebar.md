@@ -1,1 +1,2 @@
-<<GlobalTOC(Pages in this Wiki)>>
+### Navigation
+<<GlobalTOC>>
