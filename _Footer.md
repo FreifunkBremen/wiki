@@ -4,5 +4,5 @@
   </a>
 </div>
 <div>
-  <a href="http://bremen.freifunk.net/impressum.html">Imprint/Impressum</a>
+  <a href="http://bremen.freifunk.net/impressum.html">Impressum</a>
 </div>
