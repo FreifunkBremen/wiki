@@ -1,2 +1,2 @@
 ### Navigation
-<<GlobalTOC>>
+<<GlobalTOC()>>
