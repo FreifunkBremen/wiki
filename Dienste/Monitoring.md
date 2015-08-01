@@ -11,6 +11,7 @@
     * **rx_*** ist das, was der Knoten runtergeladen hat
     * **tx_*** ist das, was der Knoten gesendet hat
     * **\*\_mgmt_*** sind Daten die zum Verwalten des Netzes nötig sind, nämlich Routing-Informationen für Batman selbst (z.B. welcher Client an welchem Knoten hängt).
+* [Freifunk-Karte](http://www.freifunk-karte.de/) Die Karte nutzt die Freifunk Api um eine Liste der Communities in Deutschland zu beziehen. Aus deren API-Files werden dann die Links zu Knotenkarten gelesen. Die Karte wurde von [Tino Dietel](https://github.com/stilgarbf), FF Emskirchen gebaut.
 
 Viel Spass beim Erkunden verbessern unseres Netzes!<br/>
 PS. Wenn Ihr neues zum Monitoring beitragen könnt, bitte eintragen. DANKE
