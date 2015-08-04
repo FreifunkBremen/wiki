@@ -29,10 +29,7 @@ Genauere Auflistung von Material und Stückzahlen:
 
 ### Haftung
 
-Es gibt zwei Varianten, wovon die Variante ohne VPN performanter und weniger störanfällig ist:
-
-1. ~~Sternkultur ist Anschlussinhaber, Traffic wird über VPN von Mortzu getunnelt~~
-2. Digineo GmbH ist Anschlussinhaber, Traffic geht direkt raus. "Wird wohl gehen"
+Digineo GmbH ist Anschlussinhaber, Traffic geht direkt raus.
 
 ### Komponenten (haben wir sicher)
 
