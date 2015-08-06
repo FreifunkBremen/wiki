@@ -17,7 +17,7 @@ Folgende IP-Adressen sind vergeben:
       * 10.196.0.1 vpn01 (DNS, Gateway)
       * 10.196.0.2 vpn02 (DNS, Gateway)
       * 10.196.0.3 vpn03 (DNS, Gateway)
-      * 10.196.0.5 vpn07 (Testbetrieb, anon6789)
+      * 10.196.0.5 vpn05 (Testbetrieb, anon6789)
       * 10.196.0.6 vpn06 (Testbetrieb, corny)
     * 10.196.0.42 server, mumble, experimentell (diega)
     * 10.196.0.60 notebook (bis dhcp zuverlässig läuft (diega))
