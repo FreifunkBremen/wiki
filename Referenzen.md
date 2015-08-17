@@ -2,9 +2,10 @@ Aufgrund von Nachfrage von an Freifunk interessierten Personen/Geschäften, soll
 
 ### Öffentliche Einrichtungen
 
-Stadtteil | Name              | Typ           | Kommentar
---------  | ----------------- | ------------- | ----------
-Findorff  | **Schlachthof**   | Kulturzentrum | Kulturzentrum sowie Kneipe
+Stadtteil | Name                | Typ           | Kommentar
+--------  | ------------------- | ------------- | ----------
+Findorff  | **Schlachthof**     | Kulturzentrum | Kulturzentrum sowie Kneipe
+Findorff  | **Freizi Findorff** | Jugendzentrum | 
 
 
 ### Gewerbe / Geschäfte
