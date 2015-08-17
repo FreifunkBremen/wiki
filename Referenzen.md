@@ -24,4 +24,5 @@ Neustadt  | **Kukoon**        | Restaurant   |
 
 ### Events
 
-* evtl. Breminale
+#### Breminale
+Mit 10 bis 30 Tausend besuchern, ist die Breminale eines der größten lokalen Stadtfeste. Es findet statt auf den Deichweisen und dem Park bei der Kunsthalle.
