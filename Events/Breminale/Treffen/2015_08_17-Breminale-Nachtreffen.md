@@ -123,12 +123,20 @@
       * an Max Vorraussetzung für Uplink-Provider geben, damit vernünftiges Angebot
           * LWLcom würde sponsern
   * Kanäle
-    * 2,4Ghz 0db
-    * EINE SSID
-        * aus Prinzip
-        * Nutzen im Rest der Stadt
-        * Verwirrung sonst
-    * da wo 2,4Ghz überlastet ist und nicht geht, einfach aus
+      * 2,4Ghz 0db
+      * EINE SSID
+          * aus Prinzip
+          * Nutzen im Rest der Stadt
+          * Verwirrung sonst
+      * da wo 2,4Ghz überlastet ist und nicht geht, einfach aus
+  * Kanal-Monitoring
+      * extra Nodes (Probenodes), die die Verbindung testen (Kür)
+  * Switching
+      * 
+* überschüssiges Geld
+  * erstmal bekommen
+  * abrechnen
+  * dann nochmal checken
 * Tests
   * gleicher 5Ghz-Kanal (für Mesh)
 * Services
