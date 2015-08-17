@@ -85,6 +85,9 @@
 
 ### Vorgehensweise
 * Aufbau/Abbau
+  * Ablauf
+      * nicht eine Woche früher anfangen, zu viele Dependencies
+      * alles Material von Anfang an da
   * Arbeitsaufteilung
       * klarere Aufgaben für Zeitpunkte
       * arbeiten oder weggehen
@@ -95,6 +98,7 @@
   * Kommunikation
       * Funkgeräte
       * Rollen für Aufgaben/Leute (Funkgeräte)
+      * Karte/Live-Tracking erübrigt sich durch Funkgeräte
   * Nodes
       * Position
           * am Deich Outdoorboxen an die Stromkästen
@@ -108,7 +112,24 @@
           * Firmware vorher geflashed
           * sichern und beschriften
       * REGENSCHIRME!
+  * Stand
+      * LAGER!
+      * wie, später
+      * Stand wahrscheinlich wieder möglich am Fahnenmast
+      * Bauwagen vielleicht von Walter
 * System/Netz
-  * als Verein möglich in IPv4-Netz zu bekommen mit 65 Tausend Adressen
+  * Uplink
+      * als Verein möglich in IPv4-Netz zu bekommen mit 65 Tausend Adressen
+      * an Max Vorraussetzung für Uplink-Provider geben, damit vernünftiges Angebot
+          * LWLcom würde sponsern
+  * Kanäle
+    * 2,4Ghz 0db
+    * EINE SSID
+        * aus Prinzip
+        * Nutzen im Rest der Stadt
+        * Verwirrung sonst
+    * da wo 2,4Ghz überlastet ist und nicht geht, einfach aus
 * Tests
   * gleicher 5Ghz-Kanal (für Mesh)
+* Services
+  * Heatmap an Nutzern
