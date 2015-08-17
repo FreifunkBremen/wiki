@@ -6,9 +6,8 @@
 * System/Netz
   * Kanäle
   * Switching
-* Abbau
-
-### Finanzen
+* Promotioneffekt
+* Fianzen
 
 ## Ausblick
 ### Fragen
@@ -44,3 +43,24 @@
 * Stand
   * nicht mehr 3 Meter Bretter (viele Gründe)
 * System/Netz
+  * Kanäle
+      * 2,4Ghz voll (obwohl 0db), 5Ghz ging
+      * Modus auf Amerika damit DFS und TPC weg
+      * 200 Milliwatt
+  * Switching
+      * Hardwareswitch wurde verwendet, gute Performance, viele Unanehmlichkeiten
+      * Ring nur nachdem Spanning-Tree an war
+      * neue Clients haben lange gebraucht sich beim Monitoring zu melden
+      * SSID wurde trotz fehlender Verbindung ausgestraht (später gepatched)
+      * Ansible hat Daten nicht aus dem Monitoring genommen (später gepatched)
+      * radvd und DHCP auf Edge-Router war doof (Lease wurden über die Breminale erhalten (bis Montag))
+      * Management-VPN auf dem Edge-Router war doof
+      * Switch und Router haben sich nicht gut Verhalten bei Stromausfall
+      * Datenschutz: Adresen, Hersteler und Gerätenamen im Edge-Dump
+* 
+
+### Ausblick
+* System/Netz
+* 
+* Tests
+  * gleicher 5Ghz-Kanal (für Mesh)
