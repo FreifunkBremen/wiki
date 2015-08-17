@@ -6,7 +6,7 @@
 * System/Netz
   * Kanäle
   * Switching
-* Promotioneffekt
+* Promotion
 * Fianzen
 
 ## Ausblick
@@ -19,6 +19,8 @@
 * Organisation
   * Aufbau/Abbau
 * Stand
+* Promotion
+* Finanzen
 
 # Protokoll
 ### Erfahrungswerte
@@ -57,10 +59,56 @@
       * Management-VPN auf dem Edge-Router war doof
       * Switch und Router haben sich nicht gut Verhalten bei Stromausfall
       * Datenschutz: Adresen, Hersteler und Gerätenamen im Edge-Dump
-* 
+* Promotion
+  * Leute dachten...
+      * WLAN nur am Stand
+      * Leute wissen nicht was Freifunk ist
+  * zu wenig Promotioneffekt für ein Promotionprojekt
+      * QR-Code wurde wenig gescanned
+      * Website fühlt sich großteilig überflüssig an
+* Finanzierung
+  * sehr gut!
+  * Finanzierung generell einmalig
 
 ### Ausblick
+### Fragen
+* nochmal?
+  * 7 ja, 1 enthalten
+  * warum?
+      * neutral: Promotioneffekt erfüllt, Freifunk kein Dienstleister
+      * Promotion, Guerillia macht Spaß
+      * Klassenfahrt-mäßig
+      * Spaß
+      * Promotioneffekt NICHT erfüllt, aufpassen, dass Freifunk nicht AUSSIEHT wir Dienstleister
+      * Breminale ist free und die Veranstalter sind auch so drauf, weil wir Bock drauf haben
+      * VIP-Pässe
+
+### Vorgehensweise
+* Aufbau/Abbau
+  * Arbeitsaufteilung
+      * klarere Aufgaben für Zeitpunkte
+      * arbeiten oder weggehen
+      * es muss klar sein (dokumentiert werden) was zu tun ist
+      * unabhängig von Buden und Elektrikern
+      * mehr Training, damit jeder alles kann
+      * Teams
+  * Kommunikation
+      * Funkgeräte
+      * Rollen für Aufgaben/Leute (Funkgeräte)
+  * Nodes
+      * Position
+          * am Deich Outdoorboxen an die Stromkästen
+          * möglichst auf Brusthöhe, nicht höher als Kopf
+      * Beschriftung
+          * MAC-Adresse
+          * Barcodes
+      * Vorbereitung
+          * Firmware vorher fertig
+          * Firmware vorher testen
+          * Firmware vorher geflashed
+          * sichern und beschriften
+      * REGENSCHIRME!
 * System/Netz
-* 
+  * als Verein möglich in IPv4-Netz zu bekommen mit 65 Tausend Adressen
 * Tests
   * gleicher 5Ghz-Kanal (für Mesh)
