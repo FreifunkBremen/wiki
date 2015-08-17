@@ -114,9 +114,11 @@
       * REGENSCHIRME!
   * Stand
       * LAGER!
-      * wie, später
+          * Zahlenschloss? = für alle zugänglich
+      * wie genau, später
       * Stand wahrscheinlich wieder möglich am Fahnenmast
       * Bauwagen vielleicht von Walter
+      * NOC und Stand seperiert
 * System/Netz
   * Uplink
       * als Verein möglich in IPv4-Netz zu bekommen mit 65 Tausend Adressen
@@ -132,7 +134,22 @@
   * Kanal-Monitoring
       * extra Nodes (Probenodes), die die Verbindung testen (Kür)
   * Switching
-      * 
+      * Batman
+      * fast Standardfirmware
+      * mehr Redundanzen
+          * Richtfunk vom Uplink zum Stand?
+          * LWL-Kabel von Fähre bis Fahnenmast entlang der Lichterkette
+* Promotion
+  * Flyer (vielleicht nochmal generell überarbeitet)
+  * Banner an jeden Stromkasten? (oder großer Sticker oder "gekleisterte" Plakate)
+  * mehr Freifunk erklären **---WIE??---**
+      * klar zeigen wie Freifunk in Bremen bereits ausgebaut ist
+      * Läufer?
+* Verpflegung ist erwünscht
+  * Max fragen
+      * frei bei Ständen
+      * Zelt-Backstage?
+  * selbst organisiert?
 * überschüssiges Geld
   * erstmal bekommen
   * abrechnen
