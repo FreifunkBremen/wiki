@@ -25,6 +25,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.90-94 genofire
     * 10.196.0.100 Dienste von Lorenz
     * 10.196.0.101 Küchenchef 3000
+    * 10.196.0.123 rbtz 
     * 10.196.0.127 node.ffhb.de
     * 10.196.0.128 alternativer DNS Server (mortzu)
     * 10.196.0.129-159 Dienste von mortzu
