@@ -23,8 +23,9 @@
 * Finanzen
 
 # Protokoll
+## Rückblick
 ### Erfahrungswerte
-* Aufbau
+* Aufbau/Abbau
   * nächstes Jahr anders
   * weg von den Kästen
   * Arbeitsaufteilung
@@ -42,6 +43,7 @@
       * nicht in die Buden (Aufwand, schwierigere Wartung/Installation, Haftung)
       * Regenschirme haben gefehlt
       * Kabel waren durch fehlende Beschriftung nicht identifzierbar
+  * Inventur vor Ort: https://planetcyborg.de/pads/p/freifunk-bremen-breminale2015-abbau
 * Stand
   * nicht mehr 3 Meter Bretter (viele Gründe)
 * System/Netz
