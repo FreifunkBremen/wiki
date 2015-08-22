@@ -1,31 +1,121 @@
-# Best Practices - Mailingliste
+# Best Practices
 
 Im Blick auf Probleme in der Vergangenheit, sowie der [Umstellung und Änderung der Verwendung und des Sinns der Mailingliste](http://wiki.bremen.freifunk.net/Treffen/2015_06_19#treffen-19-06-2015_protokoll), wird gehofft, dass diese Best Practices eingehalten werden.
 
-#### allen antworten
-Ein Austausch sollte von allen mitgelesen werden können, bis auf den Austausch datenschutzwürdiger Daten
+## E-Mails allgemein
 
-#### keine E-Mails scheuen
-Beispiel nehmen an Hackerspace Bremen Malingliste, viele E-Mails und man sucht sich das raus, was einen interessiert
+### Vorgehensweisen
 
-#### nicht zu viel / nicht zu wenig
-Manchmal genügt ein Satz als Antwort, generell hilft aber eine begründete Antwort weiter und macht manche Nachfragen überflüssig.  
-Genauso sind längere Texte nötig wenn tatsächlich viel Informationen weitergegeben werden soll, es läd aber dann dazu ein, die E-Mail überhaupt nicht zu lesen. Gerade persönliche Anekdoten müssen nicht auch noch dabei sein, wenn sie nicht relevant sind und die E-Mail bereits lang ist.
+##### allen antworten
+_Ein Austausch sollte von allen mitgelesen werden können, welche sich bis jetzt an dem Austausch beiteiligt haben oder mitangeschrieben wurden._
+Ausnahme bilden der Versand von sensiblen und datenschutzwürdiger Daten, sowie das Einbeziehen und Anschreiben von Personen, die nicht in die entsprechende Diskussion gehören.
 
 
+### Inhalte
 
-# Policy Inhalte der Antwort-Mail
-1. Überprüfen von Links, bevor sie versendet werden.
+#### nicht zu viel
+_Lange Texte werden gerne ignoriert oder nur überflogen und sind somit einem Austausch nicht förderlich.
+Falls einemal viele Informationen übermittelt werden müssen, dann ist dies so knapp wie möglich zu tun und ein **tl;dr** (too long; didn't read) **oben (!!)** hinzuzufügen oder der direkte Kontakt zu suchen._
 
-  _dadurch wird Spam unsereseits an der anfragende Person unterbunden_
-2. Es wird nur auf Freifunk-Sachen geantwortet.
+**Wichtig:** `Persönliche Anekdoten sind möglichst auszulassen!`
 
-  _dadurch wird privaten Sachen, die nie förderlich sind, aus unseren Mails nach Außen unterdrückt_
+
+#### nicht zu wenig
+Selbst wenn ein Satz oder Wort als Antwort genügen und die Frage beantworten würde, sind Begründungen gefordert, wenn nicht explizit davon abgesehen werden kann.  
+_Dies soll Nachfragen überflüssig machen und verhindern, dass E-Mails durch Knappheit als unfreundlich aufgenommen werden._
+
+#### von "Link-Dropping" ist abzusehen
+Ein Link als Antwort ist **nie** ausreichend, genauso sind Antworten voll mit Links nicht akzeptabel.  
+_Dieses Verhalten zeugt von Faulheit und Lustlosigkeit, sich persönlich mit der Anfrage zu beschäftigen._  
+**Ausnahme:** `Falls konkret nach einem Link gefragt wurde. Selbst dann ist ein kurzer Kommentar oder Beisatz erwünscht.`
+
+#### Überprüfen von Links, bevor sie versendet werden.
+_dadurch wird Spam unsereseits an der anfragende Person unterbunden_
+
+
+### Formatierung
+
+#### DONTs
+
+##### Von der Verwendung von Inline-Antworten wird genrell abgeraten, wenn es nicht unbedingt erforderlich ist.
+_Dadurch soll dem Übersehen von Informationen vorgebeugt werden. Nach mehreren Antworten, werden Nachrichten mit Inline-Antworten leicht unübersichtlich_
+
+##### Leerzeilen zwischen jedem Satz, sind zu vermeiden.
+_Texte mit Leerzeilen nach jedem Satz, sind optisch bedingt anstrengend zu lesen. Sie geben zusätzlich keinen Anhaltspunkt zur Zusammengehörigkeit einzelner Sätze._
+
+
+#### DOs
+
+##### Es wird zu der Verwendung von Blöcken und Absätzen geraten.
+_Um die Lesbarkeit zu erhöhen, sowie Abschnitte zwischen verschiedenen Teilen der Mail zu definieren, empfehlen sich Blöcke und Absätze, welche jeweils mit einer Leerzeile getrennt sind. Allein stehende Zeilen sind zu vermeiden._
+
+
+## E-Mail spezifisch
+
+### Antwort-Mails auf Anfragen
+
+#### Vor Versand einer Antwort, ist unbedingt auf eine bereits gesendete Antwort eines anderen Freifunkers zu achten!
+_Bei bestehender Antwort muss dem Anfragen erstmal genug Zeit gegeben werden, um sich zurückzumelden und sein Anliegen zu verdeutlichen.  
+Ergänzungen und Doppelemails sollen der Übersicht- und Nervern-halber vermieden werden. Falls eine wichtige Anmerkung besteht, wird der Freifunker, der die erste Antwort schrieb angeschrieben und ihm diese empfohlen._
+
+#### Es wird nur auf Freifunk-Sachen geantwortet.
+_dadurch wird privaten Sachen, die nie förderlich sind, aus unseren Mails nach Außen unterdrückt_
   
-3. Auf keine Fall wird auf private Sachen eingegangen.
-
- _Aussagen wie ich hab es in meiner Stammkneipe, bei ein Freund oder sonstwo das erstemal genutzt ist irrelevant für uns (wir haben unsere Statistiken) - wenn die betroffende Person mehr sagen wollte hätte er es getan._
+#### Auf keine Fall wird auf private Sachen eingegangen.
+Zusätzliche Fragen und Kommentare aufgrund des Standortes, Betriebes, Wohnortes, Jobs und persönlicher Infos sind ausdrücklich **nicht** erwünscht.  
+_Aussagen wie ich hab es in meiner Stammkneipe, bei ein Freund oder sonstwo das erstemal genutzt ist irrelevant für uns (wir haben unsere Statistiken) - wenn die betroffende Person mehr sagen wollte hätte er es getan._
  
-4. Auf Anreden und Grußworte wird nicht eingegangen.
+#### Auf Anreden und Grußworte wird nicht eingegangen.
+_Es ist nicht förderlich sich über Anreden wie 'Hallo Ihr Nerds' oder sonst welche aufzuregen oder selbst zu verfassen_
 
- _Es ist nicht förderlich sich über Anreden wie 'Hallo Ihr Nerds' oder sonst welche aufzuregen oder selbst zu verfassen_
+#### Antworten sollen sich auf die Anfrage beziehen.
+Außerhalb der Frage des Anfragenden, sollen keine Angebote oder umfassende Informationen gegeben werden. Einzig ein Kommentar auf weitere Möglichkeiten, hinsichtlich der bekannten Möglichkeiten sind akzeptiert. Bei weiterer Nachfrage und Interesse, darf natürlich geantwortet werden.
+_Damit sollen Ausschweifungen und eine Flut von Details verhindert werden, mit denen der Anfragesteller meist nichts anfangen kann._
+
+#### Kommentare zu Verhaltensweisen anderer Freifunker sind unerwünscht.
+_Kritik an Kollegen gehört in ein persönliches Gespräch oder eine interne Diskussion. Definitiv **nicht** an einen Anfragesteller._
+Ausnahme stellt bei grobem Fehlverhalten und Missachtung der Best Practices eine Entschuldigung im Namen von Freifunk dar.
+
+#### Nur bei Sachkenntnis soll geantwortet werden.
+_Solange veraltetes, halb- oder gar kein Wissen vorhanden ist, soll auf das Akiv werden **anderer Freifunker gewartet** werden.  
+Bei längerem Ausbleiben einer Antwort anderer, ist das Nachfragen auf der Mailingliste, sowie das Einholen von Informationen zum Thema angebracht.  
+Wenn nach einwöchigem **Ausbleiben** einer Nachricht, kann eine Antwort abgeschickt werden, mit Vorsicht bei Informationen, sowie dem Hinweis auf Unvollständigkeit und die verantwortliche Person._
+
+##### "Antwort an: $@bremen.freifunk.net" ist möglichst immer zu setzen.
+_Dies soll verhindern, dass der Angeschriebene, seine Rückantwort nur an vereinzelte Personen schickt und die Konversation privat und unzugänglich für andere wird._
+
+
+### Mailingliste
+
+##### keine E-Mails scheuen
+_Beispiel nehmen an Hackerspace Bremen Malingliste, viele E-Mails und man sucht sich das raus, was einen interessiert_
+
+
+## Verhalten vor Ort
+
+##### Respekt vor Eigentum  
+_Das Verwenden, Verändern und Umstellen von Eigentum Anderer, soll nicht ohne Zustimmung desjenigen vorgenommen werden._
+
+##### Respekt vor Privatsphäre  
+_Das Betreten von Räumen und Grundstücken, sowie das Betrachten privater Dokumente und Bilder soll nicht ohne die Zustimmung der betroffenen Person erfolgen._
+
+##### Respekt vor Entscheidungen und Meinungen
+_Entscheidungen der Personen vor Ort sollen nicht in langen Diskussionen in Frage gestellt werden oder, auch bei Unverständnis, ins Lächerliche gezogen werden._
+
+
+## Kontaktaufnahme
+
+### Vorbereitung
+Bevor ein Konakt hergestellt wird, soll im [Ticketsystem](https://tasks.ffhb.de/) nach einem bestehenden Eintrag gesucht werden.  
+Falls **ein** Eintrag besteht, sind die bereits vorhanden Informationen zu sichten, bevor man dem Zuständigen Freifunker seine Hilfe anbietet.  
+Falls **kein** Eintrag vorhanden ist, soll der entsprechende Standort und man selbst als "zuständig" eingetragen werden.  
+_Dies soll Doppelanfragen, Missverständnisse, sowie dazwischenfunken bei bestehenden Projekten verhindern._
+
+### Initialer Kontakt
+Um persönlich und greifbar zu wirken, empfiehlt sich für den Erstkontakt ein Telefonat oder ein direktes Gespräch, abhängig von der Art des Standorts.  
+Bei **Firmen** oder generell **Standorte mit vielen möglichen Ansprechpartnern**, sollte vorab der richtige und zuständige Ansprechpartner ermittelt werden. Es bietet sich ein Gespräch mit dem Empfang an. Wenn der Ansprechpartner **kurz und knapp** gefragt wurde, ob Interesse an Freifunk und WLAN besteht, sollen weiterführende Informationen angeboten werden, über das Medium der Wahl des Ansprechpartners. Das kann ein Treffen zu einem abgemachten Termin, eine Info-Email oder das Fortführen des Telefonates sein.  
+**Kleinen Läden** und Standorten, bei welchen der Chef oft vor Ort ist, stattet man am besten direkt einen Besuch ab. So lässt sich auch die Situation vor Ort einschätzen.
+
+##### WICHTIG:
+Der Angesprochene soll nicht mit Eventualitäten, zukünfitgen Projekten, sowie spezifischen Technik- und Gerätedetails bombardiert werden! Aufdringlichkeit kann einen sonst Interessierten, schnell vergraulen!  
+In allen Fällen, geht es darum, Interesse an Freifunk zu wecken und den Angesprochenen das Teilnehmen an Freifunk so einfach und zugänglich wie möglich zu machen.
