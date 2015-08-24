@@ -119,3 +119,20 @@ Bei **Firmen** oder generell **Standorte mit vielen möglichen Ansprechpartnern*
 ##### WICHTIG:
 Der Angesprochene soll nicht mit Eventualitäten, zukünfitgen Projekten, sowie spezifischen Technik- und Gerätedetails bombardiert werden! Aufdringlichkeit kann einen sonst Interessierten, schnell vergraulen!  
 In allen Fällen, geht es darum, Interesse an Freifunk zu wecken und den Angesprochenen das Teilnehmen an Freifunk so einfach und zugänglich wie möglich zu machen.
+
+
+## Wiki
+### Änderungen an Wikiseiten mit Kommentar (commit-message) speichern
+Anstatt mit einem Klick auf das Disketten-Symbol die bearbeitete Seite zu speichern, ist jeder dazu angehalten den Sprechblasen-Button rechts daneben zu verwenden und seiner Bearbeitung einen Kommentar hinzuzufügen.  
+Am besten lässt man den bereits vorhanden Text stehen und schreibt direkt dahinter was gerade geändert wurde, sowie euren Namen angeführt von einem `^`, falls ihr wollt.  
+_So lässt sich im Verlauf einer Seite besser Nachvollziehen, was wann passiert ist. Mit Stehenlassen und Erweitern des bereits vorhanden Kommentars, kann [hier](https://github.com/FreifunkBremen/wiki/commits/master.atom) direkt nachvollzogen werden, welche Seite bearbeitet wurde._
+###### Hintergrund:
+Die Seiten dieses Wikis werden in einem Git-Repository gespeichert. Bei jeder Änderung einer Datei in einem Git-Repo wird eine möglichst eindeutige und verständliche Kurzbeschreibung hinzugefügt.  
+Seiten in diesem Wiki werden bei jedem Speichern mit einer Standard-commit-message versehen, die nur aussagt, dass und wann und welche Datei in welchem Format bearbeitet wurde.
+
+### Oft speichern!
+_Nicht unbedingt als Richtlinie gedacht, ist es doch eine gute Verhaltensweise um Datenverlust vorzubeugen. Zusätzlich kann bei öfterem Speichern genauer in den Kommentaren festgehalten werden, was geändert wurde._
+
+### Namen oder Kontakt zu Infos schreiben
+Bei Entwürfen, Tagesordnungen oder anderen Seiten in die Informationen geschrieben werden ist darauf zu achten seinen oder den betreffenden Namen oder Nick anzumerken. Bevorzugt in diesem Vormat `[coolsterTyp]`.  
+_Dies soll Nachfragen ermöglichen, sowie Fragen zuordnenbar zu machen, damit nicht Informationen aus dem Nichts ohne Beleg auftauchen oder Antworten den Fragesteller nicht erreichen._
