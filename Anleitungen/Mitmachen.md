@@ -15,4 +15,4 @@ Einfach einen Router beim Händler deiner Wahl kaufen, die passende Firmware auf
 
 * [Unterstütze Router](http://wiki.bremen.freifunk.net/Unterstuetzte-Router)
 * [Firmware](http://downloads.bremen.freifunk.net/firmware/)
-* [Anleitung](http://wiki.bremen.freifunk.net/Anleitung)
+* [Anleitung](http://wiki.bremen.freifunk.net/Anleitungen/Firmware/Flashen)
