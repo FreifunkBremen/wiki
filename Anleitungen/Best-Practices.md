@@ -81,7 +81,8 @@ _Solange veraltetes, halb- oder gar kein Wissen vorhanden ist, soll auf das Akiv
 Bei längerem Ausbleiben einer Antwort anderer, ist das Nachfragen auf der Mailingliste, sowie das Einholen von Informationen zum Thema angebracht.  
 Wenn nach einwöchigem **Ausbleiben** einer Nachricht, kann eine Antwort abgeschickt werden, mit Vorsicht bei Informationen, sowie dem Hinweis auf Unvollständigkeit und die verantwortliche Person._
 
-##### "Antwort an: $@bremen.freifunk.net" ist möglichst immer zu setzen.
+#### `Antwort an: $@bremen.freifunk.net` ist möglichst immer zu setzen.
+Dabei soll das `$` für die jeweils betroffene und verwendete Freifunk-E-Mail-Adresse stehen.  
 _Dies soll verhindern, dass der Angeschriebene, seine Rückantwort nur an vereinzelte Personen schickt und die Konversation privat und unzugänglich für andere wird._
 
 
