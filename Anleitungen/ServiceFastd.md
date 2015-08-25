@@ -1,8 +1,7 @@
-Beschreibung wie man mit fastd einen Server an das Freifunk Bremen Mesh anbindet.
+# Verbindung Rechner an Freifunk Netzwerk über fastd
 
-# Software
-
-## Einbindung des [freifunk-rheinland](https://wiki.archlinux.org/index.php/Unofficial_user_repositories#freifunk-rheinland)-Repositories
+## Software
+### Einbindung des [freifunk-rheinland](https://wiki.archlinux.org/index.php/Unofficial_user_repositories#freifunk-rheinland)-Repositories
 
 In /etc/pacman.conf hinzufügen:
 ```
@@ -10,16 +9,14 @@ In /etc/pacman.conf hinzufügen:
 Server = http://mirror.fluxent.de/archlinux-custom/$repo/os/$arch
 ```
 
-## Installation
+### Installation
 ```
 pacman -S ethtools lsb-release batman-alfred fastd batman-adv-dkms batctl
 ```
 
-# Konfiguration
-
-## fastd (und batman)
-
-Zunächste muss ein privater Schlüssel mit `fastd --generate-key` generiert werden, welcher sicher aufbewahrt werden muss.
+## Konfiguration
+### fastd (und batman)
+Zunächst muss ein privater Schlüssel mit `fastd --generate-key` generiert werden, welcher sicher aufbewahrt werden muss.
 
 Danach die folgende Konfigurationsdatei (Dateiname-hier:ffhb-service-fastd.conf) anpassen:
 Diese muss ggf. aktualisiert werden, hierzu dient [Site.conf für gluon-Nodes](https://github.com/FreifunkBremen/gluon-site-ffhb/blob/master/site.conf).
@@ -28,7 +25,7 @@ IP-Adresse kann per `dhclient ffhb` oder wie manuell gesetzt werden (beachte erl
 Zu editierende Werte:
 * PRIVATE-KEY (der vorher generiert wurde)
 * FREIE-IP-ADRESSE
-* MACADDRESS (Welche sich ausgedacht wurde - villt. einfach einmal ohne fastd aufrufen)
+* MACADDRESS (Welche sich ausgedacht wurde - vllt. einfach einmal ohne fastd aufrufen)
 
 ```
 interface "ffhbVPN";
@@ -120,19 +117,15 @@ Dannach sich mit Hilfe diese fastd starten.
 Dies ist nur ein Prototyp, der mit Vorsicht zu genießen ist.
 Später sollten daraus mehrer systemd-units und netcfg werden.
 
-Es werden Fehlermeldungen erscheinen, wenn man sich mit mehreren VPNS-Verbindet.
-Diese können Ignoriert werden oder der 'on establish'-Teil einmalig per Hand oder Skript ausgeführt werden.
+Es werden Fehlermeldungen erscheinen, wenn man sich mit mehreren VPNs Verbindet.
+Diese können ignoriert werden oder der 'on establish'-Teil einmalig per Hand oder Skript ausgeführt werden.
 
-
-## Auftauchen in der Alfred Statistik
-
+## Auftauchen in der Alfred-Statistik
 ```
 alfred -i ffhb -b ffhb
 batadv-vis -i ffhb -s
 ```
-
 **Achtung:** MAC-Adresse von ffhb und ffhbVPN sollten gleich heißen!
-
 
 ### Alfred Annoucen (Namen und Statistik übermitteln)
 Aus [Github](https://github.com/ffnord/ffnord-alfred-announce) clonen.
@@ -144,7 +137,7 @@ Falls ein andere Hostname als der systemweite für alfred benutzt werden soll,
  ändern sie die Datei '/root/ffnord-alfred-announce/nodeinfo.d/hostname' ab.
 
 # TODO
- Anpassung von fastd durch das Anlegen von systemd-units und netctl.
+Anpassung von fastd durch das Anlegen von systemd-units und netctl.
 
 # Author(en)
 genofire (mail,jid:geno@fireorbit.de - jid:genofire@chat.ffhb.de)
