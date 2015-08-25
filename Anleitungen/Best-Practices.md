@@ -73,6 +73,10 @@ Das soll hiermit vermieden werden._
 #### Auf Anreden und Grußworte wird nicht eingegangen.
 _Es ist nicht förderlich sich über Anreden wie 'Hallo Ihr Nerds' oder sonst welche aufzuregen oder selbst zu verfassen_
 
+#### Anrede, Gruß und Name sind erforderlich
+Der Anfragesteller soll einleitend begrüßt und nachträglich "verabschiedet" werden. In vielen Fällen reicht `moin + $VORNAME` aus, es sollte aber anhand der Anfrage entschieden werden, ob das `Sie` dem `Du` vorzuziehen ist.  
+_Dies soll die Freundlichkeit einer E-Mail waren. Sowie dem Anfragenden das Gefühl vermitteln mit einer Person zu kommunizieren._
+
 #### Antworten sollen sich auf die Anfrage beziehen.
 Außerhalb der Frage des Anfragenden, sollen keine Angebote oder umfassende Informationen gegeben werden. Einzig ein Kommentar auf weitere Möglichkeiten, hinsichtlich der bekannten Möglichkeiten sind akzeptiert. Bei weiterer Nachfrage und Interesse, darf natürlich geantwortet werden.
 _Damit sollen Ausschweifungen und eine Flut von Details verhindert werden, mit denen der Anfragesteller meist nichts anfangen kann._
