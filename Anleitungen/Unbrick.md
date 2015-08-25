@@ -1,5 +1,5 @@
 # Unbrick Anleitung TP-Link
-Sobald der Router eine Firmware mit der flaschen Versions- oder Modellnummer abbekommt, hat man schnell einen Briefbeschwerer.
+Sobald der Router eine Firmware mit der falschen Versions- oder Modellnummer abbekommt, hat man schnell einen Briefbeschwerer.
 
 Diese Anleitung konzentriert sich auf das Flashen/Retten des Router über die serielle Schnittstelle.
 
@@ -16,8 +16,8 @@ Folgende Dinge werden benötigt:
 * die ***passende*** Firmware für euren Router
 * Ein Computer mit ein paar Programmen
 
-Zuerst gilt es die Version und das Modell des Routers herauszufinden. Anschließend darf das Gehäuse des Routers vorsichtig geöffnet werden. Dazu die zwei Schrauben unter den hinteren beiden Füßen lösen und dann den Deckel vorsichtig abhebeln.
-Nun gilt es die drei Kontakte der seriellen Schnittstelle ausfindig zu machen. Mit der Suchmaschiene deine Wahl und den Begriffen "PCB Layout + $Routermodell" "ttl pins  + $Routermodell" o.ä. sind diese leicht zu finden. Einige uns schon bekannte Pole befinden sich hier:
+Zuerst gilt es die Version und das Modell des Routers herauszufinden. Anschließend muss das Gehäuse des Routers vorsichtig geöffnet werden. Dazu die zwei Schrauben unter den hinteren beiden Füßen lösen und dann den Deckel vorsichtig abhebeln.
+Nun gilt es die drei Kontakte der seriellen Schnittstelle ausfindig zu machen. Mit der Suchmaschine deiner Wahl und den Begriffen "PCB Layout + $Routermodell" "ttl pins  + $Routermodell" o.ä. sind diese leicht zu finden. Einige uns schon bekannte Pole befinden sich hier:
 
 Platine des 741v2:
 <img src="http://jel.to/ff_pics/741v2-1.jpg" title="PCB 741v2" />
@@ -61,7 +61,6 @@ systemctl start tftpd.socket
 Standardmäßig ist das Verzeichnis des FTP-Servers unter Arch /srv/tftp/, hier gilt es also das ***passende*** Image hin zu kopieren. 
 Mit netstat und ps aux | grep tftp prüfen, ob Server wirklich läuft
 
-
 # Console öffnen
 Sobald der Router startet müssten wir Ausgaben in der Console sehen (er rebootet ständig). Nun hämmern wir die Buchstaben "tpl" in das serielle Fenster, damit wir eine Console bekommen.
 
@@ -74,6 +73,7 @@ ar7240>
 ar7240> set ipaddr 192.168.1.2
 ar7240> set serverip 192.168.1.1
 ```
+
 ## Image Übertragen
 Beide Rechner sollten jetzt über Netzwerk miteinander kommunizieren können. Mit dem Befehl:
 ```
@@ -106,4 +106,3 @@ ar7240> cp.b 0x80000000 0x9f020000 0x3c0000
 ar7240> bootm 0x9f020000
 ```
 Nun solltet ihr wieder einen ansprechbaren Router haben!
-
