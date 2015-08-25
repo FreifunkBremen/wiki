@@ -7,34 +7,31 @@
 Zum mobilen Betrieb ist zum einen ein Akkupack mit passendem Hohlstecker-Adapter nötig, sowie ein Router mit USB-Schnittstelle. Hier exemplatisch ein TP-Link TL-WR1043ND. Zum Tethern wird außerdem ein Android-Smartphone benötigt.
 
 ### Einrichtung USB-Tethering
-Zuerst Paketquellen aktualisieren und nötige Pakete installieren : 
+Zuerst Paketquellen aktualisieren und nötige Pakete installieren:
 
 ```
 opkg update
 opkg install kmod-usb2 kmod-usb-net
 ```
-eventuell ist es notwendig, folgende Pakete auch zu installieren [1] 
+eventuell ist es notwendig, folgende Pakete auch zu installieren. [1]
 
-<code> kmod-usb-net-rndis kmod-usb-net-cdc-ether usbutils udev </code>
+<code>kmod-usb-net-rndis kmod-usb-net-cdc-ether usbutils udev</code>
 
 USB-Modul laden:
 
 <code>insmod ehci-hcd</code>
 
-WAN-Interface auf USB-Schnittstelle legen:
+#### WAN-Interface auf USB-Schnittstelle legen:
 
 ```
 uci del network.wan 
-
 uci set network.wan=interface
-
 uci set network.wan.ifname=usb0
-
 uci set network.wan.proto=dhcp
-
 uci commit network
 ```
-WAN-Schnittstelle aktivieren
+
+#### WAN-Schnittstelle aktivieren
 
 <code> ifup wan </code>
 
@@ -67,13 +64,9 @@ In der Android-App unter Protokollierungseinstellungen muss nun als "Logge zu ei
 Der Haken bei "Logge zu einem Server" muss gesetzt werden.
 
 Quellen:
-
-http://wiki.openwrt.org/doc/howto/usb.tethering
-
-http://wiki.openwrt.org/doc/howto/usb.essentials
-
-http://wiki.openwrt.org/doc/howto/http.httpd
+* http://wiki.openwrt.org/doc/howto/usb.tethering
+* http://wiki.openwrt.org/doc/howto/usb.essentials
+* http://wiki.openwrt.org/doc/howto/http.httpd
 
 Android-App:
-
-https://play.google.com/store/apps/details?id=com.mendhak.gpslogger&hl=de
+* https://play.google.com/store/apps/details?id=com.mendhak.gpslogger&hl=de
