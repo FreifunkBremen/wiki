@@ -37,7 +37,7 @@ _dadurch wird Spam unsereseits an der anfragende Person unterbunden_
 
 #### DONTs
 
-##### Von der Verwendung von Inline-Antworten wird genrell abgeraten, wenn es nicht unbedingt erforderlich ist.
+##### Von der Verwendung von Inline-Antworten wird generell abgeraten, wenn es nicht unbedingt erforderlich ist.
 _Dadurch soll dem Übersehen von Informationen vorgebeugt werden. Nach mehreren Antworten, werden Nachrichten mit Inline-Antworten leicht unübersichtlich_
 
 ##### Leerzeilen zwischen jedem Satz, sind zu vermeiden.
