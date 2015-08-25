@@ -64,7 +64,12 @@ _dadurch wird privaten Sachen, die nie förderlich sind, aus unseren Mails nach 
 #### Auf keine Fall wird auf private Sachen eingegangen.
 Zusätzliche Fragen und Kommentare aufgrund des Standortes, Betriebes, Wohnortes, Jobs und persönlicher Infos sind ausdrücklich **nicht** erwünscht.  
 _Aussagen wie ich hab es in meiner Stammkneipe, bei ein Freund oder sonstwo das erstemal genutzt ist irrelevant für uns (wir haben unsere Statistiken) - wenn die betroffende Person mehr sagen wollte hätte er es getan._
- 
+
+##### auf alle Fragen antworten
+Oft werden in einer Anfrage mehrere Punkte angesprochen. Auf diese sollen vom Beantwortenden auch eingegangen werden. Wenn Teilaspekte nicht beantwortet werden können, dann soll jemand anders diese Anfrage bearbeiten oder wenn es einen solchen nicht gibt, darauf hingewiesen werden, dass zu dem Aspekt noch kein Wissen vorhanden ist oder man sich mit mehr Infos dazu nochmeldet.  
+_Alle Fragen eines Anfragestellers sind relevant, sonst hätte er sich nicht gestellt. Auf eine Frage zu antworten und auf eine andere nicht, erscheint faul, unorganisiert und evlt. sogar dreist, da man konkret etwas ignoriert.  
+Das soll hiermit vermieden werden._
+
 #### Auf Anreden und Grußworte wird nicht eingegangen.
 _Es ist nicht förderlich sich über Anreden wie 'Hallo Ihr Nerds' oder sonst welche aufzuregen oder selbst zu verfassen_
 
