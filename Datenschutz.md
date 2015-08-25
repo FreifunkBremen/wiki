@@ -49,6 +49,16 @@ Wir versuchen den Grad der Sensibilität der Daten durch diese "Bezugsart" zu ve
 
 Es findet keine automatisierte Verarbeitung der Daten, beispielsweise zum Zweck von Profilbildung, statt. Viele der knotenbezogenen Daten inkl. Nutzungsstatistiken werden in graphischer Form aufgearbeitet und ebenso wie die Rohdaten als [Karte](http://bremen.freifunk.net/map/geomap.html) oder in [Graphen](http://bremen.freifunk.net/map/node.html?id=c6:b6:a5:52:3a:9a) der Öffentlichkeit zur Verfügung gestellt.
 
+## Schutz gegen unbefugte Zugriffe
+
+Solange auf einem Freifunk-Router kein Passwort oder einen SSH-Key installiert ist, gibt es keine Möglichkeit, per Netzwerk an diesen Einstellungen zu ändern.
+
+Über entsprechende Routing-Regeln ist das Freifunk-Netz vom privaten Netz getrennt.
+
+Geräte im Bremer Freifunk-Netz sind per IPv4 aus allen Freifunk-Netzen (per Intercity-VPN), sowie per IPv6 im gesamten Internet erreichbar.
+Es obliegt der Verantwortung jedes Nutzers, die Dienste auf seinen Endgeräten entsprechend zu sichern (etwa durch eine Firewall).
+Freifunk ist nicht sicherer/unsicherer als das Internet.
+
 ## Einschränkungen und künstliche Limitierungen
 Um die Verlangsamung des Gesamtnetzes zu verhindern blockieren die VPN-Server Filesharing-Diensten den Zugang ins Internet. Die Limitierung in Form von Durchsatz, Verfügbarkeit, Latenz sind ausschließlich durch Rahmenbedingungen des Netzwerkes, deren Ressourcen und der aktuellen Nutzung begrenzt.
 
