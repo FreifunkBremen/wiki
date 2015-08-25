@@ -15,7 +15,7 @@ Ausnahme bilden der Versand von sensiblen und datenschutzwürdiger Daten, sowie 
 
 #### nicht zu viel
 _Lange Texte werden gerne ignoriert oder nur überflogen und sind somit einem Austausch nicht förderlich.
-Falls einemal viele Informationen übermittelt werden müssen, dann ist dies so knapp wie möglich zu tun und ein **tl;dr** (too long; didn't read) **oben (!!)** hinzuzufügen oder der direkte Kontakt zu suchen._
+Falls einmal viele Informationen übermittelt werden müssen, dann ist dies so knapp wie möglich zu tun und ein **tl;dr** (too long; didn't read) **oben (!!)** hinzuzufügen oder der direkte Kontakt zu suchen._
 
 **Wichtig:** `Persönliche Anekdoten sind möglichst auszulassen!`
 
