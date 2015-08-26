@@ -5,7 +5,7 @@ Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Die
 * [Chat](http://chat.ffhb.de) Jabber Server. (genofire)
 * [SIP Server](http://sip.services.ffhb.de/web/) Asterisk SIP und SMS Server (alpha - Nebirosh) Anleitung zur Einrichtung folgt!
 * [Etherpad-lite](http://pads.services.ffhb.de/) kollaboratives Schreiben von Texten
-* [Gogs](http://gogs.io)-Instanz: https://git.ffhb.de
+* [Gogs](http://gogs.io)-Instanz: https://git.ffhb.de (mortzu)
 
 ## Infos zum aktuellen Router
 Unter http://node.ffhb.de findest du Informationen zu dem Router, mit dem du momentan verbunden bist.
