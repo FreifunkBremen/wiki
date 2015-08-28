@@ -17,7 +17,7 @@ Ausnahme bilden der Versand von sensiblen und datenschutzwürdiger Daten, sowie 
 _Lange Texte werden gerne ignoriert oder nur überflogen und sind somit einem Austausch nicht förderlich.
 Falls einmal viele Informationen übermittelt werden müssen, dann ist dies so knapp wie möglich zu tun und ein **tl;dr** (too long; didn't read) **oben (!!)** hinzuzufügen oder der direkte Kontakt zu suchen._
 
-**Wichtig:** `Persönliche Anekdoten sind möglichst auszulassen!`
+###### Wichtig: `Persönliche Anekdoten sind möglichst auszulassen!`
 
 
 #### nicht zu wenig
@@ -94,6 +94,10 @@ Wenn nach einwöchigem **Ausbleiben** einer Nachricht, kann eine Antwort abgesch
 Dabei soll das `$` für die jeweils betroffene und verwendete Freifunk-E-Mail-Adresse stehen.  
 _Dies soll verhindern, dass der Angeschriebene, seine Rückantwort nur an vereinzelte Personen schickt und die Konversation privat und unzugänglich für andere wird._
 
+#### unübliche Abkürzungen und eigene Wortkreationen sind wegzulassen
+Abkürzungen die der Anfragesteller nicht verstehen kann oder googlen muss, die im Freifunk-Kontext aber evtl. bekannt sind, sollten nicht verwendet werden. Das trifft generell auf alle Wörter zu, auch Eigenkreationen.   
+_Um eine bessere Lesbarkeit und ein gutes Verständnis zu erreichen, sollen möglichst viele Punkte, welche Missverständnisse hervorufen könnten, von Anfang weggelassen werden._
+###### Ausnahmen: Allgemein bekannte und akzeptierte Abkürzungen wie `evtl.`, `z.B.`, `etc`, sowie technische Ausdrücke, welche in iherer simpelsten, aber richtigen Form verwendet werden sollen.
 
 ### Mailingliste
 
