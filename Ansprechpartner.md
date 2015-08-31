@@ -44,16 +44,7 @@ Diese Leute administrieren die Gateways (a.k.a. VPN-Server), zu denen sich die K
 * Moritz / mortzu
 * Geno / Martin / genofire
 
-**Verantwortung der Einzelnen Gateways:**
-
-| Gateway | Hauptverantwortlicher | Co Verantwortlicher |
-|---------|-----------------------|---------------------|
-| vpn01   | jplitza, mortzu       |                     |
-| vpn02   | jplitza, mortzu       |                     |
-| vpn03   | jplitza, mortzu       |                     |
-| vpn04   | mortzu                |                     |
-| vpn05   | anon6789              | genofire            |
-| vpn06   | corny                 |                     |
+Verantwortung der Einzelnen Gateways siehe [Infrastruktur/Server](http://wiki.bremen.freifunk.net/Infrastruktur/Server#ansprechpartner)
 
 ## Politik
 
