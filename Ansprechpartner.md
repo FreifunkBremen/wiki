@@ -42,6 +42,7 @@ Diese Leute administrieren die Gateways (a.k.a. VPN-Server), zu denen sich die K
 
 * JP / Jan-Philipp / jplitza
 * Moritz / mortzu
+* Geno / Martin / genofire
 
 ## Politik
 
