@@ -7,7 +7,7 @@ Es gibt momentan drei VPN-Server, die zum Verbinden der Knoten untereinander und
 | vpn02  | Plutex       | Bremen   | Freie Netze e.V.   | Berlin          |
 | vpn03  | Planetcyborg | Bremen   | Freifunk Rheinland | -               |
 | vpn04  | -            | Hetzner  | Freifunk Rheinland | -               |
-| vpn05  | jetto        | netcup   | -                  | -               |
+| vpn05  | jetto        | netcup   | Hide.me            | Frankfurt       |
 | vpn06  | Digineo GmbH | Plutex   | direkt             | Bremen          |
 
 ## Ansprechpartner
