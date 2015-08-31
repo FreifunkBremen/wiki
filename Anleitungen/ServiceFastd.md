@@ -1,5 +1,8 @@
-# Verbindung Rechner an Freifunk Netzwerk über fastd
 
+# Alternative
+Ansible-Role aus [Github](https://github.com/FreifunkBremen/ansible)
+
+# Verbindung Rechner an Freifunk Netzwerk über fastd
 ## Software
 ### Einbindung des [freifunk-rheinland](https://wiki.archlinux.org/index.php/Unofficial_user_repositories#freifunk-rheinland)-Repositories
 
