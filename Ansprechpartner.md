@@ -48,14 +48,12 @@ Diese Leute administrieren die Gateways (a.k.a. VPN-Server), zu denen sich die K
 
 | Gateway | Hauptverantwortlicher | Co Verantwortlicher |
 |---------|-----------------------|---------------------|
-| VPN01   |  JP, Mortzu           |                     |
-| VPN02   |  JP, Mortzu           |                     |
-| VPN03   |  JP, Mortzu           |                     |
-| ?VPN04   |  Nebi/anon            |                     |
-| VPN05   | Anon                  | Geno                |
-| VPN06   | corny                 |                     |
-| ?VPN07   | (piraten/geno)        |                     |
-
+| vpn01   | jplitza, mortzu       |                     |
+| vpn02   | jplitza, mortzu       |                     |
+| vpn03   | jplitza, mortzu       |                     |
+| vpn04   | mortzu                |                     |
+| vpn05   | anon6789              | genofire            |
+| vpn06   | corny                 |                     |
 
 ## Politik
 
