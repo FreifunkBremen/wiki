@@ -1,9 +1,7 @@
 Hier protokolliere ich, wie ich mit Hilfe von jplitza und wget einen Firmware-Mirror auf meinem Raspberry PI eingerichtet habe. Er ist nicht besonders clever, aber funktional. Ich bin keine Experte und hoffe durch diesen Artikel einen Anfang für eine gute Anleitung entstehen zu lassen. 
 
 ## Statische IP 
-Ich habe mir zunächst eine IPv4 IP-Adresse im Artikel [Dienste](http://wiki.bremen.freifunk.net/Dienste/Home) reserviert.
-
-Diese hab ich dann in der /etc/network/interfaces hinterlegt.
+Al erstes muss der "Server" im Freifunk bekannt sein. Dazu habe ich mir eine IPv4 IP-Adresse im Artikel [Dienste](http://wiki.bremen.freifunk.net/Dienste/Home) reserviert und anschließend in /etc/network/interfaces hinterlegt.
 
 ```
 auto eth0
@@ -14,7 +12,7 @@ iface eth0 inet static
   gateway 10.196.0.1
 ```
 
-Ein Firmware-Mirror muss aber per IPv6 erreichbar sein. Das letzte Byte der IPv6-Adresse sollte eimmer dem letzten Byte der Ipv4-Adresse entsprechen, in meinem Fall also **6f**. Dem entsprechen habe ich folgenden, weiteren Eintrag in der /etc/network/interfaces hinterlegt:
+Ein Firmware-Mirror muss aber per IPv6 erreichbar sein. Das letzte Byte der IPv6-Adresse sollte immer dem letzten Byte der Ipv4-Adresse entsprechen, in meinem Fall also **6f**. Dem entsprechen habe ich folgenden, weiteren Eintrag in der /etc/network/interfaces hinterlegt:
 
 ```
 iface eth0 inet6 static
@@ -22,8 +20,8 @@ iface eth0 inet6 static
   netmask 64
 ```
 
-## Daten spiegeln
-Die Quelle für Spiegel-Server ist [http://downloads.bremen.freifunk.net/firmware/](http://downloads.bremen.freifunk.net/firmware/). Zum spiegeln habe ich folgeden *wget*-Aufruf verwendet. Ich protokolliere außerdem noch Start und Ende in eine Textdatei.
+## Daten kopieren
+Die Quelle für Spiegel-Server ist [http://downloads.bremen.freifunk.net/firmware/](http://downloads.bremen.freifunk.net/firmware/). Zum spiegeln habe ich folgedes "Script" erstellt. Ich protokolliere außerdem noch Start und Ende in eine Textdatei. Das hat mir das Testen erleichtert.
 
 **Script**
 
@@ -60,6 +58,12 @@ Damit das Script ausgeführt werden kann, muss es natürlich zuvor mit `chmod +x
 Damit das Script regelmäßig um 3:33Uhr ausgeführt wird, habe ich ein Eintrag in */etc/crontab* hinterlegt
 
 33 3 * * * * username /pfad/zum/script.sh
+
+Ob und wann ein Cronjob ausgeführt wird steht im syslog.
+
+```
+grep CRON /var/log/syslog
+```
 
 ## Daten per HTTP bereitstellen
 Die Knoten können die Images nur per HTTP abrufen. Da ich bisher keinen Webserver verwende, habe ich mich nach einer einfachen Lösung umgesehen und bin bei [WebFS](http://linux.bytesex.org/misc/webfs.html) gelandet. Ich habe das entsprechende [deb-Paket](https://packages.debian.org/jessie/webfs) installiert.
