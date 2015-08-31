@@ -23,14 +23,14 @@ Diese Leute kennen sich gut mit dem Projekt aus und sind bereit, Presseanfragen 
 
 * JP / Jan-Philipp / jplitza
 * Simon Joda Stößer / SimJoSt (seit 2014-03 dabei)
-* Personen gesucht!
 * nukeUS (Winni)
+* Personen gesucht!
 
 ## Firmware
 
 Diese Leute bauen und verwalten die Software, die auf den Knoten läuft.
 
-**Erreichbarkeit:** über die [Liste](liste@bremen.freifunk.net)
+**Erreichbarkeit:** über die [Liste](mailto:liste@bremen.freifunk.net)
 
 * JP / Jan-Philipp / jplitza
 
