@@ -44,7 +44,7 @@ Diese Leute administrieren die Gateways (a.k.a. VPN-Server), zu denen sich die K
 * Moritz / mortzu
 * Geno / Martin / genofire
 
-Verantwortung der Einzelnen Gateways siehe [Infrastruktur/Server](http://wiki.bremen.freifunk.net/Infrastruktur/Server#ansprechpartner)
+Verantwortung der einzelnen Gateways siehe [Infrastruktur/Server](http://wiki.bremen.freifunk.net/Infrastruktur/Server#ansprechpartner)
 
 ## Politik
 
