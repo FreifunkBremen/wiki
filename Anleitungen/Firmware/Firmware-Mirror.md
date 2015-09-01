@@ -32,7 +32,7 @@ cd mirror-download
 
 date > last-run.txt
 
-wget -Nr -np -A .bin -nH --cut-dirs=1 -X /firmware/nightly http://downloads.bremen.freifunk.net/firmware/
+wget -Nr -np -A .bin,.manifest -nH --cut-dirs=1 -X /firmware/nightly http://downloads.bremen.freifunk.net/firmware/
 
 date >> last-run.txt
 
@@ -43,7 +43,7 @@ date >> last-run.txt
 * **-r** Verzeichnise rekursiv durchlaufen
 * **-N** Nur neuere Dateien herunterladen
 * **-np** no-parent (Nicht höher als /firmware/ gehen)
-* **-A .bin** Nur Dateien mit der Endeung **.bin** herunterladen
+* **-A .bin,.manifest** Nur Dateien mit der Endeung **.bin,.manifest** herunterladen
 * **-nH** Kein Unterverzeichnis **downloads....** anlegen
 * **--cut-dirs=1** kein Unterverzeichnis **firmware/** anlegen
 * **-X ..nightly** Das Nightly-Verzeichnis ausschließen
