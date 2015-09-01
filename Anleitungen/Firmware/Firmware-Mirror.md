@@ -38,12 +38,14 @@ date >> last-run.txt
 
 ```
 
+
+
 **Erläuterung**
 
 * **-r** Verzeichnise rekursiv durchlaufen
 * **-N** Nur neuere Dateien herunterladen
 * **-np** no-parent (Nicht höher als /firmware/ gehen)
-* **-A .bin,.manifest** Nur Dateien mit der Endeung **.bin,.manifest** herunterladen
+* **-A .bin,.manifest** Nur Dateien mit der Endeung **.bin,.manifest** herunterladen (muss noch Überarbeitet werden, es fehlen noch ein paar Dateien. z.B. MD5SUM, .gz, .img)
 * **-nH** Kein Unterverzeichnis **downloads....** anlegen
 * **--cut-dirs=1** kein Unterverzeichnis **firmware/** anlegen
 * **-X ..nightly** Das Nightly-Verzeichnis ausschließen
