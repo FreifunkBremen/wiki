@@ -12,5 +12,9 @@ Produkt nicht mehr verfügbar; endgültige Überprüfung wegen nicht Erreichbark
 
 ## Preisvergleiche
 
-* Preisvergleich bei Heise - [TP-Link TL-WR841N](http://www.heise.de/preisvergleich/tp-link-tl-wr841n-a340658.html)
-
+* Preisvergleich bei Geizhals
+  * [TP-Link TL-WR841N](http://geizhals.de/tp-link-tl-wr841n-a340658.html)
+  * [TP-Link TL-WDR3500](http://geizhals.de/tp-link-tl-wdr3500-a806566.html)
+  * [TP-Link TL-WDR3600](http://geizhals.de/tp-link-tl-wdr3600-a806392.html)
+  * [TP-Link TL-WDR4300](http://geizhals.de/tp-link-tl-wdr4300-a772368.html)
+  * [TP-Link TL-WDR4900](http://geizhals.de/tp-link-tl-wdr4900-a863845.html)
