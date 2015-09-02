@@ -86,9 +86,11 @@ _Kritik an Kollegen gehört in ein persönliches Gespräch oder eine interne Dis
 Ausnahme stellt bei grobem Fehlverhalten und Missachtung der Best Practices eine Entschuldigung im Namen von Freifunk dar.
 
 #### Nur bei Sachkenntnis soll geantwortet werden.
-_Solange veraltetes, halb- oder gar kein Wissen vorhanden ist, soll auf das Akiv werden **anderer Freifunker gewartet** werden.  
+Solange veraltetes, halb- oder gar kein Wissen vorhanden ist, soll auf das Aktiv werden **anderer Freifunker gewartet** werden.  
 Bei längerem Ausbleiben einer Antwort anderer, ist das Nachfragen auf der Mailingliste, sowie das Einholen von Informationen zum Thema angebracht.  
-Wenn nach einwöchigem **Ausbleiben** einer Nachricht, kann eine Antwort abgeschickt werden, mit Vorsicht bei Informationen, sowie dem Hinweis auf Unvollständigkeit und die verantwortliche Person._
+Wenn nach einwöchigem **Ausbleiben** einer Nachricht, kann eine Antwort abgeschickt werden, mit Vorsicht bei Informationen, sowie dem Hinweis auf Unvollständigkeit und die verantwortliche Person.
+_Damit soll verhindert werden, dass eine Anfragesteller falsche oder unvollständige Informationen bekommt, welches umständlich und langwierig korrigiert und/oder aus Welt geschafft werden muss._
+###### Geht gar nicht: "Ich denke nicht..."
 
 #### `Antwort an: $@bremen.freifunk.net` ist möglichst immer zu setzen.
 Dabei soll das `$` für die jeweils betroffene und verwendete Freifunk-E-Mail-Adresse stehen.  
