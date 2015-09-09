@@ -2,7 +2,7 @@ Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Die
 
 * [Wikipedia-Mirror (mit Bildern)](http://wikipedia.ffhb.de)
 * [Tahoe-LAFS](/Dienste/Tahoe-LAFS)
-* [Chat](http://chat.ffhb.de) Jabber Server. (genofire)
+* [Monitoring in FFHB](http://monitoring.ffhb.de) [in Public](http://monitoring.ffhb.ml) OMD Site. (genofire)
 * [SIP Server](http://sip.services.ffhb.de/web/) Asterisk SIP und SMS Server (alpha - Nebirosh) Anleitung zur Einrichtung folgt!
 * [Etherpad-lite](http://pads.services.ffhb.de/) kollaboratives Schreiben von Texten
 * [Gogs](http://gogs.io)-Instanz: https://git.ffhb.de (mortzu)
@@ -22,6 +22,8 @@ Folgende IP-Adressen sind vergeben:
       * 10.196.0.3 vpn03 (DNS, Gateway)
       * 10.196.0.5 vpn05 (Testbetrieb, anon6789)
       * 10.196.0.6 vpn06 (Testbetrieb, corny)
+    * 10.196.0.10 – 10.196.0.39 Dienste-Server
+      * 10.196.0.10   Monitoring (geno)
     * 10.196.0.42 server, mumble, experimentell (diega)
     * 10.196.0.60 notebook (bis dhcp zuverlässig läuft (diega))
     * 10.196.0.70 anon6789
