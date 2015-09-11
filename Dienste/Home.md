@@ -57,7 +57,9 @@ Feste IP-Adressen von an Freifunk-Knoten angeschlossenen Servern sollten in 10.1
 mortzu hat bei bei SixXS das ULA-Netz fd2f:5119:0f2c::/48 registriert. Wir haben aber auch den globalen Bereich 2001:bf7:540::/43 vom Freie Netze e.V. Momentan werden beide verteilt, in der Firmware ist das ULA-Netz eingetragen.
 
 global
-  * 2001:bf7:540::5b breminale.ffhb.de (genofire)
+  * 2001:bf7:540::1-6 VPN-Server
+  * 2001:bf7:540::a  Monitoring - OMD site (genofire)
+  * 2001:bf7:540::5b-5f (genofire)
   * 2001:bf7:540::f0 (proxyhb)
 
   
