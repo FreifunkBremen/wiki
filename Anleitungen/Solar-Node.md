@@ -78,7 +78,7 @@ Eine Berechnung macht an dieser Stelle wenig Sinn, da eine Wettervorhersage , od
 Für den Winter müsste die Anlage derartig überdimensioniert werden, so dass ein Betrieb sich nicht rentieren würde.
 Es müsste soviel Energie aus dem Sommer ( ggf. auch aus dem Herbst ) gespeichert werden, das die Selbstentladung der Akkumulatoren so groß werden würde, das die Anlage nicht einmal rechnerisch unter absoluten Idealbedingungen einen 24/7 Betrieb gewährleisten könnte.
 
-
+##Bilder und Aufbau der Testanlage folgen in kürze
 
 
 
