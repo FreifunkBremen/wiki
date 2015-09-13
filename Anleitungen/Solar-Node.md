@@ -10,3 +10,12 @@ Sollte der Balkon oder die Dachfläche nicht nach Süden ausgerichtet sein muss 
 
 Etwas handwerkliches Geschick ist von Vorteil.
 ###Vor der Montage der Panele auf einer Dachfläche sollte unbedingt der Rat einer Fachfirma eingeholt werden.
+
+##Welcher Node wie lange
+Eine Grundsätzliche Entscheidung ist vor jeglicher Planung zu treffen.
+Welcher Node soll eingesetzt werden und gibt es zusätzlich dazu noch andere Hardware die mit Solarstrom betrieben werden soll.
+
+##Wichtig:
+Hardware die mit 12V Gleichpsannung oder weniger betrieben werden kann vermindert die Gesamtverlustleistung der Anlage, da auf eine Wechselrichtung verzichtet werden kann.
+
+
