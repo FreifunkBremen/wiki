@@ -35,7 +35,16 @@ In der Praxis ( auch bei großen Solaranlagen ) hat sich ein Dutycycle von 50% a
 
 Oben genannten Beispiel würde also einen 12V 12Ah Akkumulator benötigen.
 
+##Solarpanel(e)
+Am Markt sind verschiedene Typen von 12V Solarpanele vertreten. Die beiden großen Hauptgruppen Stellen Mono- sowie Polykristaline Module da. Daneben gibt es noch flexible und dünnfilm Module ( es gibt noch weitere diese sind aber noch nicht solange am Markt vertreten das sich reale Aussagen über Leistungsverluste / Alterung machen lassen ).
 
+Monokristaline Module erkennt man an ihrer schwarzen Oberfläche, während polykristaline oftmals eine blaue Waveroberfläche besitzen.
+
+Beide Typen haben ihre Vor- und Nachteile. Für das Projekt selber sind diese Utnerschiede aber nicht relevant.
+
+Solarpanele haben immer Herstellerangaben zur Leistung. Dieser Wert wird in kWp ( Kilowatt peak ) angegeben. 
+
+Das bedeutet das ein Modul mit dem Wert 1 kWp unter Laborbedingungen (1000 W/m2 Einstrahlung, 25 °C Modultemperatur, 1,5 Air Mass ) genau 1000 Watt erzeugt.
 
 
 
