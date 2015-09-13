@@ -71,6 +71,17 @@ Zusammenfassend kann man sagen das eine Anlage bestehend aus :
 
 in der Lage ist einen 841er Router grundsätzlich über die Sommermonate zu versorgen.
 
+Für das Frühjahr und den Herbst könnte eine Verdopplung der Solarleistung und der Akkumulatorkapazität noch eine ausreichende Versorgung gewährleisten. ( Immer abhängig wieviel Sonnenstunden real auftreten ).
+
+Eine Berechnung macht an dieser Stelle wenig Sinn, da eine Wettervorhersage , oder besser eine Prognose der zu erwartenden Sonnenstunden, nicht machbar ist.
+
+Für den Winter müsste die Anlage derartig überdimensioniert werden, so dass ein Betrieb sich nicht rentieren würde.
+Es müsste soviel Energie aus dem Sommer ( ggf. auch aus dem Herbst ) gespeichert werden, das die Selbstentladung der Akkumulatoren so groß werden würde, das die Anlage nicht einmal rechnerisch unter absoluten Idealbedingungen einen 24/7 Betrieb gewährleisten könnte.
+
+
+
+
+
 
 
 
