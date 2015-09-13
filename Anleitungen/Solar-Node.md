@@ -18,4 +18,12 @@ Welcher Node soll eingesetzt werden und gibt es zusätzlich dazu noch andere Har
 ###Wichtig:
 Hardware die mit 12V Gleichpsannung oder weniger betrieben werden kann vermindert die Gesamtverlustleistung der Anlage, da auf eine Wechselrichtung verzichtet werden kann.
 
+###Grundlegende Berechnung am Beispiel eines 841N Routers:
+Stromaufnahme des Routers bei Betrieb an 12V ~250mA
+
+24 Stunden Dauerbetrieb ergibt eine Stromaufnahme innerhalb dieses Zeitraums von 
+
+24 ( Stunden ) h * 250 ( Strom ) mA = 6000 ( milli Ampere Stunden ) mAh oder 6 ( Ampere Stunden ) Ah
+
+
 
