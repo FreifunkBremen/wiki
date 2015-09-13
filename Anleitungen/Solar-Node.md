@@ -54,7 +54,22 @@ Dieser Umstand macht es erforderlich in die Berechnung eine sog. Gangreserve ein
 
 Ohne Gangreserve würde also ein 12V Panel mit einer Leistung von 50Wp folgende Rechnung erfüllen:
 
-50Wp * 0,8 ( 80% reale Leistung ) * 4 = 160 Watt
+50Wp * 0,8 ( 80% reale Leistung ) * 4h = 160 Wh ( Wattstunden )
+
+160W / 12V ( Panelspannung ) = ~13,3 Ah
+
+Der 12 Ah Akkumulator würde also innerhalb von 4 Stunden ausreichend Aufgeladen. Der Router selber verbraucht aber innerhalb dieser Zeitspanne auch noch einmal 1 Ah.
+Dieses Beispiel zeigt schon sehr deutlich das eine solche Anlage immer nach oben hin erheblich größer ausgelegt werden sollte. ( Sofern man 24/7 Betrieb realisiren will ).
+
+Zusammenfassend kann man sagen das eine Anlage bestehend aus :
+
+12V 50Wp Solarpanel ( optimal ausgerichtet )
+
+12V Laderegler 
+
+12V 12Ah Akkumulator 
+
+in der Lage ist einen 841er Router grundsätzlich über die Sommermonate zu versorgen.
 
 
 
