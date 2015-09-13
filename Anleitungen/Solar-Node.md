@@ -16,7 +16,7 @@ Eine Grundsätzliche Entscheidung ist vor jeglicher Planung zu treffen.
 Welcher Node soll eingesetzt werden und gibt es zusätzlich dazu noch andere Hardware die mit Solarstrom betrieben werden soll.
 
 ###Wichtig:
-Hardware die mit 12V Gleichpsannung oder weniger betrieben werden kann vermindert die Gesamtverlustleistung der Anlage, da auf eine Wechselrichtung verzichtet werden kann.
+Hardware die mit 12V Gleichspannung oder weniger betrieben werden kann vermindert die Gesamtverlustleistung der Anlage, da auf eine Wechselrichtung verzichtet werden kann.
 
 ###Grundlegende Berechnung am Beispiel eines 841N Routers:
 Stromaufnahme des Routers bei Betrieb an 12V ~250mA 
@@ -45,6 +45,16 @@ Beide Typen haben ihre Vor- und Nachteile. Für das Projekt selber sind diese Ut
 Solarpanele haben immer Herstellerangaben zur Leistung. Dieser Wert wird in kWp ( Kilowatt peak ) angegeben. 
 
 Das bedeutet das ein Modul mit dem Wert 1 kWp unter Laborbedingungen (1000 W/m2 Einstrahlung, 25 °C Modultemperatur, 1,5 Air Mass ) genau 1000 Watt erzeugt.
+
+In der Realität bedeutet das, das ein Modul mit 1kWp in Bremen bei optimaler Ausrichtung und Hinterlüftung 800W Leistung erbringt.
+
+In Bremen beträgt die durschnittliche Sonnescheindauer pro Tag etwa 4 Stunden. ( Im Sommer liegt der tatsächliche Wert eher bei 12 Stunden am Tag, dafür im Winter teilweise bei 1 Sonnestunde pro Woche ).
+
+Dieser Umstand macht es erforderlich in die Berechnung eine sog. Gangreserve einzufügen. Also einen Puffer für Tage an denen die Akkumulatoren nicht geladen werden können, weil die Sonneneinstrahlung zu gering ist.
+
+Ohne Gangreserve würde also ein 12V Panel mit einer Leistung von 50Wp folgende Rechnung erfüllen:
+
+50Wp * 0,8 ( 80% reale Leistung ) * 4 = 160 Watt
 
 
 
