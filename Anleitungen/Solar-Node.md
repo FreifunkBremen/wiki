@@ -19,11 +19,24 @@ Welcher Node soll eingesetzt werden und gibt es zusätzlich dazu noch andere Har
 Hardware die mit 12V Gleichpsannung oder weniger betrieben werden kann vermindert die Gesamtverlustleistung der Anlage, da auf eine Wechselrichtung verzichtet werden kann.
 
 ###Grundlegende Berechnung am Beispiel eines 841N Routers:
-Stromaufnahme des Routers bei Betrieb an 12V ~250mA
+Stromaufnahme des Routers bei Betrieb an 12V ~250mA 
+
+( Die Stromaufnahme hängt stark von der Menge der verbundenen Clients, dem Datendurchsatz und der Anzahl der Wlan-Meshverbindungen ab ) 
 
 24 Stunden Dauerbetrieb ergibt eine Stromaufnahme innerhalb dieses Zeitraums von 
 
 24 ( Stunden ) h * 250 ( Strom ) mA = 6000 ( milli Ampere Stunden ) mAh oder 6 ( Ampere Stunden ) Ah
+
+Ein voll aufgeladener 12V Akku mit 6Ah leistung würde ausreichen um einen 841er 24 Stunden laufen zu lassen. 
+
+###Wichtig:
+Akkumulatoren ( auch spezielle Solarakkumulatoren ) haben nur eine bestimmte Menge an Lade- Entladezyklen. Danach verlieren sie dramatisch an Kapazität. 100%-ige Dutycycles (100% Ladung -> Abschaltung vor Tiefentladung ) verringern diese vom Hersteller angegebene Anzahl. 
+In der Praxis ( auch bei großen Solaranlagen ) hat sich ein Dutycycle von 50% als angemessen, hinsichtlich des Kosten Nutzenfaktors, erwiesen.
+
+Oben genannten Beispiel würde also einen 12V 12Ah Akkumulator benötigen.
+
+
+
 
 
 
