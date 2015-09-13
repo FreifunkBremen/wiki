@@ -15,7 +15,7 @@ Etwas handwerkliches Geschick ist von Vorteil.
 Eine Grundsätzliche Entscheidung ist vor jeglicher Planung zu treffen.
 Welcher Node soll eingesetzt werden und gibt es zusätzlich dazu noch andere Hardware die mit Solarstrom betrieben werden soll.
 
-##Wichtig:
+###Wichtig:
 Hardware die mit 12V Gleichpsannung oder weniger betrieben werden kann vermindert die Gesamtverlustleistung der Anlage, da auf eine Wechselrichtung verzichtet werden kann.
 
 
