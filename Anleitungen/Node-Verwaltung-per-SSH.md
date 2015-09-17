@@ -3,8 +3,14 @@
 ### Erklärung von SSH
 ### Hinterlegen des SSH-Key im Node im Config-Modus über die Weboberfläche
 
-## Möglichkeiten per SSH
+## Möglichkeiten per Konsole
 Alle folgenden Erklärungen und Befehle setzen voraus, dass bereits eine SSH-Verbindung zu dem gewünschten Node besteht.
+
+### Autoupdater aufrufen
+Mit dem Befehl `autoupdater` lässt sich der Autoupdater manuell außerhalb der regulären Tasks aufrufen. Er funktioniert dann ganz normal und wird, wenn ein Update vorhanden ist, mit der gleichen, vom Server dem Knoten zugeteilten, Wahrscheinlichkeit updaten.  
+Um ein Update zu erzwingen kann an den Befehl `-f` angehängt werden.  
+Falls für einen einzelnen Autoupdater-Aufruf ein anderer Branch gewählt werden möchte kann `-b $BRANCHNAME` an den Befehl gehängt werden.
+
 ### SSH-Key auf Node hinzufügen oder entfernen
 Die Datei in der die erlaubten SSH-PublicKeys liegen, befindet sich in `/etc/dropbear/authorized_keys`. Zum Bearbeiten muss diese einfach in dem Editor der Wahl geöffnet werden.  
 Beispiel: `vim /etc/dropbear/authorized_keys`
