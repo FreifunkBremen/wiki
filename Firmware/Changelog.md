@@ -1,23 +1,23 @@
 # Changelog
 ## Freifunk Bremen Versionen
 ### 2015.1.2+bremen2~testing
-* Gluon-Version: 2015.1.2
+* Gluon-Version: [2015.1.2](http://wiki.bremen.freifunk.net/Firmware/Changelog#gluon-versionen_2015-1-2)
 * VPNs 4-6 hinzugefügt  
   Test, ob per Ansible aufgesetzte VPNs einwandfrei funktionieren
 
 ### 2015.1.2+bremen1~testing
-* Gluon-Version: 2015.1.2
+* Gluon-Version: [2015.1.2](http://wiki.bremen.freifunk.net/Firmware/Changelog#gluon-versionen_2015-1-2)
 
 ### 2015.1.1+bremen1
-* Gluon-Version: 2015.1.1
+* Gluon-Version: [2015.1.1](http://wiki.bremen.freifunk.net/Firmware/Changelog#gluon-versionen_2015-1-1)
 * Node-Namen-Präfix `ffhb-` nicht mehr standardmäßig vorgegeben
 
 ### 2014.4+bremen0 "erste Stable" ([28.06.2015](http://bremen.freifunk.net/blog/2015/06/28/Erste-stabile-Firmware.html))
-(urspr. 0.6~testing1)([03.05.2015](http://bremen.freifunk.net/blog/2015/05/03/Neue-Firmware.html))
-* Gluon-Version: 2014.4
+urspr. 0.6~testing1 ([03.05.2015](http://bremen.freifunk.net/blog/2015/05/03/Neue-Firmware.html))
+* Gluon-Version: [2014.4](http://wiki.bremen.freifunk.net/Firmware/Changelog#gluon-versionen_2014-4)
 
 ### 0.5~testing5 ([06.09.2015](http://bremen.freifunk.net/blog/2014/09/06/Neue-Testing-Channel-Survey.html))
-* Gluon-Version: 2014.3
+* Gluon-Version: [2014.3](http://wiki.bremen.freifunk.net/Firmware/Changelog#gluon-versionen_2014-3)
 * Kanalanalyse-Komponenten integriert
 * WLAN-Feintuning
   * 2,4Ghz-Kanalbreite von 40Mhz auf 20Mhz reduziert
@@ -25,12 +25,12 @@
 * DHCP-Server und IPv6-Router hinter einem Node werden nicht mehr durchgelassen ("Funktion Internet" im Freifunk-Netz sonst leicht störbar)
 
 ### 0.5~testing4 ([08.08.2014](http://bremen.freifunk.net/blog/2014/08/08/Neue-Testing.html))
-* Gluon-Version: 2014.3
+* Gluon-Version: [2014.3](http://wiki.bremen.freifunk.net/Firmware/Changelog#gluon-versionen_2014-3)
 * Ende der WLAN-Probleme (mit Überwachung evtl. Probleme)
 * Autoupdater standardmäßig an
 
 ### 0.5~testing3 ([23.06.2014](http://bremen.freifunk.net/blog/2014/06/23/Facebook-und-Testing-3.html))
-* Gluon-Version: 2014.2
+* Gluon-Version: [2014.2](http://wiki.bremen.freifunk.net/Firmware/Changelog#gluon-versionen_2014-2)
 * Mesh-ESSID von batman.bremen.freifunk.net zu mesh.ffhb geändert um Verwirrung zu vermeiden
 * neue WLAN-Treiber und -Software, dadurch hoffentlich keine Signal-Abbruch-Probleme mehr
 * vom Knoten übertragene Statistik wird nun komprimiert
@@ -38,7 +38,7 @@
 * Firewall block alles Eingehende auf dem WAN-Port außer SSH
 
 ### 0.5~testing2
-* Gluon-Version: 2014.2
+* Gluon-Version: [2014.2](http://wiki.bremen.freifunk.net/Firmware/Changelog#gluon-versionen_2014-2)
 
 #### bekannte Probleme
 * Signal-Abruch-Problem auf 2,4Ghz
@@ -46,7 +46,7 @@
 
 
 ### 0.5~testing1 "erste Testing" ([24.03.2014](http://bremen.freifunk.net/blog/2014/03/24/testing-firmware.html))
-* Gluon-Version: 2014.2
+* Gluon-Version: [2014.2](http://wiki.bremen.freifunk.net/Firmware/Changelog#gluon-versionen_2014-2)
 * alle Nightly-Geräte haben auf den Testing-Branch gewechselt
 * Doppel-Key-Problem behoben
 
@@ -55,7 +55,7 @@
 ## Gluon-Versionen
 Hier aufgeführt sind die von Freifunk Bremen genutzten Gluon-Versionen mit einer kurzen Zusammenfassung von relevanten Änderungen.
 
-### [2015.2](http://gluon.readthedocs.org/en/v2015.1.2/releases/v2015.1.2.html)
+### [2015.1.2](http://gluon.readthedocs.org/en/v2015.1.2/releases/v2015.1.2.html)
 * Unterstützung für mehr Geräte
 * eigene Images (nur umbenannte Kopien) für einige Ubiquiti Geräte, welche bis jetzt das Bullet M Image benutzen mussten, für mehr Klarheit und Einfachheit
 * Download-Link von OpenSSL korrigiert
