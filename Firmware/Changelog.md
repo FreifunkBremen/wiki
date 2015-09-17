@@ -12,7 +12,7 @@
 * Gluon-Version: [2015.1.1](http://wiki.bremen.freifunk.net/Firmware/Changelog#gluon-versionen_2015-1-1)
 * Node-Namen-Präfix `ffhb-` nicht mehr standardmäßig vorgegeben
 
-### 2014.4+bremen0 "erste Stable" ([28.06.2015](http://bremen.freifunk.net/blog/2015/06/28/Erste-stabile-Firmware.html))
+### 2014.4+bremen0 - **erste Stable** ([28.06.2015](http://bremen.freifunk.net/blog/2015/06/28/Erste-stabile-Firmware.html))
 urspr. 0.6~testing1 ([03.05.2015](http://bremen.freifunk.net/blog/2015/05/03/Neue-Firmware.html))
 * Gluon-Version: [2014.4](http://wiki.bremen.freifunk.net/Firmware/Changelog#gluon-versionen_2014-4)
 
@@ -45,7 +45,7 @@ urspr. 0.6~testing1 ([03.05.2015](http://bremen.freifunk.net/blog/2015/05/03/Neu
 * TP-LINK TL-WR841N/ND v9 macht Probleme
 
 
-### 0.5~testing1 "erste Testing" ([24.03.2014](http://bremen.freifunk.net/blog/2014/03/24/testing-firmware.html))
+### 0.5~testing1 - **erste Testing** ([24.03.2014](http://bremen.freifunk.net/blog/2014/03/24/testing-firmware.html))
 * Gluon-Version: [2014.2](http://wiki.bremen.freifunk.net/Firmware/Changelog#gluon-versionen_2014-2)
 * alle Nightly-Geräte haben auf den Testing-Branch gewechselt
 * Doppel-Key-Problem behoben
