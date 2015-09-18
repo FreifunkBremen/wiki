@@ -16,7 +16,7 @@
 urspr. 0.6~testing1 ([03.05.2015](http://bremen.freifunk.net/blog/2015/05/03/Neue-Firmware.html))
 * Gluon-Version: [2014.4](http://wiki.bremen.freifunk.net/Firmware/Changelog#gluon-versionen_2014-4)
 
-### 0.5~testing5 ([06.09.2015](http://bremen.freifunk.net/blog/2014/09/06/Neue-Testing-Channel-Survey.html))
+### 0.5~testing5 ([06.09.2014](http://bremen.freifunk.net/blog/2014/09/06/Neue-Testing-Channel-Survey.html))
 * Gluon-Version: [2014.3](http://wiki.bremen.freifunk.net/Firmware/Changelog#gluon-versionen_2014-3)
 * Kanalanalyse-Komponenten integriert
 * WLAN-Feintuning
