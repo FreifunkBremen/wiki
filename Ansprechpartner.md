@@ -56,3 +56,13 @@ Diese Leute stehen in Kontakt mit dem Senat zwecks Umsetzung des [Bürgerschafts
 * Moritz / mortzu
 * Claus / Nebirosh
 * Simon Joda Stößer / SimJoSt (seit 2014-03 dabei)
+
+## Social-Media
+### Twitter
+* jplitza
+* rbtz
+* SimJoSt
+
+### Facebook
+* Markus
+* SimJoSt
