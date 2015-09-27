@@ -1,5 +1,13 @@
 Hier können Freifunker und solche die es werden wollen zueinander finden. 
-Falls jemand also seinen alten freifunkfähigen Router zB wegen einem Upgrade loswerden will, andere freuen sich sicher darüber. 
+Falls jemand also seinen alten freifunkfähigen Router zB wegen einem Upgrade loswerden will, andere freuen sich sicher darüber. Alle Router müssen von der aktuellen Firmware unterstützt sein. Dies ist kein Ort um genrell Router loszuwerden.  
+Wenn keine E-Mailadresse angegeben ist, dann findet ihr den Kontakt zu der Person über den Chat oder die Mailingliste.
+Bitte gebt folgende Informationen an:
+* Kontakt(!)
+* verfügbare Geräte
+* Kosten
+* Anzahl
+
+
 
 | Angebot         | Kostenpunkt | Kontakt |
 |:-----           | :----       | :----   |
@@ -12,3 +20,8 @@ Falls jemand also seinen alten freifunkfähigen Router zB wegen einem Upgrade lo
 | TP-Link WR841N | 20 Euro | __Universität__ Bitte vorher auf der _MailingListe_  klären wo und wann verfügbar. |
 | TP-Link WR841N | 20 Euro <br> 18 Euro | __Horn-Lehe__ (nahe Jan-Reiners-Weg, Mitte der TietjenStr. [parallel & östl. zur HelmerStr.], __zw. Universität <> Horner Kirche__). Auch zum Selberflashen für 18 Euro, original in Folie eingeschweisst mit Aufklebern zum selber anbringen. WDR3500, 3600 & 4300 und Ubiquiti Outdoorgeräte (Nano- & Pico-Station) __zum Ausprobieren zu verleihen__. Bitte vorher über Tietjenstrasse@e.mail.de klären wann verfügbar.|
 | TP-Link WR841N <br> WDR3500 <br> WDR3600 <br> WDR4300 <br> Nanostation <br> Picostation| 20 Euro <br> 18 Euro |__Borgfeld/Lilienthal__ jew. 1km von deren Zentren entfernt dazwischen in Butendiek. Auch Anlieferung zum ÖPNV mögl. Bitte vorher über _freifunk(ÄT)rokita.de_ klären ob und wann verfügbar. Lagernde, unbenutze 841er. Auch zum Selberflashen für 18 Euro, original in Folie eingeschweisst mit Aufklebern zum selber anbringen. Leistungsstarke DualBand- (WDR3500, 3600, 4300) und OutdoorRouter (Ubiquiti NanoStations, Picostations usw) zum (je nach EinsatzOrt) wochenlangen-monatelangen Ausleihen.|
+
+## Findorff
+Standort                | Kontakt | Geräte            | Kosten
+---                     | ---     | ---               | ---
+Nähe Schlachthof/Halle7 | SimJoSt | TP-LINK TL-WR841N | 20 €
