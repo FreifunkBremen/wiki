@@ -4,11 +4,18 @@ Damit dein Router Teil des Freifunk-Netzes werden kann, muss er mit dem Freifunk
 
 Aber eins vorweg: Falls du dir unsicher bist, richten wir dir auch gerne einen Router bei einem der nächsten Freifunktreffen ein!
 
-## Vorbereitung
+## Auswahl der Hardware
 
 Wenn du dich dazu entscheidest beim Freifunk mitzumachen, hast du anfangs die Qual der Wahl beim Aussuchen eines Routers. Welche Router und Versionen die Freifunk-Firmware unterstützen findest du im Artikel  [[Unterstützte-Router]].
 
-Wir empfehlen den  **TP-Link TL-WR841N** (und die ählinchen Varianten) für knapp 20 E, oder eines der deutlich besser ausgestatteten Modelle **TP-Link TL-WD3500** (schön kompakt, nurnoch gebraucht, für ca 40 E),  **WDR3600** (gebraucht für 40 E, neu wohl mittlerweile min. 60 E) und  **WDR4300** (gebraucht für min. 45 E, neu wohl mittlerweile min. 70 E).
+### Für den Innenbereich
+
+Für den schmalen Geldbeutel empfehlen wir den  [**TP-Link TL-WR841N**](http://www.heise.de/preisvergleich/tp-link-tl-wr841nd-a601787.html) für knapp 20 €.
+Wenn es etwas mehr kosten darf, raten wir zu dem leistungsfähigeren  **TP-Link TL-WDR3600**, TL-WDR4300 oder TL-WDR4900 (ab ca 70 €).
+
+### Richtfunk für den Außenbereich
+
+Zur Versorgung von Nutzern in einem 60°C-Bereich eignet sich der [**TP-Link CPE-210**](http://www.heise.de/preisvergleich/tp-link-cpe210-a1189570.html) für rund 50 € und die Ubiquiti [NanoStation M2 Loco](http://www.heise.de/preisvergleich/ubiquiti-nanostation-m2-loco-a651904.html). Zum Aufbau von Richtfunkstrecken empfehlen wir den [TP-Link CPE-510](http://www.heise.de/preisvergleich/tp-link-cpe510-a1156684.html) oder die Ubiquiti NanoStation M5. Für Punkt-zu-Punkt-Verbindungen mit einer Länge von mehrere hundert Metern lohnt sich ein Blick auf die Ubiquiti [NanoBeam M5](http://www.heise.de/preisvergleich/ubiquiti-nanobeam-m-nbe-m5-19-a1102259.html) oder [NanoBeam AC](http://www.heise.de/preisvergleich/ubiquiti-nanobeam-ac-nbe-5ac-19-a1302545.html).
 
 
 ## Neue Firmware
