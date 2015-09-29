@@ -1,3 +1,5 @@
+# Datenschutz
+
 Wie bei jedem Informationsverarbeitungssystem fallen auch in unserem Netzwerk und der dazugehörenden Infrastruktur Verbindungs- und Metadaten an.
 Auf dieser Seite wird dargelegt welche Daten welchen Dienstes wie lange gespeichert wird.
 
