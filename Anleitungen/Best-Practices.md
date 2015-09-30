@@ -1,5 +1,7 @@
 # Best Practices
 
+[[_TOC_]]
+
 Im Blick auf Probleme in der Vergangenheit, sowie der [Umstellung und Änderung der Verwendung und des Sinns der Mailingliste](http://wiki.bremen.freifunk.net/Treffen/2015_06_19#treffen-19-06-2015_protokoll), wird gehofft, dass diese Best Practices eingehalten werden.
 
 ## E-Mails allgemein
