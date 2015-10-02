@@ -11,7 +11,7 @@ Wenn du dich dazu entscheidest beim Freifunk mitzumachen, hast du anfangs die Qu
 ### Für den Innenbereich
 
 Für den schmalen Geldbeutel empfehlen wir den  [**TP-Link TL-WR841N**](http://www.heise.de/preisvergleich/tp-link-tl-wr841nd-a601787.html) für knapp 20 €.
-Wenn es etwas mehr kosten darf, raten wir zu dem leistungsfähigeren  **TP-Link TL-WDR3600**, TL-WDR4300 oder TL-WDR4900 (ab ca 70 €).
+Wenn es etwas mehr kosten darf, raten wir zu dem leistungsfähigeren  TP-Link TL-WDR3600 (gebraucht ab ca. 40€), TL-WDR4300 (gebraucht ab ca. 45€) oder TL-WDR4900 (gebraucht ab ca 50 €).
 
 ### Richtfunk für den Außenbereich
 
