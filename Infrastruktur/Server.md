@@ -18,5 +18,5 @@ Es gibt momentan drei VPN-Server, die zum Verbinden der Knoten untereinander und
 | vpn02   | jplitza, mortzu       |                     |
 | vpn03   | jplitza, mortzu       |                     |
 | vpn04   | mortzu                |                     |
-| vpn05   | anon6789              | genofire            |
+| vpn05   | genofire              | anon6789            |
 | vpn06   | corny                 |                     |
