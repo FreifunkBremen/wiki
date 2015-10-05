@@ -44,15 +44,15 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.30.0 - 10.196.39.255 per DHCP vergeben von 10.196.0.3
     * 10.196.50.0 - 10.196.59.255 per DHCP vergeben von 10.196.0.5
     * 10.196.60.0 - 10.196.69.255 per DHCP vergeben von 10.196.0.7
+  * 10.196.123.0/24 Range von Ixoid
+    * 10.196.123.42 GartenPi
 * 10.196.126.0/24
   * 10.196.126.0/24 Dienste von Nebirosh
 * 10.196.127.0/24
   * 10.196.127.1 Scanner an ffhb-asm100
   * 10.196.127.2 Scanner an ffhb-dvb15
   * 10.196.127.3 Linux-ISO-Server an ffhb-asm100 (in Vorbereitung)
-* 10.196.242.0/24
-  * 10.196.242.0/24 Range von Ixoid
-  * 10.196.242.42 GartenPi
+
 
 
 Feste IP-Adressen von an Freifunk-Knoten angeschlossenen Servern sollten in 10.196.0.0/24 liegen. Hier eintragen und glücklich sein.
