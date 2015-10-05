@@ -44,6 +44,9 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.30.0 - 10.196.39.255 per DHCP vergeben von 10.196.0.3
     * 10.196.50.0 - 10.196.59.255 per DHCP vergeben von 10.196.0.5
     * 10.196.60.0 - 10.196.69.255 per DHCP vergeben von 10.196.0.7
+* 10.196.23.0/24
+  * 10.196.23.0/24 Range von Ixoid
+  * 10.196.23.42 GartenPi
 * 10.196.126.0/24
   * 10.196.126.0/24 Dienste von Nebirosh
 * 10.196.127.0/24
