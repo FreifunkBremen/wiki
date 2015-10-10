@@ -8,4 +8,6 @@ Am 3. Donnerstag eines Monates danken wir der [CCC Embassy of Nerdistan](http://
 
 Organisiert werden die Treffen über unsere [Mailingliste](https://planetcyborg.de/mailman/listinfo/ff-bremen).
 
+Die Treffen fangen um 19:00 an und dauern üblicherweise etwa zwei bis drei Stunden.
+
 Die Tagesordnungen sind zu finden unter http://wiki.bremen.freifunk.net/Treffen/*Jahr*_*Monat*_*Tag*
