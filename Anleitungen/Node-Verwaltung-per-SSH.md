@@ -15,5 +15,13 @@ Falls für einen einzelnen Autoupdater-Aufruf ein anderer Branch gewählt werden
 Die Datei in der die erlaubten SSH-PublicKeys liegen, befindet sich in `/etc/dropbear/authorized_keys`. Zum Bearbeiten muss diese einfach in dem Editor der Wahl geöffnet werden.  
 Beispiel: `vim /etc/dropbear/authorized_keys`
 Nun kann ein weiterer Key in eine neue Zeile eingefügt werden oder ein bereits bestehender gelöscht werden.
-###### Tipp: Es empfiehlt sich eine leere Zeile nach dem letzten Key zu lassen, um nicht jedes Mal ans Ende der Keys springen zu müssen.
+__Tipp: Es empfiehlt sich eine leere Zeile nach dem letzten Key zu lassen, um nicht jedes Mal ans Ende der Keys springen zu müssen.__
 Nach dem Speichern kann die Verbindung geschlossen werden und man kann sich mit dem neuen Key verbinden.
+
+### Node zurücksetzten
+Wenn man mal etwas kaputt-konfiguriert hat lässt sich der Zustand "frisch-geflash" wie folgt wiederherstellen.
+
+1. Der Befehl `firstboot` setzt alle Konfigurationen zurück. 
+2. Anschließend startet man mit dem Befehl `reboot` neu. 
+ 
+Der Node befindet sich jetzt im wieder im Config-Mode, wie beim ersten start.
