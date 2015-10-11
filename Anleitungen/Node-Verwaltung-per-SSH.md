@@ -1,7 +1,19 @@
 # Node-Verwaltung per SSH
+
 ## Vorbereitung
-### Erklärung von SSH
-### Hinterlegen des SSH-Key im Node im Config-Modus über die Weboberfläche
+
+### Was ist SSH?
+
+> Secure Shell oder SSH bezeichnet sowohl ein Netzwerkprotokoll als auch entsprechende Programme, mit deren Hilfe man auf eine sichere Art und Weise eine verschlüsselte Netzwerkverbindung mit einem entfernten Gerät herstellen kann. Häufig wird diese Methode verwendet, um lokal eine entfernte Kommandozeile verfügbar zu machen, das heißt, auf einer lokalen Konsole werden die Ausgaben der entfernten Konsole ausgegeben und die lokalen Tastatureingaben werden an den entfernten Rechner gesendet. Genutzt werden kann dies beispielsweise zur Fernwartung eines in einem entfernten Rechenzentrum stehenden Servers. Die neuere Protokoll-Version SSH-2 bietet weitere Funktionen wie Datenübertragung per SFTP. Die IANA hat dem Protokoll den TCP-Port 22 zugeordnet.
+
+Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Secure_Shell)
+
+1. [Schlüssel erzeugen](https://help.github.com/articles/generating-ssh-keys/#step-2-generate-a-new-ssh-key)
+1. [Schlüssel beim ssh-agent bekanntmachen](https://help.github.com/articles/generating-ssh-keys/#step-3-add-your-key-to-the-ssh-agent)
+
+### Wie hinterlege ich SSH-Schlüssel im Node im Config-Modus über die Weboberfläche?
+
+_TODO: Informationen hinzufügen._
 
 ## Möglichkeiten per Konsole
 Alle folgenden Erklärungen und Befehle setzen voraus, dass bereits eine SSH-Verbindung zu dem gewünschten Node besteht.
