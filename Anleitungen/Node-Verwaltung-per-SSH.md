@@ -8,8 +8,14 @@
 
 Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Secure_Shell)
 
+__Linux__
+
 1. [Schlüssel erzeugen](https://help.github.com/articles/generating-ssh-keys/#step-2-generate-a-new-ssh-key)
 1. [Schlüssel beim ssh-agent bekanntmachen](https://help.github.com/articles/generating-ssh-keys/#step-3-add-your-key-to-the-ssh-agent)
+ 
+
+__Windows__
+Putty, puttygen und pageant helfen einem hier weiter.
 
 ### Wie hinterlege ich SSH-Schlüssel im Node im Config-Modus über die Weboberfläche?
 
