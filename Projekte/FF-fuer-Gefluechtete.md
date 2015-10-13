@@ -8,5 +8,5 @@ Ich würde gern das nächste Treffen einmal nutzen um die FF-Versorgung der Unte
 * Spenden (Finanziell/Hardware? Generell/Unterkunftsbezogen? Über welchen Verein?)
 * Flyer für Anwohner der Unterkünfte (Hat jmd. Lust einen Entwurf zu machen?)
 * Flyer für Geflüchtete auf verschiedenen Sprachen?
-  * Als Grundlage könnte der Flyer von der Breminale dienen. Der erklärt das sehr kompakt. Dafür müsste Simon Joda die Druckvorlage haben, bzw. wissen wo die sich befindet. Den default-Flyer findest du hier: https://github.com/FreifunkBremen/flyer/blob/gh-pages/Flyer.pdf
+  * Als Grundlage könnte der Flyer von der Breminale dienen. Der erklärt das sehr kompakt. Dafür müsste Simon Joda die Druckvorlage haben, bzw. wissen wo die sich befindet. Den default-Flyer findest du hier: https://github.com/FreifunkBremen/flyer/blob/gh-pages/Flyer.pdf  
   neuer kurzer Flyer: https://github.com/FreifunkBremen/flyer/raw/short/flyer_short.pdf [SimJoSt]
