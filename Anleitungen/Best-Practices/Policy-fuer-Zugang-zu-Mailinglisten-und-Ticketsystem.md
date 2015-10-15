@@ -1,5 +1,5 @@
 # Policy für Zugang zu Mailinglisten und Ticketsystem
-# Ursprung diese Dokumentes
+# 
 
 *Basierend auf der E-Mail-Korrospondenz auf liste@, gestartet am 08.10.2015 19:31 mit dem Betreff "Regeln/Abmachungen für Zugang zu Mailinglisten und Ticketsystem" werden folgende "Richtlinien" für den Zugang zur Mailingliste und Ticketsystem protokolliert*
 
