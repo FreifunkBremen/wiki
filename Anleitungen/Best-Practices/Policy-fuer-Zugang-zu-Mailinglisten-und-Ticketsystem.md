@@ -11,7 +11,7 @@ Wer auf liste@ steht ist "Freifunker_in". Auf liste@ darf jede_r. Das ist der be
 
 [Abbonieren, Austragen, Mitglieder einsehen und Archiv](https://planetcyborg.de/mailman/listinfo/ff-bremen).
 
-### Wer darf Mails an liste@bremen.freifunk.net schicken?
+### Wer kann Mails an liste@bremen.freifunk.net schicken?
 
 Ausschließlich Abonennten. Um die Moderation zu entlasten handelt es sich hier um ein "geschlossenes System".
 
@@ -23,7 +23,7 @@ bearbeiten will.
 
 [Abbonieren, Austragen, Mitglieder einsehen und Archiv](https://planetcyborg.de/mailman/listinfo/ff-bremen-info).
 
-### Wer darf Mails an info@bremen.freifunk.net schicken?
+### Wer kann Mails an info@bremen.freifunk.net schicken?
 
 Jede_r.
 
