@@ -1,6 +1,8 @@
 # Policy für Zugang zu Mailinglisten und Ticketsystem
 # 
 
+## Listen
+
 *Basierend auf der E-Mail-Korrospondenz auf liste@, gestartet am 08.10.2015 19:31 mit dem Betreff "Regeln/Abmachungen für Zugang zu Mailinglisten und Ticketsystem" werden folgende "Richtlinien" für den Zugang zur Mailingliste und Ticketsystem protokolliert*
 
 ### Wer darf liste@bremen.freifunk.net abonnieren?
@@ -29,3 +31,6 @@ Jede_r.
 
 Jedes Mitglied und jede_r dessen E-Mailadresse als Kontakt in
 einem Knoten hinterlegt ist.
+
+## Verteiler
+Neben den oben erwähnten Listen gibt es noch einige themenspezifische Verteiler. Diese sind im Artikel [Anschprechpartner](http://wiki.bremen.freifunk.net/Infrastruktur/Ansprechpartner) gelistet. Diese "Teams" sind weitestgehend selbstverwaltet. Wer in den Verteiler möchte, sollte sich an den jeweiligen wenden, um das zu klären.
