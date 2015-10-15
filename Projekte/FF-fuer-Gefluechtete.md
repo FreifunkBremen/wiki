@@ -1,4 +1,6 @@
-Ich würde gern das nächste Treffen einmal nutzen um die FF-Versorgung der Unterkünfte der Geflüchteten zu organisieren und koordinieren. 
+# FF für Geflüchtete
+
+Ich(Fabian L.) würde gern das nächste Treffen einmal nutzen um die FF-Versorgung der Unterkünfte der Geflüchteten zu organisieren und koordinieren. 
 
 * Gründung einer AG? (Wann und wo treffen?)
   * Wie ist das mit den Leuten vom Bremen Hack? Wie findet man die?
