@@ -94,7 +94,7 @@ Nach erfolgreichem Flashen startet der Router einmal im Konfigrationsmodus, bei 
 
 Um erneut in den Konfigurationsmodus zu gelangen, muss der RESET-Knopf 10 Sekunden gedrückt gehalten werden. Nach einigen Sekunden blinken die Status-LEDs kurz auf. Der Router bootet nun in den Konfigurationsmodus.
 
-Der per Kabel an die gelben Buchsen angeschlossene Rechner erhält vo, Router eine IP im Bereich 192.168.1.*. Dieser Vorgang kann auch einige Minuten in Anspruch nehmen. Jetzt kannst du, wie unter "Freifunk-Router konfigurieren" beschrieben, erneut vorgehen.
+Der per Kabel an die gelben Buchsen angeschlossene Rechner erhält vom Router eine IP im Bereich 192.168.1.*. Dieser Vorgang kann auch einige Minuten in Anspruch nehmen. Jetzt kannst du, wie unter "Freifunk-Router konfigurieren" beschrieben, erneut vorgehen.
 
 
 ## Anschluss an den Heimrouter
