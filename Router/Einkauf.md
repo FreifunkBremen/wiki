@@ -9,6 +9,8 @@ Produkt nicht mehr verfügbar; endgültige Überprüfung wegen nicht Erreichbark
 ## Einkauf online
 
 #### [TP-LINK TL-WR841N](http://www.tp-link.de/products/details/?categoryid=&model=TL-WR841N)
+* Reichelt  
+  [15,50 €](http://www.reichelt.de/WLAN-Router-Access-Point/TPLINK-TL-WR841N/3/index.html?&ACTION=3&LA=2&ARTICLE=106737&GROUPID=5840&artnr=TPLINK+TL-WR841N&SEARCH=WLAN-Router+%2F+Access-Point) zzgl. Versand
 * notebooksbilliger.de  
   [15,95 €](http://www.notebooksbilliger.de/tp+link+tl+wr841n+wireless+router+300mbit/eqsqid/5f53b010-facf-4d04-92d4-50d19a2daafa) zzgl. ~2,99 Versand
 * nexoc-store.de   
