@@ -84,7 +84,24 @@ Die Koordinaten sollte man sich vor der Konfiguration ggf. zwischenspeichern. Au
 Nachdem du, natürlich auch **optional**, deine **Kontaktadresse** eingetragen hast, schließt du die Konfiguration mit einem Click auf den **„Fertig“-Button** ab. Der Kontakt dient dazu, dass du du dich informieren lassen kannst, wenn der Router mal keine Verbindung mehr zum Freifunk-Netz hat.
 Der Folgende Bildschirm bestätigt dir die erfolgreiche Einrichtung. Dein Router ist fertig eingerichtet und startet neu in den produktiven Modus. Deinen Schlüssel musst du **nicht** mehr, wie beschrieben, über einen Link übertragen.
 
-Wenn du zu einem späteren Zeitpunkt nochmal Einstellungen im Config-Mode vornehmen möchtest, musst du den Reset-Button gedrückt halten. Nach einigen Sekunden blinken die Status-LEDs kurz auf und erlöschen wieder, der Router startet neu in den Config-Mode. Jetzt kannst du, wie unter "Freifunk-Router einrichten" beschrieben, erneut vorgehen.
+## Wichtige Hinweise
+
+Nach dem Flashen mit der Freifunkfirmware unterscheidet der Router zwei Betriebsmodi:
+a) Konfigurationsmodus oder
+b) Produktivmodus.
+Unmittelbar nach dem Flashen (bis 3 Minuten) startet der Router  automatisch im Konfigurationsmodus.
+Und jetzt ist die Konfigurationsseite über IP "192.168.1.1" erreichbar.
+
+Nach Abschluss der Konfiguration bootet der Router neu und startet nun aber im PRODUKTIVMODUS. Aber nun ist die Konfigurationsseite NICHT MEHR erreichbar!
+
+Um erneut in den Konfigurationsmodus zu gelangen, muss der RESET-KNOPF 10 Sekunden gedrückt gehalten werden. Nach einigen Sekunden blinken die Status-LEDs kurz auf. Der Router bootet wieder in den Konfigurationsmodus. (Kann ca. 5 Minuten dauern !!!).
+
+Befindet sich der Router dann im KONFIGURATIONSMODUS, kann die Konfigurationsseite mit IP "192.168.1.1" wieder aufgerufen werden.
+Der aufrufende Rechner muss ggf. eine feste IP desselben Netzwerks zugeteilt bekommen. Also "192.168.1.x", wobei für "x" Werte von 2 aufwärts bis 255 gewählt werden können.
+Jetzt kannst du, wie unter "Freifunk-Router konfigurieren" beschrieben, erneut vorgehen.
+
+Die Konfiguration schließt mit erneutem Booten ab und der Router erscheint wieder im PRODUKTIVMODUS. Er verrichtet seine Arbeit wie er soll. Aber in diesem Modus ist KEIN ZUGRIFF auf die Konfigurationsseite möglich. (IP "192.169.1.1" funktioniert jetzt nicht!)
+Erst muss der RESET-KNOPF wieder benutzt werden.
 
 
 ## Anschluss an den Heimrouter
