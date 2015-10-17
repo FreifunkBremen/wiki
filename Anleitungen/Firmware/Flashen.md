@@ -88,7 +88,7 @@ Der Folgende Bildschirm bestätigt dir die erfolgreiche Einrichtung. Dein Router
 
 Nach dem Flashen mit der Freifunkfirmware unterscheidet der Router zwei Betriebsmodi:
 * __Konfigurationsmodus__: Der Router über die Konfigurationsseite, erreichbar ausschleißlich über LAN (gelbe Buchsen) via IP 192.168.1.1
-* __Produktivmodus__: In diesem Modus ist der Zugriff aud die Konfigurationsseite deaktiviert und User können WLAN-Verbindungen herstellen.
+* __Produktivmodus__: In diesem Modus ist der Zugriff auf die Konfigurationsseite deaktiviert und User können WLAN-Verbindungen herstellen.
 
 Nach erfolgreichem Flashen startet der Router einmal im Konfigrationsmodus, bei allen weiteren Neustarts immer im Produktivmodus. 
 
