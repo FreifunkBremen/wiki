@@ -78,11 +78,11 @@
   * 7 ja, 1 enthalten
   * warum?
       * neutral: Promotioneffekt erfüllt, Freifunk kein Dienstleister
-      * Promotion, Guerillia macht Spaß
+      * Promotion, Guerilla macht Spaß
       * Klassenfahrt-mäßig
       * Spaß
-      * Promotioneffekt NICHT erfüllt, aufpassen, dass Freifunk nicht AUSSIEHT wir Dienstleister
-      * Breminale ist free und die Veranstalter sind auch so drauf, weil wir Bock drauf haben
+      * Promotioneffekt NICHT erfüllt; aufpassen, dass Freifunk nicht AUSSIEHT wir Dienstleister
+      * Breminale ist free und die Veranstalter sind auch so drauf; weil wir Bock drauf haben
       * VIP-Pässe
 
 ### Vorgehensweise
