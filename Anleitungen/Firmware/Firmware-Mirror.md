@@ -1,3 +1,4 @@
+# Firmware mirror
 # Simple Lösung via Shellscript
 Hier habe ich (ec8or) protokolliert, wie ich mit Hilfe von jplitza und wget einen Firmware-Mirror auf meinem Raspberry PI eingerichtet habe. Er ist nicht besonders clever, aber funktional. Ich bin keine Experte und hoffe durch diesen Artikel einen Anfang für eine gute Anleitung entstehen zu lassen. 
 
