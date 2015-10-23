@@ -73,7 +73,6 @@ Die Knoten können die Images nur per HTTP abrufen. Da ich bisher keinen Webserv
 ## Ausblick/Alternative vorgehensweise
 das Herunterladen neuer Firmwaredateien ist eigentlich nur erforderlich, wenn das entsprechende Manifest geändert wurde. Man könnte also auch erst dieses herunterladen, prüfen ob es sich verändert hat und anschleißend ggf. die Images herunerladen. Im besten Fall könnte man so beim Spiegeln anhand des SHA512 und der Unterschriften aus dem Manifest überprüfen ob die Dateien korrekt sind. Damit könnte man sich davor schützen Ungültige-Daten herunterzuladen und zu verbreiten. Bei meiner Vorgehensweise würde kompromitierte Software fleißig weiterverteilt.
 
-**Achtung**: Es tut sich was auf [github](https://github.com/FreifunkBremen/mirror) (2015-09-09).
 
 # Erweiterte Lösung mit Python
 Auf [github](https://github.com/FreifunkBremen/mirror) hatte corny ein paar python scripte gebaut die mir (ec8or) die implementierung erleichtert haben. Ich habe daraufhin einen eigenen [branch](https://github.com/FreifunkBremen/mirror/tree/koma) angelegt und das o.g. Shell-Script auf dem PI ersetzt.
