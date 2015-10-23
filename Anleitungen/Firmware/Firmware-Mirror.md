@@ -76,7 +76,7 @@ das Herunterladen neuer Firmwaredateien ist eigentlich nur erforderlich, wenn da
 **Achtung**: Es tut sich was auf [github](https://github.com/FreifunkBremen/mirror) (2015-09-09).
 
 # Erweiterte Lösung mit Python
-Auf [github](https://github.com/FreifunkBremen/mirror) hatte corny ein paar python scripte gebaut die mir (ec8or) die implementierung erleichtert haben. Ich habe daraufhin einen eigenen (Branch)[https://github.com/FreifunkBremen/mirror/tree/koma] angelegt und das o.g. Shell-Script auf dem PI ersetzt.
+Auf [github](https://github.com/FreifunkBremen/mirror) hatte corny ein paar python scripte gebaut die mir (ec8or) die implementierung erleichtert haben. Ich habe daraufhin einen eigenen [branch](https://github.com/FreifunkBremen/mirror/tree/koma) angelegt und das o.g. Shell-Script auf dem PI ersetzt.
 
 Die Applikation hat folgende Eigenschaften:
 * Sie legt einen Spiegel nur für "sysupgrade", also nur für Aktualisierungen an.
@@ -87,8 +87,14 @@ Die Applikation hat folgende Eigenschaften:
 * Sie verfügt über einfaches logging
 
 Inhalt:
-* __mirror.py__: Steuert den Programmablauf
-* __downloader.py__: Lädt Dateien herunter, prüft dabei den HTTP-Header _if-modified-since_ und lädt Dateien nur wenn dieser neuer, als der Zeitstempel eines bestehenden Images ist
-* __gluon_manifest.py__: Ein Parser für *.manifest Dateien verifiziert die Signaturen
-* __slpp.py__: Validator für ECDSA Signaturen, wird von gluon_manifest.py verwendet
+* __mirror.py__: Steuert den Programmablauf.
+* __downloader.py__: Lädt Dateien herunter, prüft dabei den HTTP-Header _if-modified-since_ und lädt Dateien nur wenn dieser neuer, als der Zeitstempel eines bestehenden Images ist.
+* __gluon_manifest.py__: Ein Parser für *.manifest Dateien verifiziert die Signaturen.
+* __slpp.py__: Validator für ECDSA Signaturen, wird von gluon_manifest.py verwendet.
+ 
+Beispielaufruf:
+```
+./mirror.py -u http://downloads.bremen.freifunk.net/firmware
+```
+
 
