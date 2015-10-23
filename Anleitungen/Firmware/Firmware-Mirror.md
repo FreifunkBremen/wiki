@@ -1,5 +1,4 @@
-**Achtung**: Es tut sich was auf [github](https://github.com/FreifunkBremen/mirror) (2015-09-09).
-
+# Simple Lösung via Shellscript
 Hier habe ich (ec8or) protokolliert, wie ich mit Hilfe von jplitza und wget einen Firmware-Mirror auf meinem Raspberry PI eingerichtet habe. Er ist nicht besonders clever, aber funktional. Ich bin keine Experte und hoffe durch diesen Artikel einen Anfang für eine gute Anleitung entstehen zu lassen. 
 
 ## Statische IP 
@@ -40,8 +39,6 @@ date >> last-run.txt
 
 ```
 
-
-
 **Erläuterung**
 
 * **-r** Verzeichnise rekursiv durchlaufen
@@ -74,3 +71,23 @@ Die Knoten können die Images nur per HTTP abrufen. Da ich bisher keinen Webserv
 
 ## Ausblick/Alternative vorgehensweise
 das Herunterladen neuer Firmwaredateien ist eigentlich nur erforderlich, wenn das entsprechende Manifest geändert wurde. Man könnte also auch erst dieses herunterladen, prüfen ob es sich verändert hat und anschleißend ggf. die Images herunerladen. Im besten Fall könnte man so beim Spiegeln anhand des SHA512 und der Unterschriften aus dem Manifest überprüfen ob die Dateien korrekt sind. Damit könnte man sich davor schützen Ungültige-Daten herunterzuladen und zu verbreiten. Bei meiner Vorgehensweise würde kompromitierte Software fleißig weiterverteilt.
+
+**Achtung**: Es tut sich was auf [github](https://github.com/FreifunkBremen/mirror) (2015-09-09).
+
+# Erweiterte Lösung mit Python
+Auf [github](https://github.com/FreifunkBremen/mirror) hatte corny ein paar python scripte gebaut die mir (ec8or) die implementierung erleichtert haben. Ich habe daraufhin einen eigenen (Branch)[https://github.com/FreifunkBremen/mirror/tree/koma] angelegt und das o.g. Shell-Script auf dem PI ersetzt.
+
+Die Applikation hat folgende Eigenschaften:
+* Sie legt einen Spiegel nur für "sysupgrade", also nur für Aktualisierungen an.
+* Sie lädt stehts die neuste site.conf aus unserem Repo
+* Die Signatur der Manifeste wird überprüft
+* Sie lädt Images nur dann herunter, wenn sie sich geändert haben
+* Die Hashes der Images werden geprüft
+* Sie verfügt über einfaches logging
+
+Inhalt:
+* __mirror.py__: Steuert den Programmablauf
+* __downloader.py__: Lädt Dateien herunter, prüft dabei den HTTP-Header _if-modified-since_ und lädt Dateien nur wenn dieser neuer, als der Zeitstempel eines bestehenden Images ist
+* __gluon_manifest.py__: Ein Parser für *.manifest Dateien verifiziert die Signaturen
+* __slpp.py__: Validator für ECDSA Signaturen, wird von gluon_manifest.py verwendet
+
