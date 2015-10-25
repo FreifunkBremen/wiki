@@ -3,7 +3,8 @@ Noch sind wir in der Phase der technischen Entwicklung, sodass Öffentlichkeitsa
 
 ## Werbematerial
 
-* [Flyer](https://github.com/FreifunkBremen/flyer/blob/gh-pages/Flyer.pdf?raw=true) ([github-Repo](https://github.com/FreifunkBremen/flyer/))
+* [neuer kurzer Flyer](https://github.com/FreifunkBremen/flyer/raw/short/flyer_short.pdf) (2015-07) ([github-Repo](https://github.com/FreifunkBremen/flyer/tree/short))
+* [alter Flyer](https://github.com/FreifunkBremen/flyer/blob/gh-pages/Flyer.pdf?raw=true) ([github-Repo](https://github.com/FreifunkBremen/flyer/))
 * [Logo](http://bremen.freifunk.net/images/logo/logo.svg) ([github-Repo](https://github.com/FreifunkBremen/logo/))
 * [Swiss-911 Extra-compressed Font](https://encrypted.google.com/search?q=Swiss-911 Extra-compressed) (die Schrift im Logo)
 
