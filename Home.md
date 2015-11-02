@@ -11,8 +11,8 @@ Zurück geht es [hier](http://bremen.freifunk.net) lang.
 Wir treffen uns zweimal im Monat: Am 1. Freitag und am 3. Donnerstag im Monat im [Hackerspace Bremen](https://www.hackerspace-bremen.de) um 19 Uhr.
 
 * Letzte Treffen: [[Freitag den, 02.10.2015|Treffen/2015_10_02]] | [[Donnerstag, den 15.10.2015|Treffen/2015_10_15]]
-* Nächste Treffen: [[Freitag den, 06.11.2015|Treffen/2015_11_06]]
-* [[Liste aller Treffen|Treffen/Home]] | [[Donnerstag, den 15.10.2015|Treffen/2015_11_19]]
+* Nächste Treffen: [[Freitag den, 06.11.2015|Treffen/2015_11_06]] | [[Donnerstag, den 15.10.2015|Treffen/2015_11_19]]
+* [[Liste aller Treffen|Treffen/Home]]
 
 ## Organisatorisches
 * [[Oeffentlichtkeitsarbeit]]
