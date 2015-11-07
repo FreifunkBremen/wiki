@@ -26,7 +26,7 @@ Wer seine Router selbst flashen möchte, erhält diese häufig zum Selbstkostenp
 ## Mitte
 Standort                    | Kontakt                             | Geräte            | Kosten  | Kommentar
 ---                         | ---                                 | ---               | ---     | ---
-Daniel von Büren Straße 15  | auf [Mailingliste] oder im [Chat]   | TP-LINK TL-WR841N | 20 €    | Montags ab 19:00 oder nach Absprache
+Daniel-von-Büren-Straße 15  | auf [Mailingliste] oder im [Chat]   | TP-LINK TL-WR841N | 20 €    | Montags ab 19:00 oder nach Absprache
 
 ## Borgfeld
 Standort  | Kontakt                           | Geräte                | Kosten    | Kommentar
