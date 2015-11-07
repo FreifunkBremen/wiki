@@ -21,7 +21,9 @@ Wer sich selber einträgt, möge bitte die folgenden Informationen inkludieren:
 
 Wer seine Router selbst flashen möchte, erhält diese häufig zum Selbstkostenpreis. Preise eingerichteter Router werden gerne aufgerundet.
 
-## Bahnhofsvorstadt / "Mitte"
+[[_TOC_]]
+
+## Mitte
 Standort                    | Kontakt                             | Geräte            | Kosten  | Kommentar
 ---                         | ---                                 | ---               | ---     | ---
 Daniel von Büren Straße 15  | auf [Mailingliste] oder im [Chat]   | TP-LINK TL-WR841N | 20 €    | Montags ab 19:00 oder nach Absprache
