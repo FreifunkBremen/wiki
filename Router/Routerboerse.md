@@ -1,4 +1,4 @@
-[[TOC]]
+{{TOC}}
 
 Hier können Freifunker und solche die es werden wollen zueinander finden. 
 Falls jemand also seinen alten freifunkfähigen Router zB wegen einem Upgrade loswerden will, andere freuen sich sicher darüber. Alle Router müssen von der aktuellen Firmware unterstützt sein. Dies ist kein Ort um genrell Router loszuwerden.  
