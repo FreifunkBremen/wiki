@@ -31,7 +31,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.90-94 genofire
     * 10.196.0.100 Dienste von Lorenz
     * 10.196.0.101 Küchenchef 3000
-    * 10.196.0.111 ec8or 
+    * 10.196.0.111 ec8or (u.a. Firmware-Mirror)
     * 10.196.0.123 rbtz 
     * 10.196.0.127 node.ffhb.de
     * 10.196.0.128 alternativer DNS Server (mortzu)
@@ -65,6 +65,7 @@ global
   * 2001:bf7:540::a  Monitoring - OMD site (genofire)
   * 2001:bf7:540::5b-5f (genofire)
   * 2001:bf7:540::f0 (proxyhb)
+  * 2001:bf7:540::6f ec8or (u.a. Firmware-Mirror)
 
   
 ## Andere Netze
