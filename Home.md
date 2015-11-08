@@ -35,9 +35,3 @@ Wir treffen uns zweimal im Monat: Am 1. Freitag und am 3. Donnerstag im Monat im
 ## Änderungen mitbekommen
 
 Wer sich dafür interessiert, wann sich etwas an diesem Wiki ändert, kann das über das entsprechende [Repository auf Github](https://github.com/FreifunkBremen/wiki/) tun, z.B. per [Atom-Feed](https://github.com/FreifunkBremen/wiki/commits/master.atom).
-
-## Kontakt
-* Mailingliste: [liste@bremen.freifunk.net](mailto:liste@bremen.freifunk.net) ([Abonnieren](https://planetcyborg.de/mailman/listinfo/ff-bremen))
-* IRC: [#ffhb im Hackint](irc://irc.hackint.org/ffhb)
-* Twitter: [@FreifunkHB](https://twitter.com/FreifunkHB)
-* Facebook: https://facebook.com/FreifunkBremen
