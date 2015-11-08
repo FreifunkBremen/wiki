@@ -20,7 +20,7 @@ Wir treffen uns zweimal im Monat: Am 1. Freitag und am 3. Donnerstag im Monat im
 
 ## Organisatorisches
 * [[Oeffentlichtkeitsarbeit]]
-* [[Wo bekomme ich einen Router?|Router/Routerbörse]]
+* [[Wo bekomme ich einen Router?|Router/Routerabholstandorte]]
 * [[Sammelbestellung Access Points|Router/SammelbestellungAPs]]
 
 ## Technisches
