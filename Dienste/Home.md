@@ -8,7 +8,6 @@ Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Die
 * [Etherpad-lite](http://pads.services.ffhb.de/) kollaboratives Schreiben von Texten
 * [Gogs](http://gogs.io)-Instanz: https://git.ffhb.de (mortzu)
 * [Firmware](http://downloads.bremen.freifunk.net/firmware/)-Mirror: http://[2001:bf7:540::84]/
-* [torproject.org](https://www.torproject.org)-Mirror: http://[2001:bf7:540::82]/torproject.org/
 
 ## Infos zum aktuellen Router
 Unter http://node.ffhb.de findest du Informationen zu dem Router, mit dem du momentan verbunden bist.
