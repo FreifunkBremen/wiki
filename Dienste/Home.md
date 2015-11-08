@@ -37,7 +37,8 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.128-159 Dienste von mortzu
       * 10.196.0.129 meshmon-1.ffhb.mortzu.de
       * 10.196.0.130 meshmon-2.ffhb.mortzu.de
-      * 10.196.0.131 ra.mortzu.ffhb.de
+      * 10.196.0.131 ra.ffhb.mortzu.de
+      * 10.196.0.132 ra.ffhb.mortzu.de
     * 10.196.0.196 Dienste von Eike
     * 10.196.0.200 Dienste von jplitza
     * 10.196.0.240 Dienste von proxyhb
@@ -55,20 +56,24 @@ Folgende IP-Adressen sind vergeben:
   * 10.196.127.2 Scanner an ffhb-dvb15
   * 10.196.127.3 Linux-ISO-Server an ffhb-asm100 (in Vorbereitung)
 
-
-
 Feste IP-Adressen von an Freifunk-Knoten angeschlossenen Servern sollten in 10.196.0.0/24 liegen. Hier eintragen und glücklich sein.
 
 ## IPv6-Adressen
 mortzu hat bei bei SixXS das ULA-Netz fd2f:5119:0f2c::/48 registriert. Wir haben aber auch den globalen Bereich 2001:bf7:540::/43 vom Freie Netze e.V. Momentan werden beide verteilt, in der Firmware ist das ULA-Netz eingetragen.
 
-global
   * 2001:bf7:540::1-6 VPN-Server
-  * 2001:bf7:540::a  Monitoring - OMD site (genofire)
+    * 2001:bf7:540::1 vpn01 (DNS, Gateway)
+    * 2001:bf7:540::2 vpn02 (DNS, Gateway)
+    * 2001:bf7:540::3 vpn03 (DNS, Gateway)
+    * 2001:bf7:540::4 vpn03 (DNS, Gateway)
+    * 2001:bf7:540::5 vpn05 (Testbetrieb, anon6789)
+    * 2001:bf7:540::6 vpn06 (Testbetrieb, corny)
+  * 2001:bf7:540::a Monitoring - OMD site (genofire)
   * 2001:bf7:540::5b-5f (genofire)
   * 2001:bf7:540::f0 (proxyhb)
   * 2001:bf7:540::6f ec8or (u.a. Firmware-Mirror)
+  * 2001:bf7:540::83 ra.ffhb.mortzu.de
+  * 2001:bf7:540::84 ra.ffhb.mortzu.de
 
-  
 ## Andere Netze
 Aus dem Bremer Freifunk-Netz heraus erreichst du auch die Freifunk-Netze andere Städte und deren Dienste, beispielsweise [jene in Lübeck](http://luebeck.freifunk.net/wiki/Freifunk-verwenden). Auch zu anderen Netzen wie dem [dn42](http://dn42.net) oder [Chaos-VPN](http://wiki.hamburg.ccc.de/index.php/ChaosVPN) besteht eine Verbindung.
