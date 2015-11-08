@@ -20,10 +20,11 @@ Folgende IP-Adressen sind vergeben:
       * 10.196.0.1 vpn01 (DNS, Gateway)
       * 10.196.0.2 vpn02 (DNS, Gateway)
       * 10.196.0.3 vpn03 (DNS, Gateway)
+      * 10.196.0.4 vpn03 (DNS, Gateway)
       * 10.196.0.5 vpn05 (Testbetrieb, anon6789)
       * 10.196.0.6 vpn06 (Testbetrieb, corny)
     * 10.196.0.10 – 10.196.0.39 Dienste-Server
-      * 10.196.0.10   Monitoring - OMD site (genofire)
+      * 10.196.0.10 Monitoring - OMD site (genofire)
     * 10.196.0.42 server, mumble, experimentell (diega)
     * 10.196.0.60 notebook (bis dhcp zuverlässig läuft (diega))
     * 10.196.0.70 anon6789
@@ -34,6 +35,9 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.123 rbtz 
     * 10.196.0.127 node.ffhb.de
     * 10.196.0.128-159 Dienste von mortzu
+      * 10.196.0.129 meshmon-1.ffhb.mortzu.de
+      * 10.196.0.130 meshmon-2.ffhb.mortzu.de
+      * 10.196.0.131 ra.mortzu.ffhb.de
     * 10.196.0.196 Dienste von Eike
     * 10.196.0.200 Dienste von jplitza
     * 10.196.0.240 Dienste von proxyhb
