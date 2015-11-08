@@ -33,8 +33,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.111 ec8or (u.a. Firmware-Mirror)
     * 10.196.0.123 rbtz 
     * 10.196.0.127 node.ffhb.de
-    * 10.196.0.128 alternativer DNS Server (mortzu)
-    * 10.196.0.129-159 Dienste von mortzu
+    * 10.196.0.128-159 Dienste von mortzu
     * 10.196.0.196 Dienste von Eike
     * 10.196.0.200 Dienste von jplitza
     * 10.196.0.240 Dienste von proxyhb
