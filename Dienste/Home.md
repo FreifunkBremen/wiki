@@ -72,8 +72,9 @@ mortzu hat bei bei SixXS das ULA-Netz fd2f:5119:0f2c::/48 registriert. Wir haben
   * 2001:bf7:540::5b-5f (genofire)
   * 2001:bf7:540::f0 (proxyhb)
   * 2001:bf7:540::6f ec8or (u.a. Firmware-Mirror)
-  * 2001:bf7:540::83 ra.ffhb.mortzu.de
-  * 2001:bf7:540::84 ra.ffhb.mortzu.de
+  * 2001:bf7:540::80-9f Dienste von mortzu
+    * 2001:bf7:540::83 ra.ffhb.mortzu.de
+    * 2001:bf7:540::84 ra.ffhb.mortzu.de
 
 ## Andere Netze
 Aus dem Bremer Freifunk-Netz heraus erreichst du auch die Freifunk-Netze andere Städte und deren Dienste, beispielsweise [jene in Lübeck](http://luebeck.freifunk.net/wiki/Freifunk-verwenden). Auch zu anderen Netzen wie dem [dn42](http://dn42.net) oder [Chaos-VPN](http://wiki.hamburg.ccc.de/index.php/ChaosVPN) besteht eine Verbindung.
