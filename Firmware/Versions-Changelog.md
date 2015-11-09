@@ -40,7 +40,7 @@
 * Firewall block alles Eingehende auf dem WAN-Port außer SSH
 
 ### 0.5~testing2
-* Gluon-Version: 2014.2
+* Gluon-Version: [2014.2](#gluon-versionen_2014-2)
 
 #### bekannte Probleme
 * Signal-Abruch-Problem auf 2,4Ghz
@@ -48,7 +48,7 @@
 
 
 ### 0.5~testing1 - **erste Testing** ([24.03.2014](http://bremen.freifunk.net/blog/2014/03/24/testing-firmware.html))
-* Gluon-Version: 2014.2
+* Gluon-Version: [2014.2](#gluon-versionen_2014-2)
 * alle Nightly-Geräte haben auf den Testing-Branch gewechselt
 * Doppel-Key-Problem behoben
 
@@ -99,3 +99,41 @@ Hier aufgeführt sind die von Freifunk Bremen genutzten Gluon-Versionen mit eine
 * site.conf wird nach dem Kompilieren validiert
 * ath9k verbessert für bessere WLAN Stabilität
 * IPv6 nun präferiert für wget (Autoupdater und NTP)
+
+### 2014.2
+#### Bugfixes:
+* Stark verbesserte Stabilität des ath9k-WLAN-Treibers (besonders auf
+TP-Link-Hardware; auf einigen Ubiquiti-Geräten scheint es zwar besser
+geworden zu sein, aber noch immer problematisch)
+
+* Gluon-Knoten beantworten keine DNS-Requests auf dem WAN-Port mehr (war
+problematisch bei Nodes mit öffentlicher IP auf dem WAN-Port wegen DNS
+Amplification Attacks)
+
+#### Support für neue Hardware:
+* TP-Link TL-WR841N/ND v9
+* TP-Link TL-WR842N/ND v2
+* TP-Link TL-WA901N/ND v2
+* TP-Link TL-MR3420 v2
+* D-Link DIR-615 rev. E1
+* D-Link DIR-825 rev. B1
+
+#### Änderungen unter der Haube:
+* Neues site.conf-Format auf Lua-Basis. Die site.conf wird jetzt als
+ganzes Teil der Firmware, was sie deutlich flexibler macht. Ein guter
+Teil unserer Scripte in der Firmware wurde von Shell nach Lua portiert.
+(Aktuell wird beim Bauen nur die Syntax der site.conf überprüft, nicht
+aber ob der Inhalt sinnvoll ist... das wird im nächsten Release behoben)
+* gluon-alfred sendet seine Daten jetzt gzip-komprimiert (großer
+Vorteil: ein Datenpaket passt jetzt in einen einzelnen Ethernet-Frame)
+* Verschiedense Erweiterungen der Daten, die gluon-alfred sammelt
+(Speicherverbrauch, Anzahl der Prozesse)
+* Viele OpenWrt-make-targets funktionieren jetzt auch mit Gluon (z.B.
+`make package/fastd/install` um das Paket fastd zu bauen, und `make
+target/linux/clean`, um den Kernel-Tree zu säubern)
+* Neue Option opkg_repo in der site.conf, um das Default-opkg-Repo zu
+überschreiben
+
+Support für nicht-ar71xx-Platformen und VPN-Verbindungen über
+IPv6-Internet-Anschlüsse haben es leider nicht mehr in dieses Release
+geschafft, das wird dann in Gluon 2014.3 nachgeliefert :D
