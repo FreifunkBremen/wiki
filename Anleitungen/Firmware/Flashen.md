@@ -5,8 +5,8 @@ Damit dein Router Teil des Freifunk-Netzes werden kann, muss er mit dem Freifunk
 Aber eins vorweg: Falls du dir unsicher bist, richten wir dir auch gerne einen Router bei einem der nächsten Freifunktreffen ein!
 
 ## Auswahl der Hardware
-
-Wenn du dich dazu entscheidest beim Freifunk mitzumachen, hast du anfangs die Qual der Wahl beim Aussuchen eines Routers. Welche Router und Versionen die Freifunk-Firmware unterstützen findest du im Artikel  [[Unterstuetzte-Router]].
+Wenn du dich dazu entscheidest beim Freifunk mitzumachen, hast du anfangs die Qual der Wahl beim Aussuchen eines Routers. Welche Firmware-Version gerade aktuell ist und welche Router sie unterstützt, findest du hier: [[/Firmware/Versions-Changelog]]
+Eine gute Übersichtseite mit vielen Informationen findet sich auch im Wiki von freifunk.net: http://wiki.freifunk.net/Freifunk_Firmware_Gluon/Hardware
 
 ### Für den Innenbereich
 
@@ -34,6 +34,11 @@ Auf der [Downloadseite](http://downloads.bremen.freifunk.net/firmware/stable/fac
 In oberen Fall wäre es die Datei mit dem Namen: <pre>gluon-ffhb-*GLUONVERSION*~bremen*BREMERVERSION*-tp-link-tl-**wr841n**-nd-**v8**.bin</pre> Achte bitte unbedingt darauf, dass Modellbezeichnung und Revisions genau zu deinem Gerät passen. Einzig das N bzw. ND im Modellnamen ist irrelevant, die Firmware für den wr841n ist auch zum wr841nd kompatibel.
 
 **Eine falsche Firmware kann dazu führen, dass wir den Router mit sehr großem Aufwand reanimieren müssen.**
+
+###### Ubiquiti Besonderheit
+Für die Ubiquiti Picostation M2, die NanoStaion loco M und die NanoBridg meuss das Image der Bullet benutzt werden.
+
+*Dies entfällt ab Version 2015.1.2, in welcher seperierte Images für alle Geräte eingeführt wurden.*
 
 
 ### Firmware aufspielen
