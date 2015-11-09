@@ -1,25 +1,25 @@
 # Changelog
 ## Freifunk Bremen Versionen
 ### 2015.1.2+bremen2 (09.11.2015)
-* Gluon-Version: [2015.1.2](http://wiki.bremen.freifunk.net/Firmware/Versions-Changelog#gluon-versionen_2015-1-2)
+* Gluon-Version: [2015.1.2](#gluon-versionen_2015-1-2)
 
 ##### Features die nach dem Testbetrieb für die stable-Version wieder entfernt wurden
 * VPNs 04,05,06 hinzugefügt  
   Test, ob per Ansible aufgesetzte VPNs einwandfrei funktionieren*
 
 ### 2015.1.2+bremen1~testing
-* Gluon-Version: [2015.1.2](http://wiki.bremen.freifunk.net/Firmware/Versions-Changelog#gluon-versionen_2015-1-2)
+* Gluon-Version: [2015.1.2](#gluon-versionen_2015-1-2)
 
 ### 2015.1.1+bremen1
-* Gluon-Version: [2015.1.1](http://wiki.bremen.freifunk.net/Firmware/Versions-Changelog#gluon-versionen_2015-1-1)
+* Gluon-Version: [2015.1.1](#gluon-versionen_2015-1-1)
 * Node-Namen-Präfix `ffhb-` nicht mehr standardmäßig vorgegeben
 
 ### 2014.4+bremen0 - **erste Stable** ([28.06.2015](http://bremen.freifunk.net/blog/2015/06/28/Erste-stabile-Firmware.html))
 *urspr. 0.6~testing1 ([03.05.2015](http://bremen.freifunk.net/blog/2015/05/03/Neue-Firmware.html))*
-* Gluon-Version: [2014.4](http://wiki.bremen.freifunk.net/Firmware/Versions-Changelog#gluon-versionen_2014-4)
+* Gluon-Version: [2014.4](#gluon-versionen_2014-4)
 
 ### 0.5~testing5 ([06.09.2014](http://bremen.freifunk.net/blog/2014/09/06/Neue-Testing-Channel-Survey.html))
-* Gluon-Version: [2014.3](http://wiki.bremen.freifunk.net/Firmware/Versions-Changelog#gluon-versionen_2014-3)
+* Gluon-Version: [2014.3](#gluon-versionen_2014-3)
 * Kanalanalyse-Komponenten integriert
 * WLAN-Feintuning
   * 2,4Ghz-Kanalbreite von 40Mhz auf 20Mhz reduziert
@@ -27,7 +27,7 @@
 * DHCP-Server und IPv6-Router hinter einem Node werden nicht mehr durchgelassen ("Funktion Internet" im Freifunk-Netz sonst leicht störbar)
 
 ### 0.5~testing4 ([08.08.2014](http://bremen.freifunk.net/blog/2014/08/08/Neue-Testing.html))
-* Gluon-Version: [2014.3](http://wiki.bremen.freifunk.net/Firmware/Versions-Changelog#gluon-versionen_2014-3)
+* Gluon-Version: [2014.3](#gluon-versionen_2014-3)
 * Ende der WLAN-Probleme (mit Überwachung evtl. Probleme)
 * Autoupdater standardmäßig an
 
