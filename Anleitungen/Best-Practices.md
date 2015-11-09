@@ -32,7 +32,7 @@ Eine "gute" Mail erfüllt die folgende Kriterien.
 * Wir wollen hier nur auf Freifunk-Themen antworten, denn wir sind keine allgemeine Support-Hotline und auch keine Märchenerzähler. 
 * Wir bleiben immer entspannt und sachlich, auch wenn wir als "Hallo ihr Nerds" o.ä. begrüßt werden.
 * Wir duzen, wenn wir geduzt werden.
-* Wir achten darauf einen Freifunk-Neuling nicht direkt mit 9326923 Technischen Details zu "überfallen". Man könnte den einen oder anderen kurzen Hinwei mit der option auf eine detailierte Erläuterung geben.
+* Wir achten darauf einen Freifunk-Neuling nicht direkt mit 9326923 Technischen Details zu "überfallen". Man könnte den einen oder anderen kurzen Hinweis mit der Option auf eine detailierte Erläuterung geben.
 
 
 # E-Mail (lange Variante)
