@@ -6,7 +6,7 @@ Aber eins vorweg: Falls du dir unsicher bist, richten wir dir auch gerne einen R
 
 ## Auswahl der Hardware
 
-Wenn du dich dazu entscheidest beim Freifunk mitzumachen, hast du anfangs die Qual der Wahl beim Aussuchen eines Routers. Welche Router und Versionen die Freifunk-Firmware unterstützen findest du im Artikel  [[Unterstützte-Router]].
+Wenn du dich dazu entscheidest beim Freifunk mitzumachen, hast du anfangs die Qual der Wahl beim Aussuchen eines Routers. Welche Router und Versionen die Freifunk-Firmware unterstützen findest du im Artikel  [[Unterstuetzte-Router]].
 
 ### Für den Innenbereich
 
