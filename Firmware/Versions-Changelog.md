@@ -32,7 +32,7 @@
 * Autoupdater standardmäßig an
 
 ### 0.5~testing3 ([23.06.2014](http://bremen.freifunk.net/blog/2014/06/23/Facebook-und-Testing-3.html))
-* Gluon-Version: 2014.2
+* Gluon-Version: [2014.2](#gluon-versionen_2014-2)
 * Mesh-ESSID von batman.bremen.freifunk.net zu mesh.ffhb geändert um Verwirrung zu vermeiden
 * neue WLAN-Treiber und -Software, dadurch hoffentlich keine Signal-Abbruch-Probleme mehr
 * vom Knoten übertragene Statistik wird nun komprimiert
