@@ -4,8 +4,7 @@ Im Blick auf Probleme in der Vergangenheit, sowie der [Umstellung und Änderung 
 
 [[_TOC_]]
 
-
-# E-Mail (kurze Variante)
+# E-Mail
 ## Allgemein
 
 Ein Mail-Austausch sollte von allen verfolgt werden können, welche sich bisher beteilig haben oder angeschrieben wurden. Ausnahme bilden der Versand von sensiblen und datenschutzwürdiger Daten.
@@ -38,21 +37,13 @@ Eine "gute" Mail erfüllt die folgende Kriterien.
 
 ### Mailingliste
 
-##### keine E-Mails scheuen
-_Beispiel nehmen an Hackerspace Bremen Malingliste, viele E-Mails und man sucht sich das raus, was einen interessiert_
-
+**Bitte keine E-Mails scheuen**. Beispiel nehmen an Hackerspace Bremen Malingliste: viele E-Mails und man sucht sich das raus, was einen interessiert.
 
 # Verhalten vor Ort
 
-##### Respekt vor Eigentum  
-_Das Verwenden, Verändern und Umstellen von Eigentum Anderer, soll nicht ohne Zustimmung desjenigen vorgenommen werden._
-
-##### Respekt vor Privatsphäre  
-_Das Betreten von Räumen und Grundstücken, sowie das Betrachten privater Dokumente und Bilder soll nicht ohne die Zustimmung der betroffenen Person erfolgen._
-
-##### Respekt vor Entscheidungen und Meinungen
-_Entscheidungen der Personen vor Ort sollen nicht in langen Diskussionen in Frage gestellt werden oder, auch bei Unverständnis, ins Lächerliche gezogen werden._
-
+* **Respekt vor Eigentum**: Das Verwenden, Verändern und Umstellen von Eigentum Anderer, soll nicht ohne Zustimmung desjenigen vorgenommen werden.
+* **Respekt vor Privatsphäre**: Das Betreten von Räumen und Grundstücken, sowie das Betrachten privater Dokumente und Bilder soll nicht ohne die Zustimmung der betroffenen Person erfolgen.
+* **Respekt vor Entscheidungen und Meinungen**: Entscheidungen der Personen vor Ort sollen nicht in langen Diskussionen in Frage gestellt werden oder, auch bei Unverständnis, ins Lächerliche gezogen werden.
 
 # Kontaktaufnahme
 
