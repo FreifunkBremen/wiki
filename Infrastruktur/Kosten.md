@@ -9,12 +9,6 @@
 | vpn03  | planet cyborg | Bremen   | 10 € / Monat |
 | vpn04  | Nebirosh      | Hetzner  | unbekannt    |
 
-## Netzzugänge
-
-| Uplink-Anbieter | Sponsor       | Kosten       | Gültig bis |
-|:----------------|:--------------|:-------------|:---------- |
-| hide.me         | mortzu        | 132 € / Jahr | 22.12.2015 |
-
 ## Domains
 
 | Domain          | Sponsor       | Kosten        |
