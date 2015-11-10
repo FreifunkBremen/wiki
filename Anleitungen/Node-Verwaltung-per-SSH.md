@@ -11,7 +11,7 @@ Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Secure_Shell)
 __Linux__
 
 1. [Schlüssel erzeugen](https://help.github.com/articles/generating-ssh-keys/#step-2-generate-a-new-ssh-key)
-1. [Schlüssel beim ssh-agent bekanntmachen](https://help.github.com/articles/generating-ssh-keys/#step-3-add-your-key-to-the-ssh-agent)
+1. [Schlüssel dem ssh-agent bekanntmachen](https://help.github.com/articles/generating-ssh-keys/#step-3-add-your-key-to-the-ssh-agent)
  
 
 __Windows__
@@ -36,10 +36,10 @@ Nun kann ein weiterer Key in eine neue Zeile eingefügt werden oder ein bereits 
 __Tipp: Es empfiehlt sich eine leere Zeile nach dem letzten Key zu lassen, um nicht jedes Mal ans Ende der Keys springen zu müssen.__
 Nach dem Speichern kann die Verbindung geschlossen werden und man kann sich mit dem neuen Key verbinden.
 
-### Node zurücksetzten
+### Node zurücksetzen
 Wenn man mal etwas kaputt-konfiguriert hat lässt sich der Zustand "frisch-geflash" wie folgt wiederherstellen.
 
 1. Der Befehl `firstboot` setzt alle Konfigurationen zurück. 
 2. Anschließend startet man mit dem Befehl `reboot` neu. 
  
-Der Node befindet sich jetzt im wieder im Config-Mode, wie beim ersten start.
+Der Node befindet sich jetzt im wieder im Config-Mode, wie beim ersten Start.
