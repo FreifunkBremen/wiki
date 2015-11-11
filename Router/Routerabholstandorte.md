@@ -29,14 +29,10 @@ Standort                    | Kontakt                             | Geräte     
 Daniel-von-Büren-Straße 15  | auf [Mailingliste] oder im [Chat]   | TP-LINK TL-WR841N | 20 €    | Montags ab 19:00 oder nach Absprache
 
 ## Borgfeld
-Standort  | Kontakt                           | Geräte                | Kosten    | Kommentar
----       | ---                               | ---                   | ---       | ---
-Butendiek | nukeUS (_freifunk(ÄT)rokita.de_)  | TP-LINK TL-WR841N     | 18-20 €   | langfristige Leihgaben und Anlieferungen zu den ÖPNV-Haltestellen möglich
-Butendiek | nukeUS (_freifunk(ÄT)rokita.de_)  | TP-LINK TL-WDR3500    | 18-20 €   | langfristige Leihgaben und Anlieferungen zu den ÖPNV-Haltestellen möglich
-Butendiek | nukeUS (_freifunk(ÄT)rokita.de_)  | TP-LINK TL-WDR3600    | 18-20 €   | langfristige Leihgaben und Anlieferungen zu den ÖPNV-Haltestellen möglich
-Butendiek | nukeUS (_freifunk(ÄT)rokita.de_)  | TP-LINK TL-WDR4300    | 18-20 €   | langfristige Leihgaben und Anlieferungen zu den ÖPNV-Haltestellen möglich
-Butendiek | nukeUS (_freifunk(ÄT)rokita.de_)  | Ubiquiti NanoStation  | 18-20 €   | langfristige Leihgaben und Anlieferungen zu den ÖPNV-Haltestellen möglich
-Butendiek | nukeUS (_freifunk(ÄT)rokita.de_)  | Ubiquiti PicoStation  | 18-20 €   | langfristige Leihgaben und Anlieferungen zu den ÖPNV-Haltestellen möglich
+Standort  | Kontakt                           | Geräte                | Kosten                               | Kommentar
+---       | ---                               | ---                   | ---                                  | ---
+Butendiek | nukeUS (_freifunk(ÄT)nukeUS.de_)  | alles wo gibt (841 v9)| ab 20€ f. Neuware, auch GebrauchtWare| langfristige Leihgaben und Anlieferungen zu den ÖPNV-Haltestellen und mehrmals wöchentlich ins StadtGebiet Bremen (ohne Nord, dort aber in BremenBurg bei einer Autolackiererei, wo ein Freund, der von hier her werktägl. hin fährt arbeitet) möglich.
+
 
 ## Findorff
 Standort                | Kontakt   | Geräte            | Kosten
@@ -44,32 +40,16 @@ Standort                | Kontakt   | Geräte            | Kosten
 Nähe Schlachthof/Halle7 | [SimJoSt] | TP-LINK TL-WR841N | 20 €
 
 ## Horn-Lehe
-Standort      | Kontakt                   | Geräte                | Kosten    | Kommentar
----           | ---                       | ---                   | ---       | ---
-Universität   | auf [Mailingliste]        | TP-LINK TL-WR841N     | 20 €      | -
-TietjenStraße | Tietjenstrasse@e.mail.de  | TP-LINK TL-WR841N     | 18-20 €   | Verleihen zum Ausprobieren möglich
-TietjenStraße | Tietjenstrasse@e.mail.de  | TP-LINK TL-WDR3500    | 18-20 €   | Verleihen zum Ausprobieren möglich
-TietjenStraße | Tietjenstrasse@e.mail.de  | TP-LINK TL-WDR3600    | 18-20 €   | Verleihen zum Ausprobieren möglich
-TietjenStraße | Tietjenstrasse@e.mail.de  | TP-LINK TL-WDR4300    | 18-20 €   | Verleihen zum Ausprobieren möglich
-TietjenStraße | Tietjenstrasse@e.mail.de  | Ubiquiti NanoStation  | 18-20 €   | Verleihen zum Ausprobieren möglich
-TietjenStraße | Tietjenstrasse@e.mail.de  | Ubiquiti PicoStation  | 18-20 €   | Verleihen zum Ausprobieren möglich
+Standort      | Kontakt                   | Geräte                     | Kosten    | Kommentar
+---           | ---                       | ---                        | ---       | ---
+TietjenStraße | Tietjenstrasse@e.mail.de  | WR841N and moor | 20 €      | 
+ 
 
 ## Neustadt
-Standort              | Kontakt                           | Geräte                | Kosten    | Kommentar
----                   | ---                               | ---                   | ---       | ---
-nahe Kirchweg         | _ffhb(ÄT)freenet.de_              | TP-LINK TL-WR841N     | 18-20 €   | -
-[Fairtragen Neustadt] | nukeUS (_freifunk(ÄT)rokita.de_)  | TP-LINK TL-WR841N     | 18-20 €   | langfristige Leihgaben möglich; Verfügbarkeit vorher per Mail klären
-[Fairtragen Neustadt] | nukeUS (_freifunk(ÄT)rokita.de_)  | TP-LINK TL-WDR3500    | 18-20 €   | langfristige Leihgaben möglich; Verfügbarkeit vorher per Mail klären
-[Fairtragen Neustadt] | nukeUS (_freifunk(ÄT)rokita.de_)  | TP-LINK TL-WDR3600    | 18-20 €   | langfristige Leihgaben möglich; Verfügbarkeit vorher per Mail klären
-[Fairtragen Neustadt] | nukeUS (_freifunk(ÄT)rokita.de_)  | TP-LINK TL-WDR4300    | 18-20 €   | langfristige Leihgaben möglich; Verfügbarkeit vorher per Mail klären
-[Fairtragen Neustadt] | nukeUS (_freifunk(ÄT)rokita.de_)  | Ubiquiti NanoStation  | 18-20 €   | langfristige Leihgaben möglich; Verfügbarkeit vorher per Mail klären
-[Fairtragen Neustadt] | nukeUS (_freifunk(ÄT)rokita.de_)  | Ubiquiti PicoStation  | 18-20 €   | langfristige Leihgaben möglich; Verfügbarkeit vorher per Mail klären
-[KARTON]              | nukeUS (_freifunk(ÄT)rokita.de_)  | TP-LINK TL-WR841N     | 18-20 €   | langfristige Leihgaben möglich; Verfügbarkeit vorher per Mail klären
-[KARTON]              | nukeUS (_freifunk(ÄT)rokita.de_)  | TP-LINK TL-WDR3500    | 18-20 €   | langfristige Leihgaben möglich; Verfügbarkeit vorher per Mail klären
-[KARTON]              | nukeUS (_freifunk(ÄT)rokita.de_)  | TP-LINK TL-WDR3600    | 18-20 €   | langfristige Leihgaben möglich; Verfügbarkeit vorher per Mail klären
-[KARTON]              | nukeUS (_freifunk(ÄT)rokita.de_)  | TP-LINK TL-WDR4300    | 18-20 €   | langfristige Leihgaben möglich; Verfügbarkeit vorher per Mail klären
-[KARTON]              | nukeUS (_freifunk(ÄT)rokita.de_)  | Ubiquiti NanoStation  | 18-20 €   | langfristige Leihgaben möglich; Verfügbarkeit vorher per Mail klären
-[KARTON]              | nukeUS (_freifunk(ÄT)rokita.de_)  | Ubiquiti PicoStation  | 18-20 €   | langfristige Leihgaben möglich; Verfügbarkeit vorher per Mail klären
+Standort              | Kontakt                           | Geräte                | Kosten      | Kommentar
+---                   | ---                               | ---                   | ---         | ---
+nahe Kirchweg         | _ffhb(ÄT)freenet.de_              | TP-LINK TL-WR841N     | 20 €        | -
+[KARTON]              | nukeUS (_freifunk(ÄT)nukeUS.de_)  | alles wo gibt kann geliefert werden | ab 20 €| langfristige Leihgaben möglich; Verfügbarkeit vorher per Mail klären
 
 ## Peterswerder
 Standort     | Kontakt                           | Geräte            | Kosten
@@ -79,18 +59,17 @@ Peterswerder | auf [Mailingliste] oder im [Chat] | TP-LINK TL-WR841N | 20 €
 ## Schnoor
 Standort                                  | Kontakt                         | Geräte            | Kosten  | Kommentar
 ---                                       | ---                             | ---               | ---     | ---
-[Katzen-Café](http://www.katzen-cafe.de/) | nukeUS (freifunk(ÄT)rokita.de)  | TP-LINK TL-WR841N | 18-20 € | von 9-23 Uhr (selten mal Ruhetag); Verfügbarkeit vorher per Mail klären
+[Katzen-Cafe](www.katzen-cafe.de) | nukeUS (freifunk(ÄT)nukeUS.de)  | alles wo gibt kann geliefert werden | ab 20 € | von 9-23 Uhr (selten mal Ruhetag); Verfügbarkeit vorher per Mail klären
 
 ## Viertel
 Standort                                    | Kontakt                     | Geräte                        | Kosten
 ---                                         | ---                         | ---                           | ---
-Sielpfad 5 (bei Sielwall/Osterdeich, Fähre  | KhaldounBakkour@hotmail.com | TP-LINK TL-WR841N and others  | 18 €
+Sielpfad 5 (bei Sielwall/Osterdeich, Fähre  | KhaldounBakkour@hotmail.com | WR841N (v9) and others  | 20€
 
 
 [Chat]: https://webirc.hackint.org/#ffhb
 [MailingListe]: https://planetcyborg.de/mailman/listinfo/ff-bremen
 
-[Fairtragen Neustadt]: http://www.fairtragen.de/storeBremen1.php
 [KARTON]: http://kartontage.de/#karton
 
-[SimJoSt]: https://simjo.st/
+[SimJoSt]: https://simjo.st
