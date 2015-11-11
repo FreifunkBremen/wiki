@@ -59,7 +59,7 @@ Peterswerder | auf [Mailingliste] oder im [Chat] | TP-LINK TL-WR841N | 20 €
 ## Schnoor
 Standort                                  | Kontakt                         | Geräte            | Kosten  | Kommentar
 ---                                       | ---                             | ---               | ---     | ---
-[Katzen-Cafe](www.katzen-cafe.de) | nukeUS (freifunk(ÄT)nukeUS.de)  | alles wo gibt kann geliefert werden | ab 20 € | von 9-23 Uhr (selten mal Ruhetag); Verfügbarkeit vorher per Mail klären
+[Katzen-Cafe] | freifunk(ÄT)nukeUS.de     | alles wo gibt kann geliefert werden | ab 20 € | von 9-23 Uhr (selten mal Ruhetag); Verfügbarkeit vorher per Mail klären
 
 ## Viertel
 Standort                                    | Kontakt                     | Geräte                        | Kosten
@@ -69,7 +69,6 @@ Sielpfad 5 (bei Sielwall/Osterdeich, Fähre  | KhaldounBakkour@hotmail.com | WR8
 
 [Chat]: https://webirc.hackint.org/#ffhb
 [MailingListe]: https://planetcyborg.de/mailman/listinfo/ff-bremen
-
-[KARTON]: http://kartontage.de/#karton
-
+[KARTON]: http://www.kartontage.de
+[Katzen-Cafe]: http://www.katzen-cafe.de
 [SimJoSt]: https://simjo.st
