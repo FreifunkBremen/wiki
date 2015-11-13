@@ -28,6 +28,10 @@ Standort  | Kontakt                           | Geräte                | Kosten 
 ---       | ---                               | ---                   | ---                                  | ---
 Butendiek | nukeUS (_freifunk(ÄT)nukeUS.de_)  | alles wo gibt (841 v9)| ab 20€ f. Neuware, auch GebrauchtWare| langfristige Leihgaben und Anlieferungen zu den ÖPNV-Haltestellen und mehrmals wöchentlich ins StadtGebiet Bremen (ohne Nord, dort aber in BremenBurg bei einer Autolackiererei, wo ein Freund, der von hier her werktägl. hin fährt arbeitet) möglich.
 
+## Bremerhaven
+Standort      | Kontakt                   | Geräte                     | Kosten    | Kommentar
+---           | ---                       | ---                        | ---       | ---
+Bhv. Mitte/Lehe | freifunkinbremerhaven@posteo.de| TP-LINK TL-WR841ND v.9.3| 20 €  | Treff- und Zeitpunktpunkt nach Absprache. Ich helfe auch gerne beim Einrichten.
 
 ## Findorff
 Standort                | Kontakt   | Geräte            | Kosten
