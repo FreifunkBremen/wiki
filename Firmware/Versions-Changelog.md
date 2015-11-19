@@ -2,6 +2,12 @@
 ## Freifunk Bremen Versionen
 ### 2015.1.2+bremen2 (09.11.2015)
 * Gluon-Version: [2015.1.2](#gluon-versionen_2015-1-2)
+* * signing-keys hinzugefügt von:
+  * SimJoSt
+  * oliver
+  * janeric
+  * ec8or
+  * ProXyhb
 
 ##### Features die nach dem Testbetrieb für die stable-Version wieder entfernt wurden
 * VPNs 04,05,06 hinzugefügt  
