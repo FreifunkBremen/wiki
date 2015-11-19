@@ -25,7 +25,7 @@ Wir treffen uns zweimal im Monat: Am 1. Freitag und am 3. Donnerstag im Monat im
 
 ## Technisches
 * [[Firmware|Anleitungen/Firmware/Home]]
- * [[Unterstuetzte Router|Anleitungen/Firmware/Unterstützte Router]]
+ * [[Unterstuetzte Router|/Anleitungen/Firmware/Flashen#auswahl-der-hardware]]
  * [[Flashen|Anleitungen/Firmware/Flashen]]
 * [[Dienste|Dienste/Home]]
  * [[DNS|Dienste/DNS]]
