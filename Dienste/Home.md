@@ -6,8 +6,6 @@ Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Die
   (Benutzer:guest, Passwort: ffhb - Weitere Rechte auf Anfrage) (genofire)
 * [SIP Server](http://sip.services.ffhb.de/web/) Asterisk SIP und SMS Server (alpha - Nebirosh) Anleitung zur Einrichtung folgt!
 * [Etherpad-lite](http://pads.services.ffhb.de/) kollaboratives Schreiben von Texten
-* [Gogs](http://gogs.io)-Instanz: https://git.ffhb.de (mortzu)
-* [Firmware](http://downloads.bremen.freifunk.net/firmware/)-Mirror: http://[2001:bf7:540::84]/
 
 ## Infos zum aktuellen Router
 Unter http://node.ffhb.de findest du Informationen zu dem Router, mit dem du momentan verbunden bist.
@@ -37,8 +35,6 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.128-159 Dienste von mortzu
       * 10.196.0.129 meshmon-1.ffhb.mortzu.de
       * 10.196.0.130 meshmon-2.ffhb.mortzu.de
-      * 10.196.0.131 ra.ffhb.mortzu.de
-      * 10.196.0.132 ra.ffhb.mortzu.de
     * 10.196.0.196 Dienste von Eike
     * 10.196.0.200 Dienste von jplitza
     * 10.196.0.240 Dienste von proxyhb
@@ -73,8 +69,6 @@ mortzu hat bei bei SixXS das ULA-Netz fd2f:5119:0f2c::/48 registriert. Wir haben
   * 2001:bf7:540::f0 (proxyhb)
   * 2001:bf7:540::6f ec8or (u.a. Firmware-Mirror)
   * 2001:bf7:540::80-9f Dienste von mortzu
-    * 2001:bf7:540::83 ra.ffhb.mortzu.de
-    * 2001:bf7:540::84 ra.ffhb.mortzu.de
 
 ## Andere Netze
 Aus dem Bremer Freifunk-Netz heraus erreichst du auch die Freifunk-Netze andere Städte und deren Dienste, beispielsweise [jene in Lübeck](http://luebeck.freifunk.net/wiki/Freifunk-verwenden). Auch zu anderen Netzen wie dem [dn42](http://dn42.net) oder [Chaos-VPN](http://wiki.hamburg.ccc.de/index.php/ChaosVPN) besteht eine Verbindung.
