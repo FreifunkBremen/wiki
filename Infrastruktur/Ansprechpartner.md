@@ -53,7 +53,6 @@ Diese Leute stehen in Kontakt mit dem Senat zwecks Umsetzung des [Bürgerschafts
 **Erreichbarkeit:** politik@bremen.freifunk.net
 
 * JP / Jan-Philipp / jplitza
-* Moritz / mortzu
 * Claus / Nebirosh
 * Simon Joda Stößer / SimJoSt (seit 2014-03 dabei)
 
