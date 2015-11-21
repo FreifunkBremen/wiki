@@ -36,7 +36,13 @@ Bhv. Mitte/Lehe | freifunkinbremerhaven@posteo.de| TP-LINK TL-WR841ND v.9.3| 20 
 ## Findorff
 Standort                | Kontakt   | Geräte            | Kosten
 ---                     | ---       | ---               | ---
-Nähe Schlachthof/Halle7 | [SimJoSt] | TP-LINK TL-WR841N | 20 €
+Nähe Schlachthof/Halle7 | [SimJoSt] | TP-LINK TL-WR841N | 20## Findorff
+
+
+## Gröpelingen
+Standort                    | Kontakt      | Geräte                 | Kosten
+---                         | ---          | ---                    | ---
+LindenHofCenter/Haltestelle | emi@jendt.de | WR841N v9 geflasht/OVP | 20 E
 
 ## Horn-Lehe
 Standort      | Kontakt                   | Geräte                     | Kosten    | Kommentar
