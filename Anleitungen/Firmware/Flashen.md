@@ -92,14 +92,14 @@ Der Folgende Bildschirm bestätigt dir die erfolgreiche Einrichtung. Dein Router
 ## Hinweise
 
 Nach dem Flashen mit der Freifunkfirmware unterscheidet der Router zwei Betriebsmodi:
-* __Konfigurationsmodus__: Der Router ist über die Konfigurationsseite erreichbar, ausschließlich über LAN (gelbe Buchsen) via IP 192.168.1.1
-* __Produktivmodus__: In diesem Modus ist der Zugriff auf die Konfigurationsseite deaktiviert und User können WLAN-Verbindungen herstellen.
+* __Konfigurationsmodus__: Die Konfigurationsseite des Routers ist mit IP 192.168.1.1 erreichbar. Netzkabelanschluss (RJ45) an einer gelben LAN-Buchse
+* __Produktivmodus__: Normalbetrieb, User können WLAN-Verbindungen herstellen. Jedoch ist in diesem Modus kein Zugriff auf die Konfigurationsseite möglich.
 
-Nach erfolgreichem Flashen startet der Router einmal im Konfigrationsmodus, bei allen weiteren Neustarts immer im Produktivmodus. 
+Nach erfolgreichem Flashen startet der Router einmal automatisch im Konfigrationsmodus und ist über IP 192.168.1.1 erreichbar. Bei allen weiteren Neustarts startet er automatisch immer im Produktivmodus: Die Konfigurationsseite ist unerreichbar. 
 
 Um erneut in den Konfigurationsmodus zu gelangen, muss der RESET-Knopf 10 Sekunden gedrückt gehalten werden. Nach einigen Sekunden blinken alle Status-LEDs gleichzeitig kurz auf. Der Router bootet nun in den Konfigurationsmodus.
 
-Der per Kabel an die gelben Buchsen angeschlossene Rechner erhält vom Router eine IP im Bereich 192.168.1.*. Dieser Vorgang kann auch einige Minuten in Anspruch nehmen. Jetzt kannst du erneut vorgehen, wie unter "Freifunk-Router konfigurieren" beschrieben.
+Der per Kabel an die gelben Buchsen angeschlossene Rechner erhält vom Router eine IP im Bereich 192.168.1.*. Dieser Vorgang kann auch einige Minuten in Anspruch nehmen. Danach kannst du erneut vorgehen, wie unter "Freifunk-Router konfigurieren" beschrieben.
 
 
 ## Anschluss an den Heimrouter
