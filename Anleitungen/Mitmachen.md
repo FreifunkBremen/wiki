@@ -13,6 +13,6 @@ Eingerichtete Router können zum selben Preis auch bei der [Digineo GmbH](http:/
 Wenn du dir einen passenden Router besorgst, kann du diesen natürlich auch selbst zu einem Freifunk-Router umbauen.  
 Einfach einen Router beim Händler deiner Wahl kaufen, die passende Firmware aufspielen, konfigurieren, fertig!
 
-* [Unterstütze Router](http://wiki.bremen.freifunk.net/Unterstuetzte-Router)
+* [Unterstütze Router](http://wiki.bremen.freifunk.net/Anleitungen/Firmware/Flashen#auswahl-der-hardware)
 * [Firmware](http://downloads.bremen.freifunk.net/firmware/)
 * [Anleitung](http://wiki.bremen.freifunk.net/Anleitungen/Firmware/Flashen)
