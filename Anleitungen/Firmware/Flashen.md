@@ -17,7 +17,7 @@ Wenn es etwas mehr kosten darf, raten wir zu dem leistungsfähigeren  TP-Link TL
 
 Zur Versorgung von Nutzern in einem 60°C-Bereich eignet sich der [**TP-Link CPE-210**](http://www.heise.de/preisvergleich/tp-link-cpe210-a1189570.html) für rund 50 € und die Ubiquiti [NanoStation M2 Loco](http://www.heise.de/preisvergleich/ubiquiti-nanostation-m2-loco-a651904.html). Zum Aufbau von Richtfunkstrecken empfehlen wir den [TP-Link CPE-510](http://www.heise.de/preisvergleich/tp-link-cpe510-a1156684.html) oder die Ubiquiti NanoStation M5. Für Punkt-zu-Punkt-Verbindungen mit einer Länge von mehrere hundert Metern lohnt sich ein Blick auf die Ubiquiti [NanoBeam M5](http://www.heise.de/preisvergleich/ubiquiti-nanobeam-m-nbe-m5-19-a1102259.html) oder [NanoBeam AC](http://www.heise.de/preisvergleich/ubiquiti-nanobeam-ac-nbe-5ac-19-a1302545.html).
 
-Allen Außengeräte werden über das Netzwerkkabel mit Strom versorgt (PoE). Spezielle [flache Netzwerkkabel](http://www.amazon.de/1aTTack-Flach-Netzwerk-Patch-Kabel-Stecker/dp/B004WCQFGU/) können in vielen Fällen durch und Fenster/Türen gelegt werden, so dass keine Außenwand durchbohrt werden muss. 
+Alle Außengeräte werden über das Netzwerkkabel mit Strom versorgt (PoE). Spezielle [flache Netzwerkkabel](http://www.amazon.de/1aTTack-Flach-Netzwerk-Patch-Kabel-Stecker/dp/B004WCQFGU/) können in vielen Fällen durch Fenster/Türen gelegt werden, so dass keine Außenwand durchbohrt werden muss. 
 
 
 ## Neue Firmware
