@@ -137,6 +137,6 @@ Sollte es zu Störungen des heimischen WLANs kommen, da dieses z.B. ebenfalls au
 
 ### Methode 2: zusätzlicher Router
 
-Eine andere Möglichkeit ist die Abschaltung des WLANs z.B. der Fritzbox, da diese per Default eher kleine Antennen hat und für eine größere Reichweite Reapter verwendet werden sollen.
+Eine andere Möglichkeit ist die Abschaltung des WLANs z.B. der Fritzbox, da diese per Default eher kleine Antennen hat und für eine größere Reichweite Repeater verwendet werden sollen.
 Um WLan trotzdem noch zur Verfügung zu stellen, kann ein weiterer TP-Link Router verwendet werden. Diese habe größere Antennen, welche sich auch leichter tauschen lassen. Die Fritzbox dient somit nur noch als Modem, wobei das eigentliche WLan über einen zweiten Router zur Verfügung gestellt wird.
 Wird dieser noch mit OpenWRT bespielt ergeben sich zusätzliche Möglichkeiten zur Konfiguration.
