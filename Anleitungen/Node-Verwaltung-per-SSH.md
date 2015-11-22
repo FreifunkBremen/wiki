@@ -24,6 +24,9 @@ _TODO: Informationen hinzufügen._
 ## Möglichkeiten per Konsole
 Alle folgenden Erklärungen und Befehle setzen voraus, dass bereits eine SSH-Verbindung zu dem gewünschten Node besteht.
 
+Die folgende Wiki-Seite von gluon (unserer Firmware-Basis) enthält die meisten und wichtigsten Befehle: https://github.com/freifunk-gluon/gluon/wiki/Commandline-administration
+Diese Wiki-Seite versteht sich als Ergänzung der dort erklärten Befehle.
+
 ### Autoupdater aufrufen
 Mit dem Befehl `autoupdater` lässt sich der Autoupdater manuell außerhalb der regulären Tasks aufrufen. Er funktioniert dann ganz normal und wird, wenn ein Update vorhanden ist, mit der gleichen, vom Server dem Knoten zugeteilten, Wahrscheinlichkeit updaten.  
 Um ein Update zu erzwingen kann an den Befehl `-f` angehängt werden.  
@@ -43,3 +46,19 @@ Wenn man mal etwas kaputt-konfiguriert hat lässt sich der Zustand "frisch-gefla
 2. Anschließend startet man mit dem Befehl `reboot` neu. 
  
 Der Node befindet sich jetzt im wieder im Config-Mode, wie beim ersten Start.
+
+
+### PoE-Passthrough für CPE210/510 - permantent und rebootfest
+Um PoE-Passthrough auf einem Gerät permanent zu aktivieren, unabhängig von Neustarts, muss ein kleines Skript im Node hinterlegt werden.
+
+Bei bestehender SSH-Verbindung wechsle man in das Verzeichnis `cd /etc/init.d/`.
+
+Dort wird per wget das Skript geladen: `wget http://simjost.andromeda.hostedinspace.de/poe`.
+
+Damit dieses auführbar ist, müssen noch die Berechtigungen geändert werden: `chmod +x poe`.
+
+Führe die folgenden Befehle aus um das Skript dauerhaft zu aktivieren und einmalig manuell zu starten:
+```
+/etc/init.d/poe enable
+/etc/init.d/poe start
+```
