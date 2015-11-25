@@ -57,6 +57,8 @@ Feste IP-Adressen von an Freifunk-Knoten angeschlossenen Servern sollten in 10.1
 ## IPv6-Adressen
 mortzu hat bei bei SixXS das ULA-Netz fd2f:5119:0f2c::/48 registriert. Wir haben aber auch den globalen Bereich 2001:bf7:540::/43 vom Freie Netze e.V. Momentan werden beide verteilt, in der Firmware ist das ULA-Netz eingetragen.
 
+**UPDATE 25.11.2015**: Neues Präfix `2a06:8782:ffbb:1337::/64` wird zukünftig `2001:bf7:540::/43` ersetzten. Aktuell werden scheinbar noch beide verteilt.
+
   * 2001:bf7:540::1-6 VPN-Server
     * 2001:bf7:540::1 vpn01 (DNS, Gateway)
     * 2001:bf7:540::2 vpn02 (DNS, Gateway)
