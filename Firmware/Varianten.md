@@ -8,6 +8,8 @@ Diese Software wird als stabil und funktionierend gewertet und wurde vorher auf 
 ### Testing
 Testing-Software ist der letzte Schritt vor der generellen Veröffentlichung. Meist von einer größeren Anzahl von Benutzern betrieben werden so die letzten Fehler ermittelt und geschaut, ob die Firmware auch für den Stable-Branch genutzt werden kann. Meist finden sich hier die neusten Funktionen, Sicherheits- und Stabilitätsupdates ohne, dass man große Sorgen um schwerwiegende Fehler haben muss.
 
+Unsere Testing-Builds basieren immer auf Gluon-Releases.
+
 ### Nightly
 Nightly, (automatisch) nächtlich erstellte, Software ist sehr nah an experimenteller Software. Sie dient zum ersten breiten Testen von neuen Funktionen und hilft beim Ausmerzen von Fehlern. Wer die Arbeit der Entwickler unterstützen möchte, kann diese Variante wählen und regelmäßig Feedback geben.  
 Nightly-Firware-Builds werden von Freifunk Bremen im Moment **nicht** genutzt. Der Aufwand war für den Nutzen nicht groß genug. Im Nightly-Verzeichnis liegen Symbol-Links auf den Testing-Branch.
