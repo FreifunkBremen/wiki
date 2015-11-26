@@ -1,4 +1,4 @@
-# Satzung
+# Satzungsentwurf 2015-11-22
 
 # Satzungsentwurf - "Förderverein Freie Netzwerke Bremen"
 2015-11-22
