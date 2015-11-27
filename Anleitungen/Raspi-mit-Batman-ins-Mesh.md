@@ -65,6 +65,8 @@ sudo make install
 ```
 das Kernelmodul kompilieren und installieren.
 
+Anmerkung : *Sollte `make` mit einer Fehlermeldung abbrechen, das compat.o nicht gefunden werden kann, so muss man ins Verzeichnis `~/linux` wechseln und mit `make scripts` erstmal die scripte bauen. Anschließend kann man wie o.g. fortfahren.*
+
 Jetzt mit `modinfo batman-adv` nachschauen, ob das Modul jetzt tatsächlich die richtige Version hat (2013.4.0-dirty). Dann mit `modprobe batman-adv` laden, und außerdem `batman-adv` in `/etc/modules` eintragen, damit es beim nächsten Booten automatisch geladen wird.
 
 ### Mesh-Verbindung einrichten
