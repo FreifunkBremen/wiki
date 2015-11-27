@@ -18,6 +18,8 @@ Diese Anleitung beschreibt, wie ich das batman-adv-Kernelmodul installiert und d
 
 Ich gehe von einem frisch installierten Raspbian 8 aus.
 
+Anmerkung ec8or: Mit dem Raspberian 7 gibt das ein oder andere [Problem](https://github.com/raspberrypi/linux/issues/758), da der Kernel 4.8 in den Quellen zu buggy ist.
+
 Vorbereitung:
 ```
 # für "make menuconfig" vom Kernel:
