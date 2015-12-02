@@ -67,21 +67,6 @@ das Kernelmodul kompilieren und installieren.
 
 Jetzt mit `modinfo batman-adv` nachschauen, ob das Modul jetzt tatsächlich die richtige Version hat (2013.4.0-dirty). Dann mit `modprobe batman-adv` laden, und außerdem `batman-adv` in `/etc/modules` eintragen, damit es beim nächsten Booten automatisch geladen wird.
 
-
-**Anmerkung von ec8or**
-
-Bei mir gibt `modinfo batman-adv` immer die neue Version aus. Ich bin deshalb wie folgt vorgegangen: Es kann gut sein das dein System Batman-advanced bereits als Kernelmodul hat, dann musst du das mit `sudo rmmod batman-adv` erstmal entladen. Anschließend wechselst du in das Verzeichnis in dem du batman-adv kompiliert hast und installierst das Modul.
-```
-cd <batman-buildordner>
-sudo insmod batman-adv.ko
-```
-Wenn das erfolgreich läuft enthält **dmesg** folgende info:
-
-```
-dmesg | grep batman               
-[ 1131.603837] batman_adv: B.A.T.M.A.N. advanced 2013.4.0-dirty (compatibility version 14) loaded
-```
-
 ### Mesh-Verbindung einrichten
 
 Tools für das batman-adv-Interface runterladen:
