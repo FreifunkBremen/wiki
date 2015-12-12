@@ -1,6 +1,6 @@
 # Versions-Changelog
 ## Freifunk Bremen Versionen
-### 2015.1.2+bremen2 (09.11.2015)
+### 2015.1.2+bremen2 (08.11.2015)
 * Gluon-Version: [2015.1.2](#gluon-versionen_2015-1-2)
 * signing-keys hinzugefügt von:
   * SimJoSt
