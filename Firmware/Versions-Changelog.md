@@ -11,7 +11,7 @@
 
 ##### Features die nach dem Testbetrieb für die stable-Version wieder entfernt wurden
 * VPNs 04,05,06 hinzugefügt  
-  Test, ob per Ansible aufgesetzte VPNs einwandfrei funktionieren*
+  Test, ob per Ansible aufgesetzte VPNs einwandfrei funktionieren
 
 ### 2015.1.2+bremen1~testing
 * Gluon-Version: [2015.1.2](#gluon-versionen_2015-1-2)
