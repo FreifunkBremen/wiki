@@ -1,7 +1,7 @@
 # Firmware Release anlegen
 Um später nachvollziehen zu können, aus welchen Dateien in welchem Zustand eine Firmware gebaut wurde, können im Git Repository Tags angelegt werden. Github interpretiert diese als Releases , listet sie seperat auf und bietet sie gepackt zum Download an.
 
-Die Bennenung der Tags folgt dem Schema der [Firmware-Versionen](Changelog). Da es auch Tags ohne Bezug zu Firmware-Versionen gibt, wird einem Versions-Tag ein `v` vorangestellt. Tilden (`~`) werden durch Bindestriche (`-`) ersetzt
+Die Bennenung der Tags folgt dem Schema der [Firmware-Versionen](/Firmware/Changelog). Da es auch Tags ohne Bezug zu Firmware-Versionen gibt, wird einem Versions-Tag ein `v` vorangestellt. Tilden (`~`) werden durch Bindestriche (`-`) ersetzt
 
 ## Tag anlegen
 Der Befehl `git tag [TAGNAME]` legt einen (einfachen) Tag, in dem Zustand, in dem sich das lokale Repository gerade befindet (Branch, commit), an.
