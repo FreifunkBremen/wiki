@@ -45,11 +45,23 @@
 * Node-Namen-Präfix `ffhb-` nicht mehr standardmäßig vorgegeben
 
 ### 2014.4+bremen0 - **erste Stable**
-###### *urspr. 0.6~testing1 ([03.05.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v0.6-testing1) [(Blogpost)](http://bremen.freifunk.net/blog/2015/05/03/Neue-Firmware.html))*
+###### *ursprünglich [0.6~testing1](#Freifunk-Bremen-Versionen_0.6~testing1)*
 
-**Release-Datum**: [28.06.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2014.4%2Bbremen0) [(Blogpost)](http://bremen.freifunk.net/blog/2015/06/28/Erste-stabile-Firmware.html)  
+**Release-Datum**: [28.06.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2014.4%2Bbremen0) [(Blogpost)](http://bremen.freifunk.net/blog/2015/06/28/erste-stabile-firmware.html)  
+**gluon-Version**: [2014.4](#gluon-versionen_2014-4)
+* die effizientere und schnellere fastd cipher salsa2012+umac hinzugefügt
+* signing-key von corny hinzugefügt
+
+### 0.6~testing1
+**Release-Datum**: [03.05.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v0.6-testing1) [(Blogpost)](http://bremen.freifunk.net/blog/2015/05/03/neue-firmware.html)  
 **gluon-Version**: [2014.4](#gluon-versionen_2014-4)
 * neue gluon-Version 2014.4
+* Link zum Eingeben des fastd key auf dem Server entfernt
+* Kanalanalyse-Komponenten entfernt
+* neues Gateway VPN03 hinzugefügt
+* mesh ssid von mesh.ffhb zu mesh.ffhb.de geändert
+* IPv6-Präfix zu 2001:bf7:540 geändert; weg von local zu public
+* autoupdater URLs gefixed
 
 ### 0.5~testing5
 **Release-Datum**: [06.09.2014](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v0.5-testing5) [(Blogpost)](http://bremen.freifunk.net/blog/2014/09/06/Neue-Testing-Channel-Survey.html)  
