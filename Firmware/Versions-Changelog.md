@@ -6,7 +6,8 @@
 * fehlerhaftes Abschalten des WLAN-Moduls bei TP-LINK TL-WR841 v10 Geräten mit [2015.2+bremen1~exp](#Freifunk-Bremen-Versionen_2015.2+bremen1~exp) gefixed
 
 ### 2015.2+bremen1~exp
-**Release-Datum**: [26.11.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.2%2Bbremen1-exp)
+**Release-Datum**: [26.11.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.2%2Bbremen1-exp)  
+**gluon-Version**: [2015.2](#gluon-versionen_2015-2)
 * neue gluon-Version 2015.2
 * Support für TP-LINK TL-WR841 v10
 
