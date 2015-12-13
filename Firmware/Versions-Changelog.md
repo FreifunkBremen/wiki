@@ -1,14 +1,20 @@
 # Versions-Changelog
 ## Freifunk Bremen Versionen
-### 2015.2+bremen2~exp (12.12.2015)
-* **gluon-Version**: [2015.2](#gluon-versionen_2015-2) *(Vorabversion/noch in der Entwicklung)*
+### 2015.2+bremen2~exp
+**Release-Datum**: [12.12.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.2%2Bbremen2-exp)  
+**gluon-Version**: [2015.2](#gluon-versionen_2015-2)
+* fehlerhaftes Abschalten des WLAN-Moduls bei TP-LINK TL-WR841 v10 Geräten mit [2015.2+bremen1~exp](#Freifunk-Bremen-Versionen_2015.2+bremen1~exp) gefixed
+
+### 2015.2+bremen1~exp
+**Release-Datum**: [26.11.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.2%2Bbremen1-exp)
+* neue gluon-Version 2015.2
 * Support für TP-LINK TL-WR841 v10
 
-##### Verbesserungen zu 2015.2+bremen1~exp
-* fehlerhaftes Abschalten des WLAN-Moduls bei TP-LINK TL-WR841 v10 Geräten gefixed
+### 2015.1.2+bremen2
+###### *urspr. [2015.1.2+bremen2~testing](#Freifunk-Bremen-Versionen_2015.1.2+bremen2~testing)*
 
-### 2015.1.2+bremen2 (08.11.2015)
-* **gluon-Version**: [2015.1.2](#gluon-versionen_2015-1-2)
+**Release-Datum**: [08.11.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.2%2Bbremen2)  
+**gluon-Version**: [2015.1.2](#gluon-versionen_2015-1-2)
 * signing-keys hinzugefügt von:
   * SimJoSt
   * oliver
@@ -16,36 +22,53 @@
   * ec8or
   * ProXyhb
 
-##### Features, die nach dem Testbetrieb für die stable-Version wieder entfernt wurden
+##### Features, welche nach dem Testbetrieb für die stable-Version wieder entfernt wurden
 * VPNs 04,05,06 hinzugefügt  
   Test, ob per Ansible aufgesetzte VPNs einwandfrei funktionieren
 
+### 2015.1.2+bremen2~testing
+**Release-Datum**: [06.09.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.2%2Bbremen2-testing)   
+**gluon-Version**: [2015.1.2](#gluon-versionen_2015-1-2)
+* neues Gateway VPN04 hinzugefügt
+
 ### 2015.1.2+bremen1~testing
-* **gluon-Version**: [2015.1.2](#gluon-versionen_2015-1-2)
+**Release-Datum**: [29.08.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.2%2Bbremen1-testing)  
+**gluon-Version**: [2015.1.2](#gluon-versionen_2015-1-2)
+* neue gluon-Version 2015.1.2
 
 ### 2015.1.1+bremen1
-* **gluon-Version**: [2015.1.1](#gluon-versionen_2015-1-1)
+###### *ursrprünglich [2015.1.1+bremen1~testing](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.1%2Bbremen1-testing)*
+**Release-Datum**: [07.08.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.1%2Bbremen1)  
+**gluon-Version**: [2015.1.1](#gluon-versionen_2015-1-1)
+* neue gluon-Version 2015.1.1
 * Node-Namen-Präfix `ffhb-` nicht mehr standardmäßig vorgegeben
 
-### 2014.4+bremen0 - **erste Stable** ([28.06.2015](http://bremen.freifunk.net/blog/2015/06/28/Erste-stabile-Firmware.html))
-*urspr. 0.6~testing1 ([03.05.2015](http://bremen.freifunk.net/blog/2015/05/03/Neue-Firmware.html))*
-* **gluon-Version**: [2014.4](#gluon-versionen_2014-4)
+### 2014.4+bremen0 - **erste Stable**
+###### *urspr. 0.6~testing1 ([03.05.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v0.6-testing1) [(Blogpost)](http://bremen.freifunk.net/blog/2015/05/03/Neue-Firmware.html))*
 
-### 0.5~testing5 ([06.09.2014](http://bremen.freifunk.net/blog/2014/09/06/Neue-Testing-Channel-Survey.html))
-* **gluon-Version**: [2014.3](#gluon-versionen_2014-3)
+**Release-Datum**: [28.06.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2014.4%2Bbremen0) [(Blogpost)](http://bremen.freifunk.net/blog/2015/06/28/Erste-stabile-Firmware.html)  
+**gluon-Version**: [2014.4](#gluon-versionen_2014-4)
+* neue gluon-Version 2014.4
+
+### 0.5~testing5
+**Release-Datum**: [06.09.2014](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v0.5-testing5) [(Blogpost)](http://bremen.freifunk.net/blog/2014/09/06/Neue-Testing-Channel-Survey.html)  
+**gluon-Version**: [2014.3](#gluon-versionen_2014-3)
 * Kanalanalyse-Komponenten integriert
 * WLAN-Feintuning
   * 2,4Ghz-Kanalbreite von 40Mhz auf 20Mhz reduziert
   * Multicast-Rate auf 6 Mbit/s herabgesetzt (die Grenze ab wann 2 Knoten Meshen/sich verbinden)
 * DHCP-Server und IPv6-Router hinter einem Node werden nicht mehr durchgelassen ("Funktion Internet" im Freifunk-Netz sonst leicht störbar)
 
-### 0.5~testing4 ([08.08.2014](http://bremen.freifunk.net/blog/2014/08/08/Neue-Testing.html))
-* **gluon-Version**: [2014.3](#gluon-versionen_2014-3)
+### 0.5~testing4
+**Release-Datum**: [08.08.2014](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v0.5-testing4) [(Blogpost)](http://bremen.freifunk.net/blog/2014/08/08/Neue-Testing.html)  
+**gluon-Version**: [2014.3](#gluon-versionen_2014-3)
+* neue gluon-Version 2014.3
 * Ende der WLAN-Probleme (mit Überwachung evtl. Probleme)
 * Autoupdater standardmäßig an
 
-### 0.5~testing3 ([23.06.2014](http://bremen.freifunk.net/blog/2014/06/23/Facebook-und-Testing-3.html))
-* **gluon-Version**: [2014.2](#gluon-versionen_2014-2)
+### 0.5~testing3
+**Release-Datum**: 23.06.2014 [(Blogpost)](http://bremen.freifunk.net/blog/2014/06/23/Facebook-und-Testing-3.html)  
+**gluon-Version**: [2014.2](#gluon-versionen_2014-2)
 * Mesh-ESSID von batman.bremen.freifunk.net zu mesh.ffhb geändert um Verwirrung zu vermeiden
 * neue WLAN-Treiber und -Software, dadurch hoffentlich keine Signal-Abbruch-Probleme mehr
 * vom Knoten übertragene Statistik wird nun komprimiert
@@ -53,15 +76,16 @@
 * Firewall block alles Eingehende auf dem WAN-Port außer SSH
 
 ### 0.5~testing2
-* **gluon-Version**: [2014.2](#gluon-versionen_2014-2)
+**gluon-Version**: [2014.2](#gluon-versionen_2014-2)
 
 #### bekannte Probleme
 * Signal-Abruch-Problem auf 2,4Ghz
 * TP-LINK TL-WR841N/ND v9 macht Probleme
 
 
-### 0.5~testing1 - **erste Testing** ([24.03.2014](http://bremen.freifunk.net/blog/2014/03/24/testing-firmware.html))
-* **gluon-Version**: [2014.2](#gluon-versionen_2014-2)
+### 0.5~testing1 - **erste Testing**
+**Release-Datum**: 24.03.2014 [(Blogpost)](http://bremen.freifunk.net/blog/2014/03/24/testing-firmware.html)  
+**gluon-Version**: [2014.2](#gluon-versionen_2014-2)
 * alle Nightly-Geräte haben auf den Testing-Branch gewechselt
 * Doppel-Key-Problem behoben
 
