@@ -27,10 +27,26 @@ Alle folgenden Erklärungen und Befehle setzen voraus, dass bereits eine SSH-Ver
 Die folgende Wiki-Seite von gluon (unserer Firmware-Basis) enthält die meisten und wichtigsten Befehle: https://github.com/freifunk-gluon/gluon/wiki/Commandline-administration
 Diese Wiki-Seite versteht sich als Ergänzung der dort erklärten Befehle.
 
-### Autoupdater aufrufen
+### Firmware automatisch per Autoupdater aktualisieren
 Mit dem Befehl `autoupdater` lässt sich der Autoupdater manuell außerhalb der regulären Tasks aufrufen. Er funktioniert dann ganz normal und wird, wenn ein Update vorhanden ist, mit der gleichen, vom Server dem Knoten zugeteilten, Wahrscheinlichkeit updaten.  
 Um ein Update zu erzwingen kann an den Befehl `-f` angehängt werden.  
 Falls für einen einzelnen Autoupdater-Aufruf ein anderer Branch gewählt werden möchte kann `-b $BRANCHNAME` an den Befehl gehängt werden.
+
+### Firmware manuell per Kommandozeile aktualisieren
+Als erstes muss das Firmware-Image auf den Knoten geladen werden.
+##### wget-Variante (remote Image)
+Wechsle in das temporäre Verzeichnis des Knoten (`cd /tmp/`) und lade das Image herunter mit `wget [FIRMWAREURL]`.
+
+##### scp-Variante (local Image)
+Übertrage das lokale Image per scp in das `/tmp/`-Verzeichnis des Knoten:  
+`scp [FIRMWAREDATEI] root@[ [IPv6-ADRESS] ]:/tmp/`
+
+##### sysupgrade ausführen
+Führe folgende Befehle angepasst aus:
+```
+echo 3 > /proc/sys/vm/drop_caches
+sysupgrade [FIRMWAREFILE]
+```
 
 ### SSH-Key auf Node hinzufügen oder entfernen
 Die Datei in der die erlaubten SSH-PublicKeys liegen, befindet sich in `/etc/dropbear/authorized_keys`. Zum Bearbeiten muss diese einfach in dem Editor der Wahl geöffnet werden.  
