@@ -69,7 +69,28 @@ Um PoE-Passthrough auf einem Gerät permanent zu aktivieren, unabhängig von Neu
 
 Bei bestehender SSH-Verbindung wechsle man in das Verzeichnis `cd /etc/init.d/`.
 
-Dort wird per wget das Skript geladen: `wget http://simjost.andromeda.hostedinspace.de/poe`.
+Dort wird per wget das Skript geladen: `wget http://simjost.andromeda.hostedinspace.de/poe`.  
+Falls die Datei nicht verfügbar sein sollte, dann erstellt sie direkt mit:
+```
+cat poe
+#!/bin/sh /etc/rc.common
+# Enables PoE Passthrough on TL-CPE2XX/CPE5XX
+# http://wiki.openwrt.org/toh/tp-link/tl-cpe210#poe_passthrough
+
+START=10
+STOP=15
+
+start() {
+  echo 20  > /sys/class/gpio/export
+  echo out > /sys/class/gpio/gpio20/direction
+  echo 1   > /sys/class/gpio/gpio20/value
+}
+
+stop() {
+  echo 0   > /sys/class/gpio/gpio20/value
+}
+
+```
 
 Damit dieses auführbar ist, müssen noch die Berechtigungen geändert werden: `chmod +x poe`.
 
