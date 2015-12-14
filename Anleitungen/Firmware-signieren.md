@@ -6,9 +6,9 @@ Aktuell sind für den Testing Branch eine und für den Stable Branch 2 gültige 
 Welche Signatur akzeptiert wird, ist fest in der Firmware verbaut. Fals in neuen Versionen Schlüssel von neuen Personen dazukommen und diese verwendet werden, kann es sein, dass ein Gerät mit älterer Firmware, die neue Firmware nicht installiert, da es die Signatur nicht verifizieren kann.
 
 ## Vorraussetzungen
-* ecdsautils
+* ecdsautils  
   https://github.com/tcatm/ecdsautils
-  * libuecc
+  * libuecc  
     http://git.universe-factory.net/libuecc
 
 Wie diese installiert werden, kann hier nachgelesen werden: https://wiki.freifunk.net/ECDSA_Util
