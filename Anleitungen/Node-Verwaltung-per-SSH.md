@@ -67,9 +67,16 @@ Der Node befindet sich jetzt im wieder im Config-Mode, wie beim ersten Start.
 ### PoE-Passthrough für CPE210/510 - permantent und rebootfest
 Um PoE-Passthrough auf einem Gerät permanent zu aktivieren, unabhängig von Neustarts, muss ein kleines Skript im Node hinterlegt werden.
 
-Bei bestehender SSH-Verbindung wechsle man in das Verzeichnis `cd /etc/init.d/`.
+Bei bestehender SSH-Verbindung wechsle man in das Verzeichnis
+```
+cd /etc/init.d/
+```
 
-Dort wird per wget das Skript geladen: `wget http://simjost.andromeda.hostedinspace.de/poe`.  
+Dort wird per wget das Skript geladen:
+```
+wget http://simjost.andromeda.hostedinspace.de/poe
+```
+
 Falls die Datei nicht verfügbar sein sollte, dann erstellt sie direkt mit:
 ```
 cat poe
@@ -92,7 +99,10 @@ stop() {
 
 ```
 
-Damit dieses auführbar ist, müssen noch die Berechtigungen geändert werden: `chmod +x poe`.
+Damit dieses auführbar ist, müssen noch die Berechtigungen geändert werden:
+```
+chmod +x poe
+```
 
 Führe die folgenden Befehle aus um das Skript dauerhaft zu aktivieren und einmalig manuell zu starten:
 ```
