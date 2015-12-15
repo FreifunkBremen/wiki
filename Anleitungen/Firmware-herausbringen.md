@@ -5,6 +5,16 @@ Wenn eine neue offizielle Firmware herausgebracht wird, sollten folgende Schritt
 ### Tag/Release im Repository anlegen
 ### Firmware bauen
 ### Firmware testen
+Die neue Firmware sollte mindestens auf folgenden Modellen getestet werden:
+* WR841N(D) v9
+* WDR3600 oder WDR4300
+* beliebiges Ubiquity-Gerät (z.B. Nanostation)
+
+Tests sollten beeinhalten:
+* Knoten kann sich mit FFHB-Netz verbinden
+* ein Client kann über den Knoten ins Internet gehen
+* Knoten taucht in der Knotenkarte auf, mit min. einem Client
+
 ### [[Firmware signieren|Firmware-signieren]]
 ### Firmware auf Download-Server hinterlegen
 ### Blogpost herausbringen
