@@ -1,4 +1,4 @@
-Es gibt momentan drei VPN-Server, die zum Verbinden der Knoten untereinander und mit dem Internet genutzt werden:
+Es gibt momentan 6 Gateway-Server, die zum Verbinden der Knoten untereinander und mit dem Internet genutzt werden. Davon sind die ersten 3 in der Stable-Firmware verfügbar:
 
 ## Sponsoren und Konfiguration
 | Server | Sponsor      | Standort | Uplink-Anbieter    | Uplink-Standort |
