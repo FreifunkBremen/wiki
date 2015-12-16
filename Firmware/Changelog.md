@@ -1,7 +1,7 @@
 # Versions-Changelog
 ## Freifunk Bremen Versionen
 ### 2015.1.2+bremen3~testing
-**Release-Datum**: [12.12.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.2%2Bbremen3-testing) ([Blogpost](http://bremen.freifunk.net/blog/2015/12/16/v2015.1.2-bremen3-testing.html))  
+**Release-Datum**: [12.12.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.2%2Bbremen3-testing) ([Blogpost](http://bremen.freifunk.net/blog/2015/12/16/v2015-1-2-bremen3-testing.html))  
 **gluon-Version**: [2015.2](#gluon-versionen_2015-1-2)
 - IPv6-Präfix gewechselt
 - Bugfixes
@@ -54,13 +54,13 @@
 ### 2014.4+bremen0 - **erste Stable**
 ###### *ursprünglich [0.6~testing1](#Freifunk-Bremen-Versionen_0.6~testing1)*
 
-**Release-Datum**: [28.06.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2014.4%2Bbremen0) [(Blogpost)](http://bremen.freifunk.net/blog/2015/06/28/erste-stabile-firmware.html)  
+**Release-Datum**: [28.06.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2014.4%2Bbremen0) ([Blogpost](http://bremen.freifunk.net/blog/2015/06/28/erste-stabile-firmware.html))  
 **gluon-Version**: [2014.4](#gluon-versionen_2014-4)
 * die effizientere und schnellere fastd cipher salsa2012+umac hinzugefügt
 * signing-key von corny hinzugefügt
 
 ### 0.6~testing1
-**Release-Datum**: [03.05.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v0.6-testing1) [(Blogpost)](http://bremen.freifunk.net/blog/2015/05/03/neue-firmware.html)  
+**Release-Datum**: [03.05.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v0.6-testing1) ([Blogpost](http://bremen.freifunk.net/blog/2015/05/03/neue-firmware.html))  
 **gluon-Version**: [2014.4](#gluon-versionen_2014-4)
 * neue gluon-Version 2014.4
 * Link zum Eingeben des fastd key auf dem Server entfernt
@@ -71,7 +71,7 @@
 * autoupdater URLs gefixed
 
 ### 0.5~testing5
-**Release-Datum**: [06.09.2014](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v0.5-testing5) [(Blogpost)](http://bremen.freifunk.net/blog/2014/09/06/Neue-Testing-Channel-Survey.html)  
+**Release-Datum**: [06.09.2014](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v0.5-testing5) ([Blogpost](http://bremen.freifunk.net/blog/2014/09/06/Neue-Testing-Channel-Survey.html))  
 **gluon-Version**: [2014.3](#gluon-versionen_2014-3)
 * Kanalanalyse-Komponenten integriert
 * WLAN-Feintuning
@@ -80,14 +80,14 @@
 * DHCP-Server und IPv6-Router hinter einem Node werden nicht mehr durchgelassen ("Funktion Internet" im Freifunk-Netz sonst leicht störbar)
 
 ### 0.5~testing4
-**Release-Datum**: [08.08.2014](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v0.5-testing4) [(Blogpost)](http://bremen.freifunk.net/blog/2014/08/08/Neue-Testing.html)  
+**Release-Datum**: [08.08.2014](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v0.5-testing4) ([Blogpost](http://bremen.freifunk.net/blog/2014/08/08/Neue-Testing.html))  
 **gluon-Version**: [2014.3](#gluon-versionen_2014-3)
 * neue gluon-Version 2014.3
 * Ende der WLAN-Probleme (mit Überwachung evtl. Probleme)
 * Autoupdater standardmäßig an
 
 ### 0.5~testing3
-**Release-Datum**: 23.06.2014 [(Blogpost)](http://bremen.freifunk.net/blog/2014/06/23/Facebook-und-Testing-3.html)  
+**Release-Datum**: 23.06.2014 ([Blogpost](http://bremen.freifunk.net/blog/2014/06/23/Facebook-und-Testing-3.html))  
 **gluon-Version**: [2014.2](#gluon-versionen_2014-2)
 * Mesh-ESSID von batman.bremen.freifunk.net zu mesh.ffhb geändert um Verwirrung zu vermeiden
 * neue WLAN-Treiber und -Software, dadurch hoffentlich keine Signal-Abbruch-Probleme mehr
@@ -104,7 +104,7 @@
 
 
 ### 0.5~testing1 - **erste Testing**
-**Release-Datum**: 24.03.2014 [(Blogpost)](http://bremen.freifunk.net/blog/2014/03/24/testing-firmware.html)  
+**Release-Datum**: 24.03.2014 ([Blogpost](http://bremen.freifunk.net/blog/2014/03/24/testing-firmware.html))  
 **gluon-Version**: [2014.2](#gluon-versionen_2014-2)
 * alle Nightly-Geräte haben auf den Testing-Branch gewechselt
 * Doppel-Key-Problem behoben
