@@ -26,8 +26,9 @@ Es gibt momentan 6 Gateway-Server, die zum Verbinden der Knoten untereinander un
 ## Server für zentrale Dienste
 Dienst        | Verantwortlicher  | Co Verantwortlicher | Standort
           --- | ---               | ---                 | ---
-Website       |                   |                     | 
+Website       | mortzu            |                     | 
 Downloads     | mortzu            | corny               | 
+DNS           | mortzu            |                     | 
 Wiki          |                   |                     | 
 Karte         |                   |                     | 
 Ticketsystem  | mortzu            | SimJoSt, ec8or      | 
