@@ -1,6 +1,7 @@
 Es gibt momentan 6 Gateway-Server, die zum Verbinden der Knoten untereinander und mit dem Internet genutzt werden. Davon sind die ersten 3 in der Stable-Firmware verfügbar:
 
-## Sponsoren und Konfiguration
+## Gateways a.k.a VPNs
+### Sponsoren und Konfiguration
 | Server | Sponsor      | Standort | Uplink-Anbieter    | Uplink-Standort |
 |:-------|:-------------|:---------|:-------------------|:----------------|
 | vpn01  | mortzu       | Hetzner  | Freifunk Hamburg   | Hamburg         |
@@ -10,7 +11,7 @@ Es gibt momentan 6 Gateway-Server, die zum Verbinden der Knoten untereinander un
 | vpn05  | anon6789     | Hetzner  | Hide.me            | Frankfurt       |
 | vpn06  | Digineo GmbH | Plutex   | direkt             | Bremen          |
 
-## Ansprechpartner
+### Ansprechpartner
 
 | Gateway | Hauptverantwortlicher | Co Verantwortlicher |
 |---------|-----------------------|---------------------|
@@ -20,3 +21,14 @@ Es gibt momentan 6 Gateway-Server, die zum Verbinden der Knoten untereinander un
 | vpn04   | mortzu                |                     |
 | vpn05   | genofire              | anon6789            |
 | vpn06   | corny                 |                     |
+
+
+## Server für zentrale Dienste
+Dienst        | Verantwortlicher  | Co Verantwortlicher | Standort
+          --- | ---               | ---                 | ---
+Website       |                   |                     | 
+Downloads     | mortzu            | corny               | 
+Wiki          |                   |                     | 
+Karte         |                   |                     | 
+Ticketsystem  | mortzu            | SimJoSt, ec8or      | 
+gatemon       | mortzu            |                     | 
