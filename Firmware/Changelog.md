@@ -1,7 +1,7 @@
 # Versions-Changelog
 ## Freifunk Bremen Versionen
 ### 2015.1.2+bremen3~testing
-**Release-Datum**: [12.12.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.2%2Bbremen3-testing) ([Blogpost](http://bremen.freifunk.net/blog/2015/12/16/v2015.1.2+bremen3-testing.html))  
+**Release-Datum**: [12.12.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.2%2Bbremen3-testing) ([Blogpost](http://bremen.freifunk.net/blog/2015/12/16/v2015.1.2-bremen3-testing.html))  
 **gluon-Version**: [2015.2](#gluon-versionen_2015-1-2)
 - IPv6-Präfix gewechselt
 - Bugfixes
