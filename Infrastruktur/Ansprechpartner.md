@@ -25,7 +25,7 @@ Diese Leute kennen sich gut mit dem Projekt aus und sind bereit, Presseanfragen 
 
 **Erreichbarkeit:** presse@bremen.freifunk.net
 
-* JP / Jan-Philipp / jplitza
+* JP
 * SimJoSt
 * nukeUS (Winni)
 
@@ -35,7 +35,7 @@ Diese Leute bauen und verwalten die Software, die auf den Knoten läuft.
 
 **Erreichbarkeit:** über die [Liste](https://planetcyborg.de/mailman/listinfo/ff-bremen)
 
-* JP / Jan-Philipp / jplitza
+* JP
 * corny / Julian
 * SimJoSt
 
@@ -45,7 +45,7 @@ Diese Leute administrieren die Gateways (a.k.a. VPN-Server), zu denen sich die K
 
 **Erreichbarkeit:** gerne über die [Liste](https://planetcyborg.de/mailman/listinfo/ff-bremen), oder für Vertrauliches über server@bremen.freifunk.net
 
-* JP / Jan-Philipp / jplitza
+* JP
 * Moritz / mortzu
 * Geno / Martin / genofire
 * anon6789 / Jelto
@@ -59,14 +59,13 @@ Diese Leute stehen in Kontakt mit dem Senat zwecks Umsetzung des [Bürgerschafts
 
 **Erreichbarkeit:** politik@bremen.freifunk.net
 
-* JP / Jan-Philipp / jplitza
 * Claus / Nebirosh
 * SimJoSt
 
 
 ## Social-Media
 ### [Twitter](https://twitter.com/FreifunkHB)
-* jplitza
+* JP
 * rbtz
 * SimJoSt
 
