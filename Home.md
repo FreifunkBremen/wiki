@@ -38,4 +38,4 @@ Wir treffen uns zweimal im Monat: Am 1. Freitag und am 3. Donnerstag im Monat im
 
 ## Änderungen mitbekommen
 
-Wer sich dafür interessiert, wann sich etwas an diesem Wiki ändert, kann das über das entsprechende [Repository auf Github](https://github.com/FreifunkBremen/wiki/) tun, z.B. per [Atom-Feed](https://github.com/FreifunkBremen/wiki/commits/master.atom).
+Wer sich dafür interessiert, wann sich etwas an diesem Wiki ändert, kann das über das entsprechende [Repository auf Github](https://github.com/FreifunkBremen/wiki/) tun, z.B. per [Atom-Feed](https://github.com/FreifunkBremen/wiki/commits/master.atom) oder über den Button ganz oben rechts.
