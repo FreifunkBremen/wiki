@@ -4,7 +4,7 @@ Das Wiki stellt eine Informationssammlung da, an der jede und jeder mitarbeiten 
 
 Alle erstellten Seiten findest du [hier](http://wiki.bremen.freifunk.net/pages).
 
-Zurück geht es [hier](http://bremen.freifunk.net) lang.
+Zurück zur Homepage geht es [hier](http://bremen.freifunk.net) lang.
 
 ## Infos zu unseren Treffen
 
