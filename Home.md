@@ -14,7 +14,8 @@ Wir treffen uns zweimal im Monat: Am 1. Freitag und am 3. Donnerstag im Monat im
   * [[04.12.2015 (Freitag)|Treffen/2015_12_04]]
   * [[17.12.2015 (Donnerstag)|Treffen/2015_12_17]]
 * Nächste Treffen:
-  * [[08.01.2015 (Freitag)|Treffen/2015_01_08]] - (2. Freitag im Monat, da 01.01. unmenschlich ist)
+  * [[08.01.2015 (Freitag)|Treffen/2015_01_08]] - (ausnahmsweise 2. Freitag im Monat, da 01.01. unmenschlich ist)
+  * [[21.01.2015 (Donnerstag)|Treffen/2015_01_21]]
 * [Liste aller Treffen](http://wiki.bremen.freifunk.net/pages/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
 
 * Sonstige Treffen:
