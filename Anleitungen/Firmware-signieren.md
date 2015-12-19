@@ -1,26 +1,9 @@
-# Firmware signieren
+# Firmware signieren (technisch)
 Das signieren der Firmware ist nötig, damit der autoupdater auf den Knoten die neue Firmware akzeptiert. So sichergestellt, dass nur befugt Personen eine neue Firmware aufspielen.  
 Im Endeffekt wird aber gar nicht die Firmware signiert, sondern das dazugehörige Manifest, in welchem der Branch, das Startdatum zum Ausrollen, der Zeitraum über den das Ausrollen gestreckt werden soll, sowie Links mit Hash zu den Firmware-Images hinterlegt sind.
 
 Aktuell sind für den Testing Branch eine und für den Stable Branch 2 gültige Signaturen nötig.  
 Welche Signatur akzeptiert wird, ist fest in der Firmware verbaut. Fals in neuen Versionen Schlüssel von neuen Personen dazukommen und diese verwendet werden, kann es sein, dass ein Gerät mit älterer Firmware, die neue Firmware nicht installiert, da es die Signatur nicht verifizieren kann.
-
-## nötige Tests
-Um eine Firmware mit seiner Signatur als veröffentlichungs-würdig zu markieren, sollten ein paar wenige grundlegende Tests, auf mindestens einem Knoten, getätigt werden, bevor sie auf dem Testing Branch im größeren, verteilten Test sich beweisen muss:
-
-
-- SSID `bremen.freifunk.net` sichtbar?
-- kann man sich verbinden?
-- bekommt man eine IP?
-- kann eine Verbindung zu einem Gateway aufgenommen werden?
-- sind Geräte/Dienste im Freifunk aufrufbar?
-- sind Inhalte aus dem Internet aufrufbar?
-- wurde ein Standard-SSH-Key in die Firmware integriert?
-
-Diese Ergbenisse, sollten mit dem getesteten Knoten, als Antwort auf die Signing-Anfrage, mit Signatur, bei Erfolg, zurückgeschickt werden.
-
-Zusätzlich, solle man sich ein mal mit den Änderungen zur letzten Firmware vertraut machen, entweder durch die in der Singing-Anfrage bereitgestellte Zusammenfassung, in den [Tags/Releases bei Github](https://github.com/FreifunkBremen/gluon-site-ffhb/releases) oder im [[Changelog|/Firmware/Changelog]], falls es bereits für die Version einen Eintrag gibt.
-
 
 ## technische Vorraussetzungen
 * ecdsautils  
