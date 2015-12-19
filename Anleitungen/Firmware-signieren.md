@@ -19,7 +19,7 @@ Um eine Firmware mit seiner Signatur als veröffentlichungs-würdig zu markieren
 
 Diese Ergbenisse, sollten mit dem getesteten Knoten, als Antwort auf die Signing-Anfrage, mit Signatur, bei Erfolg, zurückgeschickt werden.
 
-Zusätzlich, solle man sich ein mal mit den Änderungen zur letzten Firmware vertraut machen, enteder im [[Changelog|/Firmware/Changelog]] oder in den [Tags/Releases bei Github](https://github.com/FreifunkBremen/gluon-site-ffhb/releases).
+Zusätzlich, solle man sich ein mal mit den Änderungen zur letzten Firmware vertraut machen, entweder durch die in der Singing-Anfrage bereitgestellte Zusammenfassung, in den [Tags/Releases bei Github](https://github.com/FreifunkBremen/gluon-site-ffhb/releases) oder im [[Changelog|/Firmware/Changelog]], falls es bereits für die Version einen Eintrag gibt.
 
 
 ## technische Vorraussetzungen
