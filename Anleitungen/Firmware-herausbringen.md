@@ -2,7 +2,7 @@
 Wenn eine neue offizielle Firmware herausgebracht wird, sollten folgende Schritte durchlaufen und abgearbeitet werden.
 [[_TOC_]]
 ### Änderungen an Firmware auf der Mailingliste oder einem Treffen besprechen und informieren
-### [[Tag/Release im Repository anlegen|/Anleitungen/Firmware-Release-anlegen]]
+### [[Tag/Release im Repository anlegen|Firmware-Release-anlegen]]
 ### Firmware bauen
 ### Firmware testen
 Um eine Firmware mit seiner Signatur als veröffentlichungs-würdig zu markieren, sollten ein paar wenige grundlegende Tests, auf mindestens einem Knoten, getätigt werden, bevor sie auf dem Testing Branch im größeren, verteilten Test sich beweisen muss:
