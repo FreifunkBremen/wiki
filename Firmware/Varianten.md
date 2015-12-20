@@ -12,7 +12,7 @@ Unsere Testing-Builds basieren immer auf Gluon-Releases.
 
 ### Nightly
 Nightly, (automatisch) nächtlich erstellte, Software ist sehr nah an experimenteller Software. Sie dient zum ersten breiten Testen von neuen Funktionen und hilft beim Ausmerzen von Fehlern. Wer die Arbeit der Entwickler unterstützen möchte, kann diese Variante wählen und regelmäßig Feedback geben.  
-Nightly-Firware-Builds werden von Freifunk Bremen im Moment **nicht** genutzt. Der Aufwand war für den Nutzen nicht groß genug. Im Nightly-Verzeichnis liegen Symbol-Links auf den Testing-Branch.
+Nightly-Firware-Builds werden von Freifunk Bremen im Moment **nicht** genutzt. Der Aufwand war für den Nutzen zu groß. Im Nightly-Verzeichnis liegen Symbol-Links auf den Testing-Branch.
 
 ### Experimental/exp
 Diese Software ist **hoch experimentell**! Sie ist **nicht** für den normalen Betrieb gedacht. Diese Variante wird meist nur zum direkten Testen von gerade entwickelten Änderungen (bleeding edge) verwendet. Sie wird von jedem Entwickler selbst kompiliert.
