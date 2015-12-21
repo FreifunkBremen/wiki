@@ -64,7 +64,8 @@ Wenn man mal etwas kaputt-konfiguriert hat lässt sich der Zustand "frisch-gefla
 Der Node befindet sich jetzt im wieder im Config-Mode, wie beim ersten Start.
 
 
-### PoE-Passthrough für CPE210/510 - permantent und rebootfest
+### PoE-Passthrough für CPE210/510
+##### permantent und rebootfest - nicht update-fest
 Um PoE-Passthrough auf einem Gerät permanent zu aktivieren, unabhängig von Neustarts, muss ein kleines Skript im Node hinterlegt werden.
 
 Bei bestehender SSH-Verbindung wechsle man in das Verzeichnis
