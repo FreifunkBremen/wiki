@@ -14,7 +14,7 @@
       nur Funktionen, welche unmittelbar auf Stable-Knoten sollen, werden in die Firmware eingebaut
     - Firmware mit `~exp`-Suffix für Tests von brandneuen und experimentellen Features
         - wird eine  auf dem Downloadserver verfügbar gemacht
-        - hat keine Autoupdater
+        - hat kein Autoupdater
         - wird per Blog angekündigt
 - Firmware-Mirror entfernt  
   autoupdater lief mehrfach, wenn Mirror nicht erreichbar waren ([gluon-issue](https://github.com/freifunk-gluon/gluon/issues/582))
