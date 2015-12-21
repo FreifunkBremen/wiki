@@ -4,6 +4,10 @@
 **Release-Datum**: [20.12.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.2%2Bbremen3)  
 **gluon-Version**: [2015.1.2](#gluon-versionen_2015-1-2)  
 **aktueller Status**: testing
+- Firmware-Mirror entfernt  
+  autoupdater lief mehrfach, wenn Mirror nicht erreichbar waren ([gluon-issue](https://github.com/freifunk-gluon/gluon/issues/582))
+- VPNs 01, 02, 03, 04 und 06 enthalten
+- DNS-Einträge der NTP-Server korrigiert
 - Firmware-Schema umgestellt
     - Firmware wird nicht mehr als Testing- oder Stable-Firmware gebaut  
         - es gibt **eine** Firmware
@@ -16,9 +20,6 @@
         - wird auf dem Downloadserver verfügbar gemacht
         - hat kein Autoupdater
         - wird per Blog angekündigt
-- Firmware-Mirror entfernt  
-  autoupdater lief mehrfach, wenn Mirror nicht erreichbar waren ([gluon-issue](https://github.com/freifunk-gluon/gluon/issues/582))
-- VPNs 01, 02, 03, 04 und 06 enthalten
 
 ### 2015.1.2+bremen3~testing
 **Release-Datum**: [12.12.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.2%2Bbremen3-testing) ([Blogpost](http://bremen.freifunk.net/blog/2015/12/16/v2015-1-2-bremen3-testing.html))  
