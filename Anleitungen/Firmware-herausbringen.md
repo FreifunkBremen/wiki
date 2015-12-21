@@ -15,7 +15,7 @@ Um eine Firmware mit seiner Signatur als veröffentlichungs-würdig zu markieren
     - sind Geräte/Dienste im Freifunk aufrufbar?
     - sind Inhalte aus dem Internet aufrufbar?
     - meshed der Knoten mit einem anderen?
-    - [[wurde ein Standard-SSH-Key in die Firmware integriert?|/Anleitungen/Node-Verwaltung-per-SSH#m%C3%B6glichkeiten-per-konsole_ssh-key-auf-node-hinzuf%C3%BCgen-oder-entfernen]]
+    - [[wurde ein Standard-SSH-Key in die Firmware integriert?|http://wiki.bremen.freifunk.net/Anleitungen/Node-Verwaltung-per-SSH#m%C3%B6glichkeiten-per-konsole_ssh-key-auf-node-hinzuf%C3%BCgen-oder-entfernen]]
 - erwünschte Tests:
     - Knoten taucht in der Knotenkarte auf, mit min. einem Client 
 
