@@ -13,7 +13,7 @@
     - Testing versteht sich als Release Candidate  
       nur Funktionen, welche unmittelbar auf Stable-Knoten sollen, werden in die Firmware eingebaut
     - Firmware mit `~exp`-Suffix für Tests von brandneuen und experimentellen Features
-        - wird eine  auf dem Downloadserver verfügbar gemacht
+        - wird auf dem Downloadserver verfügbar gemacht
         - hat kein Autoupdater
         - wird per Blog angekündigt
 - Firmware-Mirror entfernt  
