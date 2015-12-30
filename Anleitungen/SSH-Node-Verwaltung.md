@@ -51,9 +51,8 @@ sysupgrade [FIRMWAREFILE]
 ### SSH-Key auf Node hinzufügen oder entfernen
 Die Datei in der die erlaubten SSH-PublicKeys liegen, befindet sich in `/etc/dropbear/authorized_keys`. Zum Bearbeiten muss diese einfach in dem Editor der Wahl geöffnet werden.  
 Beispiel: `vim /etc/dropbear/authorized_keys`
-Nun kann ein weiterer Key in eine neue Zeile eingefügt werden oder ein bereits bestehender gelöscht werden.
-__Tipp: Es empfiehlt sich eine leere Zeile nach dem letzten Key zu lassen, um nicht jedes Mal ans Ende der Keys springen zu müssen.__
-Nach dem Speichern kann die Verbindung geschlossen werden und man kann sich mit dem neuen Key verbinden.
+Nun kann ein weiterer Key in eine neue Zeile eingefügt werden oder ein bereits bestehender gelöscht werden.  
+Nach dem Speichern kann man die Verbindung schließen und sich mit dem neuen Key verbinden.
 
 ### Node zurücksetzen
 Wenn man mal etwas kaputt-konfiguriert hat lässt sich der Zustand "frisch-geflash" wie folgt wiederherstellen.
