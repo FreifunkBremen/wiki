@@ -1,4 +1,4 @@
-# Node-Verwaltung per SSH
+# SSH-Node-Verwaltung
 
 ## Vorbereitung
 
