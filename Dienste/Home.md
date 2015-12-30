@@ -23,6 +23,7 @@ Folgende IP-Adressen sind vergeben:
       * 10.196.0.6 vpn06 (Testbetrieb, corny)
     * 10.196.0.10 – 10.196.0.39 Dienste-Server
       * 10.196.0.10 Monitoring - OMD site (genofire)
+      * 10.196.0.11 Webserver (ansible ID only - @hosts)
     * 10.196.0.42 server, mumble, experimentell (diega)
     * 10.196.0.60 notebook (bis dhcp zuverlässig läuft (diega))
     * 10.196.0.50 VPN-Offloader der Uni
