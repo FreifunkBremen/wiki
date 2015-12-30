@@ -1,3 +1,5 @@
+Dies sind die Winkel in denen die Sektorantennen senden.
+
 |        	| Horizontal 	| Vertikal 	|
 |--------	|------------	|----------	|
 | CPE210 	| 65°         | 35°       |
