@@ -7,7 +7,7 @@ Die Bennenung der Tags folgt dem Schema der [[Firmware-Versionen|/Firmware/Chang
 Der Befehl `git tag [TAGNAME]` legt einen (einfachen) Tag, in dem Zustand, in dem sich das lokale Repository gerade befindet (Branch, commit), an.
 
 ## angelegten Tag zum remote repository pushen
-Mit dem Befehl `git push [TAGNAME]` wird ein einzelner Tag gepushed.
+Mit dem Befehl `git push origin [TAGNAME]` wird ein einzelner Tag gepushed.
 
 ## signierte Tags
 Um Tags signieren zu können, muss `gpg` eingerichtet werden.
