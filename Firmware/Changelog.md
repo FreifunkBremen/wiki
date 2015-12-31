@@ -1,7 +1,7 @@
 # Versions-Changelog
 ## Freifunk Bremen Versionen
-**aktuelle Stable**: [2015.1.2+bremen3](#freifunk.bremen-versionen_2015.1.2+bremen3)  
-**aktuelle Testing**: [2015.1.2+bremen3](#freifunk-bremen-versionen_2015.1.2+bremen3)
+**aktuelle Stable**: [2015.1.2+bremen3](#freifunk-bremen-versionen_2015-1-2-bremen3)  
+**aktuelle Testing**: [2015.1.2+bremen3](#freifunk-bremen-versionen_2015-1-2-bremen3)
 
 ### 2015.1.2+bremen3
 **Release-Datum**: [20.12.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.2%2Bbremen3)  
