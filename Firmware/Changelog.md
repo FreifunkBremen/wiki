@@ -1,9 +1,11 @@
 # Versions-Changelog
 ## Freifunk Bremen Versionen
+**aktuelle Stable**: [2015.1.2+bremen3](#freifunk_bremen_versionen_2015.1.2+bremen3)  
+**aktuelle Testing**: [2015.1.2+bremen3](#freifunk_bremen_versionen_2015.1.2+bremen3)
+
 ### 2015.1.2+bremen3
 **Release-Datum**: [20.12.2015](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.2%2Bbremen3)  
 **gluon-Version**: [2015.1.2](#gluon-versionen_2015-1-2)  
-**aktueller Status**: testing
 - Firmware-Mirror entfernt  
   autoupdater lief mehrfach, wenn Mirror nicht erreichbar waren ([gluon-issue](https://github.com/freifunk-gluon/gluon/issues/582))
 - VPNs 01, 02, 03, 04 und 06 enthalten
