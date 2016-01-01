@@ -31,7 +31,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.90-94 genofire
     * 10.196.0.100 Dienste von Lorenz
     * 10.196.0.101 Küchenchef 3000
-    * 10.196.0.111 ec8or (u.a. Firmware-Mirror)
+    * 10.196.0.111 ec8or
     * 10.196.0.123 rbtz 
     * 10.196.0.127 node.ffhb.de
     * 10.196.0.128-159 Dienste von mortzu
@@ -58,21 +58,27 @@ Folgende IP-Adressen sind vergeben:
 Feste IP-Adressen von an Freifunk-Knoten angeschlossenen Servern sollten in 10.196.0.0/24 liegen. Hier eintragen und glücklich sein.
 
 ## IPv6-Adressen
-mortzu hat bei bei SixXS das ULA-Netz fd2f:5119:0f2c::/48 registriert. Wir haben aber auch den globalen Bereich 2001:bf7:540::/43 vom Freie Netze e.V. Momentan werden beide verteilt, in der Firmware ist das ULA-Netz eingetragen.
+Corny stellt das Netz 2a06:8782::/32 zur Verfügung, hier wurde weiterhin der Prefix `2a06:8782:ffbb:1337::` willkürlich festgelegt.
 
+Mortzu hat bei bei SixXS das ULA-Netz fd2f:5119:0f2c::/48 registriert, deises ist in der Firmware eingetragen.
 
-  * 2001:bf7:540::1-6 VPN-Server
-    * 2001:bf7:540::1 vpn01 (DNS, Gateway)
-    * 2001:bf7:540::2 vpn02 (DNS, Gateway)
-    * 2001:bf7:540::3 vpn03 (DNS, Gateway)
-    * 2001:bf7:540::4 vpn03 (DNS, Gateway)
-    * 2001:bf7:540::5 vpn05 (Testbetrieb, anon6789)
-    * 2001:bf7:540::6 vpn06 (Testbetrieb, corny)
-  * 2001:bf7:540::a Monitoring - OMD site (genofire)
-  * 2001:bf7:540::5b-5f (genofire)
-  * 2001:bf7:540::f0 (proxyhb)
-  * 2001:bf7:540::6f ec8or (u.a. Firmware-Mirror)
-  * 2001:bf7:540::80-9f Dienste von mortzu
+Einige Adressen sind fest hinterlegt. Sie werden im Folgenden aufgelistet.
+
+### VPN
+  * 2a06:8782:ffbb:1337::1 vpn01 (DNS, Gateway)
+  * 2a06:8782:ffbb:1337::2 vpn02 (DNS, Gateway)
+  * 2a06:8782:ffbb:1337::3 vpn03 (DNS, Gateway)
+  * 2a06:8782:ffbb:1337::4 vpn03 (DNS, Gateway)
+  * 2a06:8782:ffbb:1337::5 vpn05 (Testbetrieb, anon6789)
+  * 2a06:8782:ffbb:1337::6 vpn06 (DNS, Gateway)
+  * *2a06:8782:ffbb:1337::7-9 sind für weitere Gateways vorgesehen.*
+
+### Dienste
+  * 2a06:8782:ffbb:1337::a Monitoring - OMD site (genofire)
+  * 2a06:8782:ffbb:1337::5b-5f (genofire)
+  * 2a06:8782:ffbb:1337::f0 (proxyhb)
+  * 2a06:8782:ffbb:1337::6f (ec8or)
+  * 2a06:8782:ffbb:1337::80-9f Dienste von mortzu
 
 ## Andere Netze
 Aus dem Bremer Freifunk-Netz heraus erreichst du auch die Freifunk-Netze andere Städte und deren Dienste, beispielsweise [jene in Lübeck](http://luebeck.freifunk.net/wiki/Freifunk-verwenden). Auch zu anderen Netzen wie dem [dn42](http://dn42.net) oder [Chaos-VPN](http://wiki.hamburg.ccc.de/index.php/ChaosVPN) besteht eine Verbindung.
