@@ -58,9 +58,10 @@ Folgende IP-Adressen sind vergeben:
 Feste IP-Adressen von an Freifunk-Knoten angeschlossenen Servern sollten in 10.196.0.0/24 liegen. Hier eintragen und glücklich sein.
 
 ## IPv6-Adressen
-Corny stellt das Netz 2a06:8782::/32 zur Verfügung, hier wurde weiterhin der Prefix `2a06:8782:ffbb:1337::` willkürlich festgelegt.
+Corny stellt das Netz 2a06:8782::/32 zur Verfügung.
+Daraus verwenden wir `2a06:8782:ffbb:1337::/64` für unser Layer 2.
 
-Mortzu hat bei bei SixXS das ULA-Netz fd2f:5119:0f2c::/48 registriert, dieses ist in der Firmware eingetragen.
+Mortzu hat bei bei SixXS das ULA-Netz `fd2f:5119:0f2c::/48` registriert, dieses ist in der Firmware eingetragen.
 
 Einige Adressen sind fest hinterlegt. Sie werden im Folgenden aufgelistet.
 
