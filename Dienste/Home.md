@@ -60,7 +60,7 @@ Feste IP-Adressen von an Freifunk-Knoten angeschlossenen Servern sollten in 10.1
 ## IPv6-Adressen
 Corny stellt das Netz 2a06:8782::/32 zur Verfügung, hier wurde weiterhin der Prefix `2a06:8782:ffbb:1337::` willkürlich festgelegt.
 
-Mortzu hat bei bei SixXS das ULA-Netz fd2f:5119:0f2c::/48 registriert, deises ist in der Firmware eingetragen.
+Mortzu hat bei bei SixXS das ULA-Netz fd2f:5119:0f2c::/48 registriert, dieses ist in der Firmware eingetragen.
 
 Einige Adressen sind fest hinterlegt. Sie werden im Folgenden aufgelistet.
 
@@ -71,14 +71,14 @@ Einige Adressen sind fest hinterlegt. Sie werden im Folgenden aufgelistet.
   * 2a06:8782:ffbb:1337::4 vpn03 (DNS, Gateway)
   * 2a06:8782:ffbb:1337::5 vpn05 (Testbetrieb, anon6789)
   * 2a06:8782:ffbb:1337::6 vpn06 (DNS, Gateway)
-  * *2a06:8782:ffbb:1337::7-9 sind für weitere Gateways vorgesehen.*
+  * *2a06:8782:ffbb:1337::7 bis 9 sind für weitere Gateways vorgesehen.*
 
 ### Dienste
   * 2a06:8782:ffbb:1337::a Monitoring - OMD site (genofire)
-  * 2a06:8782:ffbb:1337::5b-5f (genofire)
+  * 2a06:8782:ffbb:1337::5b bis 5f (genofire)
   * 2a06:8782:ffbb:1337::f0 (proxyhb)
   * 2a06:8782:ffbb:1337::6f (ec8or)
-  * 2a06:8782:ffbb:1337::80-9f Dienste von mortzu
+  * 2a06:8782:ffbb:1337::80 bis 9f Dienste von mortzu
 
 ## Andere Netze
 Aus dem Bremer Freifunk-Netz heraus erreichst du auch die Freifunk-Netze andere Städte und deren Dienste, beispielsweise [jene in Lübeck](http://luebeck.freifunk.net/wiki/Freifunk-verwenden). Auch zu anderen Netzen wie dem [dn42](http://dn42.net) oder [Chaos-VPN](http://wiki.hamburg.ccc.de/index.php/ChaosVPN) besteht eine Verbindung.
