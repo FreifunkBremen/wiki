@@ -61,7 +61,7 @@ Feste IP-Adressen von an Freifunk-Knoten angeschlossenen Servern sollten in 10.1
 Corny stellt das Netz `22a06:8782::/32` zur Verfügung.
 Daraus verwenden wir `2a06:8782:ffbb:1337::/64` für unser Layer 2.
 
-Mortzu hat bei bei SixXS das ULA-Netz `fd2f:5119:0f2c::/48` registriert, dieses ist in der Firmware eingetragen.
+Mortzu hat bei bei SixXS das ULA-Netz `fd2f:5119:0f2c::/48` registriert, dieses begegnet einem an manchen Stellen ebenso wie das ehemalige Prefix `2001:bf7:540::/48`.
 
 Einige Adressen sind fest hinterlegt. Sie werden im Folgenden aufgelistet.
 
