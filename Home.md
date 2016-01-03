@@ -17,11 +17,7 @@ Wir treffen uns zweimal im Monat: Am 1. Freitag und am 3. Donnerstag im Monat im
   * [[08.01.2016 (Freitag)|Treffen/2016_01_08]] - (ausnahmsweise 2. Freitag im Monat, da 01.01. unmenschlich ist)
   * [[21.01.2016 (Donnerstag)|Treffen/2016_01_21]]
 * [Liste aller Treffen](http://wiki.bremen.freifunk.net/pages/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
-
-* Sonstige Treffen:
-  * 27.12.2015 - 30.12.2015 - Viele Freifunker auf dem 32C3 (Freifunk-Ecke in Saal 3)
-
-* Weitere Termine (nicht nur Treffen) finden sich in den Protokollen zu den verschiedenen Treffen.
+* Weitere Termine (nicht nur Treffen) finden sich in den Protokollen zu den verschiedenen Treffen
 
 ## Organisatorisches
 * [[Oeffentlichtkeitsarbeit]]
