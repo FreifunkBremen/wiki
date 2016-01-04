@@ -35,8 +35,8 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.123 rbtz 
     * 10.196.0.127 node.ffhb.de
     * 10.196.0.128-159 Dienste von mortzu
-      * 10.196.0.129 meshmon-1.ffhb.mortzu.de
-      * 10.196.0.130 meshmon-2.ffhb.mortzu.de
+      * 10.196.0.129 gatemon-1.ffhb.mortzu.de
+      * 10.196.0.130 gatemon-2.ffhb.mortzu.de
     * 10.196.0.196 Dienste von Eike
     * 10.196.0.200 Dienste von jplitza
     * 10.196.0.240 Dienste von proxyhb
@@ -45,7 +45,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.20.0 - 10.196.29.255 per DHCP vergeben von 10.196.0.2
     * 10.196.30.0 - 10.196.39.255 per DHCP vergeben von 10.196.0.3
     * 10.196.50.0 - 10.196.59.255 per DHCP vergeben von 10.196.0.5
-    * 10.196.60.0 - 10.196.69.255 per DHCP vergeben von 10.196.0.7
+    * 10.196.60.0 - 10.196.69.255 per DHCP vergeben von 10.196.0.6
   * 10.196.123.0/24 Range von Ixoid
     * 10.196.123.42 GartenPi
 * 10.196.126.0/24
