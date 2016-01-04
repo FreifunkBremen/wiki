@@ -2,7 +2,7 @@ Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Die
 
 * [Wikipedia-Mirror (mit Bildern)](http://wikipedia.ffhb.de)
 * [Tahoe-LAFS](/Dienste/Tahoe-LAFS)
-* [Monitoring in FFHB](http://monitoring.ffhb.de) [in Public](http://monitoring.ffhb.ml) OMD Site.
+* [Monitoring in FFHB](http://monitoring.ffhb.de) [in Public](http://orion.h.sum7.de/ffhb/) OMD Site.
   (Benutzer:guest, Passwort: ffhb - Weitere Rechte auf Anfrage) (genofire)
 * [SIP Server](http://sip.services.ffhb.de/web/) Asterisk SIP und SMS Server (alpha - Nebirosh) Anleitung zur Einrichtung folgt!
 * [Etherpad-lite](http://pads.services.ffhb.de/) kollaboratives Schreiben von Texten
