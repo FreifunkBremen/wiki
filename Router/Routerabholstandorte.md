@@ -15,9 +15,20 @@ Wer sich selber einträgt, möge bitte die folgenden Informationen inkludieren:
 * **Kosten**  
   gerne auch als Kostenbereich, Unterschiede können bei der Kontaktaufnahme geklärt werden
 
+#### Anleitung
+Damit ein Eintrag einwandfrei in die Tabellen aufgenommen wird, muss ein Schema eingehalten werden.
+- In den Bearbeitungsmodus der Wiki-Seite kommt man über den `Edit`-Knopf oben rechts.
+- Im linken Bereich des Fensters, sucht man sich seinen Stadtteil mit 2 führenden `##` heraus  
+  Beispiel: `## Findorff`
+- Am Ende der weißen Schrift dieses Abschnittes, fügt man eine neue Zeile hinzu
+- Dort trägt man seine Daten nach folgendem Schema ein:  
+  ```
+  (ungefährer) STANDORT | KONTAKT | GERÄTE | KOSTEN
+  ```
+- Zum Speichern klickt man ganz oben auf das Diskettensymbol.
 
 
-**Alle Router müssen von der aktuellen Firmware unterstützt sein! Dies ist kein Ort um genrell Router loszuwerden!**
+**Alle Router müssen von der aktuellen Firmware unterstützt sein! Dies ist kein Ort um generell Router loszuwerden!**
 
 Wer seine Router selbst flashen möchte, erhält diese häufig zum Selbstkostenpreis. Preise eingerichteter Router werden gerne aufgerundet.
 
@@ -31,12 +42,12 @@ Butendiek | nukeUS (_freifunk(ÄT)nukeUS.de_)  | alles wo gibt (841 v9)| ab 20�
 ## Bremerhaven
 Standort      | Kontakt                   | Geräte                     | Kosten    | Kommentar
 ---           | ---                       | ---                        | ---       | ---
-Bhv. Mitte/Lehe | freifunkinbremerhaven@posteo.de| TP-LINK TL-WR841ND v.9.3| 20 €  | Treff- und Zeitpunktpunkt nach Absprache. Ich helfe auch gerne beim Einrichten.
+Bhv. Mitte/Lehe | freifunkinbremerhaven@posteo.de| TP-LINK TL-WR841ND v.9.3 | 20 €  | Treff- und Zeitpunktpunkt nach Absprache. Ich helfe auch gerne beim Einrichten.
 
 ## Findorff
 Standort                | Kontakt   | Geräte            | Kosten
 ---                     | ---       | ---               | ---
-Nähe Schlachthof/Halle7 | [SimJoSt] | TP-LINK TL-WR841N | 20## Findorff
+Nähe Schlachthof/Halle7 | [SimJoSt] | TP-LINK TL-WR841N | 20 €
 
 
 ## Gröpelingen
