@@ -8,7 +8,7 @@
 | vpn02  | Plutex        | Bremen   | unbekannt    |
 | vpn03  | planet cyborg | Bremen   | 10 € / Monat |
 | vpn04  | Nebirosh      | Hetzner  | unbekannt    |
-| vpn05  | geno          | Hetzner  | unbekannt    |
+| vpn05  | anon6789      | Hetzner  | unbekannt    |
 | vpn06  | corny         | Plutex   | unbekannt    |
 
 ## Domains
