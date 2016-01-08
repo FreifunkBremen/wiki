@@ -24,6 +24,8 @@ Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat im [Hackerspace 
 * [[Wo bekomme ich einen Router?|Router/Routerabholstandorte]]
 * [[Sammelbestellung Access Points|Router/SammelbestellungAPs]]
 * [Gemeinsamer Kalender](https://hb.jplitza.de/owncloud/index.php/apps/calendar/) (Nutzerdaten: ffhb / wellenfunk)
+  * [CalDAV](https://hb.jplitza.de/owncloud/remote.php/caldav/calendars/ffhb/pers%C3%B6nlich1)
+  * [ICS-Export](https://hb.jplitza.de/owncloud/index.php/apps/calendar/export.php?calid=7)
 
 ## Technisches
 * [[Firmware|Anleitungen/Firmware/Home]]
