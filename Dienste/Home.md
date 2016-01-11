@@ -20,7 +20,7 @@ Folgende IP-Adressen sind vergeben:
       * 10.196.0.3 vpn03 (DNS, Gateway)
       * 10.196.0.4 vpn03 (DNS, Gateway)
       * 10.196.0.5 vpn05 (Testbetrieb, anon6789)
-      * 10.196.0.6 vpn06 (Testbetrieb, corny)
+      * 10.196.0.6 vpn06 (DNS, Gateway, corny)
     * 10.196.0.10 – 10.196.0.39 Dienste-Server
       * 10.196.0.10 Monitoring - OMD site (genofire)
       * 10.196.0.11 Webserver (ansible ID only - @hosts)
