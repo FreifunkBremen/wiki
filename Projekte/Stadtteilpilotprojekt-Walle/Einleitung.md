@@ -16,7 +16,7 @@ Um diese Ziele zu erreichen werden monatliche Treffen abgehalten.
 
 Diese finden generell um 18 Uhr in der [Kunstgalerie 2nach4](http://www.2nach4.de/) statt. Der spezifische Tag wird über ein Dudle ermittelt: https://dudle.hackerspace-bremen.de/ffhb-projekt-walle/
 
-**Das nächste Treffen ist am Dienstag, den 17.11.2015, um 18 Uhr im [2nach4](http://www.2nach4.de/).**
+**Das nächste Treffen ist am Dienstag, den 19.01.2016, um 18 Uhr in der [Kunstgalerie 2nach4](http://www.2nach4.de/).**
 
 ### Kommunikation
 Um jedem neuen Interessierten die Möglichkeit zu geben sich eigenständig einzuklinken, wurde eine Mailingliste eingerichtet. Eine Nachricht an projekt-walle@bremen.freifunk.net erreicht alle Mitglieder, die sich eingetragen haben.
