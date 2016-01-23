@@ -37,7 +37,7 @@ Wer seine Router selbst flashen möchte, erhält diese häufig zum Selbstkostenp
 ## Borgfeld
 Standort|Kontakt|Geräte/Kosten|Kommentar
 ---|---|---|---|---
-Butendiek|nukeUS (_freifunk(ÄT)nukeUS.de_)  |GebrauchtWare: WR841N**D** 20€ (v8 m. schönem SchiebeSchalter für WiFi on/off)   WDR3600 max. 40€, WDR4300 max. 50€, **Neuware**: max. +50%, Preis hängt bei den WDRs vom Netzteil und ob blaue/grüne LED usw ab. **Gebrauchte NanoStation:** M2 loco 30€, M5 loco 40€, M5 55€, M2 45€ (neu, ohne Rechnung 60€)|langfristige Leihgaben und Anlieferungen mehrmals wöchentlich ins StadtGebiet Bremen (ohne Nord, dort aber in BremenBurg bei einer Lackiererei, wo ein Freund, der von hier her werktägl. hin fährt, arbeitet) möglich.
+Butendiek|nukeUS (_freifunk(ÄT)nukeUS.de_)  |GebrauchtWare: WR841N**D** 20€ (v8 m. schönem SchiebeSchalter für WiFi on/off)   WDR3600 max. 40€, WDR4300 max. 50€, **Neuware**: max. +50%, Preis hängt bei den gebr. WDRs vom Netzteil und ob blaue/grüne LED usw ab. **Gebrauchte NanoStation:** M2 loco 30€, M5 loco 40€, M5 55€, M2 45€ (**neue**, versiegelte M2, ohne Rechnung 60€)|langfristige Leihgaben und Anlieferungen mehrmals wöchentlich ins StadtGebiet Bremen (ohne Nord, dort aber in BremenBurg bei einer Lackiererei, wo ein Freund, der von hier her werktägl. hin fährt, arbeitet) möglich.
 
 ## Bremerhaven
 Standort      | Kontakt                   | Geräte                     | Kosten    | Kommentar
