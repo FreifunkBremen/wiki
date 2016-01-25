@@ -1,3 +1,4 @@
+# Treffen
 ## Regeltreffen
 
 Beim Regeltreffen geht es um allgemeine Organisation: Was muss erledigt werden? Welcher Termine stehen an? Sidn Anfragen die ind er Gruppe diskutiert werden müssen? etc.
