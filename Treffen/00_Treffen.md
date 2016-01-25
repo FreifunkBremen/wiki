@@ -15,4 +15,7 @@ Hier werden offene Aufgaben erledigt, z.B. Server-Konfiguration, Dokumentation e
 
 ## Communitytreffen _aka Stammtisch_
 
-Jeden **zweiten und vierten Mittwoch** in der Charlotte in der Neustadt, zum schnacken.
+Neben den ganzen Orga- und Arbeitsthemen gibts in regelmäßigen Abständen eine kleine Zusammenkunft in einer Kneipe/Bar, um einfach mal zu klönen und das ein oder andere Kaltgetränk zu genießen.
+
+* __Wann?__: Jeden **zweiten und vierten Mittwoch**, 20 Uhr
+* __Wo?__: BAR °Charlotte Gainsbourgh in der Neustadt (Friedrich-Ebert-Straße, Haltestelle Theater am Leibnitzplatz, Linie 4/5/6)
