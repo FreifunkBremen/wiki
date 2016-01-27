@@ -62,6 +62,30 @@ Nach wenigen Minuten sollte dein Router folgende Meldung anzeigen und neu starte
 
 <img src="http://jel.to/ff_pics/success.png" width="300px" title="Erfolgreich geflasht">
 
+## Freifunk-Router Betriebsmodi
+Ein Router mit aufgespielter Freifunk-Firmware nennt sich Knoten und hat 2 Betriebsmodi:
+
+1. Konfigurationsmodus (config mode)
+2. Produktivmodus
+
+### Konfigurationsmudus
+Ist ein Knoten im Konfigurationsmodus, so baut er keine Verbindungen zu anderen Knoten in der Umgebung und zum Freifunk-Server, und somit dem Internet, auf. Das WLAN ist deaktiviert.
+
+An Geräte, welche an einen LAN-Anschluss angeschlossen sind, verteilt er eine IP im Adressbereich `192.168.1.2-255`. Es kann einige Minuten dauern, bis der Knoten die IP vergeben hat. Wer sich nicht gedulden möchte kann sich selber manuell eine IP geben, wenn man weiß wie das auf dem eigenen System funktioniert.  
+Über `192.168.1.1` ist das Konfigurationsinterface des Knotens erreichbar.  
+Hier lassen sich die wichtigsten Einstellungen vornehmen.
+
+Wurde ein Knoten gerade frisch geflashed, startet er direkt in den Konfigurationsmodus für die Ersteinrichtung.  
+Nach dem Speichern der Einstellungen startet der Knoten in den Produktivmodus neu.
+
+Um später wieder in den Produktivmodus zu gelangen, muss der Reset-Knopf des Gerätes so lange gedrückt werden, bis alle LEDs ein mal kurz aufleuchten.
+
+### Produktivmodus
+Ein Freifunk Knoten wird sich in der meisten Zeit im Produktivmodus befinden. Er baut zu anderen Knoten in der Umgebung per WLAN und zu den Freifunk Servern per Internet eine Verbindung aus.  
+Über die SSID (WLAN-Name) `bremen.freifunk.net` kann man mit WLAN-fähigen Geräten sich ins Freifunk einklinken.
+
+Im Produktivmodus ist die Konfigurationsseite unter `192.168.1.1` **nicht** erreichbar.
+
 
 ## Freifunk-Router konfigurieren
 
