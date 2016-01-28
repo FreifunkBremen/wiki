@@ -31,10 +31,18 @@ Wer einen CF-Cardreder Zuhause hat, überspielt das Image einfach auf die Karte 
 Jetzt bootet der Futro in den Configmode und kann entsprechend konfiguriert werden.
 
 ## Das Dual-NIC-Setup
-Die technisch einfachere Variante ist das Einbauen einer zusätzlichen Netzwerkkarte. Dazu ist eine um 90° gewinkelte Risercard nötig (Freifunker anon6789 hat noch einige passende über). Sobald die Netzwerkkarte eingebaut ist, hat der Router eine LAN und eine WAN Schnittstelle (WAN ist die PCI-Karte).
+Die technisch einfachere Variante ist das Einbauen einer zusätzlichen Netzwerkkarte. Dazu ist eine um 90° gewinkelte Risercard nötig (Freifunker anon6789 hat noch einige passende über). Sobald die Netzwerkkarte eingebaut ist, hat der Router eine LAN und eine WAN Schnittstelle (WAN ist die PCI-Karte). Achtung: wird die Netzwerkkarte es nachträglich eingebaut, muss das Image noch einmal neu aufgespielt werden!
+
+ <img src="http://jel.to/ff_pics/offloader_dual_nic.jpg" alt="Futro Dual WAN Setup" style="width:400px;height:533px;">
+ 
+ Über das blaue LAN-Kabel bekommt der Futro Uplink und über das orangene Mesht er über LAN mit einem weiteren Router.
 
 ## Das VLAN-Setup
 Das VLAN-Setup ist technisch anspruchsvoller und es ist noch ein zusätzlicher Freifunkrouter nötig (oder andere VLAN-Hardware). Dabei wird das WAN-Netz vom Router über ein VLAN an den Offloader weitergereicht und in einem weiteren tagged VLAN wird gemesht. Der Freifunkrouter schleift das WAN also nur durch, ohne selbst das VPN aufzubauen.
+
+ <img src="http://jel.to/ff_pics/offloader_vlan.jpg" alt="Futro VLAN Setup" style="width:400px;height:533px;">
+ 
+ In diesem Setup bekommt der Router Uplink über das blaue Kabel. Über das orangene Kabel laufen zwei VLANs zum Futro, im einen das WAN-Netz für die VPN-Verbindung und im anderen Mesh-On-LAN.
 
 Zuerst wird der Futro wie folgt konfiguriert:
 
@@ -82,6 +90,8 @@ Eventuell muss etwas herumgespielt werden mit den Ports, da diese sich je nach R
 ```
 swconfig dev switch0 show
 ```
+
+
 
 
 tbc
