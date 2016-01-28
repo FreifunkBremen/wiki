@@ -93,7 +93,20 @@ swconfig dev switch0 show
 
 
 ## Performance
+Bei einem Test an einer VDSL50-Leitung (50MBit/s Download und 10MBit/s Upload) leistet der Futro je nach gewähltem Gateway maximal 44 Mbit/s im Download und 8 MBit/s im Upload. Abzüglich des VPN-Overheads lastet der Futro die Leitung also voll aus. Nächste Tests müssen an schnelleren Leitungen durchgeführt werden.
 
+
+Benchmark Download (y-Achse dabei in MBit/s):
+<img src="http://jel.to/ff_pics/benchmark_offloader_down.png" alt="Futro Benchmark Download" style="width:818px;height:451px;">
+
+Benchmark Upload (y-Achse dabei in MBit/s):
+<img src="http://jel.to/ff_pics/benchmark_offloader_up.png" alt="Futro Benchmark Upload" style="width:781px;height:452px;">
+
+Im Freifunk-Forum wird folgendes berichtet:
+
+> In der Varriante mit einer NIC und VLAN erreicht der Futro etwa 55MBit/s. Mit einer zweiten PCI Netzwerkkarte wurden Werte bis etwa 90MBit/s gemessen.
+
+Damit eignet sich der Futro also auch schon für größere Installationen.
 
 ## Weitere Infos
 Die meisten Infos stammen aus dem [Freifunk Forum FAQ](https://forum.freifunk.net/t/f-a-q-zum-offloader-fujitsu-siemens-futro-s550/8294). Hier findet sich alles wichtige zum Futro.
