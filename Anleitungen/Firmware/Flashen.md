@@ -68,7 +68,7 @@ Ein Router mit aufgespielter Freifunk-Firmware nennt sich Knoten und hat 2 Betri
 1. Konfigurationsmodus (config mode)
 2. Produktivmodus
 
-### Konfigurationsmudus
+### Konfigurationsmodus
 Ist ein Knoten im Konfigurationsmodus, so baut er keine Verbindungen zu anderen Knoten in der Umgebung und zum Freifunk-Server, und somit dem Internet, auf. Das WLAN ist deaktiviert.
 
 An Geräte, welche an einen LAN-Anschluss angeschlossen sind, verteilt er eine IP im Adressbereich `192.168.1.2-255`. Es kann einige Minuten dauern, bis der Knoten die IP vergeben hat. Wer sich nicht gedulden möchte kann sich selber manuell eine IP geben, wenn man weiß wie das auf dem eigenen System funktioniert.  
