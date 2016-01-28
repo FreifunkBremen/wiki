@@ -4,7 +4,7 @@ Für größere Freifunk-Installationen ist es sinnvoll, einen dedizierten Router
 
 Großer Beliebtheit erfreut sich der [Fujitsu-Siemens Futro S550 Thin-Client](http://sp.ts.fujitsu.com/dmsp/Publications/public/ds-FUTRO-S550-2.pdf). Mit seinen kompakten Ausmaßen, 15 Watt Stromverbrauch und genug Rechenleistung für über 50MBit VPN-Durchsatz wird dieser natürlich jetzt auch in Bremen getestet.
 
-Es gibt grundsätzlich zwei mögliche Setups. Eine Möglichkeit ist das Nachrüsten einer zusätzlichen PCI-Netzwerkkarte oedr mit nur einer Netzwerkkarte und VLANs.
+Es gibt grundsätzlich zwei mögliche Setups. Eine Möglichkeit ist das Nachrüsten einer zusätzlichen PCI-Netzwerkkarte oder mit nur einer Netzwerkkarte und VLANs.
 
 ## Installation
 Grundsätzlich bieten wir für alle x86-Rechner ein generisches Image an. Solange keine Spezialhardware verbaut ist, die extra Treiber benötigt, kann dieses ohne Probleme installiert werden. Der CF-Cardreader des Futro benötigt leider zusätzliche Treiber. Die Firmware muss also neu gebaut werden:
@@ -28,7 +28,7 @@ Wer einen CF-Cardreder Zuhause hat, überspielt das Image einfach auf die Karte 
 > 
 > Das war's schon.
 
-Jetzt bootet der Futro in den Configmode und kann entsprechend konfiguriert werden.
+Jetzt bootet der Futro in den Configmode und kann entsprechend konfiguriert werden. Damit der Futro sofort startet, sobald er Strom hat, kann im Bios die Option in case of power failure auf auf always on gestellt werden.
 
 ## Das Dual-NIC-Setup
 Die technisch einfachere Variante ist das Einbauen einer zusätzlichen Netzwerkkarte. Dazu ist eine um 90° gewinkelte Risercard nötig (Freifunker anon6789 hat noch einige passende über). Sobald die Netzwerkkarte eingebaut ist, hat der Router eine LAN und eine WAN Schnittstelle (WAN ist die PCI-Karte). Achtung: wird die Netzwerkkarte es nachträglich eingebaut, muss das Image noch einmal neu aufgespielt werden!
@@ -92,6 +92,8 @@ swconfig dev switch0 show
 ```
 
 
+## Performance
 
 
-tbc
+## Weitere Infos
+Die meisten Infos stammen aus dem [Freifunk Forum FAQ](https://forum.freifunk.net/t/f-a-q-zum-offloader-fujitsu-siemens-futro-s550/8294). Hier findet sich alles wichtige zum Futro.
