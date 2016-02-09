@@ -137,9 +137,20 @@
 ## Gluon-Versionen
 Hier aufgeführt sind die von Freifunk Bremen genutzten Gluon-Versionen mit einer kurzen Zusammenfassung von relevanten Änderungen.
 
-### 2015.2
-*(Vorabversion/noch in der Entwicklung)*
-* Support für TP-LINK TL-WR841 v10
+### [2016.1](https://gluon.readthedocs.org/en/v2016.1/releases/v2016.1.html)
+**Release-Datum**: 08.02.2016
+* Unterstützung für mehr Geräte, vor allem:
+  * TP-LINK TL-WR841 v10
+  * CPE210/220/510/520 v1.1
+  * airGateway
+  * airRouter
+  * UniFi AP Outdoor+
+* neue Status-Seite  
+  * optisch ansprechend
+  * Echtzeit-Grafiken für Signalstärke für alle Nachbar-Knoten
+  * hilft beim genauen Ausrichten von Antennen
+* 802.11s Support  
+  ermöglicht Unterstützung von mehr Geräten, deren Treiber das jetzige Setup von gleichzeitigem ad-hoc- und infracstructure-mode nicht unterstützen
 
 ### [2015.1.2](http://gluon.readthedocs.org/en/v2015.1.2/releases/v2015.1.2.html)
 * Unterstützung für mehr Geräte
