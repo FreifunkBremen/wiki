@@ -27,8 +27,8 @@ Wir versuchen den Grad der Sensibilität der Daten durch diese "Bezugsart" zu ve
 
 | Daten                      | Bezugsart    | Gespeichert | Öffentlich | Speicherdauer | …im Backup |
 |----------------------------|--------------|-------------|------------|---------------|------------|
-| Kontaktdaten (freiwillig)  | Person       | ✔           | ✔          | 30 Minuten³   | ✘          |
-| Koordinaten (freiwillig)   | Person       | ✔           | ✔          | 30 Minuten³   | ✘          |
+| Kontaktdaten (freiwillig)  | Person       | ✔           | ✔          | 7 Tage³       | ✘          |
+| Koordinaten (freiwillig)   | Person       | ✔           | ✔          | 7 Tage³       | ✘          |
 | Nutzungsstatistiken        | Knoten⁴      | ✔           | ✔          | unbegrenzt    | ✘          |
 
 ³ Diese Daten werden auf dem Knoten dauerhaft gespeichert und von diesem regelmäßig im Netz bekannt gegeben. Unsere Server halten die Daten (beispielsweise nach Abschalten des Knotens) noch für 30 Minuten vor, bevor sie vergessen werden.
@@ -40,7 +40,7 @@ Wir versuchen den Grad der Sensibilität der Daten durch diese "Bezugsart" zu ve
 | Daten                      | Bezugsart    | Gespeichert | Öffentlich | Speicherdauer | …im Backup |
 |----------------------------|--------------|-------------|------------|---------------|------------|
 | Webseitenbesuche           | keine⁵       | ✔           | ✘          | 1 Monat       | +3 Tage    |
-| Mails an die Mailingliste  | Person       | ✔           | ✔⁶         | 1 Monat       | +3 Tage    |
+| Mails an die Mailingliste  | Person       | ✔           | ✔⁶         | unbegrenzt    | +3 Tage    |
 | Änderungsverlauf im Wiki   | keine⁵       | ✔           | ✔          | unbegrenzt    | unbegrenzt |
 
 ⁵ "keine" heißt hier, dass zur Speicherung von Informationen der Verweis auf eindeutige Identifikationsnummern (z.B. IP-Adressen, Session Daten) komplett bei der Erhebung oder kurze Zeit später entfernt oder stark verkürzt wird. Bei IPv4-Adressen bedeutet das konkret, dass sie durch Nullen ersetzt werden.
