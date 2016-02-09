@@ -138,6 +138,8 @@
 Hier aufgeführt sind die von Freifunk Bremen genutzten Gluon-Versionen mit einer kurzen Zusammenfassung von relevanten Änderungen.
 
 ### [2016.1](https://gluon.readthedocs.org/en/v2016.1/releases/v2016.1.html)
+###### *urspr. 2015.2*
+
 **Release-Datum**: 08.02.2016
 * Unterstützung für mehr Geräte, vor allem:
   * TP-LINK TL-WR841 v10
