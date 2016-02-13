@@ -9,3 +9,6 @@ Im Moment haben Zugriff:
 * corny
 * Ollibaba
 * SimJoSt
+
+## Firewall
+Der Server hat eine sehr restriktive Firewall und erlaubt nur die nötigsten Adressen zum Bauen von Gluon. Wenn beim Bauen wegen eines fehlerhaften Downloads ein Fehler auftritt, bitte Nachricht an jplitza zum Freischalten der entsprechenden Adresse.
