@@ -128,11 +128,11 @@ Der per Kabel an die gelben Buchsen angeschlossene Rechner erhält vom Router ei
 
 ## Anschluss an den Heimrouter
 
-Jetzt, wo dein Router geflasht und eingerichtet wurde, musst du ihn einfach nur noch **an deine Heimrouter anschließen**. Nehme dazu das graue LAN-Kabel aus dem Karton und stecke es in den **blauen „WAN“-Anschluss** deines Freifunkrouters **(„1.“)**. **Nicht die gelben Ports** verwenden, dann kann der Router keine Verbindung zum Freifunknetz über das Internet aufbauen!
+Den geflashten und eingerichteten Freifunk-Router musst du nun **mit deinem Heimrouter verbinde**. Nimm dazu das graue LAN-Kabel aus dem Karton und stecke es in den **blauen „WAN“-Anschluss** deines Freifunkrouters **(„1.“)**. (**Nicht die gelben Ports** verwenden! Denn dann kann der FF-Router keine Verbindung zum Freifunknetz über das Internet aufbauen!)
 
 <img src="http://jel.to/ff_pics/ff_an_fritz.jpg" title="Anschluss Freifunkrouter">
 
-Das andere Ende des grauen LAN-Kabels kommt in den (oft) **gelben LAN-Port deines Providerrouters** (Fritzbox, Speedport, Easybox usw.) **(„2.“)**. An dem Kabel, was aus der Wand (TAE-Dose) zu deinem Providerrouter führt und im blauen Port steckt, musst du **nichts weiter verändern** (in diesem Fall das orangene Kabel). 
+Das andere Ende des grauen LAN-Kabels kommt in den (oft) **gelben LAN-Port deines Providerrouters** (Fritzbox, Speedport, Easybox usw.) **(„2.“)**. An dem Kabel, was aus der Wand (TAE-Dose) zu deinem Providerrouter führt und im blauen Port steckt, musst du **nichts weiter verändern** (hier das orangene Kabel). 
 Sobald beide Geräte mit Strom versorgt werden, hast du nach wenigen Minuten deinen Freifunkrouter am Netz! Ebenfalls wird nach kurzer Zeit der Name deines Routers in der [Knotenliste](http://bremen.freifunk.net/map/list.html) auftauchen. 
 
 
