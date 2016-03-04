@@ -38,6 +38,15 @@ Eine Übersicht aller Arten von Zusammenkünften findest du unter [[Treffen|Tref
  * [[Monitoring|Dienste/Monitoring]]
 * [[Datenschutz]]
 
+## Geflüchtete
+
+* Hinzugekommene Unterkünfte
+  * Kirchweg
+  * Herdentorsteinweg
+* Geplant - wer hat nächste Woche Zeit?
+  * Hohweg
+  * BreNor und Ermlandstraße
+
 ## Änderungen mitbekommen
 
 Wer sich dafür interessiert, wann sich etwas an diesem Wiki ändert, kann das über das entsprechende [Repository auf Github](https://github.com/FreifunkBremen/wiki/) tun, z.B. per [Atom-Feed](https://github.com/FreifunkBremen/wiki/commits/master.atom) oder über den Button ganz oben rechts.
