@@ -26,8 +26,8 @@ Eine Übersicht aller Arten von Zusammenkünften findest du unter [[Treffen|Tref
 * [[Wo bekomme ich einen Router?|Router/Routerabholstandorte]]
 * [[Sammelbestellung Access Points|Router/SammelbestellungAPs]]
 * [Gemeinsamer Kalender](https://hb.jplitza.de/owncloud/index.php/apps/calendar/) (Nutzerdaten: ffhb / wellenfunk)
-  * [CalDAV](https://hb.jplitza.de/owncloud/remote.php/caldav/calendars/ffhb/pers%C3%B6nlich1)
-  * [ICS-Export](https://hb.jplitza.de/owncloud/index.php/apps/calendar/export.php?calid=7)
+  * [CalDAV](https://hb.jplitza.de/owncloud/remote.php/dav/calendars/ffhb/pers%C3%B6nlich1)
+  * [ICS-Export](https://hb.jplitza.de/owncloud/remote.php/dav/calendars/ffhb/pers%c3%b6nlich1?export)
 
 ## Technisches
 * [[Firmware|Anleitungen/Firmware/Home]]
