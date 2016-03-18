@@ -26,6 +26,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.60 notebook (bis dhcp zuverlässig läuft (diega))
     * 10.196.0.50 VPN-Offloader der Uni
     * 10.196.0.70 anon6789
+    * 10.196.0.80 Futro Frank.H Offloader Test
     * 10.196.0.90-94 genofire
     * 10.196.0.100 Dienste von Lorenz
     * 10.196.0.101 Küchenchef 3000
