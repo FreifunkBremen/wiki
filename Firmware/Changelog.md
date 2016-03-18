@@ -1,10 +1,14 @@
 # Versions-Changelog
 ## Freifunk Bremen Versionen
 **aktuelle Stable**: [2015.1.2+bremen3](#freifunk-bremen-versionen_2015-1-2-bremen3)  
-**aktuelle Testing**: [2016.1+bremen1](#freifunk-bremen-versionen_2016-1-bremen1)
+**aktuelle Testing**: [2016.1.2+bremen1](#freifunk-bremen-versionen_2016-1-2-bremen1)
+
+### 2016.1.2+bremen1
+**Release-Datum**: ???  
+**gluon-Version**: [2016.1.2](#gluon-versionen_2016-1-2)
 
 ### 2016.1+bremen1
-**Release-Datum**: ???  
+**Release-Datum**: nicht released  
 **gluon-Version**: [2016.1](#gluon-versionen_2016-1)
 - Update auf Gluon 2016.1
 - vpn05 hinzugefügt
