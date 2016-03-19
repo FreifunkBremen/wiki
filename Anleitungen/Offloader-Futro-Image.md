@@ -4,7 +4,7 @@ In den Freifunk-Foren werden viele interessante Themen um den Futro besprochen.
 Um die benötigten Informationen nicht überall zusammensuchen zu müssen, hier
 eine kleine Zusammenfassung für das Bremer Futro-Image.
 
-1. Abschnitt: Die Hardware.
+**1.) Abschnitt: Die Hardware.**
 
 Fujitsu Siemens Futro S550-2.
 Erste Informationen sind unter [https://forum.freifunk.net/t/f-a-q-zum-offloader-fujitsu-siemens-futro-s550/8294](https://forum.freifunk.net/t/f-a-q-zum-offloader-fujitsu-siemens-futro-s550/8294) zu finden.
@@ -16,7 +16,7 @@ Gerät auf die Seite legen, die Rückseite zu uns. Die **zwei** Schrauben **link
 Netzwerkkarte mit kurzem Slotblech (1/2 Bauhöhe) einsetzten. Bei Netzwerkkarten mit langem Slotblech, dieses Kürzen und umbiegen. Das Slotblech wird später nur eingeklemmt. Bedingung für Karten mit langem Slotblech, diese müssen mit 3,3V funktionieren. 5V Karten sollen nicht funktionieren (bisher nicht getestet.)
 Soll das Image per USB-Stick aufgespielt werden, kann das Gehäuse jetzt wieder zusammengebaut werden. Metallbügel auf richtigen Sitz kontrollieren und Gehäusedeckel einsetzten. Vor dem Zuschrauben, den Sitz der Netzwerkkarte kontrollieren und ggf. justieren, damit die LAN Buchse zugänglich ist. Das Gerät ist nun fertig, und das Image kann eingespielt werden kann.
 
-2. Image einspielen.
+**2.) Image einspielen.**
 
 Um ein Image aufzuspielen, gibt es mehrere Methoden. Die schnellste und eleganteste ist das Aufspielen mit einem USB-Stick. Einen USB-Stick mit folgendem Bootimage verwenden:
 [https://forum.freifunk.net/t/einfache-loesung-um-einen-futro-s550-offloader-zu-flashen-windows-linux-os-x/8988](https://forum.freifunk.net/t/einfache-loesung-um-einen-futro-s550-offloader-zu-flashen-windows-linux-os-x/8988)
@@ -42,7 +42,7 @@ werden, die dann später gemountet wird.
 
 Im nächsten Kapitel bauen wir das Image selber.
 
-3. Eigene Images bauen.
+**3.) Eigene Images bauen.**
 
 Zutatenliste. Internetzugang, ein debian basierendes Linux wie Ubuntu (Empfehlung), ca. **50GB** freien Plattenplatz.
 Optional: SSD und I7 Prozessor beschleunigt die Erstellung auf 2h, 20 Min. nur X86 Image. Oder Zeit zum Erstellen einplanen. Wer noch kein Linux installiert hat, freie Partition auf dem PC schaffen und Ubuntu installieren, aktualisieren und durchbooten. Alternativ über eine virtuelle Maschine (VMWare/ Virtual Box). Gut unter Freifunk Youtube erklärt. Beider Installationen sind recht einfach,
@@ -52,7 +52,7 @@ Wir bewegen uns auf die Seite [https://github.com/FreifunkBremen/gluon-site-ffhb
 Diese Anleitung ist hervoragend. Nach dieser Anleitung bitte die Images erstellen.
 Sollte das build.sh Script einmal irgendwo aussteigen, einfach neu starten und weiter laufen lassen. Wenn das klappt, haben wir einmal alle Images für die gängigen Router erstellt.
 
-Wer nicht in die Konfiguration eingreifen möchte, kann ab Version v2016.1.2 das X86 Image verwenden und die benötigten Pakete von Hand nachinstallieren. Das wäre der Weg, wenn ich kein Image selber erstellen möchte.
+Wer nicht in die Konfiguration eingreifen möchte, kann ab Version **v2016.1.2** das fertige X86 Image verwenden und die benötigten Pakete von Hand nachinstallieren. Das wäre eine Option, wenn ich kein Image selber erstellen möchte.
 
 In dem Read.me ist beschrieben, wie es ihne das build.sh Script funktioniert. Ich möchte aber temporär die site.mk und das build.sh script anpassen.
 Beide Dateien in das Homeverzeichnis kopieren oder die Originale umbenennen in z.B. site.mk.orig usw.
@@ -98,7 +98,7 @@ Das Futro Image liegt unter:
 Das Image gluon-ffhb-2016.1.2+bremen1-x86-generic.img.gz nun auf den bootfähigen USB-Stick kopieren, fertig. Fertig heisst, jetzt den Futro mit USB Image booten.
 
 
-PS. Elegantere Lösung für die Site.mk (ab v2016.1.2 getestet) Siehe weiter unten: 
+PS. Elegantere Lösung für die Site.mk (ab **v2016.1.2** getestet) Siehe weiter unten: 
 
 ifeq ($(GLUON_TARGET),x86-generic)
 GLUON_SITE_PACKAGES += \
@@ -111,5 +111,82 @@ GLUON_SITE_PACKAGES += \
     kmod-r8169
 endif
 
+**4.) Konfiguration**
+
+Der Futro wird wie ein FF-Router konfiguriert. Mit dem Browser unter 192.168.1.1 die Konfiguration vornehmen. Mesh on LAN und VPN Tunnel ist wichtig. Die LAN Schnittstelle auf der konfiguriert wird, ist die Onboardkarte. Nach der Konfiguration kann ich nur noch über einen angeschlossenen Router auf den Futro via SSH zugreifen, oder aus den FF Netz. Direkt mit dem PC bekomme ich keine Verbindung zustande. SSH-Key oder PW nicht vergessen. Welche Seite jetzt WAN oder LAN wird, hängt davon ab, mit welcher Buchse ich eine Verbindung zu meinen DSL-Gast-LAN Anschluss herstelle. Wenn der Futro Online ist, wird die andere Buchse automatisch gelb und LAN.
+
+Wird jetzt ein USB Stick gesteckt, wird dieser aber erkannt, aber noch nicht automatisch gemountet.
+
+Wir brauchen einen SSH Zugang. Adresse vergessen? Hängt die Kiste ins Netz und wartet bis er auf der Karte angezeigt wird.
+
+**Mounten von Hand:**
+
+# Ich möchte für jedes Objekt einen eigenen Mountpunkt
+mkdir -p /mnt/sda3
+mkdir -p /mnt/usb
+
+# Jetz hänge ich die CF-Partition und den USB-Stick ein.
+
+mount -t ext4 /dev/sda3 /mnt/sda3 
+mount -t vfat /dev/sdb1 /mnt/usb
+
+**Automount**
+Die Konfiguratin in die fstab /etc/config/fstab schreiben.
+Über uci geht das so:
+
+uci set fstab.sda3=mount
+uci set fstab.sda3.enabled=1
+uci set fstab.sda3.device="/dev/sda3"
+uci set fstab.sda3.target="/mnt/sda3"
+uci set fstab.usb=mount
+uci set fstab.usb.enabled=1
+uci set fstab.usb.device="/dev/sdb1"
+uci set fstab.usb.target="/mnt/usb"
+uci commit
+
+Mit einem Editor deiner Wahl dann wie folgt ergänzen.
+
+/etc/config/fstab
+#das steht schon drin.
+config 'global'
+	option	anon_swap	'0'
+	option	anon_mount	'0'
+	option	auto_swap	'1'
+	option	auto_mount	'1'
+	option	delay_root	'5'
+	option	check_fs	'0'
+
+config 'mount'
+	option	target	'/mnt/sda1'
+	option	uuid	'57f8f4bc-abf4-655f-bf67-946fc0f9f25b'
+	option	enabled	'0'
+
+config 'mount'
+	option	target	'/mnt/sda2'
+	option	uuid	'57f8f4bc-abf4-655f-bf67-946fc0f9f25b'
+	option	enabled	'0'
+	
+#ab hier neue Einträge:
+
+config 'mount'
+	option	target	'/mnt/sda3'
+	option	uuid	'b0dcc595-86dd-4154-a749-45894b002a18'
+        option 'device' '/dev/sda3'
+	option 'options' 'rw,sync'
+	option 'enabled_fsck' '0'
+	option 'enabled' '1'
+
+config 'mount'
+	option	target	'/mnt/usb'
+	option	uuid	'6633-6536'
+	option 'device' '/dev/sdb1'
+	option 'options' 'rw,sync'
+	option 'enabled_fsck' '0'
+	option 'enabled' '1'
+
+	
+	Die UID zeigt der Befehl blkid. die Option uuid ist aber nicht notwendig, geht auch ohne. Mehr zu dem Thema unter [https://wiki.openwrt.org/doc/techref/block_mount](https://wiki.openwrt.org/doc/techref/block_mount)
+
+	So, und nun viel Spass beim Futro-Basteln.
 
 
