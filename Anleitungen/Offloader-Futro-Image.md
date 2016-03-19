@@ -78,7 +78,7 @@ Ist ein Paket schon vorhanden, (doppelter Eintrag :-) wird der Eintrag überspru
 
 In der Build.sh ab Zeile 124, folgede Änderungen vornehmen. (Anmerkung: ab **v2016.1.2** gibt es Änderungen, der Patch nicht mehr notwendig)
 
-# Hier kopiere ich den Futro Patch für 2015 && 2016
+**#Hier kopiere ich den Futro Patch für 2015 && 2016**
 echo "CONFIG_PATA_ATIIXP=y" >> gluon/openwrt/target/linux/x86/generic/config-3.10 
 echo "CONFIG_PATA_ATIIXP=y" >> gluon/openwrt/target/linux/x86/generic/config-default
 
@@ -89,7 +89,7 @@ if ! $cont; then
 fi
 ...
 
-#for target in ar71xx-generic ar71xx-nand mpc85xx-generic x86-generic; do Diese Zeile austauschen, nur x86-generic bleibt enthalten
+**#for target in ar71xx-generic ar71xx-nand mpc85xx-generic x86-generic; do Diese Zeile austauschen, nur x86-generic bleibt enthalten**
 for target in x86-generic; do   # das mache ich nur, weil ich Schreibfaul bin.
 
 build.sh neu laufen lassen. Die x86-generic Images werden jetzt mit dem Futro Image überschrieben.
@@ -121,11 +121,11 @@ Wir brauchen einen SSH Zugang. Adresse vergessen? Hängt die Kiste ins Netz und 
 
 **Mounten von Hand:**
 
-# Ich möchte für jedes Objekt einen eigenen Mountpunkt
+**# Ich möchte für jedes Objekt einen eigenen Mountpunkt**
 mkdir -p /mnt/sda3
 mkdir -p /mnt/usb
 
-# Jetz hänge ich die CF-Partition und den USB-Stick ein.
+**# Jetz hänge ich die CF-Partition und den USB-Stick ein.**
 
 mount -t ext4 /dev/sda3 /mnt/sda3 
 mount -t vfat /dev/sdb1 /mnt/usb
@@ -146,29 +146,35 @@ uci commit
 
 Mit einem Editor deiner Wahl dann wie folgt ergänzen.
 
-/etc/config/fstab
-#das steht schon drin.
-config 'global'
-	option	anon_swap	'0'
-	option	anon_mount	'0'
-	option	auto_swap	'1'
-	option	auto_mount	'1'
-	option	delay_root	'5'
-	option	check_fs	'0'
 
-config 'mount'
+...
+ /etc/config/fstab
+ 
+ **#das steht schon drin.**
+ 
+ ...
+ config 'global'
+ option	anon_swap	'0'
+ option	anon_mount	'0'
+ option	auto_swap	'1'
+ option	auto_mount	'1'
+ option	delay_root	'5'
+ option	check_fs	'0'
+
+
+ config 'mount'
 	option	target	'/mnt/sda1'
 	option	uuid	'57f8f4bc-abf4-655f-bf67-946fc0f9f25b'
 	option	enabled	'0'
 
-config 'mount'
+ config 'mount'
 	option	target	'/mnt/sda2'
 	option	uuid	'57f8f4bc-abf4-655f-bf67-946fc0f9f25b'
 	option	enabled	'0'
 	
-#ab hier neue Einträge:
+ **#ab hier neue Einträge:**
 
-config 'mount'
+ config 'mount'
 	option	target	'/mnt/sda3'
 	option	uuid	'b0dcc595-86dd-4154-a749-45894b002a18'
         option 'device' '/dev/sda3'
@@ -176,16 +182,17 @@ config 'mount'
 	option 'enabled_fsck' '0'
 	option 'enabled' '1'
 
-config 'mount'
-	option	target	'/mnt/usb'
+ config 'mount'
+  option	target	'/mnt/usb'
 	option	uuid	'6633-6536'
 	option 'device' '/dev/sdb1'
 	option 'options' 'rw,sync'
 	option 'enabled_fsck' '0'
 	option 'enabled' '1'
 
-	
-	Die UID zeigt der Befehl blkid. die Option uuid ist aber nicht notwendig, geht auch ohne. Mehr zu dem Thema unter [https://wiki.openwrt.org/doc/techref/block_mount](https://wiki.openwrt.org/doc/techref/block_mount)
+...
+
+Die UID zeigt der Befehl blkid. die Option uuid ist aber nicht notwendig, geht auch ohne. Mehr zu dem Thema unter [https://wiki.openwrt.org/doc/techref/block_mount](https://wiki.openwrt.org/doc/techref/block_mount)
 
 	So, und nun viel Spass beim Futro-Basteln.
 
