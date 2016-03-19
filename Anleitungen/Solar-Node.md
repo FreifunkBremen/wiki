@@ -59,7 +59,7 @@ Ohne Gangreserve würde also ein 12V Panel mit einer Leistung von 50Wp folgende 
 160Wh / 12V ( Panelspannung ) = ~13,3Ah
 
 Der 12 Ah Akkumulator würde also innerhalb von 4 Stunden ausreichend Aufgeladen. Der Router selber verbraucht aber innerhalb dieser Zeitspanne auch noch einmal 1 Ah.
-Dieses Beispiel zeigt schon sehr deutlich das eine solche Anlage immer nach oben hin erheblich größer ausgelegt werden sollte. ( Sofern man 24/7 Betrieb realisiren will ).
+Dieses Beispiel zeigt schon sehr deutlich das eine solche Anlage immer nach oben hin erheblich größer ausgelegt werden sollte. ( Sofern man 24/7 Betrieb realisieren will ).
 
 Zusammenfassend kann man sagen das eine Anlage bestehend aus :
 
