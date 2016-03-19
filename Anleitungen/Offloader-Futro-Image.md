@@ -39,6 +39,77 @@ Bitte bootet keinen PC mit diesem USB-Stick. Eure Daten sind dann hinüber. Das 
 
 Eine andere Methode ist das Einspielen mit einem CF-Cardreader. Bei dieser Aktion kann auch das Image, das auf der zweiten Partition auf der CF-Karte ist, mit Gpartet vergrössert werden. Das Filesystem ist auf 128Mb eingestellt. Bei grösseren Partitionen ist noch eine Datenträgerprüfung durchzuführen, damit das Filesystem die ganze Partition verwendet. Notwendig ist die Vergrösserung nicht, von dem 50 Mb Image ist nur die Hälfte belegt. Genug Platz für weitere Installationen. In dem restlichen Bereich kann auch eine zusätzliche Partition erstellt
 werden, die dann später gemountet wird.
+
 Im nächsten Kapitel bauen wir das Image selber.
+
+3. Eigene Images bauen.
+
+Zutatenliste. Internetzugang, ein debian basierendes Linux wie Ubuntu (Empfehlung), ca. **50GB** freien Plattenplatz.
+Optional: SSD und I7 Prozessor beschleunigt die Erstellung auf 2h, 20 Min. nur X86 Image. Oder Zeit zum Erstellen einplanen. Wer noch kein Linux installiert hat, freie Partition auf dem PC schaffen und Ubuntu installieren, aktualisieren und durchbooten. Alternativ über eine virtuelle Maschine (VMWare/ Virtual Box). Gut unter Freifunk Youtube erklärt. Beider Installationen sind recht einfach,
+die Bedienung des Linux ist dann eher Gewöhnungsbedürftig.
+
+Wir bewegen uns auf die Seite [https://github.com/FreifunkBremen/gluon-site-ffhb.git](https://github.com/FreifunkBremen/gluon-site-ffhb.git) und lesen das Readme.md
+Diese Anleitung ist hervoragend. Nach dieser Anleitung bitte die Images erstellen.
+Sollte das build.sh Script einmal irgendwo aussteigen, einfach neu starten und weiter laufen lassen. Wenn das klappt, haben wir einmal alle Images für die gängigen Router erstellt.
+
+Wer nicht in die Konfiguration eingreifen möchte, kann ab Version v2016.1.2 das X86 Image verwenden und die benötigten Pakete von Hand nachinstallieren. Das wäre der Weg, wenn ich kein Image selber erstellen möchte.
+
+In dem Read.me ist beschrieben, wie es ihne das build.sh Script funktioniert. Ich möchte aber temporär die site.mk und das build.sh script anpassen.
+Beide Dateien in das Homeverzeichnis kopieren oder die Originale umbenennen in z.B. site.mk.orig usw.
+
+In die Site.mk werden folgende Zeilen eingefügt. (Anmerkung: ab **v2016.1.2** gibt es Änderungen, weiter unten beschrieben)
+  kmod-usb-core \
+	kmod-usb2 \
+	kmod-usb-hid \
+	kmod-usb-net \
+	kmod-usb-net-asix \
+	kmod-r8169 \
+	kmod-usb-storage \
+	block-mount \
+	kmod-fs-ext4 \
+	kmod-fs-vfat \
+	kmod-nls-cp437 \
+	kmod-nls-iso8859-1 \
+	kmod-scsi-core \
+	kmod-fs-ext4 \
+	e2fsprogs \
+
+Ist ein Paket schon vorhanden, (doppelter Eintrag :-) wird der Eintrag übersprungen. Welche Pakete für den Futro benötigt werden, um das volle Potential auszuschöpfen, ist aktuell nicht bekannt, hier besteht Experimentierbedarf.
+
+In der Build.sh ab Zeile 124, folgede Änderungen vornehmen. (Anmerkung: ab **v2016.1.2** gibt es Änderungen, der Patch nicht mehr notwendig)
+
+# Hier kopiere ich den Futro Patch für 2015 && 2016
+echo "CONFIG_PATA_ATIIXP=y" >> gluon/openwrt/target/linux/x86/generic/config-3.10 
+echo "CONFIG_PATA_ATIIXP=y" >> gluon/openwrt/target/linux/x86/generic/config-default
+
+cd "$GLUON_DIR"
+export GLUON_BRANCH GLUON_RELEASE
+if ! $cont; then
+  make update ${debug:+V=s}
+fi
+...
+
+#for target in ar71xx-generic ar71xx-nand mpc85xx-generic x86-generic; do Diese Zeile austauschen, nur x86-generic bleibt enthalten
+for target in x86-generic; do   # das mache ich nur, weil ich Schreibfaul bin.
+
+build.sh neu laufen lassen. Die x86-generic Images werden jetzt mit dem Futro Image überschrieben.
+Das Futro Image liegt unter:
+/home/MEIN-PC-NAME/gluon-site-ffhb/gluon/output/images/factory
+Das Image gluon-ffhb-2016.1.2+bremen1-x86-generic.img.gz nun auf den bootfähigen USB-Stick kopieren, fertig. Fertig heisst, jetzt den Futro mit USB Image booten.
+
+
+PS. Elegantere Lösung für die Site.mk (ab v2016.1.2 getestet) Siehe weiter unten: 
+
+ifeq ($(GLUON_TARGET),x86-generic)
+GLUON_SITE_PACKAGES += \
+    kmod-usb-core \
+    kmod-usb2 \
+    kmod-usb-hid \
+    kmod-usb-net \
+    kmod-usb-net-asix \
+    kmod-usb-net-dm9601-ether \
+    kmod-r8169
+endif
+
 
 
