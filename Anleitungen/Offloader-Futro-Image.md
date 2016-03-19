@@ -58,6 +58,7 @@ In dem Read.me ist beschrieben, wie es ihne das build.sh Script funktioniert. Ic
 Beide Dateien in das Homeverzeichnis kopieren oder die Originale umbenennen in z.B. site.mk.orig usw.
 
 In die Site.mk werden folgende Zeilen eingefügt. (Anmerkung: ab **v2016.1.2** gibt es Änderungen, weiter unten beschrieben)
+```
   kmod-usb-core \
 	kmod-usb2 \
 	kmod-usb-hid \
@@ -73,12 +74,13 @@ In die Site.mk werden folgende Zeilen eingefügt. (Anmerkung: ab **v2016.1.2** g
 	kmod-scsi-core \
 	kmod-fs-ext4 \
 	e2fsprogs \
-
+```
 Ist ein Paket schon vorhanden, (doppelter Eintrag :-) wird der Eintrag übersprungen. Welche Pakete für den Futro benötigt werden, um das volle Potential auszuschöpfen, ist aktuell nicht bekannt, hier besteht Experimentierbedarf.
 
 In der Build.sh ab Zeile 124, folgede Änderungen vornehmen. (Anmerkung: ab **v2016.1.2** gibt es Änderungen, der Patch nicht mehr notwendig)
 
 **#Hier kopiere ich den Futro Patch für 2015 && 2016**
+```
 echo "CONFIG_PATA_ATIIXP=y" >> gluon/openwrt/target/linux/x86/generic/config-3.10 
 echo "CONFIG_PATA_ATIIXP=y" >> gluon/openwrt/target/linux/x86/generic/config-default
 
@@ -87,19 +89,24 @@ export GLUON_BRANCH GLUON_RELEASE
 if ! $cont; then
   make update ${debug:+V=s}
 fi
-...
+```
 
-**#for target in ar71xx-generic ar71xx-nand mpc85xx-generic x86-generic; do Diese Zeile austauschen, nur x86-generic bleibt enthalten**
-for target in x86-generic; do   # das mache ich nur, weil ich Schreibfaul bin.
+**#for target in ar71xx-generic ar71xx-nand mpc85xx-generic x86-generic; do** 
+
+_Diese Zeile austauschen, nur x86-generic bleibt enthalten_
+```
+for target in x86-generic; do   
+```
+_das mache ich nur, weil ich Schreibfaul bin._
 
 build.sh neu laufen lassen. Die x86-generic Images werden jetzt mit dem Futro Image überschrieben.
 Das Futro Image liegt unter:
-/home/MEIN-PC-NAME/gluon-site-ffhb/gluon/output/images/factory
-Das Image gluon-ffhb-2016.1.2+bremen1-x86-generic.img.gz nun auf den bootfähigen USB-Stick kopieren, fertig. Fertig heisst, jetzt den Futro mit USB Image booten.
+[/home/MEIN-PC-NAME/gluon-site-ffhb/gluon/output/images/factory].
+Das Image **gluon-ffhb-2016.1.2+bremen1-x86-generic.img.gz** nun auf den bootfähigen USB-Stick kopieren, fertig. Fertig heisst, jetzt den Futro mit USB Image booten.
 
 
 PS. Elegantere Lösung für die Site.mk (ab **v2016.1.2** getestet) Siehe weiter unten: 
-
+```
 ifeq ($(GLUON_TARGET),x86-generic)
 GLUON_SITE_PACKAGES += \
     kmod-usb-core \
@@ -110,7 +117,7 @@ GLUON_SITE_PACKAGES += \
     kmod-usb-net-dm9601-ether \
     kmod-r8169
 endif
-
+```
 **4.) Konfiguration**
 
 Der Futro wird wie ein FF-Router konfiguriert. Mit dem Browser unter 192.168.1.1 die Konfiguration vornehmen. Mesh on LAN und VPN Tunnel ist wichtig. Die LAN Schnittstelle auf der konfiguriert wird, ist die Onboardkarte. Nach der Konfiguration kann ich nur noch über einen angeschlossenen Router auf den Futro via SSH zugreifen, oder aus den FF Netz. Direkt mit dem PC bekomme ich keine Verbindung zustande. SSH-Key oder PW nicht vergessen. Welche Seite jetzt WAN oder LAN wird, hängt davon ab, mit welcher Buchse ich eine Verbindung zu meinen DSL-Gast-LAN Anschluss herstelle. Wenn der Futro Online ist, wird die andere Buchse automatisch gelb und LAN.
@@ -122,18 +129,18 @@ Wir brauchen einen SSH Zugang. Adresse vergessen? Hängt die Kiste ins Netz und 
 **Mounten von Hand:**
 
 **# Ich möchte für jedes Objekt einen eigenen Mountpunkt**
+```
 mkdir -p /mnt/sda3
 mkdir -p /mnt/usb
-
+```
 **# Jetz hänge ich die CF-Partition und den USB-Stick ein.**
-
+```
 mount -t ext4 /dev/sda3 /mnt/sda3 
 mount -t vfat /dev/sdb1 /mnt/usb
-
-**Automount**
-Die Konfiguratin in die fstab /etc/config/fstab schreiben.
+```
+**Automount** Die Konfiguratin in die fstab /etc/config/fstab schreiben.
 Über uci geht das so:
-
+```
 uci set fstab.sda3=mount
 uci set fstab.sda3.enabled=1
 uci set fstab.sda3.device="/dev/sda3"
@@ -143,24 +150,16 @@ uci set fstab.usb.enabled=1
 uci set fstab.usb.device="/dev/sdb1"
 uci set fstab.usb.target="/mnt/usb"
 uci commit
-
-Mit einem Editor deiner Wahl dann wie folgt ergänzen.
-
-
-...
- /etc/config/fstab
- 
- **#das steht schon drin.**
- 
- ...
+```
+Mit einem Editor deiner Wahl dann wie folgt ergänzen. /etc/config/fstab **#Folgendes steht schon drin.**
+ ```
  config 'global'
- option	anon_swap	'0'
- option	anon_mount	'0'
- option	auto_swap	'1'
- option	auto_mount	'1'
- option	delay_root	'5'
- option	check_fs	'0'
-
+  option	anon_swap	'0'
+  option	anon_mount	'0'
+  option	auto_swap	'1'
+  option	auto_mount	'1'
+  option	delay_root	'5'
+  option	check_fs	'0'
 
  config 'mount'
 	option	target	'/mnt/sda1'
@@ -171,13 +170,13 @@ Mit einem Editor deiner Wahl dann wie folgt ergänzen.
 	option	target	'/mnt/sda2'
 	option	uuid	'57f8f4bc-abf4-655f-bf67-946fc0f9f25b'
 	option	enabled	'0'
-	
- **#ab hier neue Einträge:**
-
+```
+ **# ab hier anzufügende neue Einträge:**
+```
  config 'mount'
 	option	target	'/mnt/sda3'
 	option	uuid	'b0dcc595-86dd-4154-a749-45894b002a18'
-        option 'device' '/dev/sda3'
+  option 'device' '/dev/sda3'
 	option 'options' 'rw,sync'
 	option 'enabled_fsck' '0'
 	option 'enabled' '1'
@@ -189,11 +188,10 @@ Mit einem Editor deiner Wahl dann wie folgt ergänzen.
 	option 'options' 'rw,sync'
 	option 'enabled_fsck' '0'
 	option 'enabled' '1'
+```
 
-...
+Die UID zeigt der Befehl ```blkid```. die Option ```uuid``` ist aber nicht notwendig, geht auch ohne. Mehr zu dem Thema unter [https://wiki.openwrt.org/doc/techref/block_mount](https://wiki.openwrt.org/doc/techref/block_mount)
 
-Die UID zeigt der Befehl blkid. die Option uuid ist aber nicht notwendig, geht auch ohne. Mehr zu dem Thema unter [https://wiki.openwrt.org/doc/techref/block_mount](https://wiki.openwrt.org/doc/techref/block_mount)
-
-	So, und nun viel Spass beim Futro-Basteln.
+_So, und nun viel Spass beim Futro-Basteln._
 
 
