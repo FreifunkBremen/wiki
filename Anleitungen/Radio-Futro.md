@@ -10,17 +10,17 @@ Aber um es einmal auszuprobieren reicht es aus.
 ## Inhalt:
 
 
-[1.) Allgemeines](#http://wiki.bremen.freifunk.net/Anleitungen/Radio-Futro#inhalt_1-allgemeines)
+[1.) Allgemeines](#inhalt_1-allgemeines)
 
-[2.) Voraussetzungen]
+[2.) Voraussetzungen](#inhalt_2-voraussetzungen)
 
 [3.) Installation Icecast & Ices]
 
-4.) Konfiguration [Icecast] & [Ices]
+4.) Konfiguration [Icecast](#inhalt_4-icecast) & [Ices](#inhalt_4-ices)
 
-[5.) FAQ]
+[5.) FAQ](#inhalt_5-faq)
 
-[6.) Relay-Server]
+[6.) Relay-Server](#inhalt_6-relay-server)
 
 ----
 
