@@ -6,9 +6,13 @@ Je nach verwendeter Hardware, bzw. Betriebssoftware ( Android, iOS Device, MAC, 
 Die wohl wichtigsten sind:
 
 Zoiper
+
 Linphone
+
 CSipSimple ( nur Android )
-SipDroid
+
+SipDroid ( nur Android )
+
 
 
 
