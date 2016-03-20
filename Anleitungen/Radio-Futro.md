@@ -122,7 +122,311 @@ Collected errors:
  
   opkg install ices --force-depends
 Package ices (2.0.2-1) installed in root is up to date.
+~~~
+
+
+
+
+4.) Konfiguration Icecast
+
+Die im folgenden aufgeführten Konfigurationsdateien sind dazu gedacht, komplett übernommen und lediglich angepasst zu werden. 
+Selbsterversändlich könnt ihr auch die default-configs bearbeiten, jedoch stehen da recht viele, für unsere Zwecke unnötige, 
+Dinge drin, die evtl. verwirren könnten.
+
+
+Als erstes richten wir den server ein. 
+Dazu editieren wir **/etc/icecast.xml**, wie folgt:
 
 ~~~
 
+<icecast>
+    <limits> <!--ausser clients kann man in diesem Abschnitt die default-werte lassen-->
+        <clients>30</clients> <!--max Zuhörer -->
+        <sources>10</sources>
+        <threadpool>5</threadpool>
+        <queue-size>102400</queue-size>
+        <client-timeout>30</client-timeout>
+        <header-timeout>15</header-timeout>
+        <source-timeout>10</source-timeout>
+    </limits>
+
+    <authentication>
+        <!-- Wichtig, Der Benutzername um zum server zu connecten ist 'source' der ist fix-->
+        <!-- Das Passwort um sich beim server zum streamen einzuloggen, das ist das PW für source -->
+        <source-password>dasPasswort</source-password>
+        <!-- Solltet ihr Relay-Server zu euch verbinden lassen wollen, hier das pw dafür -->
+        <relay-password>RelayPass</relay-password>
+        <!-- Admin-Zugangsdaten für Online-Administration -->
+        <admin-user>admin</admin-user>
+        <admin-password>adminPasswort</admin-password>
+    </authentication>
+
+    <!-- Ip oder hostname des Servers -->
+    <hostname>localhost</hostname>
+    <!-- Port auf den der Server hören soll -->
+    <listen-socket>
+        <port>8000</port>
+    </listen-socket>
+   
+    <paths><!-- Installationsverzeichnis von icecast -->
+        <basedir>/usr/share/icecast</basedir>
+        <!--verschiedene Verzeichnisangaben, das Logdir wird später deaktiviert. -->
+        <logdir>/var/log/icecast</logdir>
+        <webroot>/usr/share/icecast/web</webroot>
+        <adminroot>/usr/share/icecast/admin</adminroot>
+     </paths>
+    
+    <logging> <-- Diese Dateien bereiten Probleme, wird später deaktiviert -->
+        <accesslog>access.log</accesslog>
+        <errorlog>error.log</errorlog>
+      	<loglevel>1</loglevel>  <!-- 4 Debug, 3 Info, 2 Warn, 1 Error -->
+    </logging>
+
+    <security>
+        <chroot>0</chroot>
+        <!-- wichtig falls man den server beim booten starten lässt.
+             Hier kann man festlegen als welcher Benutzer der server laufen soll
+             (muss auf dem System exisiteren) und das bereitet uns Probleme mit den Logdateien s.u.-->
+        <changeowner>
+            <user>ice</user>
+            <group>ice</group>
+        </changeowner>
+    </security>
+</icecast>
+~~~
+
+
+WICHTIG: Der User den ihr unter changeowner angegeben habt muss Schreibrechte auf das logdir haben!  (chown ice /var/log/icecast && chgrp ice /var/log/icecast)
+
+So, das wäre geschafft. Nun können wir den Server mal testen (als root!):
+
+~~~
+icecast -b -c /etc/icecast.xml
+~~~
+
+Wenn ihr alles richtig gemacht habt, sollte lediglich ausgegeben werden, dass der Server nun unter einem anderen Benutzer als root läuft:
+~~~
+Changed groupid to 1001.
+Changed userid to 1001.
+~~~
+Ob der Server läuft, sehen wir mit dem Befehl **top**, in der Prozessliste sollten wir dann icecast sehen.
+
+
+4.) Konfiguration Ices
+
+Das wäre geschafft. Das war ja gar nicht so schwer. Nun müssen wir unseren Server nur noch irgendwie mit Musik füttern und dazu benutzen wir nun Ices: Auch Ices benutzt eine xml-config-datei. Diese legen wir uns einfach frisch an, z.B. in /etc/ices-playlist.xml oder kopieren die Ices Beispieldateien. Für jeden Stream wird Ices mit einer eigenen Konfig gestartet.
+
+Folgenden Inhalt sollte sie besitzen:
+
+~~~
+
+<?xml version="1.0"?>
+<ices>
+    <background>1</background> <!-- Soll ices im Hintergrund laufen? (1 falls ja) -->
+    <logpath>/var/log/ices</logpath> <!-- wo soll hingelogged werden?-->
+    <logfile>ices.log</logfile>
+    <loglevel>1</loglevel> <!-- 1=error,2=warn,3=info,4=debug -->
+    <consolelog>1</consolelog> <!--verbose-mode, alle meldungen werden auf der konsole ausgegebn. Hierbei wird nicht in obige Logdatei gelogged!!-->
+    <stream>
+        <metadata><!--Gebt eurem Radio einnen Namen etc...-->
+            <name>Radio Freifunk</name>
+            <genre>Pop</genre>
+            <description>Freifunk Radio Community</description> 
+        </metadata>
+        <input> 
+        <!--Aufnahme-Weiterleit-Modul-->
+	    <module>playlist</module> 
+			<param name="type">basic</param>
+            <param name="file">/mnt/sda3/Musik/playlist.txt</param>
+            <param name="random">0</param>
+            <param name="restart-after-reread">0</param>
+            <param name="once">0</param>
+            <param name="metadata">1</param><!--Sollen Titeldaten der Songs mitgestreamt werden?-->
+            <param name="metadatafilename">/mnt/sda3/Musik/trackinfo.txt</param><!--wenn ja, wo stehen die? --<
+        </input>
+        <instance>
+            <hostname>localhost</hostname><!--wo laeuft der icecast-server?--> 
+			<port>8000</port> <!--über welchen Port connecten?-->
+            <password>dasPasswort</password> <!--Passwort?-->
+            <mount>/radio.ogg</mount> <!--adresse des eigentlichen streams, mein virtueller Mountpoint -->
+            <reconnectdelay>2</reconnectdelay>
+            <reconnectattempts>5</reconnectattempts>
+            <maxqueuelength>80</maxqueuelength>
+			<downmix>1</downmix><!--aus stereo mach mono, oder weglassen-->
+			<encode>  
+                <nominal-bitrate>64000</nominal-bitrate> <!-- bps. e.g. 64000 for 64 kbps -->
+                <samplerate>44100</samplerate>
+                <channels>2</channels>
+            </encode>    
+        </instance>
+    </stream>
+</ices>
+
+~~~
+
+So, alles was zwischen den stream-tags steht, beschreibt einen Stream. Ihr könnt auch mehrere Streams definieren, z.B. einen in Stereo, einen mit 128Kbit usw. Diese benötigen dann halt einen anderen virtuellen mount-point, die in Icec & Icecast angegeben werden.
+
+Wie ihr oben gesehen habt, wollen wir ja auch title und artist streamen und haben dazu eine Datei namens trackinfo.txt in der config angegeben.
+Um diese Datei mit Inhalt zu füllen verwendet ihr ein Musikbearbeitungsprogramm eurer Wahl. Das macht viel Arbeit, ich hab es einfach weggelassen. Evtl. mag es jemand hier Ergänzen.
+
+Nun starten wir unseren Streamplayer ices. Für unterschiedliche Stream lege ich die Playlist und ices-playlist.xml in dem entsprechendem Medienverzeichnis ab.
+~~~
+ices /etc/ices-playlist.xml
+~~~
+Sollte alles glatt gegangen sein, sollten wir auf http://ip-desservers:8000/status.xsl nun sehen, dass ein stream läuft.
+Nun könnt ihr euch noch von einem Rechner zu eurem Server verbinden und schauen, ob auch wirklich korrekt gestreamt wird.
+
+~~~
+http://ip-desserver:8000/radio.ogg oder als ipv6 http://[2a06:8782:ffbb:1337:219:99ff:fe7a:7220]:8000/radio.ogg
+~~~
+
+Das Admin-Webinterface findet ihr unter:
+
+~~~
+http://ip-desservers:8000/admin/stats.xsl oder http://[ipv6]:8000/admin/stats.xsl
+~~~
+
+5.) FAQ:
+
+* Auf dem Webinterface wird kein Mountpoint oder Stream angezeigt.
+
+  Ggf. gibt es Zugriffsprobleme mit den Log Dateien. Sie müssen vorhanden sein, sonst will der Player nicht. Eine Lösungsversuch wäre:
+
+~~~
+mkdir -p /var/log/icecast
+touch /var/log/icecast/error.log
+touch /var/log/icecast/access.log
+chmod 777 /var/log/icecast/error.log
+chmod 777 /var/log/icecast/access.log
+chown ice:ice /var/log/icecast/error.log
+chown ice:ice /var/log/icecast/access.log
+
+icecast -b -c /etc/icecast.xml
+
+mkdir -p /var/log/ices
+touch /var/log/ices/ices.log
+chmod 777 /var/log/ices/ices.log
+
+ices /mnt/sda3/Musik/ices-playlist.xml
+~~~
+
+* Mein Musikverzeichnis ist weg.
+Noch kein Automount konfiguriert.
+
+~~~
+von Hand:
+mount -t vfat /dev/sdb1 /mnt/usb
+mount /dev/sda3 /mnt/sda3
+~~~
+
+* Wie kann ich meine Medien automatisch einbinden lassen?
+
+In der Datei /etc/config/fstab die zu mountenden devices hinzufügen. Beispiel:
+~~~
+config 'mount'
+	option	target	'/mnt/sda3'
+	option	uuid	'b0dcc595-86dd-4154-a749-45894b002a18' *Meine neue Partition auf der CF-Card*
+	option 'device' '/dev/sda3'
+	option 'options' 'rw,sync'
+	option 'enabled_fsck' '0'
+	option 'enabled' '1'
+
+config 'mount'
+	option	target	'/mnt/usb'
+	option	uuid	'6633-6536' *Mein USB Stick*
+	option 'device' '/dev/sdb1'
+	option 'options' 'rw,sync'
+	option 'enabled_fsck' '0'
+	option 'enabled' '1'
+~~~
+
+* Nützliche Befehle:
+
+~~~
+/etc/init.d/icecast start
+/etc/init.d/icecast stop
+/etc/init.d/icecast restart
+~~~
+
+* Terminate Streaming
+Streams are terminated by killing Ices and/or stop running the Icecast server:
+
+~~~
+killall ices
+/etc/init.d/icecast stop
+~~~
+
+
+6.) Relay-Server aufsetzen:
+
+Was ist denn überhaupt ein Relay-Server? In gewisser Weise ist es vergleichbar mit einem FTP-Mirror oder dem Mirror einer WebSite. 
+Ein Relay-Server verbreitet also genau die gleiche Streams wie sein Masterserver. Hierzu fragt er in regelmäßigen Abständen den 
+Masterserver ab, welche Streams gehostet werden und übernimmt diese Streams dann. So muss man sich um Mount-Point-Konfiguration 
+und encoding bei einem Relay-Server keine Gedanken machen.
+Die /etc/icecast.xml sieht nun folgendermassen aus:
+
+~~~
+<icecast>
+    <limits><!--ausser clients kann man in diesem Abschnitt die default-werte lassen-->
+        <clients>30</clients> <!--max Zuhörer -->
+        <sources>10</sources>
+        <threadpool>5</threadpool>
+        <queue-size>102400</queue-size>
+        <client-timeout>30</client-timeout>
+        <header-timeout>15</header-timeout>
+        <source-timeout>10</source-timeout>
+    </limits>
+
+    <authentication>
+        <!-- Admin-Zugangsdaten für Online-Administration -->
+        <admin-user>admin</admin-user>
+        <admin-password>sdminPasswort</admin-password>
+    </authentication>
+
+    <!-- Ip oder hostname des Servers -->
+    <hostname>localhost</hostname>
+
+    <!-- HIERAUF KOMMT ES NUN AN -->
+    <master-server>192.168.169.15</master-server>
+    <master-server-port>8000</master-server-port>
+    <master-update-interval>120</master-update-interval>
+    <master-password>RelayPass</master-password>
+
+    <!-- Port auf den der Server hören soll -->
+    <listen-socket>
+        <port>8000</port>
+    </listen-socket> 
+    <paths><!-- Installationsverzeichnis von icecast -->
+        <basedir>/usr/share/icecast</basedir>
+	<logdir>/var/log/icecast</logdir>
+        <webroot>/usr/share/icecast/web</webroot>
+        <adminroot>/usr/share/icecast/admin</adminroot>
+     </paths>
+    
+    <logging>
+        <accesslog>access.log</accesslog>
+        <errorlog>error.log</errorlog>
+      	<loglevel>1</loglevel> <!-- 4 Debug, 3 Info, 2 Warn, 1 Error -->
+    </logging>
+
+    <security>
+        <chroot>0</chroot>
+	 <changeowner>
+            <user>ice</user>
+            <group>ice</group>
+	</changeowner>    
+    </security>
+</icecast>
+~~~
+
+Auch hier gilt wieder: Der User den ihr unter changeowner angegeben habt muss Schreibrechte auf das logdir haben! (chown ice /var/log/icecast && chgrp ice var/log/icecast). Oder aus der Konfig löschen
+
+Zum Starten des Relay-Servers:
+~~~
+icecast -b -c /etc/icecast/icecast.xml
+~~~
+Nun sollte sich euer Server beim Masterserver als normaler client einloggen, die mountpoints übernehmen und streamen. Der Masterserver bekommt davon nichts mit, da der Relay-Server wie ein normaler client einlogged.
+
+
+Viel Spass beim Radiohören
 
