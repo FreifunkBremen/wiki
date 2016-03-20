@@ -10,17 +10,17 @@ Aber um es einmal auszuprobieren reicht es aus.
 ## Inhalt:
 
 
-[1.) Allgemeines](#http://wiki.bremen.freifunk.net/Anleitungen/Radio-Futro Allgemeines)
+[1.) Allgemeines](#http://wiki.bremen.freifunk.net/Anleitungen/Radio-Futro#inhalt_1-allgemeines)
 
-2.) Voraussetzungen
+[2.) Voraussetzungen]
 
-3.) Installation Icecast & Ices
+[3.) Installation Icecast & Ices]
 
-4.) Konfiguration Icecast & Ices
+4.) Konfiguration [Icecast] & [Ices]
 
-5.) FAQ
+[5.) FAQ]
 
-6.) Relay-Server
+[6.) Relay-Server]
 
 ----
 
@@ -44,7 +44,7 @@ bitte die offizielle Doku @ http://www.icecast.org/docs.php. aufsuchen.
 
 
 
-2.) Voraussetzungen:
+### 2.) Voraussetzungen:
 
 * libogg (www.vorbis.com)
 * libvorbis (www.vorbis.com)
@@ -53,7 +53,7 @@ bitte die offizielle Doku @ http://www.icecast.org/docs.php. aufsuchen.
 * libperl (http://www.perl.org)
 
 
-3.) Installation
+### 3.) Installation
 * icecast (http://www.icecast.org/download.php)
 * ices (http://www.icecast.org/ices.php)
 
@@ -127,7 +127,7 @@ Package ices (2.0.2-1) installed in root is up to date.
 
 
 
-4.) Konfiguration Icecast
+### 4.) Konfiguration Icecast
 
 Die im folgenden aufgeführten Konfigurationsdateien sind dazu gedacht, komplett übernommen und lediglich angepasst zu werden. 
 Selbsterversändlich könnt ihr auch die default-configs bearbeiten, jedoch stehen da recht viele, für unsere Zwecke unnötige, 
@@ -212,7 +212,7 @@ Changed userid to 1001.
 Ob der Server läuft, sehen wir mit dem Befehl **top**, in der Prozessliste sollten wir dann icecast sehen.
 
 
-4.) Konfiguration Ices
+### 4.) Konfiguration Ices
 
 Das wäre geschafft. Das war ja gar nicht so schwer. Nun müssen wir unseren Server nur noch irgendwie mit Musik füttern und dazu benutzen wir nun Ices: Auch Ices benutzt eine xml-config-datei. Diese legen wir uns einfach frisch an, z.B. in /etc/ices-playlist.xml oder kopieren die Ices Beispieldateien. Für jeden Stream wird Ices mit einer eigenen Konfig gestartet.
 
@@ -286,7 +286,7 @@ Das Admin-Webinterface findet ihr unter:
 http://ip-desservers:8000/admin/stats.xsl oder http://[ipv6]:8000/admin/stats.xsl
 ~~~
 
-5.) FAQ:
+### 5.) FAQ:
 
 * Auf dem Webinterface wird kein Mountpoint oder Stream angezeigt.
 
@@ -357,7 +357,7 @@ killall ices
 ~~~
 
 
-6.) Relay-Server aufsetzen:
+### 6.) Relay-Server aufsetzen:
 
 Was ist denn überhaupt ein Relay-Server? In gewisser Weise ist es vergleichbar mit einem FTP-Mirror oder dem Mirror einer WebSite. 
 Ein Relay-Server verbreitet also genau die gleiche Streams wie sein Masterserver. Hierzu fragt er in regelmäßigen Abständen den 
