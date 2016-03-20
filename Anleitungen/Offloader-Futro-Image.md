@@ -155,11 +155,11 @@ Mit einem Editor deiner Wahl dann wie folgt ergänzen. /etc/config/fstab
 ```
 **#Folgendes steht schon drin.**
  config 'global'
-  option  anon_swap	    '0'
-  option  anon_mount	'0'
-  option  auto_swap	    '1'
-  option  auto_mount	'1'
-  option  check_fs      '0'
+    option  anon_swap   '0'
+    option  anon_mount  '0'
+    option  auto_swap   '1'
+    option  auto_mount  '1'
+    option  check_fs    '0'
 
  config 'mount'
     option  target  '/mnt/sda1'
