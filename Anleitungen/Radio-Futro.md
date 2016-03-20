@@ -14,9 +14,9 @@ Aber um es einmal auszuprobieren reicht es aus.
 
 [2.) Voraussetzungen](#inhalt_2-voraussetzungen)
 
-[3.) Installation Icecast & Ices]
+[3.) Installation Icecast & Ices](#inhalt_3-installation)
 
-4.) Konfiguration [Icecast](#inhalt_4-icecast) & [Ices](#inhalt_4-ices)
+4.) Konfiguration [Icecast](#inhalt_4-konfiguration-icecast) & [Ices](#inhalt_4-konfiguration-ices)
 
 [5.) FAQ](#inhalt_5-faq)
 
