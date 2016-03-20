@@ -13,6 +13,8 @@ CSipSimple ( nur Android )
 
 SipDroid ( nur Android )
 
+( gestet wurde bisher nur Zoiper und CSipSimple auf Androidgeräten )
+
 
 
 
