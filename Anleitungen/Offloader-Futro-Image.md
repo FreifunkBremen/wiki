@@ -152,10 +152,8 @@ uci set fstab.usb.target="/mnt/usb"
 uci commit
 ```
 Mit einem Editor deiner Wahl dann wie folgt ergänzen. /etc/config/fstab
-
+```
 **#Folgendes steht schon drin.**
-
- ```
  config 'global'
   option  anon_swap	    '0'
   option  anon_mount	'0'
@@ -172,11 +170,8 @@ Mit einem Editor deiner Wahl dann wie folgt ergänzen. /etc/config/fstab
     option  target  '/mnt/sda2'
     option  uuid    '57f8f4bc-abf4-655f-bf67-946fc0f9f25b'
     option  enabled	'0'
-```
 
  **# ab hier anzufügende neue Einträge:**
-
-```
  config 'mount'
     option  target	'/mnt/sda3'
     option  uuid	'b0dcc595-86dd-4154-a749-45894b002a18'
