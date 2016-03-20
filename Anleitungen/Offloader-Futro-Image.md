@@ -151,43 +151,47 @@ uci set fstab.usb.device="/dev/sdb1"
 uci set fstab.usb.target="/mnt/usb"
 uci commit
 ```
-Mit einem Editor deiner Wahl dann wie folgt ergänzen. /etc/config/fstab **#Folgendes steht schon drin.**
+Mit einem Editor deiner Wahl dann wie folgt ergänzen. /etc/config/fstab
+
+**#Folgendes steht schon drin.**
+
  ```
  config 'global'
-  option	anon_swap	'0'
-  option	anon_mount	'0'
-  option	auto_swap	'1'
-  option	auto_mount	'1'
-  option	delay_root	'5'
-  option	check_fs	'0'
+  option  anon_swap	    '0'
+  option  anon_mount	'0'
+  option  auto_swap	    '1'
+  option  auto_mount	'1'
+  option  check_fs      '0'
 
  config 'mount'
-	option	target	'/mnt/sda1'
-	option	uuid	'57f8f4bc-abf4-655f-bf67-946fc0f9f25b'
-	option	enabled	'0'
+    option  target  '/mnt/sda1'
+    option  uuid    '57f8f4bc-abf4-655f-bf67-946fc0f9f25b'
+    option  enabled	'0'
 
  config 'mount'
-	option	target	'/mnt/sda2'
-	option	uuid	'57f8f4bc-abf4-655f-bf67-946fc0f9f25b'
-	option	enabled	'0'
+    option  target  '/mnt/sda2'
+    option  uuid    '57f8f4bc-abf4-655f-bf67-946fc0f9f25b'
+    option  enabled	'0'
 ```
+
  **# ab hier anzufügende neue Einträge:**
+
 ```
  config 'mount'
-	option	target	'/mnt/sda3'
-	option	uuid	'b0dcc595-86dd-4154-a749-45894b002a18'
-  option 'device' '/dev/sda3'
-	option 'options' 'rw,sync'
-	option 'enabled_fsck' '0'
-	option 'enabled' '1'
+    option  target	'/mnt/sda3'
+    option  uuid	'b0dcc595-86dd-4154-a749-45894b002a18'
+    option 'device' '/dev/sda3'
+    option 'options' 'rw,sync'
+    option 'enabled_fsck' '0'
+    option 'enabled' '1'
 
  config 'mount'
-  option	target	'/mnt/usb'
-	option	uuid	'6633-6536'
-	option 'device' '/dev/sdb1'
-	option 'options' 'rw,sync'
-	option 'enabled_fsck' '0'
-	option 'enabled' '1'
+    option  target  '/mnt/usb'
+    option  uuid    '6633-6536'
+    option 'device' '/dev/sdb1'
+    option 'options''rw,sync'
+    option 'enabled_fsck' '0'
+    option 'enabled' '1'
 ```
 
 Die UID zeigt der Befehl ```blkid```. die Option ```uuid``` ist aber nicht notwendig, geht auch ohne. Mehr zu dem Thema unter [https://wiki.openwrt.org/doc/techref/block_mount](https://wiki.openwrt.org/doc/techref/block_mount)
