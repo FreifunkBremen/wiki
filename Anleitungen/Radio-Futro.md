@@ -10,7 +10,7 @@ Aber um es einmal auszuprobieren reicht es aus.
 ## Inhalt:
 
 
-[1.) Allgemeines](#Allgemeines)
+[1.) Allgemeines](#http://wiki.bremen.freifunk.net/Anleitungen/Radio-Futro Allgemeines)
 
 2.) Voraussetzungen
 
@@ -25,7 +25,7 @@ Aber um es einmal auszuprobieren reicht es aus.
 ----
 
 
-[1.) Allgemeines]
+### 1.) Allgemeines
 
 Ihr wolltet schon immer mal selbst ein WebRadio betreiben oder nur mal über euer WLAN die Musik nach draussen zur Gartenparty streamen?
 Dann solltet ihr euch dieses HowTo genauer ansehen und bei Erfolg hier die fehlerhaften Angaben Korrigieren. 
