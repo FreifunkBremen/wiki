@@ -196,7 +196,7 @@ Dazu editieren wir **/etc/icecast.xml**, wie folgt:
 ~~~
 
 
-WICHTIG: Der User den ihr unter changeowner angegeben habt muss Schreibrechte auf das logdir haben!  (chown ice /var/log/icecast && chgrp ice /var/log/icecast)
+WICHTIG: Der User den ihr unter changeowner angegeben habt muss Schreibrechte auf das logdir haben!  (chown ice /var/log/icecast && chgrp ice /var/log/icecast). Anm. Neue User können in die /ect/passwd eingefügt werden oder über useradd (Paket shadow-useradd -> opkg install shadow-useradd) angelegt werden.
 
 So, das wäre geschafft. Nun können wir den Server mal testen (als root!):
 
