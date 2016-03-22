@@ -138,8 +138,8 @@ mkdir -p /mnt/usb
 mount -t ext4 /dev/sda3 /mnt/sda3 
 mount -t vfat /dev/sdb1 /mnt/usb
 ```
-**Automount** Die Konfiguratin in die fstab /etc/config/fstab schreiben.
-Über uci geht das so:
+**Automount** Die Konfiguration in die fstab /etc/config/fstab schreiben.
+Über uci geht das so: (Bitte nur für die vorhanden Partitionen).
 ```
 uci set fstab.sda3=mount
 uci set fstab.sda3.enabled=1
