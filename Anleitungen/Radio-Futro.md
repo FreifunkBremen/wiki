@@ -343,9 +343,10 @@ config 'mount'
 * Nützliche Befehle:
 
 ~~~
-/etc/init.d/icecast start
-/etc/init.d/icecast stop
-/etc/init.d/icecast restart
+/etc/init.d/icecast start   # Icecast starten
+/etc/init.d/icecast stop    # Icecast stoppen
+/etc/init.d/icecast restart # Icecast neu starten
+/etc/init.d/icecast reload  # Icecast - Konfigurationsdateien neu laden
 ~~~
 
 * Terminate Streaming
