@@ -1,4 +1,4 @@
-### Freifunkradio: Streaming-Server mit Icecast2 und Ices2 
+### Freifunkradio: Streaming-Server mit Icecast und Ices
 
 
 Um einen eigenen Internet-Radiosender zu bauen, brauchen wir ca. 2Mb Speicherplatz auf unserem Router, einen USB-Stick für die Medien und etwas Leistungsreserve. Wenn wir VPN-Mesh machen (Normalfall) steht uns dafür kaum Leistung zur Verfügung. In diesem Fall könenn wir einen weiteren Router ohne Verschlüsseung per Kabel meshen oder einen Offloader verwenden. Der Futro benötigt ca. 1% seiner Leistung für den VPN Tunnel, also genug Reserve zum Spielen.
@@ -354,7 +354,7 @@ Streams are terminated by killing Ices and/or stop running the Icecast server:
 
 ~~~
 killall ices
-/etc/init.d/icecast stop
+/etc/init.d/icecast stop oder kill icecast
 ~~~
 
 
