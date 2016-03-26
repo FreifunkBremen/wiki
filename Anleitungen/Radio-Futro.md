@@ -4,7 +4,7 @@
 Um einen eigenen Internet-Radiosender zu bauen, brauchen wir ca. 2Mb Speicherplatz auf unserem Router, einen USB-Stick für die Medien und etwas Leistungsreserve. Wenn wir VPN-Mesh machen (Normalfall) steht uns dafür kaum Leistung zur Verfügung. In diesem Fall könenn wir einen weiteren Router ohne Verschlüsseung per Kabel meshen oder einen Offloader verwenden. Der Futro benötigt ca. 1% seiner Leistung für den VPN Tunnel, also genug Reserve zum Spielen.
 
 Die folgende Anleitung ist nicht komplett, es fehlt IP V4, DNS Auflösung, DDNS Unterstützung.
-Aber um es einmal auszuprobieren reicht es aus.
+Zum Auszuprobieren reicht es aus. Pro Audiostream werden 20% Leistung beim 1Ghz Offloader Fujitsu-Siemens Futro verbraucht. Der Abruf eines Streams erfolgt mit Ipv6 Adresse: http://[2a06:8782:ffbb:usw]:8000/mountpoint
 
 
 ## Inhalt:
@@ -40,7 +40,7 @@ da wird dann der Schalter --force-depends aktiv, hat bei funktioniert.
 
 
 Mit Icecast wird nun eine erste Konfiguration durchgeführt, die nur die Grundvorraussetzungen erfüllt. Für weitere Informationen 
-bitte die offizielle Doku @ http://www.icecast.org/docs.php. aufsuchen. 
+bitte die offizielle Doku @ http://www.icecast.org/docs.php oder http://people.xiph.org/~epirat/Icecast/Docs/ aufsuchen. 
 
 
 
@@ -357,6 +357,18 @@ killall ices
 /etc/init.d/icecast stop oder kill icecast
 ~~~
 
+* Mp3 wird nicht gespielt.
+
+Icecast 2.4.2 streamt das freie ogg-vorbis Format. Also einfach von mp3 in ogg Wandeln.
+
+* Werden auch Videos gestreamt?
+
+Ja, in der Dokumentation http://people.xiph.org/~epirat/Icecast/Docs/ ist ein Beispiel enthalten. Wenn es funktioniert, bitte hier Ergänzen.
+
+* Soooo viele unterschiedliche Parameter, was bedeuten diese?
+
+Mehr Beschreibung wie in der Dokumentation zu finden ist, gibt es leider nicht. Wie an den Parametern zu drehen ist, wissen wohl nur die Entwickler. Ausprobieren und spielen.  
+
 
 ### 6.) Relay-Server aufsetzen:
 
@@ -426,7 +438,7 @@ Zum Starten des Relay-Servers:
 ~~~
 icecast -b -c /etc/icecast/icecast.xml
 ~~~
-Nun sollte sich euer Server beim Masterserver als normaler client einloggen, die mountpoints übernehmen und streamen. Der Masterserver bekommt davon nichts mit, da der Relay-Server wie ein normaler client einlogged.
+Nun sollte sich euer Server beim Masterserver als normaler client einloggen, die mountpoints übernehmen und streamen. Der Masterserver bekommt nichts davon mit, da dein Relay-Server wie ein normaler client anmeldet.
 
 
 Viel Spass beim Radiohören
