@@ -218,7 +218,7 @@ sysupgrade -v /tmp/gluon-ffhb-2016.1.2+bremen1-x86-generic-sysupgrade.img
 ```
 
 Der Offloader bootet, sda3 ist weg. USB Pakete nochmals laden/aktualisieren. USB neu mounten, und jetzt ggf. Autoupdate aktivieren.
-Kleine Optimierung: *Disable writing when not mounted*siehe hierzu: https://wiki.openwrt.org/doc/howto/usb.storage
+Kleine Optimierung: **Disable writing when not mounted** siehe hierzu: https://wiki.openwrt.org/doc/howto/usb.storage
 
 ```
 opkg update
