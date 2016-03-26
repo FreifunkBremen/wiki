@@ -194,3 +194,49 @@ Die UID zeigt der Befehl ```blkid```. die Option ```uuid``` ist aber nicht notwe
 _So, und nun viel Spass beim Futro-Basteln._
 
 
+**5.) Image-Update auf Community-Release**
+
+Angefügt: 27.03.2016
+In diesem Kapitel wird nun das selbst gebastelte Image auf das X86 Image der Community angehoben/geändert. Achtung: Zusätzliche Partitionen der Flashkarte sind weg, zumindest bei mir.
+(Ergänzung folgt, wenn es eine Lösung gibt.) Die Daten der zusätzlichen Partititionen auf USB sichern.
+Ab Openwrt v2016.1.2 ist die CF Kartenunterstützung enthalten und ein Sysupdate sollte möglich sein.
+Schritt 1, da ich nicht auf das Repository über https:// zugreifen kann, Openssl installieren
+
+```
+opkg update
+opkg install openvpn-openssl openvpn-easy-rsa
+```
+
+Jetzt das Image der Community laden. In diesem Fall FFHB.
+
+```
+cd /tmp
+wget https://downloads.bremen.freifunk.net/firmware/testing/sysupgrade/gluon-ffhb-2016.1.2+bremen1-x86-generic-sysupgrade.img.gz
+gzip -d gluon-ffhb-2016.1.2+bremen1-x86-generic-sysupgrade.img.gz
+sysupgrade -v /tmp/gluon-ffhb-2016.1.2+bremen1-x86-generic-sysupgrade.img
+
+```
+
+Der Offloader bootet, sda3 ist weg. USB Pakete nochmals laden/aktualisieren. USB neu mounten, und jetzt ggf. Autoupdate aktivieren.
+Kleine Optimierung: *Disable writing when not mounted*siehe hierzu: https://wiki.openwrt.org/doc/howto/usb.storage
+
+```
+opkg update
+opkg install kmod-usb-storage block-mount block-hotplug kmod-fs-ext4 kmod-fs-vfat kmod-nls-cp437 kmod-nls-iso8859-1
+
+mkdir -p /mnt/usb
+umount /mnt/usb   #make sure the disk isn't mounted before doing this
+touch /mnt/usb/USB_DISK_NOT_PRESENT
+chmod 555 /mnt/usb 
+chmod 444 /mnt/usb/USB_DISK_NOT_PRESENT
+mount -t vfat /dev/sdb1 /mnt/usb
+
+uci set autoupdater.settings.enabled=1
+uci set autoupdater.settings.branch=stable
+uci commit autoupdater
+```
+
+Fertig, der Offloader zeigt nun:
+Firmware	2016.1.2+bremen1 / gluon-v2016.1.2
+Autom. Updates	aktiviert (stable)
+
