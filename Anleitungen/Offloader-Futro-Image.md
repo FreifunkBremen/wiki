@@ -197,8 +197,8 @@ _So, und nun viel Spass beim Futro-Basteln._
 **5.) Image-Update auf Community-Release**
 
 Angefügt: 27.03.2016
-In diesem Kapitel wird nun das selbst gebastelte Image auf das X86 Image der Community angehoben/geändert. Achtung: Zusätzliche Partitionen der Flashkarte sind weg, zumindest bei mir.
-(Ergänzung folgt, wenn es eine Lösung gibt.) Die Daten der zusätzlichen Partititionen auf USB sichern.
+In diesem Kapitel wird nun das selbst gebastelte Image auf das X86 Image der Community angehoben/geändert. Achtung: Zusätzliche Partitionen der Flashkarte sind weg, die Arbeitspartition sda2 wird auf 50Mb verkleinert, zumindest bei mir.
+(Ergänzung folgt, wenn es eine Lösung gibt.) Die Daten der zusätzlichen Partititionen auf USB sichern. Damit die CF-Card wieder voll genutzt werden kann, hilft nur ein Kartenleser und Gparted (Linux-Partitionierer). 
 Ab Openwrt v2016.1.2 ist die CF Kartenunterstützung enthalten und ein Sysupdate sollte möglich sein.
 Schritt 1, da ich nicht auf das Repository über https:// zugreifen kann, Openssl installieren
 
