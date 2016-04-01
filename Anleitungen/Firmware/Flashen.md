@@ -5,7 +5,7 @@ Damit dein Router Teil des Freifunk-Netzes werden kann, muss er mit dem Freifunk
 Aber eins vorweg: Falls du dir unsicher bist, richten wir dir auch gerne einen Router bei einem der nächsten Freifunktreffen ein!
 
 ## Auswahl der Hardware
-Wenn du dich dazu entscheidest beim Freifunk mitzumachen, hast du anfangs die Qual der Wahl beim Aussuchen eines Routers. Welche Firmware-Version gerade aktuell ist und welche Router sie unterstützt, findest du hier: [[/Firmware/Versions-Changelog]]
+Wenn du dich dazu entscheidest beim Freifunk mitzumachen, hast du anfangs die Qual der Wahl beim Aussuchen eines Routers. Welche Firmware-Version gerade aktuell ist und welche Router sie unterstützt, findest du hier: [[/Firmware/Changelog]]
 Eine gute Übersichtseite mit vielen Informationen findet sich auch im Wiki von freifunk.net: http://wiki.freifunk.net/Freifunk_Firmware_Gluon/Hardware
 
 ### Für den Innenbereich
