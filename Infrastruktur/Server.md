@@ -9,7 +9,7 @@ Der Status der Gateways kann hier eingesehen werden: http://status.ffhb.mortzu.d
 | vpn02  | Plutex       | Bremen   | Freie Netze e.V.   | Berlin          |
 | vpn03  | Planetcyborg | Bremen   | Digineo            | Bremen          |
 | vpn04  | -            | Hetzner  | Freifunk Rheinland | -               |
-| vpn05  | anon6789     | Hetzner  | Hide.me            | Frankfurt       |
+| vpn05  | genofire     | Hetzner  | Hide.me            | Frankfurt       |
 | vpn06  | Digineo GmbH | -        | -                  | -               |
 
 ### Ansprechpartner
