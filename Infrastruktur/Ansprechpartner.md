@@ -77,5 +77,4 @@ Diese Leute stehen in Kontakt mit dem Senat zwecks Umsetzung des [Bürgerschafts
   * Gesche
   * morpheus
   * corny / Julian
-  * geno
   * mortzu
