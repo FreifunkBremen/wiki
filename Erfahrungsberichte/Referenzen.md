@@ -9,14 +9,14 @@ Findorff  | **Freizi Findorff** | Jugendzentrum |
 
 
 ### Gewerbe / Geschäfte
-Stadtteil | Name                  | Typ         | Kommentar
---------  | --------------------- | ----------- | ----------
-Findorff  | **feliz**             | Café        | gehört zur Gruppe Lilie, Port Piet, feliz; bekannt in Findorff
-Findorff  | **Lilie**             | Restaurant  | gehört zur Gruppe Lilie, Port Piet, feliz; bekannt in Findorff
-Findorff  | **Port Piet**         | Biergarten  | gehört zur Gruppe Lilie, Port Piet, feliz; bekannt in Findorff
-Findorff  | **Sieben Sachen**     | Bekleidung  | Inhaberin ist Geschäftsführerin der Findorffer Geschäftsleute
-Neustadt  | **Kukoon**            | Café,Bar    | 
-Neustadt  | **Karton** & **PAPP** | Café,Bar    | 
+Stadtteil | Name                  | Typ            | Kommentar
+--------  | --------------------- | -------------- | ----------
+Findorff  | **feliz**             | Café           | gehört zur Gruppe Lilie, Port Piet, feliz; bekannt in Findorff
+Findorff  | **Lilie**             | Restaurant     | gehört zur Gruppe Lilie, Port Piet, feliz; bekannt in Findorff
+Findorff  | **Port Piet**         | Biergarten     | gehört zur Gruppe Lilie, Port Piet, feliz; bekannt in Findorff
+Findorff  | **Sieben Sachen**     | Bekleidung     | Inhaberin ist Geschäftsführerin der Findorffer Geschäftsleute
+Neustadt  | **Kukoon**            | Café,Bar       | 
+Neustadt  | **Karton** & **PAPP** | Café,Bar,Bühne | 
 
 ### Privatpersonen
 
