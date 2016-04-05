@@ -1,10 +1,11 @@
 ### Freifunkradio: Streaming-Server mit Icecast und Ices
 
 
-Um einen eigenen Internet-Radiosender zu bauen, brauchen wir ca. 2Mb Speicherplatz auf unserem Router, einen USB-Stick für die Medien und etwas Leistungsreserve. Wenn wir VPN-Mesh machen (Normalfall) steht uns dafür kaum Leistung zur Verfügung. In diesem Fall könenn wir einen weiteren Router ohne Verschlüsseung per Kabel meshen oder einen Offloader verwenden. Der Futro benötigt ca. 1% seiner Leistung für den VPN Tunnel, also genug Reserve zum Spielen.
+Um einen eigenen Internet-Radiosender zu bauen, brauchen wir ca. 2Mb Speicherplatz auf unserem Router, einen USB-Stick für die Medien und etwas Leistungsreserve. Wenn wir VPN-Mesh machen (Normalfall) steht uns dafür kaum Leistung zur Verfügung. In diesem Fall könenn wir einen weiteren Router ohne Verschlüsseung per Kabel meshen oder einen Offloader verwenden. 
+Der Thin Client Fujitsu-Siemens Futro 550 benötigt ca. 1% seiner Leistung für den VPN Tunnel, also genug Reserve zum Spielen.
 
 Die folgende Anleitung ist nicht komplett, es fehlt IP V4, DNS Auflösung, DDNS Unterstützung.
-Zum Auszuprobieren reicht es aus. Pro Audiostream werden 20% Leistung beim 1Ghz Offloader Fujitsu-Siemens Futro verbraucht. Der Abruf eines Streams erfolgt mit Ipv6 Adresse: http://[2a06:8782:ffbb:usw]:8000/mountpoint
+Zum Auszuprobieren reicht es aber aus. Pro Audiostream werden 20% Leistung beim 1Ghz Offloader Fujitsu-Siemens Futro verbraucht. Der Abruf eines Streams erfolgt mit der Ipv6 Adresse: http://[2a06:8782:ffbb:usw]:8000/mountpoint
 
 
 ## Inhalt:
