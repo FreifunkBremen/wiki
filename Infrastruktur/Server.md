@@ -20,7 +20,7 @@ Der Status der Gateways kann hier eingesehen werden: http://status.ffhb.mortzu.d
 | vpn02   | jplitza, mortzu       | morpheus            |
 | vpn03   | jplitza, mortzu       | morpheus            |
 | vpn04   | jplitza, mortzu       |                     |
-| vpn05   | anon6789              | genofire            |
+| vpn05   | anon6789, genofire    | corny,mortzu        |
 | vpn06   | corny                 |                     |
 
 
