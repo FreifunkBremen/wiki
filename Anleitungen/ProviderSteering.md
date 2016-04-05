@@ -1,11 +1,9 @@
-Da manche VPN - Server von manchen Provider schlecht erreichbar (z.B. DTag - Telekom),
-wurde dieses kleine Skript entwickelt.
+Die VPN-Server sind unterschiedlich von verschiedenen Providern erreichbar (z.B. Hetzner-Server von DTAG) wurde dieses kleine Skript entwickelt.
 
-Das Skript bewirkt, dass ein Knoten aus solch ein Netz erst mit den zweiten Versuch angenommen wird.
-(Mit der Hoffnung, das der Knoten von ein VPN-Server mit einer besseren Anbindung angenommen wird.)
+ProviderSteering ist, in Anlehnung auf [Band Steering](http://www.arubanetworks.com/techdocs/ArubaOS_64_Web_Help/Content/ArubaFrameStyles/ARM/Band_Steering.htm), das Verfahren, welches wir entwickelt haben, um Knoten, die von einem für einen VPN-Server schlecht geeigneten Netz erst beim zweiten Verbindungsversuch annimmt. (Mit der Hoffnung, das der Knoten von ein VPN-Server mit einer besseren Anbindung angenommen wird.)
 
-## fastd blacklist-Skript
-The magic `/etc/fastd/ffhb/blacklist.sh`-Skript
+## fastd blacklist-Script
+The magic `/etc/fastd/ffhb/blacklist.sh`-Script
 ```
 #!/bin/sh -e
 
@@ -34,14 +32,13 @@ if [ ! -f "${STATE_DIR}/${PEER_KEY}" ]; then
 fi
 ```
 
-Dieser muss natürlich in fastd aktiviert werden.
+Dieses muss dann in fastd aktiviert werden:
 ```
 on verify "/etc/fastd/ffhb/blacklist.sh"
 ```
 
 **Achtung:**
-Im FFHB gibt es bereits ein Skript mit einer anderen Funktionalitäten.
-Bitte erweitern Sie das Skript, statt es zu ersetzen.
+Das blacklist.sh-Script muss erweitert, nicht ersetzt werden.
 
 ## Cronjob zum Aufräumen
 unter `/etc/cron.d/fastd-blacklist`
@@ -49,8 +46,7 @@ unter `/etc/cron.d/fastd-blacklist`
 */5 * * * * root [ -d /run/fastd-blacklist ] && find /run/fastd-blacklist -type f -mmin +5 -delete
 ```
 ## Examples
-Hier ein paar Netze,
- mit zunächst zurückgestellt werden.
+Hier ein paar Netze, die zunächst zurückgestellt werden.
 ### Kabel-Deutschland
 ```
   *.dynamic.kabel-deutschland.de.)
@@ -59,5 +55,5 @@ Hier ein paar Netze,
   ;;
 ```
 
-## Entwickeler
+## Entwickler
 Danke an jplitza und mortzu.
