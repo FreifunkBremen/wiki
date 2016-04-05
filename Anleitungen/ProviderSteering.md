@@ -27,15 +27,24 @@ if [ ! -f "${STATE_DIR}/${PEER_KEY}" ]; then
   esac
 fi
 ```
+
 Enable it on fastd by append this line:
 ```
 on verify "/etc/fastd/ffhb/blacklist.sh"
 ```
+
 ## Cronjob zum Aufräumen
 unter `/etc/cron.d/fastd-blacklist`
 ```
 */5 * * * * root [ -d /run/fastd-blacklist ] && find /run/fastd-blacklist -type f -mmin +5 -delete
 ```
-
+## Examples
+### RNDS
+```
+  *.dynamic.kabel-deutschland.de.)
+    touch "${STATE_DIR}/${PEER_KEY}"
+    exit 1
+  ;;
+```
 ## Entwickeler
 Danke an jplitza und mortzu.
