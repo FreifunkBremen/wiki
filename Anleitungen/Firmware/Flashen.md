@@ -38,7 +38,7 @@ In oberen Fall wäre es die Datei mit dem Namen: <pre>gluon-ffhb-*GLUONVERSION*~
 ###### Ubiquiti Besonderheit
 Für die Ubiquiti Picostation M2, die NanoStaion loco M und die NanoBridg meuss das Image der Bullet benutzt werden.
 
-*Dies entfällt ab Version 2015.1.2, in welcher seperierte Images für alle Geräte eingeführt wurden.*
+*Dies entfällt ab Version 2015.1.2, in welcher separierte Images für alle Geräte eingeführt wurden.*
 
 
 ### Firmware aufspielen
