@@ -81,7 +81,7 @@ Nach dem Speichern der Einstellungen startet der Knoten in den Produktivmodus ne
 Um später wieder in den Produktivmodus zu gelangen, muss der Reset-Knopf des Gerätes so lange gedrückt werden, bis alle LEDs ein mal kurz aufleuchten.
 
 ### Produktivmodus
-Ein Freifunk Knoten wird sich in der meisten Zeit im Produktivmodus befinden. Er baut zu anderen Knoten in der Umgebung per WLAN und zu den Freifunk Servern per Internet eine Verbindung aus.  
+Ein Freifunk Knoten wird sich in der meisten Zeit im Produktivmodus befinden. Er baut zu anderen Knoten in der Umgebung per WLAN und zu den Freifunk Servern per Internet eine Verbindung auf.  
 Über die SSID (WLAN-Name) `bremen.freifunk.net` kann man mit WLAN-fähigen Geräten sich ins Freifunk einklinken.
 
 Im Produktivmodus ist die Konfigurationsseite unter `192.168.1.1` **nicht** erreichbar.
