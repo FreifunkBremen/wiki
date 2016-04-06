@@ -36,7 +36,7 @@ In oberen Fall wäre es die Datei mit dem Namen: <pre>gluon-ffhb-*GLUONVERSION*~
 **Eine falsche Firmware kann dazu führen, dass wir den Router mit sehr großem Aufwand reanimieren müssen.**
 
 ###### Ubiquiti Besonderheit
-Für die Ubiquiti Picostation M2, die NanoStaion loco M und die NanoBridg meuss das Image der Bullet benutzt werden.
+Für die Ubiquiti Picostation M2, die NanoStaion loco M und die NanoBridge muss das Image der Bullet benutzt werden.
 
 *Dies entfällt ab Version 2015.1.2, in welcher separierte Images für alle Geräte eingeführt wurden.*
 
