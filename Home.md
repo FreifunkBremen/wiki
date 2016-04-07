@@ -11,11 +11,11 @@ Zurück zur Homepage geht es [hier](http://bremen.freifunk.net) lang.
 Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat im [Hackerspace Bremen](https://www.hackerspace-bremen.de) um 19 Uhr. In der ersten halben Stunde werden Fragen von Neulingen beantwortet und um 19:30 Uhr wird die Tagesordnung eröffnet.  Üblicherweise dauern die Treffen 2-3 Stunden mit kleinen Pausen zwischen drin.
 
 * Letzte Treffen:
-  * [[04.03.2016|Treffen/2016_03_04]]
   * [[18.03.2016|Treffen/2016_03_18]]
-* Nächste Treffen:
   * [[01.04.2016|Treffen/2016_04_01]]
+* Nächste Treffen:
   * [[15.04.2016|Treffen/2016_04_15]]
+  * [[15.04.2016|Treffen/2016_05_06]]
 * [Liste aller Treffen](http://wiki.bremen.freifunk.net/pages/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
 * Weitere Termine (nicht nur Treffen) finden sich in den Protokollen zu den verschiedenen Treffen
 
