@@ -4,7 +4,7 @@ Bitte auch folgende Seite Beachten: [https://wiki.freifunk.net/WLAN-Antennen](ht
 
 Für Antennen im Aussenbereich ist Blitzschutz erforderlich.
 
-Weiterführende Literatur:
+**Weiterführende Literatur:**
 
 [1] Rothammels Antennenbuch, Dipl.-Ing. Alois Krischke
 
