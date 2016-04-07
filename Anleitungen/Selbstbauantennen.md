@@ -50,6 +50,7 @@ Kurze Antenne mit 5-6 dB.
 
 ![Antenne](http://martybugs.net/wireless/images/collinear_bare_tn.jpg)
 ![Antenne](http://martybugs.net/wireless/images/collinear_loop_tn.jpg)
+![Antenne](http://martybugs.net/wireless/images/collinear_loop2_tn.jpg)
 
 Drahtlänge mindestens 448 mm. Im Abstand 91 / 30,75 / 89 mm / 30,75 / 86 mm Markierungen anbringen. In der Mitte der kurzen Abschnitte einen 8 mm Kern zum Biegen auflegen und eine volle Windung erstellen.
 
