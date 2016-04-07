@@ -43,7 +43,8 @@ Bei der industriellen Produktion von Antennen, wird aus Kostengründen auf wicht
 
 ![Topfkreis am Stecker](http://www.lincomatic.com/wireless/gnetlowpwr/decoupler_detail_diag.jpg)
 
-Antennengewinn ca. 5-6 dB => 2 Windungen, Drahtlänge = 448 mm, Antennenlänge 355,5 mm Antennengewinn ca. 8 dB => 5 Windungen, Drahtlänge = 808 mm, Antennenlänge 623 mm
+Antennengewinn ca. 5-6 dB => 2 Windungen, Drahtlänge = 448 mm, Antennenlänge 355,5 mm 
+Antennengewinn ca. 8 dB => 5 Windungen, Drahtlänge = 808 mm, Antennenlänge 623 mm
 
 Zunächst die Variante 1 aus einem Stück CU Draht 2,5 mm^2
 Kurze Antenne mit 5-6 dB.
