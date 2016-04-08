@@ -57,6 +57,19 @@ Wer nicht in die Konfiguration eingreifen möchte, kann ab Version **v2016.1.2**
 In dem Read.me ist beschrieben, wie es ihne das build.sh Script funktioniert. Ich möchte aber temporär die site.mk und das build.sh script anpassen.
 Beide Dateien in das Homeverzeichnis kopieren oder die Originale umbenennen in z.B. site.mk.orig usw.
 
+Ergänzung vom 8.4.2016: Hier ein die Befehlsfolge für einen neuen Durchlauf im Homeverzeichnis (ohne Änderungen) 
+~~~
+rm -rdf gluon-site-ffhb
+rm -rdf gluon
+sudo apt-get install coreutils build-essential subversion git libncurses5-dev zlib1g-dev unzip gawk libssl-dev
+git clone https://github.com/freifunk-gluon/gluon.git gluon -b v2016.1.3
+git clone --recursive https://github.com/FreifunkBremen/gluon-site-ffhb.git
+cd gluon-site-ffhb/
+git -C gluon checkout v2016.1.3
+./build.sh testing
+~~~
+
+
 In die Site.mk werden folgende Zeilen eingefügt. (Anmerkung: ab **v2016.1.2** gibt es Änderungen, weiter unten beschrieben)
 ```
   kmod-usb-core \
@@ -79,7 +92,7 @@ Ist ein Paket schon vorhanden, (doppelter Eintrag :-) wird der Eintrag überspru
 
 In der Build.sh ab Zeile 124, folgede Änderungen vornehmen. (Anmerkung: ab **v2016.1.2** gibt es Änderungen, der Patch nicht mehr notwendig)
 
-**#Hier kopiere ich den Futro Patch für 2015 && 2016**
+**#Hier kopiere ich den Futro Patch für 2015.x && 2016.1.1**
 ```
 echo "CONFIG_PATA_ATIIXP=y" >> gluon/openwrt/target/linux/x86/generic/config-3.10 
 echo "CONFIG_PATA_ATIIXP=y" >> gluon/openwrt/target/linux/x86/generic/config-default
@@ -93,13 +106,13 @@ fi
 
 **#for target in ar71xx-generic ar71xx-nand mpc85xx-generic x86-generic; do** 
 
-_Diese Zeile austauschen, nur x86-generic bleibt enthalten_
+_Diese Zeile austauschen, nur "x86-generic" bleibt enthalten_
 ```
 for target in x86-generic; do   
 ```
 _das mache ich nur, weil ich Schreibfaul bin._
 
-build.sh neu laufen lassen. Die x86-generic Images werden jetzt mit dem Futro Image überschrieben.
+"./build.sh stable" neu laufen lassen. Die x86-generic Images werden jetzt mit dem Futro Image überschrieben.
 Das Futro Image liegt unter:
 [/home/MEIN-PC-NAME/gluon-site-ffhb/gluon/output/images/factory].
 Das Image **gluon-ffhb-2016.1.2+bremen1-x86-generic.img.gz** nun auf den bootfähigen USB-Stick kopieren, fertig. Fertig heisst, jetzt den Futro mit USB Image booten.
@@ -197,7 +210,7 @@ _So, und nun viel Spass beim Futro-Basteln._
 **5.) Image-Update auf Community-Release**
 
 Angefügt: 27.03.2016
-In diesem Kapitel wird nun das selbst gebastelte Image auf das X86 Image der Community angehoben/geändert. Achtung: Zusätzliche Partitionen der Flashkarte sind weg, die Arbeitspartition sda2 wird auf 50Mb verkleinert, zumindest bei mir.
+In diesem Kapitel wird nun das selbst gebastelte Image auf das X86 Image der Community angehoben/geändert. *Achtung:* Zusätzliche Partitionen der Flashkarte sind dann weg, die Arbeitspartition sda2 wird wieder auf 50Mb verkleinert, zumindest bei mir. Einige nachinstallierte Programme sind weg (z.B. tcpdump etc.).
 (Ergänzung folgt, wenn es eine Lösung gibt.) Die Daten der zusätzlichen Partititionen auf USB sichern. Damit die CF-Card wieder voll genutzt werden kann, hilft nur ein Kartenleser und Gparted (Linux-Partitionierer). 
 Ab Openwrt v2016.1.2 ist die CF Kartenunterstützung enthalten und ein Sysupdate sollte möglich sein.
 Schritt 1, da ich nicht auf das Repository über https:// zugreifen kann, Openssl installieren
