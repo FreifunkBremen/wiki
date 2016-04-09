@@ -147,9 +147,27 @@
 ## Gluon-Versionen
 Hier aufgeführt sind die von Freifunk Bremen genutzten Gluon-Versionen mit einer kurzen Zusammenfassung von relevanten Änderungen.
 
+### [2016.1.3](https://gluon.readthedocs.org/en/v2016.1.3/releases/v2016.1.3.html)
+**Release-Datum**: 31.03.2016
+* Unterstützung für 2 weitere Geräte
+* zufälliges Aufhängen beim Boot wurde gefixed
+* Gluon unterstützt nun auch Systeme, welche LibreSSL anstatt von OpenSSL verwenden
+
+### [2016.1.2](https://gluon.readthedocs.org/en/v2016.1.2/releases/v2016.1.2.html)
+**Release-Datum**: 09.03.2016
+* Unterstützung für FUTRO Thin Clients (x86), gut als Offloaders
+
+### [2016.1.1](https://gluon.readthedocs.org/en/v2016.1.1/releases/v2016.1.1.html)
+**Release-Datum**: 02.03.2016
+* Unterstützung für 2 weitere Geräte
+* opkg repository key wird nicht mehr bei jedem build überschrieben
+* Gluon kann jetzt direkt auf Airmax M XM/XW mit AirOS 5.6.x installiert werden, kein Downgrade mehr nötig
+* bug fixes für die neue Statusseite
+* config mode fixes
+* Zugang zum failsave mode für TL-WDR4900 gefixed
+
 ### [2016.1](https://gluon.readthedocs.org/en/v2016.1/releases/v2016.1.html)
 ###### *urspr. 2015.2*
-
 **Release-Datum**: 08.02.2016
 * Unterstützung für mehr Geräte, vor allem:
   * TP-LINK TL-WR841 v10
