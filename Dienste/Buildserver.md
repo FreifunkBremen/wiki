@@ -2,8 +2,8 @@
 Von jplitza wurde eine VM gestellt, auf welcher die Firmware zentral gebaut werden kann.
 
 ## Anleitungen
-### SSH Zugriff auf Screen
-Mit dem Befehl `ssh ffhb@builder.jplitza.de -t screen -x` kann auf den Screen zugegriffen werden.  
+Bei einem normalen SSH-Login wird automatisch eine tmux-Session gestartet bzw. einer laufenden tmux-Session wird beigetreten. Dadurch können mehrere Personen gleichzeitig die selben Ausgaben beobachten und man kann sich mit `Strg-A D` ausloggen ohne einen laufenden Build-Prozess abzubrechen.
+  
 Im Moment haben Zugriff:
 * jplitza (Serverinhaber)
 * corny
