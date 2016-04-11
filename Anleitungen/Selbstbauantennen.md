@@ -14,6 +14,8 @@ Für Antennen im Aussenbereich ist Blitzschutz erforderlich.
 
 [4] Ausschuss Blitzschutz und Blitzforschung (ABB) des VDE
 
+[5] Kapitel 18 des "ARRL Antenna Book" (Mehr Information als Rothammel)
+
 
 ###1. Kapitel  **2,4 Ghz Antennen**
 
