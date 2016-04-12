@@ -54,7 +54,7 @@ Sollte das build.sh Script einmal irgendwo aussteigen, einfach neu starten und w
 
 Wer nicht in die Konfiguration eingreifen möchte, kann ab Version **v2016.1.2** das fertige X86 Image verwenden und die benötigten Pakete von Hand nachinstallieren. Das wäre eine Option, wenn ich kein Image selber erstellen möchte.
 
-In dem Read.me ist beschrieben, wie es ihne das build.sh Script funktioniert. Ich möchte aber temporär die site.mk und das build.sh script anpassen.
+In dem **Read.me** ist beschrieben, wie das build.sh Script funktioniert. Ich möchte aber temporär die site.mk und das build.sh script anpassen.
 Beide Dateien in das Homeverzeichnis kopieren oder die Originale umbenennen in z.B. site.mk.orig usw.
 
 Ergänzung vom 8.4.2016: Hier ein die Befehlsfolge für einen neuen Durchlauf im Homeverzeichnis (ohne Änderungen) 
@@ -131,13 +131,21 @@ GLUON_SITE_PACKAGES += \
     kmod-r8169
 endif
 ```
+Aktuelle Infos zur USB Unterstützung auch unter:
+https://github.com/freifunk-gluon/gluon/wiki/USB-Support
+
+Ergänzung 12.4.2016: Der **./build.sh** Durchlauf **v2016.1.3** wurde bei mir mit Fehler: *Too many levels of symbolic links * abgebrochen. Falls dieser Fehler auftritt, folgenden Workaround anwenden und den Prozess erneut starten/fortsetzen.
+~~~
+rm -Rf openwrt/staging_dir/host/.prereq-build openwrt/staging_dir/host/bin/bash
+~~~
+
 **4.) Konfiguration**
 
-Der Futro wird wie ein FF-Router konfiguriert. Mit dem Browser unter 192.168.1.1 die Konfiguration vornehmen. Mesh on LAN und VPN Tunnel ist wichtig. Die LAN Schnittstelle auf der konfiguriert wird, ist die Onboardkarte. Nach der Konfiguration kann ich nur noch über einen angeschlossenen Router auf den Futro via SSH zugreifen, oder aus den FF Netz. Direkt mit dem PC bekomme ich keine Verbindung zustande. SSH-Key oder PW nicht vergessen. Welche Seite jetzt WAN oder LAN wird, hängt davon ab, mit welcher Buchse ich eine Verbindung zu meinen DSL-Gast-LAN Anschluss herstelle. Wenn der Futro Online ist, wird die andere Buchse automatisch gelb und LAN.
+Der Futro wird wie ein FF-Router konfiguriert. Mit dem Browser unter 192.168.1.1 die Konfiguration vornehmen. Mesh on LAN und VPN Tunnel ist wichtig. Die LAN Schnittstelle auf der konfiguriert wird, ist die Onboardkarte. Nach der Konfiguration kann ich nur noch über einen angeschlossenen Router auf den Futro via SSH zugreifen, oder aus den FF Netz. Direkt mit dem PC bekomme ich keine Verbindung zustande. SSH-Key oder PW nicht vergessen. Welche Seite jetzt WAN oder LAN wird, hängt davon ab, mit welcher Buchse ich eine Verbindung zu meinen DSL-Gast-LAN Anschluss herstelle. Wenn der Futro Online ist, wird die andere Buchse automatisch gelb und zum LAN.
 
 Wird jetzt ein USB Stick gesteckt, wird dieser aber erkannt, aber noch nicht automatisch gemountet.
 
-Wir brauchen einen SSH Zugang. Adresse vergessen? Hängt die Kiste ins Netz und wartet bis er auf der Karte angezeigt wird.
+Wir brauchen einen SSH Zugang. Adresse vergessen? Hängt die Kiste ins Netz und wartet bis er auf der Karte angezeigt wird. Dort kann die IPv6 Adresse abgelesen werden.
 
 **Mounten von Hand:**
 
