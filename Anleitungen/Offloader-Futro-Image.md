@@ -269,3 +269,9 @@ reboot
 ~~~
 Über einen der LAN-Ports Zugriff via 192.168.1.1 herstellen.
 Normalerweise startet der Futro automatisch im Konfig-Mode, solange keine Konfiguration da ist.
+
+Hilfreiche Links:
+
+https://github.com/freifunk-gluon/gluon/wiki/Commandline-administration
+https://github.com/oszilloskop/Gluon2Futro
+
