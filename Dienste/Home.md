@@ -35,6 +35,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.127 node.ffhb.de
     * 10.196.0.128-159 Dienste von mortzu
       * 10.196.0.129 tahoe-introducer.ffhb.moritzrudert.de
+      * 10.196.0.130 mumble.ffhb.moritzrudert.de
       * 10.196.0.131 gatemon-3.ffhb.moritzrudert.de
       * 10.196.0.132 svc.ffhb.moritzrudert.de
       * 10.196.0.134 gatemon-2.ffhb.moritzrudert.de
@@ -83,6 +84,7 @@ Einige Adressen sind fest hinterlegt. Sie werden im Folgenden aufgelistet.
   * 2a06:8782:ffbb:1337::6f (ec8or)
   * 2a06:8782:ffbb:1337::80 bis 9f Dienste von mortzu
     * 2a06:8782:ffbb:1337::81 tahoe-introducer.ffhb.moritzrudert.de
+    * 2a06:8782:ffbb:1337::82 mumble.ffhb.moritzrudert.de
     * 2a06:8782:ffbb:1337::83 gatemon-3.ffhb.moritzrudert.de
     * 2a06:8782:ffbb:1337::84 svc.ffhb.moritzrudert.de
     * 2a06:8782:ffbb:1337::86 gatemon-2.ffhb.moritzrudert.de
