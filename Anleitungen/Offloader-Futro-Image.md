@@ -261,3 +261,11 @@ Fertig, der Offloader zeigt nun:
 Firmware	2016.1.2+bremen1 / gluon-v2016.1.2
 Autom. Updates	aktiviert (stable)
 
+Ergänzung 13.4.2016: Falls der Futro nicht per SSH zu erreichen ist, hilft nur lokal Tastatur und Monitor anschliessen. Über die Konsole SSH neu konfigurieren oder den Konfig-Mode starten.
+~~~
+uci set "gluon-setup-mode.@setup_mode[0].enabled=1"
+uci commit
+reboot
+~~~
+Über einen der LAN-Ports Zugriff via 192.168.1.1 herstellen.
+Normalerweise startet der Futro automatisch im Konfig-Mode, solange keine Konfiguration da ist.
