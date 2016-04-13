@@ -274,4 +274,5 @@ Hilfreiche Links:
 
 https://github.com/freifunk-gluon/gluon/wiki/Commandline-administration
 https://github.com/oszilloskop/Gluon2Futro
+https://wiki.freifunk-mwu.de/w/Howto/Offloader
 
