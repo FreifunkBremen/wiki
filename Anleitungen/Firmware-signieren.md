@@ -3,7 +3,7 @@ Das signieren der Firmware ist nötig, damit der autoupdater auf den Knoten die 
 Im Endeffekt wird aber gar nicht die Firmware signiert, sondern das dazugehörige Manifest, in welchem der Branch, das Startdatum zum Ausrollen, der Zeitraum über den das Ausrollen gestreckt werden soll, sowie Links mit Hash zu den Firmware-Images hinterlegt sind.
 
 Aktuell sind für den Testing Branch eine und für den Stable Branch 2 gültige Signaturen nötig.  
-Welche Signatur akzeptiert wird, ist fest in der Firmware verbaut. Fals in neuen Versionen Schlüssel von neuen Personen dazukommen und diese verwendet werden, kann es sein, dass ein Gerät mit älterer Firmware, die neue Firmware nicht installiert, da es die Signatur nicht verifizieren kann.
+Welche Signatur akzeptiert wird, ist fest in der Firmware verbaut. Falls in neuen Versionen Schlüssel von neuen Personen dazukommen und diese verwendet werden, kann es sein, dass ein Gerät mit älterer Firmware, die neue Firmware nicht installiert, da es die Signatur nicht verifizieren kann.
 
 ## technische Vorraussetzungen
 * ecdsautils  
