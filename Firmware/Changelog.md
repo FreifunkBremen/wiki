@@ -48,16 +48,16 @@ Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](
 
 ### 2015.1.2+bremen3
 **Datum der Deklarierung als stabil**: [30.12.2015](http://downloads.bremen.freifunk.net/firmware/all/2015.1.2+bremen3/sysupgrade/stable.manifest)   
-**Datum der Veröffentlichung zum Testen**: [20.12.2015]  
+**Datum der Veröffentlichung zum Testen**: [18.12.2015](http://bremen.freifunk.net/blog/2015/12/30/v2015-1-2-bremen3-wird-stable.html)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2015.1.2+bremen3) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.2+bremen3)  
 **gluon-Version**: [2015.1.2](#gluon-versionen_2015-1-2)  
 - Firmware-Mirror entfernt  
   autoupdater lief mehrfach, wenn Mirror nicht erreichbar waren ([gluon-issue](https://github.com/freifunk-gluon/gluon/issues/582))
-- VPNs 01, 02, 03, 04 und 06 enthalten
+- VPNs 01, 02, 03, 04 und 06 enthalten (davon 04 und 06 neu)
 - DNS-Einträge der NTP-Server korrigiert
 - Firmware-Schema umgestellt
     - Firmware wird nicht mehr als Testing- oder Stable-Firmware gebaut  
-        - es gibt **eine*- Firmware
+        - es gibt **eine** Firmware
             - steht zuerst nur Knoten mit Autoupdater auf *testing- zur Verfügung
             - bei erfolgreichem Test, wird die Firmware bitgleich, ohne neu zu kompilieren, für die Stable-Knoten freigegeben
         - `~testing`-Suffix entfält
