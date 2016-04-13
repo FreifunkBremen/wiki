@@ -58,7 +58,7 @@ Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](
 - Firmware-Schema umgestellt
     - Firmware wird nicht mehr als Testing- oder Stable-Firmware gebaut  
         - es gibt **eine** Firmware
-            - steht zuerst nur Knoten mit Autoupdater auf *testing- zur Verfügung
+            - steht zuerst nur Knoten mit Autoupdater auf *testing* zur Verfügung
             - bei erfolgreichem Test, wird die Firmware bitgleich, ohne neu zu kompilieren, für die Stable-Knoten freigegeben
         - `~testing`-Suffix entfält
     - Testing versteht sich als Release Candidate  
