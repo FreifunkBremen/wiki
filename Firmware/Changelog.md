@@ -1,4 +1,14 @@
 # Versions-Changelog
+Auf dieser Seite werden alle Änderungen an der Firmware festgehalten.
+
+Die verschiedenen Varianten der Freifunk Bremen Firmware werden auf entsprechenden [Varianten](http://wiki.bremen.freifunk.net/Firmware/Varianten)-Wiki-Seite erklärt.
+
+Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](http://downloads.bremen.freifunk.net/firmware/) zu finden.  
+- Der Unterordner [**`stable`**](http://downloads.bremen.freifunk.net/firmware/stable/) verweist auf die aktuelle als "stabil" gewertete und bestimmte Firmwareversion.  
+- Der Unterordner [**`testing`**](http://downloads.bremen.freifunk.net/firmware/testing/) verweist auf die aktuell zu testende Firmware Firmwareversion.  
+- Im Unterordner [**`all`**](http://downloads.bremen.freifunk.net/firmware/all/) lassen sich alle einzelnen Versionen, auch vergangene bis zu einem bestimmten Zeitpunk, der Freifunk Firmware finden.
+
+
 ## Freifunk Bremen Versionen
 **aktuelle Stable**: [2015.1.2+bremen3](#freifunk-bremen-versionen_2015-1-2-bremen3)  
 **aktuelle Testing**: [2016.1.2+bremen1](#freifunk-bremen-versionen_2016-1-2-bremen1)
