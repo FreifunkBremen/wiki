@@ -1,5 +1,8 @@
 # Versions-Changelog
-Auf dieser Seite werden alle Änderungen an der Firmware festgehalten.
+Auf dieser Seite werden alle Änderungen an der Firmware festgehalten.  
+Im [ersten Abschnitt](#freifunk-bremen-versionen) werden alle Freifunk Bremen Firmware Versionen und ihre, für Bremen, spezifischen Änderungen und Anpassungen aufgelistet.  
+Im [zweiten Abschnitt](#gluon-versionen) werden die zugrundeliegenden Gluon-Versionen aufgeliste mit ihren jeweiligen Neuerungen und Fehlerkorrekturen.
+
 
 Die verschiedenen Varianten der Freifunk Bremen Firmware werden auf entsprechenden [Varianten](http://wiki.bremen.freifunk.net/Firmware/Varianten)-Wiki-Seite erklärt.
 
