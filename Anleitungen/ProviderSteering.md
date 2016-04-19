@@ -54,6 +54,13 @@ Hier ein paar Netze, die zunächst zurückgestellt werden.
     exit 1
   ;;
 ```
+### o2 / Telefonica
+```
+  *.net.telefonica.de.)
+    touch "${STATE_DIR}/${PEER_KEY}"
+    exit 1
+  ;;
+```
 
 ## Entwickler
 Danke an jplitza und mortzu.
