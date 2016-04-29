@@ -18,7 +18,7 @@ Produkt nicht mehr verfügbar; endgültige Überprüfung wegen nicht Erreichbark
 
 #### [TP-LINK TL-WDR3600](http://www.tp-link.de/products/details/?categoryid=&model=TL-WDR3600)
 * kleinanzeigen-ebay.de  
-  [44,90 € refurbished](http://www.ebay.de/itm/TP-Link-WDR3600-N600-WLAN-Dual-Band-Gigabit-Router-600Mbps-refurbished-/191383503512?hash=item2c8f588298) (keine Versandkosten)
+  [44,90 € refurbished](http://www.ebay.de/itm/TP-Link-WDR3600-N600-WLAN-Dual-Band-Gigabit-Router-600Mbps-refurbished-/191383503512?hash=item2c8f588298) (keine Versandkosten)(nicht mehr lieferbar)
 
 #### [TP-LINK TL-WDR4900](http://www.tp-link.de/products/details/?categoryid=&model=TL-WDR4900)
 * kleinanzeigen-ebay.de  
