@@ -57,12 +57,17 @@ bitte die offizielle Doku @ http://www.icecast.org/docs.php oder http://people.x
 ### 3.) Installation
 * icecast (http://www.icecast.org/download.php)
 * ices (http://www.icecast.org/ices.php)
+* Doku (http://people.xiph.org/~epirat/Icecast/Docs/)
+* Doku (http://icecast.org/docs/) Download (http://icecast.org/download/)
+* Doku (https://wiki.ubuntuusers.de/Icecast2/)
+
 
 Beide Pakete lassen sich im Normalfall mit dem gängigen Linux Pakettools installieren.
 Bei OpenWRT mit opkg install. Damit auch alle lib´s installiert werden, geben wir dem Install ein --force-depends mit.
 
 ~~~
-  opkg install icecast --force-depends
+opkg install icecast --force-depends
+
 Installing icecast (2.4.2-1) to root...
 Downloading http://downloads.openwrt.org/chaos_calmer/15.05/x86/generic/packages/packages/icecast_2.4.2-1_x86.ipk.
 Installing libcurl (7.40.0-3.1) to root...
@@ -90,7 +95,8 @@ Collected errors:
  * opkg_install_cmd: Cannot install package ices.
 
 
- opkg install ices --force-depends
+opkg install ices --force-depends
+ 
 Installing ices (2.0.2-1) to root...
 Downloading http://downloads.openwrt.org/chaos_calmer/15.05/x86/generic/packages/packages/ices_2.0.2-1_x86.ipk.
 Multiple packages (kmod-input-core and kmod-input-core) providing same name marked HOLD or PREFER. Using latest.
@@ -121,7 +127,8 @@ Collected errors:
  *      kernel (= 3.18.20-1-8549f8163c15d79b053f26aa0d52e96f) *
   
  
-  opkg install ices --force-depends
+opkg install ices --force-depends
+
 Package ices (2.0.2-1) installed in root is up to date.
 ~~~
 
@@ -203,6 +210,7 @@ So, das wäre geschafft. Nun können wir den Server mal testen (als root!):
 
 ~~~
 icecast -b -c /etc/icecast.xml
+
 ~~~
 
 Wenn ihr alles richtig gemacht habt, sollte lediglich ausgegeben werden, dass der Server nun unter einem anderen Benutzer als root läuft:
@@ -273,18 +281,21 @@ Um diese Datei mit Inhalt zu füllen verwendet ihr ein Musikbearbeitungsprogramm
 Nun starten wir unseren Streamplayer ices. Für unterschiedliche Stream lege ich die Playlist und ices-playlist.xml in dem entsprechendem Medienverzeichnis ab.
 ~~~
 ices /etc/ices-playlist.xml
+
 ~~~
 Sollte alles glatt gegangen sein, sollten wir auf http://ip-desservers:8000/status.xsl nun sehen, dass ein stream läuft.
 Nun könnt ihr euch noch von einem Rechner zu eurem Server verbinden und schauen, ob auch wirklich korrekt gestreamt wird.
 
 ~~~
 http://ip-desserver:8000/radio.ogg oder als ipv6 http://[2a06:8782:ffbb:1337:219:99ff:fe7a:7220]:8000/radio.ogg
+
 ~~~
 
 Das Admin-Webinterface findet ihr unter:
 
 ~~~
 http://ip-desservers:8000/admin/stats.xsl oder http://[ipv6]:8000/admin/stats.xsl
+
 ~~~
 
 ### 5.) FAQ:
@@ -299,6 +310,7 @@ touch /var/log/icecast/error.log
 touch /var/log/icecast/access.log
 chmod 777 /var/log/icecast/error.log
 chmod 777 /var/log/icecast/access.log
+
 chown ice:ice /var/log/icecast/error.log
 chown ice:ice /var/log/icecast/access.log
 
@@ -309,6 +321,7 @@ touch /var/log/ices/ices.log
 chmod 777 /var/log/ices/ices.log
 
 ices /mnt/sda3/Musik/ices-playlist.xml
+
 ~~~
 
 * Mein Musikverzeichnis ist weg.
@@ -318,6 +331,7 @@ Noch kein Automount konfiguriert.
 von Hand:
 mount -t vfat /dev/sdb1 /mnt/usb
 mount /dev/sda3 /mnt/sda3
+
 ~~~
 
 * Wie kann ich meine Medien automatisch einbinden lassen?
@@ -356,11 +370,12 @@ Streams are terminated by killing Ices and/or stop running the Icecast server:
 ~~~
 killall ices
 /etc/init.d/icecast stop oder kill icecast
+
 ~~~
 
 * Mp3 wird nicht gespielt.
 
-Icecast 2.4.2 streamt das freie ogg-vorbis Format. Also einfach von mp3 in ogg Wandeln.
+Icecast 2.4.2 streamt das freie ogg-vorbis Format. Also einfach von mp3 in ogg Wandeln. Oder unter OpenWRT.org suchen, ob es einen mp3 streamclient wie icegenerator gibt.
 
 * Werden auch Videos gestreamt?
 
@@ -369,6 +384,12 @@ Ja, in der Dokumentation http://people.xiph.org/~epirat/Icecast/Docs/ ist ein Be
 * Soooo viele unterschiedliche Parameter, was bedeuten diese?
 
 Mehr Beschreibung wie in der Dokumentation zu finden ist, gibt es leider nicht. Wie an den Parametern zu drehen ist, wissen wohl nur die Entwickler. Ausprobieren und spielen.  
+
+* Streamen über SSL
+
+Derzeit noch nicht getestet, soll aber prinzipiell möglich sein.
+siehe: (https://www.howtoforge.com/how-to-install-a-streaming-audio-server-with-icecast-2.3.3-on-centos-6.3-x86_64-linux)
+
 
 
 ### 6.) Relay-Server aufsetzen:
@@ -438,6 +459,7 @@ Auch hier gilt wieder: Der User den ihr unter changeowner angegeben habt muss Sc
 Zum Starten des Relay-Servers:
 ~~~
 icecast -b -c /etc/icecast/icecast.xml
+
 ~~~
 Nun sollte sich euer Server beim Masterserver als normaler client einloggen, die mountpoints übernehmen und streamen. Der Masterserver bekommt nichts davon mit, da dein Relay-Server wie ein normaler client anmeldet.
 
