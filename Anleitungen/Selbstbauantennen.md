@@ -126,6 +126,11 @@ Es kann sich also lohnen, bei schlechter 5 GHz Versorgung eine neue Antenne herz
 
 Eine Kombination beider Antennentypen in nur einer Antenne bringt nicht die Verstärkung wie bei getrennten Antennen. Die Antennen haben zwei Resonanzpunkte für die beiden Frequenzbereiche und müssen mehrmals gestockt werden. Betrachtet man das Innenleben einer normalen Dualbandantenne, schauen uns zwei Antennen entgegen. Dieser Sonderfall ist eher selten anzutreffen. Die Antennen müssen sehr präzise gebaut werden. Bei Selbstbauantennen ist eine Abstimmung mittels Messtechnik zu Empfehlen.
 
+###4. Weiterführende Informationen
+
+Sehr schöne Sammlung von Antennenbauvideos.
+[https://www.youtube.com/channel/UCHqwzhcFOsoFFh33Uy8rAgQ](https://www.youtube.com/channel/UCHqwzhcFOsoFFh33Uy8rAgQ)
+
 ###Anhang:
 **Blitzschutz von Antennensystemen**
 Für  den  Schutz  von  Antennen  gegen  Blitzentladungen  und  statische  atmosphärische Entladungen auf Dächern oder Masten gibt es eine einschlägige Normenreihe; diese wird unter VDE 0185 [1] bis [3] behandelt. Das Antennensystem  muss  -  gemäß  der  Definition  dieser  Normenreihe  - einem Blitz- Stoßstrom von 100 kA (Stirnzeit T1 = 10 ms, Rücken-Halbwertzeit T2 = 350 ms)  entsprechend  der  Schutzklasse  III,  definiert  in  der  Normenreihe  VDE 0185 [4] bzw. [5], standhalten. Zwingend notwendig dabei ist auch die Einbeziehung des Antennen-Systems in den Potenzialausgleich des  Gebäudes. Zur Vermeidung der Beschädigung von Access Points, Rechnern oder Netzwerken  durch Blitzschlag  oder  statischen  Entladungen  sollten  Überspannungsschutz-Komponenten    eingesetzt    werden.    Die    Einkopplung    von Überspannungen  kann  galvanisch,  induktiv  oder  kapazitiv  erfolgen;  durch geeignete  Sperren  ist  die  Abblockung  oder  Ableitung  von  Einkopplungen möglich. In der Praxis findet man oft eine Kombination aus beiden Methoden. 
