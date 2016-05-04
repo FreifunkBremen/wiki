@@ -16,10 +16,17 @@ Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](
 **aktuelle Stable**: [2015.1.2+bremen3](#freifunk-bremen-versionen_2015-1-2-bremen3)  
 **aktuelle Testing**: [2016.1.2+bremen1](#freifunk-bremen-versionen_2016-1-2-bremen1)
 
-
-### 2016.1.3+bremen1
+### 2016.1.4+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: noch nicht  
 **Veröffentlichung auf dem `testing`-Branch**: noch nicht  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.1.4+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.1.4+bremen1)  
+**gluon-Version**: [2016.1.4](#gluon-versionen_2016-1-4)
+- Update auf Gluon 2016.1.4
+
+
+### 2016.1.3+bremen1
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: nie  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.1.3+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.1.3+bremen1)  
 **gluon-Version**: [2016.1.3](#gluon-versionen_2016-1-3)
 - Update auf Gluon 2016.1.3
@@ -192,6 +199,11 @@ Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](
 
 ## Gluon-Versionen
 Hier aufgeführt sind die von Freifunk Bremen genutzten Gluon-Versionen mit einer kurzen Zusammenfassung von relevanten Änderungen.
+
+### [2016.1.4](https://gluon.readthedocs.org/en/v2016.1.4/releases/v2016.1.4.html)
+**Release-Datum**: 31.03.2016
+- umfassendes WLAN-Treiber-Update
+- einige Fehlerbehebungen für das Kompilieren; auch bei Parallelisierung
 
 ### [2016.1.3](https://gluon.readthedocs.org/en/v2016.1.3/releases/v2016.1.3.html)
 **Release-Datum**: 31.03.2016
