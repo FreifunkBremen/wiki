@@ -1,4 +1,4 @@
-Die VPN-Server sind unterschiedlich von verschiedenen Providern erreichbar (z.B. Hetzner-Server von DTAG) wurde dieses kleine Skript entwickelt.
+Die VPN-Server sind unterschiedlich gut von verschiedenen Providern erreichbar (z.B. Hetzner-Server von DTAG), dafür wurde dieses kleine Skript entwickelt.
 
 ProviderSteering ist, in Anlehnung auf [Band Steering](http://www.arubanetworks.com/techdocs/ArubaOS_64_Web_Help/Content/ArubaFrameStyles/ARM/Band_Steering.htm), das Verfahren, welches wir entwickelt haben, um Knoten, die von einem für einen VPN-Server schlecht geeigneten Netz erst beim zweiten Verbindungsversuch annimmt. (Mit der Hoffnung, das der Knoten von ein VPN-Server mit einer besseren Anbindung angenommen wird.)
 
