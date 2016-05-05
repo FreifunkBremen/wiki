@@ -2,7 +2,7 @@
 ## Autoupdater
 Der Autoupdater ermöglicht es bei erscheinen einer neuen Firmware automatisch auf diese upzudaten. Dies erfolgt generell Nachts zwischen 5 und 6 Uhr. Dabei wird überprüft, ob eine neue Firmware für den gewählten Branch verfügbar ist. Falls dies der Fall ist, wird, je nach Priorität im Manifest, die Firmware mit einer bestimmten Wahrscheinlichkeit geladen und installiert. Der Updater kann auch manuell ausgeführt werden und ein Update erzwungen werden.
 ## Mesh-on-LAN
-Mesh-on-LAN ermöglicht es statt nur über WLAN, auch (oder ggf. nur) über Kabel zu meshen. Ist die Funktion angeschaltet, wird über die LAN-Ports des Geräts B.A.T.M.A.N. gesprochen und ein normaler Anschluss von Geräten ans Freifunk-Netz ist nicht mehr möglich.
+Mesh-on-LAN ermöglicht es statt nur über WLAN, auch (oder ggf. nur) über Kabel zu meshen. Ist die Funktion angeschaltet, wird über die LAN-Ports des Geräts B.A.T.M.A.N. gesprochen und ein normaler Anschluss von Geräten (PCs zB) per NetzwerkKabel an den Freifunk-Knoten ist nicht mehr möglich.
 ## Mesh-on-WAN
 Mesh-on-WAN ermöglicht es statt nur über WLAN, auch (oder ggf. nur) über Kabel zu meshen. Ist die Funktion angeschaltet, wird über den WAN-Port des Geräts B.A.T.M.A.N. gesprochen und ein normaler Anschluss von Geräten ans Freifunk-Netz, sowie Mesh-VPN ist nicht mehr möglich.
 ## Mesh-VPN
