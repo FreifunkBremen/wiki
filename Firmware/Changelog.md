@@ -62,7 +62,7 @@ Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](
   autoupdater lief mehrfach, wenn Mirror nicht erreichbar waren ([gluon-issue](https://github.com/freifunk-gluon/gluon/issues/582))
 - VPNs 01, 02, 03, 04 und 06 enthalten (davon 04 und 06 neu)
 - DNS-Einträge der NTP-Server korrigiert
-- Firmware-Schema umgestellt
+- Firmware-Schema umgestellt ([Beschluss](http://wiki.bremen.freifunk.net/Treffen/2015_12_17#protokoll_firmware))
     - Firmware wird nicht mehr als Testing- oder Stable-Firmware gebaut  
         - es gibt **eine** Firmware
             - steht zuerst nur Knoten mit Autoupdater auf *testing* zur Verfügung
