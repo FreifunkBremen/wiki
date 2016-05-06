@@ -18,11 +18,11 @@ Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](
 
 ### 2016.1.4+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: noch nicht  
-**Veröffentlichung auf dem `testing`-Branch**: noch nicht  
+**Veröffentlichung auf dem `testing`-Branch**: [06.05.2016](http://downloads.bremen.freifunk.net/firmware/all/2016.1.4+bremen2/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.1.4+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.1.4+bremen1)  
 **gluon-Version**: [2016.1.4](#gluon-versionen_2016-1-4)
 - Update auf Gluon 2016.1.4
-
+- Port und MTU für Mesh-VPN geändert. **Dies erfordert ggf. eine Änderung in den Freigaben der Fritzbox!** Der neue Port ist UDP 50000, der alte war UDP 10000.
 
 ### 2016.1.3+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
