@@ -42,7 +42,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.196 Dienste von Eike
     * 10.196.0.200 Dienste von jplitza
     * 10.196.0.240 Dienste von proxyhb
-    * 10.196.0.250 Meshmon von oliver
+    * 10.196.0.250 Gatemon (Pi1) von ollibaba
     * 10.196.10.0 - 10.196.19.255 per DHCP vergeben von 10.196.0.1
     * 10.196.20.0 - 10.196.29.255 per DHCP vergeben von 10.196.0.2
     * 10.196.30.0 - 10.196.39.255 per DHCP vergeben von 10.196.0.3
@@ -87,6 +87,7 @@ Einige Adressen sind fest hinterlegt. Sie werden im Folgenden aufgelistet.
     * 2a06:8782:ffbb:1337::82 mumble.ffhb.moritzrudert.de
     * 2a06:8782:ffbb:1337::83 gatemon-3.ffhb.moritzrudert.de
     * 2a06:8782:ffbb:1337::84 svc.ffhb.moritzrudert.de
+    * 2a06:8782:ffbb:1337::85 Gatemon (Pi1) von ollibaba
     * 2a06:8782:ffbb:1337::86 gatemon-2.ffhb.moritzrudert.de
   * 2a06:8782:ffbb:1337:7061::6473 pads.ffhb.de (mortzu)
 
