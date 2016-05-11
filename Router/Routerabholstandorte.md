@@ -68,8 +68,8 @@ Daniel-von-Büren-Straße 15  | auf [Mailingliste] oder im [Chat]   | TP-LINK TL
 ## Neustadt
 Standort              | Kontakt                           | Geräte                | Kosten      | Kommentar
 ---                   | ---                               | ---                   | ---         | ---
-nahe Kirchweg         | _ffhb(ÄT)freenet.de_              | TP-LINK TL-WR841N     | 20 €        | -
-[KARTON]              | nukeUS (_freifunk(ÄT)nukeUS.de_)  | alles wo gibt kann geliefert werden | ab 20 €| langfristige Leihgaben möglich; Verfügbarkeit vorher per Mail klären
+     | 
+[KARTON]              | freifunk(ÄT)nukeUS.de | alles wo gibt kann geliefert werden | ab 20 €| langfristige Leihgaben möglich; Verfügbarkeit vorher per Mail klären
 
 ## Peterswerder
 Standort     | Kontakt                           | Geräte            | Kosten
