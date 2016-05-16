@@ -89,6 +89,7 @@ Einige Adressen sind fest hinterlegt. Sie werden im Folgenden aufgelistet.
     * 2a06:8782:ffbb:1337::84 svc.ffhb.moritzrudert.de
     * 2a06:8782:ffbb:1337::85 Gatemon (Pi1) von ollibaba
     * 2a06:8782:ffbb:1337::86 gatemon-2.ffhb.moritzrudert.de
+    * 2a06:8782:ffbb:1337::87 gatemon-fes216.ffhb.moritzrudert.de
   * 2a06:8782:ffbb:1337:7061::6473 pads.ffhb.de (mortzu)
 
 ## Andere Netze
