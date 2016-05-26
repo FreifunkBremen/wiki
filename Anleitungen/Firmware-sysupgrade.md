@@ -1,7 +1,7 @@
 Es werden regelmäßig neue Versionen zum Testen auf dem FF Server abgelegt.
 Wenn ich eine solche neue Version ausprobieren möchte, sind folgende Schritte notwendig.
 
-Der Router und _ich_ sind mit dem Freifunk verbunden und _ich_ kann mich per SSH zu dem Router verbinden. Dann wechsel ich nach /tmp und frage den Routertyp ab.
+Der Router und _ich_ sind mit dem Freifunk verbunden und _ich_ kann mich per SSH zu dem Router verbinden. Wechseln nach /tmp und den Routertyp abfragen, damit wir das richtie Image einspielen.
 
 ~~~
 cd /tmp	 
