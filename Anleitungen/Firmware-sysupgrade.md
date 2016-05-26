@@ -56,5 +56,6 @@ https://wiki.openwrt.org/de/doc/howto/user.beginner.cli
 Mit sysupgrade -F erzwinge ich den Upgrade und ignoriere Fehlermeldungen. Bitte auch die technische Referenz Beachten.
 
 https://wiki.openwrt.org/doc/techref/sysupgrade
+
 https://wiki.openwrt.org/de/doc/howto/generic.sysupgrade
 
