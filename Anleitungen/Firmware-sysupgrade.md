@@ -52,3 +52,9 @@ cat /lib/gluon/gluon-version
 Weitere Informationen zur Konsole unter:
 https://wiki.openwrt.org/de/doc/howto/user.beginner.cli
 
+###Ein Wort zur Vorsicht.###
+Mit sysupgrade -F erzwinge ich den Upgrade und ignoriere Fehlermeldungen. Bitte auch die technische Referenz Beachten.
+
+https://wiki.openwrt.org/doc/techref/sysupgrade
+https://wiki.openwrt.org/de/doc/howto/generic.sysupgrade
+
