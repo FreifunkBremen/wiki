@@ -48,3 +48,7 @@ Sending TERM to remaining processes ... sse-multiplexd uhttpd dnsmasq odhcp6c ud
 cat /lib/gluon/gluon-version
 #v2016.1.5
 ~~~
+
+Weitere Informationen zur Konsole unter:
+https://wiki.openwrt.org/de/doc/howto/user.beginner.cli
+
