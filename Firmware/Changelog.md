@@ -13,16 +13,25 @@ Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](
 
 
 ## Freifunk Bremen Versionen
-**aktuelle Stable**: [2015.1.2+bremen3](#freifunk-bremen-versionen_2015-1-2-bremen3)  
-**aktuelle Testing**: [2016.1.2+bremen1](#freifunk-bremen-versionen_2016-1-2-bremen1)
+**aktuelle Stable**: [2016.1.4+bremen2](#freifunk-bremen-versionen_2016-1-4-bremen2)  
+**aktuelle Testing**: [2016.1.5+bremen1](#freifunk-bremen-versionen_2016-1-5-bremen1)
+
+### 2016.1.5+bremen1
+**Veröffentlichung auf dem `stable`-Branch**: noch nicht  
+**Veröffentlichung auf dem `testing`-Branch**: [26.05.2016](http://downloads.bremen.freifunk.net/firmware/all/2016.1.5+bremen1/sysupgrade/testing.manifest)  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.1.5+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.1.5+bremen1)  
+**gluon-Version**: [2016.1.5](#gluon-versionen_2016-1-5)
+- Unterstützung für TP-LINK Archer C5/C7 wiederhergestellt  
+  **Hinweis:** auf dem 5 Ghz Frequenzband ist kein Mesh möglich 
+- Unterstützung für TP-LINK WR841N/ND v11
 
 ### 2016.1.4+bremen2
-**Veröffentlichung auf dem `stable`-Branch**: noch nicht  
+**Veröffentlichung auf dem `stable`-Branch**: 24.05.2016  
 **Veröffentlichung auf dem `testing`-Branch**: [06.05.2016](http://downloads.bremen.freifunk.net/firmware/all/2016.1.4+bremen2/sysupgrade/testing.manifest)  
-**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.1.4+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.1.4+bremen1)  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.1.4+bremen2) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.1.4+bremen2)  
 **gluon-Version**: [2016.1.4](#gluon-versionen_2016-1-4)
 - ~~Unterstützung für TP-Link Archer C5/C7~~  
-  ~~**Hinweis:** auf dem 5 Ghz Frequenzband kein Mesh möglich~~  
+  ~~**Hinweis:** auf dem 5 Ghz Frequenzband ist kein Mesh möglich~~  
   **Hinweis:** Aufgrund eines Fehlers spezifisch in Gluon 2016.1.4 funktioniert das 5Ghz-Modul der Archer-Geräte überhaupt nicht ([Gluon-Issue](https://github.com/freifunk-gluon/gluon/issues/758))  
   die Images für die Archer-Geräte wurden vom Download-Server entfernt
 
@@ -209,6 +218,16 @@ Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](
 
 ## Gluon-Versionen
 Hier aufgeführt sind die von Freifunk Bremen genutzten Gluon-Versionen mit einer kurzen Zusammenfassung von relevanten Änderungen.
+
+### [2016.1.5](http://gluon.readthedocs.io/en/v2016.1.5/releases/v2016.1.5.html)
+**Release-Datum**: 26.05.2016
+- Unterstützung für 9 weitere Geräte von OpenMesh, Ubiquiti und TP-LINK
+  - insbesondere der TL-WR841N/ND v11
+- einige Fehler beim Kompilieren gefixed
+- einige Fehler, welche ab [2016.1.4](#gluon-versionen_2016-1-4) auftraten
+  - 5 Ghz Frequenzband auf Archer C5/C7 funktioniert nicht
+  - Fehler mit VLANs und IBSS behoben
+- auf alle Ubiquiti AirMAX Geräte kann die Firmware nun direkt installiert werden, ohne das vorher nötige Downgrade auf AirOS 5.5.x zu machen
 
 ### [2016.1.4](https://gluon.readthedocs.org/en/v2016.1.4/releases/v2016.1.4.html)
 **Release-Datum**: 31.03.2016
