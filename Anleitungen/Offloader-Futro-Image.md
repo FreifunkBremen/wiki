@@ -276,3 +276,7 @@ https://github.com/freifunk-gluon/gluon/wiki/Commandline-administration
 https://github.com/oszilloskop/Gluon2Futro
 https://wiki.freifunk-mwu.de/w/Howto/Offloader
 
+Anleitung und Futro-USB-Stick jetzt auch auf Github.
+https://github.com/oszilloskop/Gluon2Futro/
+USB-Stick - Gluon2Futro (Win/Linux/OS X)
+Neu: Jetzt auch mit Futro S550-2 Unterstützung!
