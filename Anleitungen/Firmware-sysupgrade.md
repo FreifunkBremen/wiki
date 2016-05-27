@@ -76,10 +76,10 @@ In "/lib/opkg/status" stehen die installierten Programme. Einige Einträge enden
 Gefunden unter: https://wiki.openwrt.org/doc/howto/generic.sysupgrade#ensure_desired_configuration_files_will_be_saved
 
 Nach /tmp wechsel und die Datei listuserpackages.awk mit genau 2 Zeilen anlegen.
-
+~~~
 /^Package:/{PKG= $2}
 /^Status: .*user installed/{print PKG}
-
+~~~
 Im Verzeichnis /tmp nun das Script mit 
 ~~~
 awk -f listuserpackages.awk /usr/lib/opkg/status
