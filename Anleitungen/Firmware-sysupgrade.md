@@ -61,3 +61,36 @@ https://wiki.openwrt.org/doc/techref/sysupgrade
 
 https://wiki.openwrt.org/de/doc/howto/generic.sysupgrade
 
+Hier eine kleine Ergänzung, falls vorhandene Daten / Programme gesichert werden sollen. 
+###sysupgrade mit vorgehendem Backup.###
+Wird ein Upgrade durchgeführt, sind einige Einstellungen/Installationen weg.
+Insbesondere werden Flashkarten neu Partitioniert, eigene Partitionen werden gelöscht. Beispiel am X86 Image, das ist 50Mb groß. Bei einer 1GB oder 512Mb Flashkart bleibt viel Platz zum Experimentieren. Ich hatte die Partition sda von 50Mb auf 128Mb vergrössert und dem verbleibendem Platz einer sdb Partition zugeordnet.
+_Nach dem sysupgrade ist alles wieder Original!_
+Also reicht mir auch eine kleine Flashcard. Leider sind auch alle installierten Programme und Konfigurationen weg und das ist ärgerlich.
+
+Hier ein verbesserungsfähiger Vorschlag, wie ich ein Teilbackup mache.
+
+Benötigt werden SSH (Konsole) und SCP Zugang (Dateitransfer).
+
+In "/lib/opkg/status" stehen die installierten Programme. Einige Einträge enden mit "Auto-Installed: yes", die automatisch installiert wurden, alle anderen nachträglich manuel. Genau diese Einträge fischen wir heraus. Das geht von Hand in einem Editor oder einfach mit einem Script.
+Gefunden unter: https://wiki.openwrt.org/doc/howto/generic.sysupgrade#ensure_desired_configuration_files_will_be_saved
+
+Nach /tmp wechsel und die Datei listuserpackages.awk mit genau 2 Zeilen anlegen.
+
+/^Package:/{PKG= $2}
+/^Status: .*user installed/{print PKG}
+
+Im Verzeichnis /tmp nun das Script mit 
+~~~
+awk -f listuserpackages.awk /usr/lib/opkg/status
+~~~
+ausführen. Nun werden alle zusätzlich installierten Pakete aufgelistet. Durch Umlenken auf >myprog.txt wird die Liste in eine Datei geschrieben, die ich über SCP zum Bearbeiten aus /tmp herunterlade. Geübte machen das mit vi auf dem Router :-)
+~~~
+awk -f listuserpackages.awk /usr/lib/opkg/status >myprog.txt
+~~~
+Die Programme, die wir später nicht mehr haben wollen, können aus der Liste gelöscht werden. Diese Liste wird nach dem sysupgrade mit opkg install <programme> wieder neu installiert.
+
+Bei Programmen mit zusätzlichen Konfigurationsdateien, müssen wir diese mit scp aus dem zugehörigen Verzeichnis retten. Meistens aus /etc & /etc/config. Bei waren das netfilter/snort/icecast/ices/openssl Konfigurationen, die später einfach zurückgespielt werden. Sicherheitshalber auch die fstab, dort habe die automounteinträge und den Schreibschutz für die USB Sticks eingefügt und sofern vorhanden die Autostarteinträge aus /etc/init.d/
+
+Verbesserungen und Erweiterungen erwünscht.
+
