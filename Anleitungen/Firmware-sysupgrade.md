@@ -6,17 +6,17 @@ Wichtig: https://wiki.openwrt.org/de/doc/howto/generic.sysupgrade
 Der Router und _ich_ sind mit dem Freifunk verbunden und _ich_ kann mich per SSH zu dem Router verbinden. Wechseln nach /tmp und den Routertyp abfragen, damit wir das richtie Image einspielen.
 
 ~~~
-cd /tmp	 
-cat /proc/cpuinfo |grep machine
+cd /tmp
+lua -e 'print(require("platform_info").get_image_name())'
 ~~~
 
 Beispielausgabe:
 ~~~
-# machine                 : TP-LINK TL-WR741ND v4
+tp-link-tl-wdr4300-v1
+~~~
 oder
-# machine                 : TP-LINK TL-WR841N/ND v8
-oder
-# machine                 : TP-LINK TL-WR1043ND
+~~~
+tp-link-tl-wr740n-nd-v4
 ~~~
 Jetzt suchen wir uns das passende Image.
 Unter https://downloads.bremen.freifunk.net/firmware/ werden die Verzeichnisse mit den Images aufgelistet.
