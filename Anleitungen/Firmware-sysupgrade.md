@@ -27,7 +27,7 @@ tp-link-tl-wr740n-nd-v4
 
 ##Image suchen
 
-Jetzt suchen wir uns das passende Image.
+Jetzt suchen :eyes: wir uns das passende Image.
 Unter https://downloads.bremen.freifunk.net/firmware/ werden die Verzeichnisse mit den Images aufgelistet.
 Zum Beispiel liegen unter https://downloads.bremen.freifunk.net/firmware/all/2016.1.5+bremen1/sysupgrade/
 die Images für v2015.1.5+bremen1 vom 26.5.2016. Bzw. einfach mal Suchen und das finden, welches ich Einspielen möchte.
