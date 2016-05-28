@@ -110,5 +110,5 @@ Die Programme, die wir später nicht mehr haben wollen, können aus der Liste ge
 
 Bei Programmen mit zusätzlichen Konfigurationsdateien, müssen wir diese mit scp aus dem zugehörigen Verzeichnis retten. Meistens aus /etc & /etc/config. Bei waren das netfilter/snort/icecast/ices/openssl Konfigurationen, die später einfach zurückgespielt werden. Sicherheitshalber auch die fstab, dort habe die automounteinträge und den Schreibschutz für die USB Sticks eingefügt und sofern vorhanden die Autostarteinträge aus /etc/init.d/
 
-Verbesserungen und Erweiterungen erwünscht.
+Verbesserungen und Erweiterungen sehr erwünscht. Einfach oben den `Edit` Knopf drücken.
 
