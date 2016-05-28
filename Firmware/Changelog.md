@@ -64,7 +64,8 @@ Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](
 **gluon-Version**: [2016.1](#gluon-versionen_2016-1)
 - Update auf Gluon 2016.1
 - vpn05 hinzugefügt
-- eigenes opkg-Repository für die Kernel Module fürFreifunk Bremen hinzugefügt
+- eigenes opkg-Repository für die Kernel Module für Freifunk Bremen hinzugefügt
+- TP-LINK WR841N/ND v10 Unterstützung
 
 ### 2015.2+bremen3~exp
 **Release-Datum**: [25.12.2015](http://downloads.bremen.freifunk.net/firmware/all/2015.2+bremen3~exp/sysupgrade/exp.manifest)  
