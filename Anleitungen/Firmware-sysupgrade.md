@@ -81,9 +81,8 @@ Hier eine kleine Ergänzung, falls vorhandene Daten / Programme gesichert werden
 ##sysupgrade mit vorgehendem Backup.
 
 Wird ein Upgrade durchgeführt, sind einige Einstellungen/Installationen weg.
-Insbesondere werden Flashkarten neu Partitioniert, eigene Partitionen werden gelöscht. Beispiel am X86 Image, das ist 50Mb groß. Bei einer 1GB oder 512Mb Flashkart bleibt viel Platz zum Experimentieren. Ich hatte die Partition sda von 50Mb auf 128Mb vergrössert und dem verbleibendem Platz einer sdb Partition zugeordnet.
-_Nach dem sysupgrade ist alles wieder Original!_
-Also reicht mir auch eine kleine Flashcard. Leider sind auch alle installierten Programme und Konfigurationen weg und das ist ärgerlich.
+Insbesondere werden Flashkarten neu Partitioniert, eigene Partitionen werden gelöscht. Beispiel am X86 Image, das ist 50Mb groß. Bei einer 1GB oder 512Mb Flashkart bleibt viel Platz zum Experimentieren. Ich hatte die Partition sda von 50Mb auf 128Mb vergrössert und dem verbleibendem Platz einer sdb Partition zugeordnet.###_Nach dem sysupgrade ist alles wieder Original!_###
+Also reicht mir auch eine kleine Flashcard. Leider sind auch alle installierten Programme und Konfigurationen weg und das ist ärgerlich. Vor dem Anschalten des Autoupdaters, Backup erstellen.
 
 ##Backup erstellen
 
