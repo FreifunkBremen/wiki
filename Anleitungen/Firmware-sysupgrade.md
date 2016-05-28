@@ -70,7 +70,7 @@ Weitere Informationen zur Konsole unter:
 https://wiki.openwrt.org/de/doc/howto/user.beginner.cli
 
 ##Ein Wort zur Vorsicht.
-Mit sysupgrade -F erzwinge ich den Upgrade und ignoriere Fehlermeldungen. Bitte auch die technische Referenz Beachten.
+Mit `sysupgrade -F` erzwinge ich den Upgrade und ignoriere Fehlermeldungen. Bitte auch die technische Referenz Beachten.
 
 https://wiki.openwrt.org/doc/techref/sysupgrade
 
@@ -93,7 +93,7 @@ Benötigt werden SSH (Konsole) und SCP Zugang (Dateitransfer).
 In "/lib/opkg/status" stehen die installierten Programme. Einige Einträge enden mit "Auto-Installed: yes", die automatisch installiert wurden, alle anderen nachträglich manuel. Genau diese Einträge fischen wir heraus. Das geht von Hand in einem Editor oder einfach mit einem Script.
 Gefunden unter: https://wiki.openwrt.org/doc/howto/generic.sysupgrade#ensure_desired_configuration_files_will_be_saved
 
-Nach /tmp wechsel und die Datei listuserpackages.awk mit genau 2 Zeilen anlegen.
+Mit `cd /tmp`nach /tmp wechsel und die Datei listuserpackages.awk mit genau 2 Zeilen anlegen.
 ~~~
 /^Package:/{PKG= $2}
 /^Status: .*user installed/{print PKG}
