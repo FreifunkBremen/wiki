@@ -1,9 +1,15 @@
+[[_TOC_]]
+
+##sysupgrade
+
 Es werden regelmäßig neue Versionen zum Testen auf dem FF Server abgelegt.
 Wenn ich eine solche neue Version ausprobieren möchte, sind folgende Schritte notwendig.
 
 Wichtig: https://wiki.openwrt.org/de/doc/howto/generic.sysupgrade
 
 Der Router und _ich_ sind mit dem Freifunk verbunden und _ich_ kann mich per SSH zu dem Router verbinden. Wechseln nach /tmp und den Routertyp abfragen, damit wir das richtie Image einspielen.
+
+##Routerversion abfragen
 
 ~~~
 cd /tmp
@@ -18,6 +24,9 @@ oder
 ~~~
 tp-link-tl-wr740n-nd-v4
 ~~~
+
+##Image suchen
+
 Jetzt suchen wir uns das passende Image.
 Unter https://downloads.bremen.freifunk.net/firmware/ werden die Verzeichnisse mit den Images aufgelistet.
 Zum Beispiel liegen unter https://downloads.bremen.freifunk.net/firmware/all/2016.1.5+bremen1/sysupgrade/
@@ -34,7 +43,9 @@ Ausgabe:
 Connecting to downloads.bremen.freifunk.net ([2a06:8782:ff00::f2]:80)
 gluon-ffhb-2016.1.5+ 100% |********************************************************************************|  3456k  0:00:00 ETA
 ~~~
-Jetzt noch Aktivieren:
+
+##Image Aktivieren:
+
 ~~~
 echo 3 > /proc/sys/vm/drop_caches
 sysupgrade -F gluon-ffhb-2016.1.5+bremen1-tp-link-tl-wr1043n-nd-v1-sysupgrade.bin
@@ -45,7 +56,11 @@ Saving config files...
 killall: watchdog: no process killed
 Sending TERM to remaining processes ... sse-multiplexd uhttpd dnsmasq odhcp6c udhcpc odhcp6c batman-adv-visd ntpd alfred batadv-vis dnsmasq respondd ubusd
 ~~~
-1-2 Minuten warten und fertig. Abfragen kann ich die Gluonversion über die SSH Konsole mit:
+1-2 Minuten warten und fertig. 
+
+##Gluon Version abfragen
+
+Abfragen kann ich die Gluonversion über die SSH Konsole mit:
 ~~~
 cat /lib/gluon/gluon-version
 #v2016.1.5
@@ -54,7 +69,7 @@ cat /lib/gluon/gluon-version
 Weitere Informationen zur Konsole unter:
 https://wiki.openwrt.org/de/doc/howto/user.beginner.cli
 
-###Ein Wort zur Vorsicht.###
+##Ein Wort zur Vorsicht.
 Mit sysupgrade -F erzwinge ich den Upgrade und ignoriere Fehlermeldungen. Bitte auch die technische Referenz Beachten.
 
 https://wiki.openwrt.org/doc/techref/sysupgrade
@@ -62,11 +77,15 @@ https://wiki.openwrt.org/doc/techref/sysupgrade
 https://wiki.openwrt.org/de/doc/howto/generic.sysupgrade
 
 Hier eine kleine Ergänzung, falls vorhandene Daten / Programme gesichert werden sollen. 
-###sysupgrade mit vorgehendem Backup.###
+
+##sysupgrade mit vorgehendem Backup.
+
 Wird ein Upgrade durchgeführt, sind einige Einstellungen/Installationen weg.
 Insbesondere werden Flashkarten neu Partitioniert, eigene Partitionen werden gelöscht. Beispiel am X86 Image, das ist 50Mb groß. Bei einer 1GB oder 512Mb Flashkart bleibt viel Platz zum Experimentieren. Ich hatte die Partition sda von 50Mb auf 128Mb vergrössert und dem verbleibendem Platz einer sdb Partition zugeordnet.
 _Nach dem sysupgrade ist alles wieder Original!_
 Also reicht mir auch eine kleine Flashcard. Leider sind auch alle installierten Programme und Konfigurationen weg und das ist ärgerlich.
+
+##Backup erstellen
 
 Hier ein verbesserungsfähiger Vorschlag, wie ich ein Teilbackup mache.
 
