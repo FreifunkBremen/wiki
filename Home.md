@@ -41,4 +41,4 @@ Eine Übersicht aller Arten von Zusammenkünften findest du unter [[Treffen|Tref
 
 ## Änderungen mitbekommen
 
-Wer sich dafür interessiert, wann sich etwas an diesem Wiki ändert, kann das über das entsprechende [Repository auf Github](https://github.com/FreifunkBremen/wiki/) tun, z.B. per [Atom-Feed](https://github.com/FreifunkBremen/wiki/commits/master.atom) oder über den Button ganz oben rechts.
+Wer sich dafür interessiert, wann sich etwas an diesem Wiki ändert, kann das über das entsprechende [Repository auf Github](https://github.com/FreifunkBremen/wiki/) tun, z.B. per [Atom-Feed](https://github.com/FreifunkBremen/wiki/commits/wiki.atom) oder über den Button ganz oben rechts.
