@@ -90,6 +90,8 @@ Sielpfad 5 (bei Sielwall/Osterdeich, Fähre  | KhaldounBakkour@hotmail.com | WR8
 Vegesack | 9381@runbox.com | Nach Absprache | Nach Absprache
 ## Bremen Hauptbahnhof
 Bremen Hauptbahnhof | 9381@runbox.com | Nach Absprache | Nach Absprache
+##Lilienthal
+Bahnhofstrasse | 9381@runbox.com | Nach Absprache | Nach Absprache
 [Chat]: https://webirc.hackint.org/#ffhb
 [MailingListe]: https://planetcyborg.de/mailman/listinfo/ff-bremen
 [KARTON]: http://www.kartontage.de
