@@ -20,19 +20,19 @@ Der Status der Gateways kann hier eingesehen werden: https://status.bremen.freif
 | vpn02   | jplitza, mortzu       | morpheus            |
 | vpn03   | jplitza, mortzu       | morpheus            |
 | vpn04   | jplitza, mortzu       |                     |
-| vpn05   | anon6789, genofire    | corny,mortzu        |
-| vpn06   | corny                 |                     |
+| vpn05   | anon6789, genofire    | corny               |
+| vpn06   | corny                 | mortzu, genofire, jplitza |
 
 
 ## Server für zentrale Dienste
 | Dienst                | Verantwortlicher    | Co Verantwortlicher | Standort              |
 |-----------------------|---------------------|---------------------|-----------------------|
-| Website               | jplitza / mortzu    |                     | Bremen / LWLCOM       |
-| Downloads             | jplitza / mortzu    | corny               | Bremen / LWLCOM       |
-| DNS                   | jplitza / mortzu    |                     | Bremen / LWLCOM       |
-| Wiki                  | jplitza / mortzu    |                     | Bremen / LWLCOM       |
-| Karte                 | jplitza / mortzu    |                     | Bremen / LWLCOM       |
+| Website               | jplitza, mortzu     |                     | Bremen / LWLCOM       |
+| Downloads             | jplitza, mortzu     | corny               | Bremen / LWLCOM       |
+| DNS                   | jplitza, mortzu     |                     | Bremen / LWLCOM       |
+| Wiki                  | jplitza, mortzu     |                     | Bremen / LWLCOM       |
+| Karte                 | jplitza, mortzu     |                     | Bremen / LWLCOM       |
 | Ticketsystem          | mortzu              | SimJoSt, ec8or      | Falkenstein / Hetzner |
-| gatemon               | mortzu              |                     | Falkenstein / Hetzner |
-| LWLCOM Hardwareserver | chrische / morpheus | mortzu              | Bremen / LWLCOM       |
-| Router                | chrische / morpheus | mortzu              | Bremen / LWLCOM       |
+| gatemon               | mortzu              |                     | Bremen / LWLCOM       |
+| LWLCOM Hardwareserver | chrische, morpheus  | mortzu              | Bremen / LWLCOM       |
+| Router                | chrische, morpheus  | mortzu              | Bremen / LWLCOM       |
