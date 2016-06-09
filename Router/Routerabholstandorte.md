@@ -37,7 +37,7 @@ Wer seine Router selbst flashen möchte, erhält diese häufig zum Selbstkostenp
 ## Borgfeld
 Standort|Kontakt|Geräte/Kosten|Kommentar
 ---|---|---|---|---
-Butendiek|winfried(ÄT)rokita.de  |**Gebr. IndoorKnoten**: WR841N**D** 20€ (v8 m. schönem SchiebeSchalter f. WiFi on/off)   **WDR3600** max. 39€, **WDR4300** max. 48€, dann mit Folie und nur wenige Tage ausprobiert. **Neuware-IndoorRouter**: max. +50%, Preis hängt bei den gebr. WDRs vom Netzteil und ob blaue oder grüne LEDs, Folie noch drauf ist usw ab. **Gebrauchte (outdoor) NanoStation:** M2 loco 30€, M5 loco 40€, M2 45€, M5 50€ (**neue**, versiegelte M2, ohne Rechnung 60€)|langfristige Leihgaben und Anlieferungen mehrmals wöchentlich ins StadtGebiet Bremen (ohne Nord, dort aber in BremenBurg bei einer Lackiererei, wo ein Freund, der von hier her werktägl. hin fährt, arbeitet) möglich.
+Butendiek|freifunk(at)rokita.de  |**Gebr. IndoorKnoten**: WR841N**D** 20€ (v8 m. schönem SchiebeSchalter f. WiFi on/off)   **WDR3600** max. 39€, **WDR4300** max. 48€, dann mit Folie und nur wenige Tage ausprobiert. **Neuware-IndoorRouter**: max. +50%, Preis hängt bei den gebr. WDRs vom Netzteil und ob blaue oder grüne LEDs, Folie noch drauf ist usw ab. **Gebrauchte (outdoor) NanoStation:** M2 loco 30€, M5 loco 40€, M2 45€, M5 50€ (**neue**, versiegelte M2, ohne Rechnung 60€)|langfristige Leihgaben und Anlieferungen mehrmals wöchentlich ins StadtGebiet Bremen möglich.
 
 ## Bremerhaven
 Standort      | Kontakt                   | Geräte                     | Kosten    | Kommentar
@@ -48,12 +48,6 @@ Bhv. Mitte/Lehe | freifunkinbremerhaven@posteo.de| TP-LINK TL-WR841ND v.9.3 | 20
 Standort                | Kontakt   | Geräte            | Kosten
 ---                     | ---       | ---               | ---
 Nähe Schlachthof/Halle7 | [SimJoSt] | TP-LINK TL-WR841N | 20 €
-
-
-## Gröpelingen
-Standort                    | Kontakt      | Geräte                 | Kosten
----                         | ---          | ---                    | ---
-LindenHofCenter/Haltestelle | emi@jendt.de | WR841N v9 geflasht/OVP | 20 E
 
 ## Horn-Lehe
 Standort      | Kontakt                   | Geräte                     | Kosten    | Kommentar
