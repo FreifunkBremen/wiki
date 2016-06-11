@@ -32,7 +32,7 @@ Bei dieser Aktion ist eine PS/2 Tastatur und ein Monitor mit DVI Stecker / Kabel
 
 P.S.
 Wichtig ist, dass sich nur ein Gluon-x86-Image (die gepackte Version *.img.gz) auf dem vorbereiteten USB-Stick befindet!
-Detaillierte Informationen findet Ihr auf [https://github.com/oszilloskop/Gluon2Futro32](https://github.com/oszilloskop/Gluon2Futro32)
+Detaillierte Informationen findet Ihr auf [https://github.com/oszilloskop/Gluon2Futro32](https://github.com/oszilloskop/Gluon2Futro)
 
 P.S.S.
 Bitte bootet keinen PC mit diesem USB-Stick. Eure Daten sind dann hinüber. Das Image wird ohne Nachfrage installiert.
