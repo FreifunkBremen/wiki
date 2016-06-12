@@ -2,6 +2,12 @@
 **Ort**: Hackerspace Bremen
  
 ## Tagesordnung
+### Nachbesprechung Stadtteilfest Walle
+* Gut Gelaufen
+* Schlecht gelaufen
 * Video von Rene (RSIT) zum Thema Flashen und Richtige Routerwahl :    
 https://www.youtube.com/watch?v=VskUGlX4kNU   
 was halten wir davon? -> auf Website verlinken?  Verbesserungshinweise geben?
+
+### Breminale
+* Treffen sollte gedudelt werden.
