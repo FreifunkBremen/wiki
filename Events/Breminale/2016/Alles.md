@@ -5,6 +5,4 @@
 
 
 ## TODO
-
-## Organisation
-* Unterkunft
+In Arbeit, siehe: https://pads.hackerspace-bremen.de/p/ffhb-breminale-2016
