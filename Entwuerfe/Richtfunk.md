@@ -1,4 +1,4 @@
-## Entwurf 18.6.2016
+### Entwurf vom 18.6.2016
 
 Aufgrund von Firmwareänderungen der Originalgeräte und der Freifunksoftware, sowie
 anderer kleinerer Stolperfallen, entsteht hier eine eigene Info- & Flashanleitung
@@ -34,7 +34,10 @@ Automatische Leistungsregelung bei bestehender Funkverbindung. D.h. die Geräte 
 
 
 ### 2.) Voraussetzungen
+Richtfunkgerät mit POE Injektor (POE Buchse) verbinden, die andere Buchse mit dem Rechner verbinden. Das Richtfunkgerät hat eine feste IP Adresse. Dem angeschlossenen PC muss manuell eine IP Adresse aus dem Bereich des Richtfunkgerätes zugewiesen werden. Beispiel: Rifu hat 192.168.1.20, PC bekommt 192.168.1.21
+Später wird der PC wieder auf DHCP umgestellt. 
 
+Das RiFu Gerät hat deutlich mehr Einstellmöglichkeiten als ein Router. Eine Skizze, was wir verbinden wollen und welche Konfigurationen zusätzlich an den Freifunkroutern eingestellt werden müssen, ist in jedem Fall hilfreich.
 
 ### 3.) Installation
 
@@ -44,5 +47,5 @@ Automatische Leistungsregelung bei bestehender Funkverbindung. D.h. die Geräte 
 
 ### 5.) FAQ
 
-Ihr woll
+Bitte diesen Entwurf Ergänzen, traut euch :-)
 
