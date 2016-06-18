@@ -24,6 +24,13 @@ zu den Richtfunkgeräten.
 
 
 ### 1.) Allgemeines
+Richtfunkgeräte im Freifunk werden auf 2,4 Ghz und 5 Ghz betrieben. Die besonderheit eines Richtfunkgerätes ist die schmale gebündelte Richtwirkung der Antenne und die dadurch entstehende höhere Reichweite des Signals. Ein einfacher Vergleich wäre eine freistehende Glühlampe, die das Licht Kugelförmig abstrahlt zu einer Taschenlampe, die einen Lichtkegel abstrahlt.
+
+Zur Versogrung eines schmalen Bereiches, wie eines Straßenzuges oder der Anbindung eines zu weit entfernten Freifunkrouters, wird ein Richtfunkgerät mit der Freifunksoftware bespielt. Um eine Strecke, also Punkt zu Punkt Verbindung zu bauen, verbleibt die original Firmware auf dem Gerät.
+
+Besonderheiten der Originalfirmware:
+Automatische Leistungsregelung bei bestehender Funkverbindung. D.h. die Geräte regeln ihre Sendeleistung so weit herunter, das eine optimale VErbindung besteht und der dahinterliegende Raum nicht überstrahlt wird.
+
 
 
 ### 2.) Voraussetzungen
