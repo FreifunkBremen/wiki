@@ -69,6 +69,7 @@ Durch den technischen Wandel bleibt dir Google nicht erspart.
 
 **Der nächste FF-Knoten ist gerade aus der Reichweite, brauch ich zusätzlich eine Outdoor-CPE?**
 - Jein, es gibt verschiedene Möglichkeiten. Über eine CPE die Verbindung zum Knoten herstellen, sofern möglich, an deinem Router etwas bessere Antennen verwenden. Richtantennen am Router verwenden. Eine modifizierte CPE verwenden, an einer der beiden Richtantennen einen Rundstrahler anschliessen. ModAnleitungen im Freifunkforum https://forum.freifunk.net hier ein Beispielbild: https://forum.freifunk.net/t/picostation-aufs-dach-gebaut-ich-bin-begeistert/2822
+Beim Gerätemodding auch immer die OpenWRT Seiten beachten. Beispiel: https://wiki.openwrt.org/doku.php?id=oldwiki:openwrtdocs:hardware:ubiquiti:nanostation2
 
 **Ich habe auf meine neue CPE das FF-Image eingespielt, jetzt geht gar nichts mehr.**
 - Ubiquity-Geräte mit AirOS XM.v5.6.X / XW.v5.6.X (oder neuer): Bevor du die Freifunk-Firmware (oder OpenWRT generell) aufspielst, ist es notwendig, zuerst ein Firmwaredowngrade auf die Version AirOS XM.v5.5.X oder XW.v5.5.X durchzuführen! Ohne diesen Firmwaredowngrade WIRD DAS GERÄT NICHT BOOTEN
