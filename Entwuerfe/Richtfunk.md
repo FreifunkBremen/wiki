@@ -50,6 +50,13 @@ Das RiFu Gerät hat deutlich mehr Einstellmöglichkeiten als ein Router. Eine Sk
 Die Kiste hängt, wie kann ich einen Reset machen ohne aufs Dach zu klettern?
 - Das kleine Fernspeisenetzteil für POE hat eine Befestigungsplatte am Gehäuse. Wird diese Platte entfernt sehen wir ein kleines Resetknöpfchen. Drücken mit z.B. Büroklammer, löst den Reset aus.
 
+Gibt es eine Zusammenstellung zum Thema Outdoor CPE´n ohne alles ergooglen zu müssen?
+- Teilweise, einige Systemhersteller haben umfaangreiche Dokumentationen erstellt. Siehe am Beispiel LanCom https://www.lancom-systems.de/fileadmin/pdfs/products/WLAN_OUTDOOR_MANUAL_DE.pdf
+Durch den technischen Wandel bleibt dir Google nicht erspart.
+
+Der nächste FF-Knoten ist gerade aus der Reichweite, brauch ich zusätzlich eine Outdoor-CPE?
+- Jein, es gibt verschiedene Möglichkeiten. Über eine CPE die Verbindung zum Knoten herstellen, sofern möglich, an deinem Router etwas bessere Antennen verwenden. Richtantennen am Router verwenden. Eine modifizierte CPE verwenden, an einer der beiden Richtantennen einen Rundstrahler anschliessen. ModAnleitungen im Freifunkforum https://forum.freifunk.net hier ein Beispielbild: https://forum.freifunk.net/t/picostation-aufs-dach-gebaut-ich-bin-begeistert/2822
+
 
 
 Bitte diesen Entwurf Ergänzen, traut euch :-)
