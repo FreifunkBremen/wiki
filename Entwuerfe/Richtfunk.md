@@ -47,7 +47,9 @@ Das RiFu Gerät hat deutlich mehr Einstellmöglichkeiten als ein Router. Eine Sk
 
 
 SSH Zugang mit Key oder Passwort einrichten
-Neustart im Configmode
+
+**Neustart im Configmode**
+
 Manchmal ist es Notwendig in den Configmode zu starten. Dies beinhaltet die Weboberfläche des Systems zum ersten Einrichten eines Freifunk-Routers. Für gewöhnlich hält man ein paar Sekunden lang die Reset Taste gedrückt. Folgende Ausführung würde den gleichen Effekt erzielen:
 ~~~
 uci set gluon-setup-mode.@setup_mode[0].enabled=1
@@ -58,24 +60,24 @@ reboot
 
 ### 5.) FAQ
 
-Die Kiste hängt, wie kann ich einen Reset machen ohne aufs Dach zu klettern?
+**Die Kiste hängt, wie kann ich einen Reset machen ohne aufs Dach zu klettern?**
 - Das kleine Fernspeisenetzteil für POE hat eine Befestigungsplatte am Gehäuse. Wird diese Platte entfernt sehen wir ein kleines Resetknöpfchen. Drücken mit z.B. Büroklammer, löst den Reset aus.
 
-Gibt es eine Zusammenstellung zum Thema Outdoor CPE´n ohne alles ergooglen zu müssen?
+**Gibt es eine Zusammenstellung zum Thema Outdoor CPE´n ohne alles ergooglen zu müssen?**
 - Teilweise, einige Systemhersteller haben umfaangreiche Dokumentationen erstellt. Siehe am Beispiel LanCom https://www.lancom-systems.de/fileadmin/pdfs/products/WLAN_OUTDOOR_MANUAL_DE.pdf
 Durch den technischen Wandel bleibt dir Google nicht erspart.
 
-Der nächste FF-Knoten ist gerade aus der Reichweite, brauch ich zusätzlich eine Outdoor-CPE?
+**Der nächste FF-Knoten ist gerade aus der Reichweite, brauch ich zusätzlich eine Outdoor-CPE?**
 - Jein, es gibt verschiedene Möglichkeiten. Über eine CPE die Verbindung zum Knoten herstellen, sofern möglich, an deinem Router etwas bessere Antennen verwenden. Richtantennen am Router verwenden. Eine modifizierte CPE verwenden, an einer der beiden Richtantennen einen Rundstrahler anschliessen. ModAnleitungen im Freifunkforum https://forum.freifunk.net hier ein Beispielbild: https://forum.freifunk.net/t/picostation-aufs-dach-gebaut-ich-bin-begeistert/2822
 
-Ich habe auf meine neue CPE das FF-Image eingespielt, jetzt geht gar nichts mehr.
+**Ich habe auf meine neue CPE das FF-Image eingespielt, jetzt geht gar nichts mehr.**
 - Ubiquity-Geräte mit AirOS XM.v5.6.X / XW.v5.6.X (oder neuer): Bevor du die Freifunk-Firmware (oder OpenWRT generell) aufspielst, ist es notwendig, zuerst ein Firmwaredowngrade auf die Version AirOS XM.v5.5.X oder XW.v5.5.X durchzuführen! Ohne diesen Firmwaredowngrade WIRD DAS GERÄT NICHT BOOTEN
 
-Wiederbeleben einer einer CPE (unbrick)
+**Wiederbeleben einer einer CPE (unbrick)**
 - Zum Thema unbrick gibt es eine schöne Anleitung
 https://wiki.md.freifunk.net/Anleitungen/Unbrick-Nanostation
 
-
+**weitere**
 
 
 
