@@ -77,8 +77,9 @@ Durch den technischen Wandel bleibt dir Google nicht erspart.
 - Zum Thema unbrick gibt es eine schöne Anleitung
 https://wiki.md.freifunk.net/Anleitungen/Unbrick-Nanostation
 
-**weitere**
-
+**Ich kann mich nicht mit admin/admin auf die CPE einloggen**
+- dann versuche es mit ubnt/ubnt
+- Für fast alle Routermodelle sind hier die Daten zu finden: https://wikidevi.com/wiki/Main_Page
 
 
 Bitte diesen Entwurf Ergänzen, traut euch :-)
