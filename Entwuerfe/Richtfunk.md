@@ -47,5 +47,10 @@ Das RiFu Gerät hat deutlich mehr Einstellmöglichkeiten als ein Router. Eine Sk
 
 ### 5.) FAQ
 
+Die Kiste hängt, wie kann ich einen Reset machen ohne aufs Dach zu klettern?
+- Das kleine Fernspeisenetzteil für POE hat eine Befestigungsplatte am Gehäuse. Wird diese Platte entfernt sehen wir ein kleines Resetknöpfchen. Drücken mit z.B. Büroklammer, löst den Reset aus.
+
+
+
 Bitte diesen Entwurf Ergänzen, traut euch :-)
 
