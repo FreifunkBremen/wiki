@@ -18,7 +18,7 @@ Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat im [Hackerspace 
   * [[01.07.2016|Treffen/2016_07_01]]
   * [[15.07.2016|Treffen/2016_07_15]]
 * [Liste aller Treffen](http://wiki.bremen.freifunk.net/pages/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
-* Bis zur Breminale finden verschiedene Planungstreffen statt. (Erstes Treffen: 22.06.16, 19:00 Uhr, Hackerspace Bremen)
+* **Bis zur Breminale finden verschiedene Planungstreffen statt. (Erstes Treffen: 22.06.16, 19:00 Uhr, Hackerspace Bremen)**
 * Weitere Termine (nicht nur Treffen) finden sich in den Protokollen zu den verschiedenen Treffen
 
 Eine Übersicht aller Arten von Zusammenkünften findest du unter [[Treffen|Treffen/00_Treffen]].
