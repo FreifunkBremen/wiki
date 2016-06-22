@@ -1,4 +1,4 @@
-# Freifunk Bremen auf der Breminal 2016
+# Freifunk Bremen auf der Breminale 2016
 
 ## Termine
 * Kickoff: Mi, 22.06.2016 - 19:00 (Hackerspace Bremen - Kreativwerkstatt)
