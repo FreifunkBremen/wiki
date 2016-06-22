@@ -2,6 +2,7 @@
 
 ## Termine
 * Kickoff: Mi, 22.06.2016 - 19:00 (Hackerspace Bremen - Kreativwerkstatt)
+* Zweites Treffen: Di. 28.06.16, 19:00 Uhr, Hackerspace Bremen
 * Breminale-Beginn: Mi, 13.7., nachmittags
 * Breminale-Ende: So, 17.7., nachts
 * Abbau: So. abends und Mo. tagsüber
