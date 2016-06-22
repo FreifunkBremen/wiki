@@ -30,6 +30,7 @@ Eine Übersicht aller Arten von Zusammenkünften findest du unter [[Treffen|Tref
 * [Gemeinsamer Kalender](https://hb.jplitza.de/owncloud/index.php/apps/calendar/) (Nutzerdaten: ffhb / wellenfunk)
   * [CalDAV](https://hb.jplitza.de/owncloud/remote.php/dav/calendars/ffhb/pers%C3%B6nlich1)
   * [ICS-Export](https://hb.jplitza.de/owncloud/remote.php/dav/calendars/ffhb/pers%c3%b6nlich1?export)
+* [[Breminale 2016|Events/Breminale/2016/Alles]]
 
 ## Technisches
 * [[Firmware|Anleitungen/Firmware/Home]]
