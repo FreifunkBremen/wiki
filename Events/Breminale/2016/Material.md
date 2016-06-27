@@ -153,8 +153,8 @@
 |   |   |   |   | 0,00 €| - |
 |   |   |   |   | 0,00 €| - |
 
-[x] Erledigt
-
+[x] Erledigt [-] offen
+[Wer] kümmert sich [Lager] liegt transportfertig (HS = Hackerspace)
 
 
 
