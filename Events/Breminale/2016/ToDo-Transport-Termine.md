@@ -54,7 +54,7 @@ BW>HS umgekehrte Richtung
 | Donnerstag  | 7.7.  |   |   |   |   | - |
 | Freitag  | 8.7.  |   |   |   |   | - |
 | Samstag  | 9.7.  | Kartieren & Strecken vermessen | ? | Osterdeich | Alle & geno | - |
-| Sonntag  | 10.7.  | Glasfaser zur Wiese und zum Baucontainer |   | Osterdeich |   | - |
+| Sonntag  | 10.7.  | Glasfaser zur Wiese und zum Baucontainer |   | Osterdeich | oliver, jens, l3akage, chrische | - |
 | Montag | 11.7. | Kupfer Hauptnetz auslegen | 15:00 Uhr  | Osterdeich am Bauwagen | Alle & oliver, geno ab 17h, jens nachmittags, frank 17h, l3akage, chrische, morpheus | - |
 | Dienstag | 12.7. | Hauptnetz auflegen (Kupfer + 2. Glassfaser backup) NOC+Routing  viertes Treffen?  | 15:00 Uhr</br>19:00 Uhr  | Osterdeich</br>im Bauwagen |Alle & oliver, geno ab 17h, jens nachmittags, frank 17h, l3akage, chrische, morpheus | - |
 | Mittwoch  | 13.7 |  Breminale</br>Nodes im Hauptnetz verteilen, Nebennetz verlegen | 15:00 Uhr |   | Alle & oliver, geno ab 17h, jens nachmittags, frank 17h, l3akage, chrische, morpheus | - |
