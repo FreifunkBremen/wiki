@@ -4,65 +4,83 @@
 
 * Switche
 
-~~~
-~~~
+|  Was |  Menge |  Wer |  Lager |  Kosten | Erledigt |
+|---|---|---|---|---:|:---:|
+|   |   |   |   | 0,00 €| - |
+|   |   |   |   | 0,00 €| - |
+|   |   |   |   | 0,00 €| - |
 
 * Router
 
-~~~
-~~~
+|  Was |  Menge |  Wer |  Lager |  Kosten | Erledigt |
+|---|---|---|---|---:|:---:|
+|   |   |   |   | 0,00 €| - |
+|   |   |   |   | 0,00 €| - |
+|   |   |   |   | 0,00 €| - |
 
 * LWL-Technik:
 
-~~~
-4x SFP Gbit Transceiver
-1x LWL-Kupplung für LC-Stecker
-3x Medienkonverter TP-Link MC220L
-1x 200m LWL-Kabel Single-Mode mit LC-Steckern
-1x 300m LWL-Kabel Single-Mode mit LC-Steckern
-~~~
+|  Was |  Menge |  Wer |  Lager |  Kosten | Erledigt |
+|---|---|---|---|---:|:---:|
+| SFP LX 1310nm | 4  |   |   | 0,00 €| - |
+| LWL-Kupplung LC  | 1  |   |   | 0,00 €| - |
+| Medienkonverter TP-Link MC220L  | 3  |   |   | 0,00 €| - |
+| LWL-Kabel LX 1310nm  | 200 m |   |   | 0,00 €| - |
+| LWL-Kabel LX 1310nm  | 300 m |   |   | 0,00 €| - |
+|   |   |   |   | 0,00 €| - |
+|   |   |   |   | 0,00 €| - |
+|   |   |   |   | 0,00 €| - |
+
 
 * Netzwerkdosen/Patchpanels:
 
-~~~
-20x Netzwerkdosen (Cat.6)
-5x Patch-Panel (Cat.6)
-~~~
+|  Was |  Menge |  Wer |  Lager |  Kosten | Erledigt |
+|---|---|---|---|---:|:---:|
+| Netzwerkdosen (Cat.6) | 20 |   |   | 0,00 €| - |
+| Patch-Panel (Cat.6) | 5 |   |   | 0,00 €| - |
+|   |   |   |   | 0,00 €| - |
+
+
 
 * Patchkabel:
 
-~~~
-50x 50cm Patchkabel
-6x 20m Patchkabel
-25x 30m Patchkabel
-15x 50m Patchkabel
+|  Was |  Menge |  Wer |  Lager |  Kosten | Erledigt |
+|---|---|---|---|---:|:---:|
+| Patchkabel | 50 x 0,5 m  |   |   | 0,00 €| - |
+| Patchkabel | 6 x 20 m  |   |   | 0,00 €| - |
+| Patchkabel | 25 x 30 m  |   |   | 0,00 €| - |
+| Patchkabel | 15 x 50 m  |   |   | 0,00 €| - |
+|   |   |   |   | 0,00 €| - |
+|   |   |   |   | 0,00 €| - |
 
-~~~
 
 
 
 
 ### Installationsmaterial
 
-~~~
-Kabelbinder  5 x 300 mm (000 Stück)
-grüner Draht 1 mm , 10 m
-Aderendhülsen 1,5 mm^2 ( 50 Stück)
-
-~~~
+|  Was |  Menge |  Wer |  Lager |  Kosten | Erledigt |
+|---|---|---|---|---:|:---:|
+|   |   |   |   | 0,00 €| - |
+|   |   |   |   | 0,00 €| - |
+|   |   |   |   | 0,00 €| - |
 
 
 ### Werkzeug
 
-~~~
-Crimpzange
-LSA Plus Anlegewerkzeug
-Seitenschneider
-Lötkolben + Zinn
-Aderendhülsenzange
-Abisolierzange
-Kabelmesser
-~~~
+|  Was |  Menge |  Wer |  Lager |  Kosten | Erledigt |
+|---|---|---|---|---:|:---:|
+| Crimpzange |   |   |   | 0,00 €| - |
+| LSA Plus Anlegewerkzeug  | 1  | Frank  |   | 0,00 €| - |
+| Seitenschneider  |   |   |   | 0,00 €| - |
+| Lötkolben + Zinn  | 1  | Frank |   | 0,00 €| - |
+| Aderendhülsenzange  |   |   |   | 0,00 €| - |
+| Abisolierzange  |   |   |   | 0,00 €| - |
+| Kabelmesser  |   |   |   | 0,00 €| - |
+|   |   |   |   | 0,00 €| - |
+|   |   |   |   | 0,00 €| - |
+
+
 
 # Breminale 2016: benötigtes Material
 
