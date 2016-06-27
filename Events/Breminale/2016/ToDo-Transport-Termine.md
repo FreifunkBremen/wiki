@@ -1,17 +1,37 @@
 Welche Aktionen müssen durchgführt werden, wer ist verantwortlich,
 wie wird es transportiert?
 
-### Werkzeug
+HS>BW = vom Hacker Space zum Bauwagen ZH>BW = von ZuHause zum Bauwagen
+BW>HS umgekehrte Richtung
 
-|  Was |  Menge |  Wer |  Lager |  Kosten | Erledigt |
-|---|---|---|---|---:|:---:|
-| Aderendhülsenzange | 1 |   |   | 0,00 €| - |
-| Abisolierzange | 1|   |   | 0,00 €| - |
-| Funkgeräte PMR |  8 |   |   | 360,00 €| - |
-| Bauwagen |1 |   |   | 200,00 €| - |
-|   |   |   |   | 0,00 €| - |
-|   |   |   |   | 0,00 €| - |
-|   |   |   |   | 0,00 €| - |
+### Software
+
+|  Was |  Menge |  Wer |  Wann | Wo | Erledigt |
+|---|---|---|---|---|:---:|
+| Router flashen  | 50  | Frank / + +  |  |  HS| - |
+|   |   |   |   | - |
+|   |   |   |   | - |
+
+### Hardware
+
+|  Was |  Menge |  Wer |  Wann | Wo | Erledigt |
+|---|---|---|---|---|:---:|
+| Router einbauen  | 20  | Frank / + +  |  |  HS| - |
+| Gehäuse vorbereiten | 20 | Frank| 8.7.| ZH | - |
+|   |   |   |   |   | - |
+
+### Transport
+
+|  Was |  Menge |  Wer |  Wann | Wo | Erledigt |
+|---|---|---|---|---|:---:|
+| Outdoorrouter | 20 St. |   |   |   | - |
+| Kabel| 50 Kg  |   |   |   | - |
+| Geräte|   |   |   |   | - |
+| Werkzeug | 10 Kg  |   |   |   | - |
+| Inst.material|   |   |   |   | - |
+| Kühlschrank|  1 | Frank/Walter  |  9. o. 11.7. | BW | - |
+| Getränke  |   |   |   |   | - |
+| Leergut  |   |   |   |   | - |
 
 [x] Erledigt [-] offen
-[Wer] kümmert sich [Lager] liegt transportfertig (HS = Hackerspace)
+[Wer] kümmert sich 
