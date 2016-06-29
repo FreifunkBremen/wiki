@@ -6,11 +6,11 @@
 
 ## Termine
 
-|  Tag |  Datum |  Was |  Wann | Wo | Wer | Erledigt |
+|  Tag |  Dat. |  Was |  Wann | Wo | Wer | Erledigt |
 |---|---|---|---|---|---|:---:|
 | Montag | 27.6. |   |   |   |   | x |
-| Dienstag | 28.6. | zweites Treffen | 19:00 Uhr | ccchb Weberstr. 18 2.OG | Alle| - |
-| Mittwoch  | 29.6. |   |   |   |   | - |
+| Dienstag | 28.6. | zweites Treffen | 19:00 Uhr | ccchb Weberstr. 18 2.OG | Alle| **x** |
+| Mittwoch  | 29.6. |   |   |   |   | x |
 | Donnerstag  | 30.6.  |   |   |   |   | - |
 | Freitag  | 1.7. | Freifunk Treffen  | 19:00 Uhr | HackerSpace | Alle | - |
 | Samstag  | 2.7. |   |   |   |   | - |
