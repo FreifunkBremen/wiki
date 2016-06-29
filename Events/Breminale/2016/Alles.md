@@ -1,6 +1,7 @@
 # Freifunk Bremen auf der Breminale 2016
 
 ## Termine
+[Terminübersicht als Tabelle](http://wiki.bremen.freifunk.net/Events/Breminale/2016/Termine)
 ### Treffen
 * Kickoff: Mi, 22.06.2016, 19:00 Uhr, [Hackerspace Bremen](https://www.hackerspace-bremen.de) - Kreativwerkstatt
 * Zweites Treffen: Di. 28.06.16, 19:00 Uhr, [Embassy of Nerdistan](https://embassy.ccchb.de)
@@ -33,5 +34,6 @@
 ## Wiki-Seiten
 Im Ordner (Seitenleiste): /Events/Breminale/2016
 
+* [Termine](http://wiki.bremen.freifunk.net/Events/Breminale/2016/Termine)
 * [Material](http://wiki.bremen.freifunk.net/Events/Breminale/2016/Material)
-* [ToDo-Transport-Termine](http://wiki.bremen.freifunk.net/Events/Breminale/2016/ToDo-Transport-Termine)
+* [ToDo_Transport](http://wiki.bremen.freifunk.net/Events/Breminale/2016/ToDo_Transport)
