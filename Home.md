@@ -6,7 +6,7 @@ Alle erstellten Seiten findest du [hier](http://wiki.bremen.freifunk.net/pages).
 
 Zurück zur Homepage geht es [hier](http://bremen.freifunk.net) lang.
 
-**[[Infos zur Breminale gibts hier|Events/Breminale/2016/Alles]]**
+**[[Infos zum FFHB auf der Breminale gibts hier.|Events/Breminale/2016/Alles]]**
 
 ## Infos zu unseren Treffen
 
