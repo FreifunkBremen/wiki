@@ -1,12 +1,25 @@
 # Freifunk Bremen auf der Breminale 2016
 
 ## Termine
+### Treffen
 * Kickoff: Mi, 22.06.2016 - 19:00, [Hackerspace Bremen](https://www.hackerspace-bremen.de) - Kreativwerkstatt
 * Zweites Treffen: Di. 28.06.16, 19:00 Uhr, [Embassy of Nerdistan](https://embassy.ccchb.de)
 * Drittes Treffen: Di. 05.07.16, 19:00 Uhr, voraussichtlich [Hackerspace Bremen](https://www.hackerspace-bremen.de)
+
+### Breminale
 * Breminale-Beginn: Mi, 13.7., nachmittags
 * Breminale-Ende: So, 17.7., nachts
-* Abbau: So. abends und Mo. tagsüber
+
+### Aufbau / Abbau (mehr Infos siehe Pad)
+* 2016-07-09: Kartieren
+* 2016-07-10: Glasfaser zur Wiese und zum Baucontainer
+* 2016-07-11: Kupfer Hauptnetz
+* 2016-07-12: Hauptnetz auflegen (Kupfer + 2. Glassfaser backup)
+* 2016-07-12: NOC+Routing
+* 2016-07-13: Nodes im Hauptnetz verteilen
+* 2016-07-13: Nebennetz verlegen
+* 2016-07-14: Nebenetz mit Nodes füllen
+* Abbau: So. (17.07.16) abends und Mo. (18.07.16) tagsüber
 
 ## Kommunikation
 * TODO, Koordination: https://pads.hackerspace-bremen.de/p/ffhb-breminale-2016
