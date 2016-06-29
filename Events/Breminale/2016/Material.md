@@ -6,7 +6,7 @@
 
 |  Was |  Menge |  Wer |  Lager |  Kosten | Erledigt |
 |---|---|---|---|---:|:---:|
-|   |   |   |   | 0,00 €| - |
+| Privatleihgabe diverse  | genug  | morpheus  |   | 0,00 €| - |
 |   |   |   |   | 0,00 €| - |
 |   |   |   |   | 0,00 €| - |
 
@@ -92,8 +92,8 @@
 |---|---|---|---|---:|:---:|
 | Lankabel CAT6  | 200 m|   | HS | 120,00 €| - |
 | Crimpstecker CAT6  | 200 St.|   | HS| 0,00 €| - |
-| LWL Kabel | 300 m  |   |   | 0,00 €| - |
-| LWL Spleiß | 6 St.  |   |   | 0,00 €| - |
+| LWL Kabel | 14x50 m  |   |   | 0,00 €| - |
+| ~~LWL Spleiß~~ | 6 St.  |   |   | 0,00 €| - |
 |   |   |   |   | 0,00 €| - |
 |   |   |   |   | 0,00 €| - |
 
@@ -101,8 +101,7 @@
 
 |  Was |  Menge |  Wer |  Lager |  Kosten | Erledigt |
 |---|---|---|---|---:|:---:|
-|   |   |   |   | 0,00 €| - |
-|   |   |   |   | 0,00 €| - |
+| POE Adapter für Boxen  | 6  | corny  |   | 6x18,00 €| - |
 |   |   |   |   | 0,00 €| - |
 
 
@@ -132,12 +131,12 @@
 |  Was |  Menge |  Wer |  Lager |  Kosten | Erledigt |
 |---|---|---|---|---:|:---:|
 | Kabelbinder 5x300 mm | 2000 St. |   |   | 0,00 €| - |
-| Aderendhülsen 1,5 mm^2 | 200 St.  |   |   | 0,00 €| - |
-| Klebeband | 5 St. |   |   | 0,00 €| - |
-| Materialboxen  |20 | Frank |   | 276,00 €| - |
-| Kabeldurchführungen  | 40 | Frank |   | 4,00 €| - |
-| Geräteanschlußkabel  | 10-20  |   |   | 50,00 €| - |
-|   |   |   |   | 0,00 €| - |
+| ~~Aderendhülsen~~ 1,5 mm^2 | 200 St.  |   |   | 0,00 €| - |
+| Klebeband | 5 St |   |   | 0,00 €| - |
+| Materialboxen  |6 | Frank |   | 94,32 €| - |
+| Kabeldurchführungen  | 12 | Frank |   | 4,00 €| - |
+| ~~Geräteanschlußkabel~~  | 10-20  |   |   | ~~50,00 €~~| - |
+| 30cm Edelstahl Kabelbinder</br> Diebstahlschutz  | 100St  |Frank |   | 11,00 €| X |
 |   |   |   |   | 0,00 €| - |
 |   |   |   |   | 0,00 €| - |
 
@@ -148,9 +147,9 @@
 | Aderendhülsenzange | 1 |   |   | 0,00 €| - |
 | Abisolierzange | 1|   |   | 0,00 €| - |
 | Funkgeräte PMR |  8 |   |   | 360,00 €| - |
-| Bauwagen |1 |   |   | 200,00 €| - |
-|   |   |   |   | 0,00 €| - |
-|   |   |   |   | 0,00 €| - |
+| Bauwagen |1 | corny | Osterdeich | 250,00 €| - |
+| PMR Funkgeräte  | 2x4er Set  | morpheus |   | 316,00 €| - |
+| Arbeitsleuchte Bauwagen  | 1  |   | Bauwagen | 0,00 €| - |
 |   |   |   |   | 0,00 €| - |
 
 [x] Erledigt [-] offen
