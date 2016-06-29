@@ -29,3 +29,9 @@
 * Anwesenheit: https://dudle.hackerspace-bremen.de/FFHB-Breminale-Anwesenheit/
 * Anwesenheit Info-Stand: https://dudle.hackerspace-bremen.de/FFHB-Breminale-Info-Stand
 * IRC: [#ffhb_events im Hackint](irc://irc.hackint.org/ffhb_events)
+
+## Wiki-Seiten
+Im Ordner (Seitenleiste): /Events/Breminale/2016
+
+* [Material](http://wiki.bremen.freifunk.net/Events/Breminale/2016/Material)
+* [ToDo-Transport-Termine](http://wiki.bremen.freifunk.net/Events/Breminale/2016/ToDo-Transport-Termine)
