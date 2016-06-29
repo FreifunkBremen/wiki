@@ -2,9 +2,11 @@
 
 ## Termine
 ### Treffen
-* Kickoff: Mi, 22.06.2016 - 19:00, [Hackerspace Bremen](https://www.hackerspace-bremen.de) - Kreativwerkstatt
+* Kickoff: Mi, 22.06.2016, 19:00 Uhr, [Hackerspace Bremen](https://www.hackerspace-bremen.de) - Kreativwerkstatt
 * Zweites Treffen: Di. 28.06.16, 19:00 Uhr, [Embassy of Nerdistan](https://embassy.ccchb.de)
 * Drittes Treffen: Di. 05.07.16, 19:00 Uhr, voraussichtlich [Hackerspace Bremen](https://www.hackerspace-bremen.de)
+
+* Sowie auf den [normalen Freifunk-Treffen](http://wiki.bremen.freifunk.net/Home#infos-zu-unseren-treffen)
 
 ### Breminale
 * Breminale-Beginn: Mi, 13.7., nachmittags
