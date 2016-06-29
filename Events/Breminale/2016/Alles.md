@@ -34,6 +34,6 @@
 ## Wiki-Seiten
 Im Ordner (Seitenleiste): /Events/Breminale/2016
 
-* [Termine](http://wiki.bremen.freifunk.net/Events/Breminale/2016/Termine)
-* [Material](http://wiki.bremen.freifunk.net/Events/Breminale/2016/Material)
-* [ToDo_Transport](http://wiki.bremen.freifunk.net/Events/Breminale/2016/ToDo_Transport)
+* [Termine](http://wiki.bremen.freifunk.net/Events/Breminale/2016/Termine){:target="_blank"}
+* [Material](http://wiki.bremen.freifunk.net/Events/Breminale/2016/Material){:target="_blank"}
+* [ToDo_Transport](http://wiki.bremen.freifunk.net/Events/Breminale/2016/ToDo_Transport){:target="_blank"}
