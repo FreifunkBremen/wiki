@@ -31,7 +31,7 @@ Wer einen CF-Cardreder Zuhause hat, überspielt das Image einfach auf die Karte 
 Jetzt bootet der Futro in den Configmode und kann entsprechend konfiguriert werden. Damit der Futro sofort startet, sobald er Strom hat, kann im Bios die Option in case of power failure auf auf always on gestellt werden.
 
 ## Das Dual-NIC-Setup
-Die technisch einfachere Variante ist das Einbauen einer zusätzlichen Netzwerkkarte. Dazu ist eine um 90° gewinkelte Risercard nötig (Freifunker anon6789 hat noch einige passende über). Sobald die Netzwerkkarte eingebaut ist, hat der Router eine LAN und eine WAN Schnittstelle (WAN ist die PCI-Karte). Achtung: wird die Netzwerkkarte es nachträglich eingebaut, muss das Image noch einmal neu aufgespielt werden!
+Die technisch einfachere Variante ist das Einbauen einer zusätzlichen Netzwerkkarte. Dazu ist eine um 90° gewinkelte Risercard nötig (Freifunker anon6789 hat noch einige passende über). Sobald die Netzwerkkarte eingebaut ist, hat der Router eine LAN und eine WAN Schnittstelle (WAN ist die PCI-Karte). Achtung: wird die Netzwerkkarte erst nachträglich eingebaut, muss das Image noch einmal neu aufgespielt werden!
 
  <img src="http://jel.to/ff_pics/offloader_dual_nic.jpg" alt="Futro Dual WAN Setup" style="width:400px;height:533px;">
  
