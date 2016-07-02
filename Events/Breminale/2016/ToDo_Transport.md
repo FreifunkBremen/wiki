@@ -8,7 +8,7 @@ BW>HS umgekehrte Richtung
 
 |  Was |  Menge |  Wer |  Wann | Wo | Erledigt |
 |---|---|---|---|---|:---:|
-| Router flashen  | 50  | Frank / + +  |  |  HS| - |
+| Router flashen  | 50  | automatisch  |  |  HS| - |
 |   |   |   |   | - |
 |   |   |   |   | - |
 
@@ -30,6 +30,7 @@ BW>HS umgekehrte Richtung
 | Werkzeug | 10 Kg  |   |   |   | - |
 | Inst.material|   |   |   |   | - |
 | Kühlschrank|  1 | Frank/Walter  |  9. o. 11.7. | BW | - |
+| Kühlschrank|  1 | Frank (Taxi)  |  15.7. | BW | - |
 | Getränke  |   |   |   |   | - |
 | Leergut  |   |   |   |   | - |
 
