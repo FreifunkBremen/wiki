@@ -7,12 +7,12 @@
 
 |  Tag |  Dat. |  Was |  Wann | Wo | Wer | Erledigt |
 |---|---|---|---|---|---|:---:|
-| Montag | 27.6. |   |   |   |   | x |
+| Montag | 27.6. |   |   |   |   | **x** |
 | Dienstag | 28.6. | zweites Treffen | 19:00 Uhr | <a href="http://www.openstreetmap.org/?mlat=53.072123&mlon=8.821818&zoom=18#map=18/53.07212/8.82182" target="_blank">embassy.ccchb.de</a> Weberstr. 18 2.OG | Alle| **x** |
-| Mittwoch  | 29.6. |   |   |   |   | x |
-| Donnerstag  | 30.6.  |   |   |   |   | - |
-| Freitag  | 1.7. | Freifunk Treffen  | 19:00 Uhr | <a href="https://www.hackerspace-bremen.de/" target="_blank">Hackerspace</a> | Alle | - |
-| Samstag  | 2.7. |   |   |   |   | - |
+| Mittwoch  | 29.6. |   |   |   |   | **x** |
+| Donnerstag  | 30.6.  |   |   |   |   | **x** |
+| Freitag  | 1.7. | Freifunk Treffen  | 19:00 Uhr | <a href="https://www.hackerspace-bremen.de/" target="_blank">Hackerspace</a> | Alle | **x** |
+| Samstag  | 2.7. |   |   |   |   | **x** |
 | Sonntag  | 3.7. |   |   |   |   | - |
 | Montag | 4.7. |   |   |   |   | - |
 | Dienstag | 5.7. | drittes Treffen| 19:00 Uhr | <a href="https://www.hackerspace-bremen.de/" target="_blank">Hackerspace</a> | Alle | - |
