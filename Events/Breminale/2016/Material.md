@@ -72,7 +72,7 @@
 |---|---|---|---|---:|:---:|
 | Crimpzange |   |   |   | 0,00 €| - |
 | LSA Plus Anlegewerkzeug  | 1  | Frank  |   | 0,00 €| - |
-| Seitenschneider  |   |   |   | 0,00 €| - |
+| Seitenschneider  | 1 |  Frank |   | 0,00 €| - |
 | Lötkolben + Zinn  | 1  | Frank |   | 0,00 €| - |
 | Aderendhülsenzange  |   |   |   | 0,00 €| - |
 | Abisolierzange  |   |   |   | 0,00 €| - |
@@ -130,13 +130,13 @@
 
 |  Was |  Menge |  Wer |  Lager |  Kosten | Erledigt |
 |---|---|---|---|---:|:---:|
-| Kabelbinder 5x300 mm | 2000 St. |   |   | 0,00 €| - |
-| ~~Aderendhülsen~~ 1,5 mm^2 | 200 St.  |   |   | 0,00 €| - |
+| Kabelbinder 5x300 mm | 2000 St. | Julian  |   | 0,00 €| - |
+| Aderendhülsen 1,5 mm^2 | 100 St.  | Frank |   | 0,00 €| **x** |
 | Klebeband | 5 St |   |   | 0,00 €| - |
-| Materialboxen  |6 | Frank |   | 94,32 €| - |
-| Kabeldurchführungen  | 12 | Frank |   | 4,00 €| - |
+| Materialboxen  | 6 | Frank |   | 94,32 €| **x** |
+| Kabeldurchführungen  | 12 | Frank |   | 4,00 €| **x** |
 | ~~Geräteanschlußkabel~~  | 10-20  |   |   | ~~50,00 €~~| - |
-| 30cm Edelstahl Kabelbinder</br> Diebstahlschutz  | 100St  |Frank |   | 11,00 €| X |
+| 30cm Edelstahl Kabelbinder</br> Diebstahlschutz  | 100St  |Frank |   | 11,00 €| **X** |
 |   |   |   |   | 0,00 €| - |
 |   |   |   |   | 0,00 €| - |
 
@@ -147,7 +147,7 @@
 | Aderendhülsenzange | 1 |   |   | 0,00 €| - |
 | Abisolierzange | 1|   |   | 0,00 €| - |
 | Funkgeräte PMR |  8 |   |   | 360,00 €| - |
-| Bauwagen |1 | corny | Osterdeich | 250,00 €| - |
+| Bauwagen |1 | Julian | Osterdeich | 250,00 €| - |
 | PMR Funkgeräte  | 2x4er Set  | morpheus |   | 316,00 €| - |
 | Arbeitsleuchte Bauwagen  | 1  |   | Bauwagen | 0,00 €| - |
 |   |   |   |   | 0,00 €| - |
