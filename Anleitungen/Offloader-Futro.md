@@ -7,13 +7,7 @@ Großer Beliebtheit erfreut sich der [Fujitsu-Siemens Futro S550 Thin-Client](ht
 Es gibt grundsätzlich zwei mögliche Setups. Eine Möglichkeit ist das Nachrüsten einer zusätzlichen PCI-Netzwerkkarte oder mit nur einer Netzwerkkarte und VLANs.
 
 ## Installation
-Grundsätzlich bieten wir für alle x86-Rechner ein generisches Image an. Solange keine Spezialhardware verbaut ist, die extra Treiber benötigt, kann dieses ohne Probleme installiert werden. Der CF-Cardreader des Futro benötigt leider zusätzliche Treiber. Die Firmware muss also neu gebaut werden:
-
-```
- make -j6 V=s GLUON_TARGET=ar71xx-generic && make -j6 V=s GLUON_TARGET=mpc85xx-generic && make -j6  V=s GLUON_TARGET=x86-kvm_guest && echo "CONFIG_PATA_ATIIXP=y" >> openwrt/target/linux/x86/generic/config-3.10 && make -j6 V=s GLUON_TARGET=x86-generic
-```
-
-Wichtig ist hierbei, den Paramter vor dem Bauen zu setzten. So kann der Futro dann auch auf seine CF-Karte zugreifen.
+Grundsätzlich bieten wir für alle x86-Rechner ein generisches Image an. Solange keine Spezialhardware verbaut ist, die extra Treiber benötigt, kann dieses ohne Probleme installiert werden. Mit der aktuellen Version werden auch keinen Treiber mehr für den CF-Cardreader im Futro benötigt.
 
 Wer einen CF-Cardreder Zuhause hat, überspielt das Image einfach auf die Karte des Futro. Es gibt auch eine Möglichkeit, ohne den Futro öffnen zu müssen. Dazu ein kleines Zitat aus dem [Freifunk-Forum](https://forum.freifunk.net/t/einfache-loesung-um-einen-futro-s550-offloader-zu-flashen-windows-linux-os-x/8988):
 > 
