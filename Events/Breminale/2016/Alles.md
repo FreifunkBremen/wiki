@@ -7,6 +7,7 @@
 * Zweites Treffen: Di. 28.06.16, 19:00 Uhr, [Embassy of Nerdistan](https://embassy.ccchb.de)
 * Drittes Treffen: Di. 05.07.16, 19:00 Uhr, voraussichtlich [Hackerspace Bremen](https://www.hackerspace-bremen.de)
 * Viertes Treffen: Fr. 08.07.16, 19:00 Uhr, Bauwagen am Osterdeich
+* Aktuell sind bis zum Ende der Breminale immer freiwillige Helfer vor Ort, kommt vorbei.
 
 * Sowie auf den [normalen Freifunk-Treffen](http://wiki.bremen.freifunk.net/Home#infos-zu-unseren-treffen)
 
