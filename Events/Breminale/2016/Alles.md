@@ -41,3 +41,4 @@ Im Ordner (Seitenleiste): /Events/Breminale/2016
 target="_blank">Material</a>
 * <a href="http://wiki.bremen.freifunk.net/Events/Breminale/2016/ToDo_Transport"
 target="_blank">ToDo_Transport</a>
+* <a href="http://wiki.bremen.freifunk.net/Events/Breminale/2016/Ideen-zur-Breminale" target="_blank">Ideen zur Breminale</a>
