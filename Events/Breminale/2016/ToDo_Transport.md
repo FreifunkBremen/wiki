@@ -31,7 +31,7 @@ BW>HS umgekehrte Richtung
 | Inst.material|   |   |   |   | - |
 | Kühlschrank|  1 | Frank/Walter  |  9.7. | BW | **x** |
 | Kühlschrank|  1 | Frank (Taxi)  |  15.7. | BW | - |
-| Getränke freifunk.bier  | 24  | Frank  |   |   | **x** |
+| [Getränke freifunk.bier] (https://1drv.ms/i/s!AqaKqOmiM6_ojRlVLfSaqbBTQZdW)  | 24  | Frank  |   |   | **x** |
 | Leergut  |   |   |   |   | - |
 
 [x] Erledigt [-] offen
