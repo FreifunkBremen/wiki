@@ -16,8 +16,8 @@ BW>HS umgekehrte Richtung
 
 |  Was |  Menge |  Wer |  Wann | Wo | Erledigt |
 |---|---|---|---|---|:---:|
-| Router in Gehäuse einbauen  | 6  | Frank / + +  |  |  HS| - |
-| Gehäuse vorbereiten | 6 | Frank| 8.7.| ZH | - |
+| Router in Gehäuse einbauen  | 6  | Frank / + +  |  |  BW| - |
+| Gehäuse vorbereiten | 6 | Frank| 8.7.| ZH | **x** |
 |   |   |   |   |   | - |
 
 ### Transport
@@ -29,9 +29,9 @@ BW>HS umgekehrte Richtung
 | Geräte|   |   |   |   | - |
 | Werkzeug | 10 Kg  |   |   |   | - |
 | Inst.material|   |   |   |   | - |
-| Kühlschrank|  1 | Frank/Walter  |  9. o. 11.7. | BW | - |
+| Kühlschrank|  1 | Frank/Walter  |  9.7. | BW | **x** |
 | Kühlschrank|  1 | Frank (Taxi)  |  15.7. | BW | - |
-| Getränke  |   |   |   |   | - |
+| Getränke freifunk.bier  | 24  | Frank  |   |   | **x** |
 | Leergut  |   |   |   |   | - |
 
 [x] Erledigt [-] offen
