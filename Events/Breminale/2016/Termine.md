@@ -18,7 +18,7 @@
 | Dienstag | 5.7. | drittes Treffen| 19:00 Uhr | <a href="https://www.hackerspace-bremen.de/" target="_blank">Hackerspace</a> | Alle | **x** |
 | Mittwoch  | 6.7.  |   |   |   |   | **x** |
 | Donnerstag  | 7.7.  |   |   |   |   | **x** |
-| Freitag  | 8.7.  |  viertes Treffen | 19:00 Uhr  |  Bauwagen Osterdeich | Alle | - |
+| Freitag  | 8.7.  |  viertes Treffen | 19:00 Uhr  |  Bauwagen Osterdeich | Alle | **x** |
 | Samstag  | 9.7.  | Kartieren & Strecken vermessen | ? | Osterdeich | Alle & geno | - |
 | Sonntag  | 10.7.  | Glasfaser zur Wiese und zum Baucontainer |   | Osterdeich | oliver, jens, l3akage, chrische | - |
 | Montag | 11.7. | Kupfer Hauptnetz auslegen | 15:00 Uhr  | Osterdeich</br> am Bauwagen | Alle & oliver, geno, jens nachmittags, frank 17h, l3akage, chrische, morpheus | - |
