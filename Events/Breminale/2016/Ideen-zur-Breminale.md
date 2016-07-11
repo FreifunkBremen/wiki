@@ -9,4 +9,4 @@ Kleine **Ideensammlung** aufgeschnappt vor und während der Bremeniale. Die an d
 * Wasserdichte LAN Steckverbinder zum Anschluss an Outdoornodes oder als Kabelverlängerung
 * Lankabel auf Kabeltrommel für Veranstaltungen
 * Gehäusedichtungen: Acryl mit 20% Dehnung, damit kann jede Dichtung erstellt werden
-* CAT 7 Verlegekabel bedarf spezieller Konfektionierung, Material nicht mal eben beim Händler um die Ecke zu bekommen.
+* CAT 7 Verlegekabel bedarf spezieller Konfektionierung, Material nicht mal eben beim Händler um die Ecke zu bekommen. Spezifikation von CAT 6 ist für FF hinreichend überdimensioniert.
