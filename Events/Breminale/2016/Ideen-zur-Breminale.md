@@ -8,3 +8,5 @@ Kleine **Ideensammlung** aufgeschnappt vor und während der Bremeniale. Die an d
 * Neustart wenn Node kein Netz hat.
 * Wasserdichte LAN Steckverbinder zum Anschluss an Outdoornodes oder als Kabelverlängerung
 * Lankabel auf Kabeltrommel für Veranstaltungen
+* Gehäusedichtungen: Acryl mit 20% Dehnung, damit kann jede Dichtung erstellt werden
+* 
