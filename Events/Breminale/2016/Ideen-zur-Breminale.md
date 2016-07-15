@@ -16,5 +16,6 @@ Kleine **Ideensammlung** aufgeschnappt vor und während der Bremeniale. Die an d
     Die Differenz zwischen der ersten und letzten Zahl ist die Länge in Metern.
   * Bei einem Kabelring kann ich alternativ auch den mittleren Durchmesser (**d**) * **PI** * **Anzahl** der Windungen berechnen. Beispiel 10 Windungen bei einem Duchmesser von 50cm sind ungefähr 50 * 3 * 10 = 1500cm.
   * Ein Impulsreflektometer ( meistens in guten Kabelmessern integriert) liefert auch die Länge zurück. Beim Leatherman ist es seitlich angebaut.
+  * Leistungsreduzierung bei ungleichmäßiger Belgegung von Routergruppen, dadurch verbinden sich die Client mehr mit den weniger belegten Routern.
 
  
