@@ -25,7 +25,7 @@
 | Dienstag | 12.7. | Hauptnetz auflegen (Kupfer + 2. Glassfaser backup) NOC+Routing  viertes Treffen?  | 15:00 Uhr</br>19:00 Uhr  | Osterdeich</br> am Bauwagen |Alle & oliver, geno, jens nachmittags, frank 17h, l3akage, chrische, morpheus | **x** |
 | Mittwoch  | 13.7 |  Breminale</br>Nodes im Hauptnetz verteilen, Nebennetz verlegen | 15:00 Uhr |   | Alle & oliver, geno, jens nachmittags, frank 17h, l3akage, chrische, morpheus | **x** |
 | Donnerstag  | 14.7.  | Breminale</br>Nebennetz mit Nodes füllen  | 10:00 - 01:00 Uhr</br>10:00 Uhr |   | Alle & oliver, geno, jens nachmittags, frank 17h, l3akage, chrische, morpheus | **x** |
-| Freitag  | 15.7.  | Breminale & </br>Freifunk Treffen| 15:00 - 01:00 Uhr</br>19:00 Uhr  | Osterdeich</br>Breminale  | Alle</br>Alle | - |
+| Freitag  | 15.7.  | Breminale & </br>Freifunk Treffen| 15:00 - 01:00 Uhr</br>19:00 Uhr  | Osterdeich</br>Breminale  | Alle </br>Alle </br>Grillen & Chillen | **x** |
 | Samstag  | 16.7.  | Breminale |   |   |   | - |
 | Sonntag  | 17.7.  | Breminale </br>Abbau | 10-23 Uhr </br>22:00 Uhr  |   | Osterdeich</br>Bauwagen | - |
 | Montag | 18.7. | Abbau |   |   |Osterdeich</br>Bauwagen | - |
