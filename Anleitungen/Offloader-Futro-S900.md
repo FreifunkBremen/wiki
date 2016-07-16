@@ -14,7 +14,7 @@ Die Installation läuft genau so wie beim Futro S550 ab. Auf dem USB-Stick muss 
 bitte_nicht_loeschen.sh
 ~~~
 
-geändert oder erweitert werden. Da das Script auf die in den Futro-S550 vorhandenen CPU-Typen prüft, muss der neue CPU-Typ ergänzt oder einer der beiden S550-Typen überschrieben werden.
+geändert oder erweitert werden. Da das Script den vorhandenen CPU-Typ überprüft, muss der neue CPU-Typ ergänzt oder einer der vorhandenen Einträge überschrieben werden.
 
 Der Eintrag lautet:
 
