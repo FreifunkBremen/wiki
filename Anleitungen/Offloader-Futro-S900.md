@@ -13,5 +13,7 @@ Die Installation läuft genau so wie beim Futro S550 ab. Auf dem USB-Stick muss 
 
 Der Eintrag lautet:
 
+~~~
 if (grep -Fq "AMD G-T44R Processor" /proc/cpuinfo) ; then
   echo "AMD G-T44R Processor -> Futro S900"
+~~~
