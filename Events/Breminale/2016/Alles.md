@@ -11,7 +11,7 @@
 
 * Sowie auf den [normalen Freifunk-Treffen](http://wiki.bremen.freifunk.net/Home#infos-zu-unseren-treffen)
 
-### Breminale
+### [Breminale](http://breminale.ffhb.de/)
 * Breminale-Beginn: Mi, 13.7., nachmittags
 * Breminale-Ende: So, 17.7., nachts
 
