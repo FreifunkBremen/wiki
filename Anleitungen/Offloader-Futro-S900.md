@@ -9,7 +9,7 @@ Der Rest läuft in der gleichen Weise ab. Es werden benötigt:
 1. Risercard
 2. Netzwerkkarte
 
-Die Installation läuft genau so wie beim Futro S550 ab. Auf dem USB-Stick muss aber die
+Die Installation läuft genau so ab wie beim Futro S550. Auf dem USB-Stick muss aber die
 ~~~
 bitte_nicht_loeschen.sh
 ~~~
