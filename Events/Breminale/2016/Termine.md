@@ -26,13 +26,13 @@
 | Mittwoch  | 13.7 |  Breminale</br>Nodes im Hauptnetz verteilen, Nebennetz verlegen | 15:00 Uhr |   | Alle & oliver, geno, jens nachmittags, frank 17h, l3akage, chrische, morpheus | **x** |
 | Donnerstag  | 14.7.  | Breminale</br>Nebennetz mit Nodes füllen  | 10:00 - 01:00 Uhr</br>10:00 Uhr |   | Alle & oliver, geno, jens nachmittags, frank 17h, l3akage, chrische, morpheus | **x** |
 | Freitag  | 15.7.  | Breminale & </br>Freifunk Treffen| 15:00 - 01:00 Uhr</br>19:00 Uhr  | Osterdeich</br>Breminale  | Alle </br>Alle </br>Grillen & Chillen | **x** |
-| Samstag  | 16.7.  | Breminale |   |   |   | - |
-| Sonntag  | 17.7.  | Breminale </br>Abbau | 10-23 Uhr </br>22:00 Uhr  |   | Osterdeich</br>Bauwagen | - |
-| Montag | 18.7. | Abbau |   |   |Osterdeich</br>Bauwagen | - |
+| Samstag  | 16.7.  | Breminale |   |   |   | **x** |
+| Sonntag  | 17.7.  | Breminale </br>Abbau | 10-23 Uhr </br>22:00 Uhr  |   | Osterdeich</br>Bauwagen | **x** |
+| Montag | 18.7. | Abbau |   |   |Osterdeich</br>Bauwagen | **x** |
 | Dienstag | 19.7. |   |   |   |   | - |
-| Mittwoch  | 20.7 |   |   |   |   | - |
+| Mittwoch  | 20.7 | After Breminale |  20 Uhr |  Luft-Bad neben dem Cafe Sand | Alle Helfer  | - |
 | Donnerstag  | 21.7.  |   |   |   |   | - |
-| Freitag  | 22.7.  |   |   |   |   | - |
+| Freitag  | 22.7.  | Nachbesprechung Breminale  |  19:30 Uhr | Hackerspace |   | - |
 | Samstag  | 23.7.  |   |   |   |   | - |
 | Sonntag  | 24.7.  |   |   |   |   | - |
 
