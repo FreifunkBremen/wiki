@@ -25,6 +25,7 @@
 * 2016-07-13: Nebennetz verlegen
 * 2016-07-14: Nebenetz mit Nodes füllen
 * Abbau: So. (17.07.16) abends und Mo. (18.07.16) tagsüber
+* 2016-07-20: Mittwoch 20:00 Uhr, Abschlusstreffen Breminalehelfer im [www.LiLuBa.de](http://www.liluba.de/index.php/oeffnungszeiten-und-anfahrt)
 
 ## Kommunikation
 * TODO, Koordination: https://pads.hackerspace-bremen.de/p/ffhb-breminale-2016
