@@ -6,8 +6,6 @@ Alle erstellten Seiten findest du [hier](http://wiki.bremen.freifunk.net/pages).
 
 Zurück zur Homepage geht es [hier](http://bremen.freifunk.net) lang.
 
-**[[Infos zum FFHB auf der Breminale gibts hier.|Events/Breminale/2016/Alles]]**
-
 ## Infos zu unseren Treffen
 
 Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat im [Hackerspace Bremen](https://www.hackerspace-bremen.de) um 19 Uhr. In der ersten halben Stunde werden Fragen von Neulingen beantwortet und um 19:30 Uhr wird die Tagesordnung eröffnet.  Üblicherweise dauern die Treffen 2-3 Stunden mit kleinen Pausen zwischen drin.
@@ -21,7 +19,6 @@ Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat im [Hackerspace 
   * [[05.08.2016|Treffen/2016_08_05]]
   * [[19.08.2016|Treffen/2016_08_19]]
 * [Liste aller Treffen](http://wiki.bremen.freifunk.net/pages/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
-* **[[Bis zur Breminale finden verschiedene Planungstreffen statt. (Viertes Treffen: Fr. 08.07.16, 19:00 Uhr, Bauwagen Breminale Osterdeich)|Events/Breminale/2016/Alles]]**
 * Weitere Termine (nicht nur Treffen) finden sich in den Protokollen zu den verschiedenen Treffen
 
 Eine Übersicht aller Arten von Zusammenkünften findest du unter [[Treffen|Treffen/00_Treffen]].
