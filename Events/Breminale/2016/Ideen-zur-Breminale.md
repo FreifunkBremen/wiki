@@ -28,7 +28,6 @@ Kleine **Ideensammlung** aufgeschnappt vor und während der Bremeniale. Die an d
 
 ### Weiterführende Links
 Um die Suche nach den Begrifflichkeiten, übersichten und Erklärungen zu liefern, hier ein paar nützliche Links.
-- http://www2.cs.uni-paderborn.de/cs/ag-kao/de/teaching/ws04/pg_lbs/Seminarausarbeitungen/M%C3%BCller.pdf
-- http://agn-www.informatik.uni-hamburg.de/papers/doc/diparb_samer_abdalla.pdf
-- 
-- 
+* http://www2.cs.uni-paderborn.de/cs/ag-kao/de/teaching/ws04/pg_lbs/Seminarausarbeitungen/M%C3%BCller.pdf
+* http://agn-www.informatik.uni-hamburg.de/papers/doc/diparb_samer_abdalla.pdf
+
