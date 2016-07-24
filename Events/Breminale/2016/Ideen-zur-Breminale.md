@@ -22,3 +22,13 @@ Kleine **Ideensammlung** aufgeschnappt vor und während der Bremeniale. Die an d
 * Verwenden von Teilen aus den Paketen KARMA oder JASAGER. Die Anteile des Wardirving müssen entfernt werden um Konfikte mit dem BDSG zu Vermeiden.
 * Entfernen der langsamen Verbindungsarten aus 2.4GHz (802.11b/g) bzw. 5GHz (802.11a)
 * Sendeleistung 2.4Ghz reduzieren um 5Ghz zu priorisieren. Bei 0dB Leistung bei 2.4Ghz, kaum noch Clients in dem Bereich.
+* 
+
+
+
+### Weiterführende Links
+Um die Suche nach den Begrifflichkeiten, übersichten und Erklärungen zu liefern, hier ein paar nützliche Links.
+- http://www2.cs.uni-paderborn.de/cs/ag-kao/de/teaching/ws04/pg_lbs/Seminarausarbeitungen/M%C3%BCller.pdf
+- http://agn-www.informatik.uni-hamburg.de/papers/doc/diparb_samer_abdalla.pdf
+- 
+- 
