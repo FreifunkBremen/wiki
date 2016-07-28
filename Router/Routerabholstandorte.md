@@ -34,15 +34,11 @@ Wer seine Router selbst flashen möchte, erhält diese häufig zum Selbstkostenp
 
 [[_TOC_]]
 
-## Borgfeld
-Standort|Kontakt|Geräte/Kosten|Kommentar
----|---|---|---|---
-Butendiek|freifunk(at)rokita.de  |**Gebr. IndoorKnoten**: WR841N**D** 20€ (v8 m. schönem SchiebeSchalter f. WiFi on/off)   **WDR3600** max. 39€, **WDR4300** max. 48€, dann mit Folie und nur wenige Tage ausprobiert. **Neuware-IndoorRouter**: max. +50%, Preis hängt bei den gebr. WDRs vom Netzteil und ob blaue oder grüne LEDs, Folie noch drauf ist usw ab. **Gebrauchte (outdoor) NanoStation:** M2 loco 30€, M5 loco 40€, M2 45€, M5 50€ (**neue**, versiegelte M2, ohne Rechnung 60€)|langfristige Leihgaben und Anlieferungen mehrmals wöchentlich ins StadtGebiet Bremen möglich.
 
 ## Bremerhaven
 Standort      | Kontakt                   | Geräte                     | Kosten    | Kommentar
 ---           | ---                       | ---                        | ---       | ---
-Bhv. Mitte/Lehe | freifunkinbremerhaven@posteo.de| TP-LINK TL-WR841ND v.9.3 | 20 €  | Treff- und Zeitpunktpunkt nach Absprache. Ich helfe auch gerne beim Einrichten.
+Bhv. Mitte/Lehe | freifunkinbremerhaven@posteo.de| TP-LINK TL-WR841ND v.9.3 | 20 €  | Treff- und Zeitpunktpunkt nach Absprache.<br>Ich helfe auch gerne beim Einrichten.
 
 ## Findorff
 Standort                | Kontakt   | Geräte            | Kosten
@@ -62,8 +58,7 @@ Daniel-von-Büren-Straße 15  | auf [Mailingliste] oder im [Chat]   | TP-LINK TL
 ## Neustadt
 Standort              | Kontakt                           | Geräte                | Kosten      | Kommentar
 ---                   | ---                               | ---                   | ---         | ---
-     | 
-[KARTON]              | freifunk(ÄT)nukeUS.de | alles wo gibt kann geliefert werden | ab 20 €| langfristige Leihgaben möglich; Verfügbarkeit vorher per Mail klären
+[KARTON]              | freifunk(ÄT)nukeUS.de | alles wo gibt kann geliefert werden | ab 20 €| langfristige Leihgaben möglich;<br>Verfügbarkeit vorher per Mail klären
 
 ## Peterswerder
 Standort     | Kontakt                           | Geräte            | Kosten
@@ -73,7 +68,7 @@ Peterswerder | auf [Mailingliste] oder im [Chat] | TP-LINK TL-WR841N | 20 €
 ## Schnoor
 Standort                                  | Kontakt                         | Geräte            | Kosten  | Kommentar
 ---                                       | ---                             | ---               | ---     | ---
-[Katzen-Cafe] | freifunk(ÄT)nukeUS.de     | alles wo gibt kann geliefert werden | ab 20 € | von 9-23 Uhr (selten mal Ruhetag); Verfügbarkeit vorher per Mail klären
+[Katzen-Cafe] | freifunk(ÄT)nukeUS.de     | alles wo gibt kann geliefert werden | ab 20 € | von 9-23 Uhr (selten mal Ruhetag);<br>Verfügbarkeit vorher per Mail klären
 
 ## Viertel
 Standort                                    | Kontakt                     | Geräte                        | Kosten
