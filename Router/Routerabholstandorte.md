@@ -55,25 +55,15 @@ Standort                    | Kontakt                             | Geräte     
 ---                         | ---                                 | ---               | ---     | ---
 Daniel-von-Büren-Straße 15  | auf [Mailingliste] oder im [Chat]   | TP-LINK TL-WR841N | 20 €    | Montags ab 19:00 oder nach Absprache
 
-## Neustadt
-Standort              | Kontakt                           | Geräte                | Kosten      | Kommentar
----                   | ---                               | ---                   | ---         | ---
-[KARTON]              | freifunk(ÄT)nukeUS.de | alles wo gibt kann geliefert werden | ab 20 €| langfristige Leihgaben möglich;<br>Verfügbarkeit vorher per Mail klären
-
 ## Peterswerder
 Standort     | Kontakt                           | Geräte            | Kosten
 ---          | ---                               | ---               | ---
 Peterswerder | auf [Mailingliste] oder im [Chat] | TP-LINK TL-WR841N | 20 €
 
-## Schnoor
-Standort                                  | Kontakt                         | Geräte            | Kosten  | Kommentar
----                                       | ---                             | ---               | ---     | ---
-[Katzen-Cafe] | freifunk(ÄT)nukeUS.de     | alles wo gibt kann geliefert werden | ab 20 € | von 9-23 Uhr (selten mal Ruhetag);<br>Verfügbarkeit vorher per Mail klären
-
 ## Viertel
 Standort                                    | Kontakt                     | Geräte                        | Kosten
 ---                                         | ---                         | ---                           | ---
-Sielpfad 5 (bei Sielwall/Osterdeich, Fähre  | KhaldounBakkour@hotmail.com | WR841N (v9) and others  | 20€
+Sielpfad 5 (bei Sielwall/Osterdeich, Fähre) | KhaldounBakkour@hotmail.com | WR841N (v9) and others  | 20€
 
 
 [Chat]: https://webirc.hackint.org/#ffhb
