@@ -11,13 +11,15 @@ Diese Leute kümmern sich um Anfragen von Knotenbesitzern und jenen, die es werd
 **Erreichbarkeit:** info@bremen.freifunk.net
 
 * SimJoSt
-* Malte / ec8or
-* nukeUS (Winni)
 * anon6789 / Jelto
+* Claus
 * Heinz
 * corny / Julian
 * Ixoid / Arvid
 * Isaac
+* Yannik
+* Hendrik
+* Nicolas
 
 
 ## Presse
