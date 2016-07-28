@@ -65,6 +65,11 @@ Standort                                    | Kontakt                     | Ger�
 ---                                         | ---                         | ---                           | ---
 Sielpfad 5 (bei Sielwall/Osterdeich, Fähre) | KhaldounBakkour@hotmail.com | WR841N (v9) and others  | 20€
 
+## Gröpelingen
+Standort                    | Kontakt                             | Geräte            | Kosten  | Kommentar
+---                         | ---                                 | ---               | ---     | ---
+Lindenhofstr. 1-15 (Lindenhofcenter)  | it@nord-sub.de   | TP-LINK TL-WR841N | 20 €    | Übergabe täglich nach Absprache im dortigen SUBWAY Restaurant.
+
 
 [Chat]: https://webirc.hackint.org/#ffhb
 [MailingListe]: https://planetcyborg.de/mailman/listinfo/ff-bremen
