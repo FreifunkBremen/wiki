@@ -23,7 +23,8 @@ Diese Leute kümmern sich um Anfragen von Knotenbesitzern und jenen, die es werd
 ## Presse
 Diese Leute kennen sich gut mit dem Projekt aus und sind bereit, Presseanfragen zu beantworten und Interviews zu geben.
 
-**Erreichbarkeit:** presse@bremen.freifunk.net
+**Erreichbarkeit:** info@bremen.freifunk.net  
+*(presse@bremen.freifunk.net zeigt auf info@bremen.freifunk.net um die Wiederaufnahme alter Anfragen möglich zu machen)*
 
 * JP
 * SimJoSt
