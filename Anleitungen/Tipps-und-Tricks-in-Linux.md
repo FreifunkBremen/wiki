@@ -49,7 +49,7 @@ z.B. alias router='ssh root@ipv6' und speichern.
 In einer neuen Konsole bekommen wir nur durch die Eingabe von 'router' sofort eine SSH Verbindung zu unserem Router.
 
 Alternative Lösung:
-Wir legen im Ordner '~/.ssh/' eine Testdatei namens config an. In diese Datei kopieren wir folgende Zeilen.
+Wir legen im Ordner '~/.ssh/' eine Textdatei namens config an. In diese Datei kopieren wir folgende Zeilen.
 ~~~
 #ssh (secure shell) configuration file
 Host router1
@@ -59,6 +59,7 @@ Host router1
     IdentityFile ~/.ssh/ffhb
 ~~~
 Auf der Konsole mit 'SSH router1' sind wir sofort auf unserem Router.
+Siehe: https://wiki.ubuntuusers.de/SSH/
 
 ###Icons auf dem Desktop
 Mit Icons auf dem Desktop sollte man Sparsam sein. Wer Icons auf dem Desktop haben möchte, kann wie folgt vorgehen. Bei Ubuntu liegt am linken Rand der Starter. Das erste Icon oben ist die Suchfunktion. Alle dort angezeigten Icons können direkt auf den Desktop gezogen werden.
