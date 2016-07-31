@@ -34,7 +34,8 @@ Nach dem Speichern und öffnen einer neuen Konsole (Terminalfenster) ist die Aus
 
 
 ###SSH Login auf einem Router vereinfachen.
-Siehe auch: http://wiki.bremen.freifunk.net/Anleitungen/SSH-Node-Verwaltung
+Siehe auch: http://wiki.bremen.freifunk.net/Anleitungen/SSH-Node-Verwaltung.
+
 Normalerweise öffnen wir eine SSH Verbindung in der Konsole mit 'SSH root@ipv6', dann Passwort oder Passphrase.
 Das möchte ich vereinfachen.
 Schritt 1. SSH Key ohne Passphrase anlegen.
