@@ -11,13 +11,13 @@ Die folgen Tipps vereinfachen uns den Umgang mit Linux, was aber auch zur Folge 
 ## Inhalt:
 
 
-[Alias](#Alias)
+[Alias](#inhalt_alias)
 
-[SSH Login auf einem Router vereinfachen.](#SSH Login auf einem Router vereinfachen.)
+[SSH Login auf einem Router vereinfachen.](#inhalt_SSH_Login_auf_einem_Router_vereinfachen.)
 
-[Icons auf dem Desktop](#Icons auf dem Desktop)
+[Icons auf dem Desktop](#inhalt_Icons_auf_dem_Desktop)
 
-[Klassische Startleiste](#Klassische Startleiste)
+[Klassische Startleiste](#inhalt_Klassische_Startleiste)
 
 ----
 
