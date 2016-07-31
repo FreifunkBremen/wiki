@@ -62,7 +62,7 @@ Auf der Konsole mit 'SSH router1' sind wir sofort auf unserem Router.
 Siehe: https://wiki.ubuntuusers.de/SSH/ oder 'man ssh_config'
 ~~~
 Lokaler Benutzer: ~/.ssh/config
-Alle Benutzer:     /etc/ssh/ssh_config
+Systemweite Einstellung:  /etc/ssh/ssh_config
 ~~~
 
 *Der Linuxprofi kopiert den Schlüssel wie folgt auf den Router:*
