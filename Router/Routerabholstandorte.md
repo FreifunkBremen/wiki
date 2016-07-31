@@ -71,7 +71,10 @@ Standort                    | Kontakt                             | Geräte     
 Lindenhofstr. 1-15 (Lindenhofcenter)  | it@nord-sub.de   | TP-LINK TL-WR841N | 20 €    | Übergabe täglich nach Absprache im dortigen SUBWAY Restaurant.
 
 ## Mitte/Nord/Lilienthal
---- | 9381@runbox.com | Liefere nach Absprache, einfach anschreiben | ---
+Standort                    | Kontakt                             | Geräte            | Kosten  | Kommentar
+---                         | ---                                 | ---               | ---     | ---
+Mobil  | 9381@runbox.com   | Nach Absprache | ---    | 
+
 
 
 [Chat]: https://webirc.hackint.org/#ffhb
