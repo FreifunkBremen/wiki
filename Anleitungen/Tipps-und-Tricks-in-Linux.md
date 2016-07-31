@@ -59,7 +59,11 @@ Host router1
     IdentityFile ~/.ssh/ffhb
 ~~~
 Auf der Konsole mit 'SSH router1' sind wir sofort auf unserem Router.
-Siehe: https://wiki.ubuntuusers.de/SSH/
+Siehe: https://wiki.ubuntuusers.de/SSH/ oder 'man ssh_config'
+~~~
+Lokaler Benutzer: ~/.ssh/config
+Alle Benutzer:     /etc/ssh/ssh_config
+~~~
 
 ###Icons auf dem Desktop
 Mit Icons auf dem Desktop sollte man Sparsam sein. Wer Icons auf dem Desktop haben möchte, kann wie folgt vorgehen. Bei Ubuntu liegt am linken Rand der Starter. Das erste Icon oben ist die Suchfunktion. Alle dort angezeigten Icons können direkt auf den Desktop gezogen werden.
