@@ -23,11 +23,11 @@ Nach dem Speichern und öffnen einer neuen Konsole (Terminalfenster) ist die Aus
 Normalerweise öffnen wir eine SSH Verbindung in der Konsole mit 'SSH root@ipv6', dann Passwort oder Passphrase.
 Das möchte ich vereinfachen.
 Schritt 1. SSH Key ohne Passphrase anlegen.
-Konsole öffen, mit 'cd ~./ssh'ind das Verzeichnis wechseln, wo unsere Keys abgelegt werden.
-Schlüsselpaar generieren. 'ssh-keygen -t rsa', als Namen z.B. ffhb angeben. Es werden nun ein privater Schlüssel ffhb und ein öffentlicher Schlüssel ffhb.pub angelegt.
-Den öffentlichen Schlüssel kopieren wir nun auf den Router.
-Bisher bekanntes Login auf den Router, wechseln nach 'cd /etc/dropbear'. Öfnnen der Datei authorized_keys mit vi 'vi authorized_keys'
-Am Ende der Datei unseren Schlüssel kopiren und Speichern. mit 'chmod 0600 authorized_keys' die Dateirechte setzen.
+Konsole öffen, mit 'cd ~./ssh'ind das Verzeichnis wechseln, wo unsere Keys abgelegt werden sollen.
+Schlüsselpaar generieren mit: 'ssh-keygen -t rsa', als Namen z.B. ffhb angeben. Es werden nun ein privater Schlüssel ffhb und ein öffentlicher Schlüssel ffhb.pub im Verzeichnis ./ssh angelegt.
+Den öffentlichen Schlüssel kopieren wir nun auf unseren Router.
+Bisher bekanntes SSH Login auf den Router, wechseln nach 'cd /etc/dropbear'. Öfnnen der Datei authorized_keys mit vi 'vi authorized_keys'
+Am Ende der Datei unseren Schlüssel kopieren und Speichern. Mit 'chmod 0600 authorized_keys' die Dateirechte setzen.
 Auf unserem Rechner fügen wir in die Datei '~/.bash_aliases' unser neues Alias ein.
 z.B. alias router='ssh root@ipv6' und speichern.
 In einer neuen Konsole bekommen wir nur durch die Eingabe von 'router' sofort eine SSH Verbindung zu unserem Router.
