@@ -15,9 +15,9 @@ Die folgen Tipps vereinfachen uns den Umgang mit Linux, was aber auch zur Folge 
 
 [SSH Login auf einem Router vereinfachen.](#inhalt_ssh-login-auf-einem-router-vereinfachen)
 
-[Icons auf dem Desktop](#inhalt_icons_auf_dem_desktop)
+[Icons auf dem Desktop](#inhalt_icons-auf-dem-desktop)
 
-[Klassische Startleiste](#inhalt_klassische_startleiste)
+[Klassische Startleiste](#inhalt_klassische-startleiste)
 
 ----
 
