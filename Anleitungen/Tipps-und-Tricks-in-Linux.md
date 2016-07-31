@@ -13,11 +13,11 @@ Die folgen Tipps vereinfachen uns den Umgang mit Linux, was aber auch zur Folge 
 
 [Alias](#inhalt_alias)
 
-[SSH Login auf einem Router vereinfachen.](#inhalt_SSH_Login_auf_einem_Router_vereinfachen.)
+[SSH Login auf einem Router vereinfachen.](#inhalt_ssh-login-auf-einem-router-vereinfachen)
 
-[Icons auf dem Desktop](#inhalt_Icons_auf_dem_Desktop)
+[Icons auf dem Desktop](#inhalt_icons_auf_dem_desktop)
 
-[Klassische Startleiste](#inhalt_Klassische_Startleiste)
+[Klassische Startleiste](#inhalt_klassische_startleiste)
 
 ----
 
