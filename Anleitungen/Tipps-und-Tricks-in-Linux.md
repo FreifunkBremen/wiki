@@ -8,6 +8,20 @@ Damit uns Linux nicht frustriert, hier ein paar hilfreiche Tipps und Tricks.
 
 Die folgen Tipps vereinfachen uns den Umgang mit Linux, was aber auch zur Folge hat, das wir ein bischen Winblöd werden.
 
+## Inhalt:
+
+
+[Alias](#Alias)
+
+[SSH Login auf einem Router vereinfachen.](#SSH Login auf einem Router vereinfachen.)
+
+[Icons auf dem Desktop](#Icons auf dem Desktop)
+
+[Klassische Startleiste](#Klassische Startleiste)
+
+----
+
+
 ###Alias
 Sich wiederholende Befehlsfolgen oder häufig benutze komplizierte Eingaben, verpacken wir als Alias.
 https://wiki.ubuntuusers.de/alias/
