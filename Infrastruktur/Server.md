@@ -34,5 +34,5 @@ Der Status der Gateways kann hier eingesehen werden: https://status.bremen.freif
 | Karte                 | jplitza, mortzu     |                     | Bremen / LWLCOM       |
 | Ticketsystem          | mortzu              | SimJoSt, ec8or      | Falkenstein / Hetzner |
 | gatemon               | mortzu              |                     | Bremen / LWLCOM       |
-| LWLCOM Hardwareserver | chrische, morpheus  | mortzu              | Bremen / LWLCOM       |
+| LWLCOM Hardwareserver | chrische, morpheus  | mortzu, jplitza     | Bremen / LWLCOM       |
 | Router                | chrische, morpheus  | mortzu              | Bremen / LWLCOM       |
