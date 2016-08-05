@@ -30,7 +30,6 @@ Diese Leute kennen sich gut mit dem Projekt aus und sind bereit, Presseanfragen 
 
 * JP
 * SimJoSt
-* nukeUS (Winni)
 
 
 ## Firmware
