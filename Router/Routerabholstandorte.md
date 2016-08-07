@@ -40,11 +40,6 @@ Standort      | Kontakt                   | Geräte                     | Kosten
 ---           | ---                       | ---                        | ---       | ---
 Bhv. Mitte/Lehe | freifunkinbremerhaven@posteo.de| TP-LINK TL-WR841ND v.9.3 | 20 €  | Treff- und Zeitpunktpunkt nach Absprache.<br>Ich helfe auch gerne beim Einrichten.
 
-## Findorff
-Standort                | Kontakt   | Geräte            | Kosten
----                     | ---       | ---               | ---
-Nähe Schlachthof/Halle7 | [SimJoSt] | TP-LINK TL-WR841N | 20 €
-
 ## Horn-Lehe
 Standort      | Kontakt                   | Geräte                     | Kosten    | Kommentar
 ---           | ---                       | ---                        | ---       | ---
