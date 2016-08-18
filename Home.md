@@ -12,12 +12,12 @@ Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat im [Hackerspace 
 
 ##### Tagesordnungen
 * der letzten Treffen:
-  * [[01.07.2016|Treffen/2016_07_01]]
-  * [[15.07.2016|Treffen/2016_07_15]] Breminale-Treffen
   * [[22.07.2016|Treffen/2016_07_22]]
-* der nächsten Treffen:
   * [[05.08.2016|Treffen/2016_08_05]]
+* der nächsten Treffen:
   * [[19.08.2016|Treffen/2016_08_19]]
+  * [[02.09.2016|Treffen/2016_09_02]]
+  * [[09.09.2016|Treffen/2016_09_09-Arbeitstreffen-Website]]
 * [Liste aller Treffen](http://wiki.bremen.freifunk.net/pages/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
 * Weitere Termine (nicht nur Treffen) finden sich in den Protokollen zu den verschiedenen Treffen
 
