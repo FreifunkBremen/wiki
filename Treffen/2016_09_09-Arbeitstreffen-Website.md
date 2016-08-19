@@ -1,6 +1,6 @@
-# Treffen 02.09.2016 - Arbeitstreffen Website
+# Treffen 09.09.2016 - Arbeitstreffen Website
 
-**Termin:** Freitag, 02.09.2016, 19:30 Uhr 
+**Termin:** Freitag, 09.09.2016, 19:30 Uhr 
 
 **Ort:** Hackerspace Bremen e.V. ([Anfahrt](https://www.hackerspace-bremen.de/anfahrt/))
 
