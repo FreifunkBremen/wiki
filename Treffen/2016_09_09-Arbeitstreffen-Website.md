@@ -22,6 +22,7 @@
     - vermitteln
 - wie soll die Website das erreichen
     - visuell
+        - parallax backgrounds https://codyhouse.co/demo/alternate-fixed-scroll-background/index.html
     - inhaltlich
     - Umfang
 
