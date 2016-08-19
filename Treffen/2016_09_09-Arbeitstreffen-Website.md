@@ -12,6 +12,8 @@
 - andere Websites
     - http://www.wlan-walle.de/
     - https://freifunk-rhein-neckar.de/
+    - https://simjost.github.io/neue-Freifunk-Website/
+    - https://regensburg.freifunk.net/
 
 ### wo wollen wir hin?
 - was soll die Website
