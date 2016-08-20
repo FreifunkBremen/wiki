@@ -19,7 +19,7 @@ Putty, puttygen und pageant helfen einem hier weiter.
 
 ### Wie hinterlege ich SSH-Schlüssel im Node im Config-Modus über die Weboberfläche?
 
-1. Gehe rechts oben auf Expert-Mode
+1. Klicke rechts oben auf Expert-Mode
 2. Wähle als nächstes den Reiter "Remote Access" aus
 3. kopiere den öffentlichen Teil deines SSH-Schlüssels in das Fenster. 
 4. klicke unten auf "Submit"
