@@ -19,8 +19,13 @@ Putty, puttygen und pageant helfen einem hier weiter.
 
 ### Wie hinterlege ich SSH-Schlüssel im Node im Config-Modus über die Weboberfläche?
 
-_TODO: Informationen hinzufügen._
-
+1. Gehe rechts oben auf Expert-Mode
+2. Wähle als nächstes den Reiter "Remote Access" aus
+3. kopiere den öffentlichen Teil deines SSH-Schlüssels in das Fenster. 
+4. klicke unten auf "Submit"
+5. Du hast nun erfolgreich den Schlüssel hinterlegt und kannst in Zukunft im laufenden Betrieb auf den Router zugreifen (von überall, solange du im Freifunk-Netz eingeloggt bist.)
+ 
+ 
 ## Möglichkeiten per Konsole
 Alle folgenden Erklärungen und Befehle setzen voraus, dass bereits eine SSH-Verbindung zu dem gewünschten Node besteht.
 
