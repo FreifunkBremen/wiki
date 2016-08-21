@@ -25,6 +25,8 @@
         - parallax backgrounds https://codyhouse.co/demo/alternate-fixed-scroll-background/index.html
     - inhaltlich
     - Umfang
+- simpleres Interface für Firmware-Download
+    - https://forum.freifunk.net/t/freifunk-hennef-firmware-downloader/12966
 
 ### Plan für das Erreichen der Ziele
 - technisch
