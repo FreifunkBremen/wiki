@@ -34,11 +34,9 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.123 rbtz 
     * 10.196.0.127 node.ffhb.de
     * 10.196.0.128-159 Dienste von mortzu
-      * 10.196.0.129 tahoe-introducer.ffhb.moritzrudert.de
-      * 10.196.0.130 mumble.ffhb.moritzrudert.de
       * 10.196.0.131 gatemon-3.ffhb.moritzrudert.de
-      * 10.196.0.132 svc.ffhb.moritzrudert.de
       * 10.196.0.134 gatemon-2.ffhb.moritzrudert.de
+      * 10.196.0.135 gatemon-fes216.ffhb.moritzrudert.de
     * 10.196.0.196 Dienste von Eike
     * 10.196.0.200 Dienste von jplitza
     * 10.196.0.240 Dienste von proxyhb
@@ -83,14 +81,10 @@ Einige Adressen sind fest hinterlegt. Sie werden im Folgenden aufgelistet.
   * 2a06:8782:ffbb:1337::f0 (proxyhb)
   * 2a06:8782:ffbb:1337::6f (ec8or)
   * 2a06:8782:ffbb:1337::80 bis 9f Dienste von mortzu
-    * 2a06:8782:ffbb:1337::81 tahoe-introducer.ffhb.moritzrudert.de
-    * 2a06:8782:ffbb:1337::82 mumble.ffhb.moritzrudert.de
     * 2a06:8782:ffbb:1337::83 gatemon-3.ffhb.moritzrudert.de
-    * 2a06:8782:ffbb:1337::84 svc.ffhb.moritzrudert.de
     * 2a06:8782:ffbb:1337::85 Gatemon (Pi1) von ollibaba
     * 2a06:8782:ffbb:1337::86 gatemon-2.ffhb.moritzrudert.de
     * 2a06:8782:ffbb:1337::87 gatemon-fes216.ffhb.moritzrudert.de
-  * 2a06:8782:ffbb:1337:7061::6473 pads.ffhb.de (mortzu)
 
 ## Andere Netze
 Aus dem Bremer Freifunk-Netz heraus erreichst du auch die Freifunk-Netze andere Städte und deren Dienste, beispielsweise [jene in Lübeck](http://luebeck.freifunk.net/wiki/Freifunk-verwenden). Auch zu anderen Netzen wie dem [dn42](http://dn42.net) oder [Chaos-VPN](http://wiki.hamburg.ccc.de/index.php/ChaosVPN) besteht eine Verbindung.
