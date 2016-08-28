@@ -4,9 +4,9 @@
 
 | Server | Sponsor       | Standort | Kosten       |
 |:-------|:--------------|:---------|:-------------|
-| vpn01  | mortzu        | Hetzner  | 10 € / Monat |
-| vpn02  | Plutex        | Bremen   | unbekannt    |
-| vpn03  | planet cyborg | Bremen   | 10 € / Monat |
+| vpn01  | LWLCOM        | Hetzner  | unbekannt    |
+| vpn02  | PLUTEX        | Bremen   | unbekannt    |
+| vpn03  | LWLCOM        | Bremen   | unbekannt    |
 | vpn04  | Nebirosh      | Hetzner  | unbekannt    |
 | vpn05  | anon6789      | Hetzner  | unbekannt    |
 | vpn06  | corny         | Plutex   | unbekannt    |
@@ -21,5 +21,4 @@
 
 | Was             | Sponsor       | Kosten        |
 |:----------------|:--------------|:--------------|
-| Webspace        | planet cyborg | 5 € / Monat   |
-| DNS-Server      | planet cyborg | -             |
+| Mailingliste    | planet cyborg | 5 € / Monat   |
