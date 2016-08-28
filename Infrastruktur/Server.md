@@ -5,9 +5,9 @@ Der Status der Gateways kann hier eingesehen werden: https://status.bremen.freif
 ### Sponsoren und Konfiguration
 | Server | Sponsor      | Standort | Uplink-Anbieter    | Uplink-Standort |
 |:-------|:-------------|:---------|:-------------------|:----------------|
-| vpn01  | mortzu       | Hetzner  | Freifunk Hamburg   | Hamburg         |
-| vpn02  | Plutex       | Bremen   | Freie Netze e.V.   | Berlin          |
-| vpn03  | Planetcyborg | Bremen   | Digineo            | Bremen          |
+| vpn01  | LWLCOM       | Bremen   | Digineo            | Bremen          |
+| vpn02  | PLUTEX       | Bremen   | Freie Netze e.V.   | Berlin          |
+| vpn03  | LWLCOM       | Bremen   | Digineo            | Bremen          |
 | vpn04  | -            | Hetzner  | Freifunk Rheinland | -               |
 | vpn05  | genofire     | Hetzner  | Hide.me            | Frankfurt       |
 | vpn06  | Digineo GmbH | -        | -                  | -               |
