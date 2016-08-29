@@ -14,6 +14,7 @@
     - https://freifunk-rhein-neckar.de/
     - https://simjost.github.io/neue-Freifunk-Website/
     - https://regensburg.freifunk.net/
+    - https://weimarnetz.de/
 
 ### wo wollen wir hin?
 - was soll die Website
