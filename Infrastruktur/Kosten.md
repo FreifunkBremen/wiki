@@ -2,14 +2,14 @@
 
 ## Server
 
-| Server | Sponsor       | Standort | Kosten       |
-|:-------|:--------------|:---------|:-------------|
-| vpn01  | LWLCOM        | Hetzner  | unbekannt    |
-| vpn02  | PLUTEX        | Bremen   | unbekannt    |
-| vpn03  | LWLCOM        | Bremen   | unbekannt    |
-| vpn04  | Nebirosh      | Hetzner  | unbekannt    |
-| vpn05  | anon6789      | Hetzner  | unbekannt    |
-| vpn06  | corny         | Plutex   | unbekannt    |
+| Server | Sponsor       | Kosten       |
+|:-------|:--------------|:-------------|
+| vpn01  | LWLCOM        | unbekannt    |
+| vpn02  | PLUTEX        | unbekannt    |
+| vpn03  | LWLCOM        | unbekannt    |
+| vpn04  | Nebirosh      | unbekannt    |
+| vpn05  | anon6789      | unbekannt    |
+| vpn06  | corny         | unbekannt    |
 
 ## Domains
 
