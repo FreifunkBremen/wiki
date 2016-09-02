@@ -3,7 +3,7 @@
 
 Beim Regeltreffen geht es um allgemeine Organisation: Was muss erledigt werden? Welcher Termine stehen an? Sidn Anfragen die ind er Gruppe diskutiert werden müssen? etc.
 
-* __Wann?__: Jeweils am **ersten Freitag** und **dritten Donnerstag**, um 19Uhr.
+* __Wann?__: Jeweils am **ersten** und **dritten Freitag**, um 19Uhr.
 * __Wo?__: In den Räumlichkeiten des [Hackerspace Bremen e.V](https://www.hackerspace-bremen.de/anfahrt/)
 
 ## Arbeitstreffen
