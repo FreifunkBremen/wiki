@@ -89,16 +89,16 @@ ping6 ff02::1%en1 gibt sonst ein "unknown Host" aus. Um die Ausgabe auf den erst
 ~~~
 ping6 -c3 ff02::2%enp0s25 | grep -v DUP | grep fe80
 ~~~
-Da ich mir das nicht merken kann, mach ich ein Alias davon. Beispiel Routerip oder kurz rip.
+Da ich mir das nicht merken kann, mach ich ein Alias davon. Beispiel Routerip oder kurz 'rip'.
 ~~~
 alias rip='ping6 -c3 ff02::2%enp0s25 | grep -v DUP | grep fe80'
 ~~~
-
+~~~
 ffhb@FFHB:~$ rip
 64 bytes from fe80::76ea:3aff:fee4:7374: icmp_seq=1 ttl=64 time=0.688 ms
 64 bytes from fe80::76ea:3aff:fee4:7374: icmp_seq=2 ttl=64 time=0.782 ms
 64 bytes from fe80::76ea:3aff:fee4:7374: icmp_seq=3 ttl=64 time=0.586 ms
 ffhb@FFHB:~$
-
+~~~
 
 
