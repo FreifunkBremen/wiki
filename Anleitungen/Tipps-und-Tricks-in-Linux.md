@@ -19,6 +19,8 @@ Die folgen Tipps vereinfachen uns den Umgang mit Linux, was aber auch zur Folge 
 
 [Klassische Startleiste](#inhalt_klassische-startleiste)
 
+[IP v6 Adresse des angeschlossenen Routers](#IP v6 Adresse des angeschlossenen Routers)
+
 ----
 
 
@@ -77,8 +79,16 @@ Mit Icons auf dem Desktop sollte man Sparsam sein. Wer Icons auf dem Desktop hab
 ###Klassische Startleiste
 Nicht alle erfreuen sich an dem neuen Starter. Einfach über das Softwarecenter nach ClassicMenue Indicator' oder 'Startleiste' suchen, installieren, freuen.
 
+###IP v6 Adresse des angeschlossenen Routers
+Ist je kein Problem, kann ich mal schnell googln.
+Router IPv6 finden (MacOS und Linux)
 
+Zuerst müssen wir die IPv6 Adresse des Routers finden. Dazu einfach im Terminal eingeben (sofern per WLAN mit Freifunknetz verbunden): (Vorweg: *%en1* ist das Interface, über das verbunden werden soll. Hier Ethernet 1....kann auch 0 oder 2 ... oder ein ganz anderes Interface sein. Im Zweifel "ifconfig" oder "ip addr show" eingeben und die Bezeichnung der Interfaces checken). Mein Interface ist z.B *enp0s25*
 
+ping6 ff02::1%en1 gibt sonst ein "unknown Host" aus. Um die Ausgabe auf den ersten angeschlossenen Router zu begrenzen, wird folgede Befehlszeile verwendet.
+~~~
+ping6 -c3 ff02::2%enp0s25 | grep -v DUP | grep fe80
+~~~
 
 
 
