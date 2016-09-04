@@ -19,7 +19,7 @@ Die folgen Tipps vereinfachen uns den Umgang mit Linux, was aber auch zur Folge 
 
 [Klassische Startleiste](#inhalt_klassische-startleiste)
 
-[IP v6 Adresse des angeschlossenen Routers](#inhalt_IP-v6-Adresse-des-angeschlossenen-Routers)
+[IP v6 Adresse des angeschlossenen Routers](#inhalt_ip-v6-adresse-des-angeschlossenen-routers)
 
 ----
 
