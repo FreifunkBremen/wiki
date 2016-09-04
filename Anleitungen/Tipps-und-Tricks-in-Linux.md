@@ -80,12 +80,9 @@ Mit Icons auf dem Desktop sollte man Sparsam sein. Wer Icons auf dem Desktop hab
 Nicht alle erfreuen sich an dem neuen Starter. Einfach über das Softwarecenter nach ClassicMenue Indicator' oder 'Startleiste' suchen, installieren, freuen.
 
 ###IP v6 Adresse des angeschlossenen Routers
-Ist ja kein Problem, kann ich mal schnell googln. 1*10^6 Ergebnisse die nicht an eine Lücke in meinen Grundlagen denken. %en0 ist eth0, das sind Bezeichner für ein Interface aber nicht der Name.
-Router IPv6 finden (MacOS und Linux)
+Wir wollen die IPv6 Adresse des Routers finden. Dazu einfach im Terminal eingeben (sofern per WLAN mit Freifunknetz verbunden): (Vorweg: *%en1* ist der Bezeichner für das Interface, über das verbunden werden soll. Hier Ethernet 1....kann auch 0 oder 2 ... oder ein ganz anderes Interface sein. Im Zweifel *"ifconfig"* oder *"ip addr show"* eingeben und die Bezeichnung der Interfaces checken). Mein *%en0* Interface ist z.B *enp0s25*
 
-Zuerst müssen wir die IPv6 Adresse des Routers finden. Dazu einfach im Terminal eingeben (sofern per WLAN mit Freifunknetz verbunden): (Vorweg: *%en1* ist das Interface, über das verbunden werden soll. Hier Ethernet 1....kann auch 0 oder 2 ... oder ein ganz anderes Interface sein. Im Zweifel "ifconfig" oder "ip addr show" eingeben und die Bezeichnung der Interfaces checken). Mein Interface ist z.B *enp0s25*
-
-ping6 ff02::1%en1 gibt sonst ein "unknown Host" aus. Ausserdem wollen wir nicht alle Adressen aus dem Netz haben sondern die Ausgabe auf den ersten angeschlossenen Router begrenzen. Deshalb folgede Befehlszeile verwenden.
+ping6 ff02::1%en0 gibt sonst ein "unknown Host" aus. Ausserdem wollen wir nicht alle Adressen aus dem Netz Auflisten sondern die Ausgabe auf den ersten angeschlossenen Router begrenzen. Deshalb folgede Befehlszeile verwenden.
 ~~~
 ping6 -c3 ff02::2%enp0s25 | grep -v DUP | grep fe80
 ~~~
