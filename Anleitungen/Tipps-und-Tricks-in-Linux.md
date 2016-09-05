@@ -34,6 +34,10 @@ Beispiel: Bessere Lesbarkeit durch farbliche Ausgabe der Dateien über 'ls'
 alias ls='ls --color=auto'
 Nach dem Speichern und öffnen einer neuen Konsole (Terminalfenster) ist die Ausgabe mit 'ls' nun farblich dargestellt.
 
+###Alias und bashrc Systemweit
+Manchmal kann es sinnvoll sein eine lokale Benutzereinstellung systemweit für alle zur Verfügung zu stellen. Für Einstellungen der Konsole wird dieses in der globalen Konfigurationsdatei /etc/bash.bashrc vorgenommen. Die Datei ist als Administrator zu öffnen. Beispiel: sudo gedit /etc/bash.bashrc
+
+Wird dort das Alias-Beispiel von oben eingetragen, ist dieses für alle Benutzer gültig. Die globale Vorgabe wird durch die lokale Einstellung des Benutzers überschrieben. Die lokale Einstellung wird im Homeverzeichnis des Benutzers unter .bashrc vorgenommen.
 
 ###SSH Login auf einem Router vereinfachen.
 Siehe auch: http://wiki.bremen.freifunk.net/Anleitungen/SSH-Node-Verwaltung.
