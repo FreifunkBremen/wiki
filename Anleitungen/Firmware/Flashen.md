@@ -107,7 +107,7 @@ Falls gewünscht, kann die **Bandbreite**, die der Freifunkrouter maximal nutzte
 <img src="http://jel.to/ff_pics/gluon_5.png" width="350px" title="Geo-Koordinaten">
 
 Damit andere Freifunker oder Nachbarn den Router auch auf der **Freifunk-Karte** finden, können die **Koordinaten** des Betriebsortes des Routers eingetragen werden. Lässt man den Haken weg, so erscheint der Router nicht auf der Karte.
-Die Koordinaten sollte man sich vor der Konfiguration ggf. zwischenspeichern. Auf  [dieser Karte](http://gpso.de/maps)(target='_blank') kannst du dir die gewünschten Koordinaten anzeigen lassen (Dezimaldaten sind hellgelb hinterlegt). Zur Suche eingeben kannst Du z.B. Straße und Hausnummer, Ort, Deutschland, ...
+Die Koordinaten sollte man sich vor der Konfiguration ggf. zwischenspeichern. Auf  <a href="http://gpso.de/maps/" target="_blank">dieser Karte</a> kannst du dir die gewünschten Koordinaten anzeigen lassen (Dezimaldaten sind hellgelb hinterlegt). Zur Suche eingeben kannst Du z.B. Straße und Hausnummer, Ort, Deutschland, ...
 
 <img src="http://jel.to/ff_pics/gluon_3.png" width="350px" title="Geo-Koordinaten">
 
