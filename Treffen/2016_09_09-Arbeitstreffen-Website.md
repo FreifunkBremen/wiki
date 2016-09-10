@@ -45,10 +45,125 @@
 
 
 ## Protokoll
-Live Kollaboration, bitte direkt in Markdown schreiben
-* Schreiblink: https://pads.hackerspace-bremen.de/p/ffhb-protokoll
-* Leselink: https://pads.hackerspace-bremen.de/p/r.0214fd03992bbff47284f4598ae44776
 
 ### Anwesende
-* x - Protokollant
-* 
+- SimJoSt - Protokollant
+- Frank
+- Jan-Philipp
+- Oliver - Protokollant
+- Timlukas
+- Yannik
+
+### Status Quo
+#### Design
+- gut
+    - Logos
+    - Was ist Freifunk?
+    - Navigation
+- schlecht
+    - Platz zwischen Logos verschenkt
+    - vier Blöcke unter "Was ist Freifunk" unübersichtlich, wie freifunk.net
+    - Mobil zu viel Platz Seiten
+    - Mitmachen Aufruf fehlt
+    - ohne Farb-Hntergründe keine gute Übersicht
+    - Kontakt-Übersicht nicht gut
+    - Lesbarkeit weil zu lange oder zu kurze Zeilen
+    - Links/Buttons im Fließtext
+    - Navigation zu klein im Verhältnis
+    - (kein Dropdown)
+- Gutes von anderen Seiten
+    - Uni Bremen  
+      Navigation für unterschiedliche Personen/Perspektiven/Interessen
+
+#### Inhalte
+- schlecht
+    - veraltet
+    - nicht vollständig
+    - nicht zu finden
+- fehlen
+    - Verein
+    - Kalender
+
+### wo wollen wir hin?
+- Website einfacher bearbeiten
+    - Vorschlag eigenes Gitlab; Bearbeiten-Button führt zu anonymen pull request Funktion (Machbarkeit prüfen)
+- Website soll unterschiedliche Inhalte für unterschiedliche Personen darstellen
+
+### Plan
+#### Navigation
+- Startseite
+    - Was ist Freifunk?
+    - Hilfe / Kontakt (+Kontaktformular) / Treffen
+    - Karte
+    - Projekte (Walle, Geflüchtete, Events/Breminale, Referenzen)
+    - News / Twitter
+    - Sponsoren / Partner
+    - Kalender
+- Einsteiger
+    - Anleitungen
+    - Firmware
+    - Referenzen (Erfahrungsberichte)
+    - Hardware / Abholstandorte
+    - FAQ
+    - Dienste
+- Engagierte
+    - Mailingliste
+    - Firmware
+    - Wiki
+    - Technik
+    - Informaterial
+    - Verein / Organisation / Struktur
+- Unterstützer
+    - Spenden / Sponsoren / Partner werden
+        - Server stellen, Router verkaufen, Infos verbreiten, Dachflächen
+    - Infomaterial
+- Footer
+    - Impressum
+    - Kontakt
+    - Lizenz
+    - Edit this page
+
+#### Umsetzung
+*vieles Technisches bleibt leider an jplitza hängen*
+- jplitza macht grobes Redesign
+    - Homepage in HTML, CSS und JavaScript schreiben
+    - in Template für Jekyll kippen
+- Inhalte werden von beliebigen Leuten bereits vorbereitet und im Website Repo hinterlegt
+- Entscheidung: keine Inhalte von externen Servern einbinden (Twitter/Kalender wird serverseitig aufbereitet, auch JQuery/Fonts müssen von *bremen.freifunk.net kommen)
+
+#### Nice To Have
+Das hier sind Sachen, die nicht unbedingt wichtig sind für die Seite, aber trotzdem schön wären:
+
+* Hintergrund des Links zur Karte auf der Startseite
+* Hinweis, wenn der Besucher gerade im Freifunk-Netz ist
+* dynamische Services-Seite mit Online/Offline-Status und Sortierung
+* Bilder in Blogpost schön einbinden
+* Twitter-Cards (für den Blog)
+
+#### Design-Notizen
+* generell an https://regensburg.freifunk.net/ orientieren
+* "Sticky Header" - Nav-Leiste soll immer oben zu sehen sein (in verkleinerter Form)
+* Idee: Knoten-Karte auf Startseite, in schlanker Form: statt Meshviewer einen Screenshot vom Meshviewer (evtl. als SVG)
+** Kartenbild ist dann ein Link auf den Meshviewer
+    * Kartenbild müsste nur selten aktualisiert werden (wöchentlich oder so), weil es nur repräsentativ sein soll (keine exakte Knotenkarte)
+* Nav-Leiste besteht aus einem Menü
+    * auf Desktop: Hover über Menüitem klappt das Menü auf
+    * auf Mobile: Antippen klappt das Menü auf
+* mobile Seite:
+    * Menü wie bei Regensburg
+    * Kür: zur Seite wischen, um das Menü einzublenden
+* gute Typografie (s. practicaltypography.com)
+* wär hilfreich: im Menü den Eintrag für die aktuelle Seite highlighten
+* Vorschlag für alternatives Menü:
+    * zweizeilig
+    * erste Zeile enthält "für Interessierte, für Einsteiger, für Eingagierte, für Unterstützer"; beim Hovern wird die Zeile darunter umgeschaltet
+    * zweite Zeile ist dynamisch, enthält die Unterpunkte
+    * jeder Ober-Menüpunkt hat eine eigene Farbe
+    * Untermenü wird entsprechend umgefärbt
+    * beim Runterscrollen bleibt nur die untere Zeile stehen, sobald das Menü aus der Seite rausscrollen würde
+    * wenn man ein bißchen hochscrollt, wird auch die obere Menüzeile wieder eingeblendet
+    * beim Runterscrollen wird ein kleines Freifunk-Logo vor der Menüleiste eingeblendet
+* nebenbei: Blogpost besser stylen
+    * Bilder schöner einbinden
+    * z.B. Bilder flächig als Hintergrund, oder flächig hinter der Überschrift
+    * siehe z.B. https://jplitza.de/blog/2016/01/07/Teufelsberg.html, wo Bilder tw. an der Seite dargestellt werden
