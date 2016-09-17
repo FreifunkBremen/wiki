@@ -90,7 +90,7 @@ Im Produktivmodus ist die Konfigurationsseite unter `192.168.1.1` **nicht** erre
 
 ## Freifunk-Router konfigurieren
 
-Nach dem Neustart des Routers ist dieser unter einer **anderen IP** zu erreichen, daher hat es sich bewährt, das LAN-Kabel zwischen Computer und Router für einen kurzen Augenblick zu entfernen, damit der Computer danach eine neue Adresse beziehen kann.
+Nach dem RESET des Routers in den Konfigurationsmodus ist dieser unter einer **anderen IP** zu erreichen, daher hat es sich bewährt, das LAN-Kabel zwischen Computer und Router für einen kurzen Augenblick zu entfernen, damit der Computer danach eine neue Adresse beziehen kann.
 
 Um das neue Menü des Routers zu erreichen, tippst du diesmal die **Adresse 192.168.1.1 in deine Navigationsleiste des Browsers ein**. Dort lassen sich verschiedene Einstellungen für den Router vornehmen. 
 
