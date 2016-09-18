@@ -101,7 +101,8 @@ Außerdem musst du festlegen, ob die Firmware des Routers sich automatisch aktua
 
 <img src="http://jel.to/ff_pics/gluon_2.png" width="350px" title="Mesh-VPN">
 
-Im Folgenden musst du noch angeben, ob dein Freifunkrouter sich über das Internet mit anderen Routern verbinden soll (**Mesh-VPN**). Diese Option ist immer nötig, außer der Router fungiert rein als Repeater und verbindet sich über andere Router ins Freifunk-Netz. Zum Beispiel für den Router im Gartenhäuschen ohne direkten Zugang zum Internet ist dies sinnvoll. 
+Dein Freifunkrouter soll sich über das Internet mit anderen Routern verbinden. (**Mesh-VPN**). Diese Einstellung ist auch nötig, weil sonst DCHP nicht funktioniert. Den angeschlossenen Geräten würden keine IP-Nummern automatisch zugewiesen, mit der Folge, dass es auch keine IP-Verbindungen gäbe.
+Allein wenn der Router als REPEATER eingesetzt wird, sich also über einen schon vorhandenen Freifunkrouter ins Freifunk-Netz (=Internet) verbindet, kann auf &quot;Mesh-VPN&quot; verzichtet werden. So ist dies z.B. sinnvoll für einen Repeater-Router im Gartenhäuschen, ohne eigenen, direkten Zugang zum Internet. 
 Falls gewünscht, kann die **Bandbreite**, die der Freifunkrouter maximal nutzten darf, über die darauf folgende Option **eingeschränkt werden** (optional).
 
 <img src="http://jel.to/ff_pics/gluon_5.png" width="350px" title="Geo-Koordinaten">
