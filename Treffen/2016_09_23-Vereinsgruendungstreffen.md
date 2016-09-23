@@ -8,8 +8,26 @@
 
 ### Satzung
 
+https://pad.freifunk.net/p/ffhb-satzung
+
+#### jplitza's Senf
+
+* § 2 "Zweck des Vereins" muss wohl komplett überarbeitet werden für einen nicht-gemeinnützigen Verein mit Fokus auf operativem Geschäft
+* § 3 sollte der Übersichtlichkeit wohl enthalten, wie Ehrenmitglieder zustande kommen?
+* § 4.4: Ansprüche aus genehmigten Privatauslagen sollten hiervon ausgenommen werden, oder?
+* § 6 Vorstand: Zusammensetzung? 2–4 Gleichberechtigte? 2 Gleichberechtigte + Schatzmeister?
+* § 8 Webseite des Vereins: bremen.freifunk.net?
+* § 9.3.1: Haushaltsplan????
+* § 10.6: Auflösen mit weniger Stimmen als Zweckänderung?
+
 ### Name
 
+* Freifunk Bremen
+    * (–) Erweckt den Eindruck, als wäre der Verein alles
+* Förderverein Freifunk Bremen
+* Förderverein Freie Netze Bremen
+    * (–) Verwechslungsgefahr mit dem Berliner Verein
+* …
 
 ---
 
@@ -28,21 +46,3 @@
 Live Kollaboration; bitte direkt in Markdown schreiben
 - Schreiblink: https://pads.hackerspace-bremen.de/p/ffhb-protokoll
 - Leselink: https://pads.hackerspace-bremen.de/p/r.0214fd03992bbff47284f4598ae44776
-
-### Anwesende
-- SimJoSt - Protokollant
-- Jan-Eric - Protokollant
-- Frank
-- yannik
-
-### Herbstmarkt Hagen
-* Kommunikation könnte nächstes Mal besser laufen (in Protokollen erwähnt werden etc)
-* Outdoor-Boxen wurden heute aufgebaut und sin nun fröhlich online.
-* Die Hagener Freifunker danken den Bremern sehr herzlich für Unterstützung
-* Plan der Hagener: durch Spenden von Schaustellern Hardware für die Computer-AG der örtlichen Schule kaufen, die damit experimentieren sollen, und ggf Freifunk auf 
-die benachbrten Dörfer bringen.
-
-### Unterstützung durch die Stadt Bremen
-* Der Beschluss "Regierung unterstützt Freifunk" ist abhanden gekommen (neue Legislaturperiode etc)
-* Wir können einen Antrag an die Bürgerschaft stellen, diesen Beschluss auszugraben.
-- per Suche Plenar- und Beschlussprotokoll gefunden: https://paris.bremische-buergerschaft.de/starweb/paris/servlet.starweb?path=paris/LISSHFL.web&id=PARISFASTLINK&search=ID%3DD-56560&format=LISSH_MoreDokument_Report
