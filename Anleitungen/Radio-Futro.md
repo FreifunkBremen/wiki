@@ -308,7 +308,7 @@ User Ice in /etc/passwd einfügen
 
 ice:x:10:10:ice:/root:/bin/ash
 
-in in /etc/group
+und in /etc/group
 
 ice:x:10:
 
