@@ -141,7 +141,7 @@ Das hier sind Sachen, die nicht unbedingt wichtig sind für die Seite, aber trot
 * Twitter-Cards (für den Blog)
 
 #### Design-Notizen
-* generell an https://regensburg.freifunk.net/ orientieren
+* generell an https://regensburg.freifunk.net/ orientieren (Danke fuer das Kompliment. Gruss aus Regensburg)
 * "Sticky Header" - Nav-Leiste soll immer oben zu sehen sein (in verkleinerter Form)
 * Idee: Knoten-Karte auf Startseite, in schlanker Form: statt Meshviewer einen Screenshot vom Meshviewer (evtl. als SVG)
 ** Kartenbild ist dann ein Link auf den Meshviewer
