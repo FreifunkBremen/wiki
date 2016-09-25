@@ -22,3 +22,33 @@ Der Eintrag lautet:
 if (grep -Fq "AMD G-T44R Processor" /proc/cpuinfo) ; then
   echo "AMD G-T44R Processor -> Futro S900"
 ~~~
+
+Wenn externe Speichermedien an den USB Port verwendet werden, ist im BIOS die Bootsequenz auf die interne mSata zu stellen und Force USB Boot zu deaktivieren.
+Sonst versucht der Futro von USB zu booten.
+
+
+Weitere Partition auf der mSata mit fdisk einrichten
+~~~
+fdisk -l
+
+Disk /dev/sda: 29.8 GiB, 32017047552 bytes, 62533296 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x3815abaf
+
+Device     Boot Start    End Sectors Size Id Type
+/dev/sda1  *      512   8703    8192   4M 83 Linux
+/dev/sda2        9216 107519   98304  48M 83 Linux
+~~~
+
+~~~
+fdisk /dev/sda
+n new
+p primary
+defaults mit Enter bestätigen
+w write
+reboot
+~~~
+
