@@ -52,3 +52,37 @@ w write
 reboot
 ~~~
 
+und /dev/sda3 einhängen
+
+mkdir -p /mnt/share
+mount -t ext4 /dev/sda3 /mnt/share
+
+mount: mounting /dev/sda3 on /mnt/share failed: No such file or directory
+
+Ach ja, da war noch was, Formatieren vergessen :-)
+
+~~~
+mke2fs -t ext4 /dev/sda3
+mke2fs 1.42.12 (29-Aug-2014)
+Discarding device blocks: done
+Creating filesystem with 7803094 4k blocks and 1954064 inodes
+Filesystem UUID: da78f1cc-c42f-4209-a9fd-469cd32800cc
+Superblock backups stored on blocks:
+        32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208,
+        4096000
+
+Allocating group tables: done
+Writing inode tables: done
+Creating journal (32768 blocks): done
+Writing superblocks and filesystem accounting information: done
+~~~
+
+Mit Systemstart mounten, in /etc/config/fstab folgende Zeilen anfügen.
+~~~
+config 'mount'
+	option	target	'/mnt/share'
+	option	uuid	'da78f1cc-c42f-4209-a9fd-469cd32800cc'
+	option	enabled	'0'
+~~~
+die uuid kann auch mit "Block Detect" angezeigt werden.
+
