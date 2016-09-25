@@ -304,6 +304,14 @@ http://ip-desservers:8000/admin/stats.xsl oder http://[ipv6]:8000/admin/stats.xs
 
   Ggf. gibt es Zugriffsprobleme mit den Log Dateien. Sie müssen vorhanden sein, sonst will der Player nicht. Eine Lösungsversuch wäre:
 
+User Ice in /etc/passwd einfügen
+
+ice:x:10:10:ice:/root:/bin/ash
+
+in in /etc/group
+
+ice:x:10:
+
 ~~~
 mkdir -p /var/log/icecast
 touch /var/log/icecast/error.log
