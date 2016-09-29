@@ -16,14 +16,45 @@ Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](
 **aktuelle Stable**: [2016.1.5+bremen2](#freifunk-bremen-versionen_2016-1-5-bremen2)  
 **aktuelle Testing**: [2016.1.5+bremen1](#freifunk-bremen-versionen_2016-1-5-bremen1)
 
+### 2016.2+bremen1.1
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: nie   
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2+bremen1)  
+**gluon-Version**: [2016.2](#gluon-versionen_2016-2)
+
+*Diese Firmware-Version ist ein erneuter Build mit den identischen Einstellungen der vorherigen Version. Es gabe Problome mit nachinstallierten Kernel-Modulen.*
+ 
+### 2016.2+bremen1
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: nie   
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2+bremen1)  
+**gluon-Version**: [2016.2](#gluon-versionen_2016-2)
+- Update auf Gluon 2016.2
+    - ath10k-Geräte wie Archer C5/C7 unterstützen nun Meshing auf 5 Ghz
+    - manuell eingestellte WLAN-Channel können nun mit einer Option updatefest gemacht werden
+    - Knoten-Namen können nun all UTF-8 Zeichen enthalten
+    - SSH-Server auf den Knoten aktueller und performanter
+- Fehler im Autoupdater (multiple Instanzen) behoben
+- das Feld "Höhe" wird im Konfigurationsmodus nicht mehr angezeigt
+
+### 2015.1.6+bremen1
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: [20.09.2016](http://downloads.bremen.freifunk.net/firmware/all/2016.1.6+bremen1/sysupgrade/testing.manifest)  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.1.6+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.1.6+bremen1)  
+**gluon-Version**: [2016.1.6](#gluon-versionen_2016-1-6)
+- Update auf Gluon 2016.1.6
+    - deutlich verbesserter Empfang auf TP-Link CPE210/510 (etwa 20db)
+- Option zum Abschalten der fastd-Verschlüsselung für die VPN-Verbindung zu den Freifunk Bremen Gateways für den Konfigurationsmodus hinzugefügt
+- die Region für die Firmware wurde auf `EU` gesetzt, so dass das Aufspielen von Freifunk Bremen Firmware auf Archer C7 Geräten mit aktueller Standard-Firmware möglich ist
+
 ### 2016.1.5+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: [03.07.2016](http://downloads.bremen.freifunk.net/firmware/all/2016.1.5+bremen1/sysupgrade/stable.manifest)  
 **Veröffentlichung auf dem `testing`-Branch**: [26.05.2016](http://downloads.bremen.freifunk.net/firmware/all/2016.1.5+bremen1/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.1.5+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.1.5+bremen1)  
 **gluon-Version**: [2016.1.5](#gluon-versionen_2016-1-5)
-- Unterstützung für TP-LINK Archer C5/C7 wiederhergestellt  
+- Unterstützung für TP-Link Archer C5/C7 wiederhergestellt  
   **Hinweis:** auf dem 5 Ghz Frequenzband ist kein Mesh möglich 
-- Unterstützung für TP-LINK WR841N/ND v11
+- Unterstützung für TP-Link WR841N/ND v11
 
 ### 2016.1.4+bremen2
 **Veröffentlichung auf dem `stable`-Branch**: 24.05.2016  
@@ -65,7 +96,7 @@ Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](
 - Update auf Gluon 2016.1
 - vpn05 hinzugefügt
 - eigenes opkg-Repository für die Kernel Module für Freifunk Bremen hinzugefügt
-- TP-LINK WR841N/ND v10 Unterstützung
+- TP-Link WR841N/ND v10 Unterstützung
 
 ### 2015.2+bremen3~exp
 **Release-Datum**: [25.12.2015](http://downloads.bremen.freifunk.net/firmware/all/2015.2+bremen3~exp/sysupgrade/exp.manifest)  
@@ -108,14 +139,14 @@ Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2015.2+bremen2-exp) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.2+bremen2-exp)   
 **gluon-Version**: [2015.2](#gluon-versionen_2016-1) (unfertig; noch in der Entwicklung)
 - auf den aktuellsten Entwicklungsstand von Gluon 2015.2 upgedated
-- fehlerhaftes Abschalten des WLAN-Moduls bei TP-LINK TL-WR841 v10 Geräten bei [2015.2+bremen1~exp](#Freifunk-Bremen-Versionen_2015.2+bremen1~exp) gefixed
+- fehlerhaftes Abschalten des WLAN-Moduls bei TP-Link TL-WR841 v10 Geräten bei [2015.2+bremen1~exp](#Freifunk-Bremen-Versionen_2015.2+bremen1~exp) behoben
 
 ### 2015.2+bremen1~exp
 **Release-Datum**: 26.11.2015  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2015.2+bremen1-exp) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.2+bremen1-exp)   
 **gluon-Version**: [2015.2](#gluon-versionen_2016-1) (unfertig; noch in der Entwicklung)
 - Update auf den aktuellen Entwicklungsstand des unfertigen Gluon 2015.2
-- Support für TP-LINK TL-WR841 v10
+- Support für TP-Link TL-WR841 v10
 
 ### 2015.1.2+bremen2
 ###### *urspr. [2015.1.2+bremen2~testing](#Freifunk-Bremen-Versionen_2015.1.2+bremen2~testing)*
@@ -172,7 +203,7 @@ Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](
 - neues Gateway VPN03 hinzugefügt
 - mesh ssid von mesh.ffhb zu mesh.ffhb.de geändert
 - IPv6-Präfix zu 2001:bf7:540 geändert; weg von local zu public
-- autoupdater URLs gefixed
+- autoupdater URLs behoben
 
 ### 0.5~testing5
 **Release-Datum**: 06.09.2014 ([Blogpost](http://bremen.freifunk.net/blog/2014/09/06/Neue-Testing-Channel-Survey.html))  
@@ -198,7 +229,7 @@ Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](
 - Mesh-ESSID von batman.bremen.freifunk.net zu mesh.ffhb geändert um Verwirrung zu vermeiden
 - neue WLAN-Treiber und -Software, dadurch hoffentlich keine Signal-Abbruch-Probleme mehr
 - vom Knoten übertragene Statistik wird nun komprimiert
-- Probleme mit TP-LINK TL-WR841N/ND v9 behoben
+- Probleme mit TP-Link TL-WR841N/ND v9 behoben
 - Firewall block alles Eingehende auf dem WAN-Port außer SSH
 
 ### 0.5~testing2
@@ -206,7 +237,7 @@ Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](
 
 #### bekannte Probleme
 - Signal-Abruch-Problem auf 2,4Ghz
-- TP-LINK TL-WR841N/ND v9 macht Probleme
+- TP-Link TL-WR841N/ND v9 macht Probleme
 
 
 ### 0.5~testing1 - **erste Testing**
@@ -220,13 +251,43 @@ Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](
 ## Gluon-Versionen
 Hier aufgeführt sind die von Freifunk Bremen genutzten Gluon-Versionen mit einer kurzen Zusammenfassung von relevanten Änderungen.
 
+### [2016.2](http://gluon.readthedocs.io/en/v2016.2/releases/v2016.2.html)
+**Release-Datum**: 21.09.2016
+- der "Expertenmodus" ist nun zu "Erweiterte Einstellungen" umbenannt worden
+
+#### neue Funktionen
+- Unterstützung für eine Reihe an neuen Geräten; vor allem solche mit ath10k Chipsatz/Treiber
+    - offizielle Unterstützung für Archer C5/C7 und andere ath10k-Geräte durch Option zum Auswählen für den im Image installierten Mesh-Modus (IBSS oder 11s)
+- viele UBNT Airmax XM Modell werden nun richtig erkannt und nicht mehr nur als "Bullet" angezeigt
+- neue Option zum Behalten der manuell eingestellen WLAN-Channel während eines Updates
+- PoE-Passtrough kann nun in der site.conf und auch beim Einrichten im Konfigurationsmodus in den Erweiterten Einstellungen der TP-Link CPE 210/510 eingestellt werden
+- das Feld "Höhe" kann nun von der Community im Konfigurationsmodus versteckt werden
+- das Feld "Kontakt" kann von der Community nun verpflichtend gemacht werden
+- "hostnames" können jetzt alle UTF-8 Zeichen enthalten
+- der SSH-Server "dropbear" wurde aktualisiert und erhält so weitere SSH Verschlüsselungsmethoden und lässt veraltete fallen (DSA), welches die Zeit für den ersten Starts und der generelle Verbindungsaufbau verkürzt
+- 802.11b ist nun deaktivierbar (verhindert langsame Übertragungsrate für alle Geräte an einem Knoten, solange ein einzelnes veraltetes Gerät verbunden ist)
+
+#### Bugfixes
+- die Stabilität des ath9k WLAN-Treiber wurde bedeutend verbessert
+- multiple unnötig laufende Instanzen vom Autoupdater werden nun mit einem Lockfile verhindert
+- ein Fehler von fest eingestellten DNS-Servern seit [2016.1.6](#gluon-versionen_2016-1-6) wurde behoben
+
+### [2016.1.6](http://gluon.readthedocs.io/en/v2016.1.6/releases/v2016.1.6.html)
+**Release-Datum**: 30.06.2016
+- einige Fehler beim Kompilieren behoben
+- Unterstützung für link-lokale IPv6-DNS Server implementiert
+- Verbesserung der Empfangsleistung für CPE210/510 um etwa 20db
+- Wechsel der WAN/LAN-Port Zuordnung bei Ubiquitii UAP Pro (PoE-Port ist jetzt WAN, wie auch Standard bei anderen Geräten)
+- generelle Treiberverbesserungen und -fehlerbehebungen
+- Unterstützung für Ländercodes der neuen Firmwares für TP-Link Archer C7 v2
+
 ### [2016.1.5](http://gluon.readthedocs.io/en/v2016.1.5/releases/v2016.1.5.html)
 **Release-Datum**: 26.05.2016
-- Unterstützung für 9 weitere Geräte von OpenMesh, Ubiquiti und TP-LINK
+- Unterstützung für 9 weitere Geräte von OpenMesh, Ubiquiti und TP-Link
   - insbesondere der TL-WR841N/ND v11
-- einige Fehler beim Kompilieren gefixed
+- einige Fehler beim Kompilieren behoben
 - einige Fehler, welche ab [2016.1.4](#gluon-versionen_2016-1-4) auftraten
-  - 5 Ghz Frequenzband auf Archer C5/C7 funktioniert nicht
+  - 5 Ghz Frequenzband auf Archer C5/C7 funktioniert nun
   - Fehler mit VLANs und IBSS behoben
 - auf alle Ubiquiti AirMAX Geräte kann die Firmware nun direkt installiert werden, ohne das vorher nötige Downgrade auf AirOS 5.5.x zu machen
 
@@ -238,12 +299,12 @@ Hier aufgeführt sind die von Freifunk Bremen genutzten Gluon-Versionen mit eine
 ### [2016.1.3](https://gluon.readthedocs.org/en/v2016.1.3/releases/v2016.1.3.html)
 **Release-Datum**: 31.03.2016
 - Unterstützung für 2 weitere Geräte
-- zufälliges Aufhängen beim Boot wurde gefixed
+- zufälliges Aufhängen beim Boot wurde behoben
 - Gluon unterstützt nun auch Systeme, welche LibreSSL anstatt von OpenSSL verwenden
 
 ### [2016.1.2](https://gluon.readthedocs.org/en/v2016.1.2/releases/v2016.1.2.html)
 **Release-Datum**: 09.03.2016
-- Unterstützung für FUTRO Thin Clients (x86), gut als Offloaders
+- Unterstützung für FUTRO Thin Clients (x86) (gut als Offloaders)
 
 ### [2016.1.1](https://gluon.readthedocs.org/en/v2016.1.1/releases/v2016.1.1.html)
 **Release-Datum**: 02.03.2016
@@ -252,13 +313,13 @@ Hier aufgeführt sind die von Freifunk Bremen genutzten Gluon-Versionen mit eine
 - Gluon kann jetzt direkt auf Airmax M XM/XW mit AirOS 5.6.x installiert werden, kein Downgrade mehr nötig
 - bug fixes für die neue Statusseite
 - config mode fixes
-- Zugang zum failsave mode für TL-WDR4900 gefixed
+- Zugang zum failsave mode für TL-WDR4900 behoben
 
 ### [2016.1](https://gluon.readthedocs.org/en/v2016.1/releases/v2016.1.html)
 ###### *urspr. 2015.2*
 **Release-Datum**: 08.02.2016
 - Unterstützung für mehr Geräte, vor allem:
-  - TP-LINK TL-WR841 v10
+  - TP-Link TL-WR841 v10
   - CPE210/220/510/520 v1.1
   - airGateway
   - airRouter
@@ -278,7 +339,7 @@ Hier aufgeführt sind die von Freifunk Bremen genutzten Gluon-Versionen mit eine
 ### [2015.1.1](http://gluon.readthedocs.org/en/v2015.1.2/releases/v2015.1.1.html)
 - Unterstützung für ein weiteres Gerät
 - Download-Link von OpenSSL korrigiertd
-- Problem mit der LED-Anzeige für die Signalstäkre bei TP-LINK CPE210/510 behoben
+- Problem mit der LED-Anzeige für die Signalstäkre bei TP-Link CPE210/510 behoben
 
 ### [2015.1](http://gluon.readthedocs.org/en/v2015.1/releases/v2015.1.html)
 - Unterstützung für mehr Geräte
