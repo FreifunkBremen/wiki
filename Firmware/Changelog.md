@@ -13,8 +13,8 @@ Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](
 
 
 ## Freifunk Bremen Versionen
-**aktuelle Stable**: [2016.1.5+bremen2](#freifunk-bremen-versionen_2016-1-5-bremen2)  
-**aktuelle Testing**: [2016.1.5+bremen1](#freifunk-bremen-versionen_2016-1-5-bremen1)
+**aktuelle Stable**: [2016.1.5+bremen1](#freifunk-bremen-versionen_2016-1-5-bremen1)  
+**aktuelle Testing**: [2016.1.6+bremen1](#freifunk-bremen-versionen_2016-1-6-bremen1)
 
 ### 2016.2+bremen1.1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
