@@ -45,7 +45,7 @@ Wir versuchen den Grad der Sensibilität der Daten durch diese "Bezugsart" zu ve
 
 ⁵ "keine" heißt hier, dass zur Speicherung von Informationen der Verweis auf eindeutige Identifikationsnummern (z.B. IP-Adressen, Session Daten) komplett bei der Erhebung oder kurze Zeit später entfernt oder stark verkürzt wird. Bei IPv4-Adressen bedeutet das konkret, dass sie durch Nullen ersetzt werden.
 
-⁶ im [Archiv der Mailingliste](https://planetcyborg.de/mailman/private/ff-bremen/) (nur für Mitglieder zugänglich)
+⁶ im [Archiv der Mailingliste](https://lists.ffhb.de/mailman/private/ff-bremen/) (nur für Mitglieder zugänglich)
 
 ## Datenverarbeitung
 
