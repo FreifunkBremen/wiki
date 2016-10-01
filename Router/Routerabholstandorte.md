@@ -73,7 +73,7 @@ Mobil  | steffenstdt@gmail.com   | Nach Absprache | Nach Absprache | Einfach ans
 
 
 [Chat]: https://webirc.hackint.org/#ffhb
-[MailingListe]: https://planetcyborg.de/mailman/listinfo/ff-bremen
+[MailingListe]: https://lists.ffhb.de/mailman/listinfo/ff-bremen/
 [KARTON]: http://www.kartontage.de
 [Katzen-Cafe]: http://www.katzen-cafe.de
 [SimJoSt]: https://simjo.st
