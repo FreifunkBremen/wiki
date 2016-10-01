@@ -10,7 +10,7 @@ Der Status der Gateways kann hier eingesehen werden: https://status.bremen.freif
 | vpn03  | LWLCOM       | Bremen   | Digineo            | Bremen          |
 | vpn04  | -            | Hetzner  | Freifunk Rheinland | -               |
 | vpn05  | genofire     | Hetzner  | Hide.me            | Frankfurt       |
-| vpn06  | Digineo GmbH | -        | -                  | -               |
+| vpn06  | Digineo GmbH | 23media  | -                  | -               |
 
 ### Ansprechpartner
 
