@@ -45,7 +45,7 @@ Diese Leute bauen und verwalten die Software, die auf den Knoten läuft.
 ## Gateways
 Diese Leute administrieren die Gateways (a.k.a. VPN-Server), zu denen sich die Knoten verbinden.
 
-**Erreichbarkeit:** gerne über die [Liste](https://planetcyborg.de/mailman/listinfo/ff-bremen), oder für Vertrauliches über server@bremen.freifunk.net
+**Erreichbarkeit:** gerne über die [Liste](https://lists.ffhb.de/mailman/listinfo/ff-bremen), oder für Vertrauliches über server@bremen.freifunk.net
 
 * JP
 * Moritz / mortzu
