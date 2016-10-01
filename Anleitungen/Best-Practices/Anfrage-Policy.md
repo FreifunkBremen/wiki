@@ -6,7 +6,7 @@ Um die Anfragen von Menschen nach Freifunkroutern möglichst positiv abschließe
         * Andere Modelle oder erweiterte Meshing-Installationen werden nur in absoluten Ausnahmefällen, nach längerer Zeit erfolgreichem Betrieb oder technisch versierten Menschen angeboten.
 
 ## E-Mails
-Die E-Mailadresse für Anfragen (info@bremen.freifunk.net) landet auf einer speziell dafür geschaffenen Mailingliste ([ff-bremen-info](https://planetcyborg.de/mailman/listinfo/ff-bremen-info)). Für diese gilt:
+Die E-Mailadresse für Anfragen (info@bremen.freifunk.net) landet auf einer speziell dafür geschaffenen Mailingliste ([ff-bremen-info](https://lists.ffhb.de/mailman/listinfo/ff-bremen-info)). Für diese gilt:
 
 * Jeder, der ff-bremen-info abonnieren will, muss auch ff-bremen abonniert haben.
 * Jede Anfrage wird von genau einer Person beantwortet!
