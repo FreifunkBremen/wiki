@@ -43,7 +43,6 @@ https://pad.freifunk.net/p/ffhb-satzung
 
 
 ## Protokoll
-
 ### Anwesende
 * Timlukas
 * Oliver
@@ -65,11 +64,8 @@ https://pad.freifunk.net/p/ffhb-satzung
 
 ### Sinn des Vereins
 * Werkzeug im Keller
-
     * Wegen Verträgen, Dinge kaufen, Geld/Material besitzen
-
     * Nicht gemeinnützig
-
 
 ### Vorausetztungen für heute Abend
 * mindestens 7 Leute
@@ -78,74 +74,46 @@ https://pad.freifunk.net/p/ffhb-satzung
 
 ### Satzungsdiskussion
 * e.V.?
-
     * Wer haftet? --> Der Verein, Menschen nur im Sonderfall
-
     * e.V. auf jeden Fall, weil sonst nicht mal ein Konto
 
-* Zweg des Vereins
-
+* Zweck des Vereins
     * Geschäftsjahr = Kalendarjahr
-
     * nicht gemeinnützig
-
     * Disskusion über die Worte "Verbreitung" und "Bildung"
-
     * https://www.freifunk-rheinland.net/wp-content/uploads/sites/4/2016/06/Satzung_2016.pdf --> Als Vorlage?
-
     * Deutschlandweit aktiv? Wie Berlin/Rheinland/Hamburg?
-
     * Diskussion: "Was in der Satzung steht dürfen wir, den Rest nicht." vs. "Was in der Satzung steht müssen wir, den Rest können wir."
-
     * "internationale Kongresse"?! Was heißt das? Wollen wir das? --> JA!
 
 * Wer darf Mitglied werden? --> natürliche Personen dürfen Mitglied und Fördermitglied werden, juristische Personen dürfen nur Fördermitglieder werden. Wir wollen keine Begründung für Mitgliedschaft, lehnen keine Fördermitglieder ab, wollen eine E-Mail-Adresse von Mitgliedern, keine anonymen Mitglieder, eine nicht-öffentliche Mitgliedsliste, Antrag auf Mitgliedschaft per Papier (geht leider nicht anders), die Ablehnung der Mitgliebschaft muss vom Vorstand begründet werden, Ehrenmitglieder können nur natürliche Personen werden, der Vorstand muss Mitglieder annehmen
 * Die Satzung wird später öffentlich online verfügbar gemacht
 * Wollen wir einen Mitglieds-Beitrag? --> Ja, aber gering (ca. 2-10€ im Monat) --> Ehrenmitglieder zahlen nicht
 * Beendigung der Mitgliedschaft
-
     * Bei Tod, Austritt, Verlust des Status "juristische Person", Ausbleiben des Mitgliedsbeitrages, Ausschluss
-
     * "Ausbleiben des Mitgliedsbeitrages" --> Was heißt das? --> Wenn 6 Monate nicht gezahlt.
-
     * Austritt nur zum Ende des Jahres?
-
     * Ausschluss --> Wie regeln wir das? --> Wie gehabt.
 
 * Mitgliedsbeiträge
-
     * Geregelt per Beitragsordnung --> wird später entschieden
 
 * Der Vorstand
-
     * Wie viele Leute? 2,3,5? --> Bitte ungerade --> 3 oder 5? --> 3 spart Aufwand --> 5 ist entlastender --> Wie nehmen 3.
-
     * Wie viel Geld darf ein einzelnes Vorstandsmitglied alleine ausgeben? 500€.
-
     * Aktive Mitglieder dürfen Vorstand werden, also Ehren- und Mitglieder, keine Fördermitglieder
 
 * Einberufung der Mitgliederversammlung
-
     * 4 oder 6 Wochen vorher informieren Info? --> Wir nehmen sechs Wochen
-
 * Mitgliederversammlung
-
     * einmal im Kalendarjahr
-
     * Stimmrecht passt so
-
     * Anträge von Fördermitgliedern: Wann müssen die gestellt sein? --> Spontan
-
     * Haushaltsplan: Wir geben alles aus! --> Also brauchen wir keinen Haushaltsplan.
-
     * Wahl kann geheim und schriftlich sein, wenn dies beantragt wird --> ein Drittel muss Antrag unterstützen
-
     * nicht-öffentlich, weil z.B. Presse soll rausgeschmissen werden können, wenn gewünscht
-
     * Beschlussfähigkeit ab ein Drittel der aktiven Mitglieder? Viertel? Nein, Drittel, es geht um Geld.
-
     * Erklärung: Was ist eine relative und was ist eine einfache Mehrheit? --> Was nehmen wir? --> Einfache Mehrheit.
-
     * Zur Satzungsänderung oder Auflösung muss eine qualifizierte Mehrheit nötig
 
 * Rest: Größenteils Trash-Talk --> siehe Satzung
@@ -178,21 +146,14 @@ https://pad.freifunk.net/p/ffhb-satzung
 
 ### Vorstandswahl
 * Ämter
-
     * Vorsitzender
-
     * Vorsitzender
-
     * Vorsitzender
 
 * Nominierungen:
-
     * Julian Kornberger für alle Ämter
-
     * Simon Joda Stößer für alle Ämter
-
     * Frank Heider für alle Ämter
-
     * Jan-Philipp Litza für das 2. und 3. Amt
 
 * öffentliche Wahl findet einzeln für jedes Amt statt
