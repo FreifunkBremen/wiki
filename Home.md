@@ -15,9 +15,10 @@ Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat im [Hackerspace 
   * [[09.09.2016 - Arbeitstreffen Website|Treffen/2016_09_09-Arbeitstreffen-Website]]
   * [[16.09.2016|Treffen/2016_09_16]]
   * [[23.09.2016 - Vereinsgründungstreffen|Treffen/2016_09_23-Vereinsgruendungstreffen]]
-* der nächsten Treffen:
   * [[07.10.2016|Treffen/2016_10_07]]
+* der nächsten Treffen:
   * [[21.10.2016|Treffen/2016_10_21]]
+  * [[04.11.2016|Treffen/2016_11_04]]
 * [Liste aller Treffen](http://wiki.bremen.freifunk.net/pages/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
 * Weitere Termine (nicht nur Treffen) finden sich in den Protokollen zu den verschiedenen Treffen
 
