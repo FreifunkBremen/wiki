@@ -12,8 +12,6 @@ Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat im [Hackerspace 
 
 ##### Tagesordnungen
 * der letzten Treffen:
-  * [[09.09.2016 - Arbeitstreffen Website|Treffen/2016_09_09-Arbeitstreffen-Website]]
-  * [[16.09.2016|Treffen/2016_09_16]]
   * [[23.09.2016 - Vereinsgründungstreffen|Treffen/2016_09_23-Vereinsgruendungstreffen]]
   * [[07.10.2016|Treffen/2016_10_07]]
 * der nächsten Treffen:
