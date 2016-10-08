@@ -4,7 +4,7 @@ Im [ersten Abschnitt](#freifunk-bremen-versionen) werden alle Freifunk Bremen Fi
 Im [zweiten Abschnitt](#gluon-versionen) werden die zugrundeliegenden Gluon-Versionen aufgeliste mit ihren jeweiligen Neuerungen und Fehlerkorrekturen.
 
 
-Die verschiedenen Varianten der Freifunk Bremen Firmware werden auf entsprechenden [[Varianten|Varianten]]-Wiki-Seite erklärt.
+Die verschiedenen Varianten der Freifunk Bremen Firmware werden auf entsprechenden [[Varianten]]-Wiki-Seite erklärt.
 
 Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](https://downloads.bremen.freifunk.net/firmware/) zu finden.  
 - Der Unterordner [**`stable`**](https://downloads.bremen.freifunk.net/firmware/stable/) verweist auf die aktuelle als "stabil" gewertete und bestimmte Firmwareversion.  
@@ -114,7 +114,7 @@ Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](
   autoupdater lief mehrfach, wenn Mirror nicht erreichbar waren ([gluon-issue](https://github.com/freifunk-gluon/gluon/issues/582))
 - VPNs 01, 02, 03, 04 und 06 enthalten (davon 04 und 06 neu)
 - DNS-Einträge der NTP-Server korrigiert
-- Firmware-Schema umgestellt ([[/Treffen/2015_12_17#protokoll_firmware|Beschluss]]))
+- Firmware-Schema umgestellt ([[Beschluss|/Treffen/2015_12_17#protokoll_firmware]]))
     - Firmware wird nicht mehr als Testing- oder Stable-Firmware gebaut  
         - es gibt **eine** Firmware
             - steht zuerst nur Knoten mit Autoupdater auf *testing* zur Verfügung
