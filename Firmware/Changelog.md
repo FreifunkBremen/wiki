@@ -21,6 +21,10 @@ Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](
 **Veröffentlichung auf dem `testing`-Branch**: nie  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2+bremen2) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2+bremen2)  
 **gluon-Version**: [2016.2](#gluon-versionen_2016-2)
+
+**Hinweis:** Laut den Gluon Entwicklern und anderen Communites gibt es seit dieser Version Probleme mit ath9k, wodurch auf vielen unseren Geräten es zu verschwundenen und nicht sichtbaren WLANs und ständigen Neustarts kommen könnte.  
+Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 zurückgenommen und verzögert.
+
 - 802.11b deaktiviert
 - Paket gluon-radv-filterd aufgenommen (lässt nur das IPv6 Router Advertisement vom laut batman-adv besten Gateway durch)
 - Unseren OpenWrt-Proxy in `/etc/opkg/distfeeds.conf` eingetragen (dadurch funktioniert `opkg update` nun auch auf Knoten ohne WAN-Anschluss)
@@ -31,6 +35,10 @@ Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](
 <!--[07.10.2016](https://downloads.bremen.freifunk.net/firmware/all/2016.2+bremen1/sysupgrade/testing.manifest)-->  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2+bremen1)  
 **gluon-Version**: [2016.2](#gluon-versionen_2016-2)
+
+**Hinweis:** Laut den Gluon Entwicklern und anderen Communites gibt es seit dieser Version Probleme mit ath9k, wodurch auf vielen unseren Geräten es zu verschwundenen und nicht sichtbaren WLANs und ständigen Neustarts kommen könnte.  
+Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 zurückgenommen und verzögert.
+
 - Update auf Gluon 2016.2
     - ath10k-Geräte wie Archer C5/C7 unterstützen nun Meshing auf 5 Ghz
     - manuell eingestellte WLAN-Channel können nun mit einer Option updatefest gemacht werden
@@ -254,6 +262,10 @@ Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](
 Hier aufgeführt sind die von Freifunk Bremen genutzten Gluon-Versionen mit einer kurzen Zusammenfassung von relevanten Änderungen.
 
 ### [2016.2](https://gluon.readthedocs.io/en/v2016.2/releases/v2016.2.html)
+
+**Hinweis:** Laut den Gluon Entwicklern und anderen Communites gibt es seit dieser Version Probleme mit ath9k, wodurch auf vielen unseren Geräten es zu verschwundenen und nicht sichtbaren WLANs und ständigen Neustarts kommen könnte.  
+Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 zurückgenommen und verzögert.
+
 **Release-Datum**: 21.09.2016
 - der "Expertenmodus" ist nun zu "Erweiterte Einstellungen" umbenannt worden
 
