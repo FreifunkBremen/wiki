@@ -53,7 +53,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.1.6+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.1.6+bremen1)  
 **gluon-Version**: [2016.1.6](#gluon-versionen_2016-1-6)
 
-*Bei Firmware-Version [2016.1.6+bremen1](#freifunk-bremen-versionen_2016-1-6+bremen1) wurden keine Images für die TP-Link Archer C5/C7 generiert. Diese Version ist auf ein erneuter Build auf dem gleichen Quellcode, jedoch mit Archer C5/C7 Images.*
+*Bei Firmware-Version [2016.1.6+bremen1](#freifunk-bremen-versionen_2016-1-6-bremen1) wurden keine Images für die TP-Link Archer C5/C7 generiert. Diese Version ist auf ein erneuter Build auf dem gleichen Quellcode, jedoch mit Archer C5/C7 Images.*
 
 ### 2016.1.6+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: [07.10.2016](https://downloads.bremen.freifunk.net/firmware/all/2016.1.6+bremen1/sysupgrade/stable.manifest)  
