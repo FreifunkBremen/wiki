@@ -9,7 +9,7 @@ Wenn man der Software, Hardware oder Administration eines Freifunk-Knoten nicht 
     3. Neues Protokoll → Protokoll „UDP“, Quellport „beliebig“, Zielport „Port 50001 bis 65535“ → OK
     4. Neues Protokoll → Protokoll „TCP“, Quellport „beliebig“, Zielport „beliebig“ → OK
     5. OK
-5. Internet → Filter → Zugangsprofile → Neues Zugangsprofil
+5. Internet → Filter → Zugangsprofile → Zugangsprofil „Gast“ bearbeiten
     * Name: Freifunk-Knoten
     * Zeitraum: immer
     * Zeitbudget: unbegrenzt
@@ -17,4 +17,3 @@ Wenn man der Software, Hardware oder Administration eines Freifunk-Knoten nicht 
     * Internetseiten filtern: nein
     * Gesperrte Netzwerkanwendungen: die eben angelegte „Alles außer Freifunk-VPN“
     * OK
-6. Internet → Filter (→ Kindersicherung): Dem Freifunk-Knoten das Profil „Freifunk-Knoten“ zuordnen.
