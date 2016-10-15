@@ -38,7 +38,7 @@ Wer seine Router selbst flashen möchte, erhält diese häufig zum Selbstkostenp
 ## Bremerhaven
 Standort      | Kontakt                   | Geräte                     | Kosten    | Kommentar
 ---           | ---                       | ---                        | ---       | ---
-Bhv. Mitte/Lehe | freifunkinbremerhaven@posteo.de| TP-LINK TL-WR841ND v.9.3 | 20 €  | Treff- und Zeitpunktpunkt nach Absprache.<br>Ich helfe auch gerne beim Einrichten.
+Bhv. Mitte/Lehe | freifunkinbremerhaven@posteo.de| TP-LINK TL-WR841ND v.9.3 | 20 €  | Einfach anschreiben, helfe gern bei Einrichtung.
 
 ## Horn-Lehe
 Standort      | Kontakt                   | Geräte                     | Kosten    | Kommentar
