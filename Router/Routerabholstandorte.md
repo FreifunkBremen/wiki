@@ -68,7 +68,7 @@ Lindenhofstr. 1-15 (Lindenhofcenter)  | it@nord-sub.de   | TP-LINK TL-WR841N | 2
 ## Mitte/Nord/Lilienthal
 Standort                    | Kontakt                             | Geräte            | Kosten  | Kommentar
 ---                         | ---                                 | ---               | ---     | ---
-Mobil  | steffenstdt@gmail.com   | Nach Absprache | Nach Absprache | Einfach anschreiben, helfe gern bei Einrichtung
+Mobil  | freifunk@sstudt.de   | Nach Absprache | Nach Absprache | Einfach anschreiben, helfe gern bei Einrichtung
 
 
 
