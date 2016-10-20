@@ -38,3 +38,5 @@ reboot
 ~~~
 
 sollte die Freifunk-Node dann funktionieren.
+
+*P.S.: Die DNS-Einstellung im "Config-Mode" reicht NICHT aus!*
