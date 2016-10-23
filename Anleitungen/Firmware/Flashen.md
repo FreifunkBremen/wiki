@@ -79,7 +79,7 @@ Hier lassen sich die wichtigsten Einstellungen vornehmen.
 Wurde ein Knoten gerade frisch geflashed, startet er direkt in den Konfigurationsmodus für die Ersteinrichtung.  
 Nach dem Speichern der Einstellungen startet der Knoten in den Produktivmodus neu.
 
-Um später wieder in den Produktivmodus zu gelangen, muss der Reset-Knopf des Gerätes so lange gedrückt werden, bis alle LEDs ein mal kurz aufleuchten.
+Um später wieder in den Konfigurationsmodus zu gelangen, muss der Reset-Knopf des Gerätes so lange gedrückt werden, bis alle LEDs ein mal kurz aufleuchten.
 
 ### Produktivmodus
 Ein Freifunk Knoten wird sich in der meisten Zeit im Produktivmodus befinden. Er baut zu anderen Knoten in der Umgebung per WLAN und zu den Freifunk Servern per Internet eine Verbindung auf.  
