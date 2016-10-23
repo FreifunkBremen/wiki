@@ -19,7 +19,7 @@
 
 Auszug aus dem Protokoll:
 * **Computer-Börse Vahr**:
- * Siehe [Wikiseite](http://wiki.bremen.freifunk.net/25-Computer-Boerse-Bremen)
+ * Siehe [Wikiseite](http://wiki.bremen.freifunk.net/Events/25-Computer-Boerse-Bremen)
  * Flyer (100stk) können **nicht** im Hackerspace gedruckt werden
  * Großes Plakat wird auf A0 Plotter im HSHB gedruckt und von rbtz und Jan-Philipp entworfen
  * Internet vor Ort: Wird evaluirt
