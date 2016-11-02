@@ -86,3 +86,28 @@ config 'mount'
 ~~~
 die uuid kann auch mit "Block Detect" angezeigt werden.
 
+
+Wer auf der Konsole bei einem Update folgende Fehlermeldung erhält.
+~~~
+root@ffhb-0013490bd9f6:/tmp# opkg update
+Downloading http://downloads.openwrt.org/chaos_calmer/15.05.1/ar71xx/generic/packages/base/Packages.gz.
+wget: bad address 'downloads.openwrt.org'
+Downloading http://downloads.openwrt.org/chaos_calmer/15.05.1/ar71xx/generic/packages/base/Packages.sig.
+wget: bad address 'downloads.openwrt.org'
+Signature check failed.
+Remove wrong Signature file.
+~~~
+Prüfe bitte die Datei /etc/resolv.conf,
+das statt 127.0.0.1 z.B. 8.8.8.8 ode 8.8.4.4 eingetragen ist.
+~~~
+search lan
+nameserver 8.8.8.8
+~~~
+dann klappt der Update. (Version v2016.2)
+~~~
+root@ffhb-0013490bd9f6:/tmp# opkg update
+Downloading http://downloads.openwrt.org/chaos_calmer/15.05.1/ar71xx/generic/packages/base/Packages.gz.
+Updated list of available packages in /var/opkg-lists/chaos_calmer_base.
+Downloading http://downloads.openwrt.org/chaos_calmer/15.05.1/ar71xx/generic/packages/base/Packages.sig.
+Signature check passed.
+~~~
