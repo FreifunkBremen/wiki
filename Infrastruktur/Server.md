@@ -2,26 +2,16 @@ Es gibt momentan 6 Gateway-Server, die zum Verbinden der Knoten untereinander un
 
 ## Gateways a.k.a VPNs
 Der Status der Gateways kann hier eingesehen werden: https://status.bremen.freifunk.net/
-### Sponsoren und Konfiguration
-| Server | Sponsor      | Standort | Uplink-Anbieter    | Uplink-Standort |
-|:-------|:-------------|:---------|:-------------------|:----------------|
-| vpn01  | LWLCOM       | Bremen   | Digineo            | Bremen          |
-| vpn02  | PLUTEX       | Bremen   | Freie Netze e.V.   | Berlin          |
-| vpn03  | LWLCOM       | Bremen   | Digineo            | Bremen          |
-| vpn04  | -            | Hetzner  | Freifunk Rheinland | -               |
-| vpn05  | genofire     | Hetzner  | Hide.me            | Frankfurt       |
-| vpn06  | Digineo GmbH | 23media  | -                  | -               |
 
-### Ansprechpartner
-
-| Gateway | Hauptverantwortlicher | Co Verantwortlicher |
-|---------|-----------------------|---------------------|
-| vpn01   | jplitza, mortzu       | morpheus            |
-| vpn02   | jplitza, mortzu       | morpheus            |
-| vpn03   | jplitza, mortzu       | morpheus            |
-| vpn04   | jplitza, mortzu       |                     |
-| vpn05   | anon6789, genofire    | corny               |
-| vpn06   | corny                 | mortzu, genofire, jplitza |
+### Sponsoren, Konfiguration und Ansprechpartner
+| Server | Sponsor      | Standort | Uplink-Anbieter    | Uplink-Standort | Hauptverantwortlicher | Co Verantwortlicher |
+|:-------|:-------------|:---------|:-------------------|:----------------|-----------------------|---------------------|
+| vpn01  | LWLCOM       | Bremen   | Digineo            | Bremen          | jplitza, mortzu       | morpheus            |
+| vpn02  | PLUTEX       | Bremen   | Freie Netze e.V.   | Berlin          | jplitza, mortzu       | morpheus            |
+| vpn03  | LWLCOM       | Bremen   | Digineo            | Bremen          | jplitza, mortzu       | morpheus            |
+| vpn04  | -            | Hetzner  | Freifunk Rheinland | -               | jplitza, mortzu       |                     |
+| vpn05  | genofire     | Hetzner  | Hide.me            | Frankfurt       | anon6789, genofire    | corny               |
+| vpn06  | Digineo GmbH | 23media  | Digineo            | -               | corny                 | mortzu, genofire, jplitza |
 
 
 ## Server für zentrale Dienste
