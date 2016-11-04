@@ -139,7 +139,7 @@ Das andere Ende des grauen LAN-Kabels kommt in den meist **gelben LAN-Port deine
 
 ## Expertenmodus
 
-Dieser sollte immer vor den Änderungen im Wizzard vorgenommen werden, da beim Verlassen der Seite die Informationen nicht automatisch gespeichert werden.
+Dieser sollte immer vor den Änderungen im Wizard vorgenommen werden, da beim Verlassen der Seite die Informationen nicht automatisch gespeichert werden.
 
 Im Expertenmodus ist es zudem noch möglich einen SSH-Zugriff einzurichten, damit man auch im produktiven Betrieb auf den Freifunk-Router, per SSH zugreifen kann. Bitte dieses nur durchführen, wenn man sich damit auskennt!  
 Des Weiteren kann man sich für einen Versionszweig entscheiden, der auf dem Router immer automatisch aufgespielt wird. Wir empfehlen die Standard-Einstellung.  
