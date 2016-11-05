@@ -26,4 +26,4 @@ Neustadt  | **Karton** & **PAPP** | Café,Bar,Bühne |
 ### Events
 
 #### Breminale
-Mit 10 bis 30 tausend Besuchern, ist die Breminale eines der größten lokalen Stadtfeste. Es findet auf den Deichwiesen und dem Park bei der Kunsthalle statt. 2015 gab es auf dem gesamten Gelände Freifunk.
+Mit 10 bis 30 tausend Besuchern, ist die Breminale eines der größten lokalen Stadtfeste. Es findet auf den Deichwiesen und dem Park bei der Kunsthalle statt. Seit 2015 wird auf dem dem gesamten Gelände Freifunk angeboten.
