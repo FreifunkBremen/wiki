@@ -1,18 +1,27 @@
-# Versions-Changelog
-Auf dieser Seite werden alle Änderungen an der Firmware festgehalten.  
-Im [ersten Abschnitt](#freifunk-bremen-versionen) werden alle Freifunk Bremen Firmware Versionen und ihre, für Bremen, spezifischen Änderungen und Anpassungen aufgelistet.  
-Im [zweiten Abschnitt](#gluon-versionen) werden die zugrundeliegenden Gluon-Versionen aufgeliste mit ihren jeweiligen Neuerungen und Fehlerkorrekturen.
+# Firmwareversions Changelog
 
+## Inhaltsverzeichnis
+- [**Einleitung**](#einleitung)
+- [**Freifunk Bremen Versionen**](#freifunk-bremen-versionen)  
+  eine Liste aller Freifunk Bremen Firmware Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis
+- [**Gluon Versionen**](#gluon-versionen)  
+  eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen
 
+## Einleitung
+
+Diese Seite dokumentiert oberflächlich und als Übersicht alle Änderungen an der Freifunk Bremen Firmware sowie den zugrunde liegenden Gluon Versionen. Für detailliertere Änderungen kann den jeweilinge Links zum Quellcode gefolgt werden.  
 Die verschiedenen Varianten der Freifunk Bremen Firmware werden auf entsprechenden [[Varianten]]-Wiki-Seite erklärt.
 
 Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](https://downloads.bremen.freifunk.net/firmware/) zu finden.  
-- Der Unterordner [**`stable`**](https://downloads.bremen.freifunk.net/firmware/stable/) verweist auf die aktuelle als "stabil" gewertete und bestimmte Firmwareversion.  
-- Der Unterordner [**`testing`**](https://downloads.bremen.freifunk.net/firmware/testing/) verweist auf die aktuell zu testende Firmware Firmwareversion.  
-- Im Unterordner [**`all`**](https://downloads.bremen.freifunk.net/firmware/all/) lassen sich alle einzelnen Versionen, auch vergangene bis zu einem bestimmten Zeitpunk, der Freifunk Firmware finden.
+Die jeweiligen Unterordner haben folgende Bedeutungen:
+
+- [**`stable`**](https://downloads.bremen.freifunk.net/firmware/stable/) verweist auf die Images der aktuell als stabil deklarierten Firmwareversion  
+- [**`testing`**](https://downloads.bremen.freifunk.net/firmware/testing/) verweist auf die Images der aktuell im Test befindlichen Firmwareversion  
+- [**`all`**](https://downloads.bremen.freifunk.net/firmware/all/) listet die Ordner aller einzelnen Versionen der Freifunk Bremen Firmware auf
 
 
 ## Freifunk Bremen Versionen
+
 **aktuelle Stable**: [2016.1.6+bremen1](#freifunk-bremen-versionen_2016-1-6-bremen1)  
 **aktuelle Testing**: [2016.2.1+bremen1](#freifunk-bremen-versionen_2016-2-1-bremen1)
 
@@ -301,9 +310,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 
 
-## Gluon-Versionen
-Hier aufgeführt sind die von Freifunk Bremen genutzten Gluon-Versionen mit einer kurzen Zusammenfassung von relevanten Änderungen.
-
+## Gluon Versionen
 
 ### [2016.2.1](https://gluon.readthedocs.io/en/v2016.2.1/releases/v2016.2.1.html)
 **Release-Datum**: 08.11.2016  
