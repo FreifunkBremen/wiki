@@ -443,7 +443,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 
 ### 2015.1.1
-**Release-Datum**: 17.06.2015  
+**Release-Datum**: 17.06.2015 
 **offizielle Versionshinweise**: [2015.1.1](https://gluon.readthedocs.org/en/v2015.1.1/releases/v2015.1.1.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2015.1.1/index.html#supported-devices-architectures)
 - Unterstützung für ein weiteres Gerät
@@ -452,7 +452,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 
 ### 2015.1
-**Release-Datum**: 16.05.2015
+**Release-Datum**: 16.05.2015  
 **offizielle Versionshinweise**: [2015.1](https://gluon.readthedocs.org/en/v2015.1/releases/v2015.1.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2015.1/index.html#supported-devices-architectures)
 - Unterstützung für mehr Geräte
@@ -467,7 +467,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 
 ### 2014.4
-**Release-Datum**: 30.12.2014
+**Release-Datum**: 30.12.2014  
 **offizielle Versionshinweise**: [2014.4](https://gluon.readthedocs.org/en/v2014.4/releases/v2014.4.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2014.4/index.html#supported-devices)
 - Update auf OpenWRT 14.09 (Barrier Breaker)  
@@ -481,7 +481,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 
 ### 2014.3
-**Release-Datum**: 02.08.2014
+**Release-Datum**: 02.08.2014  
 **offizielle Versionshinweise**: [2014.3](https://gluon.readthedocs.org/en/v2014.3/releases/v2014.3.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2014.3/index.html#supported-devices)
 - Unterstützung für ein weiteres Gerät
