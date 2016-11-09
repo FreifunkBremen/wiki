@@ -431,7 +431,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 - Download-Link von OpenSSL korrigiert
 
 
-### [2015.1.1](https://gluon.readthedocs.org/en/v2015.1.2/releases/v2015.1.1.html)  
+### [2015.1.1](https://gluon.readthedocs.org/en/v2015.1.1/releases/v2015.1.1.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2015.1.1/index.html#supported-devices-architectures)
 - Unterstützung für ein weiteres Gerät
 - Download-Link von OpenSSL korrigiertd
@@ -463,7 +463,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 - Node-Status-Page erkennt Nachbar-Nodes und zeigt ihre Namen an und macht sie klickbar
 
 
-### [2014.3](https://gluon.readthedocs.org/en/v2014.4/releases/v2014.3.html)  
+### [2014.3](https://gluon.readthedocs.org/en/v2014.3/releases/v2014.3.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2014.3/index.html#supported-devices)
 - Unterstützung für ein weiteres Gerät
 - Autoupdater wurde neugeschrieben
