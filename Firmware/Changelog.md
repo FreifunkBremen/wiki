@@ -315,7 +315,8 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 ### 2016.2.1
 **Release-Datum**: 08.11.2016  
 **offizielle Versionshinweise**: [2016.2.1](https://gluon.readthedocs.io/en/v2016.2.1/releases/v2016.2.1.html)  
-**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.2.1/index.html#supported-devices-architectures)
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.2.1/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2016.2.1) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2016.2.1)
 - WLAN-Treiber Aktualisierungen  
   *die Stabilität ist imme rnoch nicht perfekt, sollte aber besser sein als in den 2016.1.x Releases*
     - alle Änderungen, welche seit [2016.2](#gluon-versionen_2016-2) Probleme verursachen wurden rückgängig gemacht
@@ -332,7 +333,9 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 **Release-Datum**: 21.09.2016  
 **offizielle Versionshinweise**: [2016.2](https://gluon.readthedocs.io/en/v2016.2/releases/v2016.2.html)  
-**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.2/index.html#supported-devices-architectures)
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.2/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2016.2) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2016.2)
+
 - der "Expertenmodus" ist nun zu "Erweiterte Einstellungen" umbenannt worden
 
 #### neue Funktionen
@@ -356,7 +359,8 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 ### 2016.1.6
 **Release-Datum**: 07.09.2016  
 **offizielle Versionshinweise**: [2016.1.6](https://gluon.readthedocs.io/en/v2016.1.6/releases/v2016.1.6.html)  
-**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1.6/index.html#supported-devices-architectures)
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1.6/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2016.1.6) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2016.1.6)
 - einige Fehler beim Kompilieren behoben
 - Unterstützung für link-lokale IPv6-DNS Server implementiert
 - Verbesserung der Empfangsleistung für CPE210/510 um etwa 20db
@@ -368,7 +372,8 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 ### 2016.1.5
 **Release-Datum**: 26.05.2016  
 **offizielle Versionshinweise**: [2016.1.5](https://gluon.readthedocs.io/en/v2016.1.5/releases/v2016.1.5.html)  
-**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1.5/index.html#supported-devices-architectures)
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1.5/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2016.1.5) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2016.1.5)
 - Unterstützung für 9 weitere Geräte von OpenMesh, Ubiquiti und TP-Link
   - insbesondere der TL-WR841N/ND v11
 - einige Fehler beim Kompilieren behoben
@@ -381,7 +386,8 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 ### 2016.1.4
 **Release-Datum**: 27.04.2016  
 **offizielle Versionshinweise**: [2016.1.4](https://gluon.readthedocs.org/en/v2016.1.4/releases/v2016.1.4.html)  
-**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1.4/index.html#supported-devices-architectures)
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1.4/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2016.1.4) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2016.1.4)
 - umfassendes WLAN-Treiber-Update
 - einige Fehlerbehebungen für das Kompilieren; auch bei Parallelisierung
 
@@ -389,7 +395,8 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 ### 2016.1.3
 **Release-Datum**: 31.03.2016  
 **offizielle Versionshinweise**: [2016.1.3](https://gluon.readthedocs.org/en/v2016.1.3/releases/v2016.1.3.html)  
-**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1.3/index.html#supported-devices-architectures)
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1.3/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2016.1.3) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2016.1.3)
 - Unterstützung für 2 weitere Geräte
 - zufälliges Aufhängen beim Boot wurde behoben
 - Gluon unterstützt nun auch Systeme, welche LibreSSL anstatt von OpenSSL verwenden
@@ -398,14 +405,16 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 ### 2016.1.2
 **Release-Datum**: 09.03.2016  
 **offizielle Versionshinweise**: [2016.1.2](https://gluon.readthedocs.org/en/v2016.1.2/releases/v2016.1.2.html)  
-**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1.2/index.html#supported-devices-architectures)
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1.2/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2016.1.2) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2016.1.2)
 - Unterstützung für FUTRO Thin Clients (x86) (gut als Offloaders)
 
 
 ### 2016.1.1
 **Release-Datum**: 02.03.2016  
 **offizielle Versionshinweise**: [2016.1.1](https://gluon.readthedocs.org/en/v2016.1.1/releases/v2016.1.1.html)  
-**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1.1/index.html#supported-devices-architectures)
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1.1/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2016.1.1) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2016.1.1)
 - Unterstützung für 2 weitere Geräte
 - opkg repository key wird nicht mehr bei jedem build überschrieben
 - Gluon kann jetzt direkt auf Airmax M XM/XW mit AirOS 5.6.x installiert werden, kein Downgrade mehr nötig
@@ -418,7 +427,8 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 ###### *urspr. 2015.2*
 **Release-Datum**: 08.02.2016  
 **offizielle Versionshinweise**: [2016.1](https://gluon.readthedocs.org/en/v2016.1/releases/v2016.1.html)    
-**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1/index.html#supported-devices-architectures)
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2016.1) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2016.1)
 - Unterstützung für mehr Geräte, vor allem:
   - TP-Link TL-WR841 v10
   - CPE210/220/510/520 v1.1
@@ -436,7 +446,8 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 ### 2015.1.2
 **Release-Datum**: 09.08.2015  
 **offizielle Versionshinweise**: [2015.1.2](https://gluon.readthedocs.org/en/v2015.1.2/releases/v2015.1.2.html)  
-**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2015.1.2/index.html#supported-devices-architectures)
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2015.1.2/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2015.1.2) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2015.1.2)
 - Unterstützung für mehr Geräte
 - eigene Images (nur umbenannte Kopien) für einige Ubiquiti Geräte, welche bis jetzt das Bullet M Image benutzen mussten, für mehr Klarheit und Einfachheit
 - Download-Link von OpenSSL korrigiert
@@ -445,7 +456,8 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 ### 2015.1.1
 **Release-Datum**: 17.06.2015 
 **offizielle Versionshinweise**: [2015.1.1](https://gluon.readthedocs.org/en/v2015.1.1/releases/v2015.1.1.html)  
-**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2015.1.1/index.html#supported-devices-architectures)
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2015.1.1/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2015.1.1) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2015.1.1)
 - Unterstützung für ein weiteres Gerät
 - Download-Link von OpenSSL korrigiertd
 - Problem mit der LED-Anzeige für die Signalstäkre bei TP-Link CPE210/510 behoben
@@ -454,7 +466,8 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 ### 2015.1
 **Release-Datum**: 16.05.2015  
 **offizielle Versionshinweise**: [2015.1](https://gluon.readthedocs.org/en/v2015.1/releases/v2015.1.html)  
-**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2015.1/index.html#supported-devices-architectures)
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2015.1/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2015.1) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2015.1)
 - Unterstützung für mehr Geräte
 - Zweisprachiger Config-Mode (Deutsch; Englisch)
 - Mesh-on-LAN
@@ -469,7 +482,8 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 ### 2014.4
 **Release-Datum**: 30.12.2014  
 **offizielle Versionshinweise**: [2014.4](https://gluon.readthedocs.org/en/v2014.4/releases/v2014.4.html)  
-**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2014.4/index.html#supported-devices)
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2014.4/index.html#supported-devices)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2014.4) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2014.4)
 - Update auf OpenWRT 14.09 (Barrier Breaker)  
   mehr Stabilität und mehr Performance
 - Unterstützung für mehr Geräte
@@ -486,7 +500,8 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 **Release-Datum**: 20.10.2014  
 **offizielle Versionshinweise**: [2014.3.1](https://gluon.readthedocs.org/en/v2014.3.1/releases/v2014.3.1.html)  
-**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2014.3.1/index.html#supported-devices)
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2014.3.1/index.html#supported-devices)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2014.3.1) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2014.3.1)
 - Fehler mit der neuen Statusseite durch leere gluon-announced Prozesse behoben
 - Fehler mit der inkorrekten Entfernung von fastd peers aus der Konfiguration beim Upgrade, wenn sie aus der site.conf entfernt wurden behoben
 - beim setzen eines SSH-Passworts im Experten Modus, werden bestehende SSH-Keys nicht mehr entfernt
@@ -500,7 +515,8 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 ### 2014.3
 **Release-Datum**: 02.08.2014  
 **offizielle Versionshinweise**: [2014.3](https://gluon.readthedocs.org/en/v2014.3/releases/v2014.3.html)  
-**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2014.3/index.html#supported-devices)
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2014.3/index.html#supported-devices)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2014.3) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2014.3)
 - Unterstützung für ein weiteres Gerät
 - Autoupdater wurde neugeschrieben
   - geplante Updates mit Datumsangabe möglich
@@ -514,7 +530,8 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 
 ### 2014.2
-**Release-Datum**: 24.06.2014
+**Release-Datum**: 24.06.2014  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2014.2) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2014.2)
 #### Bugfixes:
 - Stark verbesserte Stabilität des ath9k-WLAN-Treibers (besonders auf
 TP-Link-Hardware; auf einigen Ubiquiti-Geräten scheint es zwar besser
