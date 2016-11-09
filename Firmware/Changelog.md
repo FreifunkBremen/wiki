@@ -56,7 +56,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
     - manuell eingestellte WLAN-Channel können nun mit einer Option updatefest gemacht werden
     - Knoten-Namen können nun all UTF-8 Zeichen enthalten
     - SSH-Server auf den Knoten aktueller und performanter
-- Fehler im Autoupdater (multiple Instanzen) behoben
+    - Fehler im Autoupdater (multiple Instanzen) behoben
 - das Feld "Höhe" wird im Konfigurationsmodus nicht mehr angezeigt
 
 
