@@ -354,7 +354,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 
 ### 2016.1.6
-**Release-Datum**: 30.06.2016  
+**Release-Datum**: 07.09.2016  
 **offizielle Versionshinweise**: [2016.1.6](https://gluon.readthedocs.io/en/v2016.1.6/releases/v2016.1.6.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1.6/index.html#supported-devices-architectures)
 - einige Fehler beim Kompilieren behoben
@@ -379,7 +379,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 
 ### 2016.1.4
-**Release-Datum**: 31.03.2016  
+**Release-Datum**: 27.04.2016  
 **offizielle Versionshinweise**: [2016.1.4](https://gluon.readthedocs.org/en/v2016.1.4/releases/v2016.1.4.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1.4/index.html#supported-devices-architectures)
 - umfassendes WLAN-Treiber-Update
@@ -416,7 +416,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 ### 2016.1
 ###### *urspr. 2015.2*
-**Release-Datum**: 08.02.2016
+**Release-Datum**: 08.02.2016  
 **offizielle Versionshinweise**: [2016.1](https://gluon.readthedocs.org/en/v2016.1/releases/v2016.1.html)    
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1/index.html#supported-devices-architectures)
 - Unterstützung für mehr Geräte, vor allem:
@@ -434,6 +434,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 
 ### 2015.1.2
+**Release-Datum**: 09.08.2015  
 **offizielle Versionshinweise**: [2015.1.2](https://gluon.readthedocs.org/en/v2015.1.2/releases/v2015.1.2.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2015.1.2/index.html#supported-devices-architectures)
 - Unterstützung für mehr Geräte
@@ -442,6 +443,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 
 ### 2015.1.1
+**Release-Datum**: 17.06.2015  
 **offizielle Versionshinweise**: [2015.1.1](https://gluon.readthedocs.org/en/v2015.1.1/releases/v2015.1.1.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2015.1.1/index.html#supported-devices-architectures)
 - Unterstützung für ein weiteres Gerät
@@ -450,6 +452,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 
 ### 2015.1
+**Release-Datum**: 16.05.2015
 **offizielle Versionshinweise**: [2015.1](https://gluon.readthedocs.org/en/v2015.1/releases/v2015.1.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2015.1/index.html#supported-devices-architectures)
 - Unterstützung für mehr Geräte
@@ -464,6 +467,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 
 ### 2014.4
+**Release-Datum**: 30.12.2014
 **offizielle Versionshinweise**: [2014.4](https://gluon.readthedocs.org/en/v2014.4/releases/v2014.4.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2014.4/index.html#supported-devices)
 - Update auf OpenWRT 14.09 (Barrier Breaker)  
@@ -477,6 +481,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 
 ### 2014.3
+**Release-Datum**: 02.08.2014
 **offizielle Versionshinweise**: [2014.3](https://gluon.readthedocs.org/en/v2014.3/releases/v2014.3.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2014.3/index.html#supported-devices)
 - Unterstützung für ein weiteres Gerät
@@ -492,6 +497,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 
 ### 2014.2
+**Release-Datum**: 24.06.2014
 #### Bugfixes:
 - Stark verbesserte Stabilität des ath9k-WLAN-Treibers (besonders auf
 TP-Link-Hardware; auf einigen Ubiquiti-Geräten scheint es zwar besser
