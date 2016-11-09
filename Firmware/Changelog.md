@@ -1,30 +1,29 @@
 # Firmwareversions Changelog
 
-## Inhaltsverzeichnis
-- [**Einleitung**](#einleitung)
+Diese Seite dokumentiert oberflächlich und als Übersicht alle Änderungen an der Freifunk Bremen Firmware sowie den zugrunde liegenden Gluon Versionen. Für detailliertere Änderungen kann den jeweilinge Links zum Quellcode gefolgt werden.
+
 - [**Freifunk Bremen Versionen**](#freifunk-bremen-versionen)  
   eine Liste aller Freifunk Bremen Firmware Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis
 - [**Gluon Versionen**](#gluon-versionen)  
   eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen
 
-## Einleitung
 
-Diese Seite dokumentiert oberflächlich und als Übersicht alle Änderungen an der Freifunk Bremen Firmware sowie den zugrunde liegenden Gluon Versionen. Für detailliertere Änderungen kann den jeweilinge Links zum Quellcode gefolgt werden.  
-Die verschiedenen Varianten der Freifunk Bremen Firmware werden auf entsprechenden [[Varianten]]-Wiki-Seite erklärt.
+## Freifunk Bremen Versionen
 
-Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](https://downloads.bremen.freifunk.net/firmware/) zu finden.  
+Der Quellcode der Freifunk Bremen Firmware liegt bei [Github](https://github.com/FreifunkBremen/gluon-site-ffhb).  
+Die verschiedenen Varianten der Freifunk Bremen Firmware werden auf entsprechenden [[Varianten]]-Wiki-Seite erklärt.Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](https://downloads.bremen.freifunk.net/firmware/) zu finden.  
 Die jeweiligen Unterordner haben folgende Bedeutungen:
 
 - [**`stable`**](https://downloads.bremen.freifunk.net/firmware/stable/) verweist auf die Images der aktuell als stabil deklarierten Firmwareversion  
 - [**`testing`**](https://downloads.bremen.freifunk.net/firmware/testing/) verweist auf die Images der aktuell im Test befindlichen Firmwareversion  
 - [**`all`**](https://downloads.bremen.freifunk.net/firmware/all/) listet die Ordner aller einzelnen Versionen der Freifunk Bremen Firmware auf
 
+Branch        | aktuelle Version
+---           | ---
+**`stable`**  | [2016.1.6+bremen1](#freifunk-bremen-versionen_2016-1-6-bremen1)  
+**`testing`** | [2016.2.1+bremen1](#freifunk-bremen-versionen_2016-2-1-bremen1)
 
-## Freifunk Bremen Versionen
-
-**aktuelle Stable**: [2016.1.6+bremen1](#freifunk-bremen-versionen_2016-1-6-bremen1)  
-**aktuelle Testing**: [2016.2.1+bremen1](#freifunk-bremen-versionen_2016-2-1-bremen1)
-
+Es folgt eine Liste aller Freifunk Bremen Firmware Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
 ### 2016.2.1+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
@@ -298,7 +297,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 **gluon-Version**: [2014.2](#gluon-versionen_2014-2)
 
 #### bekannte Probleme
-- Signal-Abruch-Problem auf 2,4Ghz
+- Signal-Abruch-Problem auf 2,4 Ghz
 - TP-Link TL-WR841N/ND v9 macht Probleme
 
 
@@ -311,6 +310,11 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 
 ## Gluon Versionen
+
+Der Quellcode von Gluon liegt bei [Github](https://github.com/freifunk-gluon/gluon).  
+Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) einsehbar.
+
+Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
 
 ### 2016.2.1
 **Release-Datum**: 08.11.2016  
