@@ -480,6 +480,23 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 - Node-Status-Page erkennt Nachbar-Nodes und zeigt ihre Namen an und macht sie klickbar
 
 
+### 2014.3.1
+
+**Hinweis:** Auf Basis dieser Gluon Version wurde nie eine Freifunk Bremen Firmware entwickelt und gebaut. Dieser Eintrag dient nur der Vervollständigung der in Gluon getätigten Änderungen über Zeit.
+
+**Release-Datum**: 20.10.2014  
+**offizielle Versionshinweise**: [2014.3.1](https://gluon.readthedocs.org/en/v2014.3.1/releases/v2014.3.1.html)  
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2014.3.1/index.html#supported-devices)
+- Fehler mit der neuen Statusseite durch leere gluon-announced Prozesse behoben
+- Fehler mit der inkorrekten Entfernung von fastd peers aus der Konfiguration beim Upgrade, wenn sie aus der site.conf entfernt wurden behoben
+- beim setzen eines SSH-Passworts im Experten Modus, werden bestehende SSH-Keys nicht mehr entfernt
+- alfred Update sollte Fehler beheben
+- DHCPv6 Fehler behoben
+- WLAN-Stabilität verbessert
+- Support für statische IP Konfiguration für den WAN-Port im Experten Modus
+- Mesh-VPN kann über die site.conf nur standardmäßig aktiviert werden
+
+
 ### 2014.3
 **Release-Datum**: 02.08.2014  
 **offizielle Versionshinweise**: [2014.3](https://gluon.readthedocs.org/en/v2014.3/releases/v2014.3.html)  
