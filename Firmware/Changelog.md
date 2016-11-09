@@ -312,8 +312,9 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 ## Gluon Versionen
 
-### [2016.2.1](https://gluon.readthedocs.io/en/v2016.2.1/releases/v2016.2.1.html)
+### 2016.2.1
 **Release-Datum**: 08.11.2016  
+**offizielle Versionshinweise**: [2016.2.1](https://gluon.readthedocs.io/en/v2016.2.1/releases/v2016.2.1.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.2.1/index.html#supported-devices-architectures)
 - WLAN-Treiber Aktualisierungen  
   *die Stabilität ist imme rnoch nicht perfekt, sollte aber besser sein als in den 2016.1.x Releases*
@@ -324,12 +325,13 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 - Unterstützung für TL-WA901D v4 hinzugefügt
 
 
-### [2016.2](https://gluon.readthedocs.io/en/v2016.2/releases/v2016.2.html)
+### 2016.2
 
 **Hinweis:** Laut den Gluon Entwicklern und anderen Communites gibt es seit dieser Version Probleme mit ath9k, wodurch auf vielen unseren Geräten es zu verschwundenen und nicht sichtbaren WLANs und ständigen Neustarts kommen könnte.  
 Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 zurückgenommen und verzögert.
 
 **Release-Datum**: 21.09.2016  
+**offizielle Versionshinweise**: [2016.2](https://gluon.readthedocs.io/en/v2016.2/releases/v2016.2.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.2/index.html#supported-devices-architectures)
 - der "Expertenmodus" ist nun zu "Erweiterte Einstellungen" umbenannt worden
 
@@ -351,8 +353,9 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 - ein Fehler von fest eingestellten DNS-Servern seit [2016.1.6](#gluon-versionen_2016-1-6) wurde behoben
 
 
-### [2016.1.6](https://gluon.readthedocs.io/en/v2016.1.6/releases/v2016.1.6.html)
+### 2016.1.6
 **Release-Datum**: 30.06.2016  
+**offizielle Versionshinweise**: [2016.1.6](https://gluon.readthedocs.io/en/v2016.1.6/releases/v2016.1.6.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1.6/index.html#supported-devices-architectures)
 - einige Fehler beim Kompilieren behoben
 - Unterstützung für link-lokale IPv6-DNS Server implementiert
@@ -362,8 +365,9 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 - Unterstützung für Ländercodes der neuen Firmwares für TP-Link Archer C7 v2
 
 
-### [2016.1.5](https://gluon.readthedocs.io/en/v2016.1.5/releases/v2016.1.5.html)
+### 2016.1.5
 **Release-Datum**: 26.05.2016  
+**offizielle Versionshinweise**: [2016.1.5](https://gluon.readthedocs.io/en/v2016.1.5/releases/v2016.1.5.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1.5/index.html#supported-devices-architectures)
 - Unterstützung für 9 weitere Geräte von OpenMesh, Ubiquiti und TP-Link
   - insbesondere der TL-WR841N/ND v11
@@ -374,29 +378,33 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 - auf alle Ubiquiti AirMAX Geräte kann die Firmware nun direkt installiert werden, ohne das vorher nötige Downgrade auf AirOS 5.5.x zu machen
 
 
-### [2016.1.4](https://gluon.readthedocs.org/en/v2016.1.4/releases/v2016.1.4.html)
+### 2016.1.4
 **Release-Datum**: 31.03.2016  
+**offizielle Versionshinweise**: [2016.1.4](https://gluon.readthedocs.org/en/v2016.1.4/releases/v2016.1.4.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1.4/index.html#supported-devices-architectures)
 - umfassendes WLAN-Treiber-Update
 - einige Fehlerbehebungen für das Kompilieren; auch bei Parallelisierung
 
 
-### [2016.1.3](https://gluon.readthedocs.org/en/v2016.1.3/releases/v2016.1.3.html)
+### 2016.1.3
 **Release-Datum**: 31.03.2016  
+**offizielle Versionshinweise**: [2016.1.3](https://gluon.readthedocs.org/en/v2016.1.3/releases/v2016.1.3.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1.3/index.html#supported-devices-architectures)
 - Unterstützung für 2 weitere Geräte
 - zufälliges Aufhängen beim Boot wurde behoben
 - Gluon unterstützt nun auch Systeme, welche LibreSSL anstatt von OpenSSL verwenden
 
 
-### [2016.1.2](https://gluon.readthedocs.org/en/v2016.1.2/releases/v2016.1.2.html)
+### 2016.1.2
 **Release-Datum**: 09.03.2016  
+**offizielle Versionshinweise**: [2016.1.2](https://gluon.readthedocs.org/en/v2016.1.2/releases/v2016.1.2.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1.2/index.html#supported-devices-architectures)
 - Unterstützung für FUTRO Thin Clients (x86) (gut als Offloaders)
 
 
-### [2016.1.1](https://gluon.readthedocs.org/en/v2016.1.1/releases/v2016.1.1.html)
+### 2016.1.1
 **Release-Datum**: 02.03.2016  
+**offizielle Versionshinweise**: [2016.1.1](https://gluon.readthedocs.org/en/v2016.1.1/releases/v2016.1.1.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1.1/index.html#supported-devices-architectures)
 - Unterstützung für 2 weitere Geräte
 - opkg repository key wird nicht mehr bei jedem build überschrieben
@@ -406,9 +414,10 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 - Zugang zum failsave mode für TL-WDR4900 behoben
 
 
-### [2016.1](https://gluon.readthedocs.org/en/v2016.1/releases/v2016.1.html)
+### 2016.1
 ###### *urspr. 2015.2*
-**Release-Datum**: 08.02.2016  
+**Release-Datum**: 08.02.2016
+**offizielle Versionshinweise**: [2016.1](https://gluon.readthedocs.org/en/v2016.1/releases/v2016.1.html)    
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1/index.html#supported-devices-architectures)
 - Unterstützung für mehr Geräte, vor allem:
   - TP-Link TL-WR841 v10
@@ -424,21 +433,24 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
   ermöglicht Unterstützung von mehr Geräten, deren Treiber das jetzige Setup von gleichzeitigem ad-hoc- und infracstructure-mode nicht unterstützen
 
 
-### [2015.1.2](https://gluon.readthedocs.org/en/v2015.1.2/releases/v2015.1.2.html)  
+### 2015.1.2
+**offizielle Versionshinweise**: [2015.1.2](https://gluon.readthedocs.org/en/v2015.1.2/releases/v2015.1.2.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2015.1.2/index.html#supported-devices-architectures)
 - Unterstützung für mehr Geräte
 - eigene Images (nur umbenannte Kopien) für einige Ubiquiti Geräte, welche bis jetzt das Bullet M Image benutzen mussten, für mehr Klarheit und Einfachheit
 - Download-Link von OpenSSL korrigiert
 
 
-### [2015.1.1](https://gluon.readthedocs.org/en/v2015.1.1/releases/v2015.1.1.html)  
+### 2015.1.1
+**offizielle Versionshinweise**: [2015.1.1](https://gluon.readthedocs.org/en/v2015.1.1/releases/v2015.1.1.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2015.1.1/index.html#supported-devices-architectures)
 - Unterstützung für ein weiteres Gerät
 - Download-Link von OpenSSL korrigiertd
 - Problem mit der LED-Anzeige für die Signalstäkre bei TP-Link CPE210/510 behoben
 
 
-### [2015.1](https://gluon.readthedocs.org/en/v2015.1/releases/v2015.1.html)  
+### 2015.1
+**offizielle Versionshinweise**: [2015.1](https://gluon.readthedocs.org/en/v2015.1/releases/v2015.1.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2015.1/index.html#supported-devices-architectures)
 - Unterstützung für mehr Geräte
 - Zweisprachiger Config-Mode (Deutsch; Englisch)
@@ -451,7 +463,8 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 - vorgegebenes Namens-Prefix jetzt optional
 
 
-### [2014.4](https://gluon.readthedocs.org/en/v2014.4/releases/v2014.4.html)  
+### 2014.4
+**offizielle Versionshinweise**: [2014.4](https://gluon.readthedocs.org/en/v2014.4/releases/v2014.4.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2014.4/index.html#supported-devices)
 - Update auf OpenWRT 14.09 (Barrier Breaker)  
   mehr Stabilität und mehr Performance
@@ -463,7 +476,8 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 - Node-Status-Page erkennt Nachbar-Nodes und zeigt ihre Namen an und macht sie klickbar
 
 
-### [2014.3](https://gluon.readthedocs.org/en/v2014.3/releases/v2014.3.html)  
+### 2014.3
+**offizielle Versionshinweise**: [2014.3](https://gluon.readthedocs.org/en/v2014.3/releases/v2014.3.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2014.3/index.html#supported-devices)
 - Unterstützung für ein weiteres Gerät
 - Autoupdater wurde neugeschrieben
