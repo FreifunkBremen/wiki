@@ -14,12 +14,12 @@ Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](
 
 ## Freifunk Bremen Versionen
 **aktuelle Stable**: [2016.1.6+bremen1](#freifunk-bremen-versionen_2016-1-6-bremen1)  
-**aktuelle Testing**: [2016.1.6+bremen1.1](#freifunk-bremen-versionen_2016-1-6-bremen1-1)
+**aktuelle Testing**: [2016.2.1+bremen1](#freifunk-bremen-versionen_2016-2-1-bremen1)
 
 
 ### 2016.2.1+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
-**Veröffentlichung auf dem `testing`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: [08.11.2016](https://downloads.bremen.freifunk.net/firmware/all/2016.1.6+bremen1.1/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2.1+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2.1+bremen1)  
 **gluon-Version**: [2016.2.1](#gluon-versionen_2016-2-1)
 
