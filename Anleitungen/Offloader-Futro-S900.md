@@ -63,6 +63,7 @@ mount -t ext4 /dev/sda3 /mnt/share
 mount: mounting /dev/sda3 on /mnt/share failed: No such file or directory
 
 Ach ja, da war noch was, Formatieren vergessen :-)
+Wichtig: Nach einem sysupgrade ist die Partition sda3 deaktiviert. Mit fdisk wie oben beschrieben, wird diese wieder reaktiviert. Formatieren ist nicht notwendig und die Daten sind auch noch vorhanden.
 ~~~
 # e2fsprogs enthält e2fsck, mke2fs, debugfs, dumpe2fs und tune2fs,
 opkg install e2fsprogs 
