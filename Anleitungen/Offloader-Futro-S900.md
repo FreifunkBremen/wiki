@@ -63,7 +63,10 @@ mount -t ext4 /dev/sda3 /mnt/share
 mount: mounting /dev/sda3 on /mnt/share failed: No such file or directory
 
 Ach ja, da war noch was, Formatieren vergessen :-)
-
+~~~
+# e2fsprogs enthält e2fsck, mke2fs, debugfs, dumpe2fs und tune2fs,
+opkg install e2fsprogs 
+~~~
 ~~~
 mke2fs -t ext4 /dev/sda3
 mke2fs 1.42.12 (29-Aug-2014)
