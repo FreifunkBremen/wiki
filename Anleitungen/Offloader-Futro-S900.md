@@ -27,7 +27,10 @@ Wenn externe Speichermedien an den USB Port verwendet werden, ist im BIOS die Bo
 Sonst versucht der Futro von USB zu booten.
 
 
-Weitere Partition auf der mSata mit fdisk einrichten
+Weitere Partition auf der mSata mit fdisk einrichten (Installieren falls es fehlt).
+~~~
+opkg install fdisk
+~~~
 ~~~
 fdisk -l
 
