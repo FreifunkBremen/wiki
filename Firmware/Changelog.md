@@ -69,7 +69,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
     - Knoten-Namen können nun all UTF-8 Zeichen enthalten
     - SSH-Server auf den Knoten aktueller und performanter
     - Fehler im Autoupdater (multiple Instanzen) behoben
-- das Feld "Höhe" wird im Konfigurationsmodus nicht mehr angezeigt
+- das Feld "Höhe" wird im Konfigurationsmodus nicht mehr angezeigt (solange nicht schon ein Wert gesetzt wurde)
 
 
 ### 2016.1.6+bremen1.1
