@@ -34,6 +34,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware Versionen mit allen Bremen-sp
 
 - Update auf Gluon 2016.2.1
     - WLAN-Treiber Probleme behoben
+- Bug: auf CPE210 und CPE510 WAN- und LAN-Port bei kompletten Neuflash verdreht
 
 
 ### 2016.2+bremen2
@@ -366,10 +367,15 @@ Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
 
 ### 2016.2.1
+
+**Bug-Hinweis**: Beim aufsplitten des gemeinsamen Profil von CPE210 und CPE510 in zwei einzelne Profile, ist ein Fehler unterlaufen, welcher WAN- und LAN-Port verdreht. Der Fehler tritt nur bei einem kompletten Neuflash auf, nicht bei Autoupdates.  
+Dies beinträchtigt den normalen Betrieb nicht, ist aber unschön und kann bei erweiterter, manueller Konfiguration zu Verwirrung führen.
+
 **Release-Datum**: 08.11.2016  
 **offizielle Versionshinweise**: [2016.2.1](https://gluon.readthedocs.io/en/v2016.2.1/releases/v2016.2.1.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.2.1/index.html#supported-devices-architectures)  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2016.2.1) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2016.2.1)
+
 - WLAN-Treiber Aktualisierungen  
   *die Stabilität ist imme rnoch nicht perfekt, sollte aber besser sein als in den 2016.1.x Releases*
     - alle Änderungen, welche seit [2016.2](#gluon-versionen_2016-2) Probleme verursachen wurden rückgängig gemacht
