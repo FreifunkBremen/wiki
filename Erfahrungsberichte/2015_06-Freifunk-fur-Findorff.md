@@ -7,9 +7,9 @@ Erfahren von Freifunk habe ich, als ich für die Kunstgalerie eines Freundes öf
 Durch die Umsetzung eines Projektes von Freunden war mir mir die Jugend-Projekt-Förderung [Think Big](https://www.think-big.org/) bekannt. In der ersten Förderungsstufe [Think Big Basic](https://www.think-big.org/) erhält das Team 400 €, sowie Unterstützung eines Ansprechpartners vor Ort.
 
 ## Start
-Postwendend war ich in einem Gespräch mit dem Ansprechpartner für Bremen und kurze Zeit später der Vertrag unterschrieben und das Projekt gestartet, natürlich nicht ohne die restlichen Freifunker vorher um Ihre Einschätzung und Zustimmung zu fragen.
+[[[https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xfp1/t31.0-8/12006609_1056856604336422_5987016985613414690_o.jpg|width=350px|align=right|float]]](https://www.facebook.com/Jens.Hagens.Fotografie/photos/pb.544430208912400.-2207520000.1448807017./1056856604336422/?type=3&theater)
 
-[[https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xfp1/t31.0-8/12006609_1056856604336422_5987016985613414690_o.jpg|width=300px|align=right|float]]
+Postwendend war ich in einem Gespräch mit dem Ansprechpartner für Bremen und kurze Zeit später der Vertrag unterschrieben und das Projekt gestartet, natürlich nicht ohne die restlichen Freifunker vorher um Ihre Einschätzung und Zustimmung zu fragen.
 
 Jedes Projekt wird mit einem Blog begleitet, der befüllt werden muss. Das hat gut auf sich warten lassen, da es noch nicht schnell etwas zu berichten gab. Jedoch konnte ich mit der Unterstützung des netten Personals des Kulturzentrums Schlachthof ein schönes Bild für Findorff finden, welches ich dann mit der Unterstützung des Fotografen unter Namensnennung verwenden durfte.
 
