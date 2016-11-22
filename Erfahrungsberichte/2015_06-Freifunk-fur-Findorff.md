@@ -7,7 +7,7 @@ Erfahren von Freifunk habe ich, als ich für die Kunstgalerie eines Freundes öf
 Durch die Umsetzung eines Projektes von Freunden war mir mir die Jugend-Projekt-Förderung [Think Big](https://www.think-big.org/) bekannt. In der ersten Förderungsstufe [Think Big Basic](https://www.think-big.org/) erhält das Team 400 €, sowie Unterstützung eines Ansprechpartners vor Ort.
 
 ## Start
-[[[https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xfp1/t31.0-8/12006609_1056856604336422_5987016985613414690_o.jpg|width=350px|align=right|float]]](https://www.facebook.com/Jens.Hagens.Fotografie/photos/pb.544430208912400.-2207520000.1448807017./1056856604336422/?type=3&theater)
+[[https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xfp1/t31.0-8/12006609_1056856604336422_5987016985613414690_o.jpg|width=350px|align=right|float]](https://www.facebook.com/Jens.Hagens.Fotografie/photos/pb.544430208912400.-2207520000.1448807017./1056856604336422/?type=3&theater)
 
 Postwendend war ich in einem Gespräch mit dem Ansprechpartner für Bremen und kurze Zeit später der Vertrag unterschrieben und das Projekt gestartet, natürlich nicht ohne die restlichen Freifunker vorher um Ihre Einschätzung und Zustimmung zu fragen.
 
