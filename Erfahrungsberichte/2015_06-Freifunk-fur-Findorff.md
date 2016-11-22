@@ -9,9 +9,9 @@ Durch die Umsetzung eines Projektes von Freunden war mir mir die Jugend-Projekt-
 ## Start
 Postwendend war ich in einem Gespräch mit dem Ansprechpartner für Bremen und kurze Zeit später der Vertrag unterschrieben und das Projekt gestartet, natürlich nicht ohne die restlichen Freifunker vorher um Ihre Einschätzung und Zustimmung zu fragen.
 
-Jedes Projekt wird mit einem Blog begleitet, der befüllt werden muss. Das hat gut auf sich warten lassen, da es noch nicht schnell etwas zu berichten gab. Jedoch konnte ich mit der Unterstützung des netten Personals des Kulturzentrums Schlachthof ein schönes Bild für Findorff finden, welches ich dann mit der Unterstützung des Fotografen unter Namensnennung verwenden durfte:
+[[https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xfp1/t31.0-8/12006609_1056856604336422_5987016985613414690_o.jpg|width=300|alt=Jens Hagens Fotografie - b r e m e n - "Blick nach Westen"|align=right|float]]
 
-[<img src='https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xfp1/t31.0-8/12006609_1056856604336422_5987016985613414690_o.jpg' alt='Jens Hagens Fotografie - b r e m e n - "Blick nach Westen"' title='Jens Hagens Fotografie - b r e m e n - "Blick nach Westen"' width='350'>](https://www.facebook.com/Jens.Hagens.Fotografie/photos/pb.544430208912400.-2207520000.1448807017./1056856604336422/?type=3&theater)
+Jedes Projekt wird mit einem Blog begleitet, der befüllt werden muss. Das hat gut auf sich warten lassen, da es noch nicht schnell etwas zu berichten gab. Jedoch konnte ich mit der Unterstützung des netten Personals des Kulturzentrums Schlachthof ein schönes Bild für Findorff finden, welches ich dann mit der Unterstützung des Fotografen unter Namensnennung verwenden durfte.
 
 ## Heransgehensweise
 Um nicht jedes Geschäft einzeln ansprechen zu müssen, war mein Plan eine übergordnetete Instanz, wie einen Verband, zu finden. Meine erste Anlaufstelle war das werbefinanzierte Stadtteilblatt "Findorffer", wo ich direkt weitergeschickt wurde, um ein paar Minuten später mit der aktuellen Vorsitzenden des Findorffer Geschäftsleute Vereins zu sprechen.
