@@ -20,7 +20,7 @@ Die jeweiligen Unterordner haben folgende Bedeutungen:
 
 Branch        | aktuelle Version
 ---           | ---
-**`stable`**  | [2016.1.6+bremen1](#freifunk-bremen-versionen_2016-1-6-bremen1)  
+**`stable`**  | [2016.1.6+bremen1.1](#freifunk-bremen-versionen_2016-1-6-bremen1-1)  
 **`testing`** | [2016.2.1+bremen1](#freifunk-bremen-versionen_2016-2-1-bremen1)
 
 Es folgt eine Liste aller Freifunk Bremen Firmware Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
@@ -73,7 +73,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 
 ### 2016.1.6+bremen1.1
-**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `stable`-Branch**: [23.11.2016](http://downloads.bremen.freifunk.net/firmware/all/2016.1.6+bremen1.1/sysupgrade/stable.manifest)  
 **Veröffentlichung auf dem `testing`-Branch**: [11.10.2016](https://downloads.bremen.freifunk.net/firmware/all/2016.1.6+bremen1.1/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.1.6+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.1.6+bremen1)  
 **gluon-Version**: [2016.1.6](#gluon-versionen_2016-1-6)  
