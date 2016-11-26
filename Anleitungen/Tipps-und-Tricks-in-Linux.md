@@ -123,30 +123,39 @@ Der Aufruf erfolgt z.B. aus meinem Homeverzeichnis mit ./allfiles.sh 127.0.0.1
 
 CONFFILE="RouterConfig.txt"
 OUTFILE="RouterCheck.txt"
+UCIFILE="UCI_Config.txt"
 
 # Teil 1: Einzelabfrage
 echo "#-cat /etc/config/*------------------------------------------------------------------------#" > $CONFFILE 2>&1
 ssh root@$1 cat /etc/config/* >> $CONFFILE 2>&1
+
 echo "#-/etc/dropbear/*--------------------------------------------------------------------------#" >> $CONFFILE 2>&1
 ssh root@$1 cat /etc/dropbear/authorized_keys >> $CONFFILE 2>&1
 echo "#-cat /etc/dropbear/authorized_keys--------------------------------------------------------#" >> $CONFFILE 2>&1
 echo "#------------------------------------------------------------------------------------------#" >> $CONFFILE 2>&1
 
+echo "#-UCI Show --------------------------------------------------------------------------------#" > $UCIFILE 2>&1
+ssh root@$1 uci show >> $UCIFILE 2>&1
+echo "#------------------------------------------------------------------------------------------#" >> $UCIFILE 2>&1
 
 # Teil 2: Schleifenabfrage
 echo "Linux-Check - Allgemein: Bitte etwas Geduld!"
 echo "Linux-Check - Allgemein:" > $OUTFILE 2>&1
 echo "#------------------------------------------------------------------------------------------#" >> $OUTFILE 2>&1
-for testget in 	date \
-		who uname 'uname -r' 'cat /etc/issue' users \
+for testget in 	date uptime\
+		uname 'uname -r' 'cat /etc/issue' \
 		'cat /etc/passwd' 'cat /etc/ssh/sshd_config' \
 		'netstat -tulpe' 'netstat -rn' 'netstat -aptn' \
 		'iptables -L' 'iptables -t nat -L' \
-		'cat /etc/*' 'cat /etc/dropbear/authorized_keys' 'cat /etc/config/*' \
+		'cat /etc/*' 'cat /etc/config/*' 'cat /etc/dropbear/authorized_keys' \
 		'opkg list-installed' \
 		ifconfig 'ps -aux' 'ps w' 'df -h' \
-		jobs 'traceroute' \
-		'ls /var/log/' \
+		'crontb -l' 'traceroute' \
+		'ls /var/log/' mount 'block info'\
+		'/etc/init.d/fastd show_key mesh_vpn' 'ifconfig |head|tail -n1' \
+		'ip r s t all' 'cat /lib/gluon/release' 'cat /lib/gluon/gluon-version' \
+		'cat /tmp/sysinfo/model' 'batctl tl |grep W |wc -l' 'batctl tl |grep W |wc -l' \
+		'batctl tg |grep W |wc -l' iwinfo 'batctl if' \
 		date \
 		; do
 	echo -n "."	
@@ -159,7 +168,8 @@ echo "#-------------------------------------------------------------------------
 echo "Linux-Check - Allgemein: Ende " >> $OUTFILE 2>&1
 echo ""
 echo "Linux-Check - Allgemein: Programm Beendet!"
-echo "Ergebnisse unter: $OUTFILE und $CONFFILE"
+echo "Ergebnisse unter: $OUTFILE,$UCIFILE und $CONFFILE"
+
 
 ~~~
 
