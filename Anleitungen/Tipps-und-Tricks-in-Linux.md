@@ -21,7 +21,7 @@ Die folgen Tipps vereinfachen uns den Umgang mit Linux, was aber auch zur Folge 
 
 [IP v6 Adresse des angeschlossenen Routers](#inhalt_ip-v6-adresse-des-angeschlossenen-routers)
 
-[Security Check : Routerkonfiguration auslesen](#inhalt seccheck)
+[Security Check : Routerkonfiguration auslesen](#inhalt_security-check-routerkonfiguration-auslesen)
 
 ----
 
