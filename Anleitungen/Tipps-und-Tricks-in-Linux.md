@@ -21,6 +21,8 @@ Die folgen Tipps vereinfachen uns den Umgang mit Linux, was aber auch zur Folge 
 
 [IP v6 Adresse des angeschlossenen Routers](#inhalt_ip-v6-adresse-des-angeschlossenen-routers)
 
+[Security Check : Routerkonfiguration auslesen](#inhalt seccheck)
+
 ----
 
 
@@ -103,5 +105,66 @@ ffhb@FFHB:~$ rip
 64 bytes from fe80::76ea:3aff:fee4:7374: icmp_seq=3 ttl=64 time=0.586 ms
 ffhb@FFHB:~$
 ~~~
+
+
+###Security Check : Routerkonfiguration auslesen
+
+Im Folgenden ein kleines Script, welches aus einer Linux-Umgebung heraus über ip v4 oder ip v6 die Konfiguration eines Freifunkrouters ausliest und die Daten lokal in einer Datei ablegt. Das Script piped die Bildschirmausgabe einfach in eine Datei. Es werden keine Schreiboperationen auf dem Router durchgeführt.
+Das Script dient zum Experimentieren und als Kopiervorlage, die Abragen bitte auf eigene Bedürfnisse Anpassen.
+Die folgenden Zeilen als allfiles.sh speichen und ausführbar machen (chmod 755 allfiles.sh)
+Der Aufruf erfolgt z.B. aus meinem Homeverzeichnis mit ./allfiles.sh 127.0.0.1
+
+
+~~~
+#!/bin/bash
+
+# Usage: execute ./allfiles.sh Ip6/4_Addr and check current directory for output
+# before usage, put your existing private ssh keyfile in your .ssh directory ore use pw
+
+CONFFILE="RouterConfig.txt"
+OUTFILE="RouterCheck.txt"
+
+# Teil 1: Einzelabfrage
+echo "#-cat /etc/config/*------------------------------------------------------------------------#" > $CONFFILE 2>&1
+ssh root@$1 cat /etc/config/* >> $CONFFILE 2>&1
+echo "#-/etc/dropbear/*--------------------------------------------------------------------------#" >> $CONFFILE 2>&1
+ssh root@$1 cat /etc/dropbear/authorized_keys >> $CONFFILE 2>&1
+echo "#-cat /etc/dropbear/authorized_keys--------------------------------------------------------#" >> $CONFFILE 2>&1
+echo "#------------------------------------------------------------------------------------------#" >> $CONFFILE 2>&1
+
+
+# Teil 2: Schleifenabfrage
+echo "Linux-Check - Allgemein: Bitte etwas Geduld!"
+echo "Linux-Check - Allgemein:" > $OUTFILE 2>&1
+echo "#------------------------------------------------------------------------------------------#" >> $OUTFILE 2>&1
+for testget in 	date \
+		who uname 'uname -r' 'cat /etc/issue' users \
+		'cat /etc/passwd' 'cat /etc/ssh/sshd_config' \
+		'netstat -tulpe' 'netstat -rn' 'netstat -aptn' \
+		'iptables -L' 'iptables -t nat -L' \
+		'cat /etc/*' 'cat /etc/dropbear/authorized_keys' 'cat /etc/config/*' \
+		'opkg list-installed' \
+		ifconfig 'ps -aux' 'ps w' 'df -h' \
+		jobs 'traceroute' \
+		'ls /var/log/' \
+		date \
+		; do
+	echo -n "."	
+	echo "" >> $OUTFILE 2>&1
+	echo "#------------------------------------------------------------------------------------------#" >> $OUTFILE 2>&1
+	echo "##-> ${testget}" >> $OUTFILE 2>&1
+	ssh root@$1 $testget >> $OUTFILE 2>&1
+done # for testget
+echo "#------------------------------------------------------------------------------------------#" >> $OUTFILE 2>&1
+echo "Linux-Check - Allgemein: Ende " >> $OUTFILE 2>&1
+echo ""
+echo "Linux-Check - Allgemein: Programm Beendet!"
+echo "Ergebnisse unter: $OUTFILE und $CONFFILE"
+
+~~~
+
+Noch ein Hinweis. In einer VM Umgebung die Netzwerkeinstellunng NAT kontrollieren und ggf. den Haken bei ip6 setzen oder den ip6 Präfix anpassen (2a06:8782:ffbb:1337::/64)
+
+
 
 
