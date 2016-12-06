@@ -110,7 +110,7 @@ ffhb@FFHB:~$
 ###Security Check : Routerkonfiguration auslesen
 
 Im Folgenden ein kleines Script, welches aus einer Linux-Umgebung heraus über ip v4 oder ip v6 die Konfiguration eines Freifunkrouters ausliest und die Daten lokal in einer Datei ablegt. Das Script piped die Bildschirmausgabe einfach in eine Datei. Es werden keine Schreiboperationen auf dem Router durchgeführt.
-Das Script dient zum Experimentieren und als Kopiervorlage, die Abragen bitte auf eigene Bedürfnisse Anpassen.
+Das Script dient zum Experimentieren und als Kopiervorlage, die Abragen bitte auf eigene Bedürfnisse Anpassen. Das Script zeigt 3 Möglichkeiten des Zugriffs auf einen Router oder VM. Einzelabfrage, Schleife mit Übergabe an SSH Anfrage, SSH Sitzung mit Schleife. Die dritte Variante läuft sehr schnell, da die SSH Sitzung nicht immer neu gestartet werden muss.
 Die folgenden Zeilen als allfiles.sh speichen und ausführbar machen (chmod 755 allfiles.sh)
 Der Aufruf erfolgt z.B. aus meinem Homeverzeichnis mit ./allfiles.sh 127.0.0.1
 
@@ -124,8 +124,10 @@ Der Aufruf erfolgt z.B. aus meinem Homeverzeichnis mit ./allfiles.sh 127.0.0.1
 CONFFILE="RouterConfig.txt"
 OUTFILE="RouterCheck.txt"
 UCIFILE="UCI_Config.txt"
+CONFDIR="/etc/config/"
 
 # Teil 1: Einzelabfrage
+echo "Linux-Check - Allgemein: Einzelabfragen!"
 echo "#-cat /etc/config/*------------------------------------------------------------------------#" > $CONFFILE 2>&1
 ssh root@$1 cat /etc/config/* >> $CONFFILE 2>&1
 
@@ -138,8 +140,9 @@ echo "#-UCI Show ---------------------------------------------------------------
 ssh root@$1 uci show >> $UCIFILE 2>&1
 echo "#------------------------------------------------------------------------------------------#" >> $UCIFILE 2>&1
 
-# Teil 2: Schleifenabfrage
-echo "Linux-Check - Allgemein: Bitte etwas Geduld!"
+# Teil 2: Schleifenabfrage, jede Anfrage/Befehl mit neuer SSH Verbindung
+
+echo "Linux-Check - Allgemein: Start Schleife 1, Bitte etwas Geduld!"
 echo "Linux-Check - Allgemein:" > $OUTFILE 2>&1
 echo "#------------------------------------------------------------------------------------------#" >> $OUTFILE 2>&1
 for testget in 	date uptime\
@@ -165,15 +168,47 @@ for testget in 	date uptime\
 	ssh root@$1 $testget >> $OUTFILE 2>&1
 done # for testget
 echo "#------------------------------------------------------------------------------------------#" >> $OUTFILE 2>&1
-echo "Linux-Check - Allgemein: Ende " >> $OUTFILE 2>&1
+echo "Linux-Check - Allgemein: Ende Schleife 1" >> $OUTFILE 2>&1
 echo ""
-echo "Linux-Check - Allgemein: Programm Beendet!"
-echo "Ergebnisse unter: $OUTFILE,$UCIFILE und $CONFFILE"
+echo "Linux-Check - Allgemein: Ende  Schleife 1"
 
+# Teil 3: Schleifenabfrage, SSH Verbindung bleibt bestehen, Umleitung der Bildschirmausgaben
+echo "Linux-Check - Allgemein: Start Schleife 2" 
+ssh root@$1 >> $OUTFILE 2>&1 <<'ENDSSH'
+#!/bin/sh
+
+echo "Linux-ConfigCheck - Start"
+echo "#----------------------------------------------------------------------------------------#"
+
+for testget in 	dhcp dropbear firewall network system wireless ahcpd aiccu dhcp6c dhcp6s \
+ 		gw6c radvd babeld bbstored ddns etherwake freifunk_p2pblock fstab hd-idle \
+ 		httpd ipset-dns luci luci_statistics mini_snmpd minidlna mjpg-streamer \
+ 		mountd mroute multiwan mwan3 ntpclient p910nd pure-ftpd qos racoon samba \
+ 		snmpd sqm sshtunnel stund tinc transmission uhttpd upnpd users ushare \
+ 		vblade vnstat wifitoggle wol wshaper znc \
+		alfred autoupdater 'batman-adv' dropbear fastd 'gluon-core' 'gluon-node-info' \
+		'gluon-radv-filtered' 'gluon-setup-mode' 'gluon-wan-dnsmasq' network 'simple-tc' \
+		system ucitrack uhttpd \
+		; do
+	if [ -f /etc/config/$testget ] 
+		then
+		echo "" 
+		echo "#----------------------------------------------------------------------------------------#"
+		echo "##-> /etc/config/${testget}"
+		cat /etc/config/$testget
+	fi
+done # for testget
+echo "#----------------------------------------------------------------------------------------#"
+ENDSSH
+echo "#------------------------------------------------------------------------------------------#" >> $OUTFILE 2>&1
+echo "Linux-Check - Allgemein: Ende  Schleife 2" >> $OUTFILE 2>&1
+echo ""
+echo "Linux-Check - Allgemein: Ende  Schleife 2, Programm Beendet!"
+echo "Ergebnisse unter: $OUTFILE, $UCIFILE und $CONFFILE"
 
 ~~~
 
-Noch ein Hinweis. In einer VM Umgebung die Netzwerkeinstellunng NAT kontrollieren und ggf. den Haken bei ip6 setzen oder den ip6 Präfix anpassen (2a06:8782:ffbb:1337::/64)
+Noch ein Hinweis. In einer VM Umgebung die Netzwerkeinstellunng NAT kontrollieren und ggf. den Haken bei ip6 setzen oder den ip6 Präfix anpassen (2a06:8782:ffbb:1337::/64). Änderungen am Script bitte Kennzeichnen oder ab hier Anfügen.
 
 
 
