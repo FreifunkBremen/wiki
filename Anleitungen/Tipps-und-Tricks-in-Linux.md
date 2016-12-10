@@ -124,6 +124,7 @@ Der Aufruf erfolgt z.B. aus meinem Homeverzeichnis mit ./allfiles.sh 127.0.0.1
 CONFFILE="RouterConfig.txt"
 OUTFILE="RouterCheck.txt"
 UCIFILE="UCI_Config.txt"
+LOGFILE="RouterLogFile.txt"
 CONFDIR="/etc/config/"
 
 # Teil 1: Einzelabfrage
@@ -135,6 +136,10 @@ echo "#-/etc/dropbear/*---------------------------------------------------------
 ssh root@$1 cat /etc/dropbear/authorized_keys >> $CONFFILE 2>&1
 echo "#-cat /etc/dropbear/authorized_keys--------------------------------------------------------#" >> $CONFFILE 2>&1
 echo "#------------------------------------------------------------------------------------------#" >> $CONFFILE 2>&1
+
+echo "#-Show Logfile "Logread"-------------------------------------------------------------------#" > $LOGFILE 2>&1
+ssh root@$1 logread >> $LOGFILE 2>&1
+echo "#------------------------------------------------------------------------------------------#" >> $LOGFILE 2>&1
 
 echo "#-UCI Show --------------------------------------------------------------------------------#" > $UCIFILE 2>&1
 ssh root@$1 uci show >> $UCIFILE 2>&1
@@ -204,7 +209,7 @@ echo "#-------------------------------------------------------------------------
 echo "Linux-Check - Allgemein: Ende  Schleife 2" >> $OUTFILE 2>&1
 echo ""
 echo "Linux-Check - Allgemein: Ende  Schleife 2, Programm Beendet!"
-echo "Ergebnisse unter: $OUTFILE, $UCIFILE und $CONFFILE"
+echo "Ergebnisse unter: $OUTFILE, $LOGFILE, $UCIFILE und $CONFFILE"
 
 ~~~
 
