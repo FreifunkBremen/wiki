@@ -28,6 +28,10 @@ Die Mauer an der Tür ist massiv und ermöglicht das Anbringen von Stangen oder 
   * Einkaufszentrum Blockdiek
       * Inhaber: Objekt-Entwicklung; direkt Geschäfteinhaber ansprechen
 
+* Bremerhaven-Lehe
+  * „Goethe 45“(Künstlerhaus)
+      * Inhaber: Städtische Wohnungsgesellschaft (Stäwog); erste Gespräche laufen
+
 * Burglesum
   * Einkaufszentrum marßel
       * Inhaber: Objekt-Entwicklung; direkt Geschäfteinhaber ansprechen
