@@ -25,6 +25,19 @@ Branch        | aktuelle Version
 
 Es folgt eine Liste aller Freifunk Bremen Firmware Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
+### 2016.2.2+bremen1
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: nie  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2.2+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2.2+bremen1)  
+**gluon-Version**: [2016.2.2](#gluon-versionen_2016-2-2)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.2.2+bremen1/)
+
+- Update auf Gluon 2016.2.2
+    - Unterstützung für 3 neue TP-LINK Geräte
+    - einige Fehler seit [2016.2.1](#gluon-versionen_2016-2-1) und [2016.2](#gluon-versionen_2016-2) behoben  
+      inkl. vertauschtem WAN/LAN-Port auf CPE210 bei initialem Flash
+
+
 ### 2016.2.1+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
 **Veröffentlichung auf dem `testing`-Branch**: [08.11.2016](https://downloads.bremen.freifunk.net/firmware/all/2016.1.6+bremen1.1/sysupgrade/testing.manifest)  
