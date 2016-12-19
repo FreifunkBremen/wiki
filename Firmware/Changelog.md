@@ -366,6 +366,25 @@ Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) 
 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
 
+### 2016.2.2
+
+**Release-Datum**: 18.12.2016  
+**offizielle Versionshinweise**: [2016.2.2](https://gluon.readthedocs.io/en/v2016.2.2/releases/v2016.2.2.html)  
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.2.2/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2016.2.2) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2016.2.2)
+
+#### Unterstützung für weitere TP-Link-Geräte
+- CPE210/510 mit EU/US Standard-Firmware-Versionen
+- TL-WA801N/ND v3
+- TL-WR841ND v11 mit EU/US Standard-Firmware-Versionen
+
+#### Bugfixes
+- eine Reihe Fehler, welche mit [2016.2.1](#gluon-versionen_2016-2-1) und [2016.2](#gluon-versionen_2016-2) auftraten, wurden behoben
+- vertauschte, initiale Zuordnung von WAN/LAN auf der CPE210 wurde behoben
+- LED-Anzeige der Empfangsstärke verbraucht nun deutlich weniger Leistung und flackert weniger stark
+- `/tmp`-Verzeichnis wird beim Kompilieren nicht mehr verwendet (konnte zu Daten auf ungewollten Partitionen führen)
+
+
 ### 2016.2.1
 
 **Bug-Hinweis**: Beim aufsplitten des gemeinsamen Profil von CPE210 und CPE510 in zwei einzelne Profile, ist ein Fehler unterlaufen, welcher WAN- und LAN-Port der CPE210 verdreht. Der Fehler tritt nur bei einem kompletten Neuflash auf, nicht bei Autoupdates.  
