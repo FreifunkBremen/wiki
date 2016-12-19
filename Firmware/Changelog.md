@@ -21,7 +21,7 @@ Die jeweiligen Unterordner haben folgende Bedeutungen:
 Branch        | aktuelle Version
 ---           | ---
 **`stable`**  | [2016.1.6+bremen1.1](#freifunk-bremen-versionen_2016-1-6-bremen1-1)  
-**`testing`** | [2016.2.1+bremen1](#freifunk-bremen-versionen_2016-2-1-bremen1)
+**`testing`** | [2016.2.2+bremen1](#freifunk-bremen-versionen_2016-2-2-bremen1)
 
 Es folgt eine Liste aller Freifunk Bremen Firmware Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
