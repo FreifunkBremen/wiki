@@ -94,6 +94,8 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 
 ### 2016.1.6+bremen1.1
+**Bug-Hinweis:** In Gluon 2016.1.6 gibt es ein Problem mit statisch konfigurierten DNS-Servern. fastd kann dann keine Verbindung zu einem Gateway aufbauen.
+
 **Veröffentlichung auf dem `stable`-Branch**: [23.11.2016](http://downloads.bremen.freifunk.net/firmware/all/2016.1.6+bremen1.1/sysupgrade/stable.manifest)  
 **Veröffentlichung auf dem `testing`-Branch**: [11.10.2016](https://downloads.bremen.freifunk.net/firmware/all/2016.1.6+bremen1.1/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.1.6+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.1.6+bremen1)  
@@ -104,6 +106,8 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 
 ### 2016.1.6+bremen1
+**Bug-Hinweis:** In Gluon 2016.1.6 gibt es ein Problem mit statisch konfigurierten DNS-Servern. fastd kann dann keine Verbindung zu einem Gateway aufbauen.
+
 **Veröffentlichung auf dem `stable`-Branch**: [07.10.2016](https://downloads.bremen.freifunk.net/firmware/all/2016.1.6+bremen1/sysupgrade/stable.manifest)  
 **Veröffentlichung auf dem `testing`-Branch**: [20.09.2016](https://downloads.bremen.freifunk.net/firmware/all/2016.1.6+bremen1/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.1.6+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.1.6+bremen1)  
@@ -458,6 +462,8 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 
 ### 2016.1.6
+**Bug-Hinweis:** In dieser Version gibt es ein Problem mit statisch konfigurierten DNS-Servern. fastd kann dann keine Verbindung zu einem Gateway aufbauen.
+
 **Release-Datum**: 07.09.2016  
 **offizielle Versionshinweise**: [2016.1.6](https://gluon.readthedocs.io/en/v2016.1.6/releases/v2016.1.6.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1.6/index.html#supported-devices-architectures)  
