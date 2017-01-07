@@ -27,9 +27,7 @@ Eine Übersicht aller Arten von Zusammenkünften findest du unter [[Treffen|Tref
 * [[Oeffentlichtkeitsarbeit]]
 * [[Wo bekomme ich einen Router?|Router/Routerabholstandorte]]
 * [[Sammelbestellung Access Points|Router/SammelbestellungAPs]]
-* [Gemeinsamer Kalender](https://cloud.jplitza.de/index.php/apps/calendar/) (Nutzerdaten: ffhb / wellenfunk)
-  * [CalDAV](https://cloud.jplitza.de/remote.php/dav/calendars/ffhb/pers%C3%B6nlich1)
-  * [ICS-Export](https://cloud.jplitza.de/remote.php/dav/calendars/ffhb/pers%c3%b6nlich1?export)
+* Gemeinsamer [[Kalender]]
 * [[Breminale 2016|Events/Breminale/2016/Alles]]
 
 ## Technisches
