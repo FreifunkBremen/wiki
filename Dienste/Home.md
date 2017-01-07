@@ -50,10 +50,13 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.123.42 GartenPi
 * 10.196.126.0/24
   * 10.196.126.0/24 Dienste von Nebirosh
-* 10.196.127.0/24
-  * 10.196.127.1 Scanner an ffhb-asm100
-  * 10.196.127.2 Scanner an ffhb-dvb15
-  * 10.196.127.3 Linux-ISO-Server an ffhb-asm100 (in Vorbereitung)
+* 10.196.127.0/24 Dienste von HeinzBoettjer
+    * 10.196.127.1 Scanner an asm_100_EG (pausiert)
+    * 10.196.127.2 Scanner an hhs-1 (pausiert)
+    * 10.196.127.3 Linux-ISO-Server an ffhb-asm100 (in Vorbereitung)
+    * 10.196.127.4 apt-mirror (in Vorbereitung)
+    * 10.196.127.5 mirror für downloads.bremen.freifunk.net/firmware (in Vorbereitung)
+    * 10.196.127.6 mumble-server (in Planung)
 
 Feste IP-Adressen von an Freifunk-Knoten angeschlossenen Servern sollten in 10.196.0.0/24 liegen. Hier eintragen und glücklich sein.
 
