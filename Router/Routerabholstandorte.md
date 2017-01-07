@@ -46,15 +46,16 @@ Standort      | Kontakt                   | Geräte                     | Kosten
 ---           | ---                       | ---                        | ---       | ---
 TietjenStraße | Tietjenstrasse@e.mail.de  | WR841N and moor | 20 €      | 
 
-## Mitte
+## Neustadt
 Standort                    | Kontakt                             | Geräte            | Kosten  | Kommentar
 ---                         | ---                                 | ---               | ---     | ---
-Daniel-von-Büren-Straße 15  | auf [Mailingliste] oder im [Chat]   | TP-LINK TL-WR841N | 20 €    | Montags ab 19:00 oder nach Absprache
+hhs-1 | [Mailingliste] oder [Chat] | TP-LINK TL-WR841N | 20 €    | Sonntags von 14:00 bis 16:00 oder nach Absprache
 
 ## Peterswerder
 Standort     | Kontakt                           | Geräte            | Kosten
 ---          | ---                               | ---               | ---
-Peterswerder | auf [Mailingliste] oder im [Chat] | TP-LINK TL-WR841N | 20 €
+asm_100_EG | auf [Mailingliste] oder im [Chat] | TP-LINK TL-WR841N | 20 €
+| | |	TP-Link TL-WDR3600 v1 | 35 €
 
 ## Viertel
 Standort                                    | Kontakt                     | Geräte                        | Kosten
