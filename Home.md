@@ -12,11 +12,11 @@ Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat im [Hackerspace 
 
 ##### Tagesordnungen
 * der letzten Treffen:
-  * [[16.12.2016|Treffen/2016_12_16]]
   * [[06.01.2017|Treffen/2017_01_06]]
-* der nächsten Treffen:
   * [[20.01.2017|Treffen/2017_01_20]]
+* der nächsten Treffen:
   * [[03.02.2017|Treffen/2017_02_03]]
+  * [[17.02.2017|Treffen/2017_02_17]]
 * [Liste aller Treffen](http://wiki.bremen.freifunk.net/pages/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
 * **Einige der Bremer Freifunker sind natürlich auch auf dem 33C3 anzutreffen.**
 * Weitere Termine (nicht nur Treffen) finden sich in den Protokollen zu den verschiedenen Treffen
