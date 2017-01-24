@@ -47,6 +47,15 @@ unter `/etc/cron.d/fastd-blacklist`
 ```
 ## Examples
 Hier ein paar Netze, die zunächst zurückgestellt werden.
+
+### Telekom
+```
+    *.dip0.t-ipconnect.de.|*.dynamic.kabel-deutschland.de.)
+      touch "${STATE_DIR}/${PEER_KEY}"
+      exit 1
+    ;;
+```
+
 ### Kabel-Deutschland
 ```
   *.dynamic.kabel-deutschland.de.)
