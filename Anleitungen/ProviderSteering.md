@@ -77,10 +77,10 @@ In der folgenden Tabelle ist mit einem ✗ gekennzeichnet, welcher Provider von 
 
 vpn0…             | 1 | 2 | 3 | 4 | 5 | 6
 ------------------|---|---|---|---|---|---
-Telekom           |   |   |   | ✗ |   |   
-Kabel Deutschland |   |   |   | ✗ |   | ✗ 
-EWE               | ✗ |   | ✗ |   |   | 
-Alice             | ✗ |   | ✗ | ✗ |   |  
+Telekom           |   |   |   | ✗ | ✗ |   
+Kabel Deutschland |   |   |   |   |   |   
+EWE               |   |   |   |   |   | 
+Alice             |   |   |   |   |   |  
 
 ## Entwickler
 Danke an jplitza und mortzu.
