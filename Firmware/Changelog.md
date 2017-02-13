@@ -32,7 +32,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware Versionen mit allen Bremen-sp
 **gluon-Version**: [2016.2.2](#gluon-versionen_2016-2-2)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.2.2+bremen1/)
 
-**Bug-Hinweis:** Mit den Änderungen von 2016.2+ am Autoupdater, führt dieser nicht mehr zu Absturz der Knoten, sondern updated nach löngerer Uptime bis zum nächsten Neustart gar nicht mehr.
+**Bug-Hinweis:** Mit den Änderungen von 2016.2+ am Autoupdater, führt dieser nicht mehr zu Absturz der Knoten, sondern updated nach längerer Uptime bis zum nächsten Neustart gar nicht mehr.
 
 - Update auf Gluon 2016.2.2
     - Unterstützung für 3 neue TP-LINK Geräte
