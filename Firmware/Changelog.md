@@ -18,16 +18,16 @@ Die jeweiligen Unterordner haben folgende Bedeutungen:
 - [**`testing`**](https://downloads.bremen.freifunk.net/firmware/testing/) verweist auf die Images der aktuell im Test befindlichen Firmwareversion  
 - [**`all`**](https://downloads.bremen.freifunk.net/firmware/all/) listet die Ordner aller einzelnen Versionen der Freifunk Bremen Firmware auf
 
-Branch        | aktuelle Version
----           | ---
-**`stable`**  | [2016.1.6+bremen1.1](#freifunk-bremen-versionen_2016-1-6-bremen1-1)  
-**`testing`** | [2016.2.2+bremen1](#freifunk-bremen-versionen_2016-2-2-bremen1)
+Branch        | aktuelle Version                                                    | signed by
+---           | ---                                                                 | ---
+**`stable`**  | [2016.1.6+bremen1.1](#freifunk-bremen-versionen_2016-1-6-bremen1-1) | `jplitza`, `SimJoSt`
+**`testing`** | [2016.2.3+bremen1](#freifunk-bremen-versionen_2016-2-3-bremen1)     | `nightly-builder`, `SimJoSt`
 
-Es folgt eine Liste aller Freifunk Bremen Firmware Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
+Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
 ### 2016.2.3+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
-**Veröffentlichung auf dem `testing`-Branch**: nie   
+**Veröffentlichung auf dem `testing`-Branch**: [13.02.2017](https://downloads.bremen.freifunk.net/firmware/all/2016.2.3+bremen1/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2.3+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2.3+bremen1)  
 **gluon-Version**: [2016.2.3](#gluon-versionen_2016-2-3)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.2.3+bremen1/)
