@@ -39,6 +39,9 @@ Es folgt eine Liste aller Freifunk Bremen Firmware Versionen mit allen Bremen-sp
     - einige Fehler seit [2016.2.1](#gluon-versionen_2016-2-1) und [2016.2](#gluon-versionen_2016-2) behoben  
       inkl. vertauschtem WAN/LAN-Port auf CPE210 bei initialem Flash
 
+#### bekannte Bugs
+- wget-Instanz des Autoupdaters blockiert eventuell den Autoupdater bis zum nächsten Neustart, bei einem timeout 
+
 
 ### 2016.2.1+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
@@ -408,6 +411,9 @@ Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfacht
 - vertauschte, initiale Zuordnung von WAN/LAN auf der CPE210 wurde behoben
 - LED-Anzeige der Empfangsstärke verbraucht nun deutlich weniger Leistung und flackert weniger stark
 - `/tmp`-Verzeichnis wird beim Kompilieren nicht mehr verwendet (konnte zu Daten auf ungewollten Partitionen führen)
+
+#### bekannte Bugs
+- wget-Instanz des Autoupdaters blockiert eventuell den Autoupdater bis zum nächsten Neustart, bei einem timeout 
 
 
 ### 2016.2.1
