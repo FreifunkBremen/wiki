@@ -394,6 +394,28 @@ Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) 
 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
 
+### 2016.2.3
+
+**Release-Datum**: 13.02.2017  
+**offizielle Versionshinweise**: [2016.2.3](https://gluon.readthedocs.io/en/v2016.2.3/releases/v2016.2.3.html)  
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.2.3/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2016.2.3) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2016.2.3)
+
+#### Geräte-Unterstützung
+- hinzugefügt:
+    - TP-Link TL-WR940N v4
+    - TP-Link TL-WR1043ND v4
+- entfernt:
+    - Meraki Geräte (MR12/16/62/66)  
+    *(werden wieder hinzugefügt, wenn das Problem, dass sie alle die gleiche MAC-Adresse haben, behoben wurde)*
+
+#### Bugfixes
+- der Autoupdater geht mit timeouts seiner wget-Instanz nun besser um  
+  *(in [2016.2.2](#gluon-versionen_2016-2-2) konnte der Autoupdater bei einem timeout bis zum nächsten Neustart festhängen und keine Updates mehr ziehen)*
+- respondd wird nun bei einem crash automatisch neugestartet  
+  *(trat in der vorherigen Version relativ häufig auf; warum ist unklar)*
+
+
 ### 2016.2.2
 
 **Release-Datum**: 18.12.2016  
