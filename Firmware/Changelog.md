@@ -38,6 +38,11 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
     - einige Fehler behoben
         - Autoupdater sollte jetzt nicht mehr hängen
         - respondd wird bei einem crash neugestartet
+- Paket respondd-module-airtime hinzugefügt
+- Gluon-Paket gluon-ebtables-filter-multicast hinzugefügt  
+  filtert allen nicht unbedingt benötigten multicast traffic; wird das Grundrauschen vermutlich massive Verringern und die Performance von WLAN-, Uplink- und Mesh-Verbindungen dadurch deutlich erhöhen
+- Bandbreitenlimitierungs-Fehler seit [2016.1+bremen1](#freifunk-bremen-versionen_2016-1-bremen1) behoben  
+  die Bandbreitenlimitierung war nicht standardmäßig bei der ersten Einrichtung eingeschaltet und deren Standardwerte fehlten
 
 
 ### 2016.2.2+bremen1
