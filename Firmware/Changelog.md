@@ -33,7 +33,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.2.3+bremen1/)
 
 - Update auf Gluon 2016.2.3
-    - Unterstützung für 3 neue TP-LINK Geräte
+    - Unterstützung für 2 neue TP-LINK Geräte
     - Unterstützung von Meraki-Geräten temporär entfernt
     - einige Fehler behoben
         - Autoupdater sollte jetzt nicht mehr hängen
