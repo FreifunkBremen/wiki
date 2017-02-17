@@ -14,9 +14,14 @@ Der Quellcode der Freifunk Bremen Firmware liegt bei [Github](https://github.com
 Die verschiedenen Varianten der Freifunk Bremen Firmware werden auf entsprechenden [[Varianten]]-Wiki-Seite erklärt.Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](https://downloads.bremen.freifunk.net/firmware/) zu finden.  
 Die jeweiligen Unterordner haben folgende Bedeutungen:
 
+
+- [**`all`**](https://downloads.bremen.freifunk.net/firmware/all/) listet die Ordner aller einzelnen Versionen der Freifunk Bremen Firmware auf  
+- [**`nightly`**](https://downloads.bremen.freifunk.net/firmware/nightly/) verweist auf den gleichen Inhalt wie [**`testing`**](https://downloads.bremen.freifunk.net/firmware/testing/), da wir aktuell keine nächtlichen Builds erstellen und veröffentlichen.
 - [**`stable`**](https://downloads.bremen.freifunk.net/firmware/stable/) verweist auf die Images der aktuell als stabil deklarierten Firmwareversion  
-- [**`testing`**](https://downloads.bremen.freifunk.net/firmware/testing/) verweist auf die Images der aktuell im Test befindlichen Firmwareversion  
-- [**`all`**](https://downloads.bremen.freifunk.net/firmware/all/) listet die Ordner aller einzelnen Versionen der Freifunk Bremen Firmware auf
+- [**`testing`**](https://downloads.bremen.freifunk.net/firmware/testing/) verweist auf die Images der aktuell im Test befindlichen Firmwareversion
+
+*Falls sich Geräte auf dem `exp`-Branch befinden, so werden sie keine Updates beziehen, da dies kein offizieller Branch ist und die Einstellung durch einen Fehler entstanden ist.  
+Experiementelle Firmware-Versionen werden nicht offiziell unterstützt und werden meist für extrem frühe Tests verwendet. Normalerweise sollte als Branch `testing` eingestellt sein, damit sie sich später bei einer stabilien Veröffentlichung Updates holen.*
 
 Branch        | aktuelle Version                                                    | signed by
 ---           | ---                                                                 | ---
