@@ -6,6 +6,6 @@ Für die Variante mit Authentifizierung lauten der Nutzername immer "**ffhb**" u
 
 | Zugriffsmethode | Ohne Authentifizierung (nur lesen) | Mit Authentifizierung (lesen&schreiben) |
 |-----------------|------------------------|-----------------------|
-| Webinterface    | [Link](https://cloud.jplitza.de/index.php/apps/calendar/public/9KZSQSSG2JC6PTHT) | [Link](https://cloud.jplitza.de/index.php/apps/calendar/) |
+| Webinterface    | [Link](https://cloud.jplitza.de/apps/calendar/public/9KZSQSSG2JC6PTHT) | [Link](https://cloud.jplitza.de/apps/calendar/) |
 | CalDAV          | [Link](https://cloud.jplitza.de/remote.php/dav/public-calendars/9KZSQSSG2JC6PTHT/) | [Link](https://cloud.jplitza.de/remote.php/dav/calendars/ffhb/pers%C3%B6nlich1) |
 | WebDAV / ICS    | [Link](https://cloud.jplitza.de/remote.php/dav/public-calendars/9KZSQSSG2JC6PTHT?export) | N/A |
