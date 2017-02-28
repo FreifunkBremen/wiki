@@ -30,6 +30,30 @@ Branch        | aktuelle Version                                                
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
+### 2016.2.3+bremen3
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: nie  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2.3+bremen3) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2.3+bremen3)  
+**gluon-Version**: [2016.2.3](#gluon-versionen_2016-2-3)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.2.3+bremen3/)
+
+- gluon-radv-filterd aktualisiert aus dem Gluon-PR (diesmal richtig)
+  - Enthält jetzt ein respondd-Modul, das den ausgewählten Gateway preisgibt
+- Mesh-VPN ist jetzt standardmäßig aktiviert ([Beschluss](https://wiki.bremen.freifunk.net/Treffen/2017_02_17#protokoll_firmware))
+- Bandbreitenlimits sind jetzt standardmäßig deaktiviert ([Beschluss](https://wiki.bremen.freifunk.net/Treffen/2017_02_17#protokoll_firmware))
+
+### 2016.2.3+bremen2
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: nie  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2.3+bremen2) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2.3+bremen2)  
+**gluon-Version**: [2016.2.3](#gluon-versionen_2016-2-3)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.2.3+bremen2/)
+
+**Bug-Hinweis:** Durch die unvollständige Aktualisierung von gluon-radv-filterd könnte dieses Paket in einem vollkommen kaputten Zustand sein. Bitte stattdessen 2016.2.3+bremen3 verwenden!
+
+- Altes Übergangspaket gluon-wan-dnsmasq-static entfernt, das eine Bremen-spezifische Konfiguration in die seit Mitte 2015 in Gluon integrierte Konfiguration überführt
+- gluon-radv-filterd aktualisiert aus dem Gluon-PR (leider unvollständig, weswegen +bremen3 fällig wurde)
+
 ### 2016.2.3+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
 **Veröffentlichung auf dem `testing`-Branch**: [13.02.2017](https://downloads.bremen.freifunk.net/firmware/all/2016.2.3+bremen1/sysupgrade/testing.manifest)  
