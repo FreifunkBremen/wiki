@@ -30,6 +30,20 @@ Branch        | aktuelle Version                                                
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
+### 2016.2.4+bremen1
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: nie  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2.4+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2.4+bremen1)  
+**gluon-Version**: [2016.2.3](#gluon-versionen_2016-2-4)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.2.4+bremen1/)
+
+- gluon-radv-filterd aktualisiert aus dem Gluon-PR
+  - Hatte einen Fehler im Code der für das Parsen der Originators zuständig war
+- vpn04 entfernt
+  - Hatte massive Probleme mit Abstürzen und stand bei Hetzner
+- Paket gluon-alfred entfernt
+  - Mit dem Wechsel auf die neue Webseite, den neuen Meshviewer und damit Yanic und respondd wird Alfred endlich nicht mehr gebraucht
+
 ### 2016.2.3+bremen3
 **Veröffentlichung auf dem `stable`-Branch**: nie  
 **Veröffentlichung auf dem `testing`-Branch**: [03.03.2017](https://downloads.bremen.freifunk.net/firmware/all/2016.2.3+bremen3/sysupgrade/testing.manifest)  
@@ -442,6 +456,21 @@ Der Quellcode von Gluon liegt bei [Github](https://github.com/freifunk-gluon/glu
 Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) einsehbar.
 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
+
+### 2016.2.4
+
+**Release-Datum**: 13.03.2017  
+**offizielle Versionshinweise**: [2016.2.3](https://gluon.readthedocs.io/en/v2016.2.3/releases/v2016.2.4.html)  
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.2.4/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2016.2.4) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2016.2.4)
+
+#### Bugfixes
+- Hohe Load wegen des neuen respondd-Initscripts ist behoben
+- Der abgeschaltete Mirror ftp.all.kernel.org wurde ersetzt
+- sysupgrade funktioniert nun auf x86-Geräten besser
+
+### Sonstige Änderungen
+- Das Autoupdater-Manifest enthält nun, als Vorbereitung auf die kommende neue Version des Autoupdaters, auch SHA256-Hashes der Images statt wie bisher nur SHA512
 
 ### 2016.2.3
 
