@@ -11,11 +11,11 @@ Beim Regeltreffen geht es um allgemeine Organisation: Was muss erledigt werden? 
 Hier werden offene Aufgaben erledigt, z.B. Server-Konfiguration, Dokumentation erstellen, Firmware testen, etc.
 
 * __Wann?__: Unregelmäßig, Termine werden meist im IRC vereinbart
-* __Wo?__: Der ORt wechselt, z.B.: Hackerspace, Embassy of Nerdistan oder ganz wo anders.
+* __Wo?__: Der Ort wechselt, z.B.: Hackerspace, Embassy of Nerdistan oder ganz wo anders.
 
 ## Communitytreffen _aka Stammtisch_
 
-Neben den ganzen Orga- und Arbeitsthemen gibts in regelmäßigen Abständen eine kleine Zusammenkunft in einer Kneipe/Bar, um einfach mal zu klönen und das ein oder andere Kaltgetränk zu genießen.
+Neben den ganzen Orga- und Arbeitsthemen gibt es in regelmäßigen Abständen eine kleine Zusammenkunft in einer Kneipe/Bar, um einfach mal zu klönen und das ein oder andere Kaltgetränk zu genießen.
 
 * __Wann?__: Jeden **zweiten und vierten Mittwoch**, 20 Uhr
 * __Wo?__: BAR °Charlotte Gainsbourgh in der Neustadt (Friedrich-Ebert-Straße, Haltestelle Theater am Leibnitzplatz, Linie 4/5/6)
