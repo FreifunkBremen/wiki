@@ -25,14 +25,14 @@ Experiementelle Firmware-Versionen werden nicht offiziell unterstützt und werde
 
 Branch        | aktuelle Version                                                    | signed by
 ---           | ---                                                                 | ---
-**`stable`**  | [2016.2.3+bremen1](#freifunk-bremen-versionen_2016-2-3-bremen1) | `SimJoSt`, `corny`
-**`testing`** | [2016.2.3+bremen3](#freifunk-bremen-versionen_2016-2-3-bremen3)     | `nightly-builder`, `SimJoSt`
+**`stable`**  | [2016.2.3+bremen1](#freifunk-bremen-versionen_2016-2-3-bremen1)     | `SimJoSt`, `corny`
+**`testing`** | [2016.2.4+bremen1](#freifunk-bremen-versionen_2016-2-4-bremen1)     | `nightly-builder`, `SimJoSt`
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
 ### 2016.2.4+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
-**Veröffentlichung auf dem `testing`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: [24.03.2017](http://downloads.bremen.freifunk.net/firmware/all/2016.2.4+bremen1/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2.4+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2.4+bremen1)  
 **gluon-Version**: [2016.2.4](#gluon-versionen_2016-2-4)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.2.4+bremen1/)
