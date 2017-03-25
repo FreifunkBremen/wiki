@@ -55,6 +55,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
   - Enthält jetzt ein respondd-Modul, das den ausgewählten Gateway preisgibt
 - Mesh-VPN ist jetzt standardmäßig aktiviert ([Beschluss](https://wiki.bremen.freifunk.net/Treffen/2017_02_17#protokoll_firmware))
 - Bandbreitenlimits sind jetzt standardmäßig deaktiviert ([Beschluss](https://wiki.bremen.freifunk.net/Treffen/2017_02_17#protokoll_firmware))
+- Bandbreitenlimits sind jetzt mit zeitgemäßen Werten versehen (14400/1800) ([Beschluss](https://github.com/FreifunkBremen/gluon-site-ffhb/issues/20))
 
 ### 2016.2.3+bremen2
 **Veröffentlichung auf dem `stable`-Branch**: nie  
