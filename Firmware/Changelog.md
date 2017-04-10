@@ -30,6 +30,7 @@ Branch        | aktuelle Version                                                
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
+
 ### 2016.2.4+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: [04.07.2017](http://downloads.bremen.freifunk.net/firmware/all/2016.2.4+bremen1/sysupgrade/stable.manifest)  
 **Veröffentlichung auf dem `testing`-Branch**: [24.03.2017](http://downloads.bremen.freifunk.net/firmware/all/2016.2.4+bremen1/sysupgrade/testing.manifest)  
@@ -44,6 +45,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 - Paket gluon-alfred entfernt
   - Mit dem Wechsel auf die neue Webseite, den neuen Meshviewer und damit Yanic und respondd wird Alfred endlich nicht mehr gebraucht
 
+
 ### 2016.2.3+bremen3
 **Veröffentlichung auf dem `stable`-Branch**: nie  
 **Veröffentlichung auf dem `testing`-Branch**: [03.03.2017](https://downloads.bremen.freifunk.net/firmware/all/2016.2.3+bremen3/sysupgrade/testing.manifest)  
@@ -57,6 +59,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 - Bandbreitenlimits sind jetzt standardmäßig deaktiviert ([Beschluss](https://wiki.bremen.freifunk.net/Treffen/2017_02_17#protokoll_firmware))
 - Bandbreitenlimits sind jetzt mit zeitgemäßen Werten versehen (14400/1800) ([Beschluss](https://github.com/FreifunkBremen/gluon-site-ffhb/issues/20))
 
+
 ### 2016.2.3+bremen2
 **Veröffentlichung auf dem `stable`-Branch**: nie  
 **Veröffentlichung auf dem `testing`-Branch**: nie  
@@ -68,6 +71,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 
 - Altes Übergangspaket gluon-wan-dnsmasq-static entfernt, das eine Bremen-spezifische Konfiguration in die seit Mitte 2015 in Gluon integrierte Konfiguration überführt
 - gluon-radv-filterd aktualisiert aus dem Gluon-PR (leider unvollständig, weswegen +bremen3 fällig wurde)
+
 
 ### 2016.2.3+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: [03.03.2017](https://downloads.bremen.freifunk.net/firmware/all/2016.2.3+bremen1/sysupgrade/stable.manifest)    
@@ -451,12 +455,14 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 
 
+
 ## Gluon Versionen
 
 Der Quellcode von Gluon liegt bei [Github](https://github.com/freifunk-gluon/gluon).  
 Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) einsehbar.
 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
+
 
 ### 2016.2.5
 
@@ -468,6 +474,7 @@ Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfacht
 #### Bugfixes
 - ein B.A.T.M.A.N. compat 15 Fehler, welcher zum Absturz führte, wurde behoben  
 *Dieser Fehler betrifft die Bremer Infrastruktur nicht, da zu diesem Zeitpunkt B.A.T.M.A.N. compat 14 eingesetzt wird.*
+
 
 ### 2016.2.4
 
@@ -483,6 +490,7 @@ Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfacht
 
 ### Sonstige Änderungen
 - Das Autoupdater-Manifest enthält nun, als Vorbereitung auf die kommende neue Version des Autoupdaters, auch SHA256-Hashes der Images statt wie bisher nur SHA512
+
 
 ### 2016.2.3
 
