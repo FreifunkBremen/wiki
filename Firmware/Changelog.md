@@ -458,6 +458,17 @@ Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) 
 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
 
+### 2016.2.5
+
+**Release-Datum**: 09.04.2017  
+**offizielle Versionshinweise**: [2016.2.5](https://gluon.readthedocs.io/en/v2016.2.5/releases/v2016.2.5.html)  
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.2.5/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2016.2.5) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2016.2.5)
+
+#### Bugfixes
+- ein B.A.T.M.A.N. compat 15 Fehler, welcher zum Absturz führte, wurde behoben  
+*Dieser Fehler betrifft die Bremer Infrastruktur nicht, da zu diesem Zeitpunkt B.A.T.M.A.N. compat 14 eingesetzt wird.*
+
 ### 2016.2.4
 
 **Release-Datum**: 13.03.2017  
