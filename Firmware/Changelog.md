@@ -472,7 +472,7 @@ Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfacht
 ### 2016.2.4
 
 **Release-Datum**: 13.03.2017  
-**offizielle Versionshinweise**: [2016.2.3](https://gluon.readthedocs.io/en/v2016.2.3/releases/v2016.2.4.html)  
+**offizielle Versionshinweise**: [2016.2.4](https://gluon.readthedocs.io/en/v2016.2.4/releases/v2016.2.4.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.2.4/index.html#supported-devices-architectures)  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2016.2.4) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2016.2.4)
 
