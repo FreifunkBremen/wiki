@@ -30,7 +30,7 @@ Der Status der Gateways kann hier eingesehen werden: https://status.bremen.freif
 | Downloads             | jplitza, mortzu     | corny               | Bremen / LWLCOM       |
 | DNS                   | jplitza, mortzu     |                     | Bremen / LWLCOM       |
 | Wiki                  | jplitza, mortzu     |                     | Bremen / LWLCOM       |
-| Karte                 | jplitza, mortzu     |                     | Bremen / LWLCOM       |
+| Karte                 | jplitza, mortzu     | genofire            | Bremen / LWLCOM       |
 | Ticketsystem          | mortzu              | SimJoSt, ec8or      | Falkenstein / Hetzner |
 | gatemon               | mortzu              |                     | Bremen / LWLCOM       |
 | LWLCOM Hardwareserver | chrische, morpheus  | mortzu, jplitza     | Bremen / LWLCOM       |
