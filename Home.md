@@ -12,11 +12,11 @@ Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat im [Hackerspace 
 
 ##### Tagesordnungen
 * der letzten Treffen:
-  * [[17.03.2017|Treffen/2017_03_17]]
   * [[07.04.2017|Treffen/2017_04_07]]
-* der nächsten Treffen:
   * [[21.04.2017|Treffen/2017_04_21]]
+* der nächsten Treffen:
   * [[05.05.2017|Treffen/2017_05_05]]
+  * [[19.05.2017|Treffen/2017_05_19]]
 * [Liste aller Treffen](http://wiki.bremen.freifunk.net/pages/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
 * Weitere Termine (nicht nur Treffen) finden sich in den Protokollen zu den verschiedenen Treffen
 
