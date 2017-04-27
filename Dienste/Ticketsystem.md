@@ -8,32 +8,21 @@ Nicht alles muss zwingend erfüllt sein und wird von Situation zu Situation eing
 
 ## Anleitungen
 ### Benutzer / Frontend
-Mit einem frisch angelegten Account ist Phabricator recht spartanisch eingerichtet. Auf der Startseite werden die globalen Tasks angezeigt, welche noch keine Priorisierung erfahren haben, und dann in absteigender Priorität die Tasks, welche einem selbst zugeordnet sind.  
-Die linke Seitenleiste kann Elemente enthalten, welche in die verschiedenen Bereiche Phabricators führen, jedoch sind diese nicht standardmäßig vorhanden.
-
-#### eigenes Seitenmenü anpassen
-Um das Ticketsystem etwas leichter bedienbar zu gestalten und andere Bereiche und Tasks einfacher zu erreichen, lohnt sich ein Blick in den untersten Menüpunkt der linken Seitenleiste "Customize Menu...".
-Dort werden alle "Applications" angezeigt die an die Seitenleiste gerade "angepinnt" sind. Mit einem Klick auf das "X" dahinter lassen sie sich "entpinnen" und mit einem Klick auf "Pin Application" oben rechts, können neue hinzugefügt werden.
-
-Für einen guten Zugriff auf Phabricator lohnen sich folgenden Anwendungen anzupinnen:
-- Maniphest  
-  dieses erlaubt einem alle Tasks zu suchen und zu finden
-- Projects  
-  hierüber findet man alle Projekte sowie jene, denen man schon beigetreten ist
-- Paste  
-  ermöglicht das Einfügen ("pasten") großer Mengen von Text, wie zum Beispiel Logs/Protokollen sowie code  
-  dies ermöglicht Konversation frei davon und sauberer zu bleiben, was unbedingt getan werden sollte
-
-Eine Übersicht von Anwendungen findet man unter dem Seitenleisten-Punkt "[Applications](https://tasks.ffhb.de/applications/)".
-
-
 #### Projekten beitreten und folgen
-Alle öffentliche Projekte finden sich unter: https://tasks.ffhb.de/project/query/all/  
+Alle eigenen, bereits beigetretenen Projekte finden sich in der Seitenleiste unter "[Projects](https://tasks.ffhb.de/project/)", alle öffentlichen Projekte lassen sich dann mit einem Klick auf "[All](https://tasks.ffhb.de/project/query/all/)" anzeigen.  
 Dort wählt man ein Projekt aus, klickt es an und wählt aus der linken Seitenleiste den Punkt "Members" aus. Auf der sich öffnenden Seite kann man ganz rechts das/dem Projekt:
 - **beobachten: "Watch"**  
   Beobachtet man ein Projekt, so wird man über alle Tasks, welche diesem Projekt zugeordnet werden, per Benachrichtigung im Browser und per E-Mail auf dem Laufenden gehalten.
 - **beitreten: "Join"**  
-  Ist man einem Projekt beigetreten, so wird es im "Projects"-Bereich (https://tasks.ffhb.de/project/) von Phabricator, in der Standard-Ansicht "Joined", angezeigt für einen schnelleren Zugang zu diesem Projekt.
+  Ist man einem Projekt beigetreten, so wird es im "Projects"-Bereich von Phabricator, in der Standard-Ansicht "Joined", angezeigt für einen schnelleren Zugang zu diesem Projekt.
+
+#### Seitenleiste anpassen
+Auch wenn für neue Nutzer eine Standardauswahl an Applikationen für die Seitenleiste ausgewählt wurde, kann man es für seine eigenen Zwecke (für Admins zum Beispiel) anpassen:  
+Um das Ticketsystem etwas leichter bedienbar zu gestalten und andere Bereiche und Tasks einfacher zu erreichen, lohnt sich ein Blick in den untersten Menüpunkt der linken Seitenleiste "[Customize Menu...](https://tasks.ffhb.de/settings/panel/home/)".  
+Dort werden alle "Applications" angezeigt die an die Seitenleiste gerade "angepinnt" sind. Mit einem Klick auf das "X" dahinter lassen sie sich "entpinnen" und mit einem Klick auf "Pin Application" oben rechts, können neue hinzugefügt werden.
+
+Eine Übersicht von Anwendungen findet man unter dem Seitenleisten-Punkt "[Applications](https://tasks.ffhb.de/applications/)".
+
 
 ### Admin / Backend
 #### SSH Zugriff
