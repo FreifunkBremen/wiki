@@ -105,7 +105,7 @@ Signature check failed.
 Remove wrong Signature file.
 ~~~
 Prüfe bitte die Datei /etc/resolv.conf,
-das statt 127.0.0.1 z.B. 8.8.8.8 ode 8.8.4.4 eingetragen ist.
+dass statt 127.0.0.1 z.B. 8.8.8.8 ode 8.8.4.4 eingetragen ist.
 ~~~
 search lan
 nameserver 8.8.8.8
