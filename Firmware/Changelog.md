@@ -572,7 +572,7 @@ Dies beinträchtigt den normalen Betrieb nicht, ist aber unschön und kann bei e
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2016.2.1) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2016.2.1)
 
 - WLAN-Treiber Aktualisierungen  
-  *die Stabilität ist imme rnoch nicht perfekt, sollte aber besser sein als in den 2016.1.x Releases*
+  *die Stabilität ist immer noch nicht perfekt, sollte aber besser sein als in den 2016.1.x Releases*
     - alle Änderungen, welche seit [2016.2](#gluon-versionen_2016-2) Probleme verursachen wurden rückgängig gemacht
     - alle Änderungen, welche seit [2016.2](#gluon-versionen_2016-2) die Unterstützung für ath10k (Archer) mit sich brachten, wurden beibehalten
 - die Statuspage lässt sich jetzt auch mit deaktivierten Cookies und local storage aufrufen und benutzen
