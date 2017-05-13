@@ -538,6 +538,7 @@ Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfacht
 
 
 ### 2016.2.2
+**Bug-Hinweis:** Mit den Änderungen von 2016.2+ am Autoupdater, führt dieser nicht mehr zu Absturz der Knoten, sondern aktualisiert nach längerer Betriebszeit bis zum nächsten Neustart gar nicht mehr.
 
 **Release-Datum**: 18.12.2016  
 **offizielle Versionshinweise**: [2016.2.2](https://gluon.readthedocs.io/en/v2016.2.2/releases/v2016.2.2.html)  
