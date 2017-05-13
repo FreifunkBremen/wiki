@@ -218,9 +218,12 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 **gluon-Version**: [2016.1.5](#gluon-versionen_2016-1-5)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.1.5+bremen1/)
 
-- Unterstützung für TP-Link Archer C5/C7 wiederhergestellt  
-  **Hinweis:** auf dem 5 Ghz Frequenzband ist kein Mesh möglich 
-- Unterstützung für TP-Link WR841N/ND v11
+- **Update auf Gluon 2016.1.5**
+    - Unterstützung für 9 weitere Geräte von OpenMesh, Ubiquiti und TP-Link  
+      insbesondere der TL-WR841N/ND v11
+    - 5-Ghz-Frequenzband auf Archer C5/C7 funktioniert nun  
+    **Hinweis:** auf dem 5-Ghz-Frequenzband ist kein Mesh möglich
+    - auf allen Ubiquiti AirMAX Geräten kann die Firmware nun direkt installiert werden, ohne das vorher nötige Downgrade auf AirOS 5.5.x machen zu müssen
 
 
 ### 2016.1.4+bremen2
@@ -627,13 +630,14 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 **offizielle Versionshinweise**: [2016.1.5](https://gluon.readthedocs.io/en/v2016.1.5/releases/v2016.1.5.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1.5/index.html#supported-devices-architectures)  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2016.1.5) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2016.1.5)
-- Unterstützung für 9 weitere Geräte von OpenMesh, Ubiquiti und TP-Link
-  - insbesondere der TL-WR841N/ND v11
+- Unterstützung für 9 weitere Geräte von OpenMesh, Ubiquiti und TP-Link  
+  insbesondere der TL-WR841N/ND v11
 - einige Fehler beim Kompilieren behoben
 - einige Fehler, welche ab [2016.1.4](#gluon-versionen_2016-1-4) auftraten
-  - 5 Ghz Frequenzband auf Archer C5/C7 funktioniert nun
+  - 5-Ghz-Frequenzband auf Archer C5/C7 funktioniert nun  
+    **Hinweis:** auf dem 5-Ghz-Frequenzband ist kein Mesh möglich
   - Fehler mit VLANs und IBSS behoben
-- auf alle Ubiquiti AirMAX Geräte kann die Firmware nun direkt installiert werden, ohne das vorher nötige Downgrade auf AirOS 5.5.x zu machen
+- auf allen Ubiquiti AirMAX Geräten kann die Firmware nun direkt installiert werden, ohne das vorher nötige Downgrade auf AirOS 5.5.x machen zu müssen
 
 
 ### 2016.1.4
