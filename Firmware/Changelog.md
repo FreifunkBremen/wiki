@@ -55,7 +55,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 
 **Bug-Hinweis:** Durch eine fehlerhafte Konfiguration ist der Autoupdater nicht standardmäßig aktiv bei neuinstallierten oder zurückgesetzten Knoten!
 
-- **Update auf Gluon 2016.2.4**
+- **Update auf [Gluon 2016.2.4](#gluon-versionen_2016-2-4)**  
 - gluon-radv-filterd aktualisiert aus dem Gluon-PR
   - Hatte einen Fehler im Code der für das Parsen der Originators zuständig war
 - vpn04 entfernt
@@ -100,7 +100,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **gluon-Version**: [2016.2.3](#gluon-versionen_2016-2-3)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.2.3+bremen1/)
 
-- **Update auf Gluon 2016.2.3**
+- **Update auf [Gluon 2016.2.3](#gluon-versionen_2016-2-3)**
     - Unterstützung für 2 neue TP-LINK Geräte
     - Unterstützung von Meraki-Geräten temporär entfernt
     - einige Fehler behoben
@@ -122,7 +122,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 
 **Bug-Hinweis:** Mit den Änderungen von 2016.2+ am Autoupdater, führt dieser nicht mehr zu Absturz der Knoten, sondern updated nach längerer Uptime bis zum nächsten Neustart gar nicht mehr.
 
-- **Update auf Gluon 2016.2.2**
+- **Update auf [Gluon 2016.2.2](#gluon-versionen_2016-2-2)**
     - Unterstützung für 3 neue TP-LINK Geräte
     - einige Fehler seit [2016.2.1](#gluon-versionen_2016-2-1) und [2016.2](#gluon-versionen_2016-2) behoben  
       inkl. vertauschtem WAN/LAN-Port auf CPE210 bei initialem Flash
@@ -140,7 +140,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 
 **Bug-Hinweis:** Mit den Änderungen von 2016.2+ am Autoupdater, führt dieser nicht mehr zu Absturz der Knoten, sondern updated nach längerer Uptime bis zum nächsten Neustart gar nicht mehr.
 
-- **Update auf Gluon 2016.2.1**
+- **Update auf [Gluon 2016.2.1](#gluon-versionen_2016-2-1)**
     - WLAN-Treiber Probleme behoben
 - Bug: auf CPE210 WAN- und LAN-Port bei kompletten Neuflash verdreht
 
@@ -175,7 +175,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 **Bug-Hinweis2:** Laut den Gluon-Entwicklern und anderen Communites gibt es seit dieser Version Probleme mit ath9k, wodurch auf vielen unseren Geräten es zu verschwundenen und nicht sichtbaren WLANs und ständigen Neustarts kommen könnte.  
 Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 zurückgenommen und verzögert.
 
-- **Update auf Gluon 2016.2**
+- **Update auf [Gluon 2016.2](#gluon-versionen_2016-2)**
     - ath10k-Geräte wie Archer C5/C7 unterstützen nun Meshing auf 5 Ghz
     - manuell eingestellte WLAN-Channel können nun mit einer Option updatefest gemacht werden
     - Knoten-Namen können nun all UTF-8 Zeichen enthalten
@@ -205,7 +205,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 **gluon-Version**: [2016.1.6](#gluon-versionen_2016-1-6)  
 **Download**: *nicht mehr verfügbar*
 
-- **Update auf Gluon 2016.1.6**
+- **Update auf [Gluon 2016.1.6](#gluon-versionen_2016-1-6)**
     - deutlich verbesserter Empfang auf TP-Link CPE210/510 (etwa 20db)
 - Option zum Abschalten der fastd-Verschlüsselung für die VPN-Verbindung zu den Freifunk Bremen Gateways für den Konfigurationsmodus hinzugefügt
 - die Region für die Firmware wurde auf `EU` gesetzt, so dass das Aufspielen von Freifunk Bremen Firmware auf Archer C7 Geräten mit aktueller Standard-Firmware möglich ist
@@ -218,7 +218,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 **gluon-Version**: [2016.1.5](#gluon-versionen_2016-1-5)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.1.5+bremen1/)
 
-- **Update auf Gluon 2016.1.5**
+- **Update auf [Gluon 2016.1.5](#gluon-versionen_2016-1-5)**
     - Unterstützung für 9 weitere Geräte von OpenMesh, Ubiquiti und TP-Link  
       insbesondere der TL-WR841N/ND v11
     - 5-Ghz-Frequenzband auf Archer C5/C7 funktioniert nun  
@@ -246,7 +246,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 **gluon-Version**: [2016.1.4](#gluon-versionen_2016-1-4)  
 **Download**: *nicht mehr verfügbar*
 
-- **Update auf Gluon 2016.1.4**
+- **Update auf [Gluon 2016.1.4](#gluon-versionen_2016-1-4)**
 - Port und MTU für Mesh-VPN geändert. **Dies erfordert ggf. eine Änderung in den Freigaben der Fritzbox!** Der neue Port ist UDP 50000, der alte war UDP 10000.
 
 
@@ -257,7 +257,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 **gluon-Version**: [2016.1.3](#gluon-versionen_2016-1-3)  
 **Download**: *nicht mehr verfügbar*
 
-- **Update auf Gluon 2016.1.3**
+- **Update auf [Gluon 2016.1.3](#gluon-versionen_2016-1-3)**
 
 
 ### 2016.1.2+bremen1
@@ -267,7 +267,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 **gluon-Version**: [2016.1.2](#gluon-versionen_2016-1-2)  
 **Download**: *nicht mehr verfügbar*
 
-- **Update auf Gluon 2016.1.2**
+- **Update auf [Gluon 2016.1.2](#gluon-versionen_2016-1-2)**
 
 
 ### 2016.1+bremen1
@@ -277,7 +277,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 **gluon-Version**: [2016.1](#gluon-versionen_2016-1)  
 **Download**: *nicht mehr verfügbar*
 
-- **Update auf Gluon 2016.1**
+- **Update auf [Gluon 2016.1](#gluon-versionen_2016-1)**
 - vpn05 hinzugefügt
 - eigenes opkg-Repository für die Kernel Module für Freifunk Bremen hinzugefügt
 - TP-Link WR841N/ND v10 Unterstützung
@@ -289,7 +289,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 **gluon-Version**: [2015.2](#gluon-versionen_2016-1) (unfertig; noch in der Entwicklung)  
 **Download**: *nicht mehr verfügbar*
 
-- auf den aktuellsten Entwicklungsstand von Gluon 2015.2 upgedated
+- auf den aktuellsten Entwicklungsstand von [Gluon 2015.2](#gluon-versionen_2016-1) upgedated
 
 
 ### 2015.1.2+bremen3
@@ -382,7 +382,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 **gluon-Version**: [2015.1.2](#gluon-versionen_2015-1-2)    
 **Download**: *nicht mehr verfügbar*
 
-- **Update auf Gluon 2015.1.2**
+- **Update auf [Gluon 2015.1.2](#gluon-versionen_2015-1-2)**
 
 
 ### 2015.1.1+bremen1
@@ -392,7 +392,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 **gluon-Version**: [2015.1.1](#gluon-versionen_2015-1-1)    
 **Download**: *nicht mehr verfügbar*
 
-- **Update auf Gluon 2015.1.1**
+- **Update auf [Gluon 2015.1.1](#gluon-versionen_2015-1-1)**
 - Node-Namen-Präfix `ffhb-` nicht mehr standardmäßig vorgegeben
 
 
@@ -414,7 +414,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 **gluon-Version**: [2014.4](#gluon-versionen_2014-4)    
 **Download**: *nicht mehr verfügbar*
 
-- **Update auf Gluon 2014.4**
+- **Update auf [Gluon 2014.4](#gluon-versionen_2014-4)**
 - Link zum Eingeben des fastd key auf dem Server entfernt
 - Kanalanalyse-Komponenten entfernt
 - neues Gateway VPN03 hinzugefügt
@@ -442,7 +442,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 **gluon-Version**: [2014.3](#gluon-versionen_2014-3)    
 **Download**: *nicht mehr verfügbar*
 
-- **Update auf Gluon 2014.3**
+- **Update auf [Gluon 2014.3](#gluon-versionen_2014-3)**
 - Ende der WLAN-Probleme (mit Überwachung evtl. Probleme)
 - Autoupdater standardmäßig an
 
