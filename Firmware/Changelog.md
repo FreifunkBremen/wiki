@@ -289,7 +289,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 **gluon-Version**: [2015.2](#gluon-versionen_2016-1) (unfertig; noch in der Entwicklung)  
 **Download**: *nicht mehr verfügbar*
 
-- Update auf den aktuellen Entwicklungsstand des unfertigen [Gluon 2015.2](#gluon-versionen_2016-1)
+- **Update auf den aktuellen Entwicklungsstand des unfertigen [Gluon 2015.2](#gluon-versionen_2016-1)**
 
 
 ### 2015.1.2+bremen3
@@ -334,7 +334,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 **gluon-Version**: [2015.2](#gluon-versionen_2016-1) (unfertig; noch in der Entwicklung)    
 **Download**: *nicht mehr verfügbar*
 
-- Update auf den aktuellen Entwicklungsstand des unfertigen [Gluon 2015.2](#gluon-versionen_2016-1)
+- **Update auf den aktuellen Entwicklungsstand des unfertigen [Gluon 2015.2](#gluon-versionen_2016-1)**
 - fehlerhaftes Abschalten des WLAN-Moduls bei TP-Link TL-WR841 v10 Geräten bei [2015.2+bremen1~exp](#Freifunk-Bremen-Versionen_2015.2+bremen1~exp) behoben
 
 
@@ -344,7 +344,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 **gluon-Version**: [2015.2](#gluon-versionen_2016-1) (unfertig; noch in der Entwicklung)    
 **Download**: *nicht mehr verfügbar*
 
-- Update auf den aktuellen Entwicklungsstand des unfertigen [Gluon 2015.2](#gluon-versionen_2016-1)
+- **Update auf den aktuellen Entwicklungsstand des unfertigen [Gluon 2015.2](#gluon-versionen_2016-1)**
 - Support für TP-Link TL-WR841 v10
 
 
