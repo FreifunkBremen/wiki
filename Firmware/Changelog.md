@@ -120,7 +120,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **gluon-Version**: [2016.2.2](#gluon-versionen_2016-2-2)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.2.2+bremen1/)
 
-**Bug-Hinweis:** Mit den Änderungen von 2016.2+ am Autoupdater, führt dieser nicht mehr zu Absturz der Knoten, sondern updated nach längerer Uptime bis zum nächsten Neustart gar nicht mehr.
+**Bug-Hinweis:** Mit den Änderungen von 2016.2+ am Autoupdater, führt dieser nicht mehr zu Absturz der Knoten, sondern aktualisiert nach längerer Betriebszeit bis zum nächsten Neustart gar nicht mehr.
 
 - **Update auf [Gluon 2016.2.2](#gluon-versionen_2016-2-2)**
     - Unterstützung für 3 neue TP-LINK Geräte
@@ -138,7 +138,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **gluon-Version**: [2016.2.1](#gluon-versionen_2016-2-1)  
 **Download**: *nicht mehr verfügbar*
 
-**Bug-Hinweis:** Mit den Änderungen von 2016.2+ am Autoupdater, führt dieser nicht mehr zu Absturz der Knoten, sondern updated nach längerer Uptime bis zum nächsten Neustart gar nicht mehr.
+**Bug-Hinweis:** Mit den Änderungen von 2016.2+ am Autoupdater, führt dieser nicht mehr zu Absturz der Knoten, sondern aktualisiert nach längerer Betriebszeit bis zum nächsten Neustart gar nicht mehr.
 
 - **Update auf [Gluon 2016.2.1](#gluon-versionen_2016-2-1)**
     - WLAN-Treiber Probleme behoben
@@ -152,7 +152,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **gluon-Version**: [2016.2](#gluon-versionen_2016-2)  
 **Download**: *nicht mehr verfügbar*
 
-**Bug-Hinweis:** Mit den Änderungen von 2016.2+ am Autoupdater, führt dieser nicht mehr zu Absturz der Knoten, sondern updated nach längerer Uptime bis zum nächsten Neustart gar nicht mehr.
+**Bug-Hinweis:** Mit den Änderungen von 2016.2+ am Autoupdater, führt dieser nicht mehr zu Absturz der Knoten, sondern aktualisiert nach längerer Betriebszeit bis zum nächsten Neustart gar nicht mehr.
 
 **Bug-Hinweis2:** Laut den Gluon-Entwicklern und anderen Communites gibt es seit dieser Version Probleme mit ath9k, wodurch auf vielen unseren Geräten es zu verschwundenen und nicht sichtbaren WLANs und ständigen Neustarts kommen könnte.  
 Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 zurückgenommen und verzögert.
@@ -170,7 +170,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 **gluon-Version**: [2016.2](#gluon-versionen_2016-2)  
 **Download**: *nicht mehr verfügbar*
 
-**Bug-Hinweis:** Mit den Änderungen von 2016.2+ am Autoupdater, führt dieser nicht mehr zu Absturz der Knoten, sondern updated nach löngerer Uptime bis zum nächsten Neustart gar nicht mehr.
+**Bug-Hinweis:** Mit den Änderungen von 2016.2+ am Autoupdater, führt dieser nicht mehr zu Absturz der Knoten, sondern aktualisiert nach löngerer Betriebszeit bis zum nächsten Neustart gar nicht mehr.
 
 **Bug-Hinweis2:** Laut den Gluon-Entwicklern und anderen Communites gibt es seit dieser Version Probleme mit ath9k, wodurch auf vielen unseren Geräten es zu verschwundenen und nicht sichtbaren WLANs und ständigen Neustarts kommen könnte.  
 Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 zurückgenommen und verzögert.
@@ -289,7 +289,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 **gluon-Version**: [2015.2](#gluon-versionen_2016-1) (unfertig; noch in der Entwicklung)  
 **Download**: *nicht mehr verfügbar*
 
-- auf den aktuellsten Entwicklungsstand von [Gluon 2015.2](#gluon-versionen_2016-1) upgedated
+- Update auf den aktuellen Entwicklungsstand des unfertigen [Gluon 2015.2](#gluon-versionen_2016-1)
 
 
 ### 2015.1.2+bremen3
@@ -334,7 +334,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 **gluon-Version**: [2015.2](#gluon-versionen_2016-1) (unfertig; noch in der Entwicklung)    
 **Download**: *nicht mehr verfügbar*
 
-- auf den aktuellsten Entwicklungsstand von Gluon 2015.2 upgedated
+- Update auf den aktuellen Entwicklungsstand des unfertigen Gluon 2015.2
 - fehlerhaftes Abschalten des WLAN-Moduls bei TP-Link TL-WR841 v10 Geräten bei [2015.2+bremen1~exp](#Freifunk-Bremen-Versionen_2015.2+bremen1~exp) behoben
 
 
@@ -560,7 +560,7 @@ Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfacht
 
 
 ### 2016.2.1
-**Bug-Hinweis:** Mit den Änderungen von 2016.2+ am Autoupdater, führt dieser nicht mehr zu Absturz der Knoten, sondern updated nach löngerer Uptime bis zum nächsten Neustart gar nicht mehr.
+**Bug-Hinweis:** Mit den Änderungen von 2016.2+ am Autoupdater, führt dieser nicht mehr zu Absturz der Knoten, sondern aktualisiert nach löngerer Betriebszeit bis zum nächsten Neustart gar nicht mehr.
 
 **Bug-Hinweis**: Beim aufsplitten des gemeinsamen Profil von CPE210 und CPE510 in zwei einzelne Profile, ist ein Fehler unterlaufen, welcher WAN- und LAN-Port der CPE210 verdreht. Der Fehler tritt nur bei einem kompletten Neuflash auf, nicht bei Autoupdates.  
 Dies beinträchtigt den normalen Betrieb nicht, ist aber unschön und kann bei erweiterter, manueller Konfiguration zu Verwirrung führen.
@@ -580,7 +580,7 @@ Dies beinträchtigt den normalen Betrieb nicht, ist aber unschön und kann bei e
 
 
 ### 2016.2
-**Bug-Hinweis:** Mit den Änderungen von 2016.2+ am Autoupdater, führt dieser nicht mehr zu Absturz der Knoten, sondern updated nach löngerer Uptime bis zum nächsten Neustart gar nicht mehr.
+**Bug-Hinweis:** Mit den Änderungen von 2016.2+ am Autoupdater, führt dieser nicht mehr zu Absturz der Knoten, sondern aktualisiert nach löngerer Betriebszeit bis zum nächsten Neustart gar nicht mehr.
 
 **Bug-Hinweis2:** Laut den Gluon-Entwicklern und anderen Communites gibt es seit dieser Version Probleme mit ath9k, wodurch auf vielen unseren Geräten es zu verschwundenen und nicht sichtbaren WLANs und ständigen Neustarts kommen könnte.  
 Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 zurückgenommen und verzögert.
