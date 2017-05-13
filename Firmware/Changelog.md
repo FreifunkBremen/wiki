@@ -55,6 +55,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 
 **Bug-Hinweis:** Durch eine fehlerhafte Konfiguration ist der Autoupdater nicht standardmäßig aktiv bei neuinstallierten oder zurückgesetzten Knoten!
 
+- Update auf Gluon 2016.2.4
 - gluon-radv-filterd aktualisiert aus dem Gluon-PR
   - Hatte einen Fehler im Code der für das Parsen der Originators zuständig war
 - vpn04 entfernt
