@@ -155,7 +155,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **Bug-Hinweis:** Mit den Änderungen von 2016.2+ am Autoupdater, führt dieser nicht mehr zu Absturz der Knoten, sondern aktualisiert nach längerer Betriebszeit bis zum nächsten Neustart gar nicht mehr.
 
 **Bug-Hinweis2:** Laut den Gluon-Entwicklern und anderen Communites gibt es seit dieser Version Probleme mit ath9k, wodurch auf vielen unseren Geräten es zu verschwundenen und nicht sichtbaren WLANs und ständigen Neustarts kommen könnte.  
-Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 zurückgenommen und verzögert.
+Aus diesem Grund haben wir das Release von Firmware basierend auf [Gluon 2016.2](#gluon-versionen_2016-2) zurückgenommen und verzögert.
 
 - 802.11b deaktiviert
 - Paket gluon-radv-filterd aufgenommen (lässt nur das IPv6 Router Advertisement vom laut batman-adv besten Gateway durch)
@@ -173,7 +173,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 **Bug-Hinweis:** Mit den Änderungen von 2016.2+ am Autoupdater, führt dieser nicht mehr zu Absturz der Knoten, sondern aktualisiert nach längerer Betriebszeit bis zum nächsten Neustart gar nicht mehr.
 
 **Bug-Hinweis2:** Laut den Gluon-Entwicklern und anderen Communites gibt es seit dieser Version Probleme mit ath9k, wodurch auf vielen unseren Geräten es zu verschwundenen und nicht sichtbaren WLANs und ständigen Neustarts kommen könnte.  
-Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 zurückgenommen und verzögert.
+Aus diesem Grund haben wir das Release von Firmware basierend auf [Gluon 2016.2](#gluon-versionen_2016-2) zurückgenommen und verzögert.
 
 - **Update auf [Gluon 2016.2](#gluon-versionen_2016-2)**
     - ath10k-Geräte wie Archer C5/C7 unterstützen nun Meshing auf 5 Ghz
@@ -185,7 +185,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 
 ### 2016.1.6+bremen1.1
-**Bug-Hinweis:** In Gluon 2016.1.6 gibt es ein Problem mit statisch konfigurierten DNS-Servern. fastd kann dann keine Verbindung zu einem Gateway aufbauen.
+**Bug-Hinweis:** In [Gluon 2016.1.6](#gluon-versionen_2016-1-6) gibt es ein Problem mit statisch konfigurierten DNS-Servern. fastd kann dann keine Verbindung zu einem Gateway aufbauen.
 
 **Veröffentlichung auf dem `stable`-Branch**: [23.11.2016](http://downloads.bremen.freifunk.net/firmware/all/2016.1.6+bremen1.1/sysupgrade/stable.manifest)  
 **Veröffentlichung auf dem `testing`-Branch**: [11.10.2016](https://downloads.bremen.freifunk.net/firmware/all/2016.1.6+bremen1.1/sysupgrade/testing.manifest)  
@@ -197,7 +197,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 
 ### 2016.1.6+bremen1
-**Bug-Hinweis:** In Gluon 2016.1.6 gibt es ein Problem mit statisch konfigurierten DNS-Servern. fastd kann dann keine Verbindung zu einem Gateway aufbauen.
+**Bug-Hinweis:** In [Gluon 2016.1.6](#gluon-versionen_2016-1-6) gibt es ein Problem mit statisch konfigurierten DNS-Servern. fastd kann dann keine Verbindung zu einem Gateway aufbauen.
 
 **Veröffentlichung auf dem `stable`-Branch**: [07.10.2016](https://downloads.bremen.freifunk.net/firmware/all/2016.1.6+bremen1/sysupgrade/stable.manifest)  
 **Veröffentlichung auf dem `testing`-Branch**: [20.09.2016](https://downloads.bremen.freifunk.net/firmware/all/2016.1.6+bremen1/sysupgrade/testing.manifest)  
@@ -235,7 +235,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 
 *Bei Firmware-Version [2016.1.4+bremen1](#freifunk-bremen-versionen_2016-1-4-bremen1) wurden keine Images für die TP-Link Archer C5/C7 generiert. Diese Version ist ein erneuter Build auf dem gleichen Quellcode, jedoch mit Archer C5/C7 Images.*
 
-**Hinweis:** Aufgrund eines Fehlers spezifisch in Gluon 2016.1.4 funktioniert das 5-Ghz-Modul der Archer-Geräte überhaupt nicht ([Gluon-Issue](https://github.com/freifunk-gluon/gluon/issues/758)).  
+**Hinweis:** Aufgrund eines Fehlers spezifisch in [Gluon 2016.1.4](#gluon-versionen_2016-1-4) funktioniert das 5-Ghz-Modul der Archer-Geräte überhaupt nicht ([Gluon-Issue](https://github.com/freifunk-gluon/gluon/issues/758)).  
 Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 
 
@@ -584,7 +584,7 @@ Dies beinträchtigt den normalen Betrieb nicht, ist aber unschön und kann bei e
 **Bug-Hinweis:** Mit den Änderungen von 2016.2+ am Autoupdater, führt dieser nicht mehr zu Absturz der Knoten, sondern aktualisiert nach längerer Betriebszeit bis zum nächsten Neustart gar nicht mehr.
 
 **Bug-Hinweis2:** Laut den Gluon-Entwicklern und anderen Communites gibt es seit dieser Version Probleme mit ath9k, wodurch auf vielen unseren Geräten es zu verschwundenen und nicht sichtbaren WLANs und ständigen Neustarts kommen könnte.  
-Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 zurückgenommen und verzögert.
+Aus diesem Grund haben wir das Release von Firmware basierend auf [Gluon 2016.2](#gluon-versionen_2016-2) zurückgenommen und verzögert.
 
 **Veröffentlichungs-Datum**: 21.09.2016  
 **offizielle Versionshinweise**: [2016.2](https://gluon.readthedocs.io/en/v2016.2/releases/v2016.2.html)  
@@ -825,4 +825,4 @@ target/linux/clean`, um den Kernel-Tree zu säubern)
 
 Support für nicht-ar71xx-Platformen und VPN-Verbindungen über
 IPv6-Internet-Anschlüsse haben es leider nicht mehr in dieses Release
-geschafft, das wird dann in Gluon 2014.3 nachgeliefert :D
+geschafft, das wird dann in [Gluon 2014.3](#gluon-versionen_2014-3) nachgeliefert :D
