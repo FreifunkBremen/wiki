@@ -51,7 +51,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **Veröffentlichung auf dem `testing`-Branch**: [24.03.2017](http://downloads.bremen.freifunk.net/firmware/all/2016.2.4+bremen1/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2.4+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2.4+bremen1)  
 **gluon-Version**: [2016.2.4](#gluon-versionen_2016-2-4)  
-**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.2.4+bremen1/)
+**Download**: *nicht mehr verfügbar*
 
 **Bug-Hinweis:** Durch eine fehlerhafte Konfiguration ist der Autoupdater nicht standardmäßig aktiv bei neuinstallierten oder zurückgesetzten Knoten!
 
@@ -69,7 +69,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **Veröffentlichung auf dem `testing`-Branch**: [03.03.2017](https://downloads.bremen.freifunk.net/firmware/all/2016.2.3+bremen3/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2.3+bremen3) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2.3+bremen3)  
 **gluon-Version**: [2016.2.3](#gluon-versionen_2016-2-3)  
-**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.2.3+bremen3/)
+**Download**: *nicht mehr verfügbar*
 
 **Bug-Hinweis:** Durch eine fehlerhafte Konfiguration ist der Autoupdater nicht standardmäßig aktiv bei neuinstallierten oder zurückgesetzten Knoten!
 
@@ -85,7 +85,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **Veröffentlichung auf dem `testing`-Branch**: nie  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2.3+bremen2) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2.3+bremen2)  
 **gluon-Version**: [2016.2.3](#gluon-versionen_2016-2-3)  
-**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.2.3+bremen2/)
+**Download**: *nicht mehr verfügbar*
 
 **Bug-Hinweis:** Durch die unvollständige Aktualisierung von gluon-radv-filterd könnte dieses Paket in einem vollkommen kaputten Zustand sein. Bitte stattdessen 2016.2.3+bremen3 verwenden!
 
@@ -98,7 +98,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **Veröffentlichung auf dem `testing`-Branch**: [13.02.2017](https://downloads.bremen.freifunk.net/firmware/all/2016.2.3+bremen1/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2.3+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2.3+bremen1)  
 **gluon-Version**: [2016.2.3](#gluon-versionen_2016-2-3)  
-**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.2.3+bremen1/)
+**Download**: *nicht mehr verfügbar*
 
 - **Update auf [Gluon 2016.2.3](#gluon-versionen_2016-2-3)**
     - Unterstützung für 2 neue TP-LINK Geräte
@@ -118,7 +118,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **Veröffentlichung auf dem `testing`-Branch**: [19.12.2016](https://downloads.bremen.freifunk.net/firmware/all/2016.2.2+bremen1/sysupgrade/testing.manifest)   
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2.2+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2.2+bremen1)  
 **gluon-Version**: [2016.2.2](#gluon-versionen_2016-2-2)  
-**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.2.2+bremen1/)
+**Download**: *nicht mehr verfügbar*
 
 **Bug-Hinweis:** Mit den Änderungen von 2016.2+ am Autoupdater, führt dieser nicht mehr zu Absturz der Knoten, sondern aktualisiert nach längerer Betriebszeit bis zum nächsten Neustart gar nicht mehr.
 
@@ -191,7 +191,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 **Veröffentlichung auf dem `testing`-Branch**: [11.10.2016](https://downloads.bremen.freifunk.net/firmware/all/2016.1.6+bremen1.1/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.1.6+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.1.6+bremen1)  
 **gluon-Version**: [2016.1.6](#gluon-versionen_2016-1-6)  
-**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.1.6+bremen1.1/)
+**Download**: *nicht mehr verfügbar*
 
 *Bei Firmware-Version [2016.1.6+bremen1](#freifunk-bremen-versionen_2016-1-6-bremen1) wurden keine Images für die TP-Link Archer C5/C7 generiert. Diese Version ist auf ein erneuter Build auf dem gleichen Quellcode, jedoch mit Archer C5/C7 Images.*
 
@@ -216,7 +216,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf Gluon 2016.2 z
 **Veröffentlichung auf dem `testing`-Branch**: [26.05.2016](https://downloads.bremen.freifunk.net/firmware/all/2016.1.5+bremen1/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.1.5+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.1.5+bremen1)  
 **gluon-Version**: [2016.1.5](#gluon-versionen_2016-1-5)  
-**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.1.5+bremen1/)
+**Download**: *nicht mehr verfügbar*
 
 - **Update auf [Gluon 2016.1.5](#gluon-versionen_2016-1-5)**
     - Unterstützung für 9 weitere Geräte von OpenMesh, Ubiquiti und TP-Link  
