@@ -348,7 +348,7 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 
 
 ### 2015.1.2+bremen2
-###### *urspr. [2015.1.2+bremen2~testing](#Freifunk-Bremen-Versionen_2015.1.2+bremen2~testing)*
+###### *urspr. [2015.1.2+bremen2~testing](#freifunk-bremen-versionen_2015-1-2-bremen2-testing)*
 **Veröffentlichungsdatum**: 08.11.2015  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2015.1.2+bremen2) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.2+bremen2)   
 **gluon-Version**: [2015.1.2](#gluon-versionen_2015-1-2)    
