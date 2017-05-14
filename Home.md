@@ -27,7 +27,7 @@ Eine Übersicht aller Arten von Zusammenkünften findest du unter [[Treffen|Tref
 * [[Wo bekomme ich einen Router?|Router/Routerabholstandorte]]
 * [[Sammelbestellung Access Points|Router/SammelbestellungAPs]]
 * Gemeinsamer [[Kalender]]
-* [[Breminale 2016|Events/Breminale/2016/Alles]]
+* [[Breminale 2017|Events/Breminale/2017/Alles]]
 
 ## Technisches
 * [[Firmware|Anleitungen/Firmware/Home]]
