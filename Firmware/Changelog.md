@@ -33,7 +33,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 
 ### 2016.2.4+bremen2
 **Veröffentlichung auf dem `stable`-Branch**: [30.04.2017](http://downloads.bremen.freifunk.net/firmware/all/2016.2.4+bremen2/sysupgrade/stable.manifest)  
-**Veröffentlichung auf dem `testing`-Branch**: [14.04.2017](http://downloads.bremen.freifunk.net/firmware/all/2016.2.4+bremen2/sysupgrade/testing.manifest)  
+**Veröffentlichung auf dem `testing`-Branch**: [14.04.2017](http://downloads.bremen.freifunk.net/firmware/all/2016.2.4+bremen2/sysupgrade/testing.manifest) ([Blogpost](https://bremen.freifunk.net/blog/2017/04/14/neue-testing-2016-2-4-bremen2.html))  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2.4+bremen2) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2.4+bremen2)  
 **gluon-Version**: [2016.2.4](#gluon-versionen_2016-2-4)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.2.4+bremen2/)
@@ -47,8 +47,9 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 
 
 ### 2016.2.4+bremen1
-**Veröffentlichung auf dem `stable`-Branch**: 04.07.2017 (zurückgezogen am 10.04.2017)  
-**Veröffentlichung auf dem `testing`-Branch**: 24.03.2017  
+**Veröffentlichung auf dem `stable`-Branch**: 04.07.2017  
+(zurückgezogen am 10.04.2017)([Blogpost](https://bremen.freifunk.net/blog/2017/04/13/2016-2-4-bremen1.html))  
+**Veröffentlichung auf dem `testing`-Branch**: 24.03.2017 ([Blogpost](https://bremen.freifunk.net/blog/2017/03/24/neue-stable-und-testing.html))  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2.4+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2.4+bremen1)  
 **gluon-Version**: [2016.2.4](#gluon-versionen_2016-2-4)  
 **Download**: *nicht mehr verfügbar*
@@ -66,7 +67,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 
 ### 2016.2.3+bremen3
 **Veröffentlichung auf dem `stable`-Branch**: nie  
-**Veröffentlichung auf dem `testing`-Branch**: 03.03.2017  
+**Veröffentlichung auf dem `testing`-Branch**: 03.03.2017 ([Blogpost](https://bremen.freifunk.net/blog/2017/03/24/neue-stable-und-testing.html))  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2.3+bremen3) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2.3+bremen3)  
 **gluon-Version**: [2016.2.3](#gluon-versionen_2016-2-3)  
 **Download**: *nicht mehr verfügbar*
@@ -94,8 +95,8 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 
 
 ### 2016.2.3+bremen1
-**Veröffentlichung auf dem `stable`-Branch**: 03.03.2017    
-**Veröffentlichung auf dem `testing`-Branch**: 13.02.2017  
+**Veröffentlichung auf dem `stable`-Branch**: 03.03.2017 ([Blogpost](https://bremen.freifunk.net/blog/2017/03/24/neue-stable-und-testing.html))   
+**Veröffentlichung auf dem `testing`-Branch**: 13.02.2017 ([Blogpost](https://bremen.freifunk.net/blog/2017/02/17/neue-testing-2016-2-3-bremen1.html))  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2.3+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2.3+bremen1)  
 **gluon-Version**: [2016.2.3](#gluon-versionen_2016-2-3)  
 **Download**: *nicht mehr verfügbar*
@@ -115,7 +116,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 
 ### 2016.2.2+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
-**Veröffentlichung auf dem `testing`-Branch**: 19.12.2016   
+**Veröffentlichung auf dem `testing`-Branch**: 19.12.2016 ([Blogpost](https://bremen.freifunk.net/blog/2016/12/30/neue-testing-2016-2-2-bremen1.html))   
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2.2+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2.2+bremen1)  
 **gluon-Version**: [2016.2.2](#gluon-versionen_2016-2-2)  
 **Download**: *nicht mehr verfügbar*
@@ -133,7 +134,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 
 ### 2016.2.1+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
-**Veröffentlichung auf dem `testing`-Branch**: 08.11.2016  
+**Veröffentlichung auf dem `testing`-Branch**: 08.11.2016 ([Blogpost](https://bremen.freifunk.net/blog/2016/11/09/neue-testing-firmware.html))  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2.1+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2.1+bremen1)  
 **gluon-Version**: [2016.2.1](#gluon-versionen_2016-2-1)  
 **Download**: *nicht mehr verfügbar*
@@ -186,8 +187,8 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf [Gluon 2016.2]
 ### 2016.1.6+bremen1.1
 **Bug-Hinweis:** In [Gluon 2016.1.6](#gluon-versionen_2016-1-6) gibt es ein Problem mit statisch konfigurierten DNS-Servern. fastd kann dann keine Verbindung zu einem Gateway aufbauen.
 
-**Veröffentlichung auf dem `stable`-Branch**: 23.11.2016  
-**Veröffentlichung auf dem `testing`-Branch**: 11.10.2016  
+**Veröffentlichung auf dem `stable`-Branch**: 23.11.2016 ([Blogpost](https://bremen.freifunk.net/blog/2016/11/23/2016-1-6-bremen1-1-jetzt-stable.html))  
+**Veröffentlichung auf dem `testing`-Branch**: 11.10.2016 ([Blogpost](https://bremen.freifunk.net/blog/2016/10/11/neue-firmware-und-ausblick.html))  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.1.6+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.1.6+bremen1)  
 **gluon-Version**: [2016.1.6](#gluon-versionen_2016-1-6)  
 **Download**: *nicht mehr verfügbar*
@@ -198,8 +199,8 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf [Gluon 2016.2]
 ### 2016.1.6+bremen1
 **Bug-Hinweis:** In [Gluon 2016.1.6](#gluon-versionen_2016-1-6) gibt es ein Problem mit statisch konfigurierten DNS-Servern. fastd kann dann keine Verbindung zu einem Gateway aufbauen.
 
-**Veröffentlichung auf dem `stable`-Branch**: 07.10.2016  
-**Veröffentlichung auf dem `testing`-Branch**: 20.09.2016  
+**Veröffentlichung auf dem `stable`-Branch**: 07.10.2016 ([Blogpost](https://bremen.freifunk.net/blog/2016/10/11/neue-firmware-und-ausblick.html))  
+**Veröffentlichung auf dem `testing`-Branch**: 20.09.2016 ([Blogpost](https://bremen.freifunk.net/blog/2016/10/11/neue-firmware-und-ausblick.html))  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.1.6+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.1.6+bremen1)  
 **gluon-Version**: [2016.1.6](#gluon-versionen_2016-1-6)  
 **Download**: *nicht mehr verfügbar*
@@ -212,7 +213,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf [Gluon 2016.2]
 
 ### 2016.1.5+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: 03.07.2016  
-**Veröffentlichung auf dem `testing`-Branch**: 26.05.2016  
+**Veröffentlichung auf dem `testing`-Branch**: 26.05.2016 ([Blogpost](https://bremen.freifunk.net/blog/2016/05/28/neue-2016er-firmwares.html))  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.1.5+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.1.5+bremen1)  
 **gluon-Version**: [2016.1.5](#gluon-versionen_2016-1-5)  
 **Download**: *nicht mehr verfügbar*
@@ -226,8 +227,8 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf [Gluon 2016.2]
 
 
 ### 2016.1.4+bremen2
-**Veröffentlichung auf dem `stable`-Branch**: 24.05.2016  
-**Veröffentlichung auf dem `testing`-Branch**: 06.05.2016  
+**Veröffentlichung auf dem `stable`-Branch**: 24.05.2016 ([Blogpost](https://bremen.freifunk.net/blog/2016/05/28/neue-2016er-firmwares.html))  
+**Veröffentlichung auf dem `testing`-Branch**: 06.05.2016 ([Blogpost](https://bremen.freifunk.net/blog/2016/05/28/neue-2016er-firmwares.html))  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.1.4+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.1.4+bremen1)  
 **gluon-Version**: [2016.1.4](#gluon-versionen_2016-1-4)  
 **Download**: *nicht mehr verfügbar*
@@ -261,7 +262,7 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 
 ### 2016.1.2+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
-**Veröffentlichung auf dem `testing`-Branch**: 19.03.2016  
+**Veröffentlichung auf dem `testing`-Branch**: 19.03.2016 ([Blogpost](https://bremen.freifunk.net/blog/2016/05/28/neue-2016er-firmwares.html))  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.1.2+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.1.2+bremen1)  
 **gluon-Version**: [2016.1.2](#gluon-versionen_2016-1-2)  
 **Download**: *nicht mehr verfügbar*
@@ -271,7 +272,7 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 
 ### 2016.1+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
-**Veröffentlichung auf dem `testing`-Branch**: 18.02.2016  
+**Veröffentlichung auf dem `testing`-Branch**: 18.02.2016 ([Blogpost](https://bremen.freifunk.net/blog/2016/05/28/neue-2016er-firmwares.html))  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.1+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.1+bremen1)   
 **gluon-Version**: [2016.1](#gluon-versionen_2016-1)  
 **Download**: *nicht mehr verfügbar*
@@ -292,8 +293,8 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 
 
 ### 2015.1.2+bremen3
-**Veröffentlichung auf dem `stable`-Branch**: 30.12.2015   
-**Veröffentlichung auf dem `testing`-Branch**: 18.12.2015  
+**Veröffentlichung auf dem `stable`-Branch**: 30.12.2015 ([Blogpost](https://bremen.freifunk.net/blog/2015/12/30/v2015-1-2-bremen3-wird-stable.html))  
+**Veröffentlichung auf dem `testing`-Branch**: 18.12.2015 ([Blogpost](https://bremen.freifunk.net/blog/2015/12/20/v2015-1-2-bremen3-und-firmwareschema-umstellung.html))  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2015.1.2+bremen3) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.2+bremen3)  
 **gluon-Version**: [2015.1.2](#gluon-versionen_2015-1-2)    
 **Download**: *nicht mehr verfügbar*
@@ -349,7 +350,7 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 
 ### 2015.1.2+bremen2
 ###### *urspr. [2015.1.2+bremen2~testing](#freifunk-bremen-versionen_2015-1-2-bremen2-testing)*
-**Veröffentlichungsdatum**: 08.11.2015  
+**Veröffentlichungsdatum**: 08.11.2015 ([Blogpost](https://bremen.freifunk.net/blog/2015/11/08/neue-firmware.html))  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2015.1.2+bremen2) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.2+bremen2)   
 **gluon-Version**: [2015.1.2](#gluon-versionen_2015-1-2)    
 **Download**: *nicht mehr verfügbar*
