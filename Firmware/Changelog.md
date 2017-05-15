@@ -95,7 +95,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 
 
 ### 2016.2.3+bremen1
-**Veröffentlichung auf dem `stable`-Branch**: 03.03.2017 ([Blogpost](https://bremen.freifunk.net/blog/2017/03/24/neue-stable-und-testing.html))   
+**Veröffentlichung auf dem `stable`-Branch**: 03.03.2017 ([Blogpost](https://bremen.freifunk.net/blog/2017/03/24/neue-stable-und-testing.html))  
 **Veröffentlichung auf dem `testing`-Branch**: 13.02.2017 ([Blogpost](https://bremen.freifunk.net/blog/2017/02/17/neue-testing-2016-2-3-bremen1.html))  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2.3+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2.3+bremen1)  
 **gluon-Version**: [2016.2.3](#gluon-versionen_2016-2-3)  
@@ -116,7 +116,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 
 ### 2016.2.2+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
-**Veröffentlichung auf dem `testing`-Branch**: 19.12.2016 ([Blogpost](https://bremen.freifunk.net/blog/2016/12/30/neue-testing-2016-2-2-bremen1.html))   
+**Veröffentlichung auf dem `testing`-Branch**: 19.12.2016 ([Blogpost](https://bremen.freifunk.net/blog/2016/12/30/neue-testing-2016-2-2-bremen1.html))  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2.2+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2.2+bremen1)  
 **gluon-Version**: [2016.2.2](#gluon-versionen_2016-2-2)  
 **Download**: *nicht mehr verfügbar*
@@ -273,7 +273,7 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 ### 2016.1+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
 **Veröffentlichung auf dem `testing`-Branch**: 18.02.2016 ([Blogpost](https://bremen.freifunk.net/blog/2016/05/28/neue-2016er-firmwares.html))  
-**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.1+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.1+bremen1)   
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.1+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.1+bremen1)  
 **gluon-Version**: [2016.1](#gluon-versionen_2016-1)  
 **Download**: *nicht mehr verfügbar*
 
@@ -285,7 +285,7 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 
 ### 2015.2+bremen3~exp
 **Veröffentlichungsdatum**: 25.12.2015 
-**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2015.2+bremen3-exp) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.2+bremen3-exp)   
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2015.2+bremen3-exp) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.2+bremen3-exp)  
 **gluon-Version**: [2015.2](#gluon-versionen_2016-1) (unfertig; noch in der Entwicklung)  
 **Download**: *nicht mehr verfügbar*
 
@@ -296,7 +296,7 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 **Veröffentlichung auf dem `stable`-Branch**: 30.12.2015 ([Blogpost](https://bremen.freifunk.net/blog/2015/12/30/v2015-1-2-bremen3-wird-stable.html))  
 **Veröffentlichung auf dem `testing`-Branch**: 18.12.2015 ([Blogpost](https://bremen.freifunk.net/blog/2015/12/20/v2015-1-2-bremen3-und-firmwareschema-umstellung.html))  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2015.1.2+bremen3) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.2+bremen3)  
-**gluon-Version**: [2015.1.2](#gluon-versionen_2015-1-2)    
+**gluon-Version**: [2015.1.2](#gluon-versionen_2015-1-2)  
 **Download**: *nicht mehr verfügbar*
 
 - Firmware-Mirror entfernt  
@@ -319,8 +319,8 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 
 ### 2015.1.2+bremen3~testing
 **Veröffentlichungsdatum**: 15.12.2015 ([Blogpost](https://bremen.freifunk.net/blog/2015/12/16/v2015-1-2-bremen3-testing.html))  
-**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2015.1.2+bremen3-testing) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.2+bremen3-testing)   
-**gluon-Version**: [2015.1.2](#gluon-versionen_2015-1-2)    
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2015.1.2+bremen3-testing) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.2+bremen3-testing)  
+**gluon-Version**: [2015.1.2](#gluon-versionen_2015-1-2)  
 **Download**: *nicht mehr verfügbar*
 
 - IPv6-Präfix gewechselt
@@ -330,8 +330,8 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 
 ### 2015.2+bremen2~exp
 **Veröffentlichungsdatum**: 12.12.2015  
-**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2015.2+bremen2-exp) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.2+bremen2-exp)   
-**gluon-Version**: [2015.2](#gluon-versionen_2016-1) (unfertig; noch in der Entwicklung)    
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2015.2+bremen2-exp) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.2+bremen2-exp)  
+**gluon-Version**: [2015.2](#gluon-versionen_2016-1) (unfertig; noch in der Entwicklung)  
 **Download**: *nicht mehr verfügbar*
 
 - **Update auf den aktuellen Entwicklungsstand des unfertigen [Gluon 2015.2](#gluon-versionen_2016-1)**
@@ -340,8 +340,8 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 
 ### 2015.2+bremen1~exp
 **Veröffentlichungsdatum**: 26.11.2015  
-**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2015.2+bremen1-exp) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.2+bremen1-exp)   
-**gluon-Version**: [2015.2](#gluon-versionen_2016-1) (unfertig; noch in der Entwicklung)    
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2015.2+bremen1-exp) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.2+bremen1-exp)  
+**gluon-Version**: [2015.2](#gluon-versionen_2016-1) (unfertig; noch in der Entwicklung)  
 **Download**: *nicht mehr verfügbar*
 
 - **Update auf den aktuellen Entwicklungsstand des unfertigen [Gluon 2015.2](#gluon-versionen_2016-1)**
@@ -351,8 +351,8 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 ### 2015.1.2+bremen2
 ###### *urspr. [2015.1.2+bremen2~testing](#freifunk-bremen-versionen_2015-1-2-bremen2-testing)*
 **Veröffentlichungsdatum**: 08.11.2015 ([Blogpost](https://bremen.freifunk.net/blog/2015/11/08/neue-firmware.html))  
-**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2015.1.2+bremen2) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.2+bremen2)   
-**gluon-Version**: [2015.1.2](#gluon-versionen_2015-1-2)    
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2015.1.2+bremen2) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.2+bremen2)  
+**gluon-Version**: [2015.1.2](#gluon-versionen_2015-1-2)  
 **Download**: *nicht mehr verfügbar*
 
 - signing-keys hinzugefügt von:
@@ -368,9 +368,9 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 
 
 ### 2015.1.2+bremen2~testing
-**Veröffentlichungsdatum**: 06.09.2015   
-**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2015.1.2+bremen2-testing) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.2+bremen2-testing)   
-**gluon-Version**: [2015.1.2](#gluon-versionen_2015-1-2)    
+**Veröffentlichungsdatum**: 06.09.2015  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2015.1.2+bremen2-testing) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.2+bremen2-testing)  
+**gluon-Version**: [2015.1.2](#gluon-versionen_2015-1-2)  
 **Download**: *nicht mehr verfügbar*
 
 - neues Gateway VPN04 hinzugefügt
@@ -379,7 +379,7 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 ### 2015.1.2+bremen1~testing
 **Veröffentlichungsdatum**: 29.08.2015  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2015.1.2+bremen1-testing) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.2+bremen1-testing)  
-**gluon-Version**: [2015.1.2](#gluon-versionen_2015-1-2)    
+**gluon-Version**: [2015.1.2](#gluon-versionen_2015-1-2)  
 **Download**: *nicht mehr verfügbar*
 
 - **Update auf [Gluon 2015.1.2](#gluon-versionen_2015-1-2)**
@@ -389,7 +389,7 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 ###### *ursrprünglich [2015.1.1+bremen1~testing](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.1+bremen1-testing)*
 **Veröffentlichungsdatum**: 07.08.2015  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2015.1.1+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.1+bremen1)  
-**gluon-Version**: [2015.1.1](#gluon-versionen_2015-1-1)    
+**gluon-Version**: [2015.1.1](#gluon-versionen_2015-1-1)  
 **Download**: *nicht mehr verfügbar*
 
 - **Update auf [Gluon 2015.1.1](#gluon-versionen_2015-1-1)**
@@ -401,7 +401,7 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 
 **Veröffentlichungsdatum**: 28.06.2015 ([Blogpost](https://bremen.freifunk.net/blog/2015/06/28/erste-stabile-firmware.html))  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2014.4+bremen0) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2014.4+bremen0)  
-**gluon-Version**: [2014.4](#gluon-versionen_2014-4)    
+**gluon-Version**: [2014.4](#gluon-versionen_2014-4)  
 **Download**: *nicht mehr verfügbar*
 
 - die effizientere und schnellere fastd cipher salsa2012+umac hinzugefügt
@@ -411,7 +411,7 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 ### 0.6~testing1
 **Veröffentlichungsdatum**: 03.05.2015 ([Blogpost](https://bremen.freifunk.net/blog/2015/05/03/neue-firmware.html))  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v0.6-testing1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v0.6-testing1)  
-**gluon-Version**: [2014.4](#gluon-versionen_2014-4)    
+**gluon-Version**: [2014.4](#gluon-versionen_2014-4)  
 **Download**: *nicht mehr verfügbar*
 
 - **Update auf [Gluon 2014.4](#gluon-versionen_2014-4)**
@@ -426,7 +426,7 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 ### 0.5~testing5
 **Veröffentlichungsdatum**: 06.09.2014 ([Blogpost](https://bremen.freifunk.net/blog/2014/09/06/Neue-Testing-Channel-Survey.html))  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v0.5-testing5) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v0.5-testing5)  
-**gluon-Version**: [2014.3](#gluon-versionen_2014-3)    
+**gluon-Version**: [2014.3](#gluon-versionen_2014-3)  
 **Download**: *nicht mehr verfügbar*
 
 - Kanalanalyse-Komponenten integriert
@@ -439,7 +439,7 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 ### 0.5~testing4
 **Veröffentlichungsdatum**: 08.08.2014 ([Blogpost](https://bremen.freifunk.net/blog/2014/08/08/Neue-Testing.html))  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v0.5-testing4) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v0.5-testing4)  
-**gluon-Version**: [2014.3](#gluon-versionen_2014-3)    
+**gluon-Version**: [2014.3](#gluon-versionen_2014-3)  
 **Download**: *nicht mehr verfügbar*
 
 - **Update auf [Gluon 2014.3](#gluon-versionen_2014-3)**
@@ -449,7 +449,7 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 
 ### 0.5~testing3
 **Veröffentlichungsdatum**: 23.06.2014 ([Blogpost](https://bremen.freifunk.net/blog/2014/06/23/Facebook-und-Testing-3.html))  
-**gluon-Version**: [2014.2](#gluon-versionen_2014-2)    
+**gluon-Version**: [2014.2](#gluon-versionen_2014-2)  
 **Download**: *nicht mehr verfügbar*
 
 - Mesh-ESSID von batman.bremen.freifunk.net zu mesh.ffhb geändert um Verwirrung zu vermeiden
@@ -460,7 +460,7 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 
 
 ### 0.5~testing2
-**gluon-Version**: [2014.2](#gluon-versionen_2014-2)    
+**gluon-Version**: [2014.2](#gluon-versionen_2014-2)  
 **Download**: *nicht mehr verfügbar*
 
 #### bekannte Probleme
@@ -470,7 +470,7 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 
 ### 0.5~testing1 - **erste Testing**
 **Veröffentlichungsdatum**: 24.03.2014 ([Blogpost](https://bremen.freifunk.net/blog/2014/03/24/testing-firmware.html))  
-**gluon-Version**: [2014.2](#gluon-versionen_2014-2)    
+**gluon-Version**: [2014.2](#gluon-versionen_2014-2)  
 **Download**: *nicht mehr verfügbar*
 
 - alle Nightly-Geräte haben auf den Testing-Branch gewechselt
@@ -684,7 +684,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf [Gluon 2016.2]
 ### 2016.1
 ###### *urspr. 2015.2*
 **Veröffentlichungsdatum**: 08.02.2016  
-**offizielle Versionshinweise**: [2016.1](https://gluon.readthedocs.org/en/v2016.1/releases/v2016.1.html)    
+**offizielle Versionshinweise**: [2016.1](https://gluon.readthedocs.org/en/v2016.1/releases/v2016.1.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.1/index.html#supported-devices-architectures)  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2016.1) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2016.1)
 - Unterstützung für mehr Geräte, vor allem:
@@ -712,7 +712,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf [Gluon 2016.2]
 
 
 ### 2015.1.1
-**Veröffentlichungsdatum**: 17.06.2015   
+**Veröffentlichungsdatum**: 17.06.2015  
 **offizielle Versionshinweise**: [2015.1.1](https://gluon.readthedocs.org/en/v2015.1.1/releases/v2015.1.1.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2015.1.1/index.html#supported-devices-architectures)  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2015.1.1) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2015.1.1)
