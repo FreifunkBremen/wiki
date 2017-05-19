@@ -65,7 +65,7 @@ Es obliegt der Verantwortung jedes Nutzers, die Dienste auf seinen Endgeräten e
 Freifunk ist nicht sicherer/unsicherer als das Internet.
 
 ## Einschränkungen und künstliche Limitierungen
-Um die Verlangsamung des Gesamtnetzes zu verhindern blockieren die VPN-Server Filesharing-Diensten den Zugang ins Internet. Die Limitierung in Form von Durchsatz, Verfügbarkeit, Latenz sind ausschließlich durch Rahmenbedingungen des Netzwerkes, deren Ressourcen und der aktuellen Nutzung begrenzt.
+Um die Verlangsamung des Gesamtnetzes zu verhindern, blockieren die VPN-Server technisch nicht zwingend notwendigen Datenverkehr, der an alle Netzteilnehmer verschickt werden würde (Broadcast). Limitierungen in Form von Durchsatz, Verfügbarkeit und Latenz sind ausschließlich durch Rahmenbedingungen des Netzwerkes, deren Ressourcen und der aktuellen Nutzung begrenzt.
 
 ## Server Standorte
 Die gesamte Server-Infrastruktur befindet sich in deutschen Rechenzentren.
