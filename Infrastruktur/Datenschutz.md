@@ -16,24 +16,27 @@ Wir versuchen den Grad der Sensibilität der Daten durch diese "Bezugsart" zu ve
 | Daten                      | Bezugsart    | Gespeichert | Öffentlich | Speicherdauer | …im Backup |
 |----------------------------|--------------|-------------|------------|---------------|------------|
 | Datenverkehr               | Gerät/Person | ✘           | ✘¹         |               |            |
-| Zuordnung Gerät↔IP-Adresse | Gerät        | ✔           | ✘¹         | 2 Stunden     | ✘          |
+| Zuordnung Gerät↔IP-Adresse | Gerät        | ✔           | ✘¹         | 30 Minuten     | ✘          |
 | Verbundener Knoten²        | Gerät        | ✘           | ✘¹         |               |            |
 
 ¹ Während die gespeicherten Daten nicht öffentlich einsehbar sind, muss diese Information (teilweise) zum technischen Betrieb des Netzwerks *innerhalb desselben* propagiert werden. Unsererseits wird diese Information nicht erhoben oder weitergeleitet, jedoch könnte ein Angreife die Information im Netzwerk selbst erheben.
 
-² Wir weisen hier darauf hin, dass der Aufsteller eines Knotens dessen Koordinaten veröffentlich haben kann (s.u.) und somit inner halb des Freifunk-Netzes eine grobe Ortung möglich sein kann.
+² Wir weisen hier darauf hin, dass der Aufsteller eines Knotens dessen Koordinaten veröffentlich haben kann (s.u.) und somit innerhalb des Freifunk-Netzes eine grobe Ortung möglich sein kann.
 
 ### Als Aufsteller eines Knotens
 
 | Daten                      | Bezugsart    | Gespeichert | Öffentlich | Speicherdauer | …im Backup |
 |----------------------------|--------------|-------------|------------|---------------|------------|
-| Kontaktdaten (freiwillig)  | Person       | ✔           | ✔          | 7 Tage³       | ✘          |
+| Kontaktdaten (freiwillig)  | Person       | ✘           | ✔          | Auf dem Knoten, solange dieser online ist       | ✘          |
 | Koordinaten (freiwillig)   | Person       | ✔           | ✔          | 7 Tage³       | ✘          |
-| Nutzungsstatistiken        | Knoten⁴      | ✔           | ✔          | unbegrenzt    | ✘          |
+| Nutzungsstatistiken        | Knoten⁴      | ✔           | ✔          | 7 Tage³    | ✘          |
+| Nutzungsstatistiken        | Freifunk Bremen⁵      | ✔           | ✔          | unbegrenzt    | ✘          |
 
-³ Diese Daten werden auf dem Knoten dauerhaft gespeichert und von diesem regelmäßig im Netz bekannt gegeben. Unsere Server halten die Daten (beispielsweise nach Abschalten des Knotens) noch für 30 Minuten vor, bevor sie vergessen werden.
+³ Diese Daten werden auf dem Knoten dauerhaft gespeichert und von diesem regelmäßig im Netz bekannt gegeben. Unsere Server halten die Daten (beispielsweise nach Abschalten des Knotens) noch für 7 Tage vor, bevor sie vergessen werden.
 
 ⁴ Die Nutzungsstatistiken sind eindeutig dem Knoten zugeordnet. Falls also Kontaktdaten und/oder Koordinaten zum Knoten bekannt sind, sind diese Daten auf den Aufsteller des Knotens beziehbar, nicht jedoch auf einzelne Benutzer dieses Knotens.
+
+⁵ Im Gegensatz zur Knoten-Bezogen Speicherung, existiert noch eine kumulierte Speicherform. In der es keine Zuweisung zum einzelnen Knoten mehr vorhanden sind. In der bleibt die Gesamtzahl an Nutzer auf allen Knoten und die Gesamtzahl der Knoten üblich. Diese Daten sind [hier](https://grafana.bremen.freifunk.net/dashboard/db/globals) als Graph einzusehen.
 
 ### Sonstiges
 
@@ -49,7 +52,7 @@ Wir versuchen den Grad der Sensibilität der Daten durch diese "Bezugsart" zu ve
 
 ## Datenverarbeitung
 
-Es findet keine automatisierte Verarbeitung der Daten, beispielsweise zum Zweck von Profilbildung, statt. Viele der knotenbezogenen Daten inkl. Nutzungsstatistiken werden in graphischer Form aufgearbeitet und ebenso wie die Rohdaten als [Karte](http://bremen.freifunk.net/map/geomap.html) oder in [Graphen](http://bremen.freifunk.net/map/node.html?id=c6:b6:a5:52:3a:9a) der Öffentlichkeit zur Verfügung gestellt.
+Es findet keine automatisierte Verarbeitung der Daten, beispielsweise zum Zweck von Profilbildung, statt. Viele der knotenbezogenen Daten inkl. Nutzungsstatistiken werden in graphischer Form aufgearbeitet und ebenso wie die Rohdaten als [Karte](https://map.bremen.freifunk.net/) oder in [Graphen](https://grafana.bremen.freifunk.net/dashboard/db/global-selectable) der Öffentlichkeit zur Verfügung gestellt.
 
 ## Schutz gegen unbefugte Zugriffe
 
