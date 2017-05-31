@@ -2,8 +2,10 @@
 
 ## Termine
 [Terminübersicht als Tabelle](http://wiki.bremen.freifunk.net/Events/Breminale/2017/Termine)
+
 ### Treffen
-* Kickoff: (in Planung, s. [Dudel](https://dudle.hackerspace-bremen.de/ffhb-breminale-treffen-2017-1/))
+* Kickoff: So, 14.5. ([Protokoll](/Treffen/2017_05_14-Breminale))
+* zweites Planungstreffen: Di, 30.5. ([Protokoll](/Treffen/2017_05_30-Breminale))
 
 * Sowie auf den [normalen Freifunk-Treffen](http://wiki.bremen.freifunk.net/Home#infos-zu-unseren-treffen)
 
