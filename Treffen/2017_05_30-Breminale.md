@@ -66,3 +66,62 @@
 * Diskussion darüber, welche Router wir von wem leihen oder kaufen
 * vier Möglichkeiten haben sich herauskristallisiert
 * Mail an die Liste geschickt, damit am Freitag beim Treffen eine Entscheidung gefällt wird
+
+Zitat Mail:
+~~~
+
+
+Hallo Freifunker,
+
+wir hatten grad auf dem Planungstreffen die Diskussion darüber, welche
+Router wir dieses Jahr auf der Breminale verwenden wollen. Es ist noch
+keine Entscheidung gefallen; das muss aber bald passieren, damit wir die
+Geräte noch bestellen können.
+
+Auf dem Freifunk-Treffen am Freitag (2.6.) wollen wir deshalb eine
+Entscheidung treffen! Ihr könnt (solltet?) da also eure Meinung einbringen.
+
+
+Folgende Möglichkeiten mit ihren Vor- und Nachteilen haben wir rausgesucht:
+
+1) reines Unifi-AC-Netz
++ Digineo leiht uns die Geräte (+ PoE-Switche)
++ outdoor-tauglich
++ eingebautes Band Steering
++ PoE (= einfachere Installation)
++ Airtime-Monitoring
+- keine Freifunk-Firmware (Ubiquity-FW)
+
+
+2) 50xAC1200 (5GHz) + 15xWDRs (2.4GHz)
++ Freifunk-Firmware
++ WDRs können geliehen werden
++ Airtime-Monitoring
+- keine Outdoor-Geräte
+- Geld nötig
+
+
+3) Freifunk-Sammelsurium
+  3.1) Geräte von Bremer Freifunkern leihen
+  3.2) Geräte von anderen Communities leihen
++ günstig
+- sehr gemischtes Netz
+- Organisations-Aufwand
+- vermutl. kein Airtime-Monitoring
+
+
+4) 50xArcher C7
++ Freifunk-Firmware (aber wohl nur für AC7-V2)
+- Geld nötig
+- kein Airtime-Monitoring
+
+
+Schaut euch diese Möglichkeiten mal an, damit wir am Freitag die
+Entscheidung treffen können.
+
+Grüße, Oliver
+-- 
+Freifunk-Bremen Mailingliste (liste@bremen.freifunk.net)
+Anmelden, Abmelden, Archive: https://lists.ffhb.de/mailman/listinfo/ff-bremen
+
+~~~
