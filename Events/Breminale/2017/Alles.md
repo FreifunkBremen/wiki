@@ -9,7 +9,7 @@
 
 * Sowie auf den [normalen Freifunk-Treffen](http://wiki.bremen.freifunk.net/Home#infos-zu-unseren-treffen)
 
-### [Breminale](http://breminale.ffhb.de/)
+### [Breminale](http://breminale.sternkultur.de)
 * Breminale-Beginn: Mi, 5.7., nachmittags
 * Breminale-Ende: So, 9.7., nachts
 
