@@ -1,9 +1,9 @@
 # Freifunk Bremen auf der Breminale 2017
 
 ## Termine
-[Terminübersicht als Tabelle](http://wiki.bremen.freifunk.net/Events/Breminale/2017/Termine)
 
 ### Treffen
+Im Ordner (Seitenleiste): /Treffen
 * Kickoff: So, 14.5. ([Protokoll](/Treffen/2017_05_14-Breminale))
 * zweites Planungstreffen: Di, 30.5. ([Protokoll](/Treffen/2017_05_30-Breminale))
 
