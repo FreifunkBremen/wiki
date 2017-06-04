@@ -62,7 +62,7 @@ Changes will remain in memory only, until you decide to write them.
 Be careful before using the write command.
 ~~~
 
-- Command (m for help): m (listet alle Möglichkeiten auf, wir starten mit n, alle dafaults übernehmen)
+- Command (m for help): m (listet alle Möglichkeiten auf, wir starten mit n, alle defaults mit Enter übernehmen, der freie Platz wird die neue Partition)
 
 ~~~
 Command (m for help): n
