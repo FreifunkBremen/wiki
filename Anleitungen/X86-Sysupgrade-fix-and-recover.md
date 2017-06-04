@@ -1,13 +1,14 @@
-Bei X86 - Systemen ist die Festplatte größer als die Systempartition. Die X86 Images belegen ungefähr 55Mb Plattenplatz auf der Disk. Der restliche Plattenplatz ist unpartitioniert. Dieser Platz lässt sich für andere Anwendungen nutzen und muss nur eingerichtet werden. Dazu kann die vorhandene Partition vergrößert werden oder eine weitere Partition erstellt werden.
+Bei X86 - Systemen ist die Festplatte größer als die Systempartition. Die X86 Images belegen ungefähr 50Mb Plattenplatz auf der Disk. Der restliche Plattenplatz ist unpartitioniert. Dieser Platz lässt sich für andere Anwendungen nutzen und muss nur eingerichtet werden. Dazu kann die vorhandene Partition vergrößert werden oder eine weitere Partition erstellt werden.
 
-Leider sind die Erweiterungen nicht upgradefest. Ein Upgrade erezugt immer wieder die Originalgröße des Images und löscht alle anderen Partitionen. Ein Fix in Gluon ist in Arbeit.
+Leider sind die Erweiterungen nicht upgradefest. Ein sysupgrade erzeugt immer wieder die Originalgröße des Images und löscht alle anderen Partitionen. Ein Fix in Gluon ist in Arbeit. Diese Spielereien können auch in einer VM Umgebung geübt werden.
 
-Fall 1: Die vorhandene Partition wurde vergrößert und ein sysupgrade durchgeführt. Hier ist nichts mehr zu Retten.
+Fall 1: Die vorhandene Partition wurde vergrößert und ein sysupgrade durchgeführt. Hier ist nichts mehr zu Retten, die Pertition wurde verkleinert.
 
-Fall 2: Es war eine dritte Partition /sda3 erstellt und gemounted. Diese ist nach einem sysupgrade verschwunden.
-* Es kann Hilfe geben, wir gehen wie folgt vor:
+Fall 2: Es war eine dritte Partition /sda3 erstellt und gemounted. Diese ist nun nach einem sysupgrade verschwunden.
+#### Es kann Hilfe geben, wir gehen wie folgt vor:
 
-Das X86 System ist im FF Online und wir können uns per Konsole Anmelden.
+- Das X86 System ist im Freifunk Online und wir können uns per Konsole Anmelden.
+
 ~~~
 root@ffhb-0019997a7220:~# df
 Filesystem           1K-blocks      Used Available Use% Mounted on
