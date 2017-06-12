@@ -487,6 +487,29 @@ Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
 
 
+### 2016.2.6
+
+**Veröffentlichungsdatum**: 10.06.2017  
+**offizielle Versionshinweise**: [2016.2.6](https://gluon.readthedocs.io/en/v2016.2.6/releases/v2016.2.6.html)  
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.2.6/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2016.2.6) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2016.2.6)
+
+#### Geräte-Unterstützung
+- TP-Link TL-WR841N/ND v12
+
+#### Bugfixes
+- die sysupgrade Prozedur wurde umgebaut um ein Problem beim Update von x86 Knoten zu beheben  
+    - dieses trat auf, wenn die kernel Partition beim Upgrade in Größe zunahm  
+    - dies tritt zum Beispiel bei einem Update auf LEDE auf  
+    - durch diese Änderung wird die SSH-Verbindung zu einem Knoten bereits am Anfang eines Upgrade beendet und es ist keine Einsicht in den Vorgang mehr möglich
+- eine Sicherheitslücke wurde geschlossen ([Gluon-Ticket](https://github.com/freifunk-gluon/gluon/issues/1097))  
+  in Standard-Konfigurationen von Gluon, sollte diese Schwachstelle nicht zum tragen kommen, da die betroffene Komponente deaktiviert ist, was auch auf die Bremer Firmware zutrifft
+- ein Problem mit dem roaming wurde behoben
+- ein Problem beim Kompilieren mit OpenSSL 1.1 wurde behoben
+- ein Problem beim Kompilieren mit langen Pfaden wurde behoben
+
+
+
 ### 2016.2.5
 
 **Veröffentlichungsdatum**: 09.04.2017  
