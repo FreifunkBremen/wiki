@@ -76,7 +76,10 @@ Durch ordentliche vorarbeit (OBs, oÄ) könnte man das reduzieren.
 * Ed hätt gern flyer, der bekommt dann welche von den 2k
 
 ### Sonstiges:
-* 100m outdoor-kabel kosten 35€ (ohne stecker)
+* Outdoor-kabel kosten:
+  * 100m: 35 € ohne Stecker (Quelle?)
+  * 90m: 140 € mit 6 Fasern und vier Steckern [
+Ubiquiti FC-SM-300](https://www.heise.de/preisvergleich/999679639)
 * Wir müssen noch dick publicity machen (Twitter, FB, alles!) "Freifunker aller Länder, vereinigt euch!"
     * Freifunker, hört die Signale! (Unterkunft wird schwierig, aber bringt eure router)
 * auftrag an yannik: gucken, ob auch 4 router in 1 box (OB) passen. (falls wir neue kaufen wollen etc)
