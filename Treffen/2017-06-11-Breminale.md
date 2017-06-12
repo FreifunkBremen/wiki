@@ -1,11 +1,12 @@
 # Freifunk Bremen - Protokoll
 
 ## Anwesende
-- Yannik
+- Yannik (auch ein bisschen Protokoll)
 - Eyk
 - Louis
 - Frank
-- Oliver (protokoll)
+- Oliver (Protokoll)
+- Frank
 
 
 ## kurzbericht vom letzten meeting
