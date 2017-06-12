@@ -54,13 +54,13 @@ Durch ordentliche vorarbeit (OBs, oÄ) könnte man das reduzieren.
   * können wir das Geld tatsächlich einplanen? Wie wird das beschlossen?
 
 ## was brauchen wir noch an Hardware/Kabel etc
-* problem letztes jahr: stromkästen waren teils versiegelt (keine kabel rausführbar)
-* Eike: wir sollten mehr OBs bauen, weil man die immer wieder leicht benutzen kann (ggf mit stahlkabelbinder). (allgemeine zustimmung, aber kosten sind auch alles in allem nicht soo gering, wie man denken könnte.)
-* debatte/beratung über OBs und deren Bauweise.
+* problem letztes jahr: stromkästen waren teils versiegelt (keine kabel rausführbar) -> im hinterkopf behalten & mehr OBs basteln, um generell weniger in Stromkästen hantieren zu müssen.
+* Eike: wir sollten mehr OBs bauen, weil man die immer wieder leicht benutzen kann (ggf mit Stahlkabelbinder). (allgemeine Zustimmung, aber kosten sind auch alles in allem nicht soo gering, wie man denken könnte.)
+* Es gibt eine lange Debatte/Beratung über OBs und deren verschiedene mögliche Bauformen.
 
 ### was kaufen wir unbedingt, auch mit wenig geld?
-* Flyer (etwa 30€)
-* 5*50m Patch-kabel (etwa 100€)
+* Flyer (etwa 30€), nach dem Freitagsmeeting wird bestellt.
+* 5*50m Patch-kabel (etwa 100€, vllt auch 150€)
 * 20 Kuppler (RJ45), kosten zsm etwa 50€
 
 ### was kaufen wir mit Geld von der FF-förderung, falls wir da kohle haben?
