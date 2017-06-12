@@ -45,7 +45,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 - ein Problem mit dem roaming wurde behoben
 - ein paar Probleme beim Kompilieren wurden behoben
 
-### 2016.2.4+bremen2
+
 ### 2016.2.4+bremen2
 **Veröffentlichung auf dem `stable`-Branch**: [30.04.2017](http://downloads.bremen.freifunk.net/firmware/all/2016.2.4+bremen2/sysupgrade/stable.manifest)  
 **Veröffentlichung auf dem `testing`-Branch**: [14.04.2017](http://downloads.bremen.freifunk.net/firmware/all/2016.2.4+bremen2/sysupgrade/testing.manifest) ([Blogpost](https://bremen.freifunk.net/blog/2017/04/14/neue-testing-2016-2-4-bremen2.html))  
