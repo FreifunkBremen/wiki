@@ -31,6 +31,21 @@ Branch        | aktuelle Version                                                
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
 
+### 2016.2.6+bremen1
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: [12.06.2017](http://downloads.bremen.freifunk.net/firmware/all/2016.2.6+bremen1/sysupgrade/testing.manifest) ([Blogpost](https://bremen.freifunk.net/blog/2017/06/13/neue-testing-2016-2-6-bremen1.html))  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2.6+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2.6+bremen1)  
+**gluon-Version**: [2016.2.6](#gluon-versionen_2016-2-6)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.2.6+bremen1/)
+
+- **Update auf [Gluon 2016.2.6](#gluon-versionen_2016-2-6)** 
+- Unterstützung für TP-Link TL-WR841N/ND v12 wurde hinzugefügt
+- die sysupgrade-Prozedur wurde umgebaut um ein Problem beim Update von x86 Knoten zu beheben
+- eine Sicherheitslücke wurde geschlossen
+- ein Problem mit dem roaming wurde behoben
+- ein paar Probleme beim Kompilieren wurden behoben
+
+### 2016.2.4+bremen2
 ### 2016.2.4+bremen2
 **Veröffentlichung auf dem `stable`-Branch**: [30.04.2017](http://downloads.bremen.freifunk.net/firmware/all/2016.2.4+bremen2/sysupgrade/stable.manifest)  
 **Veröffentlichung auf dem `testing`-Branch**: [14.04.2017](http://downloads.bremen.freifunk.net/firmware/all/2016.2.4+bremen2/sysupgrade/testing.manifest) ([Blogpost](https://bremen.freifunk.net/blog/2017/04/14/neue-testing-2016-2-4-bremen2.html))  
