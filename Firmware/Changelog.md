@@ -502,6 +502,61 @@ Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
 
 
+### 2017.1
+**Hinweis:** Dies ist die erste Gluon-Version welche auf LEDE, statt auf OpenWrt basiert.  
+**Update-Hinweis:** Ein Problem beim Aktualisieren von x86-Knoten auf die LEDE-Basis, welches zum Verlust der Konfiguration führt, wurde in [2016.2.6+bremen1](#freifunk-bremen-versionen_2016-2-6-bremen1) behoben. Es ist zwingend nötig erst auf diese Version zu aktualiseren bevor der Sprung zu LEDE gemacht wird.  
+Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell erweitert werden.
+
+**Veröffentlichungsdatum**: 10.06.2017  
+**offizielle Versionshinweise**: [2017.1](https://gluon.readthedocs.io/en/v2017.1/releases/v2017.1.html)  
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2017.1/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2017.1) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2017.1)
+
+#### Geräte-Unterstützung
+- TP-Link
+    - TL-WA730RE v1
+    - TL-WA7210N v2
+    - RE450
+    - WBS210 v1.20
+    - WBS510 v1.20
+- Ubiquiti
+    - AirGateway LR
+    - AirGateway PRO
+    - Rocket M2/M5 Ti
+    - UniFi AP LR
+
+**Hinweis:** Geräte mit nur 4MB Speicherplatz werden nun speziell behandelt, um weiterhin einen Betrieb zu gewähleisten. Diese Geräte können keine opkg-Pakete mehr nachinstallieren.
+
+#### Änderungen
+- Linux-Kernel-Version von 3.18.x auf 4.4.x angehoben
+- das Kompilier-System wurde extrem vereinfacht und beschleunigt
+- *output/modules* wurde in *output/packages* umbenannt
+- der gleiche Wert der für *GLUON_RELEASE* übergeben wird muss auch bei `make manifest` angegeben werden
+- Übersetzungen-Unterstützung für die Statusseite wurde hinzugefügt  
+  zusätzlich zu Deutsch sind nun auch Englisch und Russisch verfügbar
+- DNS-Cache auf Knoten für Clients ist nun möglich
+- L2TP über tunneldigger wurde als alternatives VPN-System verfügbar gemacht  
+    - Verschlüsselung wird nicht unterstützt
+    - Tunnel über IPv6 wird aktuell nicht unterstützt
+    - fastd und L2TP können nicht in der gleichen Firmware eingesetzt werden
+- das neue Paket *gluon-ebtables-source-filter* wurde hinzugefügt  
+  dieses kann zum Filtern von Datenverkehr unerwünschter Herkunft verwendet werden
+- die *LuCI* Basis-Bibliotheken wurden durch eine entschlackte Version namens *gluon-web* ersetzt  
+  Pakete die darauf aufbauten müssen angepasst werden
+
+#### Bugfixes
+- ein paar Probleme mit Netzwerk- und batman-adv-Konfigurationen, welche zu Abstürzen oder unvollständigen Einrichtungen führen konnte, wurden behoben
+- ein paar Verbesserungen erhöhen die Stabilität des ath9k-WLAN-Treibers
+
+#### Umstellungen
+- *gluon-legacy*-Pakete existieren nicht mehr
+- _gluon-luci-*_-Pakete wurden in _gluon-web-*_ umbenannt
+- *gluon-luci-portconfig* wurde in *gluon-web-network* umbenannt
+- das *gluon-next-node*-Paket wurde in den Gluon-Kern integriert und muss nicht mehr eingebunden werden
+- die Konfiguration von *fastd* wurde leicht verändert um einige Optionen mit einem eventuell konfigurierten *tunneldigger* zu teilen
+- die *opkg.openwrt*-Option wurde in *opkg.lede* umbenannt
+
+
 ### 2016.2.6
 
 **Veröffentlichungsdatum**: 10.06.2017  
@@ -522,7 +577,6 @@ Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfacht
 - ein Problem mit dem roaming wurde behoben
 - ein Problem beim Kompilieren mit OpenSSL 1.1 wurde behoben
 - ein Problem beim Kompilieren mit langen Pfaden wurde behoben
-
 
 
 ### 2016.2.5
