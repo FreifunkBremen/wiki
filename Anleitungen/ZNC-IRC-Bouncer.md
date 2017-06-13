@@ -3,8 +3,8 @@
 Wenn ich nicht im IRC Channel Online bin, bekomme ich keine Chats mit.
 Was kann ich anstellen, damit ich immer Online bin, also Historie-Daten bekomme?
 Die Konversationen der Vergangenheit lassen sich für einen normalen User nicht abrufen. 
-Also immer Online sein? Ja, warum nicht, unser auf OpenWRT/LEDE basierender Router ist immer Online 
-und wir können/dürfen Linux Pakete installieren.
+Also immer Online sein? Ja, warum nicht, unser auf OpenWRT/LEDE basierender Router ist immer Online und wir können/dürfen Linux Pakete installieren.
+Eine Alternative wäre, fragt auf einem Freifunktreffen, ob euch jemand auf seinem Bouncer als User einrichtet :-)
 
 Viele benutzen den ZNC IRC Bouncer, der immer für uns Online ist. Wenn wir uns mit dem Bouncer verbinden,
 bekommen wir automatisch alles aus der Vergangenheit mit. 
