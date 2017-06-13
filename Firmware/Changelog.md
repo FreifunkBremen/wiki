@@ -339,7 +339,7 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 **Download**: *nicht mehr verfügbar*
 
 - IPv6-Präfix gewechselt
-- Bugfixes
+- Fehlerbehebungen
 - Firmware-Mirror und Signing-Key von mortzu entfernt
 
 
@@ -544,7 +544,7 @@ Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell er
 - die *LuCI* Basis-Bibliotheken wurden durch eine entschlackte Version namens *gluon-web* ersetzt  
   Pakete die darauf aufbauten müssen angepasst werden
 
-#### Bugfixes
+#### Fehlerbehebungen
 - ein paar Probleme mit Netzwerk- und batman-adv-Konfigurationen, welche zu Abstürzen oder unvollständigen Einrichtungen führen konnte, wurden behoben
 - ein paar Verbesserungen erhöhen die Stabilität des ath9k-WLAN-Treibers
 
@@ -567,7 +567,7 @@ Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell er
 #### Geräte-Unterstützung
 - TP-Link TL-WR841N/ND v12
 
-#### Bugfixes
+#### Fehlerbehebungen
 - die sysupgrade Prozedur wurde umgebaut um ein Problem beim Update von x86 Knoten zu beheben  
     - dieses trat auf, wenn die kernel Partition beim Upgrade in Größe zunahm  
     - dies tritt zum Beispiel bei einem Update auf LEDE auf  
@@ -586,7 +586,7 @@ Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell er
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.2.5/index.html#supported-devices-architectures)  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2016.2.5) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2016.2.5)
 
-#### Bugfixes
+#### Fehlerbehebungen
 - ein B.A.T.M.A.N. compat 15 Fehler, welcher zum Absturz führte, wurde behoben  
 *Dieser Fehler betrifft die Bremer Infrastruktur nicht, da zu diesem Zeitpunkt B.A.T.M.A.N. compat 14 eingesetzt wird.*
 
@@ -598,7 +598,7 @@ Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell er
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.2.4/index.html#supported-devices-architectures)  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2016.2.4) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2016.2.4)
 
-#### Bugfixes
+#### Fehlerbehebungen
 - Hohe Load wegen des neuen respondd-Initscripts ist behoben
 - Der abgeschaltete Mirror ftp.all.kernel.org wurde ersetzt
 - sysupgrade funktioniert nun auf x86-Geräten besser
@@ -622,7 +622,7 @@ Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell er
     - Meraki Geräte (MR12/16/62/66)  
     *(werden wieder hinzugefügt, wenn das Problem, dass sie alle die gleiche MAC-Adresse haben, behoben wurde)*
 
-#### Bugfixes
+#### Fehlerbehebungen
 - der Autoupdater geht mit timeouts seiner wget-Instanz nun besser um  
   *(in [2016.2.2](#gluon-versionen_2016-2-2) konnte der Autoupdater bei einem timeout bis zum nächsten Neustart festhängen und keine Updates mehr ziehen)*
 - respondd wird nun bei einem crash automatisch neugestartet  
@@ -642,7 +642,7 @@ Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell er
 - TL-WA801N/ND v3
 - TL-WR841ND v11 mit EU/US Standard-Firmware-Versionen
 
-#### Bugfixes
+#### Fehlerbehebungen
 - eine Reihe Fehler, welche mit [2016.2.1](#gluon-versionen_2016-2-1) und [2016.2](#gluon-versionen_2016-2) auftraten, wurden behoben
 - vertauschte, initiale Zuordnung von WAN/LAN auf der CPE210 wurde behoben
 - LED-Anzeige der Empfangsstärke verbraucht nun deutlich weniger Leistung und flackert weniger stark
@@ -697,7 +697,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf [Gluon 2016.2]
 - der SSH-Server "dropbear" wurde aktualisiert und erhält so weitere SSH Verschlüsselungsmethoden und lässt veraltete fallen (DSA), welches die Zeit für den ersten Starts und der generelle Verbindungsaufbau verkürzt
 - 802.11b ist nun deaktivierbar (verhindert langsame Übertragungsrate für alle Geräte an einem Knoten, solange ein einzelnes veraltetes Gerät verbunden ist)
 
-#### Bugfixes
+#### Fehlerbehebungen
 - die Stabilität des ath9k WLAN-Treiber wurde bedeutend verbessert
 - multiple unnötig laufende Instanzen vom Autoupdater werden nun mit einem Lockfile verhindert
 - ein Fehler von fest eingestellten DNS-Servern seit [2016.1.6](#gluon-versionen_2016-1-6) wurde behoben
@@ -882,7 +882,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf [Gluon 2016.2]
 ### 2014.2
 **Veröffentlichungsdatum**: 24.06.2014  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2014.2) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2014.2)
-#### Bugfixes:
+#### Fehlerbehebungen:
 - Stark verbesserte Stabilität des ath9k-WLAN-Treibers (besonders auf
 TP-Link-Hardware; auf einigen Ubiquiti-Geräten scheint es zwar besser
 geworden zu sein, aber noch immer problematisch)
