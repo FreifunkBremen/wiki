@@ -36,7 +36,7 @@ znc -h
 
 mit znc -c legen wir eine neue Konfiguration an. Dabei legen wir Namen und Passwort fest.
 Die Konfigurationsdatei wird unter /etc/config/znc abgelegt und sieht dann so aus.
-
+~~~
 config znc
 	# where to listen for connections
 	list listener	'192.168.1.1 1234'  # oder ipv6:1234
@@ -66,7 +66,7 @@ config user 'USER'
 
 	# load user modules ('<module> [params...]'):
 	# list module 'simple_away -timer 10 disconnected'
-
+~~~
 
 Anmerkung: Neuen Benutzer im System anlegen, ZNC für diesen Benutzer installieren und starten.
 
@@ -108,7 +108,7 @@ Module werden unten in der Webübersicht angezeigt und können dort aktiviert we
 
 http://wiki.znc.in/ZNC
 
-Ein paar nütziche Module, die nicht fehlen sollten.
+Ein paar nütziche Module, die nicht fehlen sollten, falls nicht gleich mitinstalliert.
 ~~~
 opkg update
 opkg install znc-mod-webadmin znc-mod-log znc-mod-fail2ban znc-webskin-ice znc-mod-flooddetach
@@ -122,5 +122,5 @@ Mit dem Browser auf dem Router einloggen 'ipv6:1234' und über die Weboberfläch
 Hinweis: die Verbindung mit MIRC unter ipv6 auf den Bouncer funktioniert nicht. Hierzu einfach ein kleines Script im Scripteditor erstellen und beim Start ausführen.
 Beispiel:
 /znc connect user@password//ipv6:1234 /join #ffhb
-
+TBE
 
