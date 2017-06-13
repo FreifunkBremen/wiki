@@ -119,8 +119,15 @@ znc loadmod webskin-ice
 
 Mit dem Browser auf dem Router einloggen 'ipv6:1234' und über die Weboberfläche alle gewünschten Einstellungen vornehmen. Weitere Benutzer anlegen, Channels hinzufügen, rückwärtige Historie festlegen usw.
 
+Bei mir folgende Konfig unter /etc/config/znc im Einsatz:
+~~~
+wird nachgreicht
+~~~
+
 Hinweis: die Verbindung mit MIRC unter ipv6 auf den Bouncer funktioniert nicht. Hierzu einfach ein kleines Script im Scripteditor erstellen und beim Start ausführen.
 Beispiel:
+~~~
 /znc connect user@password//ipv6:1234 /join #ffhb
+~~~
 TBE
 
