@@ -32,10 +32,7 @@ root@ffhb-0019997a7220:~# opkg update (ist dieses nicht erfolgreich, s.u. opkg-u
 - opkg update Fehlerfrei, hier gehts weiter. Ein paar Pakete nachinstallieren.
 
 ~~~
-opkg install kmod-usb-storage
-opkg install kmod-usb-storage block-mount block-hotplug kmod-fs-ext4 kmod-fs-vfat kmod-nls-cp437 kmod-nls-iso8859-1
-opkg install e2fsprogs 
-opkg install fdisk
+opkg install kmod-usb-storage block-mount block-hotplug kmod-fs-ext4 kmod-fs-vfat kmod-nls-cp437 kmod-nls-iso8859-1 e2fsprogs fdisk
 ~~~
 
 ~~~
