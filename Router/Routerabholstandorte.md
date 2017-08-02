@@ -38,7 +38,8 @@ Wer seine Router selbst flashen möchte, erhält diese häufig zum Selbstkostenp
 ## Bremerhaven
 Standort      | Kontakt                   | Geräte                     | Kosten    | Kommentar
 ---           | ---                       | ---                        | ---       | ---
-Bhv. Mitte/Lehe | ff-lucas@posteo.de| TP-Link TL-WA850 Ver.1, TP-Link TL-WR841N Ver.10 | je 20 €  | Einfach anschreiben, ich helfe gern beim Einrichten.
+Bhv. Mitte/Lehe | ff-lucas@posteo.de| TP-Link TL-WA850 Ver.1, TP-Link TL-WR841N Ver.10 | je 20 € | Einfach anschreiben, ich helfe gern beim Einrichten.
+Bhv. Mitte/Lehe | ff-lucas@posteo.de| Ubiquiti Loco M2 | 50 €  | Einfach anschreiben, ich helfe gern beim Einrichten.
 
 
 ## Horn-Lehe
