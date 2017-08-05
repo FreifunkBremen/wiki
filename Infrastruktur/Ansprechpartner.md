@@ -35,7 +35,7 @@ Diese Leute kennen sich gut mit dem Projekt aus und sind bereit, Presseanfragen 
 ## Firmware
 Diese Leute bauen und verwalten die Software, die auf den Knoten läuft.
 
-**Erreichbarkeit:** über die [Liste](https://planetcyborg.de/mailman/listinfo/ff-bremen)
+**Erreichbarkeit:** über die [Liste](https://lists.ffhb.de/mailman/listinfo/ff-bremen)
 
 * JP
 * corny / Julian
