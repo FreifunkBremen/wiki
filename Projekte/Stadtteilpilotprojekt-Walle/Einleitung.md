@@ -23,4 +23,4 @@ Um jedem neuen Interessierten die Möglichkeit zu geben sich eigenständig einzu
 
 Wer sich informieren möchte, kann einfach eine E-Mail schreiben und wird eine Antwort von einem der Abonnenten bekommen.
 
-Wer die Liste abonnieren möchte, um ihn Zukunft alle E-Mails, Diskussionen und Termine um das Projekt zu bekommen, kann sich hier eintragen: https://mailman.zfn.uni-bremen.de/cgi-bin/mailman/listinfo/ffhb-projekt-walle
+Wer die Liste abonnieren möchte, um ihn Zukunft alle E-Mails, Diskussionen und Termine um das Projekt zu bekommen, kann sich hier eintragen: https://lists.ffhb.de/mailman/listinfo/projekt-walle
