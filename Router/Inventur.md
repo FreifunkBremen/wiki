@@ -4,8 +4,8 @@ Inzwischen besitzt der Verein einiges Hardware, den man an verschiedenen Stellen
 ## Router/Geräte
 | MAC          | Model            | Anschaffung | Aktueller Lagerort | Geplanter Einsatz |
 |--------------|------------------|-------------|--------------------|-------------------|
-| a0f3c1f85aee | WDR4900          | Flüchtlinge | genofire           | genofire WG      |
-| f81a67a5f564 | WDR4900          | Flüchtlinge | genofire           | Kukoon      |
+| a0f3c1f85aee | WDR4900          | Flüchtlinge | genofire WG         | -               |
+| f81a67a5f564 | WDR4900          | Flüchtlinge | genofire/kukoon     | -               |
 | c4e984f54aa6 | CPE510 mPOE      | Flüchtlinge | genofire           | _Jurtencafe_      |
 | c4e984f55e46 | CPE510 mPOE      | Flüchtlinge | genofire           | _Jurtencafe_      |
 | a42bb0cdb4af | C7               | Hackerspace | genofire           | _Jurtencafe_      |
