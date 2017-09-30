@@ -557,6 +557,18 @@ Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell er
 - die *opkg.openwrt*-Option wurde in *opkg.lede* umbenannt
 
 
+### 2016.2.7
+
+**Veröffentlichungsdatum**: 14.08.2017  
+**offizielle Versionshinweise**: [2016.2.7](https://gluon.readthedocs.io/en/v2016.2.7/releases/v2016.2.7.html)  
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2016.2.7/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2016.2.7) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2016.2.7)
+
+#### Fehlerbehebungen
+- der Umgang von Fehlern beim sysupgrade wurde verbessert  
+  wenn sich beim Vorgang einige Prozesse nicht ordnungsgemäß beenden lassen, meist aufgrund von Kernel-Fehlern, startet der Knoten nun neu, anstatt für immer zu hängen
+
+
 ### 2016.2.6
 
 **Veröffentlichungsdatum**: 10.06.2017  
