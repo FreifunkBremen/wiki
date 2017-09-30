@@ -51,11 +51,11 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.2.6+bremen1/)
 
 - **Update auf [Gluon 2016.2.6](#gluon-versionen_2016-2-6)**
-- Unterstützung für TP-Link TL-WR841N/ND v12 wurde hinzugefügt
-- die sysupgrade-Prozedur wurde umgebaut um ein Problem beim Update von x86 Knoten zu beheben
-- eine Sicherheitslücke wurde geschlossen
-- ein Problem mit dem roaming wurde behoben
-- ein paar Probleme beim Kompilieren wurden behoben
+    - Unterstützung für TP-Link TL-WR841N/ND v12 wurde hinzugefügt
+    - die sysupgrade-Prozedur wurde umgebaut um ein Problem beim Update von x86 Knoten zu beheben
+    - eine Sicherheitslücke wurde geschlossen
+    - ein Problem mit dem roaming wurde behoben
+    - ein paar Probleme beim Kompilieren wurden behoben
 
 
 ### 2016.2.4+bremen2
@@ -85,7 +85,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 
 - **Update auf [Gluon 2016.2.4](#gluon-versionen_2016-2-4)**  
 - gluon-radv-filterd aktualisiert aus dem Gluon-PR
-  - Hatte einen Fehler im Code der für das Parsen der Originators zuständig war
+    - Hatte einen Fehler im Code der für das Parsen der Originators zuständig war
 - vpn04 entfernt
   - Hatte massive Probleme mit Abstürzen und stand bei Hetzner
 - Paket gluon-alfred entfernt
@@ -102,7 +102,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **Bug-Hinweis:** Durch eine fehlerhafte Konfiguration ist der Autoupdater nicht standardmäßig aktiv bei neuinstallierten oder zurückgesetzten Knoten!
 
 - gluon-radv-filterd aktualisiert aus dem Gluon-PR (diesmal richtig)
-  - Enthält jetzt ein respondd-Modul, das den ausgewählten Gateway preisgibt
+    - Enthält jetzt ein respondd-Modul, das den ausgewählten Gateway preisgibt
 - Mesh-VPN ist jetzt standardmäßig aktiviert ([Beschluss](https://wiki.bremen.freifunk.net/Treffen/2017_02_17#protokoll_firmware))
 - Bandbreitenlimits sind jetzt standardmäßig deaktiviert ([Beschluss](https://wiki.bremen.freifunk.net/Treffen/2017_02_17#protokoll_firmware))
 - Bandbreitenlimits sind jetzt mit zeitgemäßen Werten versehen (14400/1800) ([Beschluss](https://github.com/FreifunkBremen/gluon-site-ffhb/issues/20))
