@@ -502,8 +502,26 @@ Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
 
 
+### 2017.1.1
+**Update-Hinweis:** Ein Problem beim Aktualisieren von x86-Knoten auf die LEDE-Basis, welches zum Verlust der Konfiguration führt, wurde in [2016.2.6+bremen1](#freifunk-bremen-versionen_2016-2-6-bremen1) behoben. Es ist zwingend nötig erst auf diese Version zu aktualiseren bevor der Sprung zu LEDE gemacht wird.  
+Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell erweitert werden.
+
+**Veröffentlichungsdatum**: 03.07.2017  
+**offizielle Versionshinweise**: [2017.1.1](https://gluon.readthedocs.io/en/v2017.1.1/releases/v2017.1.1.html)  
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2017.1.1/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2017.1.1) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2017.1.1)
+
+#### Fehlerbehebungen
+- das Update-Manifest wurde erweitert, um automatische Upgrades von alten x86-kvm- und x86-xen_domu-Systemen auf das neue x86-generic-Abbild zu ermöglichen
+- ein Bug in [Gluon 2017.1](#gluon-versionen_2017-1) verhinderte das Schreiben auf den Flash-Speicher auf Ubuquiti PicoStations mit bestimmten Bootloader-Versionen  
+  betroffene Geräte können nur über TFTP-Wiederherstellung wieder zum Laufen gebracht werden
+- batman-adv Multicast-Optimierungen wurden deaktiviert um ein Problem, bei dem viel Verwaltungsdatenverkehr auftritt zu verhindern
+
+
 ### 2017.1
 **Hinweis:** Dies ist die erste Gluon-Version welche auf LEDE, statt auf OpenWrt basiert.  
+**Bug-Hinweis:** Ein Bug verhindert das Schreiben auf den Flash-Speicher auf Ubuquiti PicoStations mit bestimmten Bootloader-Versionen.  
+Betroffene Geräte können nur über TFTP-Wiederherstellung wieder zum Laufen gebracht werden.  
 **Update-Hinweis:** Ein Problem beim Aktualisieren von x86-Knoten auf die LEDE-Basis, welches zum Verlust der Konfiguration führt, wurde in [2016.2.6+bremen1](#freifunk-bremen-versionen_2016-2-6-bremen1) behoben. Es ist zwingend nötig erst auf diese Version zu aktualiseren bevor der Sprung zu LEDE gemacht wird.  
 Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell erweitert werden.
 
