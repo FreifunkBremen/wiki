@@ -502,9 +502,33 @@ Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
 
 
+### 2017.1.2
+**Update-Hinweis:** Ein Problem beim Aktualisieren von x86-Knoten auf die LEDE-Basis, welches zum Verlust der Konfiguration führt, wurde in [2016.2.6+bremen1](#freifunk-bremen-versionen_2016-2-6-bremen1) behoben. Es ist zwingend nötig erst auf diese Version zu aktualiseren bevor der Sprung zu LEDE gemacht wird.  
+Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell erweitert werden.
+
+**Veröffentlichungsdatum**: 14.08.2017  
+**offizielle Versionshinweise**: [2017.1.2](https://gluon.readthedocs.io/en/v2017.1.2/releases/v2017.1.2.html)  
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2017.1.2/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2017.1.2) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2017.1.2)
+
+###e Neuerungen
+- die Einstellung von `gw_mode` wird nun bei Updates nicht mehr überschrieben
+- eine neue Option ermöglicht die Konfiguration des batman-adv-Routing-Algorithmusses (BATMAN IV oder BATMAN V)
+
+#### Fehlerbehebungen
+- der Abbild-Generierungs-Codefür einige Geräte wurde repariert, was mehrere Probleme löst
+    - Allnet-Abbilder funktionieren wieder
+    - OpenMesh-Geräte behalten nun bei Updates wieder ihre Konfiguration (das Problem entstand mit [Gluon 2017.1](#gluon-versionen_2017-1))
+- der Umgang von Fehlern beim sysupgrade wurde verbessert  
+  wenn sich beim Vorgang einige Prozesse nicht ordnungsgemäß beenden lassen, meist aufgrund von Kernel-Fehlern, startet der Knoten nun neu, anstatt für immer zu hängen
+- im Konfigmode funktioniert nun auch mit Tunneldigger und nicht nur fastd die Anzeige, ob VPN an- oder abgeschaltet ist
+- der an-/aus-Zustand von VPN wird bei einer Migration zwischen fastd und Tunneldigger korrekt übertragen
+
+
 ### 2017.1.1
 **Update-Hinweis:** Ein Problem beim Aktualisieren von x86-Knoten auf die LEDE-Basis, welches zum Verlust der Konfiguration führt, wurde in [2016.2.6+bremen1](#freifunk-bremen-versionen_2016-2-6-bremen1) behoben. Es ist zwingend nötig erst auf diese Version zu aktualiseren bevor der Sprung zu LEDE gemacht wird.  
 Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell erweitert werden.
+**Bug-Hinweis:** OpenMesh-Geräte verlieren bei Updates ihre Konfiguration.
 
 **Veröffentlichungsdatum**: 03.07.2017  
 **offizielle Versionshinweise**: [2017.1.1](https://gluon.readthedocs.io/en/v2017.1.1/releases/v2017.1.1.html)  
@@ -522,6 +546,7 @@ Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell er
 **Hinweis:** Dies ist die erste Gluon-Version welche auf LEDE, statt auf OpenWrt basiert.  
 **Bug-Hinweis:** Ein Bug verhindert das Schreiben auf den Flash-Speicher auf Ubuquiti PicoStations mit bestimmten Bootloader-Versionen.  
 Betroffene Geräte können nur über TFTP-Wiederherstellung wieder zum Laufen gebracht werden.  
+**Bug-Hinweis 2:** OpenMesh-Geräte verlieren bei Updates ihre Konfiguration.  
 **Update-Hinweis:** Ein Problem beim Aktualisieren von x86-Knoten auf die LEDE-Basis, welches zum Verlust der Konfiguration führt, wurde in [2016.2.6+bremen1](#freifunk-bremen-versionen_2016-2-6-bremen1) behoben. Es ist zwingend nötig erst auf diese Version zu aktualiseren bevor der Sprung zu LEDE gemacht wird.  
 Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell erweitert werden.
 
