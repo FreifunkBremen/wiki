@@ -50,6 +50,9 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **gluon-Version**: [2016.2.6](#gluon-versionen_2016-2-6)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.2.6+bremen1/)
 
+**Bug-Hinweis:** Ein Problem mit dem Umgang von Fehlern beim sysupgrade (wenn sich beim Vorgang einige Prozesse nicht ordnungsgemäß beenden lassen, meist aufgrund von Kernel-Fehlern) führt dazu, dass Knoten für immer hängt.  
+Für ein erfolgreiches Update muss der Knoten eventuell kurz vom Strom getrennt und das Update direkt danach noch ein mal durchgeführt werden.
+
 - **Update auf [Gluon 2016.2.6](#gluon-versionen_2016-2-6)**
     - Unterstützung für TP-Link TL-WR841N/ND v12 wurde hinzugefügt
     - die sysupgrade-Prozedur wurde umgebaut um ein Problem beim Update von x86 Knoten zu beheben
@@ -625,6 +628,8 @@ Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell er
 
 
 ### 2016.2.6
+**Bug-Hinweis:** Ein Problem mit dem Umgang von Fehlern beim sysupgrade (wenn sich beim Vorgang einige Prozesse nicht ordnungsgemäß beenden lassen, meist aufgrund von Kernel-Fehlern) führt dazu, dass Knoten für immer hängt.  
+Für ein erfolgreiches Update muss der Knoten eventuell kurz vom Strom getrennt und das Update direkt danach noch ein mal durchgeführt werden.
 
 **Veröffentlichungsdatum**: 10.06.2017  
 **offizielle Versionshinweise**: [2016.2.6](https://gluon.readthedocs.io/en/v2016.2.6/releases/v2016.2.6.html)  
