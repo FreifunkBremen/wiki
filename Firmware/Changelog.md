@@ -1,6 +1,6 @@
 # Firmwareversions Changelog
 
-Diese Seite dokumentiert oberflächlich und als Übersicht alle Änderungen an der Freifunk Bremen Firmware sowie den zugrunde liegenden Gluon Versionen. Für detailliertere Änderungen kann den jeweilinge Links zum Quellcode gefolgt werden.
+Diese Seite dokumentiert oberflächlich und als Übersicht alle Änderungen an der Freifunk Bremen Firmware sowie den zugrunde liegenden Gluon Versionen. Für detailliertere Änderungen kann den jeweiligen Links zum Quellcode gefolgt werden.
 
 - [**Freifunk Bremen Versionen**](#freifunk-bremen-versionen)  
   eine Liste aller Freifunk Bremen Firmware Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis
@@ -11,7 +11,7 @@ Diese Seite dokumentiert oberflächlich und als Übersicht alle Änderungen an d
 ## Freifunk Bremen Versionen
 
 Der Quellcode der Freifunk Bremen Firmware liegt bei [Github](https://github.com/FreifunkBremen/gluon-site-ffhb).  
-Die verschiedenen Varianten der Freifunk Bremen Firmware werden auf entsprechenden [[Varianten]]-Wiki-Seite erklärt.Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](https://downloads.bremen.freifunk.net/firmware/) zu finden.  
+Die verschiedenen Varianten der Freifunk Bremen Firmware werden auf entsprechenden [[Varianten]]-Wiki-Seite erklärt. Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](https://downloads.bremen.freifunk.net/firmware/) zu finden.  
 Die jeweiligen Unterordner haben folgende Bedeutungen:
 
 
@@ -21,7 +21,7 @@ Die jeweiligen Unterordner haben folgende Bedeutungen:
 - [**`testing`**](https://downloads.bremen.freifunk.net/firmware/testing/) verweist auf die Images der aktuell im Test befindlichen Firmwareversion.
 
 *Falls sich Geräte auf dem `exp`-Branch befinden, so werden sie keine Updates beziehen, da dies kein offizieller Branch ist und die Einstellung durch einen Fehler entstanden ist.  
-Experiementelle Firmware-Versionen werden nicht offiziell unterstützt und werden meist für extrem frühe Tests verwendet. Normalerweise sollte als Branch `testing` eingestellt sein, damit sie sich später bei einer stabilien Veröffentlichung Updates holen.*
+Experimentelle Firmware-Versionen werden nicht offiziell unterstützt und werden meist für extrem frühe Tests verwendet. Normalerweise sollte als Branch `testing` eingestellt sein, damit sie sich später bei einer stabilen Veröffentlichung Updates holen.*
 
 Branch        | aktuelle Version                                                    | signed by
 ---           | ---                                                                 | ---
@@ -170,11 +170,11 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 
 **Bug-Hinweis:** Mit den Änderungen von 2016.2+ am Autoupdater, führt dieser nicht mehr zu Absturz der Knoten, sondern aktualisiert nach längerer Betriebszeit bis zum nächsten Neustart gar nicht mehr.
 
-**Bug-Hinweis2:** Laut den Gluon-Entwicklern und anderen Communites gibt es seit dieser Version Probleme mit ath9k, wodurch auf vielen unseren Geräten es zu verschwundenen und nicht sichtbaren WLANs und ständigen Neustarts kommen könnte.  
+**Bug-Hinweis2:** Laut den Gluon-Entwicklern und anderen Communities gibt es seit dieser Version Probleme mit ath9k, wodurch auf vielen unseren Geräten es zu verschwundenen und nicht sichtbaren WLANs und ständigen Neustarts kommen könnte.  
 Aus diesem Grund haben wir das Release von Firmware basierend auf [Gluon 2016.2](#gluon-versionen_2016-2) zurückgenommen und verzögert.
 
 - 802.11b deaktiviert
-- Paket gluon-radv-filterd aufgenommen (lässt nur das IPv6 Router Advertisement vom laut batman-adv besten Gateway durch)
+- Paket gluon-radv-filterd aufgenommen (lässt nur das IPv6-Router-Advertisement vom, laut batman-adv, besten Gateway durch)
 - Unseren OpenWrt-Proxy in `/etc/opkg/distfeeds.conf` eingetragen (dadurch funktioniert `opkg update` nun auch auf Knoten ohne WAN-Anschluss)
 
 
@@ -187,7 +187,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf [Gluon 2016.2]
 
 **Bug-Hinweis:** Mit den Änderungen von 2016.2+ am Autoupdater, führt dieser nicht mehr zu Absturz der Knoten, sondern aktualisiert nach längerer Betriebszeit bis zum nächsten Neustart gar nicht mehr.
 
-**Bug-Hinweis2:** Laut den Gluon-Entwicklern und anderen Communites gibt es seit dieser Version Probleme mit ath9k, wodurch auf vielen unseren Geräten es zu verschwundenen und nicht sichtbaren WLANs und ständigen Neustarts kommen könnte.  
+**Bug-Hinweis2:** Laut den Gluon-Entwicklern und anderen Communities gibt es seit dieser Version Probleme mit ath9k, wodurch auf vielen unseren Geräten es zu verschwundenen und nicht sichtbaren WLANs und ständigen Neustarts kommen könnte.  
 Aus diesem Grund haben wir das Release von Firmware basierend auf [Gluon 2016.2](#gluon-versionen_2016-2) zurückgenommen und verzögert.
 
 - **Update auf [Gluon 2016.2](#gluon-versionen_2016-2)**
@@ -262,7 +262,7 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 **Download**: *nicht mehr verfügbar*
 
 - **Update auf [Gluon 2016.1.4](#gluon-versionen_2016-1-4)**
-- Port und MTU für Mesh-VPN geändert. **Dies erfordert ggf. eine Änderung in den Freigaben der Fritzbox!** Der neue Port ist UDP 50000, der alte war UDP 10000.
+- Port und MTU für Mesh-VPN geändert. **Dies erfordert ggf. eine Änderung in den Freigaben der FRITZ!Box!** Der neue Port ist UDP 50000, der alte war UDP 10000.
 
 
 ### 2016.1.3+bremen1
@@ -401,7 +401,7 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 
 
 ### 2015.1.1+bremen1
-###### *ursrprünglich [2015.1.1+bremen1~testing](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.1+bremen1-testing)*
+###### *ursprünglich [2015.1.1+bremen1~testing](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.1+bremen1-testing)*
 **Veröffentlichungsdatum**: 07.08.2015  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2015.1.1+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2015.1.1+bremen1)  
 **gluon-Version**: [2015.1.1](#gluon-versionen_2015-1-1)  
@@ -479,7 +479,7 @@ Die Images für die Archer-Geräte wurden vom Download-Server entfernt.
 **Download**: *nicht mehr verfügbar*
 
 #### bekannte Probleme
-- Signal-Abruch-Problem auf 2,4 Ghz
+- Signal-Abbruch-Problem auf 2,4 Ghz
 - TP-Link TL-WR841N/ND v9 macht Probleme
 
 
@@ -503,7 +503,7 @@ Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfacht
 
 
 ### 2017.1.2
-**Update-Hinweis:** Ein Problem beim Aktualisieren von x86-Knoten auf die LEDE-Basis, welches zum Verlust der Konfiguration führt, wurde in [2016.2.6+bremen1](#freifunk-bremen-versionen_2016-2-6-bremen1) behoben. Es ist zwingend nötig erst auf diese Version zu aktualiseren bevor der Sprung zu LEDE gemacht wird.  
+**Update-Hinweis:** Ein Problem beim Aktualisieren von x86-Knoten auf die LEDE-Basis, welches zum Verlust der Konfiguration führt, wurde in [2016.2.6+bremen1](#freifunk-bremen-versionen_2016-2-6-bremen1) behoben. Es ist zwingend nötig erst auf diese Version zu aktualisieren bevor der Sprung zu LEDE gemacht wird.  
 Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell erweitert werden.
 
 **Veröffentlichungsdatum**: 14.08.2017  
@@ -516,17 +516,17 @@ Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell er
 - eine neue Option ermöglicht die Konfiguration des batman-adv-Routing-Algorithmusses (BATMAN IV oder BATMAN V)
 
 #### Fehlerbehebungen
-- der Abbild-Generierungs-Codefür einige Geräte wurde repariert, was mehrere Probleme löst
+- der Abbild-Generierungs-Code für einige Geräte wurde repariert, was mehrere Probleme löst
     - Allnet-Abbilder funktionieren wieder
     - OpenMesh-Geräte behalten nun bei Updates wieder ihre Konfiguration (das Problem entstand mit [Gluon 2017.1](#gluon-versionen_2017-1))
 - der Umgang von Fehlern beim sysupgrade wurde verbessert  
   wenn sich beim Vorgang einige Prozesse nicht ordnungsgemäß beenden lassen, meist aufgrund von Kernel-Fehlern, startet der Knoten nun neu, anstatt für immer zu hängen
-- im Konfigmode funktioniert nun auch mit Tunneldigger und nicht nur fastd die Anzeige, ob VPN an- oder abgeschaltet ist
+- im Konfigmodus funktioniert nun auch mit Tunneldigger und nicht nur fastd die Anzeige, ob VPN an- oder abgeschaltet ist
 - der an-/aus-Zustand von VPN wird bei einer Migration zwischen fastd und Tunneldigger korrekt übertragen
 
 
 ### 2017.1.1
-**Update-Hinweis:** Ein Problem beim Aktualisieren von x86-Knoten auf die LEDE-Basis, welches zum Verlust der Konfiguration führt, wurde in [2016.2.6+bremen1](#freifunk-bremen-versionen_2016-2-6-bremen1) behoben. Es ist zwingend nötig erst auf diese Version zu aktualiseren bevor der Sprung zu LEDE gemacht wird.  
+**Update-Hinweis:** Ein Problem beim Aktualisieren von x86-Knoten auf die LEDE-Basis, welches zum Verlust der Konfiguration führt, wurde in [2016.2.6+bremen1](#freifunk-bremen-versionen_2016-2-6-bremen1) behoben. Es ist zwingend nötig erst auf diese Version zu aktualisieren bevor der Sprung zu LEDE gemacht wird.  
 Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell erweitert werden.
 **Bug-Hinweis:** OpenMesh-Geräte verlieren bei Updates ihre Konfiguration.
 
@@ -537,17 +537,17 @@ Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell er
 
 #### Fehlerbehebungen
 - das Update-Manifest wurde erweitert, um automatische Upgrades von alten x86-kvm- und x86-xen_domu-Systemen auf das neue x86-generic-Abbild zu ermöglichen
-- ein Bug in [Gluon 2017.1](#gluon-versionen_2017-1) verhinderte das Schreiben auf den Flash-Speicher auf Ubuquiti PicoStations mit bestimmten Bootloader-Versionen  
+- ein Bug in [Gluon 2017.1](#gluon-versionen_2017-1) verhinderte das Schreiben auf den Flash-Speicher auf Ubiquiti PicoStations mit bestimmten Bootloader-Versionen  
   betroffene Geräte können nur über TFTP-Wiederherstellung wieder zum Laufen gebracht werden
 - batman-adv Multicast-Optimierungen wurden deaktiviert um ein Problem, bei dem viel Verwaltungsdatenverkehr auftritt zu verhindern
 
 
 ### 2017.1
 **Hinweis:** Dies ist die erste Gluon-Version welche auf LEDE, statt auf OpenWrt basiert.  
-**Bug-Hinweis:** Ein Bug verhindert das Schreiben auf den Flash-Speicher auf Ubuquiti PicoStations mit bestimmten Bootloader-Versionen.  
+**Bug-Hinweis:** Ein Bug verhindert das Schreiben auf den Flash-Speicher auf Ubiquiti PicoStations mit bestimmten Bootloader-Versionen.  
 Betroffene Geräte können nur über TFTP-Wiederherstellung wieder zum Laufen gebracht werden.  
 **Bug-Hinweis 2:** OpenMesh-Geräte verlieren bei Updates ihre Konfiguration.  
-**Update-Hinweis:** Ein Problem beim Aktualisieren von x86-Knoten auf die LEDE-Basis, welches zum Verlust der Konfiguration führt, wurde in [2016.2.6+bremen1](#freifunk-bremen-versionen_2016-2-6-bremen1) behoben. Es ist zwingend nötig erst auf diese Version zu aktualiseren bevor der Sprung zu LEDE gemacht wird.  
+**Update-Hinweis:** Ein Problem beim Aktualisieren von x86-Knoten auf die LEDE-Basis, welches zum Verlust der Konfiguration führt, wurde in [2016.2.6+bremen1](#freifunk-bremen-versionen_2016-2-6-bremen1) behoben. Es ist zwingend nötig erst auf diese Version zu aktualisieren bevor der Sprung zu LEDE gemacht wird.  
 Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell erweitert werden.
 
 **Veröffentlichungsdatum**: 10.06.2017  
@@ -568,7 +568,7 @@ Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell er
     - Rocket M2/M5 Ti
     - UniFi AP LR
 
-**Hinweis:** Geräte mit nur 4MB Speicherplatz werden nun speziell behandelt, um weiterhin einen Betrieb zu gewähleisten. Diese Geräte können keine opkg-Pakete mehr nachinstallieren.
+**Hinweis:** Geräte mit nur 4MB Speicherplatz werden nun speziell behandelt, um weiterhin einen Betrieb zu gewährleisten. Diese Geräte können keine opkg-Pakete mehr nachinstallieren.
 
 #### Änderungen
 - Linux-Kernel-Version von 3.18.x auf 4.4.x angehoben
@@ -710,8 +710,8 @@ Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell er
 ### 2016.2.1
 **Bug-Hinweis:** Mit den Änderungen von 2016.2+ am Autoupdater, führt dieser nicht mehr zu Absturz der Knoten, sondern aktualisiert nach längerer Betriebszeit bis zum nächsten Neustart gar nicht mehr.
 
-**Bug-Hinweis**: Beim aufsplitten des gemeinsamen Profil von CPE210 und CPE510 in zwei einzelne Profile, ist ein Fehler unterlaufen, welcher WAN- und LAN-Port der CPE210 verdreht. Der Fehler tritt nur bei einem kompletten Neuflash auf, nicht bei Autoupdates.  
-Dies beinträchtigt den normalen Betrieb nicht, ist aber unschön und kann bei erweiterter, manueller Konfiguration zu Verwirrung führen.
+**Bug-Hinweis**: Beim Aufsplitten des gemeinsamen Profils von CPE210 und CPE510 in zwei einzelne Profile, ist ein Fehler unterlaufen, welcher WAN- und LAN-Port der CPE210 verdreht. Der Fehler tritt nur bei einem kompletten Neuflash auf, nicht bei Autoupdates.  
+Dies beeinträchtigt den normalen Betrieb nicht, ist aber unschön und kann bei erweiterter, manueller Konfiguration zu Verwirrung führen.
 
 **Veröffentlichungsdatum**: 08.11.2016  
 **offizielle Versionshinweise**: [2016.2.1](https://gluon.readthedocs.io/en/v2016.2.1/releases/v2016.2.1.html)  
@@ -730,7 +730,7 @@ Dies beinträchtigt den normalen Betrieb nicht, ist aber unschön und kann bei e
 ### 2016.2
 **Bug-Hinweis:** Mit den Änderungen von 2016.2+ am Autoupdater, führt dieser nicht mehr zu Absturz der Knoten, sondern aktualisiert nach längerer Betriebszeit bis zum nächsten Neustart gar nicht mehr.
 
-**Bug-Hinweis2:** Laut den Gluon-Entwicklern und anderen Communites gibt es seit dieser Version Probleme mit ath9k, wodurch auf vielen unseren Geräten es zu verschwundenen und nicht sichtbaren WLANs und ständigen Neustarts kommen könnte.  
+**Bug-Hinweis2:** Laut den Gluon-Entwicklern und anderen Communities gibt es seit dieser Version Probleme mit ath9k, wodurch auf vielen unseren Geräten es zu verschwundenen und nicht sichtbaren WLANs und ständigen Neustarts kommen könnte.  
 Aus diesem Grund haben wir das Release von Firmware basierend auf [Gluon 2016.2](#gluon-versionen_2016-2) zurückgenommen und verzögert.
 
 **Veröffentlichungsdatum**: 21.09.2016  
@@ -744,12 +744,12 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf [Gluon 2016.2]
 - Unterstützung für eine Reihe an neuen Geräten; vor allem solche mit ath10k Chipsatz/Treiber
     - offizielle Unterstützung für Archer C5/C7 und andere ath10k-Geräte durch Option zum Auswählen für den im Image installierten Mesh-Modus (IBSS oder 11s)
 - viele UBNT Airmax XM Modell werden nun richtig erkannt und nicht mehr nur als "Bullet" angezeigt
-- neue Option zum Behalten der manuell eingestellen WLAN-Channel während eines Updates
+- neue Option zum Behalten der manuell eingestellten WLAN-Channel während eines Updates
 - PoE-Passtrough kann nun in der site.conf und auch beim Einrichten im Konfigurationsmodus in den Erweiterten Einstellungen der TP-Link CPE 210/510 eingestellt werden
 - das Feld "Höhe" kann nun von der Community im Konfigurationsmodus versteckt werden
 - das Feld "Kontakt" kann von der Community nun verpflichtend gemacht werden
 - "hostnames" können jetzt alle UTF-8 Zeichen enthalten
-- der SSH-Server "dropbear" wurde aktualisiert und erhält so weitere SSH Verschlüsselungsmethoden und lässt veraltete fallen (DSA), welches die Zeit für den ersten Starts und der generelle Verbindungsaufbau verkürzt
+- der SSH-Server "dropbear" wurde aktualisiert und erhält so weitere SSH Verschlüsselungsmethoden und lässt veraltete fallen (DSA), welches die Zeit für den ersten Start und den generelle Verbindungsaufbau verkürzt
 - 802.11b ist nun deaktivierbar (verhindert langsame Übertragungsrate für alle Geräte an einem Knoten, solange ein einzelnes veraltetes Gerät verbunden ist)
 
 #### Fehlerbehebungen
@@ -768,7 +768,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf [Gluon 2016.2]
 - einige Fehler beim Kompilieren behoben
 - Unterstützung für link-lokale IPv6-DNS Server implementiert
 - Verbesserung der Empfangsleistung für CPE210/510 um etwa 20db
-- Wechsel der WAN/LAN-Port Zuordnung bei Ubiquitii UAP Pro (PoE-Port ist jetzt WAN, wie auch Standard bei anderen Geräten)
+- Wechsel der WAN/LAN-Port Zuordnung bei Ubiquiti UAP Pro (PoE-Port ist jetzt WAN, wie auch Standard bei anderen Geräten)
 - generelle Treiberverbesserungen und -fehlerbehebungen
 - Unterstützung für Ländercodes der neuen Firmwares für TP-Link Archer C7 v2
 
@@ -785,7 +785,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf [Gluon 2016.2]
   - 5-Ghz-Frequenzband auf Archer C5/C7 funktioniert nun  
     **Hinweis:** auf dem 5-Ghz-Frequenzband ist kein Mesh möglich
   - Fehler mit VLANs und IBSS behoben
-- auf allen Ubiquiti AirMAX Geräten kann die Firmware nun direkt installiert werden, ohne das vorher nötige Downgrade auf AirOS 5.5.x machen zu müssen
+- auf allen Ubiquiti AirMAX Geräten kann die Firmware nun direkt installiert werden, ohne das zuvor nötige Downgrade auf AirOS 5.5.x durchführen zu müssen
 
 
 ### 2016.1.4
@@ -845,7 +845,7 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf [Gluon 2016.2]
   - Echtzeit-Grafiken für Signalstärke für alle Nachbar-Knoten
   - hilft beim genauen Ausrichten von Antennen
 - 802.11s Support  
-  ermöglicht Unterstützung von mehr Geräten, deren Treiber das jetzige Setup von gleichzeitigem ad-hoc- und infracstructure-mode nicht unterstützen
+  ermöglicht Unterstützung von mehr Geräten, deren Treiber das jetzige Setup von gleichzeitigem ad-hoc- und infrastructure-mode nicht unterstützen
 
 
 ### 2015.1.2
@@ -864,8 +864,8 @@ Aus diesem Grund haben wir das Release von Firmware basierend auf [Gluon 2016.2]
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2015.1.1/index.html#supported-devices-architectures)  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2015.1.1) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2015.1.1)
 - Unterstützung für ein weiteres Gerät
-- Download-Link von OpenSSL korrigiertd
-- Problem mit der LED-Anzeige für die Signalstäkre bei TP-Link CPE210/510 behoben
+- Download-Link von OpenSSL korrigiert
+- Problem mit der LED-Anzeige für die Signalstärke bei TP-Link CPE210/510 behoben
 
 
 ### 2015.1
@@ -957,12 +957,12 @@ Amplification Attacks)
 #### Änderungen unter der Haube:
 - Neues site.conf-Format auf Lua-Basis. Die site.conf wird jetzt als
 ganzes Teil der Firmware, was sie deutlich flexibler macht. Ein guter
-Teil unserer Scripte in der Firmware wurde von Shell nach Lua portiert.
+Teil unserer Skripte in der Firmware wurde von Shell nach Lua portiert.
 (Aktuell wird beim Bauen nur die Syntax der site.conf überprüft, nicht
 aber ob der Inhalt sinnvoll ist... das wird im nächsten Release behoben)
 - gluon-alfred sendet seine Daten jetzt gzip-komprimiert (großer
 Vorteil: ein Datenpaket passt jetzt in einen einzelnen Ethernet-Frame)
-- Verschiedense Erweiterungen der Daten, die gluon-alfred sammelt
+- Verschiedenste Erweiterungen der Daten, die gluon-alfred sammelt
 (Speicherverbrauch, Anzahl der Prozesse)
 - Viele OpenWrt-make-targets funktionieren jetzt auch mit Gluon (z.B.
 `make package/fastd/install` um das Paket fastd zu bauen, und `make
