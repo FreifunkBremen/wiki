@@ -1,4 +1,5 @@
-## Anwesende
+# Breminale Treffen 26.06.2017 - Protokoll
+### Anwesende
 - bitstacker 
 - yannik (bisschen Protokoll)
 - Roy
@@ -10,8 +11,8 @@
 - Frank T.
 - Louis
 
-# Zeitplan, Orga
-Dudel: https://dudle.hackerspace-bremen.de/FFHB-Breminale-2017-Anwesenheit/
+### Zeitplan, Orga
+Dudle: https://dudle.hackerspace-bremen.de/FFHB-Breminale-2017-Anwesenheit/
 - Bauwagen kommt am 30.06. (Freitag)
     - Alarmanlage muss drin sein
 - LWLcom stellt Netzabschluss / Glasfaser Uplink am Freitag bereit
@@ -29,7 +30,7 @@ Dudel: https://dudle.hackerspace-bremen.de/FFHB-Breminale-2017-Anwesenheit/
 - Samstag 11Uhr (morgens!)
 
 
-# TODO
+### TODO
 - besorgt: Kisten für 19"-Switches, die unter den Bühnen stehen (stehen bei Simjost im Keller)
 - besorgen: viele Stromkabel (10-20m, ~20 Stück); Preis-Schätzung: ca. 1.10€/Meter (-> oliver)
 - besorgen: Kabelbinder (200x4.8mm) (2000 Stück); Preis-Schätzung: ca. 10-15€/1000 Stück (-> oliver)
@@ -45,7 +46,7 @@ Dudel: https://dudle.hackerspace-bremen.de/FFHB-Breminale-2017-Anwesenheit/
 - Kommunikation über Threema-Gruppe, Funkgeräte, IRC (#ffhb_events)
 
 
-# Technisches
+### Technisches
 - HW: Firmware ?!
 - Osterdeich:
     - Unifi AC Mesh von Julian
@@ -60,8 +61,8 @@ Dudel: https://dudle.hackerspace-bremen.de/FFHB-Breminale-2017-Anwesenheit/
     - NOC SSID, Zugang Controller etc, 5ghz only
 
 
-# Geld
+### Geld
 - die Förderung ist beantragt, ab jetzt darf bestellt werden, allerdings mit der Gefahr, dass man auf den Kosten sitzen bleibt, wenn die Förderung nicht durchgeht.
 
-# Threema-Raum IDs
+### Threema-Raum IDs
 Morpheus hat die Threema-IDs aufgenommen (IDs wurden aus Datenschutzgründen aus dem Protokoll entfernt)
