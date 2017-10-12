@@ -517,6 +517,24 @@ Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
 
 
+### 2017.1.3
+**Update-Hinweis:** Ein Problem beim Aktualisieren von x86-Knoten auf die LEDE-Basis, welches zum Verlust der Konfiguration führt, wurde in [2016.2.6+bremen1](#freifunk-bremen-versionen_2016-2-6-bremen1) behoben. Es ist zwingend nötig erst auf diese Version zu aktualisieren bevor der Sprung zu LEDE gemacht wird.  
+Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell erweitert werden.
+
+**Veröffentlichungsdatum**: 11.10.2017  
+**offizielle Versionshinweise**: [2017.1.2](https://gluon.readthedocs.io/en/v2017.1.3/releases/v2017.1.3.html)  
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2017.1.3/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2017.1.3) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2017.1.3)
+
+#### Fehlerbehebungen
+- dnsmasq wurde auf v2.78 upgegradet, wodurch die folgenden Schwachstellen behoben wurden CVE-2017-13704, CVE-2017-14491, CVE-2017-14492, CVE-2017-14493, CVE-2017-14494, 2017-CVE-14495 und 2017-CVE-14496  
+davon betrifft nur eine Schwachstelle Gluon im Normalbetrieb
+- der Linux Kernel wurde auf v4.4.89 upgegradet, wodurch mehrere Sicherheitslücken geschlossen wurden
+- das Filtern von Multicast-Paketen zwischen den Schnittenstellen von Mesh und lokalem Knoten wurde repariert
+- beim Kompilieren werden Autoupdater-URLs welche nicht mit `http://` beginnen abgelehnt
+- MAC-Adressen von frisch installierten TP-Link TL-WR1043ND v4 wurden repariert
+
+
 ### 2017.1.2
 **Update-Hinweis:** Ein Problem beim Aktualisieren von x86-Knoten auf die LEDE-Basis, welches zum Verlust der Konfiguration führt, wurde in [2016.2.6+bremen1](#freifunk-bremen-versionen_2016-2-6-bremen1) behoben. Es ist zwingend nötig erst auf diese Version zu aktualisieren bevor der Sprung zu LEDE gemacht wird.  
 Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell erweitert werden.
@@ -526,7 +544,7 @@ Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell er
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2017.1.2/index.html#supported-devices-architectures)  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2017.1.2) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2017.1.2)
 
-###e Neuerungen
+#### Neuerungen
 - die Einstellung von `gw_mode` wird nun bei Updates nicht mehr überschrieben
 - eine neue Option ermöglicht die Konfiguration des batman-adv-Routing-Algorithmusses (BATMAN IV oder BATMAN V)
 
@@ -542,7 +560,7 @@ Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell er
 
 ### 2017.1.1
 **Update-Hinweis:** Ein Problem beim Aktualisieren von x86-Knoten auf die LEDE-Basis, welches zum Verlust der Konfiguration führt, wurde in [2016.2.6+bremen1](#freifunk-bremen-versionen_2016-2-6-bremen1) behoben. Es ist zwingend nötig erst auf diese Version zu aktualisieren bevor der Sprung zu LEDE gemacht wird.  
-Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell erweitert werden.
+Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell erweitert werden.  
 **Bug-Hinweis:** OpenMesh-Geräte verlieren bei Updates ihre Konfiguration.
 
 **Veröffentlichungsdatum**: 03.07.2017  
