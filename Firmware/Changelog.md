@@ -41,7 +41,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 - **Update auf [Gluon 2016.2.7](#gluon-versionen_2016-2-7)**
     - ein Problem mit dem Umgang von Fehlern beim sysupgrade wurde verbessert  
   wenn sich beim Vorgang einige Prozesse nicht ordnungsgemäß beenden lassen, meist aufgrund von Kernel-Fehlern, startet der Knoten nun neu, anstatt für immer zu hängen
-    - ULA-Präfix wird nun für uradvd und next_node verwendet
+- ULA-Präfix wird nun für uradvd und next_node verwendet
 
 
 ### 2016.2.6+bremen1
