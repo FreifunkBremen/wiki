@@ -11,15 +11,9 @@ Diese Leute kümmern sich um Anfragen von Knotenbesitzern und jenen, die es werd
 **Erreichbarkeit:** info@bremen.freifunk.net
 
 * SimJoSt
-* anon6789 / Jelto
-* Claus
-* Heinz
 * corny / Julian
-* Ixoid / Arvid
-* Isaac
 * Yannik
-* Hendrik
-* Nicolas
+* Louis
 
 
 ## Presse
@@ -68,15 +62,17 @@ Diese Leute stehen in Kontakt mit dem Senat zwecks Umsetzung des [Bürgerschafts
 ## Social-Media
 ### [Twitter](https://twitter.com/FreifunkHB)
 * JP
-* rbtz
+* Louis
 * SimJoSt
 
 ### [Facebook](https://www.facebook.com/FreifunkBremen)
-* Markus
-* SimJoSt
-* Jelto
-* *Werbetreibende*
-  * Gesche
-  * morpheus
+* *Administratoren:*
+  * SimJoSt
+  * Jelto
+* *Redakteur:*
+  * Timlukas
+  * Louis
+  * chrische
   * corny / Julian
-  * mortzu
+  * morpheus / Simon
+  * Gesche
