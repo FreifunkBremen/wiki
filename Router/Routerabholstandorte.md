@@ -61,7 +61,7 @@ asm_100_EG | auf [Mailingliste] oder im [Chat] | TP-LINK TL-WR841N | 20 €
 ## Viertel
 Standort                                    | Kontakt                     | Geräte                        | Kosten
 ---                                         | ---                         | ---                           | ---
-Sielpfad 5 (bei Sielwall/Osterdeich, Fähre) | KhaldounBakkour@hotmail.com | WR841N (v9) and others  | 20€
+Auf den Häfen| khaldoun@my.mail.de | WR841N (v9), WDR3600,4300  | 20-50€
 
 ## Mitte/Nord/Lilienthal
 Standort                    | Kontakt                             | Geräte            | Kosten  | Kommentar
