@@ -51,7 +51,7 @@ Device     Boot Start    End Sectors Size Id Type
 /dev/sda1  *      512   8703    8192   4M 83 Linux
 /dev/sda2        9216 107519   98304  48M 83 Linux
 ~~~
-- Die Bestätigung, /dev/sda3 ist weg.
+- Die Bestätigung, /dev/sda3 ist weg. Wird sda3 angezeigt, weiter mit block detect (weiter unten)
 - Wiederherstellen der verlorenen Partition
 
 ~~~
@@ -162,7 +162,7 @@ root@ffhb-0019997a7220:~# mount /dev/sda3 /mnt/sda3
 ~~~
 
 ## opkg-update-fix
-Bei einigen Gluonversionen konnten keine Pakete installiert werden. Einfach den DNS auf 8.8.8.8 setzen.
+Bei einigen Gluonversionen konnten keine Pakete installiert werden. Einfach den DNS auf 8.8.8.8 setzen. (Alternative DNS: 8.8.4.4, 9.9.9.9 - 9.9.9.12)
 Alternativ die Pakete direkt installieren:
 
 ~~~
@@ -171,7 +171,7 @@ Unknown package 'openssl'.
 Collected errors:
  * opkg_install_cmd: Cannot install package openssl.
 ~~~
-- manuelle Installation
+- manuelle Installation (Eintrag Prüfen: http://downloads.openwrt.org/chaos_calmer/15.05.1/x86/generic/packages/base/)
 
 ~~~
 root@ffhb-0019997a7220:~# opkg install http://downloads.openwrt.org/chaos_calmer/15.05.1/x86/generic/packages/base/libevent2-openssl_2.0.22-1_x86.ipk
@@ -191,5 +191,5 @@ Installing openssl-util (1.0.2g-1) to root...
 Configuring openssl-util.
 ~~~
 - Wenn das alles nicht geht, die benötigten Pakete direkt aus dem Repro ziehen und ins /tmp schubsen, manuell installieren.
-- Klappt das immer noch nicht, schau auf einem Freifunk Treffen vorbei.
+- Klappt das immer noch nicht, schau im IRC oder auf einem Freifunk Treffen vorbei.
 
