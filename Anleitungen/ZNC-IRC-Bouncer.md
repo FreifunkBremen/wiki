@@ -15,7 +15,7 @@ Diese Anleitung ist nicht perfekt, und darf gerne überarbeitet werden.
 Auf unserem Gerät wechseln wir erst mal nach /tmp/ und installieren die ZNC Pakete. Mit dem Befehl 'OPKG List' werden alle Pakete gelistet, am Ende der Liste finden wir odie ZNC Module.
 ~~~
 opkg update
-opgk install znc znc-mod-fail2ban znc-mod-flooddetach znc-mod-log znc-mod-webadmin znc-webskin-ice
+opkg install znc znc-mod-fail2ban znc-mod-flooddetach znc-mod-log znc-mod-webadmin znc-webskin-ice
 ~~~
 Starten den ZNC IRC Bouncers -h oder -v, um zu sehen ober er funktioniert. 
 ~~~
