@@ -44,12 +44,11 @@ bt-setup: port 1(eth0) entered forwarding state
 Einmal Enter drücken und die Meldung BusyBox v1.23.2 mit dem OPENWRT Wireless Freedom ASCII Logo erscheint.
 Wir sind jetzt als root@000c29afeec3:/# in der Shell und können auf dem Router Arbeiten.
 
-## Der Router steht im Konfigmode und macht erst mal nichts.
+### Der Router steht im Konfigmode und macht erst mal nichts.
 Vom PC aus können wir nicht auf die Konfigurationsoberfläche 192.168.1.1 wegen des Bridgemode.
-Netzwerk auf NAT ändern (Anleitung fehlt)
+Netzwerk auf NAT ändern (Anleitung fehlt, zweite Netzwerkkarte hinzufügen)
 
-Konfiguration über Gluon UCI und Eingabekonsole konfigurieren.
-
+## Konfiguration über Gluon UCI und Eingabekonsole konfigurieren.
 ### Wir legen fest , dass dieser Konfiguriert ist:
 uci set gluon-setup-mode.@setup_mode[0].configured=1
 uci commit gluon-setup-mode
@@ -68,9 +67,13 @@ uci commit fastd
 
 ### Damit der Router auf der Karte sichtbar wird, können die GEO Daten konfiguriert werden.
 uci set gluon-node-info.@location[0]='location'
+
 uci set gluon-node-info.@location[0].share_location='1'
+
 uci set gluon-node-info.@location[0].latitude='_Breitengrad_'
+
 uci set gluon-node-info.@location[0].longitude='_Längengrad_'
+
 uci commit gluon-node-info
 
 Nachdem wir den Router Konfiguriert haben starten wir diesen mit dem Befhl **reboot -n**  neu. 
