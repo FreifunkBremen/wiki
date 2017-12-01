@@ -77,5 +77,5 @@ uci set gluon-node-info.@location[0].longitude='_Längengrad_'
 uci commit gluon-node-info
 
 Nachdem wir den Router Konfiguriert haben starten wir diesen mit dem Befhl **reboot -n**  neu. 
-Der Router ist nun in der Grundkonfiguration fertig.
+Der Router ist nun in der Grundkonfiguration fertig. Die Geodaten mit dem uci Befehlssatz, kann auf der Freifunkkarte mit dem Pin erstellt werden.
 
