@@ -63,10 +63,6 @@ Standort                                    | Kontakt                     | Ger�
 ---                                         | ---                         | ---                           | ---
 Auf den Häfen| khaldoun@my.mail.de | WR841N (v9), WDR3600,4300  | 20-50€
 
-## Mitte/Nord/Lilienthal
-Standort                    | Kontakt                             | Geräte            | Kosten  | Kommentar
----                         | ---                                 | ---               | ---     | ---
-Mobil  | freifunk@sstudt.de   | Nach Absprache | Nach Absprache | Einfach anschreiben, helfe gern bei Einrichtung
 
 
 
