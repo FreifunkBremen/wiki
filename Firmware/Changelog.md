@@ -536,7 +536,7 @@ Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell er
 - ein Problem DNS-Auflösung für Mesh-VPN (fastd/tunneldigger) für ARM-Geräte wurde behoben
 - ein Kompilier-Problem wurde behoben
 
-### Neuerungen
+#### Neuerungen
 - GL Innovations GL-AR300M wird nun unterstützt
 
 
@@ -545,7 +545,7 @@ Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell er
 Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell erweitert werden.
 
 **Veröffentlichungsdatum**: 11.10.2017  
-**offizielle Versionshinweise**: [2017.1.2](https://gluon.readthedocs.io/en/v2017.1.3/releases/v2017.1.3.html)  
+**offizielle Versionshinweise**: [2017.1.3](https://gluon.readthedocs.io/en/v2017.1.3/releases/v2017.1.3.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2017.1.3/index.html#supported-devices-architectures)  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2017.1.3) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2017.1.3)
 
