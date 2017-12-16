@@ -35,8 +35,8 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **Veröffentlichung auf dem `stable`-Branch**: nie  
 **Veröffentlichung auf dem `testing`-Branch**: nie  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2.7+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2.7+bremen1)  
-**gluon-Version**: [2016.2.7](#gluon-versionen_2016-2-6)  
-**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.2.6+bremen1/)
+**gluon-Version**: [2016.2.7](#gluon-versionen_2016-2-7)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.2.7+bremen1/)
 
 - **Update auf [Gluon 2016.2.7](#gluon-versionen_2016-2-7)**
     - ein Problem mit dem Umgang von Fehlern beim sysupgrade wurde verbessert  
