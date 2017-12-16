@@ -518,6 +518,28 @@ Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
 
 
+### 2017.1.4
+**Update-Hinweis:** Ein Problem beim Aktualisieren von x86-Knoten auf die LEDE-Basis, welches zum Verlust der Konfiguration führt, wurde in [2016.2.6+bremen1](#freifunk-bremen-versionen_2016-2-6-bremen1) behoben. Es ist zwingend nötig erst auf diese Version zu aktualisieren bevor der Sprung zu LEDE gemacht wird.  
+Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell erweitert werden.
+
+**Veröffentlichungsdatum**: 15.11.2017  
+**offizielle Versionshinweise**: [2017.1.4](https://gluon.readthedocs.io/en/v2017.1.4/releases/v2017.1.4.html)  
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2017.1.4/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2017.1.4) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2017.1.4)
+
+#### Fehlerbehebungen
+- LEDE wurde auf den aktuellsten, stabilen Stand gebracht  
+  inklusive verschiedener Behebungen für Sicherheitslücken und Programmfehler
+    - KRACK-Lücke wurde behoben
+    - OPKG funktioniert wieder
+- PoE-Passthrough lässt sich wieder über die site.conf und die Erweiterten Einstellungen einstellen
+- ein Problem DNS-Auflösung für Mesh-VPN (fastd/tunneldigger) für ARM-Geräte wurde behoben
+- ein Kompilier-Problem wurde behoben
+
+### Neuerungen
+- GL Innovations GL-AR300M wird nun unterstützt
+
+
 ### 2017.1.3
 **Update-Hinweis:** Ein Problem beim Aktualisieren von x86-Knoten auf die LEDE-Basis, welches zum Verlust der Konfiguration führt, wurde in [2016.2.6+bremen1](#freifunk-bremen-versionen_2016-2-6-bremen1) behoben. Es ist zwingend nötig erst auf diese Version zu aktualisieren bevor der Sprung zu LEDE gemacht wird.  
 Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell erweitert werden.
