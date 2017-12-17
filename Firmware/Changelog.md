@@ -31,6 +31,52 @@ Branch        | aktuelle Version                                                
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
 
+### 2017.1.4+bremen1
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: nie  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2017.1.4+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2017.1.4+bremen1)  
+**gluon-Version**: [2017.1.4](#gluon-versionen_2017-1-4)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2017.1.4+bremen1/)
+
+
+**Hinweis:** Dies ist die erste Freifunk Bremen Version mit Gluon welches auf LEDE, statt auf OpenWrt basiert.  ihre Konfiguration.  
+**Update-Hinweis:** Ein Problem beim Aktualisieren von x86-Knoten auf die LEDE-Basis, welches zum Verlust der Konfiguration führt, wurde in [2016.2.6+bremen1](#freifunk-bremen-versionen_2016-2-6-bremen1) behoben. Es ist zwingend nötig erst auf diese Version zu aktualisieren bevor der Sprung zu LEDE gemacht wird.  
+Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell erweitert werden.
+**Hinweis:** Geräte mit nur 4MB Speicherplatz werden nun speziell behandelt, um weiterhin einen Betrieb zu gewährleisten. Diese Geräte können keine opkg-Pakete mehr nachinstallieren.  
+**Hinweis:** Durch einen kleinen Fehler, wird der Firmwarename mit einem extra `+` am Ende angezeigt. Dies hat keine Bedeutung und kann missachtet werden.
+
+- **Update auf [Gluon 2017.1.4](#gluon-versionen_2017-1-4)**
+    - Gluon 2017.x Versionen basieren nun auf LEDE  
+      dies bringt verschiedene Behebungen für Sicherheitslücken und Programmfehler sowie viele Neuerungen und Updates von genutzer Software  
+      *für eine vollständigere Liste der Neuerung seit dem Umstieg Gluons von OpenWRT auf LEDE als Basis, lest bitte die Gluon-Versions-Changelogs ([Gluon 2017.1.4](#gluon-versionen_2017-1-4), [Gluon 2017.1.3](#gluon-versionen_2017-1-3), [Gluon 2017.1.2](#gluon-versionen_2017-1-2), [Gluon 2017.1.1](#gluon-versionen_2017-1-1) und [Gluon 2017.1](#gluon-versionen_2017-1))*
+        - neue Geräte werden unterstützt
+            - TP-Link
+                - TL-WA730RE v1
+                - TL-WA7210N v2
+                - RE450
+                - WBS210 v1.20
+                - WBS510 v1.20
+            - Ubiquiti
+                - AirGateway LR
+                - AirGateway PRO
+                - Rocket M2/M5 Ti
+                - UniFi AP LR
+    - Linux-Kernel-Version von 3.18.x auf 4.4.x angehoben
+    - KRACK-Lücke wurde behoben
+    - das Kompilier-System wurde extrem vereinfacht und beschleunigt
+    - *output/modules* wurde in *output/packages* umbenannt
+    - Übersetzungen-Unterstützung für die Statusseite wurde hinzugefügt  
+      zusätzlich zu Deutsch sind nun auch Englisch und Russisch verfügbar
+    - L2TP über tunneldigger wurde als alternatives VPN-System verfügbar gemacht  
+        - Verschlüsselung wird nicht unterstützt
+        - Tunnel über IPv6 wird aktuell nicht unterstützt
+        - fastd und L2TP können nicht in der gleichen Firmware eingesetzt werden
+    - das Update-Manifest wurde erweitert, um automatische Upgrades von alten x86-kvm- und x86-xen_domu-Systemen auf das neue x86-generic-Abbild zu ermöglichen
+- Signing-Keys von inaktiven Freifunkern entfernt
+    - ProXyhb
+    - ec8or
+
+
 ### 2016.2.7+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
 **Veröffentlichung auf dem `testing`-Branch**: nie  
