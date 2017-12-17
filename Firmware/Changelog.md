@@ -81,8 +81,8 @@ Für eine Übersicht an Geräten welche dies betrifft, lohnt sich ein Blick auf 
 
 
 ### 2016.2.7+bremen1
-**Veröffentlichung auf dem `stable`-Branch**: nie  
-**Veröffentlichung auf dem `testing`-Branch**: nie  
+**Veröffentlichung auf dem `stable`-Branch**: [20.11.2017](https://downloads.bremen.freifunk.net/firmware/all/2016.2.7+bremen1/sysupgrade/stable.manifest)   ([Blogpost](https://bremen.freifunk.net/blog/2017/11/17/neue-stable-firmware-2016-2-7-bremen1.html))  
+**Veröffentlichung auf dem `testing`-Branch**: [31.10.2017](https://downloads.bremen.freifunk.net/firmware/all/2016.2.7+bremen1/sysupgrade/testing.manifest)   ([Blogpost](https://bremen.freifunk.net/blog/2017/10/23/updateproblem-und-neue-testing-2016-2-7-bremen1.html))  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2.7+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2.7+bremen1)  
 **gluon-Version**: [2016.2.7](#gluon-versionen_2016-2-7)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2016.2.7+bremen1/)
