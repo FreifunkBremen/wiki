@@ -61,6 +61,8 @@ Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell er
                 - AirGateway PRO
                 - Rocket M2/M5 Ti
                 - UniFi AP LR
+            - GL Innovations
+                - GL-AR300M
     - Linux-Kernel-Version von 3.18.x auf 4.4.x angehoben
     - KRACK-Lücke wurde behoben
     - das Kompilier-System wurde extrem vereinfacht und beschleunigt
