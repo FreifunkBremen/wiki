@@ -41,8 +41,9 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 
 **Hinweis:** Dies ist die erste Freifunk Bremen Version mit Gluon welches auf LEDE, statt auf OpenWrt basiert.  ihre Konfiguration.  
 **Update-Hinweis:** Ein Problem beim Aktualisieren von x86-Knoten auf die LEDE-Basis, welches zum Verlust der Konfiguration führt, wurde in [2016.2.6+bremen1](#freifunk-bremen-versionen_2016-2-6-bremen1) behoben. Es ist zwingend nötig erst auf diese Version zu aktualisieren bevor der Sprung zu LEDE gemacht wird.  
-Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell erweitert werden.
-**Hinweis:** Geräte mit nur 4MB Speicherplatz werden nun speziell behandelt, um weiterhin einen Betrieb zu gewährleisten. Diese Geräte können keine opkg-Pakete mehr nachinstallieren.  
+Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell erweitert werden.  
+**Hinweis:** Geräte mit nur 4MB Speicherplatz werden nun speziell behandelt, um weiterhin einen Betrieb zu gewährleisten. Diese Geräte können keine opkg-Pakete mehr nachinstallieren.    
+Für eine Übersicht an Geräten welche dies betrifft, lohnt sich ein Blick auf List der unterstützten Hardware: [ar71xx-tiny](https://gluon.readthedocs.io/en/v2017.1/index.html#ar71xx-tiny)  
 **Hinweis:** Durch einen kleinen Fehler, wird der Firmwarename mit einem extra `+` am Ende angezeigt. Dies hat keine Bedeutung und kann missachtet werden.
 
 - **Update auf [Gluon 2017.1.4](#gluon-versionen_2017-1-4)**
@@ -672,7 +673,8 @@ Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell er
     - Rocket M2/M5 Ti
     - UniFi AP LR
 
-**Hinweis:** Geräte mit nur 4MB Speicherplatz werden nun speziell behandelt, um weiterhin einen Betrieb zu gewährleisten. Diese Geräte können keine opkg-Pakete mehr nachinstallieren.
+**Hinweis:** Geräte mit nur 4MB Speicherplatz werden nun speziell behandelt, um weiterhin einen Betrieb zu gewährleisten. Diese Geräte können keine opkg-Pakete mehr nachinstallieren.  
+Für eine Übersicht an Geräten welche dies betrifft, lohnt sich ein Blick auf List der unterstützten Hardware: [ar71xx-tiny](https://gluon.readthedocs.io/en/v2017.1/index.html#ar71xx-tiny)
 
 #### Änderungen
 - Linux-Kernel-Version von 3.18.x auf 4.4.x angehoben
