@@ -112,7 +112,7 @@ Für ein erfolgreiches Update muss der Knoten eventuell kurz vom Strom getrennt 
 
 
 ### 2016.2.4+bremen2
-**Veröffentlichung auf dem `stable`-Branch**: [30.04.2017](http://downloads.bremen.freifunk.net/firmware/all/2016.2.4+bremen2/sysupgrade/stable.manifest)  
+**Veröffentlichung auf dem `stable`-Branch**: [30.04.2017](http://downloads.bremen.freifunk.net/firmware/all/2016.2.4+bremen2/sysupgrade/stable.manifest)   ([Blogpost](https://bremen.freifunk.net/blog/2017/05/18/aktuelle-stable-2016-2-4-bremen2.html))  
 **Veröffentlichung auf dem `testing`-Branch**: [14.04.2017](http://downloads.bremen.freifunk.net/firmware/all/2016.2.4+bremen2/sysupgrade/testing.manifest) ([Blogpost](https://bremen.freifunk.net/blog/2017/04/14/neue-testing-2016-2-4-bremen2.html))  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2016.2.4+bremen2) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2016.2.4+bremen2)  
 **gluon-Version**: [2016.2.4](#gluon-versionen_2016-2-4)  
