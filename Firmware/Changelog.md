@@ -568,9 +568,6 @@ Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfacht
 
 
 ### 2017.1.4
-**Update-Hinweis:** Ein Problem beim Aktualisieren von x86-Knoten auf die LEDE-Basis, welches zum Verlust der Konfiguration führt, wurde in [2016.2.6+bremen1](#freifunk-bremen-versionen_2016-2-6-bremen1) behoben. Es ist zwingend nötig erst auf diese Version zu aktualisieren bevor der Sprung zu LEDE gemacht wird.  
-Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell erweitert werden.
-
 **Veröffentlichungsdatum**: 15.11.2017  
 **offizielle Versionshinweise**: [2017.1.4](https://gluon.readthedocs.io/en/v2017.1.4/releases/v2017.1.4.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2017.1.4/index.html#supported-devices-architectures)  
@@ -590,9 +587,6 @@ Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell er
 
 
 ### 2017.1.3
-**Update-Hinweis:** Ein Problem beim Aktualisieren von x86-Knoten auf die LEDE-Basis, welches zum Verlust der Konfiguration führt, wurde in [2016.2.6+bremen1](#freifunk-bremen-versionen_2016-2-6-bremen1) behoben. Es ist zwingend nötig erst auf diese Version zu aktualisieren bevor der Sprung zu LEDE gemacht wird.  
-Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell erweitert werden.
-
 **Veröffentlichungsdatum**: 11.10.2017  
 **offizielle Versionshinweise**: [2017.1.3](https://gluon.readthedocs.io/en/v2017.1.3/releases/v2017.1.3.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2017.1.3/index.html#supported-devices-architectures)  
@@ -608,9 +602,6 @@ davon betrifft nur eine Schwachstelle Gluon im Normalbetrieb
 
 
 ### 2017.1.2
-**Update-Hinweis:** Ein Problem beim Aktualisieren von x86-Knoten auf die LEDE-Basis, welches zum Verlust der Konfiguration führt, wurde in [2016.2.6+bremen1](#freifunk-bremen-versionen_2016-2-6-bremen1) behoben. Es ist zwingend nötig erst auf diese Version zu aktualisieren bevor der Sprung zu LEDE gemacht wird.  
-Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell erweitert werden.
-
 **Veröffentlichungsdatum**: 14.08.2017  
 **offizielle Versionshinweise**: [2017.1.2](https://gluon.readthedocs.io/en/v2017.1.2/releases/v2017.1.2.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2017.1.2/index.html#supported-devices-architectures)  
@@ -630,9 +621,7 @@ Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell er
 - der an-/aus-Zustand von VPN wird bei einer Migration zwischen fastd und Tunneldigger korrekt übertragen
 
 
-### 2017.1.1
-**Update-Hinweis:** Ein Problem beim Aktualisieren von x86-Knoten auf die LEDE-Basis, welches zum Verlust der Konfiguration führt, wurde in [2016.2.6+bremen1](#freifunk-bremen-versionen_2016-2-6-bremen1) behoben. Es ist zwingend nötig erst auf diese Version zu aktualisieren bevor der Sprung zu LEDE gemacht wird.  
-Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell erweitert werden.  
+### 2017.1.1 
 **Bug-Hinweis:** OpenMesh-Geräte verlieren bei Updates ihre Konfiguration.
 
 **Veröffentlichungsdatum**: 03.07.2017  
@@ -651,9 +640,7 @@ Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell er
 **Hinweis:** Dies ist die erste Gluon-Version welche auf LEDE, statt auf OpenWrt basiert.  
 **Bug-Hinweis:** Ein Bug verhindert das Schreiben auf den Flash-Speicher auf Ubiquiti PicoStations mit bestimmten Bootloader-Versionen.  
 Betroffene Geräte können nur über TFTP-Wiederherstellung wieder zum Laufen gebracht werden.  
-**Bug-Hinweis 2:** OpenMesh-Geräte verlieren bei Updates ihre Konfiguration.  
-**Update-Hinweis:** Ein Problem beim Aktualisieren von x86-Knoten auf die LEDE-Basis, welches zum Verlust der Konfiguration führt, wurde in [2016.2.6+bremen1](#freifunk-bremen-versionen_2016-2-6-bremen1) behoben. Es ist zwingend nötig erst auf diese Version zu aktualisieren bevor der Sprung zu LEDE gemacht wird.  
-Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell erweitert werden.
+**Bug-Hinweis 2:** OpenMesh-Geräte verlieren bei Updates ihre Konfiguration.
 
 **Veröffentlichungsdatum**: 10.06.2017  
 **offizielle Versionshinweise**: [2017.1](https://gluon.readthedocs.io/en/v2017.1/releases/v2017.1.html)  
