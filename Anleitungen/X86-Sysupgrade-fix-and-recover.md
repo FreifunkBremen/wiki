@@ -193,6 +193,7 @@ Configuring openssl-util.
 - Wenn das alles nicht geht, die benötigten Pakete direkt aus dem Repro ziehen und ins /tmp schubsen, manuell installieren.
 - Klappt das immer noch nicht, schau im IRC oder auf einem Freifunk Treffen vorbei.
 
+#### Update Januar 2018
 Mit dem Umstieg auf LEDE können die Pakete von folgenden Seiten geladen werden:
 HTTP 	https://downloads.lede-project.org/releases/packages-17.01/x86_64/
 FTP 	ftp://ftp.halifax.rwth-aachen.de/lede/releases/packages-17.01/x86_64/
