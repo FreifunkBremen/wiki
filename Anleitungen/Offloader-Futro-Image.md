@@ -229,6 +229,8 @@ opkg install openvpn-openssl openvpn-easy-rsa
 ```
 
 Jetzt das Image der Community laden. In diesem Fall FFHB.
+Aktuell, Januar 2018 ist 2017.1.4 in Vorbereitung. Als Testing unter:
+https://downloads.bremen.freifunk.net/firmware/testing/sysupgrade/gluon-ffhb-2017.1.4+bremen1+-x86-generic-sysupgrade.img.gz
 
 ```
 cd /tmp
