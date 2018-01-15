@@ -193,3 +193,10 @@ Configuring openssl-util.
 - Wenn das alles nicht geht, die benötigten Pakete direkt aus dem Repro ziehen und ins /tmp schubsen, manuell installieren.
 - Klappt das immer noch nicht, schau im IRC oder auf einem Freifunk Treffen vorbei.
 
+Mit dem Umstieg auf LEDE können die Pakete von folgenden Seiten geladen werden:
+HTTP 	https://downloads.lede-project.org/releases/packages-17.01/x86_64/
+FTP 	ftp://ftp.halifax.rwth-aachen.de/lede/releases/packages-17.01/x86_64/
+
+Eine Paketliste findet sich hier: https://lede-project.org/packages/table/start
+Da auf der Flashkarte des FUTRO viel Platz ist (wir haben ja /mnt/sda3), habe ich einfach das verlinkte Pakage Verzeichnis dorthin kopiert und installiere meine benötigten Pakete einfach direkt von dort.
+
