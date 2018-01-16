@@ -2,9 +2,11 @@ Wenn du auf dieser Seite gelandet bist, ist meistens etwas schief gegangen. Kein
 Anm. Linux-Partitionen vergrössert man nicht, es wird eine neue in das vorhandene System eingehängt.
 Der Autoupdater sollte deaktiviert werden, das verhindert Überraschungen.
 
-Leider sind die Erweiterungen nicht upgradefest. Ein sysupgrade erzeugt immer wieder die Originalgröße des Images und löscht alle anderen Partitionen. Ein Fix in Gluon ist in Arbeit. Diese Spielereien können auch in einer VM Umgebung geübt werden. Mite der Umstellung auf LEDE wird sich die Partitionsgröße ändern, damit sind unsere Spielereien eh hinüber. Deshalb Backups anlegen und was ich behalten möchte, in einem Installationsscript ablegen, das erspart später viel Arbeit.
+Leider sind die Erweiterungen nicht upgradefest. Ein sysupgrade erzeugt immer wieder die Originalgröße des Images und löscht alle anderen Partitionen. Ein Fix in Gluon ist in Arbeit. Tip: Diese Spielereien können auch in einer VM Umgebung geübt werden. Mit der Umstellung auf LEDE wird sich die Partitionsgröße ändern, damit sind unsere Spielereien dann sowieso hinüber. Deshalb Backups anlegen und was ich behalten möchte, in einem Installationsscript ablegen, das erspart später viel Arbeit.
 
-Fall 1: Die vorhandene Partition wurde vergrößert und ein sysupgrade durchgeführt. Hier ist nichts mehr zu Retten, die Pertition wurde verkleinert. Für die Zukunft, nicht am Original rumfummeln und zusätzliche Partitionen einhängen.
+Wichtige Anmerkung zum Umstieg von Offloadern auf LEDE. Bisher wurde der beliebte FUTRO mit X86-generic bespielt. Nach dem Sysupgrade auf LEDE wird jedoch i386_pentium4 verwendet. Läuft die Kiste nur als Offloader, ist das kein Problem. Spielen wir mit der Kiste, (IRC Bouncer, ICE-Cast Server usw.) haben wir ein Problem. Es gibt deutlich weniger Pakages im Repro. Mit dem Wechsel auf X86_64 besteht das Problem nicht, hier werden alle Pakete angeboten. Wer Bastelt, bitte den Sysupgrade auf https://downloads.bremen.freifunk.net/firmware/testing/sysupgrade/gluon-ffhb-2017.1.4+bremen1+-x86-64-sysupgrade.img.gz setzen. Bei mir war ein Wechsel auf einem Futro S550-2 problemlos möglich.
+
+Fall 1: Die vorhandene Partition wurde vergrößert und ein sysupgrade durchgeführt. Hier ist nichts mehr zu Retten, die Pertition wurde verkleinert. Für die Zukunft, nicht am Original rumfummeln und zusätzliche Partitionen immer einhängen.
 
 Fall 2: Es war eine dritte Partition /sda3 erstellt und gemounted. Diese ist nun nach einem sysupgrade verschwunden.
 #### Es kann Hilfe geben, wir gehen wie folgt vor:
@@ -100,6 +102,7 @@ mount -t /dev/sda3 /mnt/sda3
 - Das ist eher selten der Fall und unsere Daten sind trotzdem futsch.
 - War das mounten erfolgreich, sind alle Daten der alten Partition wieder da.
 - Folgender Versuch, diskcheck!
+- Einige Tools refreshen nicht, z.B. WINSCP, immer Aktualisieren Ctrl-R etc.
 
 ~~~
 root@ffhb-0019997a7220:~# e2fsck -p /dev/sda3
