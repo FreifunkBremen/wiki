@@ -30,8 +30,17 @@ Branch        | aktuelle Version                                                
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
+### 2017.1.4+bremen2
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: [20.12.2017](https://downloads.bremen.freifunk.net/firmware/all/2017.1.4+bremen2/sysupgrade/testing.manifest)  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2017.1.4+bremen2) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2017.1.4+bremen2)  
+**gluon-Version**: [2017.1.4](#gluon-versionen_2017-1-4)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2017.1.4+bremen2/)
 
-### 2017.1.4+bremen1
+
+- Inhaltlich identisch zu 2017.1.4+bremen1, nur ohne komisches + am Ende.
+
+### 2017.1.4+bremen1 / 2017.1.4+bremen1+
 **Veröffentlichung auf dem `stable`-Branch**: nie  
 **Veröffentlichung auf dem `testing`-Branch**: [16.12.2017](https://downloads.bremen.freifunk.net/firmware/all/2017.1.4+bremen1/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2017.1.4+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2017.1.4+bremen1)  
@@ -44,7 +53,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 Zusätzlich muss bei virtuellen Maschinen eventuell der Speicherplatz manuell erweitert werden.  
 **Hinweis:** Geräte mit nur 4MB Speicherplatz werden nun speziell behandelt, um weiterhin einen Betrieb zu gewährleisten. Diese Geräte können keine opkg-Pakete mehr nachinstallieren.    
 Für eine Übersicht an Geräten welche dies betrifft, lohnt sich ein Blick auf List der unterstützten Hardware: [ar71xx-tiny](https://gluon.readthedocs.io/en/v2017.1/index.html#ar71xx-tiny)  
-**Hinweis:** Durch einen kleinen Fehler, wird der Firmwarename mit einem extra `+` am Ende angezeigt. Dies hat keine Bedeutung und kann missachtet werden.
+**Hinweis:** Durch einen kleinen Fehler, wird der Firmwarename mit einem extra `+` am Ende angezeigt. Dies hat keine Bedeutung und kann ignoriert werden.
 
 - **Update auf [Gluon 2017.1.4](#gluon-versionen_2017-1-4)**
     - Gluon 2017.x Versionen basieren nun auf LEDE  
