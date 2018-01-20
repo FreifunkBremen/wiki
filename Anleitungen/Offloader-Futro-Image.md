@@ -2,7 +2,7 @@
 
 In den Freifunk-Foren werden viele interessante Themen um den Futro besprochen.
 Um die benötigten Informationen nicht überall zusammensuchen zu müssen, hier
-eine kleine Zusammenfassung für das Bremer Futro-Image.
+eine kleine Zusammenfassung für das Bremer Futro-Image. Ganz Eilige können gleich ans Ende dieses Beitrages springen.
 
 **1.) Abschnitt: Die Hardware.**
 
@@ -215,7 +215,7 @@ Die UID zeigt der Befehl ```blkid```. die Option ```uuid``` ist aber nicht notwe
 _So, und nun viel Spass beim Futro-Basteln._
 
 
-**5.) Image-Update auf Community-Release**
+**5.) Image-Update auf Community-Release 27.03.2016**
 
 Angefügt: 27.03.2016
 In diesem Kapitel wird nun das selbst gebastelte Image auf das X86 Image der Community angehoben/geändert. *Achtung:* Zusätzliche Partitionen der Flashkarte sind dann weg, die Arbeitspartition sda2 wird wieder auf 50Mb verkleinert, zumindest bei mir. Einige nachinstallierte Programme sind weg (z.B. tcpdump etc.).
@@ -263,7 +263,7 @@ Fertig, der Offloader zeigt nun:
 Firmware	2016.1.2+bremen1 / gluon-v2016.1.2
 Autom. Updates	aktiviert (stable)
 
-Ergänzung 13.4.2016: Falls der Futro nicht per SSH zu erreichen ist, hilft nur lokal Tastatur und Monitor anschliessen. Über die Konsole SSH neu konfigurieren oder den Konfig-Mode starten.
+***Ergänzung 13.4.2016:*** Falls der Futro nicht per SSH zu erreichen ist, hilft nur lokal Tastatur und Monitor anschliessen. Über die Konsole SSH neu konfigurieren oder den Konfig-Mode starten.
 ~~~
 uci set "gluon-setup-mode.@setup_mode[0].enabled=1"
 uci commit
@@ -282,3 +282,13 @@ Anleitung und Futro-USB-Stick jetzt auch auf Github.
 https://github.com/oszilloskop/Gluon2Futro/
 USB-Stick - Gluon2Futro (Win/Linux/OS X)
 Neu: Jetzt auch mit Futro S550-2 Unterstützung!
+
+***6.) Futro S550-2 Umstieg auf Gluon 17.1.4 19.01.2018***
+
+Die bisherige Installation wurde mit dem X86 generic Image (32 Bit) durchgeführt. Dies ist das Universalimage für alle X86 basierten Systeme. In die Images ist die USB Unterstüzung und andere bereits eingebaut. Mit dem fertigen Image auf dem Bootstick kann direkt installiert werden. Es sind dann nur noch die normalen Einstellungen wie für einen Freifunkrpouter vorzunehmen.
+
+Ich habe auf meinem Futro einen ZNC IRC-Bouncer laufen, um im Livechat die letzten Tage lesen zu können. Nach dem Umstieg auf 2017.1.4 konnte ich den ZNC Bouncer nicht installieren. Den Grund fand ich im Lede Repro. Die Packages für X86-Generic waren 2249 Dateien ohne die ZNC Pakete. Die Packeges für X86-64 waren 2318 Dateien. Dort fand ich auch die 56 Pakete für den ZNC wieder.
+
+Umstieg von X86-Generic auf X86-64
+Das X86-64 im Futro /tmp Verzeichnis entpacken und mit sysupgrade -F <image> den Futro auf die 64 Bit Version umgestellt. Nach dem Neustart läuft der Futro S550-2 nun mit dem 64 Bit Image. Der ZNC IRC Bouncer konnte nun wie gewohnt mit opkg update; opkg install znc auf dem Futro installiert werden.
+
