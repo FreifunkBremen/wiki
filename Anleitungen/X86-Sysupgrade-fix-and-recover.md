@@ -204,3 +204,76 @@ FTP 	ftp://ftp.halifax.rwth-aachen.de/lede/releases/packages-17.01/x86_64/
 Eine Paketliste findet sich hier: https://lede-project.org/packages/table/start
 Da auf der Flashkarte des FUTRO viel Platz ist (wir haben ja /mnt/sda3), habe ich einfach das verlinkte Pakage Verzeichnis dorthin kopiert und installiere meine benötigten Pakete einfach direkt von dort.
 
+### Offloader auf X86-64 Image updaten
+Die vielen Installationsanleitungen für einen Offloader beziehen sich immer auf das generic Image mit 32 Bit. Da funktioniert fast immer. Hier ist nun zu sehen wie einfach der Umstieg auf 64 Bit ist. In diesem Beispiel verwende ich die momentan gültige Testing unserer community. Bisher ist auf dem Offloader das Image https://downloads.bremen.freifunk.net/firmware/testing/sysupgrade/gluon-ffhb-2017.1.4+bremen2-x86-generic-sysupgrade.img.gz installiert. für den Umstieg lade ich das https://downloads.bremen.freifunk.net/firmware/testing/sysupgrade/gluon-ffhb-2017.1.4+bremen2-x86-64-sysupgrade.img.gz Image herunter. Mit einem unzipper eurer Wahl entpacken und ins /tmp Verzeichnis des Offloaders kopieren. Erfahrene Anwender machen das direkt alles im /tmp des Offloaders.
+Nicht vergessen, Backup wichtiger Daten, zusätliche Partitionen sind weg und müssen neu erstellt werden. 
+
+Per SSH einloggen, im /tmp einen sysupgrade anstossen, fertig. Siehe folgenden Output, von alt nach neu.
+~~~
+Using username "root".
+Authenticating with public key "ffhb"
+
+
+BusyBox v1.23.2 (2017-08-31 15:16:02 CEST) built-in shell (ash)
+
+  _______                     ________        __
+ |       |.-----.-----.-----.|  |  |  |.----.|  |_
+ |   -   ||  _  |  -__|     ||  |  |  ||   _||   _|
+ |_______||   __|_____|__|__||________||__|  |____|
+          |__| W I R E L E S S   F R E E D O M
+ -----------------------------------------------------
+ CHAOS CALMER (Chaos Calmer, r49389)
+ -----------------------------------------------------
+  * 1 1/2 oz Gin            Shake with a glassful
+  * 1/4 oz Triple Sec       of broken ice and pour
+  * 3/4 oz Lime Juice       unstrained into a goblet.
+  * 1 1/2 oz Orange Juice
+  * 1 tsp. Grenadine Syrup
+ -----------------------------------------------------
+root@ffhb-0013490bd9f6:~#
+root@ffhb-0013490bd9f6:~# cd /tmp
+root@ffhb-0013490bd9f6:/tmp# ls
+TZ
+dhcp.leases
+dnsmasq.d
+etc
+extroot
+fastd
+gluon
+gluon-ffhb-2017.1.4+bremen2-x86-64-sysupgrade.img
+hosts
+lib
+lock
+log
+resolv.conf
+resolv.conf.auto
+run
+shm
+spool
+state
+root@ffhb-0013490bd9f6:/tmp# sysupgrade -F gluon-ffhb-2017.1.4+bremen2-x86-64-sysupgrade.img
+Reading partition table from bootdisk...
+Reading partition table from image...
+Partition layout has changed. Full image will be written.
+Saving config files...
+Commencing upgrade. All shell sessions will be closed now.
+Using username "root".
+Authenticating with public key "ffhb"
+
+
+BusyBox v1.25.1 () built-in shell (ash)
+
+     _________
+    /        /\      _    ___ ___  ___
+   /  LE    /  \    | |  | __|   \| __|
+  /    DE  /    \   | |__| _|| |) | _|
+ /________/  LE  \  |____|___|___/|___|                      lede-project.org
+ \        \   DE /
+  \    LE  \    /  -----------------------------------------------------------
+   \  DE    \  /    Reboot (17.01-SNAPSHOT, r3581+39-6b6578f)
+    \________\/    -----------------------------------------------------------
+
+root@ffhb-0013490bd9f6:~#
+
+~~~
+Das ist echt cool :-)
