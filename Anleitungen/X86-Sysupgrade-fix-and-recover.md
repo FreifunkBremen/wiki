@@ -277,3 +277,47 @@ root@ffhb-0013490bd9f6:~#
 
 ~~~
 Das ist echt cool :-)
+
+
+###Upgradefest, Upgrade-Fest
+Es wird immer wieder die Frage gestellt, wie man Pakete upgradesicher installieren kann. Achtung: In der Frage ist bereits ein fataler Fehler enthalten. Nicht die Pakete sind es, sondern die Konfiguration soll erhalten bleiben. Mit einem Sysupgrade können neuere Pakete bereitgestellt werden.
+
+Nach einem sysupgrade installieren wir die zusätzlichen Pakete neu. Wir können uns hierfür eine Favoritenliste oder ein Script basteln.
+~~~
+meineprogs.sh
+opkg update && opkg install znc znc-mod-fail2ban znc-mod-flooddetach znc-mod-log znc-mod-webadmin znc-webskin-ice
+~~~
+
+In der Datei /etc/sysupgrade.conf kann man festlegen, welche Dateien oder Ordner behalten werden sollen:
+Hier werden nicht die Pakete aufgenommen, sonderen deren Konfigurationsdateien oder die Orte an denen diese liegen.
+~~~
+## This file contains files and directories that should
+## be preserved during an upgrade.
+
+# /etc/example.conf
+/etc/openvpn/
+/etc/ice.sh
+/etc/icecast.xml
+/etc/icecast.xml-opkg
+/etc/ices-alsa.xml
+/etc/ices-oss.xml
+/etc/ices-roar.xml
+/etc/listuserpackages.awk
+/etc/listuserpackages.sh
+/var/log/icecast/
+/var/log/icecast/error.log
+/var/log/icecast/access.log
+/var/log/ices/
+/var/log/ices/ices.log
+/var/etc/configs/
+/var/etc/configs/znc.conf
+/root/.znc/
+/root/.znc/znc.pem
+/root/.znc/configs/
+/root/.znc/configs/znc.conf
+/root/.znc/moddata/
+/root/.znc/users/
+~~~
+Hier muss man jedoch alle Konfigurationsdateien angeben, die bei einem Paket installiert werden, also auch Libraries, evtl. LOG-Files und config files.
+Besondere Benutzer und Rechte bitte mit in einem eigen Script hinterlegen.
+
