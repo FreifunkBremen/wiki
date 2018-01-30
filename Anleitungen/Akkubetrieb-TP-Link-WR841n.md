@@ -31,6 +31,8 @@ Neupreis ca. 1Euro
 1 Laderegler, PCB protection Board für 2 Akkus (2S 18650 PCB Board)
 [Beispiellink eBay](https://www.ebay.de/itm/2S-8A-7-4V-8-4V-Lithium-Cell-Li-ion-BMS-Battery-18650-Protection-PCB-Board/142381524809?hash=item212699a749:g:13oAAOSwlndZFoEa)
 
+####Kosten: 3 Teile ca. 3 Euro.
+
 ###Zubehör: (bei einem Freifunker oder Hackerspace eures Vertrauens, werdet ihr fündig)
 etwas Heißkleber oder Baukleber etc.
 Isolierband, damit die Anschlusskabel mechanisch gesichert werden.
