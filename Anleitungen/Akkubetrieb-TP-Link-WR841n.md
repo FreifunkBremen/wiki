@@ -36,34 +36,27 @@ etwas Heißkleber oder Baukleber etc.
 Isolierband, damit die Anschlusskabel mechanisch gesichert werden.
 Lötkolben, Lötzinn, etwas Kupferdraht, Seitenschneider.
 
-Wenn das Routerboard frei liegt, [siehe OpenWRT forum](http://i49.tinypic.com/144070p.jpg)
-sieht man auf der Unterseite die Kontakte für den EIN/AUS-Schalter und der Netzbuchse. Am Platinenrand ist der Minuspol/Masse/Ground, zur Platineninnenseite der Pluspol/Power.
+Wenn das Routerboard frei liegt, [siehe Bild OpenWRT forum](http://i49.tinypic.com/144070p.jpg)
+sieht man auf der Unterseite (im Bild oben rechts) die Kontakte für den EIN/AUS-Schalter und der Netzbuchse. Am Platinenrand ist der Minuspol/Masse/Ground, zur Platineninnenseite der Pluspol/Power.
 
 Den Verdrahtungsplan kann ich hier nur schriftlich hinterlegen, ist aber ganz einfach.
 
-Den Minuspol/Ground verbinden wir mit PCB P-, den Pluspol/Power verbinden wir mit PCB P+.
+Den Minuspol/Ground verbinden wir mit PCB P-, den Pluspol/Power verbinden wir mit PCB P+. Also unser PCB Board wird mit den Anschlüssen P+ und P- mit der Netzgerätebuchse verbunden.
 Die beiden Akkus verbinden wir mit mit PCB B+,BM,B-.
 Akku 1, Pluspol mit PCB B+, Minuspol mit PCB BM.
 Akku 2, Pluspol mit PCB BM, Minuspol mit PCB B-.
 
-Wenn wir die Akkus in einer Richtung hintereinanderlegen, dann ist die Mitte
-an PCB BM angeschlossen, Der Pluspol des Akku 1 an PCB B+ und der Minus von Akku2 an PCB B.-
+Wenn wir die Akkus in einer Richtung hintereinanderlegen, dann ist die Mitte an PCB BM angeschlossen, Der Pluspol des Akku 1 an PCB B+ und der Minus von Akku2 an PCB B.-
 
-Es ist hilfreich, zunächst alle Drähte an das PCB Board zu löten um dann die Kabellängen anzupassen.
-Auf vielen PCB Board sind an den Lötstellen kleine Metallplättchen vorhanden. Das sind Schweisspunkte 
-für Akkus mit Metalllaschen zur industriellen Fertigung. Diese können beim Auflöten des Kabels leicht 
-verrutschen. Wenn der Lötvorgang schief geht, können die Plätchen auch entfernt werden. Die sind zum 
-Anlöten überflüssig. 
+Es ist hilfreich, zunächst alle Drähte an das PCB Board zu löten um dann die Kabellängen anzupassen. Auf vielen PCB Board sind an den Lötstellen kleine Metallplättchen vorhanden. Das sind Schweisspunkte für Akkus mit Metalllaschen zur industriellen Fertigung. Diese können beim Auflöten des Kabels leicht verrutschen. Wenn der Lötvorgang schief geht, können die Plätchen auch entfernt werden. Die sind zum Anlöten überflüssig. 
 
-Sind die Kabel an den Akkus angelötet, werden diese mit Isolierband fixiert, 
-damit diese durch mechanische Bewegung nicht abbrechen.
+Sind die Kabel an den Akkus angelötet, werden diese mit Isolierband fixiert, damit diese durch mechanische Bewegung nicht abbrechen.
 Jetzt alles in das Routergehäuse kleben. Fixpunkte reichen aus.
 
-Testen: Netzteil anschliessen, die Akkus werden geladen, mein Netzteil war etwas 1 Stunde Handwarm.
-Router einschalten, Lampen blinken. Netzteil abziehen, Router läuft immer noch :-)
+Testen: Netzteil anschliessen, die Akkus werden geladen, mein Netzteil war etwas 1 Stunde Handwarm. Router einschalten, Lampen blinken. Netzteil abziehen, Router läuft immer noch :-)
 Wer mag, kann den Router nun wieder zusammenbauen.
 
-Bilder: Folgen.
+Bilderstrecke: Folgt.
 Laufzeit: WR841N V8 mit LEDs und 2*12000mAh (unbekannt, Zeit folgt noch)
 
-
+tbc.
