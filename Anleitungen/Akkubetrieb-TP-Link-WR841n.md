@@ -1,5 +1,5 @@
 
-Akkubetrieb TP-Link WR841n 
+###Akkubetrieb TP-Link WR841n 
 
 Wer seinen Router durch zusätzliche Akkus schützen möchte,
 findet im Netz viele Varianten. 
@@ -27,19 +27,20 @@ können belibig in Abhängigkeit der Akkus variert werden.
 2 Akkus vom Typ 18650 (die sind viel in Laptops verbaut)
 Neupreis ca. 1Euro
 [Beispiellink eBay](https://www.ebay.de/itm/8X-18650-3-7V-12000mAh-Akku-Micro-Varta-Accu-Li-ion-Battery-for-LED-Torch-DR/253378430047?hash=item3afe88045f:g:uKkAAOSwRLZaYdfk)
+
 1 Laderegler, PCB protection Board für 2 Akkus (2S 18650 PCB Board)
 [Beispiellink eBay](https://www.ebay.de/itm/2S-8A-7-4V-8-4V-Lithium-Cell-Li-ion-BMS-Battery-18650-Protection-PCB-Board/142381524809?hash=item212699a749:g:13oAAOSwlndZFoEa)
 
-Zubehör: (bei einem Freifunker oder Hackerspace eures Vertrauens, werdet ihr fündig)
+###Zubehör: (bei einem Freifunker oder Hackerspace eures Vertrauens, werdet ihr fündig)
 etwas Heißkleber oder Baukleber etc.
 Isolierband, damit die Anschlusskabel mechanisch gesichert werden.
 Lötkolben, Lötzinn, etwas Kupferdraht, Seitenschneider.
 
 Wenn das Routerboard frei liegt, [siehe OpenWRT forum](http://i49.tinypic.com/144070p.jpg)
-sieht man auf der Unterseite die Kontakte für den EIN/AUS-Schalter und der Netzbuchse.
-Am Platinenrand ist der Minuspol/Masse/Ground, zur Platineninnenseite der Pluspol/Power.
+sieht man auf der Unterseite die Kontakte für den EIN/AUS-Schalter und der Netzbuchse. Am Platinenrand ist der Minuspol/Masse/Ground, zur Platineninnenseite der Pluspol/Power.
 
 Den Verdrahtungsplan kann ich hier nur schriftlich hinterlegen, ist aber ganz einfach.
+
 Den Minuspol/Ground verbinden wir mit PCB P-, den Pluspol/Power verbinden wir mit PCB P+.
 Die beiden Akkus verbinden wir mit mit PCB B+,BM,B-.
 Akku 1, Pluspol mit PCB B+, Minuspol mit PCB BM.
