@@ -61,6 +61,8 @@ Wer mag, kann den Router nun wieder zusammenbauen.
 Bilderstrecke: Folgt.
 Laufzeit: WR841N V8 mit LEDs und 2*12000mAh 
 
-Testlauf 1: 3h Ladezeit, Router lief ca. 2h (das war wenig).
-Testlauf 2: 14h Ladezeit, Router lief ca. 2h (auch das war wenig).
+####Testlauf 1: 3h Ladezeit, Router lief ca. 2h (das war wenig).
+
+####Testlauf 2: 14h Ladezeit, Router lief ca. 2h (auch das war wenig).
+
 tbc.
