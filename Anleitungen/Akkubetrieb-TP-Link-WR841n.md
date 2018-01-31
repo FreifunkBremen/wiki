@@ -55,7 +55,7 @@ Es ist hilfreich, zunächst alle Drähte an das PCB Board zu löten um dann die 
 Sind die Kabel an den Akkus angelötet, werden diese mit Isolierband fixiert, damit diese durch mechanische Bewegung nicht abbrechen.
 Jetzt alles in das Routergehäuse kleben. Fixpunkte reichen aus.
 
-Testen: Netzteil anschliessen, die Akkus werden geladen, mein Netzteil war etwas 1 Stunde Handwarm. Router einschalten, Lampen blinken. Netzteil abziehen, Router läuft immer noch :-)
+Testen: Netzteil anschliessen, die Akkus werden geladen. Mein Netzteil war etwa 1 Stunde lang Handwarm. Router einschalten, Lampen blinken. Netzteil abziehen, Router läuft immer noch :-)
 Wer mag, kann den Router nun wieder zusammenbauen.
 
 Bilderstrecke: Folgt.
