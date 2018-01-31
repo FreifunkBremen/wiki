@@ -59,6 +59,8 @@ Testen: Netzteil anschliessen, die Akkus werden geladen, mein Netzteil war etwas
 Wer mag, kann den Router nun wieder zusammenbauen.
 
 Bilderstrecke: Folgt.
-Laufzeit: WR841N V8 mit LEDs und 2*12000mAh (unbekannt, Zeit folgt noch)
+Laufzeit: WR841N V8 mit LEDs und 2*12000mAh 
+
+Testlauf 1: 3h Ladezeit, Router lieft ca. 2h (das war wenig).
 
 tbc.
