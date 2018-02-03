@@ -74,6 +74,6 @@ Laufzeit: WR841N V8 mit LEDs und 2*12000mAh
 ![Paris](http://cloud.ffhb.de/index.php/s/q5wipXgzjKDYAyi)
 
 Bild Squirrel:
-[Squirrel](http://cloud.ffhb.de/index.php/s/wnifrKiHRFMGsAa)
+![Squirrel](http://cloud.ffhb.de/index.php/s/wnifrKiHRFMGsAa)
 Testbild.
 
