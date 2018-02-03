@@ -71,5 +71,5 @@ Laufzeit: WR841N V8 mit LEDs und 2*12000mAh
 
 ![Paris](https://cloud.ffhb.de/index.php/s/4ycTguA6LumSsa3/download)
 
-![Paris](https://cloud.ffhb.de/index.php/s/q5wipXgzjKDYAyi/download)
+![Paris](http://cloud.ffhb.de/index.php/s/q5wipXgzjKDYAyi)
 
