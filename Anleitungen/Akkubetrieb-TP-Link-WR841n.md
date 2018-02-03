@@ -66,3 +66,6 @@ Laufzeit: WR841N V8 mit LEDs und 2*12000mAh
 ####Testlauf 2: 14h Ladezeit, Router lief ca. 2h (auch das war wenig).
 
 Bild: ![WR841N Akku](http://cloud.ffhb.de/index.php/s/9SyhaeqOoFW5PCd)
+
+Bild: ![WR841N Akku](https://cloud.ffhb.de/index.php/s/9SyhaeqOoFW5PCd)
+
