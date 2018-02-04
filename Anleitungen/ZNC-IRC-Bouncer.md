@@ -129,5 +129,5 @@ Beispiel:
 ~~~
 /znc connect user@password//ipv6:1234 /join #ffhb
 ~~~
-TBE
+![ZNC-Frontend](https://cloud.ffhb.de/index.php/s/whUvb3GpmJ2BBRJ/download)
 
