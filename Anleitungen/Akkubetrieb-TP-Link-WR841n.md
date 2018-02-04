@@ -65,15 +65,7 @@ Laufzeit: WR841N V8 mit LEDs und 2*12000mAh
 
 ####Testlauf 2: 14h Ladezeit, Router lief ca. 2h (auch das war wenig).
 
-![WR841N Akkupack](https://cloud.ffhb.de/index.php/s/9SyhaeqOoFW5PCd/download)
+![WR841N Akkupack](https://cloud.ffhb.de/index.php/s/uqOQd5TvHPhzyFy/download)
 
-![WR841N mit Akku](https://cloud.ffhb.de/index.php/s/conuNbAkyE5oxUt/download)
-
-![Paris (korrekter Link)](https://cloud.ffhb.de/index.php/s/4ycTguA6LumSsa3/download)
-
-![Paris (falscher Link)](https://cloud.ffhb.de/index.php/s/q5wipXgzjKDYAyi)
-
-Bild Squirrel:
-![Squirrel](https://cloud.ffhb.de/index.php/s/wnifrKiHRFMGsAa/download)
-Testbild.
+![WR841N mit Akku](https://cloud.ffhb.de/index.php/s/dcOuyUp9BKxElBd/download)
 
