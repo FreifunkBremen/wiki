@@ -204,6 +204,14 @@ FTP 	ftp://ftp.halifax.rwth-aachen.de/lede/releases/packages-17.01/x86_64/
 Eine Paketliste findet sich hier: https://lede-project.org/packages/table/start
 Da auf der Flashkarte des FUTRO viel Platz ist (wir haben ja /mnt/sda3), habe ich einfach das verlinkte Pakage Verzeichnis dorthin kopiert und installiere meine benötigten Pakete einfach direkt von dort.
 
+#### Update Februar 2018
+Die Pakage-Repros zwischen OpenWRT und LEDE sind verlinkt. Die Inhalte (Pakete)  zwischen 32 & 64 Bit sind angepasst.
+~~~
+https://downloads.openwrt.org/snapshots/packages/x86_64/packages/
+https://downloads.lede-project.org/snapshots/packages/x86_64/packages/
+~~~
+Die Dateiablage ist identisch.
+
 ### Offloader auf X86-64 Image updaten
 Die vielen Installationsanleitungen für einen Offloader beziehen sich immer auf das generic Image mit 32 Bit. Da funktioniert fast immer. Hier ist nun zu sehen wie einfach der Umstieg auf 64 Bit ist. In diesem Beispiel verwende ich die momentan gültige Testing unserer community. Bisher ist auf dem Offloader das Image https://downloads.bremen.freifunk.net/firmware/testing/sysupgrade/gluon-ffhb-2017.1.4+bremen2-x86-generic-sysupgrade.img.gz installiert. für den Umstieg lade ich das https://downloads.bremen.freifunk.net/firmware/testing/sysupgrade/gluon-ffhb-2017.1.4+bremen2-x86-64-sysupgrade.img.gz Image herunter. Mit einem unzipper eurer Wahl entpacken und ins /tmp Verzeichnis des Offloaders kopieren. Erfahrene Anwender machen das direkt alles im /tmp des Offloaders.
 Nicht vergessen, Backup wichtiger Daten, zusätliche Partitionen sind weg und müssen neu erstellt werden. 
