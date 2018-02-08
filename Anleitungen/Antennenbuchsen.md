@@ -1,11 +1,13 @@
-Information zu Antennenanschlüssen auf WLAN-Routern.
+### Informationen zu Antennenanschlüssen auf WLAN-Routern.
 
 
 Auf einigen WLAN Routern sind an den PCB Antennen Buchsen aufgelötet, an die keine externen Antennen angeschlossen werden können. Bei den Buchsen handelt es sich um Messadapter. Es sind Koaxumschalter die das Antennensignal auf einen Messadapter umschalten. Der Adapter ist ein RF-Steckverbinder/Koaxial-Steckverbinder RCPT COAX MS-156HF SMT sieht wie folgt aus.
 
+
 ![MS-156HF](https://cloud.ffhb.de/index.php/s/EBRZ7otBTGnGPT6/download)
 
-Platine GL.iNet AR300M
+Platine GL.iNet AR300M mit RF-Steckverbinder/Koaxial-Steckverbinder RCPT COAX MS-156HF SMT
+
 ![AR300M](https://cloud.ffhb.de/index.php/s/Qz9LM3hy9J44Nxh/download)
 
 Die normale Anschlussbuchse auf Routerplatinen ist für i-pex U.LF MHF  MLL Anschlusskabel.
@@ -20,6 +22,7 @@ Platine GL.iNet AR300M mit externen Anschlüssen auf U.FL-Stecker. Die PCB Anten
 ![AR300M1](https://cloud.ffhb.de/index.php/s/HkIshkFlFCtnVCL/download)
 
 Material, sofern ein Umbau oder eine Reperatur durchgeführt werden soll, kann als Beispiel über www.reichelt.de beschafft werden.
+Ein Basteltip: RP-SMA Einbaubuchsen mit i-pex U.FL Anschluss, sind oft Preisgünstiger als Pigtails. Einfach den Stecker Abschneiden und Koaxkabel direkt anlöten.
 
 Linksammlung: (Bitte um andere Quellen erweitern)
 
