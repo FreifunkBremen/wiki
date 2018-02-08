@@ -106,3 +106,10 @@ ar7240> cp.b 0x80000000 0x9f020000 0x3c0000
 ar7240> bootm 0x9f020000
 ```
 Nun solltet ihr wieder einen ansprechbaren Router haben!
+
+### Für Unbrickprofis
+
+Wer die Unbrickaktion des öfteren durchführt, sollte sich z.B. in der Bucht einen USB-TTL Adapter für ca. 1€ zulegen.
+
+![TTL-Adapter](https://cloud.ffhb.de/index.php/s/eXhQKomg38YDQCo/download)
+
