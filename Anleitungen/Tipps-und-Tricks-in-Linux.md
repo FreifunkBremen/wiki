@@ -15,7 +15,7 @@ Die folgen Tipps vereinfachen uns den Umgang mit Linux, was aber auch zur Folge 
 
 [SSH Login auf einem Router vereinfachen.](#inhalt_ssh-login-auf-einem-router-vereinfachen)
 
-[32 Bit oder 64 Bit](#inhalt_32-bit-oder 64-bit)
+[32 Bit oder 64 Bit](#inhalt_32-bit-oder-64-bit)
 
 [Icons auf dem Desktop](#inhalt_icons-auf-dem-desktop)
 
