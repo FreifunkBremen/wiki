@@ -15,6 +15,8 @@ Die folgen Tipps vereinfachen uns den Umgang mit Linux, was aber auch zur Folge 
 
 [SSH Login auf einem Router vereinfachen.](#inhalt_ssh-login-auf-einem-router-vereinfachen)
 
+[32 Bit oder 64 Bit](#inhalt_32-bit-oder 64-bit)
+
 [Icons auf dem Desktop](#inhalt_icons-auf-dem-desktop)
 
 [Klassische Startleiste](#inhalt_klassische-startleiste)
@@ -78,6 +80,31 @@ Systemweite Einstellung:  /etc/ssh/ssh_config
 cat ~/.ssh/ffhb.pub | ssh root@fe80::6a72:51ff:fe04:f52e%en1 'cat >> /etc/dropbear/authorized_keys'
 ~~~
 ffhb.pub war der öffentliche Schlüssel, den wir weiter oben generiert haben. Damit der Befehl auch tatsächlich auf dem Router ausgeführt wird, muss noch ein leztes Mal das Passwort eingegeben werden, aber anschließend nutzen alle Logins den Schlüssel. 
+
+###32 Bit oder 64 Bit
+
+Was läuft auf meinem Systen? oder was kann mein System?
+Folgender Befehl verrät ob euer Linux Betriebsystem (Kernel) im 32 oder 64 bit Modus läuft: Konsole öffnen und eingeben.
+~~~
+uname -m
+
+Ausgabe x86_64: Euer System läuft unter 64 bit
+Ausgabe i386 / i486 / i586 / i686: Euer System läuft unter 32 bit
+~~~
+Folgender Befehl verrät ob Euer Prozessor 64bit fähig ist:
+~~~
+cat /proc/cpuinfo |grep flags
+
+Beispielausgabe:
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid aperfmperf pni monitor ssse3 cx16 popcnt lahf_lm svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch ibs skinit wdt arat hw_pstate npt lbrv svm_lock nrip_save pausefilter vmmcall
+
+ist lm irgenwo vorhanden, ist die cpu 64 Bit fähig.
+oder:
+
+cat /proc/cpuinfo | grep lm
+
+keine Ausgabe = 32 Bit
+~~~
 
 ###Icons auf dem Desktop
 Mit Icons auf dem Desktop sollte man Sparsam sein. Wer Icons auf dem Desktop haben möchte, kann wie folgt vorgehen. Bei Ubuntu liegt am linken Rand der Starter. Das erste Icon oben ist die Suchfunktion. Alle dort angezeigten Icons können direkt auf den Desktop gezogen werden.
