@@ -98,7 +98,7 @@ cat /proc/cpuinfo |grep flags
 Beispielausgabe:
 flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid aperfmperf pni monitor ssse3 cx16 popcnt lahf_lm svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch ibs skinit wdt arat hw_pstate npt lbrv svm_lock nrip_save pausefilter vmmcall
 
-ist lm irgenwo vorhanden, ist die cpu 64 Bit fähig.
+ist irgenwo "lm" (long mode) vorhanden, ist die cpu 64 Bit fähig.
 oder:
 
 cat /proc/cpuinfo | grep lm
