@@ -25,13 +25,13 @@ Experimentelle Firmware-Versionen werden nicht offiziell unterstützt und werden
 
 Branch        | aktuelle Version                                                    | signed by
 ---           | ---                                                                 | ---
-**`stable`**  | [2017.1.4+bremen2](#freifunk-bremen-versionen_2017-1-4-bremen2)     | `jplitza`, `oliver`
+**`stable`**  | [2017.1.5+bremen2](#freifunk-bremen-versionen_2017-1-5-bremen2)     | `jplitza`, `oliver`
 **`testing`** | [2017.1.5+bremen2](#freifunk-bremen-versionen_2017-1-5-bremen2)     | `nightly-builder`, `jplitza`, `oliver`
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
 ### 2017.1.5+bremen2
-**Veröffentlichung auf dem `stable`-Branch**: Nie  
+**Veröffentlichung auf dem `stable`-Branch**: [09.04.2018](https://downloads.bremen.freifunk.net/firmware/all/2017.1.5+bremen2/sysupgrade/stable.manifest)  
 **Veröffentlichung auf dem `testing`-Branch**: [18.02.2018](https://downloads.bremen.freifunk.net/firmware/all/2017.1.5+bremen2/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2017.1.5+bremen2) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2017.1.5+bremen2)  
 **gluon-Version**: [2017.1.5](#gluon-versionen_2017-1-5)  
