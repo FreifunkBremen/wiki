@@ -80,3 +80,6 @@ Diese Leute stehen in Kontakt mit dem Senat zwecks Umsetzung des [Bürgerschafts
 ### [Instagram](https://www.instagram.com/freifunkhb/)
 * SimJoSt
 * Louis
+
+### [OStatus + ActivityPub (Mastodom)](https://chaos.social/@FreifunkBremen)
+* genofire
