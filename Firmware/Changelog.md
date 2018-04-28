@@ -26,9 +26,19 @@ Experimentelle Firmware-Versionen werden nicht offiziell unterstützt und werden
 Branch        | aktuelle Version                                                    | signed by
 ---           | ---                                                                 | ---
 **`stable`**  | [2017.1.5+bremen2](#freifunk-bremen-versionen_2017-1-5-bremen2)     | `jplitza`, `oliver`
-**`testing`** | [2017.1.5+bremen2](#freifunk-bremen-versionen_2017-1-5-bremen2)     | `nightly-builder`, `jplitza`, `oliver`
+**`testing`** | [2017.1.6+bremen1](#freifunk-bremen-versionen_2017-1-6-bremen1)     | `nightly-builder`, `jplitza`, `oliver`
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
+
+### 2017.1.6+bremen1
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: [28.04.2018](https://downloads.bremen.freifunk.net/firmware/all/2017.1.6+bremen1/sysupgrade/testing.manifest)  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2017.1.6+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2017.1.6+bremen1)  
+**gluon-Version**: [2017.1.6](#gluon-versionen_2017-1-6)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2017.1.6+bremen1/)
+
+- **Update auf [Gluon 2017.1.6](#gluon-versionen_2017-1-6)**
+- Backport eines Fixes für den gluon-radv-filterd, damit dieser die Originator von IPv6-Gateways regelmäßig neu auflöst.
 
 ### 2017.1.5+bremen2
 **Veröffentlichung auf dem `stable`-Branch**: [09.04.2018](https://downloads.bremen.freifunk.net/firmware/all/2017.1.5+bremen2/sysupgrade/stable.manifest)  
@@ -594,9 +604,19 @@ Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) 
 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
 
+### 2017.1.6
+**Veröffentlichungsdatum**: 16.04.2018  
+**offizielle Versionshinweise**: [2017.1.6](https://gluon.readthedocs.io/en/v2017.1.6/releases/v2017.1.6.html)  
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2017.1.6/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2017.1.6) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2017.1.6)
+
+#### Neuerungen
+- Das Abstürzen aller Knoten bei Neustart eines Gateways wurde behoben.
+- Der DNS-Cache auf den Knoten wurde deaktiviert, weil er Probleme mit DNSSEC verursacht hat.
+
 ### 2017.1.5
 **Veröffentlichungsdatum**: 31.01.2018  
-**offizielle Versionshinweise**: [2017.1.4](https://gluon.readthedocs.io/en/v2017.1.5/releases/v2017.1.5.html)  
+**offizielle Versionshinweise**: [2017.1.5](https://gluon.readthedocs.io/en/v2017.1.5/releases/v2017.1.5.html)  
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2017.1.5/index.html#supported-devices-architectures)  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2017.1.5) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2017.1.5)
 
