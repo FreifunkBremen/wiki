@@ -69,9 +69,9 @@ Diese Leute stehen in Kontakt mit dem Senat zwecks Umsetzung des [Bürgerschafts
 * *Administratoren:*
   * SimJoSt
   * Jelto
+  * Louis
 * *Redakteur:*
   * Timlukas
-  * Louis
   * chrische
   * corny / Julian
   * morpheus / Simon
