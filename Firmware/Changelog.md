@@ -26,9 +26,27 @@ Experimentelle Firmware-Versionen werden nicht offiziell unterstützt und werden
 Branch        | aktuelle Version                                                    | signed by
 ---           | ---                                                                 | ---
 **`stable`**  | [2017.1.5+bremen2](#freifunk-bremen-versionen_2017-1-5-bremen2)     | `jplitza`, `oliver`
-**`testing`** | [2017.1.6+bremen1](#freifunk-bremen-versionen_2017-1-6-bremen1)     | `nightly-builder`, `jplitza`
+**`testing`** | [2017.1.6+bremen1](#freifunk-bremen-versionen_2017-1-7-bremen2)     | `nightly-builder`, `jplitza`
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
+
+### 2017.1.7+bremen2
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: [19.05.2018](https://downloads.bremen.freifunk.net/firmware/all/2017.1.7+bremen2/sysupgrade/testing.manifest)  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2017.1.7+bremen2) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2017.1.7+bremen2)  
+**gluon-Version**: [2017.1.7](#gluon-versionen_2017-1-7)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2017.1.7+bremen2/)
+
+- Verringern des Timeouts von Originator-Informationen von IPv6-Gateways von 15 auf 5 Minuten
+
+### 2017.1.7+bremen1
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: nie  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2017.1.7+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2017.1.7+bremen1)  
+**gluon-Version**: [2017.1.7](#gluon-versionen_2017-1-7)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2017.1.7+bremen1/)
+
+- **Update auf [Gluon 2017.1.7](#gluon-versionen_2017-1-7)**
 
 ### 2017.1.6+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
@@ -603,6 +621,15 @@ Der Quellcode von Gluon liegt bei [Github](https://github.com/freifunk-gluon/glu
 Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) einsehbar.
 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
+
+### 2017.1.7
+**Veröffentlichungsdatum**: 30.04.2018  
+**offizielle Versionshinweise**: [2017.1.7](https://gluon.readthedocs.io/en/v2017.1.7/releases/v2017.1.7.html)  
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2017.1.7/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2017.1.7) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2017.1.7)
+
+#### Neuerungen
+- Ein Problem mit dem Booten von Ubiquiti-Geräten wurde behoben.
 
 ### 2017.1.6
 **Veröffentlichungsdatum**: 16.04.2018  
