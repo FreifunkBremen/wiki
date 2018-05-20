@@ -113,3 +113,39 @@ Wer die Unbrickaktion des öfteren durchführt, sollte sich z.B. in der Bucht ei
 
 ![TTL-Adapter](https://cloud.ffhb.de/index.php/s/eXhQKomg38YDQCo/download)
 
+
+# Unbrick Anleitung TP-Link Archer C7 v2
+
+## Vorbereitungen
+Folgende Dinge werden benötigt:
+* gebrickter Router
+* Zwei LAN-Kabel
+* Ethernet Switch
+* die ***passende*** Firmware für euren Router
+* Ein Computer mit ein paar Programmen
+
+## tftp
+Über den tftp Server wird die Firmware auf das Gerät gespielt und das passiert automatisch. Zuerst eine passende tftp Version installieren, die gibt es hier: http://tftpd32.jounin.net/tftpd32_download.html
+
+Der tftp Server soll an eurer LAN Schnittstelle lauschen, das macht er nur, wenn die Schnittstelle "up" ist. Also einen Link zum Ethernet Switch herstellen. 
+Jetzt kann die LAN Schnittstelle auf 192.168.0.66 eingestellt werden.
+Der TP-Link Archer C7 v2 schaut bei einem Reset kurz auf dieser IP nach, ob es ein Image für ihn gibt.
+tftp Server auf die LAN Schnittstelle setzen und in das Serververzeichnis die Datei "ArcherC7v2_tp_recovery.bin" hineinkopieren.
+
+## Recovery Image
+Für den TP-Link Archer C7 v2 auf der Herstellerseite das passende Image herunterladen und entpacken. Das entpackte Binary in ArcherC7v2_tp_recovery.bin umbenennen.
+Image z.B. hier: https://static.tp-link.com/Archer%20C7(EU)_V2_170803.zip
+oder hier: https://static.tp-link.com/res/down/soft/Archer_C7(EU)_V2_160616.zip
+
+## Recover
+Den Port1 (erster gelber Port) des TP-Link Archer C7 v2 und den den LAN Port des PC mit dem Switch verbinden.
+Den Reset-Knopf ca. 5-10 Sekunden gedrückt halten. Wenn die Verbindungslampe vom Switch leuchtet (Kabelverbindung zum Archer), dann loslassen. Sofort startet der Imagedownload. Ist dieses abgeschlossen, bootet der Archer und ist im Originalzustand.
+
+## Recover Teil 2
+Diesen Teil benötigen wir, wenn vorhergender Abschnitt fehlschlägt und der Router immer noch im Dauerbootzustand ist.
+Das kann passieren, wenn die Einsprungadresse des Bootloaders nicht passt.
+Jetzt ist Löten angesagt. Der Router benötigt eine serielle Schnittstelle, bzw, wir führen die vorhandene aus dem Gerät heraus.
+Keine Panik, es werden nur 3 Kabel angeschlossen.
+
+tbc.
+
