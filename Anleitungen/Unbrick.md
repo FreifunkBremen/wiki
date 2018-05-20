@@ -141,6 +141,8 @@ oder hier: https://static.tp-link.com/res/down/soft/Archer_C7(EU)_V2_160616.zip
 Den Port1 (erster gelber Port) des TP-Link Archer C7 v2 und den den LAN Port des PC mit dem Switch verbinden.
 Den Reset-Knopf ca. 5-10 Sekunden gedrückt halten. Wenn die Verbindungslampe vom Switch leuchtet (Kabelverbindung zum Archer), dann loslassen. Sofort startet der Imagedownload. Ist dieses abgeschlossen, bootet der Archer und ist im Originalzustand.
 
+<img src="https://cloud.ffhb.de/index.php/s/poNkeaTwqXdc648" title="tftp-Download" />
+
 ## Recover Teil 2
 Diesen Teil benötigen wir, wenn vorhergender Abschnitt fehlschlägt und der Router immer noch im Dauerbootzustand ist.
 Das kann passieren, wenn die Einsprungadresse des Bootloaders nicht passt.
