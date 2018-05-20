@@ -16,7 +16,7 @@ Folgende Dinge werden benötigt:
 * die ***passende*** Firmware für euren Router
 * Ein Computer mit ein paar Programmen
 
-Zuerst gilt es die Version und das Modell des Routers herauszufinden. Anschließend muss das Gehäuse des Routers vorsichtig geöffnet werden. Dazu die zwei Schrauben unter den hinteren beiden Füßen lösen und dann den Deckel vorsichtig abhebeln.
+Zuerst gilt es die Version und das Modell des Routers herauszufinden.https://cloud.ffhb.de/index.php/s/poNkeaTwqXdc648/download Anschließend muss das Gehäuse des Routers vorsichtig geöffnet werden. Dazu die zwei Schrauben unter den hinteren beiden Füßen lösen und dann den Deckel vorsichtig abhebeln.
 Nun gilt es die drei Kontakte der seriellen Schnittstelle ausfindig zu machen. Mit der Suchmaschine deiner Wahl und den Begriffen "PCB Layout + $Routermodell" "ttl pins  + $Routermodell" o.ä. sind diese leicht zu finden. Einige uns schon bekannte Pole befinden sich hier:
 
 Platine des 741v2:
@@ -142,6 +142,8 @@ Den Port1 (erster gelber Port) des TP-Link Archer C7 v2 und den den LAN Port des
 Den Reset-Knopf ca. 5-10 Sekunden gedrückt halten. Wenn die Verbindungslampe vom Switch leuchtet (Kabelverbindung zum Archer), dann loslassen. Sofort startet der Imagedownload. Ist dieses abgeschlossen, bootet der Archer und ist im Originalzustand.
 
 Bild: ![tftp-Download](https://cloud.ffhb.de/index.php/s/poNkeaTwqXdc648/download)
+
+<img src="https://cloud.ffhb.de/index.php/s/poNkeaTwqXdc648/download" title="tftp-Download" />
 
 ## Recover Teil 2
 Diesen Teil benötigen wir, wenn vorhergender Abschnitt fehlschlägt und der Router immer noch im Dauerbootzustand ist.
