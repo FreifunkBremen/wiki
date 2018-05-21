@@ -14,7 +14,7 @@ Folgende Dinge werden benötigt:
   * ansonsten bei 5V drei Widerstände (ca. 1k+ Ohm)
 * Ein LAN-Kabel
 * die ***passende*** Firmware für euren Router
-* Ein Computer mit ein paar Programmen
+* Einen Computer mit ein paar Programmen
 
 Zuerst gilt es die Version und das Modell des Routers herauszufinden.https://cloud.ffhb.de/index.php/s/poNkeaTwqXdc648/download Anschließend muss das Gehäuse des Routers vorsichtig geöffnet werden. Dazu die zwei Schrauben unter den hinteren beiden Füßen lösen und dann den Deckel vorsichtig abhebeln.
 Nun gilt es die drei Kontakte der seriellen Schnittstelle ausfindig zu machen. Mit der Suchmaschine deiner Wahl und den Begriffen "PCB Layout + $Routermodell" "ttl pins  + $Routermodell" o.ä. sind diese leicht zu finden. Einige uns schon bekannte Pole befinden sich hier:
@@ -122,12 +122,16 @@ Folgende Dinge werden benötigt:
 * Zwei LAN-Kabel
 * Ethernet Switch
 * die ***passende*** Firmware für euren Router
-* Ein Computer mit ein paar Programmen
+* Einen Computer mit ein paar Programmen
+
+## Vorgeschichte
+Fast alle Router haben einen failsaverecover. Der schreibgeschützte Bootloader des Routers versucht kurz eine Verbindung von LAN1 zu einem tftp Server herzustellen und ein entsprechendes recover.bin zu laden. Dazu hat der Router kurz die IP Adress 192.168.0.86 und schaut auf die Serveradresse 192.168.0.66, sofern ein Link vorhanden ist.
+
 
 ## tftp
-Über den tftp Server wird die Firmware auf das Gerät gespielt und das passiert automatisch. Zuerst eine passende tftp Version installieren, die gibt es hier: http://tftpd32.jounin.net/tftpd32_download.html
+Über den tftp Server wird die Firmware auf das Gerät gespielt und das sollte automatisch passieren. Zuerst eine passende tftp Version installieren, die gibt es hier: http://tftpd32.jounin.net/tftpd32_download.html
 
-Der tftp Server soll an eurer LAN Schnittstelle lauschen, das macht er nur, wenn die Schnittstelle "up" ist. Also einen Link zum Ethernet Switch herstellen. 
+Der tftp Server soll an eurer LAN Schnittstelle lauschen, das macht er jedoch nur, wenn die LAN Schnittstelle auf "up" ist. Also jetz einen Link zum Ethernet Switch herstellen. 
 Jetzt kann die LAN Schnittstelle auf 192.168.0.66 eingestellt werden.
 Der TP-Link Archer C7 v2 schaut bei einem Reset kurz auf dieser IP nach, ob es ein Image für ihn gibt.
 tftp Server auf die LAN Schnittstelle setzen und in das Serververzeichnis die Datei "ArcherC7v2_tp_recovery.bin" hineinkopieren.
@@ -137,8 +141,8 @@ Für den TP-Link Archer C7 v2 auf der Herstellerseite das passende Image herunte
 Image z.B. hier: https://static.tp-link.com/Archer%20C7(EU)_V2_170803.zip
 oder hier: https://static.tp-link.com/res/down/soft/Archer_C7(EU)_V2_160616.zip
 
-## Recover
-Den Port1 (erster gelber Port) des TP-Link Archer C7 v2 und den den LAN Port des PC mit dem Switch verbinden.
+## Recover Teil 1
+Den Port1 (erster gelber Port) des TP-Link Archer C7v2 und den den LAN Port des PC mit dem Switch verbinden.
 Den Reset-Knopf ca. 5-10 Sekunden gedrückt halten. Wenn die Verbindungslampe vom Switch leuchtet (Kabelverbindung zum Archer), dann loslassen. Sofort startet der Imagedownload. Ist dieses abgeschlossen, bootet der Archer und ist im Originalzustand.
 
 Bild: ![tftp-Download](https://cloud.ffhb.de/index.php/s/poNkeaTwqXdc648/download)
@@ -147,9 +151,29 @@ Bild: ![tftp-Download](https://cloud.ffhb.de/index.php/s/poNkeaTwqXdc648/downloa
 
 ## Recover Teil 2
 Diesen Teil benötigen wir, wenn vorhergender Abschnitt fehlschlägt und der Router immer noch im Dauerbootzustand ist.
-Das kann passieren, wenn die Einsprungadresse des Bootloaders nicht passt.
+
+Letzter Versuch mit Recover Teil 1
+Es gibt speziell gepatchte Firmware ohne Bootloader für TP-Link Router, hier zur finden: http://www.friedzombie.com/tplink-stripped-firmware/
+
+Wieso stripped? Normalerweise erkennt der Bootloader bei der Installation des Images, das dieses ebenfalls einen Bootloader aufweist und überspringt diesen bei der Installation. Ist dies nicht der Fall, haben wir einen zweiten Bootloader direkt nach dem Ersten mit der Einsprungadresse des Zweiten. Eine prima Bootschleife. Ein gestripptes Image ist quasi nur die Applikation ohne Bootloader.
+
+Wenn das nicht klappt, geht es hier weiter.
 Jetzt ist Löten angesagt. Der Router benötigt eine serielle Schnittstelle, bzw, wir führen die vorhandene aus dem Gerät heraus.
 Keine Panik, es werden nur 3 Kabel angeschlossen.
 
-tbc.
+Je nach Material gibt es verschiedene Möglichkeiten, Pfostenleiste für Steckbare Kabel oder Kabel mit Steckern und Pins oder nur einfache Drähte. Den USB-TTL Wandler anschliessen. Eine TX/RX Vertauschung sollte noch möglich sein. Viele Bilder zeigen RX und TX vertauscht an.
+
+Der USB Wandler benötigt häufig einen Treiber, der sich durch Google leicht finden lässt. 
+
+Terminal Programm wie TeraTerm etc. starten. Wenn lesbare Ausgaben zu sehen sind, Bootvorgang durch Eingabe von TPL (klein) also tpl unterbrechen. Ist ein Eingabepromt vorhanden, das Image wie folgt einspielen. Hier gleich das gestrippte.
+
+~~~
+tftp 0x81000000 Archer-C7-V2-FW0.0.3-stripped.bin
+erase 0x9f020000 +f80000
+cp.b 0x81000000 0x9f020000 0xf80000
+reset
+~~~
+
+Jetzt sollte der Router wieder mit den TP-Link Zugangsdaten erreichbar sein. Freifunk factory Image drauf, konfigurieren und frohes Freifunken.
+
 
