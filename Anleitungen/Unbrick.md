@@ -16,7 +16,7 @@ Folgende Dinge werden benötigt:
 * die ***passende*** Firmware für euren Router
 * Einen Computer mit ein paar Programmen
 
-Zuerst gilt es die Version und das Modell des Routers herauszufinden.https://cloud.ffhb.de/index.php/s/poNkeaTwqXdc648/download Anschließend muss das Gehäuse des Routers vorsichtig geöffnet werden. Dazu die zwei Schrauben unter den hinteren beiden Füßen lösen und dann den Deckel vorsichtig abhebeln.
+Zuerst gilt es die Version und das Modell des Routers herauszufinden. Anschließend muss das Gehäuse des Routers vorsichtig geöffnet werden. Dazu die zwei Schrauben unter den hinteren beiden Füßen lösen und dann den Deckel vorsichtig abhebeln.
 Nun gilt es die drei Kontakte der seriellen Schnittstelle ausfindig zu machen. Mit der Suchmaschine deiner Wahl und den Begriffen "PCB Layout + $Routermodell" "ttl pins  + $Routermodell" o.ä. sind diese leicht zu finden. Einige uns schon bekannte Pole befinden sich hier:
 
 Platine des 741v2:
@@ -110,8 +110,6 @@ Nun solltet ihr wieder einen ansprechbaren Router haben!
 ### Für Unbrickprofis
 
 Wer die Unbrickaktion des öfteren durchführt, sollte sich z.B. in der Bucht einen USB-TTL Adapter für ca. 1€ zulegen.
-
-![TTL-Adapter](https://cloud.ffhb.de/index.php/s/eXhQKomg38YDQCo/download)
 
 
 # Unbrick Anleitung TP-Link Archer C7 v2
