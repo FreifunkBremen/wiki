@@ -147,7 +147,6 @@ Den Reset-Knopf ca. 5-10 Sekunden gedrückt halten. Wenn die Verbindungslampe vo
 
 Bild: ![tftp-Download](https://cloud.ffhb.de/index.php/s/poNkeaTwqXdc648/download)
 
-<img src="https://cloud.ffhb.de/index.php/s/poNkeaTwqXdc648/download" title="tftp-Download" />
 
 ## Recover Teil 2
 Diesen Teil benötigen wir, wenn vorhergender Abschnitt fehlschlägt und der Router immer noch im Dauerbootzustand ist.
