@@ -129,7 +129,7 @@ Fast alle Router haben einen failsaverecover. Der schreibgeschützte Bootloader 
 ## tftp
 Über den tftp Server wird die Firmware auf das Gerät gespielt und das sollte automatisch passieren. Zuerst eine passende tftp Version installieren, die gibt es hier: http://tftpd32.jounin.net/tftpd32_download.html
 
-Bild: ![cp210-UART](https://cloud.ffhb.de/index.php/s/poNkeaTwqXdc648/download)
+Bild: ![cp210-UART](https://cloud.ffhb.de/index.php/s/HS65Ac4Ytes44aw/download)
 
 Der tftp Server soll an eurer LAN Schnittstelle lauschen, das macht er jedoch nur, wenn die LAN Schnittstelle auf "up" ist. Also jetz einen Link zum Ethernet Switch herstellen. 
 Jetzt kann die LAN Schnittstelle auf 192.168.0.66 eingestellt werden.
