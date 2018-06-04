@@ -45,7 +45,7 @@ Wenn fertig, dann neu starten!
 Wenn Probleme auftreten, dass die Installation die ifconfig-Befehle nicht finden kann, führe die folgenden Befehle aus, um net-tools zu installieren.
 ~~~
 sudo apt installiert net-tools
-~~
+~~~
 Dann starte die Installation erneut ... diesmal sollte es gehen ...
 
 Die Open-Source-Version
