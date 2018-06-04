@@ -53,7 +53,7 @@ Folgender Befehl führt die Installation aus.
 ~~~
 sudo apt installieren open-vm-tools öffnen-vm-tools-desktop
 ~~~
-Neustert und fertig.
+Neustart und fertig.
 
 
 ###Alias
@@ -68,6 +68,11 @@ Nach dem Speichern und öffnen einer neuen Konsole (Terminalfenster) ist die Aus
 
 ###Alias und bashrc Systemweit
 Manchmal kann es sinnvoll sein eine lokale Benutzereinstellung systemweit für alle zur Verfügung zu stellen. Für Einstellungen der Konsole wird dieses in der globalen Konfigurationsdatei /etc/bash.bashrc vorgenommen. Die Datei ist als Administrator zu öffnen. Beispiel: sudo gedit /etc/bash.bashrc
+Ich verwende gerne Leafpad.
+~~~
+sudo apt install leafpad
+sudo leafpad /etc/bash.bashrc
+~~~
 
 Wird dort das Alias-Beispiel von oben eingetragen, ist dieses für alle Benutzer gültig. Die globale Vorgabe wird durch die lokale Einstellung des Benutzers überschrieben. Die lokale Einstellung wird im Homeverzeichnis des Benutzers unter .bashrc vorgenommen.
 
