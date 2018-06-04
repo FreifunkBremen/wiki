@@ -1,7 +1,7 @@
 ## Tipps und Tricks in Linux
 
 Als Freifunker kommen wir nicht um Linux herum. Mit dem Umstieg auf Windows 10 ändert sich so einiges in der gewohnten Bedienung. Bis wir die Einstellungen so hingefummelt haben, dass wir wieder vernünftig Arbeiten können, schauen wir doch lieber gleich einmal auf Linux.
-Das wollten wir doch schon immer mal ausprobieren. Schnell sehen wir, das fast nichts so funktioniert, wie wir es aus der Windowswelt her kennen. Das macht nichts, denn auch an Windows haben wir jahrelang rumkonfiguriert bis es funktioniert.
+Das wollten wir doch schon immer mal ausprobieren und der Einstieg geht ganz einfach. ISO Image laden und in einem VM Player installieren und loslegen.
 
 Unter Linux kürzen wir dieses ab. Alle wichtigen Informationen bekommen wir aus https://wiki.ubuntuusers.de.
 Damit uns Linux nicht frustriert, hier ein paar hilfreiche Tipps und Tricks.
