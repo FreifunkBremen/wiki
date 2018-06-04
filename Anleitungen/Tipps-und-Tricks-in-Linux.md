@@ -11,6 +11,8 @@ Die folgen Tipps vereinfachen uns den Umgang mit Linux, was aber auch zur Folge 
 ## Inhalt:
 
 
+[VM-Tools](#inhalt_vmtools)
+
 [Alias](#inhalt_alias)
 
 [SSH Login auf einem Router vereinfachen.](#inhalt_ssh-login-auf-einem-router-vereinfachen)
@@ -26,6 +28,32 @@ Die folgen Tipps vereinfachen uns den Umgang mit Linux, was aber auch zur Folge 
 [Security Check : Routerkonfiguration auslesen](#inhalt_security-check-routerkonfiguration-auslesen)
 
 ----
+
+###VM-Tools
+Wenn ich ein Linux in einem VM-Player verwende (Gast-System), kann es Sinnvoll sein, einen Order freizugeben oder einen Ordner vom Laptop (Host-System) einzubinden. Hierzu gibt es die VM-Tools, die natürlich noch mehr können als nur Orden freizugeben. Kopieren und Einfügen von Text, Bildern und Dateien zwischen Host- und Gastcomputer sowie Verbesserung der Maus. Die Installation ist je nach Player etwas anders, hier die beiden häufigsten Methoden:
+
+In der Menüleiste des Player unter VM, Reinstall VM Tools, wird ein Ordner in den Gast gemountet. Dies sollte ein virtuelles CD / DVD-Laufwerk innerhalb der Ubuntu-Gastmaschine mounten. Wenn dies geschieht, öffne das Ubuntu-Terminal und führe die folgenden Befehle aus, um den Inhalt vom CD / DVD-Laufwerk in den Ordner / tmp zu extrahieren.
+~~~
+tar -xvf / media / $ USER / "VMware-Tools" /VMwareTools*.gz -C / tmp
+~~~
+Führe anschließend die folgenden Befehle aus, um die VM-Tools mit der Standardkonfiguration zu installieren.
+~~~
+sudo /tmp/vmware-tools-distrib/vmware-install.pl
+~~~
+Wenn fertig, dann neu starten!
+
+Wenn Probleme auftreten, dass die Installation die ifconfig-Befehle nicht finden kann, führe die folgenden Befehle aus, um net-tools zu installieren.
+~~~
+sudo apt installiert net-tools
+~~
+Dann starte die Installation erneut ... diesmal sollte es gehen ...
+
+Die Open-Source-Version
+Folgender Befehl führt die Installation aus.
+~~~
+sudo apt installieren open-vm-tools öffnen-vm-tools-desktop
+~~~
+Neustert und fertig.
 
 
 ###Alias
