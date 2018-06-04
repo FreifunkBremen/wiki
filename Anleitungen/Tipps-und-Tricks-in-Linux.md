@@ -138,6 +138,7 @@ cat /proc/cpuinfo | grep lm
 
 keine Ausgabe = 32 Bit
 ~~~
+Diese Abfrage ist wichtig, da alle Anleitungen zum Offloader das 32Bit Generic Image verwenden. Die kleinen Thin-Clients können aber 64Bit. Das Tuning bringt 1/1000 mehr Geschwindigkeit.
 
 ###Icons auf dem Desktop
 Mit Icons auf dem Desktop sollte man Sparsam sein. Wer Icons auf dem Desktop haben möchte, kann wie folgt vorgehen. Bei Ubuntu liegt am linken Rand der Starter. Das erste Icon oben ist die Suchfunktion. Alle dort angezeigten Icons können direkt auf den Desktop gezogen werden.
