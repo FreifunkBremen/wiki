@@ -31,6 +31,23 @@ Branch        | aktuelle Version                                                
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
 
+### 2017.1.8+bremen1
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: [18.06.2018](https://downloads.bremen.freifunk.net/firmware/all/2017.1.8+bremen1/sysupgrade/testing.manifest)  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2017.1.8+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2017.1.8+bremen1)  
+**gluon-Version**: [2017.1.8](#gluon-versionen_2017-1-8)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2017.1.8+bremen1/)
+
+- **Update auf [Gluon 2017.1.8](#gluon-versionen_2017-1-8)** 
+- verschiedene Batman-Probleme behoben die zu viel Datenverkehr und hoher Last führen konnten
+- die Beschreibung des Kontaktinformations-Feldes im Konfigurationsmodus wurde um einen DSGVO-Passus erweitert
+- neue Geräte-Unterstützung
+    - GL.iNet GL-AR750
+    - TP-Link Archer C7 v4
+    - TP-LINK TL-WR940N v6
+    - Ubiquiti UniFi AC Mesh
+
+
 ### 2017.1.7+bremen2
 **Veröffentlichung auf dem `stable`-Branch**: [18.06.2018](https://downloads.bremen.freifunk.net/firmware/all/2017.1.7+bremen2/sysupgrade/stable.manifest)  
 **Veröffentlichung auf dem `testing`-Branch**: [31.05.2018](https://downloads.bremen.freifunk.net/firmware/all/2017.1.7+bremen2/sysupgrade/testing.manifest)  
