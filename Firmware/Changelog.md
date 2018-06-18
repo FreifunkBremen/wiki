@@ -622,6 +622,32 @@ Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) 
 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
 
+### 2017.1.8
+**Veröffentlichungsdatum**: 30.04.2018  
+**offizielle Versionshinweise**: [2017.1.8](https://gluon.readthedocs.io/en/v2017.1.8/releases/v2017.1.8.html)  
+**Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2017.1.8/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2017.1.8) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2017.1.8)
+
+#### Fehlerbehebungen
+- verschiedene Batman-Probleme behoben
+    - beim Start des Batman-Interfaces kam es zu Hängern
+    - ein Fehler führt durch viel Verwaltungsdatenverkehr zu hoher Last
+
+#### Neuerungen
+- Linux Kernel auf v4.4.129 aktualisiert
+- die Beschreibung des Kontaktinformations-Feldes im Konfigurationsmodus wurde um einen DSGVO-Passus erweitert
+- das Kontaktinformations-Feld kann nicht mehr als Pflichtfeld in der Firmware festgelegt werden
+
+#### neue Geräte-Unterstützung
+- GL.iNet
+    - GL-AR750
+- TP-Link
+    - Archer C7 v4
+    - TL-WR940N v6
+- Ubiquiti
+    - UniFi AC Mesh
+
+
 ### 2017.1.7
 **Veröffentlichungsdatum**: 30.04.2018  
 **offizielle Versionshinweise**: [2017.1.7](https://gluon.readthedocs.io/en/v2017.1.7/releases/v2017.1.7.html)  
@@ -630,6 +656,7 @@ Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfacht
 
 #### Neuerungen
 - Ein Problem mit dem Booten von Ubiquiti-Geräten wurde behoben.
+
 
 ### 2017.1.6
 **Veröffentlichungsdatum**: 16.04.2018  
@@ -640,6 +667,7 @@ Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfacht
 #### Neuerungen
 - Das Abstürzen aller Knoten bei Neustart eines Gateways wurde behoben.
 - Der DNS-Cache auf den Knoten wurde deaktiviert, weil er Probleme mit DNSSEC verursacht hat.
+
 
 ### 2017.1.5
 **Veröffentlichungsdatum**: 31.01.2018  
