@@ -30,6 +30,7 @@ Branch        | aktuelle Version                                                
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
+
 ### 2017.1.7+bremen2
 **Veröffentlichung auf dem `stable`-Branch**: [18.06.2018](https://downloads.bremen.freifunk.net/firmware/all/2017.1.7+bremen2/sysupgrade/stable.manifest)  
 **Veröffentlichung auf dem `testing`-Branch**: [31.05.2018](https://downloads.bremen.freifunk.net/firmware/all/2017.1.7+bremen2/sysupgrade/testing.manifest)  
@@ -39,6 +40,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 
 - Verringern des Timeouts von Originator-Informationen von IPv6-Gateways von 15 auf 5 Minuten
 
+
 ### 2017.1.7+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
 **Veröffentlichung auf dem `testing`-Branch**: nie  
@@ -47,6 +49,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2017.1.7+bremen1/)
 
 - **Update auf [Gluon 2017.1.7](#gluon-versionen_2017-1-7)**
+
 
 ### 2017.1.6+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
@@ -58,6 +61,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 - **Update auf [Gluon 2017.1.6](#gluon-versionen_2017-1-6)**
 - Backport eines Fixes für den gluon-radv-filterd, damit dieser die Originator von IPv6-Gateways regelmäßig neu auflöst.
 
+
 ### 2017.1.5+bremen2
 **Veröffentlichung auf dem `stable`-Branch**: [09.04.2018](https://downloads.bremen.freifunk.net/firmware/all/2017.1.5+bremen2/sysupgrade/stable.manifest)  
 **Veröffentlichung auf dem `testing`-Branch**: [18.02.2018](https://downloads.bremen.freifunk.net/firmware/all/2017.1.5+bremen2/sysupgrade/testing.manifest)  
@@ -66,6 +70,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2017.1.5+bremen2/)
 
 - Backport der aktuellen Version des [radv-filterd](https://gluon.readthedocs.io/en/latest/package/gluon-radv-filterd.html)
+
 
 ### 2017.1.5+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: Nie  
@@ -77,6 +82,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 - **Update auf [Gluon 2017.1.5](#gluon-versionen_2017-1-5)**
 - Aktivierung des [Knoten-lokalen DNS-Caches](https://gluon.readthedocs.io/en/v2017.1.x/features/dns-cache.html)
 
+
 ### 2017.1.4+bremen2
 **Veröffentlichung auf dem `stable`-Branch**: [05.02.2018](https://downloads.bremen.freifunk.net/firmware/all/2017.1.4+bremen2/sysupgrade/stable.manifest)   (Blogpost steht noch aus)  
 **Veröffentlichung auf dem `testing`-Branch**: [20.12.2017](https://downloads.bremen.freifunk.net/firmware/all/2017.1.4+bremen2/sysupgrade/testing.manifest)  
@@ -86,6 +92,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 
 
 - Inhaltlich identisch zu 2017.1.4+bremen1, nur ohne komisches + am Ende.
+
 
 ### 2017.1.4+bremen1 / 2017.1.4+bremen1+
 **Veröffentlichung auf dem `stable`-Branch**: nie  
