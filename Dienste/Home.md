@@ -18,12 +18,9 @@ Folgende IP-Adressen sind vergeben:
       * 10.196.0.1 vpn01 (DNS, Gateway)
       * 10.196.0.2 vpn02 (DNS, Gateway)
       * 10.196.0.3 vpn03 (DNS, Gateway)
-      * 10.196.0.4 vpn03 (DNS, Gateway)
-      * 10.196.0.5 vpn05 (Testbetrieb, anon6789)
+      * 10.196.0.5 vpn05 (DNS, Gateway, anon6789/genofire)
       * 10.196.0.6 vpn06 (DNS, Gateway, corny)
     * 10.196.0.10 – 10.196.0.39 Dienste-Server
-      * 10.196.0.10 Monitoring - Grafana (genofire)
-      * 10.196.0.11 Webserver (ansible ID only - @hosts)
     * 10.196.0.42 server, mumble, experimentell (diega)
     * 10.196.0.60 notebook (bis dhcp zuverlässig läuft (diega))
     * 10.196.0.50 VPN-Offloader der Uni
@@ -35,7 +32,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.111 ec8or
     * 10.196.0.123 rbtz
     * 10.196.0.127 local-node FFHB
-      * 10.196.0.128-159 Dienste von mortzu
+    * 10.196.0.128-159 Dienste von mortzu
       * 10.196.0.131 gatemon-3.ffhb.moritzrudert.de
       * 10.196.0.134 gatemon-2.ffhb.moritzrudert.de
       * 10.196.0.135 gatemon-fes216.ffhb.moritzrudert.de
@@ -61,37 +58,67 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.127.5 mirror für downloads.bremen.freifunk.net/firmware (in Vorbereitung)
     * 10.196.127.6 mumble-server (in Planung)
 
-Feste IP-Adressen von an Freifunk-Knoten angeschlossenen Servern sollten in 10.196.0.0/24 liegen. Hier eintragen und glücklich sein.
+Feste IP-Adressen von an Freifunk-Knoten angeschlossenen Servern sollten in 10.196.0.0/17 liegen. Hier eintragen und glücklich sein.
 
 ## IPv6-Adressen
 Corny stellt das Netz `2a06:8782::/32` zur Verfügung.
-Daraus verwenden wir `2a06:8782:ffbb:1337::/64` für unser Layer 2.
+Daraus verwenden wir `2a06:8782:ffbb:1337::/64` für unser Layer 2 (Batman-adv).
+
 
 Mortzu hat bei bei SixXS das ULA-Netz `fd2f:5119:0f2c::/48` registriert, dieses begegnet einem an manchen Stellen ebenso wie das ehemalige Prefix `2001:bf7:540::/48`.
 
 Einige Adressen sind fest hinterlegt. Sie werden im Folgenden aufgelistet.
 
-### VPN
+### 2a06:8782::/32
+#### 2a06:8782:ff00::/64
+globale Dienste
+* 2a06:8782:ff00::f1 download-ipv6
+* 2a06:8782:ff00::f2 Webserver
+* 2a06:8782:ff00::f3 DNS
+* 2a06:8782:ff00::f4 Mails
+* 2a06:8782:ff00::f6 ffmap (yanic -> generiert meshviewer/Karte)
+* 2a06:8782:ff00::f7 vpn01
+
+#### 2a06:8782:ffbb:1::/64
+IPv6 Routing zum Gateway vpn01
+#### 2a06:8782:ffbb:2::/64
+IPv6 Routing zum Gateway vpn02
+#### 2a06:8782:ffbb:3::/64
+IPv6 Routing zum Gateway vpn04
+#### 2a06:8782:ffbb:5::/64
+IPv6 Routing zum Gateway vpn05
+#### 2a06:8782:ffbb:6::/64
+IPv6 Routing zum Gateway vpn06
+#### 2a06:8782:ffbb:1337::/64
+* *2a06:8782:ffbb:1337::1 bis 9 sind für Gateways vorgesehen.*
   * 2a06:8782:ffbb:1337::1 vpn01 (DNS, Gateway)
   * 2a06:8782:ffbb:1337::2 vpn02 (DNS, Gateway)
   * 2a06:8782:ffbb:1337::3 vpn03 (DNS, Gateway)
-  * 2a06:8782:ffbb:1337::4 vpn03 (DNS, Gateway)
-  * 2a06:8782:ffbb:1337::5 vpn05 (Testbetrieb, anon6789)
+  * 2a06:8782:ffbb:1337::5 vpn05 (DNS, Gateway, anon6789/genofire)
   * 2a06:8782:ffbb:1337::6 vpn06 (DNS, Gateway)
-  * *2a06:8782:ffbb:1337::7 bis 9 sind für weitere Gateways vorgesehen.*
+* 2a06:8782:ffbb:1337::5b bis 5f (genofire)
+* 2a06:8782:ffbb:1337::f0 (proxyhb)
+* 2a06:8782:ffbb:1337::6f (ec8or)
+* 2a06:8782:ffbb:1337::80 bis 9f Dienste von mortzu
+  * 2a06:8782:ffbb:1337::83 gatemon-3.ffhb.moritzrudert.de
+  * 2a06:8782:ffbb:1337::85 Gatemon (Pi1) von ollibaba
+  * 2a06:8782:ffbb:1337::86 gatemon-2.ffhb.moritzrudert.de
+  * 2a06:8782:ffbb:1337::87 gatemon-fes216.ffhb.moritzrudert.de
+* 2a06:8782:ffbb:1337::a0 bis af (ollibaba)
+  * 2a06:8782:ffbb:1337::a0 Gatemon Pi2
 
-### Dienste
-  * 2a06:8782:ffbb:1337::a Monitoring - OMD site (genofire)
-  * 2a06:8782:ffbb:1337::5b bis 5f (genofire)
-  * 2a06:8782:ffbb:1337::f0 (proxyhb)
-  * 2a06:8782:ffbb:1337::6f (ec8or)
-  * 2a06:8782:ffbb:1337::80 bis 9f Dienste von mortzu
-    * 2a06:8782:ffbb:1337::83 gatemon-3.ffhb.moritzrudert.de
-    * 2a06:8782:ffbb:1337::85 Gatemon (Pi1) von ollibaba
-    * 2a06:8782:ffbb:1337::86 gatemon-2.ffhb.moritzrudert.de
-    * 2a06:8782:ffbb:1337::87 gatemon-fes216.ffhb.moritzrudert.de
-  * 2a06:8782:ffbb:1337::a0 bis af (ollibaba)
-    * 2a06:8782:ffbb:1337::a0 Gatemon Pi2
+#### 2a06:8782:ffbb:bat0::/64
+Babel-Netzwerk Segment für die Knoten/Nodes und das Routing des Client-Netzwerks
+
+* *2a06:8782:ffbb:bat0::1 bis 9 sind für Gateways vorgesehen.*
+  * 2a06:8782:ffbb:bat0::5 vpn05 (DNS, Gateway, anon6789/genofire)
+
+
+#### 2a06:8782:ffbb:bat1::/64
+Babel-Netzwerksegment das für die Clients an den Knotes/Nodes und darüber hinaus zur Verfügung steht.
+
+* *2a06:8782:ffbb:bat1::1 bis 9 sind für Gateways vorgesehen.*
+  * 2a06:8782:ffbb:bat1::5 vpn05 (DNS, Gateway, anon6789/genofire)
 
 ## Andere Netze
 Aus dem Bremer Freifunk-Netz heraus erreichst du auch die Freifunk-Netze andere Städte und deren Dienste, beispielsweise [jene in Lübeck](http://luebeck.freifunk.net/wiki/Freifunk-verwenden). Auch zu anderen Netzen wie dem [dn42](http://dn42.net) oder [Chaos-VPN](http://wiki.hamburg.ccc.de/index.php/ChaosVPN) besteht eine Verbindung.
