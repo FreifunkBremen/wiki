@@ -1,3 +1,17 @@
+## Termine
+
+### [Breminale](http://www.breminale-festival.de/)
+* Breminale-Beginn: Mi, 25.7., nachmittags
+* Breminale-Ende: So, 29.7., nachts
+
+### Aufbau / Abbau
+
+## Kommunikation
+* Anwesenheit: https://dudle.hackerspace-bremen.de/FFHB_auf_Breminale_2018/
+* IRC: [#ffhb_events im Hackint](irc://irc.hackint.org/ffhb_events)
+
+
+## TODO
 Fördermittel einplanen.
 
 Ideen und Wünsche sammeln.
