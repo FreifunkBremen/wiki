@@ -162,3 +162,8 @@ grüne kisten, durchführungen sind schon bei.
 - 25.-29.7. Breminale. 
 - 30.7. abbauen. Kram einlagern.
 
+
+### PR-Text
+
+Neuaufstellung im Breminale-Team, Neuaufstellung im Freifunk-Netz. In diesem Jahr stellen wir wieder ehrenamtlich, kostenlos WLAN auf dem gesamten Veranstaltungs-Gelände zur Verfügung. Das ist 2018 durch unseren Sponsor TP-LINK möglich. Sie haben uns 80 Archer C7 zur Verfügung gestellt. Auf den Geräten werden wir unsere täglich genutzte Software verwenden. Zusätzlich kommen Verbesserungen dazu, die es ermöglichen, grade bei Großveranstaltungen eine gute Verbindung haben. 
+
