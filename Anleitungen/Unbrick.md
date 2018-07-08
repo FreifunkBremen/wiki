@@ -131,6 +131,8 @@ Fast alle Router haben einen failsaverecover. Der schreibgeschützte Bootloader 
 
 Bild: ![cp210-UART](https://cloud.ffhb.de/index.php/s/HS65Ac4Ytes44aw/download)
 
+[CP210-UART-Treiber](https://www.silabs.com/products/development-tools/software/direct-access-drivers)
+
 Der tftp Server soll an eurer LAN Schnittstelle lauschen, das macht er jedoch nur, wenn die LAN Schnittstelle auf "up" ist. Also jetz einen Link zum Ethernet Switch herstellen. 
 Jetzt kann die LAN Schnittstelle auf 192.168.0.66 eingestellt werden.
 Der TP-Link Archer C7 v2 schaut bei einem Reset kurz auf dieser IP nach, ob es ein Image für ihn gibt.
