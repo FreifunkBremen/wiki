@@ -1,6 +1,6 @@
 Anleitung – WinSCP gespeicherte Sitzungen sichern
 
-WinSCP [https://winscp.net/eng/index.php] ist ein freier SFTP, SCP und FTP Client für Windows
+[WinSCP](https://winscp.net/eng/index.php) ist ein freier SFTP, SCP und FTP Client für Windows
 
 
 Hier eine kurze Anleitung zum sichern und einspielen seiner gespeicherten WinSCP Sitzungen, die normalerweise in der Regisrtry gespeichert sind.
@@ -12,10 +12,9 @@ Diese sollte sich jetzt in folgendem Ordner befinden: „﻿C:\Users\name\AppDat
 WinSCP.ini sichern. Andere Orte sind auch möglich, je nach eigenem Bedarf.
 Auf eurem neuen Rechner müsst Ihr nach der WinSCP installation auch erstmal eine Verbindung aufbauen und dieses Anhand der Anleitung auf WinSCP.ini umstellen.
 
-![WinSCP-Einstellungen](https://cloud.ffhb.de/index.php/s/o5NFGZwYC24WBSR/download)
+![Bild: WinSCP-Einstellungen](https://cloud.ffhb.de/index.php/s/o5NFGZwYC24WBSR/download)
 
-Jetzt nur noch die neue leere WinSCP.ini gegen die bereits gesicherte ersetzen.
-Natürlich kann ein Umzug/Backup auch aus der Registry gemacht werden, exportiere aus regedit.exe heraus
+Jetzt nur noch die neue leere WinSCP.ini gegen die bereits gesicherte ersetzen. Natürlich kann ein Umzug/Backup auch aus der Registry gemacht werden, exportiere aus regedit.exe heraus
 HKEY_CURRENT_USER\Software\Martin Prikryl\WinSCP 2\Sessions\
 
 Anmerkung zum Export/Import auf unterschiedlichen Rechnern und SSH Schlüsseln.
@@ -23,4 +22,4 @@ Damit importierte Konfiguration funktionieren, ist für die Schlüssel der gleic
 Die Fehlermeldung für lokale Verzeichnisse nur mit ok Bestätigen.
 Sollen nur einzelne Sessions exportiert werden, belasse die WinSCP Konfiguration auf Registry und exportiere aus
 HKEY_CURRENT_USER\Software\Martin Prikryl\WinSCP 2\Sessions\
-nur die gewünschte Session. Weitere Infos unter https://winscp.net/eng/docs/config
+nur die gewünschte Session. Weitere Infos unter [WinSCP-Dokumentation](https://winscp.net/eng/docs/config)
