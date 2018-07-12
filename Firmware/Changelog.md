@@ -76,6 +76,8 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2017.1.6+bremen1/)
 
 - **Update auf [Gluon 2017.1.6](#gluon-versionen_2017-1-6)**
+    - Das Abstürzen aller Knoten bei Neustart eines Gateways wurde behoben.
+    - Der DNS-Cache auf den Knoten wurde deaktiviert, weil er Probleme mit DNSSEC verursacht hat.
 - Backport eines Fixes für den gluon-radv-filterd, damit dieser die Originator von IPv6-Gateways regelmäßig neu auflöst.
 
 
@@ -693,7 +695,7 @@ Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfacht
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2017.1.6/index.html#supported-devices-architectures)  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2017.1.6) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2017.1.6)
 
-#### Neuerungen
+#### Fehlerbehebungen
 - Das Abstürzen aller Knoten bei Neustart eines Gateways wurde behoben.
 - Der DNS-Cache auf den Knoten wurde deaktiviert, weil er Probleme mit DNSSEC verursacht hat.
 
