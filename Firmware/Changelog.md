@@ -97,6 +97,11 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2017.1.5+bremen1/)
 
 - **Update auf [Gluon 2017.1.5](#gluon-versionen_2017-1-5)**
+    - neue Geräte-Unterstützung
+        - TP-Link TL-WR1043N v5
+        - Ubiquiti EdgeRouter-X
+        - Ubiquiti EdgeRouter-X SFP
+    - einige Fehlerbehebungen
 - Aktivierung des [Knoten-lokalen DNS-Caches](https://gluon.readthedocs.io/en/v2017.1.x/features/dns-cache.html)
 
 
@@ -699,8 +704,16 @@ Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfacht
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2017.1.5/index.html#supported-devices-architectures)  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2017.1.5) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2017.1.5)
 
-#### Neuerungen
-- TP-Link TL-WR1043N v5 wird nun unterstützt
+### Geräte-Unterstützung
+- TP-Link TL-WR1043N v5
+- Ubiquiti EdgeRouter-X
+- Ubiquiti EdgeRouter-X SFP
+
+### Fehlerbehebungen
+- ein Kompilierfehler bei leerem Modul-Ordner wurde behoben
+- ein Fehler mit Ethernet Verbindungsbeeinträchtigungen bei hohem Durchsatz auf einigen Geräten wurde behoben
+- Tunneldigger wurde aktualisiert um Verbindungen zu Servern mit neueren Kernel-Versionen zu unterstützen
+- `batman-adv Bridge Loop Avoidance` mit `gluon-ebtables-filter-multicast` wieder funktionstüchtig gemacht
 
 
 ### 2017.1.4
