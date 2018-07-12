@@ -39,13 +39,13 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2017.1.8+bremen1/)
 
 - **Update auf [Gluon 2017.1.8](#gluon-versionen_2017-1-8)** 
-- verschiedene Batman-Probleme behoben die zu viel Datenverkehr und hoher Last führen konnten
-- die Beschreibung des Kontaktinformations-Feldes im Konfigurationsmodus wurde um einen DSGVO-Passus erweitert
-- neue Geräte-Unterstützung
-    - GL.iNet GL-AR750
-    - TP-Link Archer C7 v4
-    - TP-LINK TL-WR940N v6
-    - Ubiquiti UniFi AC Mesh
+    - verschiedene Batman-Probleme behoben die zu viel Datenverkehr und hoher Last führen konnten
+    - die Beschreibung des Kontaktinformations-Feldes im Konfigurationsmodus wurde um einen DSGVO-Passus erweitert
+    - neue Geräte-Unterstützung
+        - GL.iNet GL-AR750
+        - TP-Link Archer C7 v4
+        - TP-LINK TL-WR940N v6
+        - Ubiquiti UniFi AC Mesh
 
 
 ### 2017.1.7+bremen2
