@@ -66,6 +66,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2017.1.7+bremen1/)
 
 - **Update auf [Gluon 2017.1.7](#gluon-versionen_2017-1-7)**
+    - Ein Problem mit dem Booten von Ubiquiti-Geräten wurde behoben.
 
 
 ### 2017.1.6+bremen1
@@ -685,7 +686,7 @@ Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfacht
 **Unterstütze Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2017.1.7/index.html#supported-devices-architectures)  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2017.1.7) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2017.1.7)
 
-#### Neuerungen
+#### Fehlerbehebung
 - Ein Problem mit dem Booten von Ubiquiti-Geräten wurde behoben.
 
 
