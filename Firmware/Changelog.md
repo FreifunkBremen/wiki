@@ -81,7 +81,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 
 ### 2017.1.5+bremen2
 **Veröffentlichung auf dem `stable`-Branch**: [09.04.2018](https://downloads.bremen.freifunk.net/firmware/all/2017.1.5+bremen2/sysupgrade/stable.manifest)  
-**Veröffentlichung auf dem `testing`-Branch**: [18.02.2018](https://downloads.bremen.freifunk.net/firmware/all/2017.1.5+bremen2/sysupgrade/testing.manifest)  
+**Veröffentlichung auf dem `testing`-Branch**: [18.02.2018](https://downloads.bremen.freifunk.net/firmware/all/2017.1.5+bremen2/sysupgrade/testing.manifest)   ([Blogpost](https://bremen.freifunk.net/blog/2018/02/23/neue-stable-2017-1-4-bremen2.html))  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2017.1.5+bremen2) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2017.1.5+bremen2)  
 **gluon-Version**: [2017.1.5](#gluon-versionen_2017-1-5)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2017.1.5+bremen2/)
@@ -106,7 +106,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 
 
 ### 2017.1.4+bremen2
-**Veröffentlichung auf dem `stable`-Branch**: [05.02.2018](https://downloads.bremen.freifunk.net/firmware/all/2017.1.4+bremen2/sysupgrade/stable.manifest)   (Blogpost steht noch aus)  
+**Veröffentlichung auf dem `stable`-Branch**: [05.02.2018](https://downloads.bremen.freifunk.net/firmware/all/2017.1.4+bremen2/sysupgrade/stable.manifest)   ([Blogpost](https://bremen.freifunk.net/blog/2018/02/23/neue-stable-2017-1-4-bremen2.html))  
 **Veröffentlichung auf dem `testing`-Branch**: [20.12.2017](https://downloads.bremen.freifunk.net/firmware/all/2017.1.4+bremen2/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2017.1.4+bremen2) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2017.1.4+bremen2)  
 **gluon-Version**: [2017.1.4](#gluon-versionen_2017-1-4)  
