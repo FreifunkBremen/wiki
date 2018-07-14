@@ -20,6 +20,8 @@ Ideen und Wünsche sammeln.
   - 10 Boxen sind vorhanden, mit Platz für insgesamt mindestens 20 Router in WDR-Größe
   - 5 GHz (oder Dualband)
 
+- Outdoorboxen kaufen
+  - Vergleich verschiedener Modelle: https://hackmd.io/b-IJDqOGRCSv_q9MIeq2fw
 
 ### Treffen 29.06.
 Protokoll steht unter [[Treffen/2018_06_29-Breminale]].
