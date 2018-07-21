@@ -9,7 +9,7 @@
 ## Kommunikation
 * Anwesenheit: https://dudle.hackerspace-bremen.de/FFHB_auf_Breminale_2018/
 * IRC: [#ffhb_events im Hackint](irc://irc.hackint.org/ffhb_events)
-
+* Hackmd: https://hackmd.io/HPeyrnwxQD2Ny9fUaZoiKQ?both#
 
 ## TODO
 Fördermittel einplanen.
