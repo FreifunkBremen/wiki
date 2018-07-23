@@ -5,25 +5,16 @@ Diese Seite listet auf, was von wem getan wird und wer folglich zu welchen Theme
 Wenn du dich zu einem dieser Themenkomplexe zugehörig fühlst, darfst du natürlich gerne, die anderen Personen die sich darum kümmern unterstützen! Kontaktiere bitte das bisherige Team, um Informationen über technische Voraussetzungen und bisherige Verfahrensweisen in diesem Bereich zu erhalten.
 
 
-## Nutzeranfragen / Hilfe
+## Nutzeranfragen / Hilfe / Presse
 Diese Leute kümmern sich um Anfragen von Knotenbesitzern und jenen, die es werden möchten, sowie von Nutzern des Netzes.
 
-**Erreichbarkeit:** info@bremen.freifunk.net
+**Erreichbarkeit:** info@bremen.freifunk.net  
+*(presse@bremen.freifunk.net zeigt auf info@bremen.freifunk.net um die Wiederaufnahme alter Anfragen möglich zu machen)*
 
 * SimJoSt
 * corny / Julian
 * Yannik
 * Louis
-
-
-## Presse
-Diese Leute kennen sich gut mit dem Projekt aus und sind bereit, Presseanfragen zu beantworten und Interviews zu geben.
-
-**Erreichbarkeit:** info@bremen.freifunk.net  
-*(presse@bremen.freifunk.net zeigt auf info@bremen.freifunk.net um die Wiederaufnahme alter Anfragen möglich zu machen)*
-
-* JP
-* SimJoSt
 
 
 ## Firmware
@@ -32,8 +23,8 @@ Diese Leute bauen und verwalten die Software, die auf den Knoten läuft.
 **Erreichbarkeit:** über die [Liste](https://lists.ffhb.de/mailman/listinfo/ff-bremen)
 
 * JP
-* corny / Julian
 * SimJoSt
+* Oliver
 
 
 ## Gateways
