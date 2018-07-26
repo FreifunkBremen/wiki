@@ -15,11 +15,11 @@ Folgende IP-Adressen sind vergeben:
 
 * 10.196.0.0/17
     * 10.196.0.1 – 10.196.0.9 VPN-Server
-      * 10.196.0.1 vpn01 (DNS, Gateway)
-      * 10.196.0.2 vpn02 (DNS, Gateway)
-      * 10.196.0.3 vpn03 (DNS, Gateway)
-      * 10.196.0.5 vpn05 (DNS, Gateway, anon6789/genofire)
-      * 10.196.0.6 vpn06 (DNS, Gateway, corny)
+        * 10.196.0.1 vpn01 (DNS, Gateway)
+        * 10.196.0.2 vpn02 (DNS, Gateway)
+        * 10.196.0.3 vpn03 (DNS, Gateway)
+        * 10.196.0.5 vpn05 (DNS, Gateway, anon6789/genofire)
+        * 10.196.0.6 vpn06 (DNS, Gateway, corny)
     * 10.196.0.10 – 10.196.0.39 Dienste-Server
     * 10.196.0.42 server, mumble, experimentell (diega)
     * 10.196.0.60 notebook (bis dhcp zuverlässig läuft (diega))
@@ -33,9 +33,9 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.123 rbtz
     * 10.196.0.127 local-node FFHB
     * 10.196.0.128-159 Dienste von mortzu
-      * 10.196.0.131 gatemon-3.ffhb.moritzrudert.de
-      * 10.196.0.134 gatemon-2.ffhb.moritzrudert.de
-      * 10.196.0.135 gatemon-fes216.ffhb.moritzrudert.de
+        * 10.196.0.131 gatemon-3.ffhb.moritzrudert.de
+        * 10.196.0.134 gatemon-2.ffhb.moritzrudert.de
+        * 10.196.0.135 gatemon-fes216.ffhb.moritzrudert.de
     * 10.196.0.196 Dienste von Eike
     * 10.196.0.200 Dienste von jplitza
     * 10.196.0.240 Dienste von proxyhb
@@ -46,17 +46,17 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.40.0 - 10.196.49.255 per DHCP vergeben von 10.196.0.4
     * 10.196.50.0 - 10.196.59.255 per DHCP vergeben von 10.196.0.5
     * 10.196.60.0 - 10.196.69.255 per DHCP vergeben von 10.196.0.6
-  * 10.196.123.0/24 Range von Ixoid
-    * 10.196.123.42 GartenPi
-* 10.196.126.0/24
-  * 10.196.126.0/24 Dienste von Nebirosh
-* 10.196.127.0/24 Dienste von HeinzBoettjer
-    * 10.196.127.1 Scanner an asm_100_EG (pausiert)
-    * 10.196.127.2 Scanner an hhs-1 (pausiert)
-    * 10.196.127.3 Linux-ISO-Server an ffhb-asm100 (in Vorbereitung)
-    * 10.196.127.4 apt-mirror (in Vorbereitung)
-    * 10.196.127.5 mirror für downloads.bremen.freifunk.net/firmware (in Vorbereitung)
-    * 10.196.127.6 mumble-server (in Planung)
+    * 10.196.123.0/24 Range von Ixoid
+        * 10.196.123.42 GartenPi
+    * 10.196.126.0/24
+        * 10.196.126.0/24 Dienste von Nebirosh
+    * 10.196.127.0/24 Dienste von HeinzBoettjer
+        * 10.196.127.1 Scanner an asm_100_EG (pausiert)
+        * 10.196.127.2 Scanner an hhs-1 (pausiert)
+        * 10.196.127.3 Linux-ISO-Server an ffhb-asm100 (in Vorbereitung)
+        * 10.196.127.4 apt-mirror (in Vorbereitung)
+        * 10.196.127.5 mirror für downloads.bremen.freifunk.net/firmware (in Vorbereitung)
+        * 10.196.127.6 mumble-server (in Planung)
 
 Feste IP-Adressen von an Freifunk-Knoten angeschlossenen Servern sollten in 10.196.0.0/17 liegen. Hier eintragen und glücklich sein.
 
