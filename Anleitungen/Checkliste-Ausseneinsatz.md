@@ -4,6 +4,7 @@ Zuhause vorbereiten:
 - Plan machen
   - was soll gemacht werden?
   - welche Geräte sollen wo angebracht werden?
+- Plan ins [Ticket-System](https://tasks.ffhb.de) schreiben
 - mitgenommene Sachen testen
   - funktionieren die Geräte, die man verbauen möchte?
   - sind die LAN-Kabel OK? Bekommt man vollen GBit-Link darüber? Ist der Kabeltester mit den LAN-Kabeln zufrieden?
