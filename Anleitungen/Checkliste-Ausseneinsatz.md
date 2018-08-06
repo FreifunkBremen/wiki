@@ -46,6 +46,7 @@ Weitere Sachen zum Mitnehmen (in unsortierter Reihenfolge):
 - Kabelbinder
 - Gaffa-Tape
 - Edding
+- Zollstock
 - Smartphone mit WLAN und Kamera
 - Laptop + Stromkabel
 - Powerbank + USB-Kabel
@@ -57,6 +58,7 @@ Weitere Sachen zum Mitnehmen (in unsortierter Reihenfolge):
 - Kabeltester + funktionierende Batterie
 - kleiner Ethernet-Switch
 - kleine 1m-Spanngurte, um mal temporär etwas zu befestigen
-- Block + Stift
+- Papier + Stift
+- ein paar Freifunk-Flyer
 - Wasserflasche
 - was zu Essen (Süßigkeiten, Obst, Mini-Brötchen...)
