@@ -57,6 +57,7 @@ Weitere Sachen zum Mitnehmen (in unsortierter Reihenfolge):
   - Papierausdruck der möglichen Aderbelegungen
 - Kabeltester + funktionierende Batterie
 - kleiner Ethernet-Switch
+- Benutzerhandbücher (PDFs) der verbauten Geräte, um notfalls die Standard-Zugangsdaten zu haben
 - kleine 1m-Spanngurte, um mal temporär etwas zu befestigen
 - Papier + Stift
 - ein paar Freifunk-Flyer
