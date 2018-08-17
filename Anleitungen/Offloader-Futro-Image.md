@@ -20,7 +20,7 @@ Soll das Image per USB-Stick aufgespielt werden, kann das Gehäuse jetzt wieder 
 
 Um ein Image aufzuspielen, gibt es mehrere Methoden. Die schnellste und eleganteste ist das Aufspielen mit einem USB-Stick. Dazu benötigen wir einen bootfähigen USB-Stick.
 
-Dazu ladet Euch das Gluon2Futro-USB-Stick-Image von [Github](https://raw.githubusercontent.com/oszilloskop/Gluon2Futro/master/gluon2futro.img) herunter, und transferiert es auf einen USB-Stick ( mit 'dd' oder 'Win32 Disk Imager' oder 'Rufus'). Auf dem USB-Stick befindet sich danach ein Mini-Linux auf einer FAT32 Partition. Der USB-Stick muss mind. 64MB groß sein. Alle bisher gespeicherte Daten auf dem USB-Stick gehen verloren!
+Dazu ladet Euch das Gluon2Futro-USB-Stick-Image von [Github](https://raw.githubusercontent.com/oszilloskop/Gluon2Futro/master/gluon2futro.img) herunter, und transferiert es auf einen USB-Stick ( mit 'dd' oder 'Win32 Disk Imager' oder 'Rufus'). Auf dem USB-Stick befindet sich danach ein Mini-Linux auf einer FAT32 Partition. Der USB-Stick muss mind. 64MB groß sein. Alle bisher gespeicherte Daten auf dem USB-Stick gehen verloren! [Gluon2Futro](https://github.com/oszilloskop/Gluon2Futro)
 
 Dann einfach euer gewünschtes Gluon-x86-Factory-Image (die gepackte Version *.img.gz) auf den vorbereiteten USB-Stick kopieren (das geht mit jedem Win/Linux/Mac PC per Datei-Manager des jeweiligen Betriebsystems). Wenn jetzt der Futro mit diesem USB-Stick gebootet wird, so wird das Gluon-x86-Image vollautomatisch auf die interne CF-Karte des Futros übertragen.
 
