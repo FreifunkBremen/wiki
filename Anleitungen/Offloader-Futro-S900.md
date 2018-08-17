@@ -14,7 +14,7 @@ Die Installation läuft genau so ab wie beim Futro S550. Auf dem USB-Stick muss 
 bitte_nicht_loeschen.sh
 ~~~
 
-geändert oder erweitert werden. Da das Script den vorhandenen CPU-Typ überprüft, muss der neue CPU-Typ ergänzt oder einer der vorhandenen Einträge überschrieben werden.
+geändert oder erweitert werden. Da das Script den vorhandenen CPU-Typ überprüft, muss der neue CPU-Typ ergänzt oder einer der vorhandenen Einträge überschrieben werden. Detaillierte Informationen findet Ihr auf [https://github.com/oszilloskop/Gluon2Futro32](https://github.com/oszilloskop/Gluon2Futro)
 
 Der Eintrag lautet:
 
