@@ -21,6 +21,32 @@ Der Eintrag lautet:
 ~~~
 if (grep -Fq "AMD G-T44R Processor" /proc/cpuinfo) ; then
   echo "AMD G-T44R Processor -> Futro S900"
+fi
+
+oder (neu 8/2018)
+# Sicherheitstest, ob es sich wirklich um einen Prozessor eines Futro S550 oder S550-2 handelt
+echo Teste auf AMD Sempron Prozessor...
+if (grep -Fq "Mobile AMD Sempron(tm) Processor 2100+" /proc/cpuinfo) ; then
+  echo "AMD Sempron Prozessor 2100+ gefunden -> Futro S550"
+else
+  if (grep -Fq "AMD Sempron(tm) Processor 200U" /proc/cpuinfo) ; then
+    echo "AMD Sempron Prozessor 200U gefunden -> Futro S550-2"
+  else
+	if (grep -Fq "AMD G-T44R Processor" /proc/cpuinfo) ; then
+		echo "AMD G-T44R Processor -> Futro S900"
+    else
+	if (grep -Fq "AMD G-T40N Processor" /proc/cpuinfo) ; then
+		echo "AMD G-T40N Processor -> Futro S900"
+    else
+		echo
+		echo Fehler: Keinen AMD Sempron Prozessor 2100+ oder 200U oder AMD G-T44 / G-T40N Rgefunden.
+		echo Fehlergrund: Kein Futro S550 oder S550-2 oder S900.
+		echo
+	exit 1
+	fi
+	fi
+  fi
+fi
 ~~~
 
 Wenn externe Speichermedien an den USB Port verwendet werden, ist im BIOS die Bootsequenz auf die interne mSata zu stellen und Force USB Boot zu deaktivieren.
