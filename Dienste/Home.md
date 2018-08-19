@@ -50,8 +50,8 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.60.0 - 10.196.69.255 per DHCP vergeben von 10.196.0.6
     * 10.196.123.0/24 Range von Ixoid
         * 10.196.123.42 GartenPi
-    * 10.196.125.0/24 Bereich Andi
-        * 10.196.125.1  Rasperry Andi
+    * 10.196.125.0/24 Bereich Brener23
+        * 10.196.125.1  Rasperry Brenner23
     * 10.196.125.0/26 Dienste von Tobi
         * 10.196.125.1 Pi1 
     * 10.196.126.0/24
