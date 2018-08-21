@@ -11,6 +11,7 @@ Damit das bezahlbar bleibt, setzten Freifunker gerne auf Gebrauchtgeräte
 der Marke IGEL oder Fujitsu-Siemens Futro. Da der Gebrauchtmarkt stark
 schwankt, wechseln die Geräte in der Beliebtheit gerne ihren Rang.
 Gerne werden der Futro S550-2 oder Futro S900 verwendet.
+Berichten zufolge klappts auch mit einem ubiquiti edgerouter lite. Freifunk Winterberg hat Erfahrungen mit diesem Gerät auf der Webseite: https://www.freifunk-winterberg.net/die-nutzung-von-ubiquiti-edgerouter-x-als-freifunk-offloader/ 
 
 ### Stückliste, Materialliste
 - Ein Freifunk X86 Image, z.B. (gluon-ffhb-2016.2.4+bremen2-x86-generic.img.gz) zu finden unter https://downloads.bremen.freifunk.net/firmware/stable/factory/
