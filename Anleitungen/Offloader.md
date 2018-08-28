@@ -12,7 +12,7 @@ der Marke IGEL oder Fujitsu-Siemens Futro. Da der Gebrauchtmarkt stark
 schwankt, wechseln die Geräte in der Beliebtheit gerne ihren Rang.
 Gerne werden der Futro S550-2 oder Futro S900 verwendet.
 
-Berichten aus Winterberg zufolge klappts auch mit einem Ubiquiti Edgerouter Lite. Erfahrungen mit diesem Gerät: https://www.freifunk-winterberg.net/die-nutzung-von-ubiquiti-edgerouter-x-als-freifunk-offloader/ 
+Berichten aus Winterberg zufolge klappts auch mit einem Ubiquiti Edgerouter ER-X. Erfahrungen mit diesem Gerät: https://www.freifunk-winterberg.net/die-nutzung-von-ubiquiti-edgerouter-x-als-freifunk-offloader/ 
 
 ### Stückliste, Materialliste
 - Ein Freifunk X86 Image, z.B. (gluon-ffhb-2016.2.4+bremen2-x86-generic.img.gz) zu finden unter https://downloads.bremen.freifunk.net/firmware/stable/factory/
@@ -27,8 +27,14 @@ Eine Risercard, das ist ein Winkeladapter für die Netzwerkkarte, ca. 2.90€
 - Monitor und Tastatur für die Installation.
 
 ### Kosten 
-für den Futro S550-2: zwischen 20€ - 30€, für den Futro S900  : zwischen 35€ - 50€
+für den Futro S550-2: zwischen 20€ - 30€, für den Futro S900: zwischen 35€ - 50€, Ubiquiti Edge Router ER-X ca. 50€.
 
 ### Konfiguration 
 Diese erfolgt wie bei einem normalen Freifunkrouter, zusätzliche
 Konfigurationen im Linux sind nicht notwendig. Weitere Informationen über die Offloaderbeiträge im Wiki oder im Forum.freifunk.net
+
+Für den Ubiquiti ER-X wurde wie in der Anleitung aus Winterberg beschrieben der Upgrade durchgeführt.
+Zuerst das aktuelle LEDE installieren lede-ramips-mt7621-ubnt-erx-initramfs-factory.tar
+Ich habe es von hier: https://downloads.openwrt.org/snapshots/targets/ramips/mt7621/
+danach das oder ein aktuelles FFHB Image: https://downloads.bremen.freifunk.net/firmware/all/
+
