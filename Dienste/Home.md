@@ -50,9 +50,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.60.0 - 10.196.69.255 per DHCP vergeben von 10.196.0.6
     * 10.196.123.0/24 Range von Ixoid
         * 10.196.123.42 GartenPi
-    * 10.196.125.0/24 Bereich Brener23
-        * 10.196.125.1  Rasperry Brenner23
-    * 10.196.125.0/26 Dienste von Tobi
+    * 10.196.125.0/24 Dienste von Tobi
         * 10.196.125.1 Pi1 
     * 10.196.126.0/24
         * 10.196.126.0/24 Dienste von Nebirosh
@@ -63,6 +61,9 @@ Folgende IP-Adressen sind vergeben:
         * 10.196.127.4 apt-mirror (in Vorbereitung)
         * 10.196.127.5 mirror für downloads.bremen.freifunk.net/firmware (in Vorbereitung)
         * 10.196.127.6 mumble-server (in Planung)
+    * 10.196.129.0/24 Bereich Brener23
+        * 10.196.129.1  - from.
+        * 10.196.129.256 - to.
 
 Feste IP-Adressen von an Freifunk-Knoten angeschlossenen Servern sollten in 10.196.0.0/17 liegen. Hier eintragen und glücklich sein.
 
