@@ -193,3 +193,9 @@ Jetzt sollte der Router wieder mit den TP-Link Zugangsdaten erreichbar sein. Fre
 In einigen Freifunk/OpenWRT/LEDE Foren wird ausführlich über dieses Thema diskutiert. Auf diesem Wege soll auch ein Freifunk factory Image direkt geladen werden können. Hier ein Link zu diesem Thema: https://forum.freifunk.net/t/router-recovery-tftp-pushbutton-und-ttl-serial-recovery/8691
 
 
+### Unbrick CPE/WBS
+
+Gleiche Anleitung wie oben.
+Die IP Adresse des PC ist auf **192.168.0.100** einzustellen.
+Das Faktory Image wird umbenannt auf **"recovery.bin"**
+
