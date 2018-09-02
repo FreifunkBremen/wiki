@@ -1,11 +1,16 @@
 # Unbrick Anleitung TP-Link
 Sobald der Router eine Firmware mit der falschen Versions- oder Modellnummer abbekommt, hat man schnell einen Briefbeschwerer.
 
-Diese Anleitung konzentriert sich auf das Flashen/Retten des Router über die serielle Schnittstelle.
+Diese Anleitung konzentriert sich im ersten Teil auf das Flashen/Retten des Router über die serielle Schnittstelle, im zweiten Teil über Failsafe per TFTP.
 
 Vorher sollte man probieren, über den [Failsafe-Mode](http://wiki.openwrt.org/doc/howto/generic.failsafe) den Router zu erreichen.
 
 Beim aktuellsten Modell des 841n(d), der Version 9+ ist es auch möglich, komplett auf Löten zu verzichten. Details finden sich [hier](http://wiki.openwrt.org/toh/tp-link/tl-wr841nd#v9_without_serial).
+
+
+[Teil 1 unbrick seriell](#inhalt_Vorbereitungen)
+
+[Teil 2 unbrick TFTP](#inhalt_Unbrick Anleitung TP-Link Archer C7 v2)
 
 ## Vorbereitungen
 Folgende Dinge werden benötigt:
