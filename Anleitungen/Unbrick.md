@@ -12,7 +12,8 @@ Beim aktuellsten Modell des 841n(d), der Version 9+ ist es auch möglich, komple
 
 [Teil 2 unbrick TFTP](#inhalt_Unbrick Anleitung TP-Link Archer C7 v2)
 
-## Vorbereitungen
+##Vorbereitungen
+
 Folgende Dinge werden benötigt:
 * gebrickter Router
 * TTL-auf-USB-Adapter (3.3V Pegel!)
@@ -117,7 +118,7 @@ Nun solltet ihr wieder einen ansprechbaren Router haben!
 Wer die Unbrickaktion des öfteren durchführt, sollte sich z.B. in der Bucht einen USB-TTL Adapter für ca. 1€ zulegen.
 
 
-# Unbrick Anleitung TP-Link Archer C7 v2
+#Unbrick Anleitung TP-Link Archer C7 v2
 
 ## Vorbereitungen
 Folgende Dinge werden benötigt:
