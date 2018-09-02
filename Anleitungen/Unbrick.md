@@ -10,7 +10,7 @@ Beim aktuellsten Modell des 841n(d), der Version 9+ ist es auch möglich, komple
 
 [Teil 1 unbrick seriell](#inhalt_Vorbereitungen)
 
-[Teil 2 unbrick TFTP](#inhalt_Unbrick Anleitung TP-Link Archer C7 v2)
+[Teil 2 unbrick TFTP Archer C7](#inhalt_Unbrick Anleitung TP-Link Archer C7 v2)
 
 ##Vorbereitungen
 
@@ -129,8 +129,13 @@ Folgende Dinge werden benötigt:
 * Einen Computer mit ein paar Programmen
 
 ## Vorgeschichte
-Fast alle Router haben einen failsaverecover. Der schreibgeschützte Bootloader des Routers versucht kurz eine Verbindung von LAN1 zu einem tftp Server herzustellen und ein entsprechendes recover.bin zu laden. Dazu hat der Router kurz die IP Adress 192.168.0.86 und schaut auf die Serveradresse 192.168.0.66, sofern ein Link vorhanden ist.
+Fast alle Router haben einen failsaverecover. Der schreibgeschützte Bootloader des Routers versucht kurz eine Verbindung von **LAN1** ( erster gelbe Port) zu einem tftp Server herzustellen und ein entsprechendes recover.bin zu laden. Dazu hat der Router kurz die IP Adress **192.168.0.86** und schaut auf die Serveradresse **192.168.0.66**, sofern ein **Link** vorhanden ist.
 
+## Recovery Image
+Für den TP-Link Archer C7 v2 auf der Herstellerseite das passende Image herunterladen und entpacken. Das entpackte Binary in ArcherC7v2_tp_recovery.bin umbenennen.
+Image z.B. hier: https://static.tp-link.com/Archer%20C7(EU)_V2_170803.zip
+oder hier: https://static.tp-link.com/res/down/soft/Archer_C7(EU)_V2_160616.zip
+Für andere Modelle ein entsprechendes Image suchen.
 
 ## tftp
 Über den tftp Server wird die Firmware auf das Gerät gespielt und das sollte automatisch passieren. Zuerst eine passende tftp Version installieren, die gibt es hier: http://tftpd32.jounin.net/tftpd32_download.html
@@ -139,22 +144,24 @@ Bild: ![cp210-UART](https://cloud.ffhb.de/index.php/s/HS65Ac4Ytes44aw/download)
 
 [CP210-UART-Treiber](https://www.silabs.com/products/development-tools/software/direct-access-drivers)
 
-Der tftp Server soll an eurer LAN Schnittstelle lauschen, das macht er jedoch nur, wenn die LAN Schnittstelle auf "up" ist. Also jetz einen Link zum Ethernet Switch herstellen. 
-Jetzt kann die LAN Schnittstelle auf 192.168.0.66 eingestellt werden.
+Der tftp Server soll an eurer LAN Schnittstelle lauschen, das macht er jedoch nur, wenn die LAN Schnittstelle auf **"up"** ist. (Ist diese auf up, dann ist es ausreichend, wenn er auf der Loopbackadresse 127.0.0.1 läuft). Also jetz einen Link zum Ethernet Switch herstellen. 
+
+(Anmerkung: Der Router bootet schneller, als das der PC das LAN Interface einschalten kann. Der Router sucht bereits das Image, bevor die Verbindung zum TFTP aufgebaut ist. Bei einigen Schnittstellenkarten kann das Interface manuell auf **"up"** gestellt werden, dann wird kein Switch benötigt.)
+
+Jetzt kann die LAN Schnittstelle auf **192.168.0.66** eingestellt werden.
+Durch die Verbindung zum Switch ist unser LAN Port auf up und einsatzbereit.
 Der TP-Link Archer C7 v2 schaut bei einem Reset kurz auf dieser IP nach, ob es ein Image für ihn gibt.
 tftp Server auf die LAN Schnittstelle setzen und in das Serververzeichnis die Datei "ArcherC7v2_tp_recovery.bin" hineinkopieren.
 
-## Recovery Image
-Für den TP-Link Archer C7 v2 auf der Herstellerseite das passende Image herunterladen und entpacken. Das entpackte Binary in ArcherC7v2_tp_recovery.bin umbenennen.
-Image z.B. hier: https://static.tp-link.com/Archer%20C7(EU)_V2_170803.zip
-oder hier: https://static.tp-link.com/res/down/soft/Archer_C7(EU)_V2_160616.zip
 
 ## Recover Teil 1
-Den Port1 (erster gelber Port) des TP-Link Archer C7v2 und den den LAN Port des PC mit dem Switch verbinden.
-Den Reset-Knopf ca. 5-10 Sekunden gedrückt halten. Wenn die Verbindungslampe vom Switch leuchtet (Kabelverbindung zum Archer), dann loslassen. Sofort startet der Imagedownload. Ist dieses abgeschlossen, bootet der Archer und ist im Originalzustand.
+Den Port 1 (erster gelber Port) des TP-Link Archer C7v2 und den den LAN Port des PC mit dem Switch verbinden.
+Den Reset-Knopf ca. 5-10 Sekunden gedrückt halten. Wenn die Verbindungslampe vom Switch leuchtet (Kabelverbindung zum Archer), ~~dann loslassen~~ grückt halten, bis das Recyclingsymbol ganr rechts leuchtet. Sofort startet der Imagedownload. Ist dieses abgeschlossen, bootet der Archer und ist im Originalzustand. Ggf. wiederholen.
+Der Zugriff erfolgt über 192.168.0.1 admin/admin. 
 
 Bild: ![tftp-Download](https://cloud.ffhb.de/index.php/s/3RRwy3CsBxcHJyg/preview)
 
+Wir öffnen die Einstellung sysupgrade im Router und kopieren unser Freifunkimage drauf. Ist unser PC noch angeschlossen, das LAN Interface von 192.168.0.66 jetzt auf 192.168.1.66 ändern.
 
 ## Recover Teil 2
 Diesen Teil benötigen wir, wenn vorhergender Abschnitt fehlschlägt und der Router immer noch im Dauerbootzustand ist.
