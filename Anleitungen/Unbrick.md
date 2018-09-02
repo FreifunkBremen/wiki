@@ -198,4 +198,4 @@ In einigen Freifunk/OpenWRT/LEDE Foren wird ausführlich über dieses Thema disk
 Gleiche Anleitung wie oben.
 Die IP Adresse des PC ist auf **192.168.0.100** einzustellen.
 Das Faktory Image wird umbenannt auf **"recovery.bin"**
-
+Login auf der CPE/WBS mit **192.168.0.254** und admin/admin, dann muss ein neues PW gesetzt werden. Der Upload der Freifunksoftware klappt mit der CPE/WBS Option Restore. Nach dem automatischen Reeboot klappt der Zugang wie bei jedem anderen Freifunkrouter mit **192.168.1.1**. Daten eingeben, neu Starten, fertig.
