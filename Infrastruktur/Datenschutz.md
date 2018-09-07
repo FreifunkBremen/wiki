@@ -52,7 +52,7 @@ Wir versuchen den Grad der Sensibilität der Daten durch diese "Bezugsart" zu ve
 
 ## Datenverarbeitung
 
-Es findet keine automatisierte Verarbeitung der Daten, beispielsweise zum Zweck von Profilbildung, statt. Viele der knotenbezogenen Daten inkl. Nutzungsstatistiken werden in graphischer Form aufgearbeitet und ebenso wie die Rohdaten als [Karte](https://map.bremen.freifunk.net/) oder in [Graphen](https://grafana.bremen.freifunk.net/dashboard/db/global-selectable) der Öffentlichkeit zur Verfügung gestellt.
+Es findet keine automatisierte Verarbeitung der Daten, beispielsweise zum Zweck von Profilbildung, statt. Viele der knotenbezogenen Daten inkl. Nutzungsstatistiken werden in graphischer Form aufgearbeitet und ebenso wie die Rohdaten als [Karte](https://map.bremen.freifunk.net/) oder in [Graphen](https://grafana.bremen.freifunk.net/) der Öffentlichkeit zur Verfügung gestellt.
 
 ## Schutz gegen unbefugte Zugriffe
 
