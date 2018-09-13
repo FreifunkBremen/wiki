@@ -51,7 +51,7 @@ für Menschenrechte und Entwicklung (beim Cinemax und außerdem Büroräume, die
 
 * Sielwall-Kreuzung
 * Entlang der Straßenbahn
-* Café Sand
+* Café Sand &#10003;
 * Bauernladen / Erzeuger-Verbraucher-Genossenschaft
 * BUND Bremen (am besten über BUNDjugend)
 
@@ -101,11 +101,11 @@ Potentielle Fördermitglieder
 * Centralhallen Hemelingen
 * Centralhallen Mahndorf
 * Aladin
-* Bremer Heimstiftung
+* Bremer Heimstiftung (&#10003;)
 
 Termine
 
-* 26.02. 17.30 Uhr WIN-Forum Hemelingen
+* 26.02.17 17.30 Uhr WIN-Forum Hemelingen
 * 31.5. Gewerbeschau Hemelingen [Anmeldung](http://www.hemelingen-marketing.de/images/www_marketing_hemelingen/beitraege_und_module_DE/Fotos/Fotos_Veranstaltungen/2015/Gewerbeschau/Abfrage_HEVi_050215.pdf)
 
 ## Gruppierungen
