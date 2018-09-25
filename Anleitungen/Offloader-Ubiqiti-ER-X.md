@@ -14,6 +14,8 @@ Warum Offloader? Werden mehrere Freifunkrouter verwendet, ist es sinnvoll, dass 
 - https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_X_DS.pdf
 - https://www.ubnt.com/edgemax/comparison/
 - https://www.heise.de/preisvergleich/ubiquiti-edgerouter-er-x-a1271798.html
+- https://wiki.funkfeuer.at/wiki/Hardware/EdgeRouter_X
+- https://wiki.funkfeuer.at/wiki/Hardware/EdgeRouter_X-SFP
 
 ### Links zu Anleitungen:
 - https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image
