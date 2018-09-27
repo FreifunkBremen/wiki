@@ -3,16 +3,17 @@
 Einige Erfolge und die tollen verfügbaren Anleitungen, sollen hier Mut machen, die kleinen Leistungsstarken Ubiquiti Edgerouter ER-X als Offloader einzusetzen.
 Warum Offloader? Werden mehrere Freifunkrouter verwendet, ist es sinnvoll, dass nicht alle Router ihren eigenen VPN Tunnel aufbauen. Der Offloader übernimmt die Verschlüsselung und mesht über die LAN Ports mit den Freifunkroutern, das gibt ein deutlich schnelleres Netz bei geringen Kosten.
 
-### Was spricht für dieses Modell Ubiquiti EdgeRouter X (ER-X)?
+### Was spricht für dieses Modell Ubiquiti EdgeRouter X (ER-X) / (ER-X SFP)?
 - Der ER-X besitzt einen Gigabit Port mit Passiv PoE Eingang (24 V, eth0) und kann so ohne Netzteil betrieben werden. Weiterhin gibt es einen Gigabit Port mit Passiv PoE Ausgang (24 V, eth4) um einen Access Point anzuschließen. Daneben noch drei weitere Gigabit Ports zur weiteren Verwendung (eth1/2/3). 
 - Abmessungen: 110 x 75 x 22
 - Prozessor:   Dual-Core 880 MHz
 - Geringer Stromverbrauch: 5W, 12V Netzteil.
+- Der ER-X SFP hat neben dem SFP-Modul und dem 24V Netzteil auf allen Ports passiv POE 24V.
 
 ### Diverse nützliche Links:
 - https://www.ubnt.com/edgemax/edgerouter-x/
 - https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_X_DS.pdf
-- https://www.ubnt.com/edgemax/comparison/
+- https://www.ubnt.com/edgemax/comparison/ (Vergleich der Modelle)
 - https://www.heise.de/preisvergleich/ubiquiti-edgerouter-er-x-a1271798.html
 - https://wiki.funkfeuer.at/wiki/Hardware/EdgeRouter_X
 - https://wiki.funkfeuer.at/wiki/Hardware/EdgeRouter_X-SFP
