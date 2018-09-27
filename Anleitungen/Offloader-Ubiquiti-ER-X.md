@@ -19,7 +19,7 @@ Warum Offloader? Werden mehrere Freifunkrouter verwendet, ist es sinnvoll, dass 
 - https://wiki.funkfeuer.at/wiki/Hardware/EdgeRouter_X-SFP
 
 ### Links zu Anleitungen:
-- https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image
+- https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image (Empfehlenswert)
 - https://www.freifunk-winterberg.net/die-nutzung-von-ubiquiti-edgerouter-x-als-freifunk-offloader/
 - https://wiki.openwrt.org/toh/ubiquiti/ubiquiti_edgerouter_x_er-x_ka
 - https://community.ubnt.com/t5/EdgeMAX-Updates-Blog/EdgeMAX-EdgeRouter-X-X-SFP-bootloader-update/ba-p/1472216
