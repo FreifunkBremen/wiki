@@ -45,7 +45,10 @@ Keine Panik, es gibt die serielle Schnittstelle im Router. Auf der rechten Seite
 - Herstellerbeschreibung des Kabels: "Mit diesem Kabel verbinden Sie Ihren Raspberry PI ganz einfach mit einem PC System. Gleichzeitig stellt das Kabel über den USB Port des PC 5V bei 500mA zur Verfügung, so dass Sie kein separates Netzteil verwenden müssen. Der in dem Kabel integrierte serielle PL2303HX Chip sorgt dafür, dass beide Geräte miteinander Daten austauschen können. Hierbei werden Windows XP, Vista, 7 und 8 unterstützt. Belegung der PIN Stecker: rot = Power +5V / schwarz = Ground / weiß = RX / grün = TX"
 - Die PIN Belegung der seriellen Schnittstelle ist beschrieben unter: https://openwrt.org/toh/ubiquiti/ubiquiti_edgerouter_x_er-x_ka#poe_out_on_edgerouter_x
 - PIN zum Reset-Knopf: Ground, TX, RX, 3,3V zur ETH 5 Buchse zeigend.
-- 
+
+Wer den Bootvorgang aufzeichnen möchte, verbindet den USB Adapter vor Inbetriebnahme mit dem PC und startet ein Terminal Programm. Unter Windows z.B. Hyperterm und LOG einschalten.
+
+
 
 
  
