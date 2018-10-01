@@ -46,7 +46,7 @@ Keine Panik, es gibt die serielle Schnittstelle im Router. Auf der rechten Seite
 - Die PIN Belegung der seriellen Schnittstelle ist beschrieben unter: https://openwrt.org/toh/ubiquiti/ubiquiti_edgerouter_x_er-x_ka#poe_out_on_edgerouter_x
 - PIN zum Reset-Knopf: Ground, TX, RX, 3,3V zur ETH 5 Buchse zeigend.
 
-Wer den Bootvorgang aufzeichnen möchte, verbindet den USB Adapter vor Inbetriebnahme mit dem PC und startet ein Terminal Programm. Unter Windows z.B. TerTerm und LOG einschalten. Der serielle Adapter hat sich bei mir unter COM 8 installiert. (Das Windows Terminal kann original nur bis COM 4).
+Wer den Bootvorgang aufzeichnen möchte, verbindet den USB Adapter vor Inbetriebnahme mit dem PC und startet ein Terminal Programm. Unter Windows z.B. TerTerm und LOG einschalten. Der serielle Adapter hat sich bei mir unter COM 8 installiert. (Das Windows Terminal kann original nur bis COM 4). Geschwindigkeit 57600 / 8 / N / 1.
 
 
 
