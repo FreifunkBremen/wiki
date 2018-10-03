@@ -83,10 +83,19 @@ BusyBox v1.25.1 () built-in shell (ash)
 root@ffhb-fcecda7f28e1-UBNT-ERX-SFP:/#
 ~~~
 
+Also daran Denken, vor dem Basteln einmal kurz /etc/config/ von der Kiste sichern, erleichtert viel Tiparbeit. Bei komplexeren Installationen sind einige Konfigs auch unter /var/ und /root/ abgelegt.
 
+### Freifunkimage verbastelt? Stockfirmware einspielen.
+An dieser Stelle waren alle Wiederbelebungsversuche erfolglos?, keine Panik.
+Es wird nun die Originalfirmware eingespielt.
+Wir brauchen:
+- serielles Kabel mit Zugang zum Router
+- 2 LAN-Kabel
+- 1 externer Switch
+- die Originalfirmware von der Herstellerseite
+- einen laufenden TFTP Server auf unserem PC
 
+Bedeutung des externen Switch: In dem Bootloader eines jeden Routers ist eine Abfrage eingebaut, die einen kurzen Moment eine bestimmte IP Adresse nach einem Image per TFTP fragt. Wenn euer PC zu langsam den LAN-Port hochfährt und ihr den nicht dauerhaft einschalten könnt, rennt der Router im Bootvorgang weiter und nix ist mit Image laden. Klemmt zwischen Router und PC einen kleinen Switch, der hält die Verbindung zum PC und stellt sehr schnell eine Verbindung zum Router her, wenn dieser nach dem Image fragt.
 
-
-
-
+ER-X flashen:
  
