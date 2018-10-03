@@ -38,7 +38,20 @@ Frohes Freifunken.
 
 Wenn der Router einmal gebrickt ist, also es besteht kein Zugriff mehr über die externen Schnittstellen, hier im folgenden einige Rettungsversuche.
 
-### Freifunkimage verbastelt?
+
+### Freifunkimage verbastelt? Zugriff über SSH
+Sofern unser Router schon mal Online war und in der MAP https://map.bremen.freifunk.net sichtbar war, können wir uns die IPv6 Adressen des Routers kopieren. Gewünschten Router auf der MAP auswählen und unter den Infodaten die Adressen kopieren.
+~~~
+IP Adressen:
+2001:16b8:640a:73ff:feec:daff:fe7f:28e1
+2a06:8782:ffbb:1337:feec:daff:fe7f:28e1
+fd2f:5119:f2c::feec:daff:fe7f:28e1
+fe80::feec:daff:fe7f:28e1
+~~~
+Die beiden unteren Adressen sind die lokalen Adressen. Router einschalten, LAN-Kabel vom PC auf eine LAN-Buchse stecken. Es wird ein Link angezeigt aber keine IPv4 Adresse. SSH starten und mit root@ipv6adresse verbindung aufnehmen.
+Wenn es keine Verbindung gibt, müssen wir die serielle Schnittstelle verwenden.
+
+### Freifunkimage verbastelt? Zugriff über die serielle Schnittstelle
 Ich habe durch diverse Konfigurationen den Router unbrauchbar gemacht.
 Keine Panik, es gibt die serielle Schnittstelle im Router. Auf der rechten Seite am Rand sind 4 Pins eingelötet an der ein Seriell-USB Adapter angeschlossen werden kann.
 - Router öffnen: Auf der Rückseite sind zwei kleine Kreuzschrauben, die die beiden Gehäusehälften zusammenhalten. Im SFP Modell zuerst das SFP entfernen. Schrauben herausnehmen und Gehäuse aufklappen.
