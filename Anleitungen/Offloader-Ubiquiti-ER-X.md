@@ -40,6 +40,7 @@ Wenn der Router einmal gebrickt ist, also es besteht kein Zugriff mehr über die
 
 
 ### Freifunkimage verbastelt? Zugriff über SSH
+#### Dieser Abschnitt muss korrigiert werden, da Fehlerhaft
 Sofern unser Router schon mal Online war und in der MAP https://map.bremen.freifunk.net sichtbar war, können wir uns die IPv6 Adressen des Routers kopieren. Gewünschten Router auf der MAP auswählen und unter den Infodaten die Adressen kopieren.
 ~~~
 IP Adressen:
@@ -49,7 +50,7 @@ fd2f:5119:f2c::feec:daff:fe7f:28e1
 fe80::feec:daff:fe7f:28e1
 ~~~
 Die beiden unteren Adressen sind die lokalen Adressen. Router einschalten, LAN-Kabel vom PC auf eine LAN-Buchse stecken. Es wird ein Link angezeigt aber keine IPv4 Adresse. SSH starten und mit root@ipv6adresse verbindung aufnehmen.
-Wenn es keine Verbindung gibt, müssen wir die serielle Schnittstelle verwenden.
+Wenn es keine Verbindung gibt, müssen wir die serielle Schnittstelle verwenden. (IPv6 Zugriff ist abhängig von den PC Einstellungen).
 
 ### Freifunkimage verbastelt? Zugriff über die serielle Schnittstelle
 Ich habe durch diverse Konfigurationen den Router unbrauchbar gemacht.
