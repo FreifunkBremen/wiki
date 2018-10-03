@@ -98,4 +98,19 @@ Wir brauchen:
 Bedeutung des externen Switch: In dem Bootloader eines jeden Routers ist eine Abfrage eingebaut, die einen kurzen Moment eine bestimmte IP Adresse nach einem Image per TFTP fragt. Wenn euer PC zu langsam den LAN-Port hochfährt und ihr den nicht dauerhaft einschalten könnt, rennt der Router im Bootvorgang weiter und nix ist mit Image laden. Klemmt zwischen Router und PC einen kleinen Switch, der hält die Verbindung zum PC und stellt sehr schnell eine Verbindung zum Router her, wenn dieser nach dem Image fragt.
 
 ER-X flashen:
- 
+
+1. Der ER-X hat die Adresse 172.16.3.211 im Bootloader und erwartet einen TFTP-Server mit 172.16.3.210, wo er ein Image mit dem Namen vme50 sucht.
+2: Verbindun mit Port 0 herstellen und Router starten.
+~~~
+Please choose the operation:
+   1: Load system code to SDRAM via TFTP.
+   2: Load system code then write to Flash via TFTP.
+   3: Boot system code via Flash (default).
+   4: Entr boot command line interface.
+   7: Load Boot Loader code then write to Flash via Serial.
+   9: Load Boot Loader code then write to Flash via TFTP.
+default: 3
+
+You choosed 2
+~~~
+Jetzt lädt der Router das Image, bootet und alles ist wieder gut.
