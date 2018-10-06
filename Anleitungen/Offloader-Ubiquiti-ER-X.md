@@ -40,17 +40,20 @@ Wenn der Router einmal gebrickt ist, also es besteht kein Zugriff mehr über die
 
 
 ### Freifunkimage verbastelt? Zugriff über SSH
-#### Dieser Abschnitt muss korrigiert werden, da Fehlerhaft
-Sofern unser Router schon mal Online war und in der MAP https://map.bremen.freifunk.net sichtbar war, können wir uns die IPv6 Adressen des Routers kopieren. Gewünschten Router auf der MAP auswählen und unter den Infodaten die Adressen kopieren.
+
+Unter /etc/confog/network ist ein Abschnitt, der die Interne Adresse beschreibt. Der Zugriff auf das Gerät erfolgt über einen Client-Port oder im Konfig-Modus nach einem langen Reset. Die local ip ist/kann je nach Freifunk-Community unterschiedlich sein.
+
 ~~~
-IP Adressen:
-2001:16b8:640a:73ff:feec:daff:fe7f:28e1
-2a06:8782:ffbb:1337:feec:daff:fe7f:28e1
-fd2f:5119:f2c::feec:daff:fe7f:28e1
-fe80::feec:daff:fe7f:28e1
+config interface 'local_node'
+	option ifname 'local-node'
+	option ipaddr '10.196.0.127/17'
+	option ip6addr 'fd2f:5119:0f2c::127/128'
+	option ip6deprecated '1'
+	option proto 'static' 
 ~~~
-Die beiden unteren Adressen sind die lokalen Adressen. Router einschalten, LAN-Kabel vom PC auf eine LAN-Buchse stecken. Es wird ein Link angezeigt aber keine IPv4 Adresse. SSH starten und mit root@ipv6adresse verbindung aufnehmen.
-Wenn es keine Verbindung gibt, müssen wir die serielle Schnittstelle verwenden. (IPv6 Zugriff ist abhängig von den PC Einstellungen).
+
+SSH starten und mit root@fd2f:5119:0f2c::127 verbindung aufnehmen.
+Wenn es keine Verbindung gibt, müssen wir die serielle Schnittstelle verwenden. 
 
 ### Freifunkimage verbastelt? Zugriff über die serielle Schnittstelle
 Ich habe durch diverse Konfigurationen den Router unbrauchbar gemacht.
