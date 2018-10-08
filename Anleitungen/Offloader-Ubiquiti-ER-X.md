@@ -105,6 +105,7 @@ ER-X flashen:
 
 1. Der ER-X hat die Adresse 172.16.3.211 im Bootloader und erwartet einen TFTP-Server mit 172.16.3.210, wo er ein Image mit dem Namen vme50 sucht.
 2. Verbindun mit Port 0 herstellen und Router starten.
+
 ~~~
 Please choose the operation:
    1: Load system code to SDRAM via TFTP.
@@ -118,3 +119,70 @@ default: 3
 You choosed 2
 ~~~
 Jetzt lädt der Router das Image, bootet und alles ist wieder gut.
+
+
+### POE EINschalten AUSschalten über Konsole
+Ab der 2018.1.7 kann POE über das Konfigurationsinterface / Webinterface EIN oder AUS geschaltet werden.
+Lange den Reset Knopf drücken und über den Internetbrowser die 192.168.1.1 aufrufen. Auf der Seite der Erweiterten Einstellungen finden sich die POE Ports, die mit einem einfachen Haken bedient werden. Der POE Satus wird über LED auf der Geräteoberseite angezeigt.
+
+Im Openwrt WIKI steht noch, das einige Pakete installiert werden müssen, diese sind bereits enthalten.
+Dieser Schritt nur der Vollständigkeit halber.
+
+~~~
+https://wiki.openwrt.org/toh/ubiquiti/ubiquiti_edgerouter_x_er-x_ka
+PoE out on EdgeRouter X-SFP and EdgePoint R6
+The routers can supply PoE on the LAN ports. This is controlled by a PCA9555A with GPIO 0..4.
+In order to get this running you need:
+
+  install "kmod-i2c-gpio-custom" (pulls gpio and algo-bitbang)
+  install "kmod-gpio-pca953x"
+  "insmod i2c-gpio-custom bus0=0,3,4"
+  "echo pca9555 0x25 >/sys/bus/i2c/devices/i2c-0/new_device"
+  export the GPIOs 496..500 (/sys/class/gpio/)
+
+After reboot you need to run insmod and the echo line below to allow on/off functionality.
+
+  insmod i2c-gpio-custom bus0=0,3,4
+  echo pca9555 0x25 >/sys/bus/i2c/devices/i2c-0/new_device
+~~~
+
+
+#### Die GPIO Ports können direkt oder über UCI beschrieben werden.
+Hier der direkte Weg:
+
+~~~
+#Turn on POE all ports except eth0(WAN)
+#eth0 WAN port
+  echo "496" > /sys/class/gpio/export
+  echo "out" > /sys/class/gpio/gpio496/direction
+  echo "0" > /sys/class/gpio/gpio496/value
+#eth1
+  echo "497" > /sys/class/gpio/export
+  echo "out" > /sys/class/gpio/gpio497/direction
+  echo "1" > /sys/class/gpio/gpio497/value
+#eth2
+  echo "498" > /sys/class/gpio/export
+  echo "out" > /sys/class/gpio/gpio498/direction
+  echo "1" > /sys/class/gpio/gpio498/value
+#eth3
+  echo "499" > /sys/class/gpio/export
+  echo "out" > /sys/class/gpio/gpio499/direction
+  echo "1" > /sys/class/gpio/gpio499/value
+#eth4
+  echo "500" > /sys/class/gpio/export
+  echo "out" > /sys/class/gpio/gpio500/direction
+  echo "1" > /sys/class/gpio/gpio500/value
+~~~
+
+und wieder aus:
+
+~~~
+#Turn off POE all ports except eth0(WAN)
+  echo "0" > /sys/class/gpio/gpio496/value
+  echo "0" > /sys/class/gpio/gpio497/value
+  echo "0" > /sys/class/gpio/gpio498/value
+  echo "0" > /sys/class/gpio/gpio499/value
+  echo "0" > /sys/class/gpio/gpio500/value
+~~~
+
+UCI Befehle folgen.
