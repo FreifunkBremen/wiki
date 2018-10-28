@@ -1,1 +1,0 @@
-Hier kommen Infos zur verwendeten Hardware hin 
