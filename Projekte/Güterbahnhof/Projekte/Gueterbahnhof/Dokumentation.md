@@ -1,1 +1,0 @@
-Hier wird die Dokumentation zur Freifunk Installation am Güterbahnhof gesammelt.
