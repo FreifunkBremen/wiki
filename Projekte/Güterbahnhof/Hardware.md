@@ -1,1 +1,0 @@
-### Hier kommen infos zur Hardware hin!
