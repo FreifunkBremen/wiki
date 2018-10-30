@@ -17,7 +17,7 @@ Auf dem Dach hat Nico nen schicken Mast installiert, daran befestigt sind aktuel
 ### 2.OG
 Im 2.OG sind aktuell 2 Archer C7 im Einsatz, einer regelt hauptsächlich den Verkehr (Mesht mit allem), der Andere hängt neben dem 'Aufenthaltsraum'
 
-### lange Hallen
-Infos folgen
-
+### "lange Hallen"
+Auf den beiden Hallen steht jeweils 1 CPE210 auf dem Dach auf einem Betonsockel (extra dafür von den Jungs vor Ort gegossen!). Per 10m-Kabel ist jeweils ein Archer C7 angeschlossen, der das WLAN als Client-Netz verteillt.
+Die genauen Standorte sind: Bei der "Spedition" und gegenüber etwa bei Tor13.
 
