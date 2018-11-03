@@ -8,7 +8,7 @@ Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Die
 ## Infos zum aktuellen Router
 Unter http://node.ffhb.de findest du Informationen zu dem Router, mit dem du momentan verbunden bist.
 
-Generell findet man alle Knoten unter http://_knotennamen_.nodes.ffhb.de (Ausnahmen: wenn der Knotenname Punkte enthält, werden die hierfür durch Bindestriche ersetzt; und es werden hier keine Knotennamen unterstützt, die mit Ziffern beginnen).
+Generell findet man alle Knoten unter http://_knotennamen_.nodes.ffhb.de (Ausnahmen: wenn der Knotenname Punkte, Umlaute oder sonstige Sonderzeichen enthält, [werden die hierfür durch Bindestriche ersetzt](https://github.com/FreifunkBremen/ansible/blob/master/roles/nsd/files/zonegen.py#L13); und es werden hier keine Knotennamen unterstützt, die mit Ziffern beginnen oder die länger als 63 Zeichen sind).
 
 ## IPv4-Adressen
 Folgende IP-Adressen sind vergeben:
