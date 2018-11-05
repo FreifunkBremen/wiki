@@ -89,23 +89,25 @@ root@ffhb-fcecda7f28e1-UBNT-ERX-SFP:/#
 
 Also daran Denken, vor dem Basteln einmal kurz /etc/config/ von der Kiste sichern, erleichtert viel Tiparbeit. Bei komplexeren Installationen sind einige Konfigs auch unter /var/ und /root/ abgelegt.
 
-### Freifunkimage verbastelt? Stockfirmware einspielen.
+### Freifunkimage verbastelt? Neues Freifunkimage oder Stockfirmware einspielen.
 An dieser Stelle waren alle Wiederbelebungsversuche erfolglos?, keine Panik.
-Es wird nun die Originalfirmware eingespielt.
+Es wird nun eine neue Freifunk- oder Originalfirmware eingespielt.
 Wir brauchen:
-- serielles Kabel mit Zugang zum Router
+- serielles Kabel mit Zugang zum Router (z.B. Raspberry TTL Kabel)
 - 2 LAN-Kabel
 - 1 externer Switch
-- die Originalfirmware von der Herstellerseite
+- die Originalfirmware von der Herstellerseite oder FF-Image
 - einen laufenden TFTP Server auf unserem PC
 
 Bedeutung des externen Switch: In dem Bootloader eines jeden Routers ist eine Abfrage eingebaut, die einen kurzen Moment eine bestimmte IP Adresse nach einem Image per TFTP fragt. Wenn euer PC zu langsam den LAN-Port hochfährt und ihr den nicht dauerhaft einschalten könnt, rennt der Router im Bootvorgang weiter und nix ist mit Image laden. Klemmt zwischen Router und PC einen kleinen Switch, der hält die Verbindung zum PC und stellt sehr schnell eine Verbindung zum Router her, wenn dieser nach dem Image fragt.
 
-ER-X flashen:
+ER-X /SFP flashen:
 
 1. Der ER-X-SFP hat die Adresse 172.16.3.211 im Bootloader und erwartet einen TFTP-Server mit 172.16.3.210, wo er ein Image mit dem Namen vme50 sucht.
 2. Verbindun mit Port 0 herstellen und Router starten.
 3. Der ER-X hat die Adresse 172.16.213 im Bootloader und erwartet das vme50 auf 172.16.3.210
+
+Der Bootvorgang wird für 5 Sekunden angehalten, auf der Konsole ist folgendes Menü.
 
 ~~~
 Please choose the operation:
@@ -119,7 +121,11 @@ default: 3
 
 You choosed 2
 ~~~
-Jetzt lädt der Router das Image, bootet und alles ist wieder gut.
+Jetzt lädt der Router das FF-Image, bootet und alles ist wieder gut.
+
+Die original Firmware benötigt einen zusätzlichen Schritt.
+
+...folgt
 
 
 ### POE EINschalten AUSschalten über Konsole
