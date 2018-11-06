@@ -141,7 +141,6 @@ compat
 version.tmp
 vmlinux.tmp
 ~~~
-
 3. Gehäuse öffnen und Herstellergarantie verlieren. 
 4. USB serielle Verbindung herstellen. 
 5. Terminal starten (TeraTerm, Putty etc.) 57600 8N1 einstellen.
@@ -160,7 +159,9 @@ Please choose the operation:
    9: Load Boot Loader code then write to Flash via TFTP. 
 default: 3
 ~~~
+
 10. 1 Auswählen und das .bin auswählen, die anderen Auswahlmöglichkeiten nur bestätigen. (wer das öfter macht, gibt hier andere Adressen an, um später nicht wieder neue Adressen einzugeben)
+
 11. Das .bin wird hochgeladen und bootet. Punkt 9. wird nun übersprungen. Ausgabe:
  
 ~~~
@@ -187,7 +188,7 @@ dev      init     mnt      proc     root     sys      usr      www
 root@LEDE:/#
 ~~~
 
-12. Mit SCP nach /tmp die Dateien squashfs.tmp squashfs.tmp.md5 vmlinux.tmp laden. (offener Punkt: Router hat nun 192.168.1.1, PC auf 192.168.1.2 stellen, LAN-Kabel auf Port eth1 stecken. muss noch verifiziert werden). Folgende Befehle eingeben:
+12. Der Router hat nun 192.168.1.1, PC auf 192.168.1.2 stellen, LAN-Kabel auf Port eth1 stecken. Mit SCP nach /tmp die Dateien squashfs.tmp squashfs.tmp.md5 vmlinux.tmp laden. 
 
 ~~~
 ubiformat /dev/mtd5
