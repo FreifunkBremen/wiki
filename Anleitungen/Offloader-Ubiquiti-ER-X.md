@@ -125,7 +125,87 @@ Jetzt lädt der Router das FF-Image, bootet und alles ist wieder gut.
 
 Die original Firmware benötigt einen zusätzlichen Schritt.
 
-...folgt
+### ERX, ERX-SFP System Recovery mit Ubiquity Fimware.
+
+Der Rückfall auf die originale Firmware ist nicht ganz einfach, da es kein Binary dafür gibt. Beim Upgrade im Originalzustand wird ein gepacktes .tar File verwendet aus dem Kernel und Aplikation ins nand geschrieben werden.
+Diesen Weg müssen wir nun manuell durchlaufen, wobei wir nicht auf uns selber schreiben können. Es muss also ein Betriebssystem geladen werden, welches nur im RAM (Arbeitsspeicher) läuft, sodass wir das nand beschreiben können.
+
+1. Materialliste: kleiner Kreuzschraubendreher, USB-TTL serielles Kabel mit Buchsen. LAN Kabel, Rechner mit TFTP Server und SCP Client.
+2. Software beschaffen (Google Suche). Es wird ein LEDE/OpenWrt bin benötigt.  lede-ramips-mt7621-ubnt-erx-initramfs-kernel.bin. Vom Hersteller das aktuelle .tar Image der Routers. (https://www.ubnt.com/download/edgemax/edgerouter-x/er-x) Das .bin in den TFTP Ordner kopieren. das .tar File Auspacken.
+
+~~~
+squashfs.tmp.md5
+squashfs.tmp
+vmlinux.tmp.md5
+compat
+version.tmp
+vmlinux.tmp
+~~~
+
+3. Gehäuse öffnen und Herstellergarantie verlieren. 
+4. USB serielle Verbindung herstellen. 
+5. Terminal starten (TeraTerm, Putty etc.) 57600 8N1 einstellen.
+6. ER-X Netzkabel anstecken und sehen, das die Ausgaben im Terminal lesbar sind.
+7. LAN Kabel von eth0 (linke Buchse) mit PC Verbinden.
+8. PC LAN auf 172.16.3.210 einstellen, Netzmaske 255.255.255.0 Gateway auf die Routeradresse 172.16.3.213 für ER-X oder 172.16.3.211 für den ER-X-SFP
+9. Router einschalten, der Bootvorgang stoppt nach ein paar Sekunden für 5 Sekunden (Timer) bei folgender Ausgabe.
+ 
+~~~
+Please choose the operation: 
+   1: Load system code to SDRAM via TFTP. 
+   2: Load system code then write to Flash via TFTP. 
+   3: Boot system code via Flash (default).
+   4: Entr boot command line interface.
+   7: Load Boot Loader code then write to Flash via Serial. 
+   9: Load Boot Loader code then write to Flash via TFTP. 
+default: 3
+~~~
+10. 1 Auswählen und das .bin auswählen, die anderen Auswahlmöglichkeiten nur bestätigen. (wer das öfter macht, gibt hier andere Adressen an, um später nicht wieder neue Adressen einzugeben)
+11. Das .bin wird hochgeladen und bootet. Punkt 9. wird nun übersprungen. Ausgabe:
+ 
+~~~
+BusyBox v1.26.2 () built-in shell (ash)
+
+     _________
+    /        /\      _    ___ ___  ___
+   /  LE    /  \    | |  | __|   \| __|
+  /    DE  /    \   | |__| _|| |) | _|
+ /________/  LE  \  |____|___|___/|___|                      lede-project.org
+ \        \   DE /
+  \    LE  \    /  -----------------------------------------------------------
+   \  DE    \  /    Reboot (SNAPSHOT, r3742-894ee95)
+    \________\/    -----------------------------------------------------------
+
+=== WARNING! =====================================
+There is no root password defined on this device!
+Use the "passwd" command to set up a new password
+in order to prevent unauthorized SSH logins.
+--------------------------------------------------
+root@LEDE:/# ls
+bin      etc      lib      overlay  rom      sbin     tmp      var
+dev      init     mnt      proc     root     sys      usr      www
+root@LEDE:/#
+~~~
+
+12. Mit SCP nach /tmp die Dateien squashfs.tmp squashfs.tmp.md5 vmlinux.tmp laden. (offener Punkt: Router hat nun 192.168.1.1, PC auf 192.168.1.2 stellen, LAN-Kabel auf Port eth1 stecken. muss noch verifiziert werden). Folgende Befehle eingeben:
+
+~~~
+ubiformat /dev/mtd5
+ubiattach -p /dev/mtd5
+ubimkvol /dev/ubi0 --vol_id=0 --lebs=1925 --name=troot
+mount -o sync -t ubifs ubi0:troot /mnt/
+cp /tmp/version.tmp /mnt/version
+cp /tmp/squashfs.tmp /mnt/squashfs.img
+cp /tmp/squashfs.tmp.md5 /mnt/squashfs.img.md5
+~~~
+letzter Schritt, kopieren.
+~~~
+dd if=/tmp/vmlinux.tmp of=/dev/mtdblock3
+dd if=/tmp/vmlinux.tmp of=/dev/mtdblock4
+~~~
+
+Reboot tut immer gut, fertig.
+Wenn allses erfolgreich war, mit ubnt & ubnt Anmelden
 
 
 ### POE EINschalten AUSschalten über Konsole
