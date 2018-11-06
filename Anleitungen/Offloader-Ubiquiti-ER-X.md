@@ -190,6 +190,7 @@ root@LEDE:/#
 
 12. Der Router hat nun 192.168.1.1, PC auf 192.168.1.2 stellen, LAN-Kabel auf Port eth1 stecken. Mit SCP nach /tmp die Dateien squashfs.tmp squashfs.tmp.md5 vmlinux.tmp laden. 
 
+Wichtig: Zeilen einzeln eingeben.
 ~~~
 ubiformat /dev/mtd5
 ubiattach -p /dev/mtd5
@@ -206,7 +207,7 @@ dd if=/tmp/vmlinux.tmp of=/dev/mtdblock4
 ~~~
 
 Reboot tut immer gut, fertig.
-Wenn allses erfolgreich war, mit ubnt & ubnt Anmelden
+Wenn allses erfolgreich war, mit ubnt & ubnt Anmelden. Kabel wieder auf eth0 umstecken, und geht. https:/192.168.1.1
 
 
 ### POE EINschalten AUSschalten über Konsole
