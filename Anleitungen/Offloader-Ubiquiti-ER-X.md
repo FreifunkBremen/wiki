@@ -28,6 +28,7 @@ Warum Offloader? Werden mehrere Freifunkrouter verwendet, ist es sinnvoll, dass 
 ### Links zu Firmware:
 - https://downloads.openwrt.org/snapshots/trunk/ramips/mt7621/openwrt-ramips-mt7621-ubnt-erx-squashfs-sysupgrade.tar
 - https://dl.ubnt.com/firmwares/edgemax/v1.10.x/ER-e50.v1.10.6.5112725.tar
+- https://dl.ubnt.com/firmwares/edgemax/v1.10.x/ER-e50.v1.10.7.5127989.tar
 - https://downloads.bremen.freifunk.net/firmware/stable/sysupgrade/gluon-ffhb-2017.1.8+bremen1-ubnt-erx-sysupgrade.tar
 - https://downloads.bremen.freifunk.net/firmware/all/2017.1.8+bremen1/sysupgrade/gluon-ffhb-2017.1.8+bremen1-ubnt-erx-sfp-sysupgrade.tar
 
@@ -107,7 +108,7 @@ ER-X /SFP flashen:
 2. Verbindun mit Port 0 herstellen und Router starten.
 3. Der ER-X hat die Adresse 172.16.213 im Bootloader und erwartet das vme50 auf 172.16.3.210
 
-Der Bootvorgang wird für 5 Sekunden angehalten, auf der Konsole ist folgendes Menü.
+Der Bootvorgang wird für 5 Sekunden angehalten, auf der Konsole ist folgendes Menü. 5 Sekunden zum drücken der 2
 
 ~~~
 Please choose the operation:
@@ -149,6 +150,8 @@ vmlinux.tmp
 8. PC LAN auf 172.16.3.210 einstellen, Netzmaske 255.255.255.0 Gateway auf die Routeradresse 172.16.3.213 für ER-X oder 172.16.3.211 für den ER-X-SFP
 9. Router einschalten, der Bootvorgang stoppt nach ein paar Sekunden für 5 Sekunden (Timer) bei folgender Ausgabe.
  
+5 Sekunden zum drücken der 1
+
 ~~~
 Please choose the operation: 
    1: Load system code to SDRAM via TFTP. 
@@ -190,7 +193,8 @@ root@LEDE:/#
 
 12. Der Router hat nun 192.168.1.1, PC auf 192.168.1.2 stellen, LAN-Kabel auf Port eth1 stecken. Mit SCP nach /tmp die Dateien squashfs.tmp squashfs.tmp.md5 vmlinux.tmp laden. 
 
-Wichtig: Zeilen einzeln eingeben.
+### Wichtig: Zeilen einzeln eingeben.
+
 ~~~
 ubiformat /dev/mtd5
 ubiattach -p /dev/mtd5
@@ -275,3 +279,52 @@ und wieder aus:
 ~~~
 
 UCI Befehle folgen.
+
+
+### Mesh on LAN & Clentports auf dem ER-X
+
+Folgende Konfiguration beschreibt, wie auf den LANports Mesh und Client aufgeteilt wird. Beachte, die Konfiguration ist nicht upgradefest und im Experimentierstatus, also keine Gewähr, dass es funktioniert.
+Um die Konfiguration zu verstehen, ist es hilfreich, sich die Unterschiede der /etc/config/network anzusehen, wenn der Router einmal als Mesh und dann als Client konfiguriert ist.
+Mir erscheint es am Einfachsten zu sein, wenn der Router auf Mesh konfiguriert ist. Dann werden die benötigten Ports auf Client verbogen.
+Im diesem Schritt habe ich auf die Ports 3+4 das Clientnetz gelegt:
+
+# Fertige Konfiguration:
+~~~
+network.@switch_vlan[0].ports='1 2 6t'
+[...]
+network.client.ifname='local-port' 'bat0' 'eth0.3'
+[...]
+network.brc_dev=device
+uci set network.brc_dev.macaddr='fc:ec:da:7f:28:ea'
+network.brc_dev.name='eth0.3'
+network.@switch_vlan[2]=switch_vlan
+network.@switch_vlan[2].device='switch0'
+network.@switch_vlan[2].vlan='3'
+network.@switch_vlan[2].ports='3 4 6t'
+~~~
+# UCI Befehle
+~~~
+uci set network.@switch_vlan[0].ports='1 2 6t'   
+
+uci add_list network.client.ifname='eth0.3' 
+
+uci set network.brc_dev=device
+uci set network.brc_dev.macaddr='fc:ec:da:7f:28:eb'
+uci set network.brc_dev.name='eth0.3'
+
+uci add network switch_vlan
+uci set network.@switch_vlan[2].device='switch0'
+uci set network.@switch_vlan[2].vlan='3'
+uci set network.@switch_vlan[2].ports='3 4 6t'    
+
+uci commit network
+/etc/init.d/network restart
+~~~
+oder reboot
+Die erste Zeile entfernt Port 3 + 4 aus der Bridge
+Neues Interface mit neuer MAC, vorhandene MAC + 1
+Weiteres VLAN mit id 3
+Ports zuordnen und network restart.
+
+- Dieses ist nur Informativ, Basteln auf eigene Gefahr.
+- 
