@@ -288,7 +288,7 @@ Um die Konfiguration zu verstehen, ist es hilfreich, sich die Unterschiede der /
 Mir erscheint es am Einfachsten zu sein, wenn der Router auf Mesh konfiguriert ist. Dann werden die benötigten Ports auf Client verbogen.
 Im diesem Schritt habe ich auf die Ports 3+4 das Clientnetz gelegt:
 
-# Fertige Konfiguration:
+### Fertige Konfiguration:
 ~~~
 network.@switch_vlan[0].ports='1 2 6t'
 [...]
@@ -302,7 +302,7 @@ network.@switch_vlan[2].device='switch0'
 network.@switch_vlan[2].vlan='3'
 network.@switch_vlan[2].ports='3 4 6t'
 ~~~
-# UCI Befehle
+### UCI Befehle
 ~~~
 uci set network.@switch_vlan[0].ports='1 2 6t'   
 
