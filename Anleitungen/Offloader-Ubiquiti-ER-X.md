@@ -211,7 +211,7 @@ dd if=/tmp/vmlinux.tmp of=/dev/mtdblock4
 ~~~
 
 Reboot tut immer gut, fertig.
-Wenn allses erfolgreich war, mit ubnt & ubnt Anmelden. Kabel wieder auf eth0 umstecken, und geht. https:/192.168.1.1
+Wenn allses erfolgreich war, mit ubnt & ubnt Anmelden. Kabel wieder auf eth0 umstecken, und geht. https:/192.168.1.1 (Stolperstein https. Browser-Cache löschen hilft, wenn die Seite nicht aufgerufen werden kann.)
 
 
 ### POE EINschalten AUSschalten über Konsole
