@@ -1,6 +1,6 @@
 # Routerabholstandorte
 
-[Unten](#Abnehmen) auf der Seite bieten bereits aktive Freifunker Router an. Kontaktiere Sie einfach. Falls keine E-Mail-Adresse angegeben ist, nutze bitte die [Mailingliste] oder den [Chat].
+Unten auf der Seite bieten bereits aktive Freifunker Router an. Kontaktiere Sie einfach. Falls keine E-Mail-Adresse angegeben ist, nutze bitte die [Mailingliste] oder den [Chat].
 
 Die Geräte werden als Privatverauf weitergegeben und Freifunk Bremen ist nicht involviert.
 
