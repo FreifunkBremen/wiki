@@ -1,4 +1,4 @@
-Dies sind die Winkel in denen die mit RichtWirkung arbytenden Sektorantennen senden.
+Dies sind die Winkel in denen die mit Richtwirkung arbeitenden Sektorantennen senden.
 
 |        	| Horizontal 	| Vertikal 	|
 |--------	|------------	|----------	|
