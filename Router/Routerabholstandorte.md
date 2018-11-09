@@ -1,6 +1,6 @@
 # Routerabholstandorte
 
-Unten auf der Seite bieten bereits aktive Freifunker Router an. Kontaktiere Sie einfach. Falls keine E-Mail-Adresse angegeben ist, nutze bitte die [Mailingliste] oder den [Chat].
+[Unten](#Abnehmen) auf der Seite bieten bereits aktive Freifunker Router an. Kontaktiere Sie einfach. Falls keine E-Mail-Adresse angegeben ist, nutze bitte die [Mailingliste] oder den [Chat].
 
 Die Geräte werden als Privatverauf weitergegeben und Freifunk Bremen ist nicht involviert.
 
@@ -21,7 +21,7 @@ Angaben|Beschreibung
 
 - Wiki editieren: `Edit`-Knopf oben rechts.
 - Im linken Fenster: Suche deinen Stadtteil raus.
-  Beispiel: `## Findorff` (`##`
+  Beispiel: `### Findorff` (`###`
  wichtig)
 - Am Ende der weißen Schrift dieses Abschnittes, fügt man eine neue Zeile hinzu
 - Dort trägt man seine Daten nach folgendem Schema ein:  
@@ -35,8 +35,8 @@ Angaben|Beschreibung
 
 Wer seine Router selbst flashen möchte, erhält diese häufig zum Selbstkostenpreis. Preise eingerichteter Router werden gerne aufgerundet.
 
-## Abnehmen
 
+## Abnehmen
 
 ### Bremerhaven
 Standort      | Kontakt                   | Geräte                     | Kosten    | Kommentar
