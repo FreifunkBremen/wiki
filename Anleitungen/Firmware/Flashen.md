@@ -6,21 +6,21 @@ Aber eins vorweg: Falls du dir unsicher bist, richten wir dir auch gerne einen R
 
 ## Auswahl der Hardware
 Wenn du dich dazu entscheidest beim Freifunk mitzumachen, hast du anfangs die Qual der Wbahl beim Aussuchen eines Routers. Welche Firmware-Version gerade aktuell ist und welche Router sie unterstützt, findest du hier: [[/Firmware/Changelog]]
-Eine gute Übersichtseite mit vielen Informationen findet sich auch im Wiki von freifunk.net: http://wiki.freifunk.net/Freifunk_Firmware_Gluon/Hardware
+Eine gute Übersichtseite mit vielen Informationen findet sich auch im Wiki von freifunk.net: https://wiki.freifunk.net/Freifunk_Firmware_Gluon/Hardware
 
 ### Für den Innenbereich
 
-Für den schmalen Geldbeutel empfehlen wir den  [**TP-Link TL-WR841N**](http://www.heise.de/preisvergleich/tp-link-tl-wr841nd-a601787.html) für knapp 20 €.
+Für den schmalen Geldbeutel empfehlen wir den  [**TP-Link TL-WR841N**](https://www.heise.de/preisvergleich/tp-link-tl-wr841nd-a601787.html) für knapp 20 €.
 Wenn es etwas mehr kosten darf, raten wir zu dem leistungsfähigeren  TP-Link TL-WDR3600 (gebraucht ab ca. 40€), TL-WDR4300 (gebraucht ab ca. 45€) oder TL-WDR4900 (gebraucht ab ca 50 €).
 
 ### Richtfunk für den Außenbereich
 
-Zur Versorgung von Nutzern in einem 60°C-Bereich eignet sich der [**TP-Link CPE-210**](http://www.heise.de/preisvergleich/tp-link-cpe210-a1189570.html) für rund 50 € und die Ubiquiti [NanoStation M2 Loco](http://www.heise.de/preisvergleich/ubiquiti-nanostation-m2-loco-a651904.html). Zum Aufbau von Richtfunkstrecken empfehlen wir den [TP-Link CPE-510](http://www.heise.de/preisvergleich/tp-link-cpe510-a1156684.html) oder die Ubiquiti NanoStation M5. 
+Zur Versorgung von Nutzern in einem 60°C-Bereich eignet sich der [**TP-Link CPE-210**](https://www.heise.de/preisvergleich/tp-link-cpe210-a1189570.html) für rund 50 € und die Ubiquiti [NanoStation M2 Loco](https://www.heise.de/preisvergleich/ubiquiti-nanostation-m2-loco-a651904.html). Zum Aufbau von Richtfunkstrecken empfehlen wir den [TP-Link CPE-510](https://www.heise.de/preisvergleich/tp-link-cpe510-a1156684.html) oder die Ubiquiti NanoStation M5. 
 
 (Zu Beachten: beide Enden einer Richtfunk-Strecke müssen die gleiche Frequenz nutzen, also 2.4GHz oder 5GHz!)
-Für Punkt-zu-Punkt-Verbindungen mit einer Länge von mehrere hundert Metern lohnt sich ein Blick auf die Ubiquiti [NanoBeam M5](http://www.heise.de/preisvergleich/ubiquiti-nanobeam-m-nbe-m5-19-a1102259.html) oder [NanoBeam AC](http://www.heise.de/preisvergleich/ubiquiti-nanobeam-ac-nbe-5ac-19-a1302545.html).
+Für Punkt-zu-Punkt-Verbindungen mit einer Länge von mehrere hundert Metern lohnt sich ein Blick auf die Ubiquiti [NanoBeam M5](https://www.heise.de/preisvergleich/ubiquiti-nanobeam-m-nbe-m5-19-a1102259.html) oder [NanoBeam AC](https://www.heise.de/preisvergleich/ubiquiti-nanobeam-ac-nbe-5ac-19-a1302545.html).
 
-Alle Außengeräte werden über das Netzwerkkabel mit Strom versorgt (PoE = Power over Ethernet). Spezielle [flache Netzwerkkabel](http://www.amazon.de/1aTTack-Flach-Netzwerk-Patch-Kabel-Stecker/dp/B004WCQFGU/) können in vielen Fällen durch Fenster/Türen gelegt werden, so dass keine Außenwand durchbohrt werden muss. 
+Alle Außengeräte werden über das Netzwerkkabel mit Strom versorgt (PoE = Power over Ethernet). Spezielle [flache Netzwerkkabel](https://www.amazon.de/1aTTack-Flach-Netzwerk-Patch-Kabel-Stecker/dp/B004WCQFGU/) können in vielen Fällen durch Fenster/Türen gelegt werden, so dass keine Außenwand durchbohrt werden muss. 
 
 
 ## Neue Firmware
@@ -29,10 +29,10 @@ Alle Außengeräte werden über das Netzwerkkabel mit Strom versorgt (PoE = Powe
 
 Zuerst brauchst du die passende Freifunk-Firmware für deinen Router. Die **Rückseite** deines Gerätes verrät dir, welche Firmware du genau brauchst.
 
-<img src="http://jel.to/ff_pics/router_rueckseite.jpg" title="Rückseite deines Routers" />
+<img src="https://jel.to/ff_pics/router_rueckseite.jpg" title="Rückseite deines Routers" />
 
 Unter **„1.“** findest du die **Modellnummer** und unter **„2.“** die **Revisionsnummer**. „Ver 8.1“ steht dabei allgemein für Version 8, „Ver 7.4“ für Version 7 usw..
-Auf der [Downloadseite](http://downloads.bremen.freifunk.net/firmware/stable/factory/) suchst du dir nun die Datei, die genau deinem Modell und deiner Revision entspricht und **lädst diese herunter**.
+Auf der [Downloadseite](https://downloads.bremen.freifunk.net/firmware/stable/factory/) suchst du dir nun die Datei, die genau deinem Modell und deiner Revision entspricht und **lädst diese herunter**.
 
 In oberen Fall wäre es die Datei mit dem Namen: <pre>gluon-ffhb-*GLUONVERSION*~bremen*BREMERVERSION*-tp-link-tl-**wr841n**-nd-**v8**.bin</pre> Achte bitte unbedingt darauf, dass Modellbezeichnung und Revisions genau zu deinem Gerät passen. Einzig das N bzw. ND im Modellnamen ist irrelevant, die Firmware für den wr841n ist auch zum wr841nd kompatibel.
 
@@ -50,21 +50,21 @@ In oberen Fall wäre es die Datei mit dem Namen: <pre>gluon-ffhb-*GLUONVERSION*~
 Nachdem du dir die neue Firmware besorgt hast, musst du deinen **Computer mit dem Freifunkrouter verbinden**. Dazu setzt du den Router unter Strom (**„1.“**, Knopf ganz links rein drücken bei 841). Das „LAN“-Kabel steckst du in eine der **gelben Buchsen („2“)**. Die blaue Buchse brauchst du erst später. Verbinde das andere Ende des LAN-Kabels mit deinem Computer.
 Am besten du verwendest das graue LAN-Kabel, was schon im Karton deines Routers dabei war.
 
-<img src="http://jel.to/ff_pics/router_anschluesse.jpg" title="Anschlüsse deines Routers" />
+<img src="https://jel.to/ff_pics/router_anschluesse.jpg" title="Anschlüsse deines Routers" />
 
 Das Menü deines Routers, über den wir die neue Firmware aufspielen, erreichst du über den **Webbrowser**. Tippe dazu folgende Adresse in deine Navigationsleiste **(„1.“) : 192.168.0.1**
 
 Standardmäßig musst du dich mit einem Benutzernamen und einem Password **authentifizieren**, diese lauten im Auslieferungszustand **„admin“** und **„admin“**.
 
-<img src="http://jel.to/ff_pics/menu_stock_1.jpg" title="Standard Weboberfläche">
+<img src="https://jel.to/ff_pics/menu_stock_1.jpg" title="Standard Weboberfläche">
 
 Den für uns interessanten Menüpunkt erreichst du links unter **„System Tools“ („2.“) → „Firmware Upgrade“ („3.“)**. Hier musst du nur noch die richtige **Firmwaredatei aus dem vorherigen Schritt auswählen („4.“)** und **hochladen („5.“)**. Prüfe bitte noch einmal, ob die Firmware wirklich zu deinem Routermodell passt, bevor du auf „Upgrade“ klickst! 
 
-<img src="http://jel.to/ff_pics/menu_stock_2.jpg" title="Standard Weboberfläche">
+<img src="https://jel.to/ff_pics/menu_stock_2.jpg" title="Standard Weboberfläche">
 
 Nach wenigen Minuten sollte dein Router folgende Meldung anzeigen und neu starten.
 
-<img src="http://jel.to/ff_pics/success.png" width="300px" title="Erfolgreich geflasht">
+<img src="https://jel.to/ff_pics/success.png" width="300px" title="Erfolgreich geflasht">
 
 ## Freifunk-Router Betriebsmodi
 Ein Router mit aufgespielter Freifunk-Firmware nennt sich Knoten und hat 2 Betriebsmodi:
@@ -97,23 +97,23 @@ Nach dem RESET des Routers in den Konfigurationsmodus ist der Router unter einer
 
 Um das neue Menü des Routers zu erreichen, tippst du diesmal die **Adresse 192.168.1.1 in deine Navigationsleiste des Browsers ein**. Dort lassen sich verschiedene Einstellungen für den Router vornehmen. 
 
-<img src="http://jel.to/ff_pics/gluon_1.jpg" title="Neue Weboberfläche">
+<img src="https://jel.to/ff_pics/gluon_1.jpg" title="Neue Weboberfläche">
 
 Zuerst kannst du dir einen **beliebigen Namen** für deinen  Freifunkrouter ausdenken (oder ihn so lassen).
 Außerdem musst du festlegen, ob die Firmware des Routers sich automatisch aktualisieren soll. In den meisten Fällen ist eine automatische Aktualisierung sinnvoll, so ist dein Router immer auf dem neusten Stand und unerwartete  Netzausfälle bleiben aus.
 
-<img src="http://jel.to/ff_pics/gluon_2.png" width="350px" title="Mesh-VPN">
+<img src="https://jel.to/ff_pics/gluon_2.png" width="350px" title="Mesh-VPN">
 
 Dein Freifunkrouter soll sich über das Internet mit anderen Routern verbinden. (**Mesh-VPN**). Diese Einstellung ist nötig, weil sonst DCHP des Routers nicht funktioniert. Den angeschlossenen Geräten würden keine IP-Nummern automatisch zugewiesen, mit der Folge, dass es auch keine IP-Verbindungen gäbe.
 <br>Allein wenn der Router als REPEATER eingesetzt wird, sich also über einen schon vorhandenen Freifunkrouter ins Freifunk-Netz (=Internet) verbindet, kann auf &quot;Mesh-VPN&quot; verzichtet werden. So ist dies z.B. sinnvoll für einen Repeater-Router im Gartenhäuschen, ohne eigenen, direkten Zugang zum Internet. 
 <br>Falls gewünscht, kann die **Bandbreite**, die der Freifunkrouter maximal nutzten darf, über die darauf folgende Option **eingeschränkt werden** (optional).
 
-<img src="http://jel.to/ff_pics/gluon_5.png" width="350px" title="Geo-Koordinaten">
+<img src="https://jel.to/ff_pics/gluon_5.png" width="350px" title="Geo-Koordinaten">
 
 Damit andere Freifunker oder Nachbarn den Router auch auf der **Freifunk-Karte** finden, können die **Koordinaten** des Betriebsortes des Routers eingetragen werden. Lässt man den Haken weg, so erscheint der Router nicht auf der Karte.
-Die Koordinaten sollte man sich vor der Konfiguration ggf. zwischenspeichern. Auf  <a href="http://gpso.de/maps/" target="_blank">dieser Karte</a> kannst du dir die gewünschten Koordinaten anzeigen lassen (Dezimaldaten sind hellgelb hinterlegt). Zur Suche eingeben kannst Du z.B. Straße und Hausnummer, Ort, Deutschland, ...
+Die Koordinaten sollte man sich vor der Konfiguration ggf. zwischenspeichern. Auf  <a href="https://gpso.de/maps/" target="_blank">dieser Karte</a> kannst du dir die gewünschten Koordinaten anzeigen lassen (Dezimaldaten sind hellgelb hinterlegt). Zur Suche eingeben kannst Du z.B. Straße und Hausnummer, Ort, Deutschland, ...
 
-<img src="http://jel.to/ff_pics/gluon_3.png" width="350px" title="Geo-Koordinaten">
+<img src="https://jel.to/ff_pics/gluon_3.png" width="350px" title="Geo-Koordinaten">
 
 Nachdem du, natürlich auch **optional**, deine **Kontaktadresse** eingetragen hast, schließt du die Konfiguration mit einem Click auf den **„Fertig“-Button** ab. Der Kontakt dient dazu, dass du du dich informieren lassen kannst, wenn der Router mal keine Verbindung mehr zum Freifunk-Netz hat.
 Der Folgende Bildschirm bestätigt dir die erfolgreiche Einrichtung. Dein Router ist fertig eingerichtet und startet neu in den produktiven Modus. Deinen Schlüssel musst du **nicht** mehr, wie beschrieben, über einen Link übertragen.
@@ -135,9 +135,9 @@ Der per Kabel an die gelben Buchsen angeschlossene Rechner erhält vom Router ei
 
 Den geflashten und eingerichteten Freifunk-Router musst du nun **mit deinem Heimrouter verbinden**.<br>Nimm dazu das graue LAN-Kabel aus dem Karton und stecke es in den **blauen „WAN“-Anschluss** deines Freifunkrouters **(„1.“)**.<br>(**Nicht die gelben Ports** verwenden! Denn dann kann der FF-Router keine Verbindung zum Freifunknetz über das Internet aufbauen!)
 
-<img src="http://jel.to/ff_pics/ff_an_fritz.jpg" title="Anschluss Freifunkrouter">
+<img src="https://jel.to/ff_pics/ff_an_fritz.jpg" title="Anschluss Freifunkrouter">
 
-Das andere Ende des grauen LAN-Kabels kommt in den meist **gelben LAN-Port deines Providerrouters** (Fritzbox, Speedport, Easybox usw.) .<br>An dem Kabel, was aus der Wand (TAE-Dose) zu deinem Providerrouter führt und im blauen Port **(„2.“)** steckt, musst du **nichts verändern** (hier das orangene Kabel).<br>Sobald beide Geräte mit Strom versorgt werden, hast du nach wenigen Minuten deinen Freifunkrouter am Netz. Nach kurzer Zeit wird der Name deines Routers in der [Knotenliste](http://bremen.freifunk.net/map/list.html) auftauchen. 
+Das andere Ende des grauen LAN-Kabels kommt in den meist **gelben LAN-Port deines Providerrouters** (Fritzbox, Speedport, Easybox usw.) .<br>An dem Kabel, was aus der Wand (TAE-Dose) zu deinem Providerrouter führt und im blauen Port **(„2.“)** steckt, musst du **nichts verändern** (hier das orangene Kabel).<br>Sobald beide Geräte mit Strom versorgt werden, hast du nach wenigen Minuten deinen Freifunkrouter am Netz. Nach kurzer Zeit wird der Name deines Routers in der [Knotenliste](https://map.bremen.freifunk.net) auftauchen. 
 
 
 ## Expertenmodus
