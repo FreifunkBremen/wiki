@@ -19,23 +19,23 @@ Folgende IP-Adressen sind vergeben:
         * 10.196.0.5 vpn05 (DNS, Gateway, anon6789/genofire)
         * 10.196.0.6 vpn06 (DNS, Gateway, corny)
     * 10.196.0.10 – 10.196.0.39 Dienste-Server
-    * 10.196.0.42 server, mumble, experimentell (diega)
-    * 10.196.0.60 notebook (bis dhcp zuverlässig läuft (diega))
-    * 10.196.0.70 anon6789
-    * 10.196.0.75 Offloader azgbr
+    * ~~10.196.0.42 server, mumble, experimentell (diega)~~
+    * ~~10.196.0.60 notebook (bis dhcp zuverlässig läuft (diega))~~
+    * ~~10.196.0.70 anon6789
+    * ~~10.196.0.75 Offloader azgbr
     * 10.196.0.80 Futro Frank.H Offloader Test
     * 10.196.0.90-94 genofire
-    * 10.196.0.100 Dienste von Lorenz
-    * 10.196.0.111 ec8or
-    * 10.196.0.123 rbtz
+    * ~~10.196.0.100 Dienste von Lorenz~~
+    * ~~10.196.0.111 ec8or~~
+    * ~~10.196.0.123 rbtz~~
     * 10.196.0.127 local-node FFHB
     * 10.196.0.128-159 Dienste von mortzu
         * 10.196.0.131 gatemon-3.ffhb.moritzrudert.de
         * 10.196.0.134 gatemon-2.ffhb.moritzrudert.de
         * 10.196.0.135 gatemon-fes216.ffhb.moritzrudert.de
-    * 10.196.0.196 Dienste von Eike
+    * ~~10.196.0.196 Dienste von Eike~~
     * 10.196.0.200 Dienste von jplitza
-    * 10.196.0.240 Dienste von proxyhb
+    * ~~10.196.0.240 Dienste von proxyhb~~
     * 10.196.0.250-252 Gatemon (Pi1) etc. von ollibaba
     * 10.196.1.0/24 Richtfunk-Management
         * 10.196.1.4 Hal över Fährhäuschen NanoBeam
@@ -52,8 +52,8 @@ Folgende IP-Adressen sind vergeben:
         * 10.196.124.256 - to.
     * 10.196.125.0/24 Dienste von Tobi
         * 10.196.125.1 Pi1 
-    * 10.196.126.0/24
-        * 10.196.126.0/24 Dienste von Nebirosh
+    * ~~10.196.126.0/24~~
+        * ~~10.196.126.0/24 Dienste von Nebirosh~~
     * 10.196.127.0/24 Dienste von HeinzBoettjer
         * 10.196.127.1 Scanner an asm_100_EG (pausiert)
         * 10.196.127.2 Scanner an hhs-1 (pausiert)
