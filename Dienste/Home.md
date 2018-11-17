@@ -2,8 +2,6 @@ Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Die
 
 * [Wikipedia-Mirror (mit Bildern)](http://wikipedia.ffhb.de)
 * [Tahoe-LAFS](/Dienste/Tahoe-LAFS)
-* [SIP Server](http://sip.ffhb.de/web/) Asterisk SIP und SMS Server (alpha - Nebirosh) Anleitung zur Einrichtung folgt!
-* [Etherpad-lite](http://pads.ffhb.de/) kollaboratives Schreiben von Texten
 
 ## Infos zum aktuellen Router
 Unter http://node.ffhb.de findest du Informationen zu dem Router, mit dem du momentan verbunden bist.
