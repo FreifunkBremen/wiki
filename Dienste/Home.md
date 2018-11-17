@@ -19,6 +19,7 @@ Folgende IP-Adressen sind vergeben:
         * 10.196.0.5 vpn05 (DNS, Gateway, anon6789/genofire)
         * 10.196.0.6 vpn06 (DNS, Gateway, corny)
     * 10.196.0.10 – 10.196.0.39 Dienste-Server
+    * 10.196.0.40 gatemon janeric
     * ~~10.196.0.42 server, mumble, experimentell (diega)~~
     * ~~10.196.0.60 notebook (bis dhcp zuverlässig läuft (diega))~~
     * ~~10.196.0.70 anon6789~~
@@ -110,6 +111,7 @@ IPv6 Routing zum Gateway vpn06
   * 2a06:8782:ffbb:1337::87 gatemon-fes216.ffhb.moritzrudert.de
 * 2a06:8782:ffbb:1337::a0 bis af (ollibaba)
   * 2a06:8782:ffbb:1337::a0 Gatemon Pi2
+* 2a06:8782:ffbb:1337::b0 bis bf (janeric)
 
 #### 2a06:8782:ffbb:bat0::/64
 Babel-Netzwerk Segment für die Knoten/Nodes und das Routing des Client-Netzwerks
