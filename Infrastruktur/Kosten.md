@@ -15,9 +15,3 @@
 | Domain          | Sponsor       | Kosten        |
 |:----------------|:--------------|:--------------|
 | ffhb.de         | jplitza       | 4,65 € / Jahr |
-
-## Sonstiges
-
-| Was             | Sponsor       | Kosten        |
-|:----------------|:--------------|:--------------|
-| Mailingliste    | planet cyborg | 5 € / Monat   |
