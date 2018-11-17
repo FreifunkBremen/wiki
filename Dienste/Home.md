@@ -23,7 +23,6 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.10 – 10.196.0.39 Dienste-Server
     * 10.196.0.42 server, mumble, experimentell (diega)
     * 10.196.0.60 notebook (bis dhcp zuverlässig läuft (diega))
-    * 10.196.0.50 VPN-Offloader der Uni
     * 10.196.0.70 anon6789
     * 10.196.0.75 Offloader azgbr
     * 10.196.0.80 Futro Frank.H Offloader Test
