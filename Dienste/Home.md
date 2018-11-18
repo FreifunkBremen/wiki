@@ -63,7 +63,7 @@ Folgende IP-Adressen sind vergeben:
         * ~~10.196.127.5 mirror für downloads.bremen.freifunk.net/firmware (in Vorbereitung)~~
         * ~~10.196.127.6 mumble-server (in Planung)~~
 
-Feste IP-Adressen von an Freifunk-Knoten angeschlossenen Servern sollten in 10.196.0.0/17 liegen. Hier eintragen und glücklich sein.
+Feste IP-Adressen von an Freifunk-Knoten angeschlossenen Servern sollten in 10.196.0.0/17 liegen. Hier eintragen und glücklich sein. Bitte schreib einen IRC-Nick oder eine Email-Adresse oder sonstige Kontaktdaten dazu.
 
 ## IPv6-Adressen
 Corny stellt das Netz `2a06:8782::/32` zur Verfügung.
