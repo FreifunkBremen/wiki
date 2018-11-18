@@ -49,7 +49,7 @@ Idealerweise wird der Raspi per Kabel mit einem Freifunk-Router verbunden. Man k
 
 Dazu benötigt man einen Freifunk-Router, der noch einen freien LAN-Port hat und bei dem Mesh-on-LAN _ausgeschaltet_ ist.
 
-Der Raspi wird jetzt an diesen LAN-Port angeschlossen und neugestartet. Nach dem Neustart meldet man sich wieder an und schaut dann mit `ip a | grep 2a06`, welche nutzbare IPv6-Adresse das Gerät bekommen hat. Beispielausgabe:
+Der Raspi wird jetzt an diesen LAN-Port angeschlossen und neugestartet (mittels `sudo reboot`). Nach dem Neustart meldet man sich wieder an und schaut dann mit `ip a | grep 2a06`, welche nutzbare IPv6-Adresse das Gerät bekommen hat. Beispielausgabe:
 
 ```
     inet6 2a06:8782:ffbb:1337:ba27:ebff:fea1:1d97/64 scope global mngtmpaddr dynamic
@@ -75,7 +75,7 @@ iface eth0 inet static
 iface eth0 inet6 auto
 ```
 
-Bei "address" trägt man halt seine eigene gewählte IP-Adresse ein.
+Bei "address" trägt man halt seine eigene gewählte IP-Adresse ein.   Nach einem Reboot sollte `ip a | grep "inet "` die neue Adresse zeigen.
 
 Als nächstes installiert man die nötige Zusatzsoftware, mittels:
 ```
