@@ -326,5 +326,8 @@ Neues Interface mit neuer MAC, vorhandene MAC + 1
 Weiteres VLAN mit id 3
 Ports zuordnen und network restart.
 
+Bootlog des ER-X in der Cloud.ffhb.de
+http://cloud.ffhb.de/index.php/f/8213
+
 - Dieses ist nur Informativ, Basteln auf eigene Gefahr.
 - 
