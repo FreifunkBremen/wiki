@@ -50,7 +50,8 @@ clabel(C,'FontSize',12);
 Die erzeugte Grafik kann, falls gewünscht, mit einem (Vektor-)Grafikprogramm über den entsprechenden Kartenausschnitt gelegt werden, das Ergebnis könnte dann so aussehen:
 
 
-  
+![Bild: Kartierung](https://cloud.ffhb.de/index.php/s/qzb434kPTTpgT4q/download)
+
 
 
 
