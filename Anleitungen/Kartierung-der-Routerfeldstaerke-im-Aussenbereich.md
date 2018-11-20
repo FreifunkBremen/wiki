@@ -16,6 +16,7 @@ Optimal wäre eine App, die die Feldstärke zusammen mit der Position aufzeichne
 * an strategisch verteilten Punkten Messung vornehmen, Punkt und Meßwert in Karte eintragen
 * Anzahl der Meßpunkte: soviel wie möglich, mindestens ca. 50...100, besser mehr
 
+Nachtrag: evtl. kann man die App ["Network Monitor"](https://github.com/caarmen/network-monitor) dafür verwenden; dort lassen sich viele Messwerte (u.a. Position und WLAN-Stärke) erfassen und später als CSV-Datei exportieren.
 
 ### Übertragung der Meßwerte
 
