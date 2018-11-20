@@ -69,3 +69,5 @@ Laufzeit: WR841N V8 mit LEDs und 2*12000mAh
 
 ![WR841N mit Akku](https://cloud.ffhb.de/index.php/s/dcOuyUp9BKxElBd/download)
 
+~~ Nach dem Test der 12000mah Akkus stellte sich heraus, das es chinesische Fake-Akkus sind. Für den Akkubetrieb bitte vernünftige Akkus kaufen. ~~
+
