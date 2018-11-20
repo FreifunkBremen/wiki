@@ -24,9 +24,8 @@ ein Laderegler für 3 Akkus benötigt. Die Laderegler (PCB protection Board)
 können belibig in Abhängigkeit der Akkus variert werden.
 
 ###Material: 
-2 Akkus vom Typ 18650 (die sind viel in Laptops verbaut)
-Neupreis ca. 1Euro
-[Beispiellink eBay](https://www.ebay.de/itm/8X-18650-3-7V-12000mAh-Akku-Micro-Varta-Accu-Li-ion-Battery-for-LED-Torch-DR/253378430047?hash=item3afe88045f:g:uKkAAOSwRLZaYdfk)
+2 Akkus vom Typ 18650 (die sind viel in Laptops verbaut) ~~Neupreis ca. 1Euro
+[Beispiellink eBay](https://www.ebay.de/itm/8X-18650-3-7V-12000mAh-Akku-Micro-Varta-Accu-Li-ion-Battery-for-LED-Torch-DR/253378430047?hash=item3afe88045f:g:uKkAAOSwRLZaYdfk)~~ **Fake-Akkus**
 
 1 Laderegler, PCB protection Board für 2 Akkus (2S 18650 PCB Board)
 [Beispiellink eBay](https://www.ebay.de/itm/2S-8A-7-4V-8-4V-Lithium-Cell-Li-ion-BMS-Battery-18650-Protection-PCB-Board/142381524809?hash=item212699a749:g:13oAAOSwlndZFoEa)
@@ -69,5 +68,5 @@ Laufzeit: WR841N V8 mit LEDs und 2*12000mAh
 
 ![WR841N mit Akku](https://cloud.ffhb.de/index.php/s/dcOuyUp9BKxElBd/download)
 
-~~ Nach dem Test der 12000mah Akkus stellte sich heraus, das es chinesische Fake-Akkus sind. Für den Akkubetrieb bitte vernünftige Akkus kaufen. ~~
+**Nach dem Test der 12000mah Akkus stellte sich heraus, das es chinesische Fake-Akkus sind. Für den Akkubetrieb bitte vernünftige Akkus kaufen.**
 
