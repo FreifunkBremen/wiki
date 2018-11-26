@@ -34,6 +34,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.131 gatemon-charlotte, mortzu
     * 10.196.0.134 gatemon-sommerwg, SimJoSt
     * 10.196.0.135 gatemon-moge, mortzu
+    * 10.196.0.137 gatemon-yannik, yannik
     * ~~10.196.0.196 Dienste von Eike~~
     * 10.196.0.200 Dienste von jplitza
     * ~~10.196.0.240 Dienste von proxyhb~~
