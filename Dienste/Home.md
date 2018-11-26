@@ -31,10 +31,9 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.120 gatemon, rainbowcables, mortzu
     * ~~10.196.0.123 rbtz~~
     * 10.196.0.127 local-node FFHB
-    * 10.196.0.128-159 Dienste von mortzu
-        * 10.196.0.131 gatemon-3.ffhb.moritzrudert.de
-        * 10.196.0.134 gatemon-2.ffhb.moritzrudert.de
-        * 10.196.0.135 gatemon-fes216.ffhb.moritzrudert.de
+    * 10.196.0.131 gatemon-charlotte, mortzu
+    * 10.196.0.134 gatemon-sommerwg, SimJoSt
+    * 10.196.0.135 gatemon-moge, mortzu
     * ~~10.196.0.196 Dienste von Eike~~
     * 10.196.0.200 Dienste von jplitza
     * ~~10.196.0.240 Dienste von proxyhb~~
