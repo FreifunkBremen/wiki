@@ -28,7 +28,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.90-94 genofire
     * ~~10.196.0.100 Dienste von Lorenz~~
     * ~~10.196.0.111 ec8or~~
-    * 10.196.0.120 gatemon rainbow-cables (raspi)
+    * 10.196.0.120 gatemon, rainbowcables, mortzu
     * ~~10.196.0.123 rbtz~~
     * 10.196.0.127 local-node FFHB
     * 10.196.0.128-159 Dienste von mortzu
