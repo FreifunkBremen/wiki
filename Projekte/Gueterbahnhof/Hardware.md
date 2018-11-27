@@ -1,7 +1,7 @@
 
 ## Übersicht verbauter Hardware: 
 
-* 4x TP-Link Archer C7
+* 5x TP-Link Archer C7
 * 4x TP-Link CPE210 
 * 1x Ubiquiti Nanobeam AC 19
 * 1x TP-Link WR1043
