@@ -120,7 +120,7 @@ Weitere Hilfe findet man dann im IRC, auf der Mailingliste oder beim Treffen.
 * Postfix installieren, um Fehler-Ausgaben zu bekommen
 * rdnssd für dynamische DNS-Server-Adressen einrichten
 ** s.a. https://olivergerlich.wordpress.com/2017/07/20/preventing-rdnssd-from-ruining-the-sd-card/
-
+* Datei in /etc/cron.d/ darf keine Endung haben, war bei yannik problematisch.
 
 
 
@@ -192,3 +192,22 @@ auto eth0
 iface eth0 inet auto
 iface eth0 inet6 auto
 ```
+
+## connecting the raspi to the freifunk-net
+Idealy you connect the raspi to one of your freifunk-routers, you could also use the wifi, but none of us tried this so far. 
+(Many router-models have USB-Ports, you can use this to power the raspi)
+
+To be connected to the Freifunk-Net, the Mesh-on-LAN option mus be disabled. (The raspi needs the client-net)
+
+After connecting the raspi to the router and rebooting via `sudo reboot`, you can login again and check the ip-adresses, the raspi was given. 
+Example:
+`ip a | grep 2a06`
+Example output:
+
+```
+    inet6 2a06:8782:ffbb:1337:ba27:ebff:fea1:1d97/64 scope global mngtmpaddr dynamic
+```
+The part between "inet6" and the slash is the public IPv6-Adress.
+Use it to connect to the pi via ssh (user "pi")
+
+
