@@ -1,3 +1,5 @@
+=== English version below ===  (Work in Progress 30.11.18)
+
 # Gatemon mit Raspberry Pi installieren
 
 Diese Artikel beschreibt, wie man auf einem [Raspberry Pi](https://www.raspberrypi.org/) die Bremer [Gatemon-Software](https://github.com/FreifunkBremen/gatemon) installiert. Mit so einem Gerät hilft man, die Bremer Freifunk-VPN-Server ständig auf Probleme zu überprüfen. Die Ergebnisse aller Gatemons sind unter [status.ffhb.de](https://status.ffhb.de/) verfügbar.
@@ -118,3 +120,75 @@ Weitere Hilfe findet man dann im IRC, auf der Mailingliste oder beim Treffen.
 * Postfix installieren, um Fehler-Ausgaben zu bekommen
 * rdnssd für dynamische DNS-Server-Adressen einrichten
 ** s.a. https://olivergerlich.wordpress.com/2017/07/20/preventing-rdnssd-from-ruining-the-sd-card/
+
+
+
+
+
+
+
+# Guide on how to install Gatemon on a Raspberry Pi
+
+This article describes the necessary steps to install a gatemon on a  [Raspberry Pi](https://www.raspberrypi.org/). 
+The [Gatemon-Software](https://github.com/FreifunkBremen/gatemon) is 
+a piece of software, created by some of the "Freifunk Bremen" People. 
+The gatemons deliver data about the VPN-Servers continously and thereby help finding problems.
+The results of all gatemons (in Bremen) are available here: 
+ [status.ffhb.de](https://status.ffhb.de/) .
+
+Questions on this Article and the gatemons are welcome either in the 
+Chat or on the Mailinglist, Contact-Info can be found here: https://ffhb.de/kontakt.html. 
+we are looking forward to constructive criticism and feedback.
+
+
+## Hardware prerequisites
+The hardware described here is a raspberry PI, which will in the end be connected by ethernet and power-cord only, no keyboard or mouse is needed after the setup.
+For the setup-process you will need: 
+- a screen with HDMI-Input
+- USB-Keyboard
+- another Computer/Laptop
+  - capable of writing to SD-cards
+  - connection to the internet
+  - having an ssh-client (e.g. PuTTy for windows)
+  - support of IPv6 
+- basic knowledge on Raspis (pretty basic, really)
+- basic knowledge of the linux-commandline
+
+
+
+
+## install Raspian
+Get an image of raspian here:  https://www.raspberrypi.org/downloads/raspbian/ 
+This Documentation assumes the Lite-Version of Raspian. For other images than "Lite" it may be necessary to use an USB-Mouse.
+
+Write the image to a SD-Card, as mentioned in the raspberry- [Guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md).
+
+
+Connect your Keyboard and Screen to the PI, connect the power-cord and wait for the boot process to finish. 
+You should see a login-prompt.
+login with user "pi" and password "raspberry". 
+Take care of possibly switched "y" and "z", depending on your keyboard. 
+
+First: switch the keyboard layout to your favourite settings with the following command:
+`sudo raspi-config`
+You can also change timezone and language there.
+
+Next: change the default password. Therefore a new one can be created in one of the following ways:
+* use the command `pwgen 12 1` on another computer. 
+* use the command `head /dev/urandom | tr -dc A-Za-z0-9 | head -c12` on your raspi. 
+
+Both commands will print a new password, which you should write down on paper or a password-manager.
+To finally change the password, use `passwd` on your raspi and type in the old password (raspberry), followed by the new one.
+
+Then, the ssh-server needs to be activated. 
+type `sudo raspi-config` in your commandline, under section "5.Interfacing" you can find the option "P2 SSH". Confirm the entry with "Yes".
+
+Finally create a textfile with the follwing command:
+`nano /etc/network/interfaces.d/eth0`
+and put the follwing 3 lines in:
+
+```
+auto eth0
+iface eth0 inet auto
+iface eth0 inet6 auto
+```
