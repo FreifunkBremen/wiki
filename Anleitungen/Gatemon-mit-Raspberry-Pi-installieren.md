@@ -85,7 +85,7 @@ sudo apt-get install monitoring-plugins-basic monitoring-plugins-standard nagios
 ```
 (nicht wundern: dieser Befehl installiert ca. 80 neue Pakete).
 
-Dann installiert man die Gatemon-Software, wir unter https://github.com/FreifunkBremen/gatemon#installation beschrieben:
+Dann installiert man die Gatemon-Software, wie unter https://github.com/FreifunkBremen/gatemon#installation beschrieben:
 ```
 git clone https://github.com/FreifunkBremen/gatemon
 cd gatemon
@@ -211,3 +211,67 @@ The part between "inet6" and the slash is the public IPv6-Adress.
 Use it to connect to the pi via ssh (user "pi")
 
 
+## Installing Gatemon 
+The Gatemon-Software needs an API-Token to send data to https://status.ffhb.de/. 
+You can get a Token in our IRC-Chat or via Mail to: liste@bremen.freifunk.net. Simply say "hi, i am XYZ and would like to have a Token for status.ffhb.de"
+The Token is a long string, just like a password. Please use on Token for each Gatemon. 
+
+Furthermore your raspi needs a static IPv4-Adress (since the DHCP-Port is needed for the tests and cannot be used for the normal adress-management).
+To set a static IPv4-Adress, go to https://wiki.ffhb.de/Dienste/Home#ipv4-adressen , find an unused adress, write this adress with your nicname and some contact data on this page.
+
+The adress (lets assume 10.196.0.250 here) can be used by writing the following lines (and only these lines) in the file `/etc/network/interfaces.d/eth0` 
+
+```
+auto eth0
+iface eth0 inet static
+    address 10.196.0.250
+    netmask 255.255.0.0
+    gateway 10.196.0.1
+    dns-nameservers 10.196.0.1 10.196.0.2 10.196.0.3 10.196.0.5 10.196.0.6
+
+iface eth0 inet6 auto
+```
+Write your own address in the "address" line . 
+After reboot, the command  `ip a | grep "inet "` should print your IP.
+
+Next, you need the software, install it via:
+```
+sudo apt-get install monitoring-plugins-basic monitoring-plugins-standard nagios-plugins-contrib ndisc6 dnsutils git make gcc curl
+```
+(dont panic, this command installs around 80 packages)
+
+Then install the Gatemon-Software as described on the github-page:
+https://github.com/FreifunkBremen/gatemon#installation beschrieben:
+
+```
+git clone https://github.com/FreifunkBremen/gatemon
+cd gatemon
+make check_dhcp
+sudo mkdir /usr/lib/gatemon
+sudo cp check-all-vpn-exits.sh check_dhcp /usr/lib/gatemon/
+sudo cp check-all-vpn-exits.cfg /etc/
+sudo cp check-all-vpn-exits.cron /etc/cron.d/
+```
+
+Second last step:
+edit the following lines in the file `/etc/check-all-vpn-exits.cfg`:
+
+* API_TOKEN: your API-Token, that you got before.
+* MESHMON_NAME: a short name for yur gatemon. It will appear on status.ffhb.de (no more than 20 characters, please)
+* MESHMON_PROVIDER: short description of your Internet-Provider; This text will appear on status.ffhb.de in the Tooltip and can help to localize the problem to certain providers.
+* NETWORK_DEVICE: eth0 (the name of the network-Interface, that is connected to the internet, usually eth0. You are free to try setting up a gatemon via wifi, please give feedback to the mailinglist.)
+
+Now wait 15 Minutes. Then, the gatemon should appear on  https://status.ffhb.de/ . 
+The Gatemon-Tests will run every 10 Minutes.
+If that works, you can disconnect screen and keyboard and place the raspi next to your freifunk-Router.
+DONE!
+
+## Trouble-Shooting
+If the Gatemon doesnt appear on status.ffhb.de after 15 minutes,
+you can start the Check-Software with this command:
+```
+sudo /usr/lib/gatemon/check-all-vpn-exits.sh
+```
+The output may tell you more about the problem. If the output looks fine, the cronjob may be the problem. 
+
+Further assistance can be requested in the IRC-Channel or on the Mailinglist.
