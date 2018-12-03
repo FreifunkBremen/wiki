@@ -134,7 +134,7 @@ Beispiel:
 
 ### Update 3.12.2018
 
-Seit dem 30.11. konnten meine ZNC Bounser sich nicht mehr mit Hackint verbinden.
+Seit dem 30.11. konnten meine ZNC Bouncer sich nicht mehr mit Hackint verbinden.
 Fehlermeldung: Connection refused.
 habe dann den Port angepasst auf +6697 und das .pen File aktualisiert.
 Auf der Konsole `znc --makepem` durchführen.
