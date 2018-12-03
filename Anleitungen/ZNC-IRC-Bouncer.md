@@ -10,7 +10,7 @@ Viele benutzen den ZNC IRC Bouncer, der immer für uns Online ist. Wenn wir uns 
 bekommen wir automatisch alles aus der Vergangenheit mit. 
 
 Diese Anleitung ist nicht perfekt, und darf gerne überarbeitet werden.
-
+Siehe auch **Update vom 3.12.2018** weiter unten.
 
 Auf unserem Gerät wechseln wir erst mal nach /tmp/ und installieren die ZNC Pakete. Mit dem Befehl 'OPKG List' werden alle Pakete gelistet, am Ende der Liste finden wir odie ZNC Module.
 ~~~
@@ -131,3 +131,17 @@ Beispiel:
 ~~~
 ![ZNC-Frontend](https://cloud.ffhb.de/index.php/s/whUvb3GpmJ2BBRJ/download)
 
+
+### Update 3.12.2018
+
+Seit dem 30.11. konnten meine ZNC Bounser sich nicht mehr mit Hackint verbinden.
+Fehlermeldung: Connection refused.
+habe dann den Port angepasst auf +6697 und das .pen File aktualisiert.
+Auf der Konsole `znc --makepem` durchführen.
+Im Logfile war die Fehlermeldung etwas ausführlicher.
+~~~
+If you trust this certificate, do /znc AddTrustedServerFingerprint bf:b7:8b:d1:20:55:6a:6b:e7:b0:59:46:59:10:06:d5:68:5d:52:6f:bf:66:85:3a:0d:33:37:7e:d3:7c:b0:d5
+<*status> Disconnected from IRC. Reconnecting...
+<*status> Connected!
+~~~
+Den Fingerprint über die Weboberfläche einfügen und schon gehts wieder.
