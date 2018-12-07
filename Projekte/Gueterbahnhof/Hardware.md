@@ -48,3 +48,7 @@ Der Router aus Tor26 soll in Tor25 verlegt werden. Vorher: Kabel checken.
 
 ### Schaulust
 Entweder von Linie7 her anbinden, oder von Spedition her.
+
+### Ende der Gleishalle / Querlenker
+Am Ende der Gleishalle kommt vielleicht noch einie Installation hin, um die Obdachlosen hinter dem GB zu versorgen. 
+Die Querlenker wären dann Nutznießer. Sinnvolle Installation ist vmtl eine CPE für Richtfunk und eine AC-Mesh mit Antenne zur Versordung der Clients (wie ehemals CafeSand)
