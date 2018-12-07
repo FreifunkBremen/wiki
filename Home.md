@@ -12,11 +12,12 @@ Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat im [Hackerspace 
 
 ##### Tagesordnungen
 * der letzten Treffen:
-  * [[02.11.2018|Treffen/2018_11_02]]
   * [[16.11.2018|Treffen/2018_11_16]]
-* der nächsten Treffen:
   * [[07.12.2018|Treffen/2018_12_07]]
+* der nächsten Treffen:
   * [[21.12.2018|Treffen/2018_12_21]]
+  * Congress (35c3)
+  * [[04.01.2019|Treffen/2019_01_04]]
 * [Liste aller Treffen](http://wiki.bremen.freifunk.net/pages/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
 * Weitere Termine (nicht nur Treffen) finden sich in den Protokollen zu den verschiedenen Treffen
 
@@ -27,7 +28,6 @@ Eine Übersicht aller Arten von Zusammenkünften findest du unter [[Treffen|Tref
 * [[Wo bekomme ich einen Router?|Router/Routerabholstandorte]]
 * [[Sammelbestellung Access Points|Router/SammelbestellungAPs]]
 * Gemeinsamer [[Kalender]]
-* [[Breminale 2018|Events/Breminale/2018/Alles]]
 
 ## Technisches
 * [[Firmware|Anleitungen/Firmware/Home]]
