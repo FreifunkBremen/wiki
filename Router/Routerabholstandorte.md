@@ -63,7 +63,7 @@ Auf den Häfen| khaldoun@my.mail.de | WR841N (v9), WDR3600,4300  | 20-50€
 ### Findorff
 Standort                                    | Kontakt                     | Geräte                        | Kosten
 ---                                         | ---                         | ---                           | ---
-Kasseler Strasse | y.schaedler@uni-bremen.de | WR1043, WDR3600  | WR1043:25€, WDR3600:40€
+Kasseler Strasse |  auf [Mailingliste] oder im [Chat] | WR1043, WDR3600  | WR1043:25€, WDR3600:40€
 
 
 
