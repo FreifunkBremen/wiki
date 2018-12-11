@@ -121,7 +121,7 @@ Weitere Hilfe findet man dann im IRC, auf der Mailingliste oder beim Treffen.
 * rdnssd für dynamische DNS-Server-Adressen einrichten
 ** s.a. https://olivergerlich.wordpress.com/2017/07/20/preventing-rdnssd-from-ruining-the-sd-card/
 * Datei in /etc/cron.d/ darf keine Endung haben, war bei yannik problematisch.
-
+* auf bananaPI kann man auch gatemon installieren, ich musste aber build-essentials installieren und in /etc/dhcp/dhcpcp.conf alles auskommentieren. (und vllt noch 1-2 weitere sachen, die ich übersehen hab) Ich würds trotzdem empfehlen, google hilft.
 
 
 
