@@ -1,14 +1,6 @@
 # Buildserver
-Von jplitza wurde eine VM gestellt, auf welcher die Firmware zentral gebaut werden kann.
+Unsere Firmware wird automatisch von unserem [Buildserver](https://jenkins.bremen.freifunk.net/) gebaut, wenn jemand in das [site.conf-Repository auf github](https://github.com/FreifunkBremen/gluon-site-ffhb) pusht.
 
-## Anleitungen
-Bei einem normalen SSH-Login wird automatisch eine tmux-Session gestartet bzw. einer laufenden tmux-Session wird beigetreten. Dadurch können mehrere Personen gleichzeitig die selben Ausgaben beobachten und man kann sich mit `Strg-A D` ausloggen ohne einen laufenden Build-Prozess abzubrechen.
-  
-Im Moment haben Zugriff:
-* jplitza (Serverinhaber)
-* corny
-* Ollibaba
-* SimJoSt
+Wenn der gebaute Commit ein Tag nach dem üblichen Versionsschema hatte (z.B. "v2018.01+bremen1"), wird der Build mit diesem Namen gebaut, mit dem Nightly-Key signiert und anschließend auf den [Download-Server] gepusht. Da wir momentan (Stand 2018) keinen Nightly-Branch betreiben, sorgt das aber noch für keinerlei Veröffentlichung oder Updates auf Geräten. Erst durch ein manuelles Release auf dem Testing- oder Stable-Branch wird die Firmware automatisch irgendwo eingespielt.
 
-## Firewall
-Der Server hat eine sehr restriktive Firewall und erlaubt nur die nötigsten Adressen zum Bauen von Gluon. Wenn beim Bauen wegen eines fehlerhaften Downloads ein Fehler auftritt, bitte Nachricht an jplitza zum Freischalten der entsprechenden Adresse.
+[Download-Server]: https://downloads.bremen.freifunk.net/firmware/all/
