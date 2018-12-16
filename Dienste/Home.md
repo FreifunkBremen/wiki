@@ -1,7 +1,6 @@
 Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Dienste anbieten, die wir auf dieser Seite sammeln wollen:
 
 * [Wikipedia-Mirror (mit Bildern)](http://wikipedia.ffhb.de)
-* [Tahoe-LAFS](/Dienste/Tahoe-LAFS)
 
 ## Infos zum aktuellen Router
 Unter http://node.ffhb.de findest du Informationen zu dem Router, mit dem du momentan verbunden bist.
