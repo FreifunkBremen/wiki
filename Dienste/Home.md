@@ -37,7 +37,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.137 gatemon-yannik, yannik
     * 10.196.0.139 gatemon-banane, yannik
     * 10.196.0.200 Dienste von jplitza
-    * 10.196.0.250-252 Gatemon (Pi1) etc. von ollibaba
+    * 10.196.0.250 gatemon-oliverspi, ollibaba
     * 10.196.1.0/24 Richtfunk-Management
         * 10.196.1.4 Hal över Fährhäuschen NanoBeam
     * 10.196.10.0 - 10.196.19.255 per DHCP vergeben von 10.196.0.1
