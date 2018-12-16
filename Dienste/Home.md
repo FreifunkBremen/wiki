@@ -5,6 +5,7 @@ Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Die
 * [grafana.bremen.freifunk.net / grafana.ffhb.de](https://grafana.bremen.freifunk.net) ist zur Darstellung von Werten über die Zeit hinweg (genauer siehe unsere [Datenschutz](Infrastruktur/Datenschutz)-Seite). Der Meshviewer zeigt einige Diagramme hieraus.
 * [node.ffhb.de / node.bremen.freifunk.net](http://node.ffhb.de) Netzwerk-Daten wie IP-Adressen und Uptime-Infos von dem Router, mit dem man gerade physisch verbunden ist. Eventuell auch Links zum nächsten Router, falls verfügbar.
 * [VPN-Server-Status](http://status.bremen.freifunk.net/) Zeigt den Status der VPN-Server an, gemessen von mehreren Monitoring-Clients im Freifunk-Netz.
+* [Nodewatcher](https://nodewatcher.ffhb.mortzu.de/) Lass dich informieren, wenn dein Knoten offline ist
 
 * [InterCity VPN](http://icvpn.wg1337.de) Monitoring der verschiedenen Freifunk-Communities
 * [freifunk-karte.de](http://www.freifunk-karte.de/) Die Karte nutzt die [Freifunk-API](https://api.freifunk.net/), um eine Liste der Communities in Deutschland zu beziehen. Aus deren API-Files werden dann die Links zu Knotenkarten gelesen. Die Karte wurde von [Tino Dietel](https://github.com/stilgarbf), FF Emskirchen gebaut.
