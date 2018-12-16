@@ -1,6 +1,14 @@
 Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Dienste anbieten, die wir auf dieser Seite sammeln wollen:
 
 * [Wikipedia-Mirror (mit Bildern)](http://wikipedia.ffhb.de)
+* [Meshviewer / map.bremen.freifunk.net / map.ffhb.de](https://map.bremen.freifunk.net/) interessante Darstellung unseres Netzes mit Daten zu Punkten wie einer Übersicht (neue und verschwundene Router), Knoten (alle Netzknoten mit Uptime und Anzahl der verbundenen Geräte), Verbindungen (Verbindungs-Qualität und Entfernung der im Router hinterlegten Geo-Koordinatender Funkstrecken) und Statistiken (eingesetzte Software/Hardware, Software- und Softwareupdate-Mechanismen).
+* [grafana.bremen.freifunk.net / grafana.ffhb.de](https://grafana.bremen.freifunk.net) ist zur Darstellung von Werten über die Zeit hinweg (genauer siehe unsere [Datenschutz](Infrastruktur/Datenschutz)-Seite). Der Meshviewer zeigt einige Diagramme hieraus.
+* [node.ffhb.de / node.bremen.freifunk.net](http://node.ffhb.de) Netzwerk-Daten wie IP-Adressen und Uptime-Infos von dem Router, mit dem man gerade physisch verbunden ist. Eventuell auch Links zum nächsten Router, falls verfügbar.
+* [VPN-Server-Status](http://status.bremen.freifunk.net/) Zeigt den Status der VPN-Server an, gemessen von mehreren Monitoring-Clients im Freifunk-Netz.
+
+* [InterCity VPN](http://icvpn.wg1337.de) Monitoring der verschiedenen Freifunk-Communities
+* [freifunk-karte.de](http://www.freifunk-karte.de/) Die Karte nutzt die [Freifunk-API](https://api.freifunk.net/), um eine Liste der Communities in Deutschland zu beziehen. Aus deren API-Files werden dann die Links zu Knotenkarten gelesen. Die Karte wurde von [Tino Dietel](https://github.com/stilgarbf), FF Emskirchen gebaut.
+
 
 ## Infos zum aktuellen Router
 Unter http://node.ffhb.de findest du Informationen zu dem Router, mit dem du momentan verbunden bist.
