@@ -86,13 +86,10 @@ IPv6 Routing zum Gateway vpn06
   * 2a06:8782:ffbb:1337::5 vpn05 (DNS, Gateway, anon6789/genofire)
   * 2a06:8782:ffbb:1337::6 vpn06 (DNS, Gateway)
 * 2a06:8782:ffbb:1337::5b bis 5f (genofire)
-* 2a06:8782:ffbb:1337::f0 (proxyhb)
-* 2a06:8782:ffbb:1337::6f (ec8or)
-* 2a06:8782:ffbb:1337::80 bis 9f Dienste von mortzu
-  * 2a06:8782:ffbb:1337::83 gatemon-3.ffhb.moritzrudert.de
-  * 2a06:8782:ffbb:1337::85 Gatemon (Pi1) von ollibaba
-  * 2a06:8782:ffbb:1337::86 gatemon-2.ffhb.moritzrudert.de
-  * 2a06:8782:ffbb:1337::87 gatemon-fes216.ffhb.moritzrudert.de
+* 2a06:8782:ffbb:1337::83 gatemon-3.ffhb.moritzrudert.de
+* 2a06:8782:ffbb:1337::85 Gatemon (Pi1) von ollibaba
+* 2a06:8782:ffbb:1337::86 gatemon-2.ffhb.moritzrudert.de
+* 2a06:8782:ffbb:1337::87 gatemon-moge216.ffhb.moritzrudert.de
 * 2a06:8782:ffbb:1337::a0 bis af (ollibaba)
   * 2a06:8782:ffbb:1337::a0 Gatemon Pi2
 * 2a06:8782:ffbb:1337::b0 bis bf (janeric)
