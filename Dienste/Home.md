@@ -47,6 +47,8 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.40.0 - 10.196.49.255 per DHCP vergeben von 10.196.0.4
     * 10.196.50.0 - 10.196.59.255 per DHCP vergeben von 10.196.0.5
     * 10.196.60.0 - 10.196.69.255 per DHCP vergeben von 10.196.0.6
+    *  10.196.122.224 - 10.196.122.255  Range von hias
+
 
 Feste IP-Adressen von an Freifunk-Knoten angeschlossenen Servern sollten in 10.196.0.0/17 liegen. Hier eintragen und glücklich sein. Bitte schreib einen IRC-Nick oder eine Email-Adresse oder sonstige Kontaktdaten dazu.
 
