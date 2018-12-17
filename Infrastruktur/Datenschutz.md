@@ -19,7 +19,7 @@ Wir versuchen den Grad der Sensibilität der Daten durch diese "Bezugsart" zu ve
 | Zuordnung Gerät↔IP-Adresse | Gerät        | ✔           | ✘¹         | 30 Minuten     | ✘          |
 | Verbundener Knoten²        | Gerät        | ✘           | ✘¹         |               |            |
 
-¹ Während die gespeicherten Daten nicht öffentlich einsehbar sind, muss diese Information (teilweise) zum technischen Betrieb des Netzwerks *innerhalb desselben* propagiert werden. Unsererseits wird diese Information nicht erhoben oder weitergeleitet, jedoch könnte ein Angreife die Information im Netzwerk selbst erheben.
+¹ Während die gespeicherten Daten nicht öffentlich einsehbar sind, muss diese Information (teilweise) zum technischen Betrieb des Netzwerks *innerhalb desselben* propagiert werden. Unsererseits wird diese Information nicht erhoben oder weitergeleitet, jedoch könnte ein Angreifer die Information im Netzwerk selbst erheben. 
 
 ² Wir weisen hier darauf hin, dass der Aufsteller eines Knotens dessen Koordinaten veröffentlich haben kann (s.u.) und somit innerhalb des Freifunk-Netzes eine grobe Ortung möglich sein kann.
 
