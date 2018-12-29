@@ -18,7 +18,7 @@ Auf dem Dach hat Nico einen schicken Mast installiert, daran befestigt sind aktu
 Im 2.OG sind aktuell 2 Archer C7 im Einsatz, einer regelt hauptsächlich den Verkehr (Mesht mit allem), der Andere hängt neben dem Aufenthaltsraum/Küche.
 
 ### 1.OG
-im 1.OG steht ein WR1043 auf einem Podest auf dem Flur. An diesem Router soll demnächst ein gatemon (kleiner Raspberry-PI, der schaut, ob das Netz in Ordnung ist, hilft bei der Fehlersuche sehr) betrieben werden.
+im 1.OG steht ein WR1043 auf einem Podest auf dem Flur. An diesem Router soll demnächst ein gatemon (kleiner Raspberry-PI, der schaut, ob das Netz in Ordnung ist, hilft bei der Fehlersuche sehr, Link:https://github.com/FreifunkBremen/gatemon) betrieben werden.
 
 ### "lange Hallen"
 Auf den beiden Hallen steht jeweils 1 CPE210 auf dem Dach auf einem Betonsockel (extra dafür von den Jungs vor Ort gegossen!). 
