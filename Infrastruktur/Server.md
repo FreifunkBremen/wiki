@@ -30,7 +30,7 @@ Der Status der Gateways kann hier eingesehen werden: https://status.bremen.freif
 |----------------------------------------|---------------------------|-----------------------|
 | [Website](https://ffhb.de)             | jplitza, mortzu           | Bremen / LWLCOM       |
 | [Downloads](https://downloads.ffhb.de) | corny, jplitza, mortzu    | Bremen / LWLCOM       |
-| DNS                                    | jplitza, mortzu           | Bremen / LWLCOM       |
+| DNS                                    | corny, genofire, jplitza, mortzu           | Bremen / LWLCOM       |
 | [Wiki](https://wiki.ffhb.de)           | jplitza, mortzu           | Bremen / LWLCOM       |
 | [Karte](https://map.ffhb.de)           | genofire, jplitza, mortzu | Bremen / LWLCOM       |
 | [Ticketsystem](https://tasks.ffhb.de)  | mortzu, SimJoSt, ollibaba | Bremen / LWLCOM       |
