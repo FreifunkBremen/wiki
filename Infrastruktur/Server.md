@@ -26,14 +26,14 @@ Der Status der Gateways kann hier eingesehen werden: https://status.bremen.freif
 
 
 ## Server für zentrale Dienste
-| Dienst                                 | Verantwortlicher    | Co Verantwortlicher | Standort              |
-|----------------------------------------|---------------------|---------------------|-----------------------|
-| [Website](https://ffhb.de)             | jplitza, mortzu     |                     | Bremen / LWLCOM       |
-| [Downloads](https://downloads.ffhb.de) | jplitza, mortzu     | corny               | Bremen / LWLCOM       |
-| DNS                                    | jplitza, mortzu     |                     | Bremen / LWLCOM       |
-| [Wiki](https://wiki.ffhb.de)           | jplitza, mortzu     |                     | Bremen / LWLCOM       |
-| [Karte](https://map.ffhb.de)           | jplitza, mortzu     | genofire            | Bremen / LWLCOM       |
-| [Ticketsystem](https://tasks.ffhb.de)  | mortzu              | SimJoSt, ollibaba   | Bremen / LWLCOM       |
-| [gatemon](https://status.ffhb.de)      | mortzu              |                     | Bremen / LWLCOM       |
-| LWLCOM Hardwareserver                  | chrische, morpheus  | mortzu, jplitza     | Bremen / LWLCOM       |
-| Router                                 | chrische, morpheus  | mortzu              | Bremen / LWLCOM       |
+| Dienst                                 | Verantwortlicher          | Standort              |
+|----------------------------------------|---------------------------|-----------------------|
+| [Website](https://ffhb.de)             | jplitza, mortzu           | Bremen / LWLCOM       |
+| [Downloads](https://downloads.ffhb.de) | corny, jplitza, mortzu    | Bremen / LWLCOM       |
+| DNS                                    | jplitza, mortzu           | Bremen / LWLCOM       |
+| [Wiki](https://wiki.ffhb.de)           | jplitza, mortzu           | Bremen / LWLCOM       |
+| [Karte](https://map.ffhb.de)           | genofire, jplitza, mortzu | Bremen / LWLCOM       |
+| [Ticketsystem](https://tasks.ffhb.de)  | mortzu, SimJoSt, ollibaba | Bremen / LWLCOM       |
+| [gatemon](https://status.ffhb.de)      | mortzu                    | Bremen / LWLCOM       |
+| LWLCOM Hardwareserver                  | chrische, morpheus, mortzu, jplitza | Bremen / LWLCOM       |
+| Router                                 | chrische, morpheus, mortzu | Bremen / LWLCOM       |
