@@ -15,7 +15,6 @@ Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat im [Hackerspace 
   * [[07.12.2018|Treffen/2018_12_07]]
   * [[21.12.2018|Treffen/2018_12_21]]
 * der nächsten Treffen:
-  * Congress (35c3)
   * [[04.01.2019|Treffen/2019_01_04]]
   * [[18.01.2019|Treffen/2019_01_18]]
 * [Liste aller Treffen](http://wiki.bremen.freifunk.net/pages/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
