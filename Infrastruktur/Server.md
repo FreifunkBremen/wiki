@@ -7,21 +7,21 @@ Der Status der Gateways kann hier eingesehen werden: https://status.bremen.freif
 | Server | Sponsor      | Standort | Uplink-Anbieter    | Uplink-Standort |
 |:-------|:-------------|:---------|:-------------------|:----------------|
 | vpn01  | LWLCOM       | Bremen   | Digineo            | Bremen          |
-| vpn02  | PLUTEX       | Bremen   | Freie Netze e.V.   | Berlin          |
+| vpn02  | PLUTEX       | Bremen   | Digineo            | Bremen          |
 | vpn03  | LWLCOM       | Bremen   | Digineo            | Bremen          |
 | vpn04  | PLUTEX       | Bremen   | -                  | Bremen          |
-| vpn05  | genofire     | Hetzner  | hide.me            | Frankfurt       |
+| vpn05  | PLUTEX       | Bremen   | Digineo            | Bremen          |
 | vpn06  | Digineo GmbH | 23media  | Digineo            | Frankfurt       |
 
 ### Ansprechpartner
 
 | Gateway | Hauptverantwortlicher | Co Verantwortlicher |
 |---------|-----------------------|---------------------|
-| vpn01   | jplitza, mortzu       | morpheus            |
-| vpn02   | jplitza, mortzu       | morpheus            |
-| vpn03   | jplitza, mortzu       | morpheus            |
+| vpn01   | jplitza, mortzu       | -                   |
+| vpn02   | jplitza, mortzu       | -                   |
+| vpn03   | jplitza, mortzu       | -                   |
 | vpn04   | jplitza, mortzu       | genofire            |
-| vpn05   | anon6789, genofire    | corny               |
+| vpn05   | jplitza, mortzu       | -                   |
 | vpn06   | corny                 | genofire, jplitza   |
 
 
