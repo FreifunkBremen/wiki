@@ -1,4 +1,4 @@
-Wenn wir neue A3-Poster gedruckt haben wollen, kann dafür das PDF von https://github.com/FreifunkBremen/print/FFHB_Plakat_A3.pdf benutzt werden.
+Wenn wir neue A3-Poster gedruckt haben wollen, kann dafür das PDF von  https://github.com/FreifunkBremen/print/blob/master/FFHB_Plakat_A3.pdf benutzt werden.
 
 Der Druck sollte mit folgenden Einstellungen passieren (diese Einstellungen sind so bei wir-machen-druck.de zu finden, aber sollten sich auch auf andere Druckereien übertragen lassen):
 
@@ -12,8 +12,8 @@ Bei wir-machen-druck.de findet sich der Flyer unter Plakate -> Standard & Topsel
 
 
 
-Flyer-Design verändern
+## Flyer-Design verändern
 
-Die Originaldatei liegt unter https://github.com/FreifunkBremen/print/FFHB_Plakat_A3.pages (leider noch als Apple Pages-Datei). Daraus wurde ein PDF erzeugt, welches ebenfalls eingecheckt wurde; dadurch können auch Leute den Flyer ansehen und drucken, die Pages nicht zur Verfügung haben.
+Die Originaldatei liegt unter https://github.com/FreifunkBremen/print/blob/master/FFHB_Plakat_A3.pages (leider noch als Apple Pages-Datei). Daraus wurde ein PDF erzeugt, welches ebenfalls eingecheckt wurde; dadurch können auch Leute den Flyer ansehen und drucken, die Pages nicht zur Verfügung haben.
 
 Wenn der Flyer verändert wurde, sollten die veränderte Originaldatei sowie die daraus erzeugte PDF-Datei wieder eingecheckt werden. Die PDF-Datei muss zum Drucken im CMYK-Farbraum vorliegen.
