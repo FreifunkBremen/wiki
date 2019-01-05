@@ -1,5 +1,5 @@
 # FFHB-Aufkleber bestellen
-Wenn wir neue Aufkleber gedruckt haben wollen, kann dafür das PDF von https://github.com/FreifunkBremen/print/FFHB_Sticker_A3.pages benutzt werden.
+Wenn wir neue Aufkleber gedruckt haben wollen, kann dafür das PDF von https://github.com/FreifunkBremen/print/blob/master/FFHB_Sticker_A3.pdf benutzt werden.
 
 Der Druck sollte mit folgenden Einstellungen passieren (diese Einstellungen sind so bei wir-machen-druck.de zu finden, aber sollten sich auch auf andere Druckereien übertragen lassen):
 * Produktbezeichnung: Aufkleber 10,5 cm x 10,5 cm
@@ -13,6 +13,6 @@ Der Druck sollte mit folgenden Einstellungen passieren (diese Einstellungen sind
 Bei wir-machen-druck.de findet sich der Flyer unter Aufkleber -> Quadratische Aufkleber -> Aufkleber 10,5 cm x 10,5 cm.
 
 ## Flyer-Design verändern
-Die Originaldatei liegt unter https://github.com/FreifunkBremen/print/FFHB_Sticker_A3.pages (leider noch als Apple Pages-Datei). Daraus wurde ein PDF erzeugt, welches ebenfalls eingecheckt wurde; dadurch können auch Leute den Flyer ansehen und drucken, die Pages nicht zur Verfügung haben.
+Die Originaldatei liegt unter https://github.com/FreifunkBremen/print/blob/master/FFHB_Sticker_A3.pages (leider noch als Apple Pages-Datei). Daraus wurde ein PDF erzeugt, welches ebenfalls eingecheckt wurde; dadurch können auch Leute den Flyer ansehen und drucken, die Pages nicht zur Verfügung haben.
 
 Wenn der Flyer verändert wurde, sollten die veränderte Originaldatei sowie die daraus erzeugte PDF-Datei wieder eingecheckt werden. Die PDF-Datei muss zum Drucken im [CMYK-Farbraum](https://de.wikipedia.org/wiki/CMYK-Farbmodell) vorliegen.
