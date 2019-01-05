@@ -7,6 +7,8 @@ Der Druck sollte mit folgenden Einstellungen passieren (diese Einstellungen sind
 * Sorte: Outdoor: 90µ Haftfolie weiß mit Hochglanz-UV-Lack (witterungsbeständig)
 * keine Veredelung
 * Farbigkeit: 4/0 farbig (also eine Seite in Farbe gedruckt, mit CMYK)
+* keine Zusatzoptionen.
+* Im Vorfeld sollte geklärt werden, ob der Förderverein die Kosten dazu übernimmt und ob infolge dessen der Förderverein als Rechnungsempfänger auf der Rechnung stehen muss.
 
 Bei wir-machen-druck.de findet sich der Flyer unter Aufkleber -> Quadratische Aufkleber -> Aufkleber 10,5 cm x 10,5 cm.
 
