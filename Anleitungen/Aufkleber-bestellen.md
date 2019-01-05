@@ -1,5 +1,5 @@
 # FFHB-Aufkleber bestellen
-Wenn wir neue Aufkleber gedruckt haben wollen, kann dafür das PDF von https://github.com/FreifunkBremen/flyer/blob/short/flyer_short.pdf benutzt werden.
+Wenn wir neue Aufkleber gedruckt haben wollen, kann dafür das PDF von https://github.com/FreifunkBremen/print/FFHB_Sticker_A3.pages benutzt werden.
 
 Der Druck sollte mit folgenden Einstellungen passieren (diese Einstellungen sind so bei wir-machen-druck.de zu finden, aber sollten sich auch auf andere Druckereien übertragen lassen):
 * Produktbezeichnung: Aufkleber 10,5 cm x 10,5 cm
