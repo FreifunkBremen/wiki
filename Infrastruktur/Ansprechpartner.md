@@ -16,6 +16,7 @@ Diese Leute kümmern sich um Anfragen von Knotenbesitzern und jenen, die es werd
 * Yannik
 * Louis
 * FrankT
+* Jan-Eric
 
 
 ## Firmware
