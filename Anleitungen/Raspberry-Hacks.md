@@ -104,6 +104,18 @@ network={
     key_mgmt=WPA-PSK
 }
 ~~~
+Damit die Änderungen wirksam werden, muss der Netzwerkadapter neu gestartet werden.
+~~~
+Möglichkeit 1, das Interface ab- und wieder anzuschalten.
+
+    sudo ifconfig wlan0 down
+    sudo ifconfig wlan0 up
+
+Möglichkeit 2, den ganzen Netzwerkstack neu starten.
+
+    sudo service networking restart
+~~~
+Damit ist die Einrichtung abgeschlossen und der Raspberry Pi verbindet sich mit deinem WLAN-Netzwerk.
 
 ###SSH Login auf dem Raspi
 
