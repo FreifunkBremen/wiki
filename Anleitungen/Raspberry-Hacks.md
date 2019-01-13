@@ -13,7 +13,7 @@ Hier sind also nur ein paar Stolpersteine erwähnt, die unserer Aufmerksamkeit b
 
 [Serielle Schnittstelle](#inhalt_serielle-schnittstelle)
 
-[LAN Interface feste IP-Adresse](#inhalt_lan-interface-feste-ipP-adresse)
+[LAN Interface feste IP-Adresse](#inhalt_lan-interface-feste-ip-adresse)
 
 [WLAN Verbindung einrichten](#inhalt_wlan-verbindung-einrichten)
 
