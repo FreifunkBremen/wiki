@@ -118,7 +118,16 @@ Möglichkeit 2, den ganzen Netzwerkstack neu starten.
 Damit ist die Einrichtung abgeschlossen und der Raspberry Pi verbindet sich mit deinem WLAN-Netzwerk.
 
 ###SSH Login auf dem Raspi
+Funktioniert wie auf dem Freifunkrouter. SSH Server aktivieren über:
+~~~
+sudo raspi-config
+~~~
+In den Homeverzeichnissen der angelegten Benutzer das Verzeichnis .ssh erstellen. Dorthin die Datei authorized_keys mit unserem Schlüssel kopieren.
+
+Die Konfigurationen unter /etc/ssh werden nicht angefasst. Deren Funktion ist für den SSH Zugriff nicht genau geklärt, alle Einstellungen sind auskommentiert. (Forschungsarbeit notwendig).
 
 ###Projekt Taster
+Ein Aus Reboot Taster. Tolle Sache, wenn der Pi hängt, kann mit dem Taster neu gestartet werden. Eleganter als den Netzstecker zu ziehen.
+
 
 
