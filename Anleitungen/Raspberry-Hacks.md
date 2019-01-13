@@ -4,7 +4,7 @@ Hacks (Hex) mit dem Raspberry!
 
 Inhalt:
 Kaufberatung:
-
+Netzteil:
 
 Kaufberatung:
 Soll es nur ein Gerät sein, lohnt sich ein Bundle, damit habe ich alles zusammen für den Betrieb eines Raspberry.
@@ -17,4 +17,8 @@ Netzteil: Netzteile < 5,1V Raspi Hack erforderlich (s.u.)
 Gehäuse: von Formschön bis Wasserdicht alles möglich.
 Gehäuse: evtl. nicht präzise für 3B+ passend, Dremel erfordelich.
 Kühlkörper: sind immer gut und es gibt sie in Schick, Kupfer / vergoldet.
-Lüfter: Es gibt besonders Geräuscharme Lüfter, sind nicht erfordelich.
+Lüfter: Es gibt besonders Geräuscharme Lüfter, Lüfter sind nicht erfordelich.
+
+Netzteil:
+Wird auf dem Monitor ein roter Blitz rechts oben eingeblendet, so liegt eine Unterspannung vor. Eine schlimme Folge ist, die Taktfrequenz wird runtergesetzt und der Pi ist deutlich langsamer.
+Kann da Netzteil genug Strom liefern, so kann die Überwachung auf Unterspannung abgeschaltet werden.
