@@ -1,6 +1,6 @@
-Hacks (Hex) mit dem Raspberry!
+## Hacks (Hex) mit dem Raspberry! 3B+
 
-(13.1.2019 F_H) Die folgenden Spielereien dienen der Unterhaltung und Bildung. Der Artikel beschreibt meine ersten Schritte mit dem kleinen Kumpel, einem Raspberry 3B+. Da es einige Stolpersteine gibt, kann dies evtl. hilfreich sein. Rückschläge machen keinen Spass und können vermieden werden.
+(13.1.2019 F_H) Die folgenden Spielereien dienen der Unterhaltung und Bildung. Der Artikel beschreibt meine ersten Schritte mit dem kleinen Kumpel, einem Raspberry 3B+. Da es einige Stolpersteine gibt, kann dies evtl. hilfreich sein. Rückschläge machen keinen Spass und können vermieden werden. Bei älteren Modellen können die Einstellungen ggf. anders sein.
 
 ## Inhalt:
 [Kaufberatung](#inhalt_kaufberatung)
@@ -14,7 +14,6 @@ Hacks (Hex) mit dem Raspberry!
 [SSH Login auf dem Raspi](#inhalt_ssh-login-auf-dem-raspi)
 
 ###Kaufberatung
-
 Soll es nur ein Gerät sein, lohnt sich ein Bundle, damit habe ich alles zusammen für den Betrieb eines Raspberry.
 
 Werden es evtl. mehr Geräte oder es werden ein paar Besonderheiten gewünscht, lohnen sich Einzelteile.
@@ -61,6 +60,7 @@ sudo nano /boot/config.txt
 
 enable_uart=1
 ~~~
+Weitere Informationen zur seriellen Schnittstelle unter: http://www.netzmafia.de/skripten/hardware/RasPi/RasPi_Serial.html
 
 ###SSH Login auf dem Raspi
 
