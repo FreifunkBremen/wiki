@@ -2,6 +2,8 @@
 
 (13.1.2019 F_H) Die folgenden Spielereien dienen der Unterhaltung und Bildung. Der Artikel beschreibt meine ersten Schritte mit dem kleinen Kumpel, einem Raspberry 3B+. Da es einige Stolpersteine gibt, kann dies evtl. hilfreich sein. Rückschläge machen keinen Spass und können vermieden werden. Bei älteren Modellen können die Einstellungen ggf. anders sein.
 
+Hier sind also nur ein paar Stolpersteine erwähnt, die unserer Aufmerksamkeit bedürfen!
+
 ## Inhalt:
 [Kaufberatung](#inhalt_kaufberatung)
 
@@ -11,7 +13,14 @@
 
 [Serielle Schnittstelle](#inhalt_serielle-schnittstelle)
 
+[LAN Interface feste IP-Adresse](#inhalt_lan-interface-feste-ipP-adresse)
+
+[WLAN Verbindung einrichten](#inhalt_wlan-verbindung-einrichten)
+
 [SSH Login auf dem Raspi](#inhalt_ssh-login-auf-dem-raspi)
+
+[Projekt Taster](#inhalt_projekt-taster)
+
 
 ###Kaufberatung
 Soll es nur ein Gerät sein, lohnt sich ein Bundle, damit habe ich alles zusammen für den Betrieb eines Raspberry.
@@ -69,6 +78,35 @@ Weitere Informationen zur seriellen Schnittstelle unter: http://www.netzmafia.de
 
 Das serielle Kabel, bzw. USB-2-Serial-Adapter auf den GPIO 14 = Pin 8 TX & GPIO 14 = Pin 10 RX, sowie GND (irgend ein freier GND Pin)
 
+###LAN Interface feste IP-Adresse
+Wird der Raspi per Kabel an einen Router angeschlossen macht eine statische IP-Adresse Sinn.
+Im Terminalfenster wie folgt vorgehen.
+~~~
+sudo nano /etc/dhcpcd.conf
+
+# Konfiguration feste IP-Adresse
+interface eth0
+static ip_address=192.168.178.100/24
+static routers=192.168.178.1
+static domain_name_servers=192.168.178.1
+
+sudo /etc/init.d/networking restart
+~~~
+
+###WLAN Verbindung einrichten
+Damit sich der Raspi 3B+ mit einem WLAN verbindet, folgende Einstellungen mit eigenen Daten ändern.
+~~~
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+
+network={
+    ssid="TestNetzwerk"
+    psk="Mein1SuperGeheimesWLANPasswort!"
+    key_mgmt=WPA-PSK
+}
+~~~
+
 ###SSH Login auf dem Raspi
+
+###Projekt Taster
 
 
