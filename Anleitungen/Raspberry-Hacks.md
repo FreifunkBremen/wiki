@@ -3,13 +3,13 @@ Hacks (Hex) mit dem Raspberry!
 (13.1.2019 F_H) Die folgenden Spielereien dienen der Unterhaltung und Bildung. Der Artikel beschreibt meine ersten Schritte mit dem kleinen Kumpel, einem Raspberry 3B+. Da es einige Stolpersteine gibt, kann dies evtl. hilfreich sein. Rückschläge machen keinen Spass und können vermieden werden.
 
 ## Inhalt:
-[Kaufberatung](#inhalt_Kaufberatung)
+[Kaufberatung](#inhalt_kaufberatung)
 
-[Netzteil](#inhalt_Netzteil)
+[Netzteil](#inhalt_netzteil)
 
 [Alias](#inhalt_alias)
 
-[SSH Login auf einem Router vereinfachen.](#inhalt_ssh-login-auf-einem-router-vereinfachen)
+[SSH Login auf dem Raspi](#inhalt_ssh-login-auf-dem-raspi)
 
 ###Kaufberatung
 
