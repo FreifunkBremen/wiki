@@ -3,9 +3,9 @@ Hacks (Hex) mit dem Raspberry!
 (13.1.2019 F_H) Die folgenden Spielereien dienen der Unterhaltung und Bildung. Der Artikel beschreibt meine ersten Schritte mit dem kleinen Kumpel, einem Raspberry 3B+. Da es einige Stolpersteine gibt, kann dies evtl. hilfreich sein. Rückschläge machen keinen Spass und können vermieden werden.
 
 ## Inhalt:
-[Kaufberatung:](#inhalt_Kaufberatung)
+[Kaufberatung:](#inhalt_Kaufberatung:)
 
-[Netzteil:](#inhalt_Netzteil)
+[Netzteil:](#inhalt_Netzteil:)
 
 [Alias](#inhalt_alias)
 
@@ -16,7 +16,6 @@ Soll es nur ein Gerät sein, lohnt sich ein Bundle, damit habe ich alles zusamme
 Werden es evtl. mehr Geräte oder es werden ein paar Besonderheiten gewünscht, lohnen sich Einzelteile.
 
 Warum Einzelteile?
-
 Micro-SD: wird mehr Speicher benötigt lohnt eine große Karte.
 
 Netzteil: Das originale Netzteil ist sehr groß und verdeckt benachbarte Steckdosen einer Leiste. Das schmale EU-Netzteil 2,5A 5,1V ist besser.
