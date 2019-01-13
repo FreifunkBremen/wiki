@@ -60,7 +60,14 @@ sudo nano /boot/config.txt
 
 enable_uart=1
 ~~~
+Kontrolle, ob der UART aktiv ist. In der Datei cmdline.txt hierzu den Wert dwc_otg.lpm_enable=0 setzen.
+~~~
+sudo nano /boot/cmdline.txt
+~~~
+
 Weitere Informationen zur seriellen Schnittstelle unter: http://www.netzmafia.de/skripten/hardware/RasPi/RasPi_Serial.html
+
+Das serielle Kabel, bzw. USB-2-Serial-Adapter auf den GPIO 14 = Pin 8 TX & GPIO 14 = Pin 10 RX, sowie GND (irgend ein freier GND Pin)
 
 ###SSH Login auf dem Raspi
 
