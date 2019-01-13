@@ -21,6 +21,9 @@ Hier sind also nur ein paar Stolpersteine erwähnt, die unserer Aufmerksamkeit b
 
 [Projekt Taster](#inhalt_projekt-taster)
 
+[Projekt Webserver](#inhalt_projekt-webserver)
+
+[Projekt Nextcloud](#inhalt_projekt-nextcloud)
 
 ###Kaufberatung
 Soll es nur ein Gerät sein, lohnt sich ein Bundle, damit habe ich alles zusammen für den Betrieb eines Raspberry.
@@ -129,12 +132,16 @@ Die Konfigurationen unter /etc/ssh werden nicht angefasst. Deren Funktion ist f�
 ###Projekt Taster
 Ein Aus Reboot Taster. Tolle Sache, wenn der Pi hängt, kann mit dem Taster neu gestartet werden. Eleganter als den Netzstecker zu ziehen. Taste unter 3 Sekunden drücken, Pi bootet. Taster über 3 Sekunden drücken, Pi fährt runter. Erneutes Drücken im Aus Zustand, Pi startet.
 
+Originalbeitrag könnte sein: https://gilyes.com/pi-shutdown-button/
+
+
 Systemd-Job für den Ausschalt-Jumper (GPIO-Pins 5+GND).
 Installation: Die Datei pishutdown.py nach /usr/local/bin
 und pishutdown.service nach /etc/systemd/system kopieren.
 Starten des Service mit:
 ~~~
 sudo systemctl enable pishutdown.service
+sudo systemctl start pishutdown.service
 ~~~
 pishutdown.py
 ~~~
@@ -204,3 +211,14 @@ Group=root
 [Install]
 WantedBy=multi-user.target 
 ~~~
+
+###Projekt Webserver
+Viele tolle Projekte verwenden ein Webinterface und jedes Projekt einen anderen Webserver. Wenn mehrere Webseiten auf dem Pi laufen sollen, kommen wir um Virtualhosts nicht herum. Damit verschiedene Webseiten vernünftig funktionieren, bedarf es einer sauberen Konfiguration. Deshalb ist hier die erste Wahl: Apache2
+Wer also mehr als nur eine Webseite auf dem Pi hosten möchte, sollte sich mit dem Apache Webserver beschäftigen.
+
+###Projekt Nextcloud
+Eine Nextcloud auf dem Pi zu istallieren ist eine recht einfache Sache. Damit die Nextcloud auch vernünftig funktioniert, bedarf es tiefergehenden Fachwissens. Hier gibt es Abhilfe durch ein vorkonfiguriertes System, in dem bereits alle relevanten Einstellungen vorgenommen wurden.
+Meine Empfehlung: nextcloudpi
+https://github.com/nextcloud/nextcloudpi
+https://ownyourbits.com/nextcloudpi/
+
