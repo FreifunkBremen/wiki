@@ -7,7 +7,9 @@ Hacks (Hex) mit dem Raspberry!
 
 [Netzteil](#inhalt_netzteil)
 
-[Alias](#inhalt_alias)
+[Monitor](#inhalt_monitor)
+
+[Serielle Schnittstelle](#inhalt_serielle-schnittstelle)
 
 [SSH Login auf dem Raspi](#inhalt_ssh-login-auf-dem-raspi)
 
@@ -45,10 +47,21 @@ sudo nano /boot/config.txt
 
 avoid_warnings=2
 ~~~
-
+###Monitor
+Viele Monitore funktionieren nicht korrekt am Raspi. Der häufigste Fehler ist der schwarze Rand, also ein kleiners Bild. Viele Monitorprobleme können über die Datei /boot/config.txt korrigiert werden.
 ~~~
+sudo nano /boot/config.txt
+
+disable_overscan=1
+~~~
+###Serielle Schnittstelle
+Die serielle Schnittstelle auf der GPIO Leiste wird mit folgendem Eintrag aktiviert.
+~~~
+sudo nano /boot/config.txt
+
+enable_uart=1
 ~~~
 
-###SSH Login auf einem Router vereinfachen.
+###SSH Login auf dem Raspi
 
 
