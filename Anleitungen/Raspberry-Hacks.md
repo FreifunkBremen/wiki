@@ -9,6 +9,8 @@ Hacks (Hex) mit dem Raspberry!
 
 [Alias](#inhalt_alias)
 
+[SSH Login auf einem Router vereinfachen.](#inhalt_ssh-login-auf-einem-router-vereinfachen)
+
 ###Kaufberatung
 
 Soll es nur ein Gerät sein, lohnt sich ein Bundle, damit habe ich alles zusammen für den Betrieb eines Raspberry.
@@ -46,4 +48,7 @@ avoid_warnings=2
 
 ~~~
 ~~~
+
+###SSH Login auf einem Router vereinfachen.
+
 
