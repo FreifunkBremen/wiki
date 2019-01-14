@@ -1,4 +1,4 @@
-## Hacks (Hex) mit dem Raspberry! 3B+
+## Hacks (3B+Hex) mit dem Raspberry! 3B+
 
 (13.1.2019 F_H) Die folgenden Spielereien dienen der Unterhaltung und Bildung. Der Artikel beschreibt meine ersten Schritte mit dem kleinen Kumpel, einem Raspberry 3B+. Da es einige Stolpersteine gibt, kann dies evtl. hilfreich sein. Rückschläge machen keinen Spass und können vermieden werden. Bei älteren Modellen können die Einstellungen ggf. anders sein.
 
@@ -107,7 +107,7 @@ network={
     key_mgmt=WPA-PSK
 }
 ~~~
-Damit die Änderungen wirksam werden, muss der Netzwerkadapter neu gestartet werden.
+Damit die Änderungen wirksam werden, muss der Netzwerkadapter neu gestartet werden. Für mehrere Netzwerke, den Abschnitt network={...} mehrfach untereinander schreiben.
 ~~~
 Möglichkeit 1, das Interface ab- und wieder anzuschalten.
 
@@ -119,6 +119,11 @@ Möglichkeit 2, den ganzen Netzwerkstack neu starten.
     sudo service networking restart
 ~~~
 Damit ist die Einrichtung abgeschlossen und der Raspberry Pi verbindet sich mit deinem WLAN-Netzwerk.
+
+WLAN Netwerke scannen mit:
+~~~
+sudo iwlist wlan0 scan
+~~~
 
 ###SSH Login auf dem Raspi
 Funktioniert wie auf dem Freifunkrouter. SSH Server aktivieren über:
