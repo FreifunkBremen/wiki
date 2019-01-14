@@ -25,7 +25,9 @@ Hier sind also nur ein paar Stolpersteine erwähnt, die unserer Aufmerksamkeit b
 
 [Projekt Nextcloud](#inhalt_projekt-nextcloud)
 
-[Projekt DynDNS][#inhalt_projekt-dyndns]
+[Projekt DynDNS](#inhalt_projekt-dyndns)
+
+[Projekt Lets Encrypt Zertifikat](#inhalt_projekt-lets-enrypt-zertifikat)
 
 ###Kaufberatung
 Soll es nur ein Gerät sein, lohnt sich ein Bundle, damit habe ich alles zusammen, was für den Betrieb eines Raspberry benötigt wird.
@@ -284,7 +286,20 @@ Eure IP-Adresse findet ihr in der Datei /tmp/spdynuIP.cnf
 cat /tmp/spdynuIP.cnf
 zeigt externe IP des Routers. (geht.)
 
+###Lets Encrypt Zertifikat
+Let’s Encrypt Zertifikat erstellen:
+Damit ihr über HTTPS auf eure Nextcloud usw. des Pi, zugreifen könnt benötigt ihr ein Zertifikat. Dies geht mit dem folgenden Befehl (Hinweis: Ihr müsst domain.spdns.de mit eurer bei spdyn angelegten Domain und die E-Mail Adresse user@domain.tld ersetzen!)
+~~~
+sudo certbot certonly --webroot -w /var/www/html/ -d domain.spdns.de -m user@domain.tld --agree-tos
+~~~
+Let’s Encrypt Zertifikat automatisch aktualisieren:
+Die von Let’s Encrypt ausgestellten Zertifikate sind nur 3 Monate gültig. Mit einem Cronjob wird wöchentlich ein neues Zertifikat generiert.
+~~~
+sudo nano /etc/crontab
+# Dort vor der abschließenden Raute folgenden Befehl einfügen:
 
-
+@weekly root certbot renew
+~~~
+Das geht mit anderen DNS Anbietern ähnlich und lässt sich auch mehrfach einsetzen.
 
 
