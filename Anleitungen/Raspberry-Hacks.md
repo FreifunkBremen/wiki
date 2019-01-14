@@ -4,6 +4,8 @@
 
 Hier sind also nur ein paar Stolpersteine erwähnt, die unserer Aufmerksamkeit bedürfen!
 
+Eine wichtige Quelle ist: https://www.raspberrypi.org/documentation/
+
 ## Inhalt:
 [Kaufberatung](#inhalt_kaufberatung)
 
