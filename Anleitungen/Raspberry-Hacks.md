@@ -27,7 +27,7 @@ Hier sind also nur ein paar Stolpersteine erwähnt, die unserer Aufmerksamkeit b
 
 [Projekt DynDNS](#inhalt_projekt-dyndns)
 
-[Projekt Lets Encrypt Zertifikat](#inhalt_projekt-lets-encrypt-zertifikat)
+[Projekt Lets Encrypt Zertifikat](#inhalt_lets-encrypt-zertifikat)
 
 
 ###Kaufberatung
