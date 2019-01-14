@@ -39,7 +39,7 @@ Hier sind also nur ein paar Stolpersteine erwähnt, die unserer Aufmerksamkeit b
   </thead>
   <tbody>
     <tr>
-      <td>[Kaufberatung](#inhalt_kaufberatung)
+      <td>[Kaufberatung](https://wiki.ffhb.de/Anleitungen/Raspberry-Hacks#inhalt_kaufberatung)
 
 </td>
       <td>Inhalt</td>
