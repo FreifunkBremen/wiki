@@ -137,7 +137,10 @@ Die Konfigurationen unter /etc/ssh werden nicht angefasst. Deren Funktion ist f�
 ###Projekt Taster
 Ein Aus Reboot Taster. Tolle Sache, wenn der Pi hängt, kann mit dem Taster neu gestartet werden. Eleganter als den Netzstecker zu ziehen. Taste unter 3 Sekunden drücken, Pi bootet. Taster über 3 Sekunden drücken, Pi fährt runter. Erneutes Drücken im Aus Zustand, Pi startet.
 
-Originalbeitrag könnte sein: https://gilyes.com/pi-shutdown-button/
+Originalbeiträge: 
+https://gilyes.com/pi-shutdown-button/
+https://www.heise.de/ct/hotline/Ein-Ausschalter-fuer-Raspberry-Pi-und-Raspi-Zero-3892620.html
+Download ftp://ftp.heise.de/pub/ct/listings/1722-144.zip
 
 
 Systemd-Job für den Ausschalt-Jumper (GPIO-Pins 5+GND).
