@@ -131,6 +131,7 @@ WLAN Netwerke scannen mit:
 ~~~
 sudo iwlist wlan0 scan
 ~~~
+siehe auch: https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
 
 ###SSH Login auf dem Raspi
 Funktioniert wie auf dem Freifunkrouter. SSH Server aktivieren über:
