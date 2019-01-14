@@ -29,6 +29,28 @@ Hier sind also nur ein paar Stolpersteine erwähnt, die unserer Aufmerksamkeit b
 
 [Projekt Lets Encrypt Zertifikat](#inhalt_projekt-lets-enrypt-zertifikat)
 
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipps</th>
+      <th>Projekte</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>[Kaufberatung](#inhalt_kaufberatung)
+
+</td>
+      <td>Inhalt</td>
+    </tr>
+    <tr>
+      <td>[Netzteil](#inhalt_netzteil)</td>
+      <td>Inhalt</td>
+    </tr>
+  </tbody>
+</table>
+
 ###Kaufberatung
 Soll es nur ein Gerät sein, lohnt sich ein Bundle, damit habe ich alles zusammen, was für den Betrieb eines Raspberry benötigt wird.
 
