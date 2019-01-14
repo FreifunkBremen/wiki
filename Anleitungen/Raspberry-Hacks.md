@@ -25,13 +25,15 @@ Hier sind also nur ein paar Stolpersteine erwähnt, die unserer Aufmerksamkeit b
 
 [Projekt Nextcloud](#inhalt_projekt-nextcloud)
 
-###Kaufberatung
-Soll es nur ein Gerät sein, lohnt sich ein Bundle, damit habe ich alles zusammen für den Betrieb eines Raspberry.
+[Projekt DynDNS][#inhalt_projekt-dyndns]
 
-Werden es evtl. mehr Geräte oder es werden ein paar Besonderheiten gewünscht, lohnen sich Einzelteile.
+###Kaufberatung
+Soll es nur ein Gerät sein, lohnt sich ein Bundle, damit habe ich alles zusammen, was für den Betrieb eines Raspberry benötigt wird.
+
+Werden es evtl. mehrere Geräte oder es werden ein paar Besonderheiten gewünscht, lohnen sich Einzelteile.
 
 Warum Einzelteile?
-Micro-SD: wird mehr Speicher benötigt lohnt eine große Karte.
+Micro-SD: wird mehr Speicher benötigt lohnt eine große Karte. Die kleine Karte aus einem Bundle wäre übrig.
 
 Netzteil: Das originale Netzteil ist sehr groß und verdeckt benachbarte Steckdosen einer Leiste. Das schmale EU-Netzteil 2,5A 5,1V ist besser.
 
@@ -45,7 +47,7 @@ Gehäuse: evtl. nicht präzise für 3B+ passend, Dremel erfordelich.
 
 Kühlkörper: sind immer gut und es gibt sie in Schick, Kupfer / vergoldet.
 
-Lüfter: Es gibt besonders Geräuscharme Lüfter, Lüfter sind nicht erfordelich.
+Lüfter: Es gibt besonders Geräuscharme Lüfter, Lüfter sind aber nicht erfordelich.
 
 ###Netzteil
 Wird auf dem Monitor ein roter Blitz rechts oben eingeblendet, so liegt eine Unterspannung vor. Eine schlimme Folge ist, die Taktfrequenz wird runtergesetzt und der Pi ist deutlich langsamer.
@@ -229,4 +231,60 @@ Eine Nextcloud auf dem Pi zu istallieren ist eine recht einfache Sache. Damit di
 Meine Empfehlung: nextcloudpi
 https://github.com/nextcloud/nextcloudpi
 https://ownyourbits.com/nextcloudpi/
+
+###Projekt DynDNS
+Zwei Möglichkeiten für DynDNS als Vorschlag.
+
+DynDNS Domain bei spdyn.de
+Registriert euch zuerst bei spdyn.de und fügt über 
+euer Profil bei Hosts von Benutzer einen IPv4 Host hinzu.
+
+DynDNS-Funktion der FRITZ!Box nutzen:
+Meldet euch unter fritz.box auf eurer FRITZ!Box an und geht auf Internet > Freigaben > DynDNS
+Gebt dort folgende Daten ein:
+
+Update-URL: 
+https://update.spdyn.de/nic/update?hostname=<domain>&myip=<ipaddr> 
+Domain: Eure Domain bei spdyn
+Benutzername: euer Benutzername bei spdyn
+Passwort: euer Passwort
+
+
+Alternativ: spdyn-updater installieren:
+Alternativ könnt ihr auch den spdynu verwenden. Der spdynu wurde von canox.net für die Verwendung mit spdyn angepasst und sollte auch mit den alternativen Dynamic-DNS Anbietern funktionieren.
+~~~
+cd /home/pi/Download
+wget https://apt.canox.net/apt.canox.net.gpg.key
+sudo apt-key add apt.canox.net.gpg.key
+wget https://gitlab.com/CANOXNET/sources-lists/raw/master/ubuntu/canoxnet.list
+
+sudo mv canoxnet.list /etc/apt/sources.list.d/
+sudo apt update
+sudo apt install spdynu
+sudo systemctl enable spdynu.service
+sudo systemctl enable spdynu.timer
+sudo systemctl start spdynu.service
+sudo systemctl start spdynu.timer
+~~~
+
+Anschließend müsst ihr mit sudo nano /etc/spdynu.conf die Datei /etc/spdynu.conf anpassen. 
+~~~
+Host (euer bei spdyn erstellter Host)
+Username (euer Benutzername bei spdyn)
+Passwort (falls ihr über die Webseite einen Token generiert habt müsst ihr diesen statt des Passwortes eintragen. Wenn ihr stattdessen euer Passwort verwendet muss isToken = 1 zu isToken= 0 geändert werden)
+Das ganze sollte am Ende wie folgt aussehen:
+
+Domain: Eure Domain bei spdyn
+Benutzername: euer Benutzername bei spdyn
+Passwort: euer Passwort
+~~~
+Mit Strg + O, Enter & Strg + X speichert ihr die Datei
+Eure IP-Adresse findet ihr in der Datei /tmp/spdynuIP.cnf
+
+cat /tmp/spdynuIP.cnf
+zeigt externe IP des Routers. (geht.)
+
+
+
+
 
