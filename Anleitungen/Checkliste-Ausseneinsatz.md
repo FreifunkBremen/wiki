@@ -1,6 +1,6 @@
 Dies ist eine Anregung für Dinge, die man mitnehmen oder vorbereiten sollte, wenn man eine Freifunk-Installation aufbauen möchte. Das ist nicht immer alles nötig; aber je weiter man von Zuhause weg ist, desto besser sollte man vorbereitet und ausgerüstet sein.
 
-Zuhause vorbereiten:
+### Zuhause vorbereiten:
 - Plan machen
   - was soll gemacht werden?
   - welche Geräte sollen wo angebracht werden?
@@ -18,7 +18,7 @@ Zuhause vorbereiten:
 - Guthaben der LTE-Sim prüfen
 
 
-Immer Mitnehmen:
+### Immer Mitnehmen:
 - alle Geräte, die laut Plan gebraucht werden
 - Handy-Nummern der beteiligten Leute (Freifunker, Kontaktpersonen vor Ort)
 - Infos über mitgenommene Geräte
@@ -29,7 +29,7 @@ Immer Mitnehmen:
   - welche LAN-Ports sind wie konfiguriert? (Mesh, Client, Uplink)
 - Offline-Kopien der relevanten Tickets von tasks.ffhb.de (weil da manchmal noch wichtige Infos drinstehen und man nicht immer Internet vor Ort hat)
 
-Weitere Sachen zum Mitnehmen (in unsortierter Reihenfolge):
+### Weitere Sachen zum Mitnehmen (in unsortierter Reihenfolge):
 - kleines Werkzeug
   - Seitenschneider
   - Schraubendreher
@@ -64,3 +64,6 @@ Weitere Sachen zum Mitnehmen (in unsortierter Reihenfolge):
 - ein paar Freifunk-Flyer
 - Wasserflasche
 - was zu Essen (Süßigkeiten, Obst, Mini-Brötchen...)
+
+### Ähnliche Listen aus anderen Communities:
+* [FFMUC](https://ffmuc.net/wiki/p/Freifunk_f%C3%BCr_Asylbewerberunterk%C3%BCnfte#Praktisches_f.C3.BCr_Vor-Ort_Termine)
