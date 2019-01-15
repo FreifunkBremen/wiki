@@ -12,7 +12,7 @@ Zuhause vorbereiten:
 - zu verbauende Geräte einrichten (Firmware drauf, Knotennamen, SSH-Zugang, statische IPs)
 - Firmware für mitgenommene Geräte auf den Laptop kopieren
 - Geräte ins Inventory eintragen (mit MAC und Seriennummer)
-- Geräte beschriften (Knotennamen, MAC-Adresse, Inventar-Nummer), damit man das nicht vor Ort rausfinden per SSH muss
+- Geräte beschriften (Knotennamen, MAC-Adresse, Inventar-Nummer), damit man das nicht vor Ort per SSH rausfinden muss
 - private Gegenstände beschriften, damit man die hinterher wiederfindet
 - Geräte aufladen (Laptop, Handy, Powerbank...)
 - Guthaben der LTE-Sim prüfen
