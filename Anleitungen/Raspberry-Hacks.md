@@ -17,6 +17,8 @@ Eine wichtige Quelle ist: https://www.raspberrypi.org/documentation/
 
 [LAN Interface feste IP-Adresse](#inhalt_lan-interface-feste-ip-adresse)
 
+[LAN Interface Fallback](#inhalt_lan-interface-fallback)
+
 [WLAN Verbindung einrichten](#inhalt_wlan-verbindung-einrichten)
 
 [SSH Login auf dem Raspi](#inhalt_ssh-login-auf-dem-raspi)
@@ -101,6 +103,20 @@ static routers=192.168.178.1
 static domain_name_servers=192.168.178.1
 
 sudo /etc/init.d/networking restart
+~~~
+
+###LAN Interface Fallback
+Der Pi bekommt normalerweise eine IP Adresse per DHCP zugewiesen. Es gibt eine Möglichkeit, das LAN-Interface so zu konfigurieren, das der Pi vom Router eine IP per DHCP bekommt und wenn er an einen PC angesteckt wird, eine statische IP hat. Dazu wird in der Datei: /etc/dhcpcd.conf am Ende die Fallbackeinstellung aktiviert.
+~~~
+# It is possible to fall back to a static IP if DHCP fails:
+# define static profile
+profile static_eth0
+static ip_address=192.168.1.2/24
+static routers=192.168.1.1
+static domain_name_servers=192.168.1.1 8.8.8.8
+# fallback to static profile on eth0
+interface eth0
+fallback static_eth0
 ~~~
 
 ###WLAN Verbindung einrichten
