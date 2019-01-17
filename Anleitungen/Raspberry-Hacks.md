@@ -222,7 +222,7 @@ guest only = yes
 guest account = nobody
 browsable = yes
 ~~~
-Dienst neu starten, fertig: 	~sudo /etc/init.d/samba restart~
+Dienst neu starten, fertig: 	`sudo /etc/init.d/samba restart`
 Passwort Zugriff. Am Ende folgendes erweitern:
 ~~~
 [Privat]
@@ -231,7 +231,7 @@ available = yes
 guest ok = no
 browsable = yes
 writeable = no
-valid users = pi
+valid users = neuerbenutzer
 ~~~
 Wenn es ein Benutzer sein soll, der sich nicht am System anmelden kann, diesen einrichten und deaktivieren. (–disable-login):
 ~~~
@@ -347,7 +347,7 @@ DynDNS-Funktion der FRITZ!Box nutzen:
 Meldet euch unter fritz.box auf eurer FRITZ!Box an und geht auf Internet > Freigaben > DynDNS
 Gebt dort folgende Daten ein:
 
-Update-URL: 
+**Update-URL:**
 https://update.spdyn.de/nic/update?hostname=<domain>&myip=<ipaddr> 
 Domain: Eure Domain bei spdyn
 Benutzername: euer Benutzername bei spdyn
@@ -371,7 +371,7 @@ sudo systemctl start spdynu.service
 sudo systemctl start spdynu.timer
 ~~~
 
-Anschließend müsst ihr mit sudo nano /etc/spdynu.conf die Datei /etc/spdynu.conf anpassen. 
+Anschließend müsst ihr mit`sudo nano /etc/spdynu.conf` die Datei /etc/spdynu.conf anpassen. 
 ~~~
 Host (euer bei spdyn erstellter Host)
 Username (euer Benutzername bei spdyn)
