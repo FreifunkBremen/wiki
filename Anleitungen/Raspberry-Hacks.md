@@ -172,6 +172,45 @@ Zeile 61:
   fi
 ~~~
 
+
+####FILE /etc/hostapd/hostapd.conf 2,4 Ghz
+~~~
+interface=wlan0       # the interface used by the AP
+hw_mode=g             # g simply means 2.4GHz band
+channel=10            # the channel to use
+ieee80211d=1          # limit the frequencies used to those allowed in the country
+country_code=DE       # the country code
+ieee80211n=1          # 802.11n support
+wmm_enabled=1         # QoS support
+
+ssid=somename         # the name of the AP
+auth_algs=1           # 1=wpa, 2=wep, 3=both
+wpa=2                 # WPA2 only
+wpa_key_mgmt=WPA-PSK  
+rsn_pairwise=CCMP
+wpa_passphrase=somepassword
+~~~
+802.11a/n/ac with WPA2-PSK and CCMP. A simple but secure AP for recent hardware:
+
+####FILE /etc/hostapd/hostapd.conf 5 Ghz
+~~~
+interface=wlan0       # the interface used by the AP
+hw_mode=a             # a simply means 5GHz
+channel=0             # the channel to use, 0 means the AP will search for the channel with the least interferences 
+ieee80211d=1          # limit the frequencies used to those allowed in the country
+country_code=DE       # the country code
+ieee80211n=1          # 802.11n support
+ieee80211ac=1         # 802.11ac support
+wmm_enabled=1         # QoS support
+
+ssid=somename         # the name of the AP
+auth_algs=1           # 1=wpa, 2=wep, 3=both
+wpa=2                 # WPA2 only
+wpa_key_mgmt=WPA-PSK 
+rsn_pairwise=CCMP
+wpa_passphrase=somepassword
+~~~
+
 ###SSH Login auf dem Raspi
 Funktioniert wie auf dem Freifunkrouter. SSH Server aktivieren über:
 ~~~
