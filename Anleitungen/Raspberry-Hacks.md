@@ -7,33 +7,21 @@ Hier sind also nur ein paar Stolpersteine erwähnt, die unserer Aufmerksamkeit b
 Eine wichtige Quelle ist: https://www.raspberrypi.org/documentation/
 
 ## Inhalt:
-[Kaufberatung](#inhalt_kaufberatung)
-
-[Netzteil](#inhalt_netzteil)
-
-[Monitor](#inhalt_monitor)
-
-[Serielle Schnittstelle](#inhalt_serielle-schnittstelle)
-
-[LAN Interface feste IP-Adresse](#inhalt_lan-interface-feste-ip-adresse)
-
-[LAN Interface Fallback](#inhalt_lan-interface-fallback)
-
-[WLAN Verbindung einrichten](#inhalt_wlan-verbindung-einrichten)
-
-[WLAN Access Point einrichten](#inhalt_wlan-access-point-einrichten)
-
-[SSH Login auf dem Raspi](#inhalt_ssh-login-auf-dem-raspi)
-
-[Projekt Taster](#inhalt_projekt-taster)
-
-[Projekt Webserver](#inhalt_projekt-webserver)
-
-[Projekt Nextcloud](#inhalt_projekt-nextcloud)
-
-[Projekt DynDNS](#inhalt_projekt-dyndns)
-
-[Projekt Lets Encrypt Zertifikat](#inhalt_lets-encrypt-zertifikat)
+- [Kaufberatung](#inhalt_kaufberatung)
+- [Netzteil](#inhalt_netzteil)
+- [Monitor](#inhalt_monitor)
+- [Serielle Schnittstelle](#inhalt_serielle-schnittstelle)
+- [LAN Interface feste IP-Adresse](#inhalt_lan-interface-feste-ip-adresse)
+- [LAN Interface Fallback](#inhalt_lan-interface-fallback)
+- [WLAN Verbindung einrichten](#inhalt_wlan-verbindung-einrichten)
+- [WLAN Access Point einrichten](#inhalt_wlan-access-point-einrichten)
+- [SSH Login auf dem Raspi](#inhalt_ssh-login-auf-dem-raspi)
+- [SAMBA Verzeichnisfreigabe](#inhalt_samba-verzeichnisfreigabe)
+- [Projekt Taster](#inhalt_projekt-taster)
+- [Projekt Webserver](#inhalt_projekt-webserver)
+- [Projekt Nextcloud](#inhalt_projekt-nextcloud)
+- [Projekt DynDNS](#inhalt_projekt-dyndns)
+- [Projekt Lets Encrypt Zertifikat](#inhalt_lets-encrypt-zertifikat)
 
 
 ###Kaufberatung
@@ -208,6 +196,49 @@ sudo raspi-config
 In den Homeverzeichnissen der angelegten Benutzer das Verzeichnis .ssh erstellen. Dorthin die Datei authorized_keys mit unserem Schlüssel kopieren.
 
 Die Konfigurationen unter /etc/ssh werden nicht angefasst. Deren Funktion ist für den SSH Zugriff nicht genau geklärt, alle Einstellungen sind auskommentiert. (Forschungsarbeit notwendig). So wie es aussieht, sind diese Konfigdateien für ältere Raspbian-Versionen gedacht. Auf der aktuellen Version ist es schon automatisch aktiv.
+
+###SAMBA Verzeichnisfreigabe
+Ordner für den Netzwerkzugriff freigeben, geht einfach über Samba.
+- Installieren:
+~~~
+sudo apt-get install samba
+~~~
+Das Paket hat jede Menge Abhängigkeiten, die Installation dauert etwas.
+
+- Konfiguration:
+Die gesamte Konfiguration von Samba beziehungsweise dem SMB Dienst funktioniert über dessen Konfigurationsdatei /etc/samba/smb.conf.
+
+Freier Zugriff. Am Ende folgendes erweitern:
+~~~
+sudo nano /etc/samba/smb.conf
+~~~
+~~~
+[Videos]
+path = /home/pi/Videos
+writeable = no
+public = yes
+guest ok = yes
+guest only = yes
+guest account = nobody
+browsable = yes
+~~~
+Dienst neu starten, fertig: 	~sudo /etc/init.d/samba restart~
+Passwort Zugriff. Am Ende folgendes erweitern:
+~~~
+[Privat]
+path = /home/pi/MeineDaten
+available = yes
+guest ok = no
+browsable = yes
+writeable = no
+valid users = pi
+~~~
+Wenn es ein Benutzer sein soll, der sich nicht am System anmelden kann, diesen einrichten und deaktivieren. (–disable-login):
+~~~
+sudo adduser --disabled-login neuerbenutzer
+sudo smbpasswd -a neuerbenutzer
+sudo /etc/init.d/samba restart
+~~~
 
 ###Projekt Taster
 Ein Aus Reboot Taster. Tolle Sache, wenn der Pi hängt, kann mit dem Taster neu gestartet werden. Eleganter als den Netzstecker zu ziehen. Taste unter 3 Sekunden drücken, Pi bootet. Taster über 3 Sekunden drücken, Pi fährt runter. Erneutes Drücken im Aus Zustand, Pi startet.
