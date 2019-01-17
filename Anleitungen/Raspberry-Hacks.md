@@ -21,6 +21,8 @@ Eine wichtige Quelle ist: https://www.raspberrypi.org/documentation/
 
 [WLAN Verbindung einrichten](#inhalt_wlan-verbindung-einrichten)
 
+[WLAN Access Point einrichten](#inhalt_wlan-access-point-einrichten)
+
 [SSH Login auf dem Raspi](#inhalt_ssh-login-auf-dem-raspi)
 
 [Projekt Taster](#inhalt_projekt-taster)
@@ -148,6 +150,11 @@ WLAN Netwerke scannen mit:
 sudo iwlist wlan0 scan
 ~~~
 siehe auch: https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
+
+###WLAN Access Point einrichten
+Den Pi als WLAN Access Point nutzen und über den LAN Anschluß mit einem Router verbinden. Für dieses Scenario gibt es viele Anwendungsfälle, wie z.B. über den PI Medien verwenden (Bilder / Video / Musik) wenn er nicht am Netz hängt.
+Dieses Thema wird sehr häufig im Netz diskutiert und es gibt nur wenig brauchbare Lösungen. Eine recht gute ist hier zu finden:
+https://github.com/damiencaselli/rpi3-hotspot
 
 ###SSH Login auf dem Raspi
 Funktioniert wie auf dem Freifunkrouter. SSH Server aktivieren über:
