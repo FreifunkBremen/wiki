@@ -156,6 +156,22 @@ Den Pi als WLAN Access Point nutzen und über den LAN Anschluß mit einem Router
 Dieses Thema wird sehr häufig im Netz diskutiert und es gibt nur wenig brauchbare Lösungen. Eine recht gute ist hier zu finden:
 https://github.com/damiencaselli/rpi3-hotspot
 
+Zur Beachtung:
+Der Pi 3B+ ist Dualbandfähig, kann als Hotspot nur auf 2,4 oder 5 Ghz funken. Eine Konfiguration für WLAN0 = 2,4Ghz & WLAN1=5Ghz existiert noch nicht.
+Die Einstellparameter für 2,4 oder 5 Ghz sich hier zu finden:
+https://wiki.gentoo.org/wiki/Hostapd#Access_Point
+
+Damit die oben beschriebene Lösung auf dem 3B+ funktioniert ist eine Änderung in /usr/bin/rpi-access-point notwendig.
+Zeile 61:
+~~~
+  if pgrep wpa_supplicant; then
+    log "Stopping wpa_supplicant"
+    wpa_pid=$(pgrep wpa_supplicant)  ## liefert beim 3B+ 2 PIDs in wpa_pid zurück
+    #kill "$wpa_pid"                 ## diable Line 61
+    pkill -x wpa_supplicant          ## beende Gruppe wpa_supplicant
+  fi
+~~~
+
 ###SSH Login auf dem Raspi
 Funktioniert wie auf dem Freifunkrouter. SSH Server aktivieren über:
 ~~~
