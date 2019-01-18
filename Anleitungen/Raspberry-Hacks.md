@@ -46,6 +46,7 @@ sudo nano /boot/config.txt
 
 avoid_warnings=2
 ~~~
+Achtung: Bei zu geringer Betriebsspannung funktionieren keine externen USB Festplatten. Hier ist ein Raspi Netzteil mit 5,1V zu Verwenden.
 ###Monitor
 Viele Monitore funktionieren nicht korrekt am Raspi. Der häufigste Fehler ist der schwarze Rand, also ein kleiners Bild. Viele Monitorprobleme können über die Datei /boot/config.txt korrigiert werden.
 ~~~
