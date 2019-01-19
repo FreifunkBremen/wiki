@@ -65,5 +65,7 @@ Dies ist eine Anregung für Dinge, die man mitnehmen oder vorbereiten sollte, we
 - Wasserflasche
 - was zu Essen (Süßigkeiten, Obst, Mini-Brötchen...)
 
+- Nach Möglichkeit Akku + 220V-Wandler
+
 ### Ähnliche Listen aus anderen Communities:
 * [FFMUC](https://ffmuc.net/wiki/p/Freifunk_f%C3%BCr_Asylbewerberunterk%C3%BCnfte#Praktisches_f.C3.BCr_Vor-Ort_Termine)
