@@ -39,7 +39,7 @@ Warum Einzelteile?
 
 ###Netzteil
 Wird auf dem Monitor ein roter Blitz rechts oben eingeblendet, so liegt eine Unterspannung vor. Eine schlimme Folge ist, die Taktfrequenz wird runtergesetzt und der Pi ist deutlich langsamer.
-Kann das Netzteil genug Strom liefern, so kann die Überwachung auf Unterspannung abgeschaltet werden.
+Kann das Netzteil nicht genug Strom liefern, bzw. hat weniger als 5,1V so kann die Überwachung auf Unterspannung abgeschaltet werden.
 Mit den Editor nano im Terminalfenster die Datei config.txt öffnen
 ~~~
 sudo nano /boot/config.txt
@@ -47,6 +47,8 @@ sudo nano /boot/config.txt
 avoid_warnings=2
 ~~~
 Achtung: Bei zu geringer Betriebsspannung funktionieren keine externen USB Festplatten. Hier ist ein Raspi Netzteil mit 5,1V zu Verwenden.
+Laut Spezifikation benötigt der Raspberry Pi eine Spannung von 4,75 – 5,25 Volt. Meine Empfehlung ist folgendes Netzteil: https://www.reichelt.de/raspberry-pi-ladegeraet-5-v-2-5-a-micro-usb-schwarz-rasp-nt-25-sw-e-p240934.html?&trstct=pos_5
+
 ###Monitor
 Viele Monitore funktionieren nicht korrekt am Raspi. Der häufigste Fehler ist der schwarze Rand, also ein kleiners Bild. Viele Monitorprobleme können über die Datei /boot/config.txt korrigiert werden.
 ~~~
