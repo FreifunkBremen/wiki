@@ -135,6 +135,7 @@ siehe auch: https://www.raspberrypi.org/documentation/configuration/wireless/wir
 Den Pi als WLAN Access Point nutzen und über den LAN Anschluß mit einem Router verbinden. Für dieses Scenario gibt es viele Anwendungsfälle, wie z.B. über den PI Medien verwenden (Bilder / Video / Musik) wenn er nicht am Netz hängt.
 Dieses Thema wird sehr häufig im Netz diskutiert und es gibt nur wenig brauchbare Lösungen. Eine recht gute ist hier zu finden:
 https://github.com/damiencaselli/rpi3-hotspot
+http://www.linux-ratgeber.de/den-raspberry-pi-als-wlan-hotspot-einrichten/
 
 Zur Beachtung:
 Der Pi 3B+ ist Dualbandfähig, kann als Hotspot nur auf 2,4 oder 5 Ghz funken. Eine Konfiguration für WLAN0 = 2,4Ghz & WLAN1=5Ghz existiert noch nicht.
