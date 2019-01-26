@@ -36,7 +36,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **Veröffentlichung auf dem `testing`-Branch**: [04.01.2018](https://downloads.bremen.freifunk.net/firmware/all/2018.2+bremen3/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2018.2+bremen3) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2018.2+bremen3)  
 **gluon-Version**: [2018.1.2](#gluon-versionen_2018-2)  
-**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2018.2+bremen13/)
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2018.2+bremen3/)
 
 * TODO: Änderungen
 
@@ -753,6 +753,120 @@ Der Quellcode von Gluon liegt bei [Github](https://github.com/freifunk-gluon/glu
 Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) einsehbar.
 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
+
+### 2018.2
+**Veröffentlichungsdatum**: TODO  
+**offizielle Versionshinweise**: [2018.2](https://gluon.readthedocs.io/en/v2018.2/releases/v2018.2.html)  
+**Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2018.2/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2018.2) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2018.2)
+
+#### Fehlerbehebungen
+TODO
+
+#### Neuerungen
+TODO
+
+#### neue Geräte-Unterstützung
+TODO
+
+#### Umstellungen
+TODO
+
+
+### 2018.1.4
+**Veröffentlichungsdatum**: TODO  
+**offizielle Versionshinweise**: [2018.1.4](https://gluon.readthedocs.io/en/v2018.1.4/releases/v2018.1.4.html)  
+**Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2018.1.4/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2018.1.4) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2018.1.4)
+
+#### Fehlerbehebungen
+TODO
+
+#### Neuerungen
+TODO
+
+#### neue Geräte-Unterstützung
+TODO
+
+#### Umstellungen
+TODO
+
+
+### 2018.1.3
+**Veröffentlichungsdatum**: TODO  
+**offizielle Versionshinweise**: [2018.1.3](https://gluon.readthedocs.io/en/v2018.1.3/releases/v2018.1.3.html)  
+**Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2018.1.3/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2018.1.3) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2018.1.3)
+
+#### Fehlerbehebungen
+TODO
+
+#### Neuerungen
+TODO
+
+#### neue Geräte-Unterstützung
+TODO
+
+#### Umstellungen
+TODO
+
+
+### 2018.1.2
+**Veröffentlichungsdatum**: TODO  
+**offizielle Versionshinweise**: [2018.1.2](https://gluon.readthedocs.io/en/v2018.1.2/releases/v2018.1.2.html)  
+**Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2018.1.2/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2018.1.2) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2018.1.2)
+
+#### Fehlerbehebungen
+TODO
+
+#### Neuerungen
+TODO
+
+#### neue Geräte-Unterstützung
+TODO
+
+#### Umstellungen
+TODO
+
+
+### 2018.1.1
+**Veröffentlichungsdatum**: TODO  
+**offizielle Versionshinweise**: [2018.1.1](https://gluon.readthedocs.io/en/v2018.1.1/releases/v2018.1.1.html)  
+**Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2018.1.1/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2018.1.1) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2018.1.1)
+
+#### Fehlerbehebungen
+TODO
+
+#### Neuerungen
+TODO
+
+#### neue Geräte-Unterstützung
+TODO
+
+#### Umstellungen
+TODO
+
+
+### 2018.1
+**Veröffentlichungsdatum**: TODO  
+**offizielle Versionshinweise**: [2018.1](https://gluon.readthedocs.io/en/v2018.1/releases/v2018.1.html)  
+**Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2018.1/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2018.1) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2018.1)
+
+#### Fehlerbehebungen
+TODO
+
+#### Neuerungen
+TODO
+
+#### neue Geräte-Unterstützung
+TODO
+
+#### Umstellungen
+TODO
+
 
 ### 2017.1.8
 **Veröffentlichungsdatum**: 30.04.2018  
