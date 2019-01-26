@@ -855,17 +855,43 @@ TODO
 **Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2018.1/index.html#supported-devices-architectures)  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2018.1) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2018.1)
 
-#### Fehlerbehebungen
-TODO
-
 #### Neuerungen
-TODO
+Zu viele neue Features, um sie hier detailliert zu beschreiben: Feature Flags, Multidomain-Support, VXLAN für Kabel-Mesh-Verbindungen, IGMP/MLD-Segmentierung, gluon-ebtables-limit-arp, verbesserte Statusseite...
 
-#### neue Geräte-Unterstützung
-TODO
+#### Neue Geräte-Unterstützung
+
+- A5
+  - V11 (nur 11s-Mesh)
+- ALFA NETWORK
+  - AP121F
+- AVM
+  - FRITZ!Box 4020
+- D-Link
+  - DIR615 (D1, D2, D3, D4, H1) (nur 11s-Mesh)
+- GL Innovations
+  - GL-MT300A (nur 11s-Mesh)
+  - GL-MT300N (nur 11s-Mesh)
+  - GL-MT750 (nur 11s-Mesh)
+- LeMaker
+  - Banana Pi (M1)
+- OpenMesh
+  - A40
+  - A60
+  - OM2P v4
+  - OM2P-HS v4
+- TP-Link
+  - Archer C2600 (nur 11s-Mesh)
+  - Archer C59 v1 (nur 11s-Mesh)
+  - CPE210 v2
+  - TL-WA901ND v5
+- VoCore
+  - VoCore 2 (nur 11s-Mesh)
+  - VoCore (8MB, 16MB) (nur 11s-Mesh)
+- ZyXEL
+  - NBG6716
 
 #### Umstellungen
-TODO
+- auf einigen Geräten (TP-Link CPE/WBS 210/510) wird jetzt für den Flash-Speicher ein neues Layout verwendet. Deshalb sollte vor dem Upgrade auf die 2018.1 zuerst die 2017.1.8 installiert werden.
 
 
 ### 2017.1.8
