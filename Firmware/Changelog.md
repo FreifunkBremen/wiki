@@ -780,16 +780,7 @@ TODO
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2018.1.4) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2018.1.4)
 
 #### Fehlerbehebungen
-TODO
-
-#### Neuerungen
-TODO
-
-#### neue Geräte-Unterstützung
-TODO
-
-#### Umstellungen
-TODO
+- der Fehler beim Versionsvergleich von Firmware-Updates wurde behoben ([#208](https://github.com/freifunk-gluon/packages/issues/208)). In diesem Zuge wurden auch gleich die Regeln für den Versionsvergleich angepasst, dass sie jetzt den Regeln von opkg/dpkg entsprechen.
 
 
 ### 2018.1.3
@@ -799,16 +790,7 @@ TODO
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2018.1.3) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2018.1.3)
 
 #### Fehlerbehebungen
-TODO
-
-#### Neuerungen
-TODO
-
-#### neue Geräte-Unterstützung
-TODO
-
-#### Umstellungen
-TODO
+- der Fehler beim Laden von Kernel-Modulen (der u.a. den batman-adv-Treiber betraf) wurde behoben ([#1580](https://github.com/freifunk-gluon/gluon/issues/1580))
 
 
 ### 2018.1.2
@@ -816,6 +798,9 @@ TODO
 **offizielle Versionshinweise**: [2018.1.2](https://gluon.readthedocs.io/en/v2018.1.2/releases/v2018.1.2.html)  
 **Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2018.1.2/index.html#supported-devices-architectures)  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2018.1.2) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2018.1.2)
+
+### Neue Fehler
+- diese Version hat einen Fehler, wodurch beim Laden von Kernel-Modulen die Abhängigkeiten nicht korrekt geladen werden ([#1580](https://github.com/freifunk-gluon/gluon/issues/1580)). Dadurch konnte unter bestimmten Umständen der batman-adv-Treiber nicht geladen werden, und das Gerät war nicht im Mesh-Netztwerk erreichbar.
 
 #### Fehlerbehebungen
 - respondd schickt jetzt die vollständige Liste der IPv6-Adressen eines Knotens ([#1523](https://github.com/freifunk-gluon/gluon/issues/1523))
@@ -847,6 +832,8 @@ TODO
 #### Neue Fehler
 - diese Version hat einen Fehler im Autoupdate-System, wodurch es zum Verlust der Knoten-Konfiguration kommen kann, wenn beim Update ein Download-Mirror verwendet wird ([#1496](https://github.com/freifunk-gluon/gluon/issues/1496)).
 - diese Version hat einen Fehler beim Versenden von ARP-Paketen, wodurch der Knoten von seinen Nutzern evtl. nicht mehr per IPv4 erreichbar ist ([#1488](https://github.com/freifunk-gluon/gluon/issues/1488)).
+- diese Version hat einen Fehler im Autoupdate-Systen, wodurch beim Vergleich von Firmware-Versionen in manchen Fällen eine neuere Version nicht als solche erkannt wurde ([#208](https://github.com/freifunk-gluon/packages/issues/208))
+
 
 #### Neuerungen
 Zu viele neue Features, um sie hier detailliert zu beschreiben: Feature Flags, Multidomain-Support, VXLAN für Kabel-Mesh-Verbindungen, IGMP/MLD-Segmentierung, gluon-ebtables-limit-arp, verbesserte Statusseite...
