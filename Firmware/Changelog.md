@@ -26,9 +26,109 @@ Experimentelle Firmware-Versionen werden nicht offiziell unterstützt und werden
 Branch        | aktuelle Version                                                    | signed by
 ---           | ---                                                                 | ---
 **`stable`**  | [2017.1.8+bremen1](#freifunk-bremen-versionen_2017-1-8-bremen1)     | `oliver`, `JP`, `janeric`, `SimJoSt`
-**`testing`** | [2017.1.8+bremen1](#freifunk-bremen-versionen_2017-1-8-bremen1)     | `nightly-builder`, `SimJoSt`
+**`testing`** | [2018.2+bremen3](#freifunk-bremen-versionen_2018-2-bremen3)     | `nightly-builder`, `oliver`
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
+
+
+### 2018.2+bremen3
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: [04.01.2018](https://downloads.bremen.freifunk.net/firmware/all/2018.2+bremen3/sysupgrade/testing.manifest)  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2018.2+bremen3) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2018.2+bremen3)  
+**gluon-Version**: [2018.1.2](#gluon-versionen_2018-2)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2018.2+bremen13/)
+
+* TODO: Änderungen
+
+
+### 2018.2+bremen2
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: nie  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2018.2+bremen2) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2018.2+bremen2)  
+**gluon-Version**: [2018.1.2](#gluon-versionen_2018-2)  
+**Download**: (nicht erfolgreich gebaut)
+
+* TODO: Änderungen
+
+
+### 2018.2+bremen1
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: nie  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2018.2+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2018.2+bremen1)  
+**gluon-Version**: [2018.1.2](#gluon-versionen_2018-2)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2018.2+bremen1/)
+
+* TODO: Änderungen
+
+
+### 2018.1.4+bremen1
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: nie  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2018.1.4+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2018.1.4+bremen1)  
+**gluon-Version**: [2018.1.2](#gluon-versionen_2018-1-4)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2018.1.4+bremen1/)
+
+* TODO: Änderungen
+
+
+### 2018.1.3+bremen1
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: nie  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2018.1.3+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2018.1.3+bremen1)  
+**gluon-Version**: [2018.1.3](#gluon-versionen_2018-1-3)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2018.1.3+bremen1/)
+
+* TODO: Änderungen
+
+
+### 2018.1.2+bremen1
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: nie  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2018.1.2+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2018.1.2+bremen1)  
+**gluon-Version**: [2018.1.2](#gluon-versionen_2018-1-2)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2018.1.2+bremen1/)
+
+* TODO: Änderungen
+
+
+### 2018.1.1+bremen3
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: nie  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2018.1.1+bremen3) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2018.1.1+bremen3)  
+**gluon-Version**: [2018.1.1](#gluon-versionen_2018-1-1)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2018.1.1+bremen3/)
+
+* TODO: Änderungen
+
+
+### 2018.1.1+bremen2
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: nie  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2018.1.1+bremen2) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2018.1.1+bremen2)  
+**gluon-Version**: [2018.1.1](#gluon-versionen_2018-1-1)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2018.1.1+bremen2/)
+
+* TODO: Änderungen
+
+
+### 2018.1.1+bremen1
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: [19.10.2018](https://downloads.bremen.freifunk.net/firmware/all/2018.1.1+bremen1/sysupgrade/testing.manifest)  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2018.1.1+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2018.1.1+bremen1)  
+**gluon-Version**: [2018.1.1](#gluon-versionen_2018-1-1)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2018.1.1+bremen1/)
+
+* TODO: Änderungen
+
+
+### 2018.1+bremen1
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: nie  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2018.1+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2018.1+bremen1)  
+**gluon-Version**: [2018.1](#gluon-versionen_2018-1)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2018.1+bremen1/)
+
+* TODO: Änderungen
 
 
 ### 2017.1.8+bremen1
