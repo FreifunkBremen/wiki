@@ -755,26 +755,49 @@ Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
 
 ### 2018.2
-**Veröffentlichungsdatum**: TODO  
+**Veröffentlichungsdatum**: 29.12.2018  
 **offizielle Versionshinweise**: [2018.2](https://gluon.readthedocs.io/en/v2018.2/releases/v2018.2.html)  
 **Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2018.2/index.html#supported-devices-architectures)  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2018.2) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2018.2)
 
-#### Fehlerbehebungen
-TODO
-
 #### Neuerungen
-TODO
+- Gluon basiert ab jetzt wieder auf OpenWRT statt auf LEDE (nachdem LEDE und OpenWRT wieder zusammengeführt wurden)
+- im Config-Mode kann eine Karte eingeblendet werden, damit der Benutzer die Knoten-Position leichter eintragen kann
+- es gibt jetzt experimentelle Unterstützung für das Babel-Protokoll
+- die Mengenbegrenzung für ARP-Pakete (aus dem "gluon-ebtables-limit-arp"-Paket) ist jetzt standardmäßig aktiv
 
-#### neue Geräte-Unterstützung
-TODO
-
-#### Umstellungen
-TODO
+#### Neue Geräte-Unterstützung
+- AVM
+  - Fritz!WLAN Repeater 450E
+  - FRITZ!Box 4040 (nur 11s-Mesh)
+- D-Link
+  - DIR-860L B1 (nur 11s-Mesh)
+- GL.iNet
+  - GL-B1300 (nur 11s-Mesh)
+- NETGEAR
+  - EX6100v2 (nur 11s-Mesh)
+  - EX6150v2 (nur 11s-Mesh)
+- OCEDO
+  - Koala
+- OpenMesh
+  - A42 (nur 11s-Mesh)
+  - A62 (nur 11s-Mesh)
+- TP-Link
+  - Archer C7 v5
+  - TL-WR810N v1
+- Ubiquiti
+  - UniFi AC Mesh Pro
+- ZBT
+  - WG3526-16M (nur 11s-Mesh)
+  - WG3526-32M (nur 11s-Mesh)
+- ZyXEL
+  - NBG6616
+  - NBG6617 (nur 11s-Mesh)
+  - WRE6606 (nur 11s-Mesh)
 
 
 ### 2018.1.4
-**Veröffentlichungsdatum**: TODO  
+**Veröffentlichungsdatum**: 20.12.2018  
 **offizielle Versionshinweise**: [2018.1.4](https://gluon.readthedocs.io/en/v2018.1.4/releases/v2018.1.4.html)  
 **Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2018.1.4/index.html#supported-devices-architectures)  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2018.1.4) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2018.1.4)
@@ -784,7 +807,7 @@ TODO
 
 
 ### 2018.1.3
-**Veröffentlichungsdatum**: TODO  
+**Veröffentlichungsdatum**: 26.11.2018  
 **offizielle Versionshinweise**: [2018.1.3](https://gluon.readthedocs.io/en/v2018.1.3/releases/v2018.1.3.html)  
 **Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2018.1.3/index.html#supported-devices-architectures)  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2018.1.3) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2018.1.3)
@@ -794,7 +817,7 @@ TODO
 
 
 ### 2018.1.2
-**Veröffentlichungsdatum**: TODO  
+**Veröffentlichungsdatum**: 20.11.2018  
 **offizielle Versionshinweise**: [2018.1.2](https://gluon.readthedocs.io/en/v2018.1.2/releases/v2018.1.2.html)  
 **Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2018.1.2/index.html#supported-devices-architectures)  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2018.1.2) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2018.1.2)
@@ -812,7 +835,7 @@ TODO
 
 
 ### 2018.1.1
-**Veröffentlichungsdatum**: TODO  
+**Veröffentlichungsdatum**: 28.08.2018  
 **offizielle Versionshinweise**: [2018.1.1](https://gluon.readthedocs.io/en/v2018.1.1/releases/v2018.1.1.html)  
 **Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2018.1.1/index.html#supported-devices-architectures)  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2018.1.1) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2018.1.1)
@@ -824,7 +847,7 @@ TODO
 
 
 ### 2018.1
-**Veröffentlichungsdatum**: TODO  
+**Veröffentlichungsdatum**: 08.07.2018  
 **offizielle Versionshinweise**: [2018.1](https://gluon.readthedocs.io/en/v2018.1/releases/v2018.1.html)  
 **Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2018.1/index.html#supported-devices-architectures)  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2018.1) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2018.1)
@@ -839,7 +862,6 @@ TODO
 Zu viele neue Features, um sie hier detailliert zu beschreiben: Feature Flags, Multidomain-Support, VXLAN für Kabel-Mesh-Verbindungen, IGMP/MLD-Segmentierung, gluon-ebtables-limit-arp, verbesserte Statusseite...
 
 #### Neue Geräte-Unterstützung
-
 - A5
   - V11 (nur 11s-Mesh)
 - ALFA NETWORK
