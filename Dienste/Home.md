@@ -1,7 +1,7 @@
 Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Dienste anbieten, die wir auf dieser Seite sammeln wollen:
 
 * [Wikipedia-Mirror (mit Bildern)](http://wikipedia.ffhb.de)
-* [Meshviewer / map.bremen.freifunk.net / map.ffhb.de](https://map.bremen.freifunk.net/) interessante Darstellung unseres Netzes mit Daten zu Punkten wie einer Übersicht (neue und verschwundene Router), Knoten (alle Netzknoten mit Uptime und Anzahl der verbundenen Geräte), Verbindungen (Verbindungs-Qualität und Entfernung der im Router hinterlegten Geo-Koordinatender Funkstrecken) und Statistiken (eingesetzte Software/Hardware, Software- und Softwareupdate-Mechanismen).
+* [Meshviewer / map.bremen.freifunk.net / map.ffhb.de](https://map.bremen.freifunk.net/) interessante Darstellung unseres Netzes mit Daten zu Punkten wie einer Übersicht (neue und verschwundene yRouter), Knoten (alle Netzknoten mit Uptime und Anzahl der verbundenen Geräte), Verbindungen (Verbindungs-Qualität und Entfernung der im Router hinterlegten Geo-Koordinatender Funkstrecken) und Statistiken (eingesetzte Software/Hardware, Software- und Softwareupdate-Mechanismen).
 * [grafana.bremen.freifunk.net / grafana.ffhb.de](https://grafana.bremen.freifunk.net) ist zur Darstellung von Werten über die Zeit hinweg (genauer siehe unsere [Datenschutz](Infrastruktur/Datenschutz)-Seite). Der Meshviewer zeigt einige Diagramme hieraus.
 * [node.ffhb.de / node.bremen.freifunk.net](http://node.ffhb.de) Netzwerk-Daten wie IP-Adressen und Uptime-Infos von dem Router, mit dem man gerade physisch verbunden ist. Eventuell auch Links zum nächsten Router, falls verfügbar.
 * [VPN-Server-Status](http://status.bremen.freifunk.net/) Zeigt den Status der VPN-Server an, gemessen von mehreren Monitoring-Clients im Freifunk-Netz.
@@ -38,6 +38,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.136 gatemon-plutex, mortzu
     * 10.196.0.137 gatemon-yannik, yannik
     * 10.196.0.139 gatemon-banane, yannik
+    * 10.196.0.141 gatemon-yannik2, yannik
     * 10.196.0.200 Dienste von jplitza
     * 10.196.0.250 gatemon-oliverspi, ollibaba
     * 10.196.1.0/24 Richtfunk-Management
