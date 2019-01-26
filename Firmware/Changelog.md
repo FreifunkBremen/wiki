@@ -38,7 +38,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **gluon-Version**: [2018.2](#gluon-versionen_2018-2)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2018.2+bremen3/)
 
-* TODO: Änderungen
+* keine Änderungen; das Release ist identisch mit [2018.2+bremen1](#freifunk-bremen-versionen_2018-2-bremen1). Die Versionsnummer wurde nur geändert, um einen Neubau zu erzwingen.
 
 
 ### 2018.2+bremen2
@@ -48,7 +48,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **gluon-Version**: [2018.2](#gluon-versionen_2018-2)  
 **Download**: (nicht erfolgreich gebaut)
 
-* TODO: Änderungen
+* keine Änderungen; das Release ist identisch mit [2018.2+bremen1](#freifunk-bremen-versionen_2018-2-bremen1). Die Versionsnummer wurde nur geändert, um einen Neubau zu erzwingen.
 
 
 ### 2018.2+bremen1
@@ -58,8 +58,17 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **gluon-Version**: [2018.2](#gluon-versionen_2018-2)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2018.2+bremen1/)
 
-* TODO: Änderungen
-
+- **Update auf [Gluon 2018.2](#gluon-versionen_2018-2)**
+  - Gluon basiert ab jetzt wieder auf OpenWRT statt auf LEDE (nachdem LEDE und OpenWRT wieder zusammengeführt wurden)
+  - die Menge an ARP-Paketen, die ein Endgeräte versenden darf, ist jetzt [begrenzt](https://gluon.readthedocs.io/en/v2018.2/package/gluon-ebtables-limit-arp.html): es dürfen bis zu 6 Pakete pro Minute und 1 Paket pro Sekunde verschickt werden (sowie ein "Burst" von bis zu 50 Paketen). Davon ausgenommen sind Anfragen nach MAC-Adressen, die schon von anderen Clients angefragt wurden (z.B. Gateways oder DNS-Server).  
+Durch diese Begrenzung soll verhindert werden, dass IPv4-Scans das ganze Netzwerk beeinträchtigen.
+    - neu unterstützte Geräte:
+        - AVM Fritz!WLAN Repeater 450E
+        - OCEDO Koala
+        - TP-Link Archer C7 v5
+        - TP-Link TL-WR810N v1
+        - Ubiquiti UniFi AC Mesh Pro
+        - ZyXEL NBG6616
 
 ### 2018.1.4+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
@@ -68,7 +77,8 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **gluon-Version**: [2018.1.4](#gluon-versionen_2018-1-4)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2018.1.4+bremen1/)
 
-* TODO: Änderungen
+- **Update auf [Gluon 2018.1.4](#gluon-versionen_2018-1-4)**
+  - ein Fehler beim Versionsvergleich von Firmware-Updates wurde behoben ([#208](https://github.com/freifunk-gluon/packages/issues/208)). In diesem Zuge wurden auch gleich die Regeln für den Versionsvergleich angepasst, dass sie jetzt den Regeln von opkg/dpkg entsprechen.
 
 
 ### 2018.1.3+bremen1
@@ -78,7 +88,8 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **gluon-Version**: [2018.1.3](#gluon-versionen_2018-1-3)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2018.1.3+bremen1/)
 
-* TODO: Änderungen
+- **Update auf [Gluon 2018.1.3](#gluon-versionen_2018-1-3)**
+  - ein Fehler beim Laden von Kernel-Modulen (der u.a. den batman-adv-Treiber betraf) wurde behoben ([#1580](https://github.com/freifunk-gluon/gluon/issues/1580))
 
 
 ### 2018.1.2+bremen1
@@ -88,7 +99,9 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **gluon-Version**: [2018.1.2](#gluon-versionen_2018-1-2)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2018.1.2+bremen1/)
 
-* TODO: Änderungen
+- **Update auf [Gluon 2018.1.2](#gluon-versionen_2018-1-2)**
+  - respondd schickt jetzt die vollständige Liste der IPv6-Adressen eines Knotens ([#1523](https://github.com/freifunk-gluon/gluon/issues/1523))
+  - die Knöpfe der FRITZ!Box 4020 haben jetzt das korrekte Verhalten ([#1544](https://github.com/freifunk-gluon/gluon/issues/1544))
 
 
 ### 2018.1.1+bremen3
@@ -98,7 +111,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **gluon-Version**: [2018.1.1](#gluon-versionen_2018-1-1)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2018.1.1+bremen3/)
 
-* TODO: Änderungen
+- [DNS-Forwarding](https://gluon.readthedocs.io/en/v2018.1.1/features/dns-forwarder.html) wurde aktiviert
 
 
 ### 2018.1.1+bremen2
@@ -108,7 +121,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **gluon-Version**: [2018.1.1](#gluon-versionen_2018-1-1)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2018.1.1+bremen2/)
 
-* TODO: Änderungen
+- es wird jetzt der korrekte ath10k-Treiber verwendet, wodurch bei Geräten mit diesem Treiber (z.B. TP-Link Archer C7) jetzt auch das 5-GHz-WLAN verwendet wird ([#1561](https://github.com/freifunk-gluon/gluon/issues/1561)). Dies gilt allerdings nur für Verbindungen zu WLAN-Endgeräten; Mesh-Verbindungen können bei ath10k-Geräten immer noch nicht über das 5-GHz-Band aufgebaut werden ([#1584](https://github.com/freifunk-gluon/gluon/issues/1584)).
 
 
 ### 2018.1.1+bremen1
@@ -118,7 +131,10 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **gluon-Version**: [2018.1.1](#gluon-versionen_2018-1-1)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2018.1.1+bremen1/)
 
-* TODO: Änderungen
+- **Update auf [Gluon 2018.1.1](#gluon-versionen_2018-1-1)**
+  - Autoupdater-Problem aus 2018.1 behoben
+  - ARP-Problem aus 2018.1 behoben
+  - Kompilier-Probleme auf neueren Betriebssystemen (mit glibc 2.28) behoben
 
 
 ### 2018.1+bremen1
@@ -128,8 +144,26 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **gluon-Version**: [2018.1](#gluon-versionen_2018-1)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2018.1+bremen1/)
 
-* TODO: Änderungen
+**Update-Hinweis:** auf einigen Geräten (TP-Link CPE/WBS 210/510) wird jetzt für den Flash-Speicher ein neues Layout verwendet. Deshalb sollte vor dem Upgrade auf diese Version zuerst die 2017.1.8 installiert werden.
 
+- **Update auf [Gluon 2018.1](#gluon-versionen_2018-1)** und damit etliche neue Funktionen und Fehlerbehebungen  
+- neu unterstützte Geräte:
+    - ALFA NETWORK
+        - AP121F
+    - AVM
+        - FRITZ!Box 4020
+    - LeMaker
+        - Banana Pi (M1)
+    - OpenMesh
+        - A40
+        - A60
+        - OM2P v4
+        - OM2P-HS v4
+    - TP-Link
+        - CPE210 v2
+        - TL-WA901ND v5
+    - ZyXEL
+        - NBG6716
 
 ### 2017.1.8+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: [13.08.2018](https://downloads.bremen.freifunk.net/firmware/all/2017.1.8+bremen1/sysupgrade/stable.manifest)  
