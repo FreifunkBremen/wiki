@@ -818,16 +818,12 @@ TODO
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2018.1.2) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2018.1.2)
 
 #### Fehlerbehebungen
-TODO
-
-#### Neuerungen
-TODO
+- respondd schickt jetzt die vollständige Liste der IPv6-Adressen eines Knotens ([#1523](https://github.com/freifunk-gluon/gluon/issues/1523))
+- die Knöpfe der FRITZ!Box 4020 haben jetzt das korrekte Verhalten ([#1544](https://github.com/freifunk-gluon/gluon/issues/1544))
+- es gab einige Bugfixes für batman-adv 2018.1
 
 #### neue Geräte-Unterstützung
-TODO
-
-#### Umstellungen
-TODO
+- die Unterstützung für den TP-Link C2600 wurde als "eingeschränkt" markiert, weil die WLAN-Verbindung häufig abbricht ([#1505](https://github.com/freifunk-gluon/gluon/issues/1505)). Das Gerät wird nur unterstützt, wenn Gluon mit dem BROKEN-Flag kompiliert wird.
 
 
 ### 2018.1.1
@@ -837,16 +833,9 @@ TODO
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2018.1.1) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2018.1.1)
 
 #### Fehlerbehebungen
-TODO
-
-#### Neuerungen
-TODO
-
-#### neue Geräte-Unterstützung
-TODO
-
-#### Umstellungen
-TODO
+- Autoupdater-Fehler ([#1496](https://github.com/freifunk-gluon/gluon/issues/1496)) aus der 2018.1 behoben
+- ARP-Problem ([#1488](https://github.com/freifunk-gluon/gluon/issues/1488)) aus der 2018.1 behoben
+- Kompilier-Probleme auf neueren Betriebssystemen (mit glibc 2.28) behoben
 
 
 ### 2018.1
@@ -854,6 +843,10 @@ TODO
 **offizielle Versionshinweise**: [2018.1](https://gluon.readthedocs.io/en/v2018.1/releases/v2018.1.html)  
 **Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2018.1/index.html#supported-devices-architectures)  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2018.1) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2018.1)
+
+#### Neue Fehler
+- diese Version hat einen Fehler im Autoupdate-System, wodurch es zum Verlust der Knoten-Konfiguration kommen kann, wenn beim Update ein Download-Mirror verwendet wird ([#1496](https://github.com/freifunk-gluon/gluon/issues/1496)).
+- diese Version hat einen Fehler beim Versenden von ARP-Paketen, wodurch der Knoten von seinen Nutzern evtl. nicht mehr per IPv4 erreichbar ist ([#1488](https://github.com/freifunk-gluon/gluon/issues/1488)).
 
 #### Neuerungen
 Zu viele neue Features, um sie hier detailliert zu beschreiben: Feature Flags, Multidomain-Support, VXLAN für Kabel-Mesh-Verbindungen, IGMP/MLD-Segmentierung, gluon-ebtables-limit-arp, verbesserte Statusseite...
