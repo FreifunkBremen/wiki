@@ -115,6 +115,14 @@ Aus den Ausgaben lässt sich evtl. rausfinden, wo das Problem liegt.
 
 Weitere Hilfe findet man dann im IRC, auf der Mailingliste oder beim Treffen.
 
+
+Falls der Gatemon-Eintrag auf status.ffhb.de auftaucht, aber das DNS(IPv4)-Feld rot erscheint, kann es daran liegen, dass der Raspi noch DHCP am laufen hat, man kann es stoppen via: 
+```
+sudo service dhcpcd stop
+```
+TODO: war es dhcpcd oder dhcpd? :)
+(auch im englischen teil fixen)
+
 ## TODO
 * automatische Updates einrichten
 * Postfix installieren, um Fehler-Ausgaben zu bekommen
@@ -275,3 +283,9 @@ sudo /usr/lib/gatemon/check-all-vpn-exits.sh
 The output may tell you more about the problem. If the output looks fine, the cronjob may be the problem. 
 
 Further assistance can be requested in the IRC-Channel or on the Mailinglist.
+
+
+If your gatemon-entry appears on status.ffhb.de, but the entry for DNS over IPv4 is red, the problem may be that your raspi is still running dhcp (as client), which disrupts the test. Stop it via:
+```
+sudo service dhcpcd stop
+```
