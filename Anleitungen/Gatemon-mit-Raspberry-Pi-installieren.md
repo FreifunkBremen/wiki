@@ -77,7 +77,15 @@ iface eth0 inet static
 iface eth0 inet6 auto
 ```
 
-Bei "address" trägt man halt seine eigene gewählte IP-Adresse ein.   Nach einem Reboot sollte `ip a | grep "inet "` die neue Adresse zeigen.
+Bei "address" trägt man halt seine eigene gewählte IP-Adresse ein.   
+
+Damit der DHCP-Port tatsächlich nicht mehr belegt ist, deaktiviert man den DHCP-Dienst:
+
+```
+sudo systemctl disable dhcpcd
+```
+
+Nach einem Reboot sollte `ip a | grep "inet "` die neue Adresse zeigen.
 
 Als nächstes installiert man die nötige Zusatzsoftware, mittels:
 ```
@@ -114,14 +122,6 @@ sudo /usr/lib/gatemon/check-all-vpn-exits.sh
 Aus den Ausgaben lässt sich evtl. rausfinden, wo das Problem liegt.
 
 Weitere Hilfe findet man dann im IRC, auf der Mailingliste oder beim Treffen.
-
-
-Falls der Gatemon-Eintrag auf status.ffhb.de auftaucht, aber das DNS(IPv4)-Feld rot erscheint, kann es daran liegen, dass der Raspi noch DHCP am laufen hat, man kann es stoppen via: 
-```
-sudo service dhcpcd stop
-```
-TODO: war es dhcpcd oder dhcpd? :)
-(auch im englischen teil fixen)
 
 ## TODO
 * automatische Updates einrichten
@@ -239,7 +239,14 @@ iface eth0 inet static
 
 iface eth0 inet6 auto
 ```
-Write your own address in the "address" line . 
+Write your own address in the "address" line. 
+
+To ensure that the DHCP port is actually unused, the DHCP service must be disabled:
+
+```
+sudo systemctl disable dhcpcd
+```
+
 After reboot, the command  `ip a | grep "inet "` should print your IP.
 
 Next, you need the software, install it via:
@@ -283,9 +290,3 @@ sudo /usr/lib/gatemon/check-all-vpn-exits.sh
 The output may tell you more about the problem. If the output looks fine, the cronjob may be the problem. 
 
 Further assistance can be requested in the IRC-Channel or on the Mailinglist.
-
-
-If your gatemon-entry appears on status.ffhb.de, but the entry for DNS over IPv4 is red, the problem may be that your raspi is still running dhcp (as client), which disrupts the test. Stop it via:
-```
-sudo service dhcpcd stop
-```
