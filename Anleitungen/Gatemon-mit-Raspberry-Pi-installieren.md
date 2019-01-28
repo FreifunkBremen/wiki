@@ -123,6 +123,14 @@ Aus den Ausgaben lässt sich evtl. rausfinden, wo das Problem liegt.
 
 Weitere Hilfe findet man dann im IRC, auf der Mailingliste oder beim Treffen.
 
+### Häufige Probleme
+* **der Gatemon-Eintrag erscheint auf status.ffhb.de, aber das DHCP-IPv4-Feld bleibt rot:**
+  * evtl. läuft noch ein DHCP-Client
+      * lass dir mit `sudo netstat -tapnu | grep ":68 "` anzeigen, wer grad Port 68 benutzt
+      * falls es ein dhcpcd-Prozess ist: den Dienst mit `sudo systemctl disable dhcpcd` für die Zukunft deaktivieren, und dann mit `sudo systemctl stop dhcpcd` den aktuellen dhcpcd-Prozess beenden
+* **Cron-Job läuft nicht:**
+  * die Datei in /etc/cron.d/ darf keine Endung haben (muss also `/etc/cron.d/check-all-vpn-exits` heißen, ohne `.cron` am Ende)
+
 ## TODO
 * automatische Updates einrichten
 * Postfix installieren, um Fehler-Ausgaben zu bekommen
@@ -290,3 +298,11 @@ sudo /usr/lib/gatemon/check-all-vpn-exits.sh
 The output may tell you more about the problem. If the output looks fine, the cronjob may be the problem. 
 
 Further assistance can be requested in the IRC-Channel or on the Mailinglist.
+
+### Common Problems
+* **Gatemon entry appears on status.ffhb.de, but the "DHCP IPv4" field stays red:**
+  * maybe a DHCP client is still running
+      * run `sudo netstat -tapnu | grep ":68 "` to see which process is using port 68
+      * if it is a "dhcpcd" process: run `sudo systemctl disable dhcpcd` die disable it for the future, then stop the current dhcpcd process with `sudo systemctl stop dhcpcd`
+* **cron job doesn't run:**
+  * make sure the file in /etc/cron.d/ has no suffix (it should be named `/etc/cron.d/check-all-vpn-exits`, without any `.cron` suffix)
