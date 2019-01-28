@@ -101,7 +101,7 @@ make check_dhcp
 sudo mkdir /usr/lib/gatemon
 sudo cp check-all-vpn-exits.sh check_dhcp /usr/lib/gatemon/
 sudo cp check-all-vpn-exits.cfg /etc/
-sudo cp check-all-vpn-exits.cron /etc/cron.d/
+sudo cp check-all-vpn-exits.cron /etc/cron.d/check-all-vpn-exits
 ```
 
 Weiterhin bearbeitet man die `/etc/check-all-vpn-exits.cfg` und ändert die Angaben für folgende Parameter:
@@ -265,7 +265,7 @@ make check_dhcp
 sudo mkdir /usr/lib/gatemon
 sudo cp check-all-vpn-exits.sh check_dhcp /usr/lib/gatemon/
 sudo cp check-all-vpn-exits.cfg /etc/
-sudo cp check-all-vpn-exits.cron /etc/cron.d/
+sudo cp check-all-vpn-exits.cron /etc/cron.d/check-all-vpn-exits
 ```
 
 Second last step:
