@@ -89,7 +89,7 @@ Nach einem Reboot sollte `ip a | grep "inet "` die neue Adresse zeigen.
 
 Als nächstes installiert man die nötige Zusatzsoftware, mittels:
 ```
-sudo apt-get install monitoring-plugins-basic monitoring-plugins-standard nagios-plugins-contrib ndisc6 dnsutils git make gcc curl
+sudo apt-get install build-essential monitoring-plugins-basic monitoring-plugins-standard nagios-plugins-contrib ndisc6 dnsutils git curl
 ```
 (nicht wundern: dieser Befehl installiert ca. 80 neue Pakete).
 
@@ -251,7 +251,7 @@ After reboot, the command  `ip a | grep "inet "` should print your IP.
 
 Next, you need the software, install it via:
 ```
-sudo apt-get install monitoring-plugins-basic monitoring-plugins-standard nagios-plugins-contrib ndisc6 dnsutils git make gcc curl
+sudo apt-get install build-essential monitoring-plugins-basic monitoring-plugins-standard nagios-plugins-contrib ndisc6 dnsutils git curl
 ```
 (dont panic, this command installs around 80 packages)
 
