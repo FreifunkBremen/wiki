@@ -37,7 +37,11 @@ Frohes Freifunken.
 
 ## Unbrick UBNT EdgeRouter X und X-SFP
 
-Wenn der Router einmal gebrickt ist, also es besteht kein Zugriff mehr über die externen Schnittstellen, hier im folgenden einige Rettungsversuche.
+Wenn der Router einmal gebrickt ist, also es besteht kein Zugriff mehr über die externen Schnittstellen, hier im folgenden einige Rettungsversuche. 
+- Browser-Cache leeren, wenn von http auf https umgeleitet wird.
+- SSH Zuriff auf lokaler Adresse probieren.
+- Serielles Kabel anschliessen.
+- per TFTP im Bootvorgang neu flashen. 
 
 
 ### Freifunkimage verbastelt? Zugriff über SSH
