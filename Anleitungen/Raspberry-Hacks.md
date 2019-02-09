@@ -31,7 +31,7 @@ Warum Einzelteile?
 - Micro-SD: wird mehr Speicher benötigt lohnt eine große Karte. Die kleine Karte aus einem Bundle wäre übrig.
 - Netzteil: Das originale Netzteil ist sehr groß und verdeckt benachbarte Steckdosen einer Leiste. Das schmale EU-Netzteil 2,5A 5,1V ist besser.
 - Netzteil: Anker USB Netzteil, 6A 6*5,0V Kabel mit Flachgeräte-Stecker.
-- Netzteil: Netzteile < 5,1V Raspi Hack erforderlich (s.u.)
+- Netzteil: bei Netzteilen < 5,1V ist ein Raspi Hack erforderlich (s.u.)
 - Gehäuse: von Formschön bis Wasserdicht alles möglich.
 - Gehäuse: evtl. nicht präzise für 3B+ passend, Dremel erfordelich.
 - Kühlkörper: sind immer gut und es gibt sie in Schick, Kupfer / vergoldet.
