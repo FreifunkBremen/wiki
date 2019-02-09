@@ -50,7 +50,7 @@ Achtung: Bei zu geringer Betriebsspannung funktionieren keine externen USB Festp
 Laut Spezifikation benötigt der Raspberry Pi eine Spannung von 4,75 – 5,25 Volt. Meine Empfehlung ist folgendes Netzteil: https://www.reichelt.de/raspberry-pi-ladegeraet-5-v-2-5-a-micro-usb-schwarz-rasp-nt-25-sw-e-p240934.html?&trstct=pos_5
 
 ###Monitor
-Viele Monitore funktionieren nicht korrekt am Raspi. Der häufigste Fehler ist der schwarze Rand, also ein kleiners Bild. Viele Monitorprobleme können über die Datei /boot/config.txt korrigiert werden.
+Viele Monitore funktionieren nicht korrekt am Raspi. Der häufigste Fehler ist der schwarze Rand, also ein kleiners Bild. Viele Monitorprobleme können über die Datei /boot/config.txt korrigiert werden. Probleme mit dem ZERO liegen häufig am Mini-HDMI-Adapter. 
 ~~~
 sudo nano /boot/config.txt
 
@@ -73,7 +73,7 @@ Weitere Informationen zur seriellen Schnittstelle unter: http://www.netzmafia.de
 Das serielle Kabel, bzw. USB-2-Serial-Adapter auf den GPIO 14 = Pin 8 TX & GPIO 14 = Pin 10 RX, sowie GND (irgend ein freier GND Pin)
 
 ###LAN Interface feste IP-Adresse
-Wird der Raspi per Kabel an einen Router angeschlossen macht eine statische IP-Adresse Sinn.
+Wird der Raspi per Kabel an einen Router angeschlossen macht eine statische IP-Adresse Sinn. Ok, am Router lässt sich auch eine feste Adresse zuweisen.
 Im Terminalfenster wie folgt vorgehen.
 ~~~
 sudo nano /etc/dhcpcd.conf
