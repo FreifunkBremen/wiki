@@ -203,7 +203,7 @@ In den Homeverzeichnissen der angelegten Benutzer das Verzeichnis .ssh erstellen
 Die Konfigurationen unter /etc/ssh werden nicht angefasst. Deren Funktion ist für den SSH Zugriff nicht genau geklärt, alle Einstellungen sind auskommentiert. (Forschungsarbeit notwendig). So wie es aussieht, sind diese Konfigdateien für ältere Raspbian-Versionen gedacht. Auf der aktuellen Version ist es schon automatisch aktiv.
 
 ###SAMBA Verzeichnisfreigabe
-Ordner für den Netzwerkzugriff freigeben, geht einfach über Samba.
+Ordner für den Netzwerkzugriff freigeben, geht einfach über Samba. Hinweis: Viedo-Stream geht nicht bei hochauflösenden Videos. Auch über LAN werden nicht genug Daten geliefert.
 - Installieren:
 ~~~
 sudo apt-get install samba
