@@ -50,7 +50,7 @@ Achtung: Bei zu geringer Betriebsspannung funktionieren keine externen USB Festp
 Laut Spezifikation benötigt der Raspberry Pi eine Spannung von 4,75 – 5,25 Volt. Meine Empfehlung ist folgendes Netzteil: https://www.reichelt.de/raspberry-pi-ladegeraet-5-v-2-5-a-micro-usb-schwarz-rasp-nt-25-sw-e-p240934.html?&trstct=pos_5
 
 ###Monitor
-Viele Monitore funktionieren nicht korrekt am Raspi. Der häufigste Fehler ist der schwarze Rand, also ein kleiners Bild. Viele Monitorprobleme können über die Datei /boot/config.txt korrigiert werden. Probleme mit dem ZERO liegen häufig am Mini-HDMI-Adapter. 
+Viele Monitore funktionieren nicht korrekt am Raspi. Der häufigste Fehler ist der schwarze Rand, also ein kleiners Bild. Viele Monitorprobleme können über die Datei /boot/config.txt korrigiert werden. Probleme mit dem ZERO liegen häufig am Mini-HDMI-Adapter. Es sollen nur wenige funktionieren. Bitte auf den richtigen Adapter achten. https://www.rasppishop.de/Raspberry-Pi-Zero-Hdmi-Adapter-mini-Hdmi-zu-Hdmi
 ~~~
 sudo nano /boot/config.txt
 
