@@ -3,7 +3,7 @@
 
 * 5x TP-Link Archer C7
 * 4x TP-Link CPE210 
-* 1x Ubiquiti Nanobeam AC 19
+* 2x Ubiquiti Nanobeam AC 19 (Richtung Schlachthof und Radstation)
 * 3x TP-Link WR1043
 * einiges an Kabel, teils Patch-Kabel, teils selbst aufgelegt/gecrimpt
 * 1x TP-Link WR841 (temporär, zum Debuggen)
