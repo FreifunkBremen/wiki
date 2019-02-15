@@ -34,21 +34,24 @@ Damit genug Ports zur Versorgung der Proberäume zur Verfügung stehen, hängt a
 An der beschriebenen Stelle hängt ein WR1043 "auf dem Gang". Er hängt per Mesh an einem Archer C7 im 2.OG.
 
 
-### Tor 26
-Bie Tor26 ist nun auch ein Router gelandet. mittelfristig soll er (evtl) zu Tor 25 verlegt werden, das Kabel reicht noch, ist ne relativ schnell gelöste Aufgabe. 
+### Tor 25
+Bei Tor25 ist nun auch ein Router (1043er) gelandet. 
+
+
+### Tor40
+Bei Tor40 wurde im Januar ein Router (1043er) verbaut, er hängt per Outdoor-Kabel via Zwischendecke direkt am agffgb03 (aka Zentrale)
+
+### Linie7
+Bei Linie7 ist ein Archer-C7 im Einsatz, der hängt per Outdoor-Kabel am Tor40-Router.
+Der Name: agffgb10
 
 ## nächste Standorte
 
-### Linie7
-TODOs: 
-* genaueren Plan machen, wie wir bei Linie7 weiterkommen.
-
-
-### Tor 25
-Der Router aus Tor26 soll in Tor25 verlegt werden. 
+### Offene Ateliers
+zwischen Linie7 und Schaulust sind Ateliers, da sollte noch ein Router hin
 
 ### Schaulust
-Entweder von Linie7 her anbinden, oder von Spedition her.
+Entweder von Linie7 her anbinden, oder von Spedition her. Am besten beides -> Ringschluss
 
 ### Ende der Gleishalle / Querlenker
 Am Ende der Gleishalle kommt vielleicht noch einie Installation hin, um die Obdachlosen hinter dem GB zu versorgen. 
