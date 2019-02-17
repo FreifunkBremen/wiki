@@ -11,4 +11,21 @@ Hier kommt Dokumentation einzelner Workshops hin, gerne auch mit verwendeten Mat
 * Links:  https://www.grundlagen-computer.de/netzwerk/anleitung-netzwerkkabel-selbst-erstellen-crimpen-eines-patch-kabels-cat-5
 
 ## Durchführung
-* 
+* spät gestartet, Zeit überzogen.
+* kurzes Intro zu Kabeln/Ethernet/CAT
+* Yannik macht es 1x vor, alle (mit Zange) machen es nach.
+* anschließend Kabeltest
+
+
+
+### Workshop 2: How to SSH (und etwas iperf3) (4.1.19)
+## Ablauf
+* Durchführender Yannik
+* Material: Laptop, Testrouter 
+* Links:  https://www.ssh.com/ssh/session-key
+
+## Durchführung
+* Yannik hat ne kleine Präsentation vorbereitet, nach dem Vortrag gibts ne kleine Live-demo mit Putty und dann mit Kommandozeile
+* SSH-tests mit dem Testrouter werden nach dem FF-Treffen gemacht.
+
+
