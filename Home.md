@@ -2,9 +2,9 @@
 Herzlich willkommen im Freifunk Bremen Wiki.
 Das Wiki stellt eine Informationssammlung dar, an der jede und jeder mitarbeiten kann. Du findest hier Informationen zu den unterschiedlichsten Themen.
 
-Alle erstellten Seiten findest du [hier](http://wiki.bremen.freifunk.net/pages).
+Alle erstellten Seiten findest du [hier](/pages).
 
-Zurück zur Homepage geht es [hier](http://bremen.freifunk.net) lang.
+Zurück zur Homepage geht es [hier](https://bremen.freifunk.net) lang.
 
 ## Infos zu unseren Treffen
 
@@ -17,8 +17,7 @@ Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat im [Hackerspace 
 * der nächsten Treffen:
   * [[01.03.2019|Treffen/2019_03_01]]
   * [[15.03.2019|Treffen/2019_03_15]]
-
-* [Liste aller Treffen](http://wiki.bremen.freifunk.net/pages/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
+* [[Liste aller Treffen|Treffen]] mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
 * Weitere Termine (nicht nur Treffen) finden sich in den Protokollen zu den verschiedenen Treffen
 
 Eine Übersicht aller Arten von Zusammenkünften findest du unter [[Treffen|Treffen/00_Treffen]].
@@ -31,7 +30,7 @@ Eine Übersicht aller Arten von Zusammenkünften findest du unter [[Treffen|Tref
 
 ## Technisches
 * [[Firmware|Anleitungen/Firmware/Home]]
- * [Unterstützte Router](http://wiki.bremen.freifunk.net/Anleitungen/Firmware/Flashen#auswahl-der-hardware)
+ * [Unterstützte Router](/Anleitungen/Firmware/Flashen#auswahl-der-hardware)
  * [[Flashen|Anleitungen/Firmware/Flashen]]
 * [[Dienste|Dienste/Home]]
  * [[DNS|Dienste/DNS]]
