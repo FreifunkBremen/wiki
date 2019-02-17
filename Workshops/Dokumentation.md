@@ -2,8 +2,6 @@
 ## Dokumentation von Workshops
 Hier kommt Dokumentation einzelner Workshops hin, gerne auch mit verwendeten Materialien, Links etc.
 
-
-
 ### Workshop 1: Crimpkurs (4.1.19)
 ## Ablauf
 * Durchführender Yannik
