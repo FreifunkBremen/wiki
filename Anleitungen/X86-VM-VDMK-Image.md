@@ -36,7 +36,7 @@ Select Disk: Use an existing virtual disk (Auswahl von:gluon-ffhb-2016.2.7+breme
 Convert existing virtual disk to newer format?: Keep existing format
 Finish
 
-Über Customize Hardware können alle Änderungen auch später vorgenommen werden. Hier mal ein bischen spielen, die VM-Player verändern ihr Aussehen und Einstellmöglichkeiten in jeder neuen VErsion.
+Über Customize Hardware können alle Änderungen auch später vorgenommen werden. Hier mal ein bischen spielen, die VM-Player verändern ihr Aussehen und Einstellmöglichkeiten in jeder neuen Version.
 
 Start der neuen virtuellen Maschine, nach ca. 10-14 Sekunden ist der Bootvorgang abgeschlossen, die letzten Meldungen sind: bt-setup: port 1(eth0) entered forwarding state.
 
