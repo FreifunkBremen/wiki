@@ -29,7 +29,7 @@ Richtfunkgeräte im Freifunk werden auf 2,4 Ghz und 5 Ghz betrieben. Die besonde
 Zur Versogrung eines schmalen Bereiches, wie eines Straßenzuges oder der Anbindung eines zu weit entfernten Freifunkrouters, wird ein Richtfunkgerät mit der Freifunksoftware bespielt. Um eine Strecke, also Punkt zu Punkt Verbindung zu bauen, verbleibt die original Firmware auf dem Gerät.
 
 Besonderheiten der Originalfirmware:
-Automatische Leistungsregelung bei bestehender Funkverbindung. D.h. die Geräte regeln ihre Sendeleistung so weit herunter, das eine optimale VErbindung besteht und der dahinterliegende Raum nicht überstrahlt wird.
+Automatische Leistungsregelung bei bestehender Funkverbindung. D.h. die Geräte regeln ihre Sendeleistung so weit herunter, das eine optimale Verbindung besteht und der dahinterliegende Raum nicht überstrahlt wird.
 
 
 
