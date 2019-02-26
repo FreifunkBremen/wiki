@@ -1,7 +1,7 @@
 
 ## Übersicht verbauter Hardware: 
 
-* 5x TP-Link Archer C7
+* 6x TP-Link Archer C7
 * 4x TP-Link CPE210 ('hof', 'garten', bei tor11 und 'spedition')
 * 2x Ubiquiti Nanobeam AC 19 (Richtung Schlachthof und Radstation)
 * 4x TP-Link WR1043
