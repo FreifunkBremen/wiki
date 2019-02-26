@@ -1,4 +1,4 @@
-=== English version below ===  (Work in Progress 30.11.18)
+=== English version below ===  (version1, 26.2.19)
 
 # Gatemon mit Raspberry Pi installieren
 
