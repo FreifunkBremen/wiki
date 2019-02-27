@@ -8,6 +8,7 @@ Eine wichtige Quelle ist: https://www.raspberrypi.org/documentation/
 
 ## Inhalt:
 - [Kaufberatung](#inhalt_kaufberatung)
+- [Erstinstallation](#inhalt_erstinstallation)
 - [Netzteil](#inhalt_netzteil)
 - [Monitor](#inhalt_monitor)
 - [Serielle Schnittstelle](#inhalt_serielle-schnittstelle)
@@ -36,6 +37,12 @@ Warum Einzelteile?
 - Gehäuse: evtl. nicht präzise für 3B+ passend, Dremel erfordelich.
 - Kühlkörper: sind immer gut und es gibt sie in Schick, Kupfer / vergoldet.
 - Lüfter: Es gibt besonders Geräuscharme Lüfter, Lüfter sind aber nicht erfordelich.
+
+###Erstinstallation
+Ich möchte nicht jedesmal einen Monitor und Tastatur anklemmen. Es funktioniert auch alles per serieller Schnittstelle oder über SSH.
+Ab 2016 sind jedoch beide Zugänge deaktiviert. In diesem Beispiel verwende ich 2018-11-13-raspbian-stretch-full.img. Dieses Image wird auf die Mikro-SD geschrieben. Die Mikro-SD wird in einem Dateieditor geöffnet. Dort wird die Datei config.txt um den Eintrag enable_uart=1 ergänzt. Jetzt steht nach dem Booten die serielle Schnittstelle zur Verfüfung. Für den sofortigen SSH Zugang wird eine leere Datei ssh (ohne .txt am Ende) angelegt. Nach dem Booten sehen wir auf unserem Heimrouter den angeschlossenen Pi und seine IP-Adresse. Jetzt SSH Zugriff starten. Beispiel pi@192.168.178.101 -p 22 unter Windows mit Putty/Kitty. user:pi pw:raspberry
+
+Die weiteren Konfigurationen im Terminal mit sudo *raspi-config* vornehmen.
 
 ###Netzteil
 Wird auf dem Monitor ein roter Blitz rechts oben eingeblendet, so liegt eine Unterspannung vor. Eine schlimme Folge ist, die Taktfrequenz wird runtergesetzt und der Pi ist deutlich langsamer.
