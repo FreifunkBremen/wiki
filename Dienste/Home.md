@@ -28,7 +28,8 @@ Folgende IP-Adressen sind vergeben:
         * 10.196.0.6 vpn06 (DNS, Gateway, corny)
     * 10.196.0.10 – 10.196.0.39 Dienste-Server
     * 10.196.0.40 gatemon janeric
-    * 10.196.0.80 Futro Frank.H Offloader Test
+    * 10.196.0.80 Futro Frank_H Futro-Offloader Test
+    * 10.196.0.81 gatemon-Frank_H temporärer Test
     * 10.196.0.90-94 genofire
     * 10.196.0.120 gatemon, rainbowcables, mortzu
     * 10.196.0.127 local-node FFHB
