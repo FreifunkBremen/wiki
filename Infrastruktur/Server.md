@@ -6,9 +6,9 @@ Der Status der Gateways kann hier eingesehen werden: https://status.bremen.freif
 ### Sponsoren und Konfiguration
 | Server | Sponsor      | Standort | Uplink-Anbieter    | Uplink-Standort |
 |:-------|:-------------|:---------|:-------------------|:----------------|
-| vpn01  | LWLCOM       | Bremen   | Digineo            | Bremen          |
+| vpn01  | LWLcom       | Bremen   | Digineo            | Bremen          |
 | vpn02  | PLUTEX       | Bremen   | Digineo            | Bremen          |
-| vpn03  | LWLCOM       | Bremen   | Digineo            | Bremen          |
+| vpn03  | LWLcom       | Bremen   | Digineo            | Bremen          |
 | vpn04  | PLUTEX       | Bremen   | -                  | Bremen          |
 | vpn05  | PLUTEX       | Bremen   | Digineo            | Bremen          |
 | vpn06  | Digineo GmbH | 23media  | Digineo            | Frankfurt       |
@@ -28,20 +28,19 @@ Der Status der Gateways kann hier eingesehen werden: https://status.bremen.freif
 ## Server für zentrale Dienste
 | Dienst                                 | Verantwortlicher          | Standort              |
 |----------------------------------------|---------------------------|-----------------------|
-| [Website](https://ffhb.de)             | jplitza, mortzu           | Bremen / LWLCOM       |
-| [Downloads](https://downloads.ffhb.de) | corny, jplitza, mortzu    | Bremen / LWLCOM       |
-| DNS                                    | corny, genofire, jplitza, mortzu           | Bremen / LWLCOM       |
-| [Wiki](https://wiki.ffhb.de)           | jplitza, mortzu           | Bremen / LWLCOM       |
-| [Karte](https://map.ffhb.de)           | genofire, jplitza, mortzu | Bremen / LWLCOM       |
-| [Ticketsystem](https://tasks.ffhb.de)  | mortzu, SimJoSt, ollibaba | Bremen / LWLCOM       |
-| [gatemon](https://status.ffhb.de)      | mortzu                    | Bremen / LWLCOM       |
-| LWLCOM Hardwareserver ("bre1")         | chrische, morpheus, mortzu, jplitza | Bremen / LWLCOM       |
-| Plutex-Hardwareserver ("bre2")         | mortzu, jplitza           | Bremen / LWLCOM       |
-| Plutex-Hardwareserver ("echo")         | mortzu, jplitza           | Bremen / LWLCOM       |
-| Router                                 | chrische, morpheus, mortzu | Bremen / LWLCOM       |
+| [Website](https://ffhb.de)             | jplitza, mortzu           | Bremen / LWLcom       |
+| [Downloads](https://downloads.ffhb.de) | corny, jplitza, mortzu    | Bremen / LWLcom       |
+| DNS                                    | corny, genofire, jplitza, mortzu   | Bremen / LWLcom  |
+| [Wiki](https://wiki.ffhb.de)           | jplitza, mortzu           | Bremen / LWLcom       |
+| [Karte](https://map.ffhb.de)           | genofire, jplitza, mortzu | Bremen / LWLcom       |
+| [Ticketsystem](https://tasks.ffhb.de)  | mortzu, SimJoSt, ollibaba | Bremen / LWLcom       |
+| [gatemon](https://status.ffhb.de)      | mortzu                    | Bremen / LWLcom       |
 
-Auf bre1 läuft: DNS, Mails, Webserver, ffmap, IPv6-Downlink, vpn01, vpn03
 
-Auf bre2 läuft: Jenkins, vpn02, vpn04
-
-Auf "echo" läuft: vpn05
+## Physikalische Hardware
+| Server                  | Dienste               | Verantwortlicher           | Standort              |
+|-------------------------|-----------------------|----------------------------|-----------------------|
+| LWLcom-Server ("bre1")  | DNS, Mailserver, Webserver, Karte (ffmap), IPv6-Downlink, vpn01, vpn03 | chrische, morpheus, mortzu, jplitza | Bremen / LWLcom |
+| Plutex-Server ("bre2")  | Jenkins, vpn02, vpn04 | mortzu, jplitza            | Bremen / Plutex       |
+| Plutex-Server ("echo")  | vpn05                 | mortzu, jplitza            | Bremen / Plutex       |
+| Router                  |                       | chrische, morpheus, mortzu | Bremen / Plutex       |
