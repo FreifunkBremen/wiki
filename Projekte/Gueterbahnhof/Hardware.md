@@ -4,7 +4,7 @@
 * 6x TP-Link Archer C7
 * 4x TP-Link CPE210 ('hof', 'garten', bei tor11 und 'spedition')
 * 2x Ubiquiti Nanobeam AC 19 (Richtung Schlachthof und Radstation)
-* 4x TP-Link WR1043
+* 5x TP-Link WR1043
 * 1x TP-Link WR940
 * 1x TP-Link WR841 (temporär, zum Debuggen)
 * einiges an Kabel, teils Patch-Kabel, teils selbst aufgelegt/gecrimpt
@@ -53,10 +53,18 @@ zwischen Linie7 und Schaulust sind Ateliers, da steht ein WR940-Router.
 ### Schaulust
 Archer C7 ist von Linie7 her angebunden. Anbindung zur Spedition folgt demnächst.
 
+### Veranstaltungsraum zwischen Schaulust und Spedition
+Hier hängt nun ein WR1043 in einer Ecke. Dies war der Ringschluss-Router in diesem Gebäudeteil.
+
 ## nächste Standorte
 
-### Veranstaltungsraum zwischen Schaulust und Spedition
-Hier kommt demnächst der WR940 rein, der verbindet dann agffgb12 und 'Spedition'.
+### Tor13 
+Das 75m-Kabel genügt vermutlich/hoffentlich bis Tor13. Dort sollte der nächste Router hin, der dann mit einem 30-50m Kabel Tor 11 per Kabel anbindet. 
+
+
+### Tor 8
+Von Tor 11 aus sollte Tor 8 per 50m-Kabel erreichbar sein. 
+
 
 ### erstmal verschoben: Ende der Gleishalle / Querlenker
 Am Ende der Gleishalle kommt vielleicht noch einie Installation hin, um die Obdachlosen hinter dem GB zu versorgen. 
