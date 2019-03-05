@@ -36,7 +36,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.131 gatemon-charlotte, mortzu
     * 10.196.0.134 gatemon-sommerwg, SimJoSt
     * 10.196.0.135 gatemon-moge, mortzu
-    * 10.196.0.136 gatemon-plutex, mortzu
+    * 10.196.0.136 services.ffhb.mortzu.de (u.A. gatemon-plutex), mortzu
     * 10.196.0.137 gatemon-yannik, yannik
     * 10.196.0.139 gatemon-banane, yannik
     * 10.196.0.141 gatemon-yannik2, yannik
@@ -92,9 +92,10 @@ IPv6 Routing zum Gateway vpn06
   * 2a06:8782:ffbb:1337::5 vpn05 (DNS, Gateway, anon6789/genofire)
   * 2a06:8782:ffbb:1337::6 vpn06 (DNS, Gateway)
 * 2a06:8782:ffbb:1337::5b bis 5f (genofire)
-* 2a06:8782:ffbb:1337::83 gatemon-3.ffhb.moritzrudert.de
-* 2a06:8782:ffbb:1337::86 gatemon-2.ffhb.moritzrudert.de
-* 2a06:8782:ffbb:1337::87 gatemon-moge216.ffhb.moritzrudert.de
+* 2a06:8782:ffbb:1337::83 gatemon-charlotte.ffhb.moritzrudert.de, mortzu
+* 2a06:8782:ffbb:1337::86 gatemon-sommerwg.ffhb.moritzrudert.de, mortzu
+* 2a06:8782:ffbb:1337::87 gatemon-moge.ffhb.moritzrudert.de, mortzu
+* 2a06:8782:ffbb:1337::88 services.ffhb.moritzrudert.de (u.A. gatemon-plutex), mortzu
 * 2a06:8782:ffbb:1337::b0 bis bf (janeric)
 
 #### 2a06:8782:ffbb:bat0::/64
