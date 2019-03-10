@@ -108,6 +108,8 @@ static domain_name_servers=192.168.1.1 8.8.8.8
 # fallback to static profile on eth0
 interface eth0
 fallback static_eth0
+
+sudo /etc/init.d/networking restart
 ~~~
 
 ###WLAN Verbindung einrichten
