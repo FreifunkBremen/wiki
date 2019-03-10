@@ -97,6 +97,8 @@ sudo /etc/init.d/networking restart
 ###LAN Interface Fallback
 Der Pi bekommt normalerweise eine IP Adresse per DHCP zugewiesen. Es gibt eine Möglichkeit, das LAN-Interface so zu konfigurieren, das der Pi vom Router eine IP per DHCP bekommt und wenn er an einen PC angesteckt wird, eine statische IP hat. Dazu wird in der Datei: /etc/dhcpcd.conf am Ende die Fallbackeinstellung aktiviert. Die Fallbackadresse muss außerhalb des DHCP Bereiches des Routers liegen.
 ~~~
+sudo nano /etc/dhcpcd.conf
+
 # It is possible to fall back to a static IP if DHCP fails:
 # define static profile
 profile static_eth0
