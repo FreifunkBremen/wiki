@@ -11,6 +11,7 @@ Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Die
 * [freifunk-karte.de](http://www.freifunk-karte.de/) Die Karte nutzt die [Freifunk-API](https://api.freifunk.net/), um eine Liste der Communities in Deutschland zu beziehen. Aus deren API-Files werden dann die Links zu Knotenkarten gelesen. Die Karte wurde von [Tino Dietel](https://github.com/stilgarbf), FF Emskirchen gebaut.
 
 * [minecraft.onffhb.de](http://minecraft.onffhb.de) Ein Minecraft Vanilla Server (Java Edition), erlaubt das gemeinsame Spielen in den nahezu unendlichen weiten der kantigen Welt. Der Server ist nur aus dem Freifunknetz erreichbar.
++++ Vorübergehend offline wegen Festplattenschaden! (Die Welt ist gesichert!) +++
 
 ## Infos zum aktuellen Router
 Unter http://node.ffhb.de findest du Informationen zu dem Router, mit dem du momentan verbunden bist.
