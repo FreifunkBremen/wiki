@@ -25,7 +25,6 @@ Eine Übersicht aller Arten von Zusammenkünften findest du unter [[Treffen|Tref
 ## Organisatorisches
 * [[Oeffentlichtkeitsarbeit]]
 * [[Wo bekomme ich einen Router?|Router/Routerabholstandorte]]
-* [[Sammelbestellung Access Points|Router/SammelbestellungAPs]]
 * Gemeinsamer [[Kalender]]
 
 ## Technisches
