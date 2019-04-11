@@ -8,7 +8,7 @@
 ### Aufbau / Abbau
 
 ## Kommunikation
-* Anwesenheit: <a href="https://dudle.hackerspace-bremen.de/FFHB_Breminale_2019/" target="_blank">https://dudle.hackerspace-bremen.de/FFHB_Breminale_2019/</a>
+* Anwesenheit: https://dudle.hackerspace-bremen.de/FFHB_Breminale_2019/
 * IRC: [#ffhb_events im Hackint](irc://irc.hackint.org/ffhb_events)
 * Hackmd: https://hackmd.io/HPeyrnwxQD2Ny9fUaZoiKQ?both#
 
