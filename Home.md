@@ -26,7 +26,7 @@ Eine Übersicht aller Arten von Zusammenkünften findest du unter [[Treffen|Tref
 * [[Oeffentlichtkeitsarbeit]]
 * [[Wo bekomme ich einen Router?|Router/Routerabholstandorte]]
 * Gemeinsamer [[Kalender]]
-* [[Breminale 2019|Events/Breminale/2019/Alles]]
+* [[https://wiki.bremen.freifunk.net/Events/Breminale/2019/Freifunk-Bremen-auf-der-Breminale-2019]]
 
 ## Technisches
 * [[Firmware|Anleitungen/Firmware/Home]]
