@@ -13,7 +13,8 @@
 * Hackmd: https://hackmd.io/HPeyrnwxQD2Ny9fUaZoiKQ?both#
 
 ## TODO
-Fördermittel einplanen.
+* Vieles steht schon im Pad
+* Fördermittel einplanen.
 Fragen für Boris Sammeln.
 Ideen und Wünsche sammeln.
 
@@ -25,13 +26,12 @@ Ideen und Wünsche sammeln.
 ### aktuelle Probleme
 
 ### aktuelle Aufgaben:
+* Siehe Pad
 
 ### Netz-Plan 2018
 [breminale.json](https://github.com/FreifunkBremen/internal-maps/blob/master/breminale.geojson) über [geojson.io](http://geojson.io/#id=github:FreifunkBremen/internal-maps/blob/master/breminale.geojson&map=16/53.0698/8.8171)
 
 ## Fehler/Learnings
-
-## Notizen von ollibaba
 
 ## Fundsachen
 
