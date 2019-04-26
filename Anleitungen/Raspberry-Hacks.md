@@ -356,6 +356,7 @@ Eine Nextcloud auf dem Pi zu istallieren ist eine recht einfache Sache. Damit di
 Meine Empfehlung: nextcloudpi
 https://github.com/nextcloud/nextcloudpi
 https://ownyourbits.com/nextcloudpi/
+Hinweis: Ehrlich, brecht euch nicht die Finger. Verwendet das fertige NectCloudPi. Das ist Frustschonend.
 
 ###Projekt DynDNS
 Zwei Möglichkeiten für DynDNS als Vorschlag.
