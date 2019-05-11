@@ -26,24 +26,27 @@ Experimentelle Firmware-Versionen werden nicht offiziell unterstützt und werden
 Branch        | aktuelle Version                                                    | signed by
 ---           | ---                                                                 | ---
 **`stable`**  | [2017.1.8+bremen1](#freifunk-bremen-versionen_2017-1-8-bremen1)     | `oliver`, `JP`, `janeric`, `SimJoSt`
-**`testing`** | [2018.2+bremen3](#freifunk-bremen-versionen_2018-2-bremen3)     | `nightly-builder`, `oliver`
+**`testing`** | [2018.2.1+bremen1](#freifunk-bremen-versionen_2018-2-1-bremen1)     | `nightly-builder`, `oliver`
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
 
 ### 2018.2.1+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
-**Veröffentlichung auf dem `testing`-Branch**: nie 
+**Veröffentlichung auf dem `testing`-Branch**: [11.05.2019](https://downloads.bremen.freifunk.net/firmware/all/2018.2.1+bremen1/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2018.2.1+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2018.2.1+bremen1)  
 **gluon-Version**: [2018.2.1](#gluon-versionen_2018-2-1)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2018.2.1+bremen1/)
 
 - **Update auf [Gluon 2018.2.1](#gluon-versionen_2018-2-1)**
-  - TODO
+    - "Scheduled domain switch"-Funktion ist jetzt vorhanden (wird aber derzeit in Bremen noch nicht genutzt)
+    - einige Fehlerbehebungen und Änderungen
+    - neu unterstützte Geräte:
+      - Fritz!WLAN Repeater 300E
 
 ### 2018.2+bremen3
 **Veröffentlichung auf dem `stable`-Branch**: nie  
-**Veröffentlichung auf dem `testing`-Branch**: [04.01.2018](https://downloads.bremen.freifunk.net/firmware/all/2018.2+bremen3/sysupgrade/testing.manifest)  
+**Veröffentlichung auf dem `testing`-Branch**: [04.01.2019](https://downloads.bremen.freifunk.net/firmware/all/2018.2+bremen3/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2018.2+bremen3) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2018.2+bremen3)  
 **gluon-Version**: [2018.2](#gluon-versionen_2018-2)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2018.2+bremen3/)
@@ -805,7 +808,11 @@ Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfacht
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2018.2.1) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2018.2.1)
 
 #### Fehlerbehebungen
-TODO
+- auf der Statusseite und auf der Karte werden jetzt keine doppelten IPv6-Adressen mehr angezeigt ([#1615](https://github.com/freifunk-gluon/gluon/pull/1615))
+- Images für einige Geräte sind umbenannt worden (betrifft GL.iNet GL-AR150, GL.iNet GL-AR300M, GL.iNet GL-AR750, Raspberry Pi Model B+ Rev 1.2)
+- bei Unifi AC Lite/Mesh/Pro/Mesh Pro wird die primäre MAC-Adresse jetzt korrekt bestimmt ([#1629](https://github.com/freifunk-gluon/gluon/pull/1629))
+- Probleme mit der Bandbreiten-Auswahl bei ath10k und ath10k-ct wurden behoben ([#1644](https://github.com/freifunk-gluon/gluon/pull/1644), [#1657](https://github.com/freifunk-gluon/gluon/pull/1657))
+- kleinere Fehlerbehebungen bzgl. Übersetzungen und Statusseite
 
 #### Neuerungen
 - "Scheduled domain switch"-Funktion, um die Migration auf neue Freifunk-Techniken (z.B. 11s) zu erleichtern ([#1555](https://github.com/freifunk-gluon/gluon/pull/1555))
