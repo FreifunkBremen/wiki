@@ -31,6 +31,16 @@ Branch        | aktuelle Version                                                
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
 
+### 2018.2.1+bremen1
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: nie 
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2018.2.1+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2018.2.1+bremen1)  
+**gluon-Version**: [2018.2.1](#gluon-versionen_2018-2-1)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2018.2.1+bremen1/)
+
+- **Update auf [Gluon 2018.2.1](#gluon-versionen_2018-2-1)**
+  - TODO
+
 ### 2018.2+bremen3
 **Veröffentlichung auf dem `stable`-Branch**: nie  
 **Veröffentlichung auf dem `testing`-Branch**: [04.01.2018](https://downloads.bremen.freifunk.net/firmware/all/2018.2+bremen3/sysupgrade/testing.manifest)  
@@ -787,6 +797,33 @@ Der Quellcode von Gluon liegt bei [Github](https://github.com/freifunk-gluon/glu
 Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) einsehbar.
 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
+
+### 2018.2.1
+**Veröffentlichungsdatum**: 15.03.2019  
+**offizielle Versionshinweise**: [2018.2.1](https://gluon.readthedocs.io/en/v2018.2.1/releases/v2018.2.1.html)  
+**Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2018.2.1/index.html#supported-devices-architectures)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2018.2.1) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2018.2.1)
+
+#### Fehlerbehebungen
+TODO
+
+#### Neuerungen
+- "Scheduled domain switch"-Funktion, um die Migration auf neue Freifunk-Techniken (z.B. 11s) zu erleichtern ([#1555](https://github.com/freifunk-gluon/gluon/pull/1555))
+- Änderungen an der Behandlung von Dualband-Chips. Dies sollte sich wohl nicht auf bisher unterstützte Geräte auswirken, ist aber für neu unterstützte Geräte wie Fritz!WLAN Repeater 300E nötig. ([#1606](https://github.com/freifunk-gluon/gluon/pull/1606))
+
+#### Neue Geräte-Unterstützung
+- AVM
+  - Fritz!WLAN Repeater 300E
+- Nexx
+  - WT3020AD/F/H (nur 11s-Mesh)
+- Gl.iNet
+  - MT300N (v2) (nur 11s-Mesh)
+- Netgear
+  - R6120 (nur 11s-Mesh)
+- TP-Link
+  - Archer C50 (v3, v4) (nur 11s-Mesh)
+  - TL-WR841N (v13) (nur 11s-Mesh)
+
 
 ### 2018.2
 **Veröffentlichungsdatum**: 29.12.2018  
