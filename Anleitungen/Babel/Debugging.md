@@ -5,6 +5,8 @@
 Ein Kontrollsocket des Daemons läuft standardmäßig auf Port `33123` auf den Loop-Interface `::1`.
 Daher kann man einfach mittels netcat mit den Daemon interagieren e.g. `nc ::1 33123`.
 
+Die meist benötigsten Befehle im Überlick, mehr inder [manpage](https://www.irif.fr/~jch/software/babel/babeld.html):
+
 - Babeld's status auslesen:
   `echo dump | nc ::1 33123`
 
