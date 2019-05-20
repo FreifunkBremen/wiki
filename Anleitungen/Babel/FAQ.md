@@ -2,7 +2,7 @@
 
 
 #### Mein Gerät kennt keinen DNS-Server
-Wir verteilen die DNS-Server Informationen mittels Route Advertisment, genau den Eintrag RDNSS ([RFC 6106](https://tools.ietf.org/html/rfc6106) bzw. [RFC 8106            ](https://tools.ietf.org/html/rfc8106)).
+Wir verteilen die DNS-Server Informationen mittels Route Advertisment, genau den Eintrag RDNSS ([RFC 5006](https://tools.ietf.org/html/rfc5006) bzw. [RFC 8106            ](https://tools.ietf.org/html/rfc8106)).
 
 
 Falls du ein älteres Betriebsystem wie Windows 7 nutzt, kannst du den Eintrag selbst setzen.
