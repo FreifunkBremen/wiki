@@ -15,3 +15,5 @@ Die meist benötigsten Befehle im Überlick, mehr inder [manpage](https://www.ir
 
 - Interface zum Babeld hinzufügen
 `echo "interface mesh-vpn-0" | nc ::1 33123`
+
+PS: Der Status vom Gateway kann mittels [babelweb2](https://github.com/Vivena/babelweb2) abgefragt werden: http://vpn04.ffhb.de:8080/
