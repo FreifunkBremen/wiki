@@ -1,5 +1,8 @@
 Outdated:
 Löschen?
+(Ich als ursprünglicher Autor, gern)
+
+
 ## Alternative
 Ansible-Role aus [Github](https://github.com/FreifunkBremen/ansible)
 
@@ -141,7 +144,6 @@ Falls ein andere Hostname als der systemweite für alfred benutzt werden soll,
  ändern sie die Datei '/root/ffnord-alfred-announce/nodeinfo.d/hostname' ab.
 
 # TODO
-Anpassung von fastd durch das Anlegen von systemd-units und netctl.
+- [ ] Anpassung von fastd durch das Anlegen von systemd-units und netctl.
+- [ ] Alfred durch respondd austauschen
 
-# Author(en)
-genofire (mail,jid:geno@fireorbit.de - jid:genofire@chat.ffhb.de)
