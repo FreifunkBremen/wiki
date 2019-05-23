@@ -1,6 +1,7 @@
 Outdated:
 Löschen?
-(Ich als ursprünglicher Autor, gern)
+
+(Ich als ursprünglicher Autor, gern -> gibt ja auch bald babel ... bereits erste Informationen ebenfalls hier im wiki erhältlich)
 
 
 ## Alternative
