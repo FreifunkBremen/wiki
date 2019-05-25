@@ -12,6 +12,7 @@ Diese Seite dokumentiert oberflächlich und als Übersicht alle Änderungen an d
 
 Der Quellcode der Freifunk Bremen Firmware liegt bei [Github](https://github.com/FreifunkBremen/gluon-site-ffhb).  
 Die verschiedenen Varianten der Freifunk Bremen Firmware werden auf entsprechenden [[Varianten]]-Wiki-Seite erklärt. Die Firmware-Images der Freifunk Bremen Software sind auf dem [Download-Server](https://downloads.bremen.freifunk.net/firmware/) zu finden.  
+Alte Firmwares werden aus Platzgründen vom Download-Server gelöscht, werden aber für gewöhnlich vorher archiviert und können über die Mailingliste angefragt werden.  
 Die jeweiligen Unterordner haben folgende Bedeutungen:
 
 
