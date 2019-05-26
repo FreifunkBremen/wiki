@@ -93,7 +93,7 @@ sudo apt-get install build-essential monitoring-plugins-basic monitoring-plugins
 ```
 (nicht wundern: dieser Befehl installiert ca. 80 neue Pakete).
 
-Dann installiert man die Gatemon-Software, wie unter https://github.com/FreifunkBremen/gatemon#installation beschrieben:
+Dann installiert man die Gatemon-Software, wie unter https://github.com/FreifunkBremen/gatemon#installation beschrieben (ab einer halbwegs neuen Version heißen die Daten "gatemon.\*" statt "check-all-vpn-exits.\*"):
 ```
 git clone https://github.com/FreifunkBremen/gatemon
 cd gatemon
