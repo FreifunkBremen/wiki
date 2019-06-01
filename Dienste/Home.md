@@ -38,7 +38,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.134 gatemon-sommerwg, SimJoSt
     * 10.196.0.135 gatemon-moge, mortzu
     * 10.196.0.136 services.ffhb.mortzu.de (u.A. gatemon-plutex), mortzu
-    * 10.196.0.137 gatemon-yannik, yannik
+    * 10.196.0.137 gatemon-gueterbahnhof, yannik
     * 10.196.0.139 gatemon-banane, yannik
     * 10.196.0.141 gatemon-yannik2, yannik
     * 10.196.0.200 Dienste von jplitza
