@@ -12,7 +12,6 @@ Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat im [Hackerspace 
 
 ##### Tagesordnungen
 * der letzten Treffen:
-  * [[03.05.2019|Treffen/2019_05_03]]
   * [[17.05.2019|Treffen/2019_05_17]]
   * [[07.06.2019|Treffen/2019_06_07]]
 * der nächsten Treffen:
