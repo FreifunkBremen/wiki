@@ -11,6 +11,7 @@
 * Anwesenheit: https://dudle.hackerspace-bremen.de/FFHB_Breminale_2019/
 * IRC: [#ffhb_events im Hackint](irc://irc.hackint.org/ffhb_events)
 * Hackmd: https://hackmd.io/HPeyrnwxQD2Ny9fUaZoiKQ?both#
+* NOC (current state of build up): https://md.inf.tu-dresden.de/Pi6Geh2YRl-WlLw0W0pT3w?both
 
 ## TODO
 * Vieles steht schon im Pad
