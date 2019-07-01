@@ -49,6 +49,22 @@ Image auf Micro-SD Karte schreiben. -> 2 Partitionen /boot & /rootfs & freier Pl
 2 Varianten: mit gParted das rootfs vergrößern oder neue Partition anlegen, die später gemounted wird. Beide Varianten haben ihre Vor- und Nachteile. Die bessere Lösung ist die neue Partition einzuhängen. ZUm Spielen und Programme installieren ist die Variante 1 besser, da die Partition mit /rootfs im Neuzustand bereits fast voll ist.
 Wenn die SD Karte gerade noch im Lesegerät steckt, gleich die Einstellugen für Netzteil, Monitor und serielle Konsole in die /boot/config.txt eintragen, leere Datei ssh anlegen (aktiviert den SSH Zugang).
 
+###Virenscanner ClamAV installieren
+Wenn der Raspi mit dem Internet verbunden ist, sollte ein Virenscanner installiert werden.
+Weitere Infos unter: https://www.clamav.net/
+~~~
+sudo apt-get update
+sudo apt-get upgrade
+
+sudo apt-get install clamav
+sudo freshclam
+~~~
+Autoupdate einrichten über crontab, hinten anhängen:
+~~~
+sudo crontab -e
+00 00 * * * clamscan -r /
+~~~
+
 ###Netzteil
 Wird auf dem Monitor ein roter Blitz rechts oben eingeblendet, so liegt eine Unterspannung vor. Eine schlimme Folge ist, die Taktfrequenz wird runtergesetzt und der Pi ist deutlich langsamer.
 Kann das Netzteil nicht genug Strom liefern, bzw. hat weniger als 5,1V so kann die Überwachung auf Unterspannung abgeschaltet werden.
