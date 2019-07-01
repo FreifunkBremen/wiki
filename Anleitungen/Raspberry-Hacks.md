@@ -9,6 +9,7 @@ Eine wichtige Quelle ist: https://www.raspberrypi.org/documentation/
 ## Inhalt:
 - [Kaufberatung](#inhalt_kaufberatung)
 - [Erstinstallation](#inhalt_erstinstallation)
+- [Virenscanner ClamAV installieren](#inhalt_virenscanner-clamav-installieren)
 - [Netzteil](#inhalt_netzteil)
 - [Monitor](#inhalt_monitor)
 - [Serielle Schnittstelle](#inhalt_serielle-schnittstelle)
