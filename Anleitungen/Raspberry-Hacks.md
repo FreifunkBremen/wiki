@@ -271,7 +271,7 @@ browsable = yes
 writeable = no
 valid users = neuerbenutzer
 ~~~
-Wenn es ein Benutzer sein soll, der sich nicht am System anmelden kann, diesen einrichten und deaktivieren. (–disable-login):
+Wenn es ein Benutzer sein soll, der sich nicht am System anmelden kann, diesen einrichten und deaktivieren. (–disable-login): (Benutzer darf den Samba-Share nutzen aber nicht auf dem Raspi arbeiten. Normalfall)
 ~~~
 sudo adduser --disabled-login neuerbenutzer
 sudo smbpasswd -a neuerbenutzer
