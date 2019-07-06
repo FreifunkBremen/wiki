@@ -47,7 +47,7 @@ Die weiteren Konfigurationen im Terminal mit sudo *raspi-config* vornehmen.
 
 ###Erstinstallation Hinweise
 Image auf Micro-SD Karte schreiben. -> 2 Partitionen /boot & /rootfs & freier Platz je nach SD Größe.
-2 Varianten: mit gParted das rootfs vergrößern oder neue Partition anlegen, die später gemounted wird. Beide Varianten haben ihre Vor- und Nachteile. Die bessere Lösung ist die neue Partition einzuhängen. ZUm Spielen und Programme installieren ist die Variante 1 besser, da die Partition mit /rootfs im Neuzustand bereits fast voll ist.
+2 Varianten: mit gParted das rootfs vergrößern oder neue Partition anlegen, die später gemounted wird. Beide Varianten haben ihre Vor- und Nachteile. Die bessere Lösung ist die neue Partition einzuhängen. Zum Spielen und Programme installieren ist die Variante 1 besser, da die Partition mit /rootfs im Neuzustand bereits fast voll ist.
 Wenn die SD Karte gerade noch im Lesegerät steckt, gleich die Einstellugen für Netzteil, Monitor und serielle Konsole in die /boot/config.txt eintragen, leere Datei ssh anlegen (aktiviert den SSH Zugang).
 
 ###Virenscanner ClamAV installieren
