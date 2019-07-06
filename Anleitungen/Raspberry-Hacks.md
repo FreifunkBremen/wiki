@@ -102,7 +102,7 @@ Weitere Informationen zur seriellen Schnittstelle unter: http://www.netzmafia.de
 Das serielle Kabel, bzw. USB-2-Serial-Adapter auf den GPIO 14 = Pin 8 TX & GPIO 14 = Pin 10 RX, sowie GND (irgend ein freier GND Pin)
 
 ###LAN Interface feste IP-Adresse
-Wird der Raspi per Kabel an einen Router angeschlossen macht eine statische IP-Adresse Sinn. Ok, am Router lässt sich auch eine feste Adresse zuweisen.
+Wird der Raspi per Kabel an einen Router angeschlossen macht eine statische IP-Adresse Sinn. Ok, am Router lässt sich auch eine feste Adresse per DHCP zuweisen.
 Im Terminalfenster wie folgt vorgehen.
 ~~~
 sudo nano /etc/dhcpcd.conf
