@@ -98,6 +98,7 @@ IPv6 Routing zum Gateway vpn06
 * 2a06:8782:ffbb:1337::87 gatemon-moge.ffhb.moritzrudert.de, mortzu
 * 2a06:8782:ffbb:1337::88 services.ffhb.moritzrudert.de (u.A. gatemon-plutex), mortzu
 * 2a06:8782:ffbb:1337::b0 bis bf (janeric)
+* 2a06:8782:ffbb:1337::c8 (steffen)
 
 #### 2a06:8782:ffbb:bat0::/64
 Babel-Netzwerk Segment für die Knoten/Nodes und das Routing des Client-Netzwerks
