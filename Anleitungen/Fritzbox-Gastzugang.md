@@ -17,3 +17,5 @@ Wenn man der Software, Hardware oder Administration eines Freifunk-Knoten nicht 
     * Internetseiten filtern: nein
     * Gesperrte Netzwerkanwendungen: die eben angelegte „Alles außer Freifunk-VPN“
     * OK
+
+Technische Erklärung: diese ganzen Schritte sind notwendig, weil das Freifunk-Gerät einen VPN-Tunnel zum Freifunk-Gateway-Server aufbauen muss; und das passiert über UDP Port 50000. Dieser Port ist im Gastzugang der Fritzbox standardmäßig blockiert, deshalb muss man den Port explizit öffnen, damit der VPN-Tunnel aufgebaut werden kann.
