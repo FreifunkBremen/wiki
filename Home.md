@@ -12,11 +12,12 @@ Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat im [Hackerspace 
 
 ##### Tagesordnungen
 * der letzten Treffen:
-  * [[07.06.2019|Treffen/2019_06_07]]
   * [[21.06.2019|Treffen/2019_06_21]]
-* der nächsten Treffen:
-  * [[05.07.2019|Treffen/2019_07_05]] (kein offizielles Treffen, wegen Breminale)
   * [[19.07.2019|Treffen/2019_07_19]]
+* der nächsten Treffen:
+  * [[02.08.2019|Treffen/2019_08_02]]
+  * [[16.08.2019|Treffen/2019_08_16]]
+
 * [Liste aller Treffen](/pages/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
 * Weitere Termine (nicht nur Treffen) finden sich in den Protokollen zu den verschiedenen Treffen
 
