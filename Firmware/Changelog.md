@@ -36,11 +36,14 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **Veröffentlichung auf dem `stable`-Branch**: nie  
 **Veröffentlichung auf dem `testing`-Branch**: nie   
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2018.2.2+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2018.2.2+bremen1)  
-**gluon-Version**: [2018.2.1](#gluon-versionen_2018-2-2)  
+**gluon-Version**: [2018.2.2](#gluon-versionen_2018-2-2)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2018.2.2+bremen1/)
 
 - **Update auf [Gluon 2018.2.2](#gluon-versionen_2018-2-2)**
-  - (TODO)
+  - Sicherheitslücken im Linux-Kernel ("SACK-Lücke" etc.) wurden geschlossen (CVE-2019-11477, CVE-2019-11478 und CVE-2019-11479). Durch diese Lücken konnte der Knoten aus der Ferne zum Absturz gebracht werden.
+  - die Anzahl der Nicht-WLAN-Clients auf der Karte sollte jetzt genauer sein.
+  - die Statusseite (und der DNS-Server im Knoten) sollten jetzt weiterhin korrekt funktionieren, selbst wenn ein anderer Knoten im Freifunk-Netz die reservierte Next-Node-MAC-Adresse verwendet.
+  - Onion-Omega-Geräte werden nicht mehr unterstützt.
 
 ### 2018.2.1+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
@@ -814,11 +817,20 @@ Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfacht
 
 ### 2018.2.2
 **Veröffentlichungsdatum**: 24.06.2019  
-**offizielle Versionshinweise**: [2018.2.2](https://gluon.readthedocs.io/en/v2018.2.1/releases/v2018.2.2.html)  
+**offizielle Versionshinweise**: [2018.2.2](https://gluon.readthedocs.io/en/v2018.2.2/releases/v2018.2.2.html)  
 **Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2018.2.2/index.html#supported-devices-architectures)  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2018.2.2) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2018.2.2)
 
-TODO
+#### Fehlerbehebungen
+- Sicherheitslücken im Linux-Kernel ("SACK-Lücke" etc.) wurden geschlossen (CVE-2019-11477, CVE-2019-11478 und CVE-2019-11479). Durch diese Lücken konnte der Knoten aus der Ferne zum Absturz gebracht werden.
+- der Netgear R6120 bleibt nicht mehr im Config-Modus stecken ([#1722](https://github.com/freifunk-gluon/gluon/pull/1722))
+- respondd zählt die Anzahl der Nicht-WLAN-Clients jetzt besser ([#1676](https://github.com/freifunk-gluon/gluon/pull/1676))
+- der Batman-Management-Traffic wurde reduziert. Ein Fehler ab Gluon 2017.1 hatte zu unnötigem Traffic geführt ([#1446](https://github.com/freifunk-gluon/gluon/pull/1446)). Dies betrifft aber nicht die Batman-Version, die in Bremen verwendet wird.
+- Ein Fehler wurde behoben, durch den Dienste auf dem Knoten selbst (z.B. DNS-Server oder Statusseite) nicht erreichbar waren, wenn im gleichen Layer-2-Segment fehlerhafte Knoten  liefen ([#1659](https://github.com/freifunk-gluon/gluon/pull/1659)).
+- Probleme beim Tunneldigger-VPN (beim Traffic-Shaping) und beim Umstieg von fastd auf Tunneldigger wurden behoben ([#1736](https://github.com/freifunk-gluon/gluon/pull/1736)).
+
+#### Nicht mehr unterstützte Hardware
+- Onion-Omega-Geräte werden nicht mehr unterstützt
 
 
 ### 2018.2.1
