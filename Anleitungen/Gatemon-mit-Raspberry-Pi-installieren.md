@@ -131,6 +131,17 @@ Weitere Hilfe findet man dann im IRC, auf der Mailingliste oder beim Treffen.
 * **Cron-Job läuft nicht:**
   * die Datei in /etc/cron.d/ darf keine Endung haben (muss also `/etc/cron.d/check-all-vpn-exits` heißen, ohne `.cron` am Ende)
 
+### Gatemon-Update
+Ein Update wird wie folgt durchgeführt. SSH Zugang als root zum Gatemon herstellen.
+~~~
+cd /opt/gatemon
+git pull --rebase https://github.com/FreifunkBremen/gatemon
+make check_dhcp
+~~~
+Konfigdatei anpassen. /etc/gatemon.cfg
+Ändern von MESHMON_NAME in GATEMON_NAME; MESHMON_PROVIDER in GATEMON_PROVIDER
+fertig.
+
 ## TODO
 * automatische Updates einrichten
 * Postfix installieren, um Fehler-Ausgaben zu bekommen
