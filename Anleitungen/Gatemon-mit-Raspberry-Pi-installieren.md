@@ -138,9 +138,14 @@ cd /opt/gatemon
 git pull --rebase https://github.com/FreifunkBremen/gatemon
 make check_dhcp
 ~~~
-Konfigdatei anpassen. /etc/gatemon.cfg
-Ändern von MESHMON_NAME in GATEMON_NAME; MESHMON_PROVIDER in GATEMON_PROVIDER
-fertig.
+
+#### Upgrade auf 0.5
+Konfigdatei anpassen: /etc/gatemon.cfg
+* ändern von `MESHMON_NAME` in `GATEMON_NAME`
+* ändern von `MESHMON_PROVIDER` in `GATEMON_PROVIDER`
+
+#### Upgrade auf 0.7
+`jq` installieren (z.B. `apt-get install jq`)
 
 ## TODO
 * automatische Updates einrichten
