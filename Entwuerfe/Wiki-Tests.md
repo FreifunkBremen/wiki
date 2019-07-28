@@ -1,3 +1,0 @@
-Bild: ![Paris](https://cloud.ffhb.de/index.php/s/4ycTguA6LumSsa3/download)
-
-Ein Test...
