@@ -14,7 +14,8 @@ Dieses erfolgt oft so schnell, dass der angeschlossene PC dies nicht mitbekommt.
 
 **Dauerbootschleife:** Auf dem Router sind zwei Images. Das Erste ist der uboot Bootloader, der am Ende des Startvorgangs das zweite Image anspring und die Applikation startet. In seltenen Fällen kommt es vor, das während der Installation eines neuen Images, der uboot Bootloader hinter den ersten geschrieben wird. uboot springt an eine feste Adresse im Speicher. Trifft es dort auf den neuen uboot, kommt es zur Schleife. Hier hilft ein gestripptes Image ohne uboot am Anfang.
 
-
+**TFTP IP-Adressen:** Jedes Modell verwendet eigene Adressen. Die Adressen für den unbrick finden sich unter: https://openwrt.org/toh/start
+Alternativ den Bootvorgang auf der seriellen Konsole mitschneiden. Dort können wir die IP Adressen und das zu ladene Image ablesen.
 
 [Teil 1 unbrick seriell](#inhalt_Vorbereitungen)
 
