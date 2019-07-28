@@ -8,6 +8,14 @@ Vorher sollte man probieren, über den [Failsafe-Mode](http://wiki.openwrt.org/d
 Beim aktuellsten Modell des 841n(d), der Version 9+ ist es auch möglich, komplett auf Löten zu verzichten. Details finden sich [hier](http://wiki.openwrt.org/toh/tp-link/tl-wr841nd#v9_without_serial).
 
 
+## Hinweise:
+**Warum TFTP nicht klappt.** Der Router schaltet die LAN Schnittstelle ein und schaut auf einer von diesem Modell festgelegten IP-Adresse ob ein Modellspezifisches Image geladen werden kann. 
+Dieses erfolgt oft so schnell, dass der angeschlossene PC dies nicht mitbekommt. Lösung: einen kleinen Switch dazwischen schalten, dieser hält den PC Online und reagiert deutlich schneller auf den Uplink des Routers.
+
+**Dauerbootschleife:** Auf dem Router sind zwei Images. Das Erste ist der uboot Bootloader, der am Ende des Startvorgangs das zweite Image anspring und die Applikation startet. In seltenen Fällen kommt es vor, das während der Installation eines neuen Images, der uboot Bootloader hinter den ersten geschrieben wird. uboot springt an eine feste Adresse im Speicher. Trifft es dort auf den neuen uboot, kommt es zur Schleife. Hier hilft ein gestripptes Image ohne uboot am Anfang.
+
+
+
 [Teil 1 unbrick seriell](#inhalt_Vorbereitungen)
 
 [Teil 2 unbrick TFTP Archer C7](#inhalt_Unbrick Anleitung TP-Link Archer C7 v2)
