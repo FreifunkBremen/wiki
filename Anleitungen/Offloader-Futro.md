@@ -102,6 +102,10 @@ Benchmark Download (y-Achse dabei in MBit/s):
 Benchmark Upload (y-Achse dabei in MBit/s):
 <img src="http://jel.to/ff_pics/benchmark_offloader_up.png" alt="Futro Benchmark Upload" style="width:781px;height:452px;">
 
+<img src="https://cloud.ffhb.de/index.php/s/WSJPANW5iC57DDZ" alt="Futro Benchmark Upload" style="width:781px;height:452px;">
+
+![Box](https://cloud.ffhb.de/index.php/s/WSJPANW5iC57DDZ/download)
+
 Im Freifunk-Forum wird folgendes berichtet:
 
 > In der Varriante mit einer NIC und VLAN erreicht der Futro etwa 55MBit/s. Mit einer zweiten PCI Netzwerkkarte wurden Werte bis etwa 90MBit/s gemessen.
