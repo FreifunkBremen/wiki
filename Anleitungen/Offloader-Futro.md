@@ -33,14 +33,14 @@ Jetzt bootet der Futro in den Configmode und kann entsprechend konfiguriert werd
 ## Das Dual-NIC-Setup
 Die technisch einfachere Variante ist das Einbauen einer zusätzlichen Netzwerkkarte. Dazu ist eine um 90° gewinkelte Risercard nötig (Freifunker anon6789 hat noch einige passende über). Sobald die Netzwerkkarte eingebaut ist, hat der Router eine LAN und eine WAN Schnittstelle (WAN ist die PCI-Karte). Achtung: wird die Netzwerkkarte erst nachträglich eingebaut, muss das Image noch einmal neu aufgespielt werden!
 
- <img src="http://jel.to/ff_pics/offloader_dual_nic.jpg" alt="Futro Dual WAN Setup" style="width:400px;height:533px;">
+![Futro Dual WAN Setup](https://cloud.ffhb.de/index.php/s/zTJ7dxafykGRe8W/download)
  
  Über das blaue LAN-Kabel bekommt der Futro Uplink und über das orangene Mesht er über LAN mit einem weiteren Router.
 
 ## Das VLAN-Setup
 Das VLAN-Setup ist technisch anspruchsvoller und es ist noch ein zusätzlicher Freifunkrouter nötig (oder andere VLAN-Hardware). Dabei wird das WAN-Netz vom Router über ein VLAN an den Offloader weitergereicht und in einem weiteren tagged VLAN wird gemesht. Der Freifunkrouter schleift das WAN also nur durch, ohne selbst das VPN aufzubauen.
 
- <img src="http://jel.to/ff_pics/offloader_vlan.jpg" alt="Futro VLAN Setup" style="width:400px;height:533px;">
+![Futro VLAN Setup](https://cloud.ffhb.de/index.php/s/KfdwakwFYtRS4KT/download) 
  
  In diesem Setup bekommt der Router Uplink über das blaue Kabel. Über das orangene Kabel laufen zwei VLANs zum Futro, im einen das WAN-Netz für die VPN-Verbindung und im anderen Mesh-On-LAN.
 
@@ -97,16 +97,12 @@ Bei einem Test an einer VDSL50-Leitung (50MBit/s Download und 10MBit/s Upload) l
 
 
 Benchmark Download (y-Achse dabei in MBit/s):
-<img src="http://jel.to/ff_pics/benchmark_offloader_down.png" alt="Futro Benchmark Download" style="width:818px;height:451px;">
+
+![Futro Benchmark Download](https://cloud.ffhb.de/index.php/s/GC3m6oXQ4A9fZKe/download)
 
 Benchmark Upload (y-Achse dabei in MBit/s):
-<img src="http://jel.to/ff_pics/benchmark_offloader_up.png" alt="Futro Benchmark Upload" style="width:781px;height:452px;">
-
-<img src="https://cloud.ffhb.de/index.php/s/WSJPANW5iC57DDZ" alt="Futro Benchmark Upload" style="width:781px;height:452px;">
 
 ![Futro Benchmark Upload](https://cloud.ffhb.de/index.php/s/WSJPANW5iC57DDZ/download)
-
-![Futro Benchmark Upload](https://cloud.ffhb.de/index.php/s/WSJPANW5iC57DDZ)
 
 Im Freifunk-Forum wird folgendes berichtet:
 
