@@ -86,6 +86,8 @@ sudo make install
 
 Jetzt mit `modinfo batman-adv` nachschauen, ob das Modul jetzt tatsächlich die richtige Version hat (2013.4.0-21-ga854277-dirty, bzw. 2013.4.0-dirty). Dann mit `modprobe batman-adv` laden, und außerdem `batman-adv` in `/etc/modules` eintragen, damit es beim nächsten Booten automatisch geladen wird.
 
+**Update:** inzwischen kann man das Modul auch mit [DKMS](https://wiki.ubuntuusers.de/DKMS/) kompilieren, wodurch der Neubau nach einem Kernel-Upgrade vereinfacht wird. Allerdings funktioniert `dkms autoinstall` hier nicht ohne weiteres, weil es einen Konflikt mit dem bereits mitgelieferten `batman-adv`-Modul gibt. Das kann man wohl nur über unschöne Hacks umgehen.
+
 ## Mesh-Verbindung einrichten
 
 Tools für das batman-adv-Interface runterladen:
