@@ -443,4 +443,8 @@ sudo nano /etc/crontab
 ~~~
 Das geht mit anderen DNS Anbietern ähnlich und lässt sich auch mehrfach einsetzen.
 
-
+Falls das Zertifikat abgelaufen ist und nicht erneuert wurde, kann dieses durch folgenden Befehl aktualisiert werden.
+~~~
+cd /etc/letsentcrypt
+./certbot-auto
+~~~
