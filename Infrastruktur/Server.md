@@ -3,15 +3,17 @@ Es gibt momentan 6 Gateway-Server, die zum Verbinden der Knoten untereinander un
 ## Gateways a.k.a VPNs
 Der Status der Gateways kann hier eingesehen werden: https://status.bremen.freifunk.net/
 
+Zum Uplink siehe [[Infrastruktur/Netzwerk]]
+
 ### Sponsoren und Konfiguration
-| Server | Sponsor      | Standort | Uplink-Anbieter    | Uplink-Standort |
-|:-------|:-------------|:---------|:-------------------|:----------------|
-| vpn01  | LWLcom       | Bremen   | Digineo            | Bremen          |
-| vpn02  | PLUTEX       | Bremen   | Digineo            | Bremen          |
-| vpn03  | LWLcom       | Bremen   | Digineo            | Bremen          |
-| vpn04  | PLUTEX       | Bremen   | -                  | Bremen          |
-| vpn05  | PLUTEX       | Bremen   | Digineo            | Bremen          |
-| vpn06  | Digineo GmbH | 23media  | Digineo            | Frankfurt       |
+| Server | Sponsor      | Standort            |
+|:-------|:-------------|:--------------------|
+| vpn01  | LWLcom       | Bremen              |
+| vpn02  | PLUTEX       | Bremen              |
+| vpn03  | LWLcom       | Bremen              |
+| vpn04  | PLUTEX       | Bremen              |
+| vpn05  | PLUTEX       | Bremen              |
+| vpn06  | Digineo GmbH | 23media, Frankfurt  |
 
 ### Ansprechpartner
 
@@ -25,7 +27,7 @@ Der Status der Gateways kann hier eingesehen werden: https://status.bremen.freif
 | vpn06   | corny                 | genofire, jplitza   |
 
 
-## Server für zentrale Dienste
+## Zentrale Dienste
 | Dienst                                 | Verantwortlicher          | Standort              |
 |----------------------------------------|---------------------------|-----------------------|
 | [Website](https://ffhb.de)             | jplitza, mortzu           | Bremen / LWLcom       |
@@ -38,9 +40,9 @@ Der Status der Gateways kann hier eingesehen werden: https://status.bremen.freif
 
 
 ## Physikalische Hardware
-| Server                  | Dienste               | Verantwortlicher           | Standort              |
+| Server | Dienste               | Verantwortlicher           | Standort              |
 |-------------------------|-----------------------|----------------------------|-----------------------|
-| LWLcom-Server ("bre1")  | DNS, Mailserver, Webserver, Karte (ffmap), IPv6-Downlink, vpn01, vpn03 | chrische, morpheus, mortzu, jplitza | Bremen / LWLcom |
-| Plutex-Server ("bre2")  | Jenkins, vpn02, vpn04 | mortzu, jplitza            | Bremen / Plutex       |
-| Plutex-Server ("echo")  | vpn05                 | mortzu, jplitza            | Bremen / Plutex       |
-| Router                  |                       | chrische, morpheus, mortzu | Bremen / Plutex       |
+| bre-1  | DNS, Mailserver, Webserver, Karte (ffmap), IPv6-Downlink, vpn01, vpn03 | chrische, morpheus, mortzu, jplitza | Bremen / LWLcom |
+| Cisco-Router | BGP | chrische, morpheus, mortzu, jplitza    | Bremen / LWLcom       |
+| bre-2  | Jenkins, vpn02, vpn04 | mortzu, jplitza            | Bremen / PLUTEX       |
+| echo   | vpn05                 | mortzu                     | Bremen / PLUTEX       |
