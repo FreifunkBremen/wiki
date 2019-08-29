@@ -51,6 +51,8 @@ Image auf Micro-SD Karte schreiben. -> 2 Partitionen /boot & /rootfs & freier Pl
 2 Varianten: mit gParted das rootfs vergrößern oder neue Partition anlegen, die später gemounted wird. Beide Varianten haben ihre Vor- und Nachteile. Die bessere Lösung ist die neue Partition einzuhängen. Zum Spielen und Programme installieren ist die Variante 1 besser, da die Partition mit /rootfs im Neuzustand bereits fast voll ist.
 Wenn die SD Karte gerade noch im Lesegerät steckt, gleich die Einstellugen für Netzteil, Monitor und serielle Konsole in die `/boot/config.txt` eintragen, leere Datei ssh anlegen (aktiviert den SSH Zugang).
 
+Natürlich können die Grudeinstellungen auch in der Image-Datei vorgenommen werden. Unter Windows evtl. mit dem Tool https://www.winimage.com/ das Image Bearbeiten.
+
 ###Virenscanner ClamAV installieren
 Wenn der Raspi mit dem Internet verbunden ist, sollte ein Virenscanner installiert werden.
 Weitere Infos unter: https://www.clamav.net/
