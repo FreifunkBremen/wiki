@@ -473,3 +473,9 @@ sudo apt dist-upgrade
 reboot, check it works OK.
 Remove SD, USB HD etc, Wechsel auf RPi 4
 Boot fertig.
+NEXTCLOUDPI-Image. Das Nextclougimage wird etwas anders auf Buster angehoben. Das Team von Nextcloud hat den Updateprozess automazisiert. Hier wird der eigene Upgradebefahle ausgeführt.
+~~~
+sudo ncp-update
+sudo ncp-dist-upgrade
+~~~
+fertig.
