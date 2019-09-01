@@ -24,7 +24,7 @@ Eine wichtige Quelle ist: https://www.raspberrypi.org/documentation/
 - [Projekt Nextcloud](#inhalt_projekt-nextcloud)
 - [Projekt DynDNS](#inhalt_projekt-dyndns)
 - [Projekt Lets Encrypt Zertifikat](#inhalt_lets-encrypt-zertifikat)
-
+- [Umzug auf neuere Hardware](#inhalt Umzug auf neuere Hardware)
 
 ###Kaufberatung
 Soll es nur ein Gerät sein, lohnt sich ein Bundle, damit habe ich alles zusammen, was für den Betrieb eines Raspberry benötigt wird. Werden es evtl. mehrere Geräte oder es werden ein paar Besonderheiten gewünscht, lohnen sich Einzelteile.
@@ -451,3 +451,25 @@ Falls das Zertifikat abgelaufen ist und/oder nicht erneuert wurde, kann dieses d
 cd /etc/letsentcrypt
 ./certbot-auto
 ~~~
+
+###Umzug auf neuere Hardware
+Buster - die neue Version von Raspbian
+
+Der Rapberry 4 benötigt Buster, Buster ist zu älterer Hardware abwärtskompatibel.
+
+Es gibt keine großen Unterschiede zwischen Debian Stretch und Debian Buster. 
+Die meisten Unterschiede sind unter der Haube, überwiegend Sicherheitsänderungen, 
+die Buster schwerer zu hacken machen sollen. 
+
+Einfach die SD Karte umstecken funktioniert nicht sauber, es ist auf dem alten System
+ein Umstieg auf Buster durchzuführen.
+
+Das zu wechselnde System auf der alten Hardware booten.
+Dann editieren wir:
+ /etc/apt/sources.list replacing "stretch" by "buster"
+ /etc/apt/sources.list.d/raspi.list replacing "stretch" by "buster"
+sudo apt update
+sudo apt dist-upgrade
+reboot, check it works OK.
+Remove SD, USB HD etc, Wechsel auf RPi 4
+Boot fertig.
