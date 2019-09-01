@@ -24,7 +24,7 @@ Eine wichtige Quelle ist: https://www.raspberrypi.org/documentation/
 - [Projekt Nextcloud](#inhalt_projekt-nextcloud)
 - [Projekt DynDNS](#inhalt_projekt-dyndns)
 - [Projekt Lets Encrypt Zertifikat](#inhalt_lets-encrypt-zertifikat)
-- [Umzug auf neuere Hardware](#inhalt Umzug auf neuere Hardware)
+- [Umzug auf neuere Hardware](#inhalt_umzug-auf-neuere-hardware)
 
 ###Kaufberatung
 Soll es nur ein Gerät sein, lohnt sich ein Bundle, damit habe ich alles zusammen, was für den Betrieb eines Raspberry benötigt wird. Werden es evtl. mehrere Geräte oder es werden ein paar Besonderheiten gewünscht, lohnen sich Einzelteile.
