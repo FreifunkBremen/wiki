@@ -60,11 +60,6 @@ Standort                                    | Kontakt                     | Ger�
 Auf den Häfen| khaldoun@my.mail.de | WR841N (v9), WDR3600,4300  | 20-50€
 
 
-### Findorff
-Standort                                    | Kontakt                     | Geräte                        | Kosten
----                                         | ---                         | ---                           | ---
-Kasseler Strasse |  auf [Mailingliste] oder im [Chat] | WR1043 | 25€
- | | WDR3600  | 40€
 
 
 
