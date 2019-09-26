@@ -12,6 +12,8 @@ Im Freifunk-Netz kann man nicht nur das Internet benutzen. Jeder kann eigene Die
 
 * [minecraft.onffhb.de](http://minecraft.onffhb.de) Ein Minecraft Vanilla Server (Java Edition), erlaubt das gemeinsame Spielen in den nahezu unendlichen weiten der kantigen Welt. Der Server ist nur aus dem Freifunknetz erreichbar.
 
+* minecraft.onffhb.de:25566 Eine epische Minecraft-Welt, bestehend aus Fliegenden Inseln. Hier wird gemeinsam im Kreativmodus gespielt.
+
 ## Infos zum aktuellen Router
 Unter http://node.ffhb.de findest du Informationen zu dem Router, mit dem du momentan verbunden bist.
 
