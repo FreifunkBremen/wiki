@@ -67,7 +67,9 @@ Zusammenfassend kann man sagen das eine Anlage bestehend aus :
 
 12V Laderegler 
 
-12V 12Ah Akkumulator 
+12V 12Ah Akkumulator
+
+Eine Sicherung, die möglichst nah am Anschluss des Akkus verbaut wird, um kurzschlüsse abzusichern.
 
 in der Lage ist einen 841er Router grundsätzlich über die Sommermonate zu versorgen.
 
