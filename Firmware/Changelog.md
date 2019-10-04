@@ -26,15 +26,15 @@ Experimentelle Firmware-Versionen werden nicht offiziell unterstützt und werden
 
 Branch        | aktuelle Version                                                    | signed by
 ---           | ---                                                                 | ---
-**`stable`**  | [2017.1.8+bremen1](#freifunk-bremen-versionen_2017-1-8-bremen1)     | `oliver`, `JP`, `janeric`, `SimJoSt`
-**`testing`** | [2018.2.1+bremen1](#freifunk-bremen-versionen_2018-2-1-bremen1)     | `nightly-builder`, `oliver`
+**`stable`**  | [2018.2.1+bremen1](#freifunk-bremen-versionen_2018-2-1-bremen1)     | `oliver`, `janeric`
+**`testing`** | [2018.2.2+bremen1](#freifunk-bremen-versionen_2018-2-2-bremen1)     | `autobuilder`, `oliver`
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
 
 ### 2018.2.2+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
-**Veröffentlichung auf dem `testing`-Branch**: nie   
+**Veröffentlichung auf dem `testing`-Branch**: [27.07.2019](https://downloads.bremen.freifunk.net/firmware/all/2018.2.2+bremen1/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2018.2.2+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2018.2.2+bremen1)  
 **gluon-Version**: [2018.2.2](#gluon-versionen_2018-2-2)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2018.2.2+bremen1/)
@@ -46,7 +46,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
   - Onion-Omega-Geräte werden nicht mehr unterstützt.
 
 ### 2018.2.1+bremen1
-**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `stable`-Branch**: [09.08.2019](https://downloads.bremen.freifunk.net/firmware/all/2018.2.1+bremen1/sysupgrade/stable.manifest)  
 **Veröffentlichung auf dem `testing`-Branch**: [11.05.2019](https://downloads.bremen.freifunk.net/firmware/all/2018.2.1+bremen1/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2018.2.1+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2018.2.1+bremen1)  
 **gluon-Version**: [2018.2.1](#gluon-versionen_2018-2-1)  
