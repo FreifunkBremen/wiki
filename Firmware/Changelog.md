@@ -31,6 +31,15 @@ Branch        | aktuelle Version                                                
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
+### 2019.1+bremen1
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: nie  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2019.1+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2019.1+bremen1)  
+**gluon-Version**: [2019.1](#gluon-versionen_2019-1)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2019.1+bremen1/)
+
+- **Update auf [Gluon 2019.1](#gluon-versionen_2019-2)**
+  - Liste der Änderungen: TODO
 
 ### 2018.2.2+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
@@ -814,6 +823,15 @@ Der Quellcode von Gluon liegt bei [Github](https://github.com/freifunk-gluon/glu
 Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) einsehbar.
 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
+
+### 2019.1
+**Veröffentlichungsdatum**: 14.09.2019  
+**offizielle Versionshinweise**: [2019.1](https://gluon.readthedocs.io/en/v2019.1/releases/v2019.1.html)  
+**Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2019.1/user/supported_devices.html)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2019.1) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2019.1)
+
+#### Änderungen
+(TODO)
 
 ### 2018.2.2
 **Veröffentlichungsdatum**: 24.06.2019  
