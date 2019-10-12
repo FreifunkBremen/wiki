@@ -38,8 +38,9 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **gluon-Version**: [2019.1](#gluon-versionen_2019-1)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2019.1+bremen1/)
 
-- **Update auf [Gluon 2019.1](#gluon-versionen_2019-2)**
-  - Liste der Änderungen: TODO
+- **Update auf [Gluon 2019.1](#gluon-versionen_2019-1)**
+  - neu unterstützte Geräte:
+      - D-Link DAP-1330 A1
 
 ### 2018.2.2+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
@@ -830,8 +831,28 @@ Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfacht
 **Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2019.1/user/supported_devices.html)  
 **Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2019.1) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2019.1)
 
-#### Änderungen
-(TODO)
+#### Fehlerbehebungen
+- das `gluon-authorized-keys`-Modul funktioniert jetzt korrekt, auch wenn in der `site.mk` das `gluon-setup-mode`-Modul nicht eingetragen wurde
+
+#### Neuerungen
+- Neue Funktionen für Infrastruktur-Migrationen (z.B. für den Wechsel der B.A.T.M.A.N-Version), in Form von Scheduled Domain Switching und Koexistenz von batman-adv-Treibern. Solche Migrationen werden dringender, weil mit 2019.2 einige alte Funktionen nicht mehr unterstützt sein werden.
+- respondd-Anfragen an `[ff02::2:1001]:1001` werden nicht mehr unterstützt; nur `[ff05::2:1001]:1001` wird noch unterstützt.
+- für 5GHz-Geräte kann jetzt der "Outdoor Mode" eingeschaltet werden, damit DFS (Dynamic Frequency Selection) verwendet wird.
+- Geolocation-Unterstützung im Hood Selector hinzugefügt
+- der `firstboot`-Befehl wird jetzt auch bei x86-Geräten unterstützt
+
+#### Neue Geräte-Unterstützung
+- 8devices
+  - Jalapeno
+- Aerohive
+  - HiveAP 330
+- ASUS
+  - RT-AC57U
+- D-Link
+  - DAP-1330 A1
+- TP-Link
+  - TL-WR840N v2
+
 
 ### 2018.2.2
 **Veröffentlichungsdatum**: 24.06.2019  
