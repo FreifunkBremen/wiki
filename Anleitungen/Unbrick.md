@@ -129,6 +129,8 @@ Wer die Unbrickaktion des öfteren durchführt, sollte sich z.B. in der Bucht ei
 
 #Unbrick Anleitung TP-Link Archer C7 v2
 
+siehe hier: https://forum.dd-wrt.com/phpBB2/viewtopic.php?t=275635&postdays=0&postorder=asc&start=0
+
 ## Vorbereitungen
 Folgende Dinge werden benötigt:
 * gebrickter Router
