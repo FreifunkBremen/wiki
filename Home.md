@@ -12,11 +12,11 @@ Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat im [Hackerspace 
 
 ##### Tagesordnungen
 * der letzten Treffen:
-  * [[04.10.2019|Treffen/2019_10_04]]
   * [[18.10.2019|Treffen/2019_10_18]]
-* der nächsten Treffen:
   * [[01.11.2019|Treffen/2019_11_01]]
+* der nächsten Treffen:
   * [[15.11.2019|Treffen/2019_11_15]]
+  * [[06.12.2019|Treffen/2019_12_06]]
 
 * [Liste aller Treffen](/pages/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
 * Weitere Termine (nicht nur Treffen) finden sich in den Protokollen zu den verschiedenen Treffen
