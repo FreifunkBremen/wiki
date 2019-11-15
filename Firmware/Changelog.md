@@ -43,8 +43,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
       - D-Link DAP-1330 A1
 
 ### 2018.2.2+bremen1
-**Veröffentlichung auf dem `stable`-Branch**: [15.10.2019](https://downloads.bremen.freifunk.net/firmware/all/2018.2.2+bremen1/sysupgrade/stable.manifest)
-
+**Veröffentlichung auf dem `stable`-Branch**: [15.10.2019](https://downloads.bremen.freifunk.net/firmware/all/2018.2.2+bremen1/sysupgrade/stable.manifest)   
 **Veröffentlichung auf dem `testing`-Branch**: [27.07.2019](https://downloads.bremen.freifunk.net/firmware/all/2018.2.2+bremen1/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2018.2.2+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2018.2.2+bremen1)  
 **gluon-Version**: [2018.2.2](#gluon-versionen_2018-2-2)  
