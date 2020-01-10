@@ -150,6 +150,7 @@ vmlinux.tmp
 4. USB serielle Verbindung herstellen. 
 5. Terminal starten (TeraTerm, Putty etc.) 57600 8N1 einstellen.
 6. ER-X Netzkabel anstecken und sehen, das die Ausgaben im Terminal lesbar sind.
+
 7. LAN Kabel von eth0 (linke Buchse) mit PC Verbinden.
 8. PC LAN auf 172.16.3.210 einstellen, Netzmaske 255.255.255.0 Gateway auf die Routeradresse 172.16.3.213 für ER-X oder 172.16.3.211 für den ER-X-SFP
 9. Router einschalten, der Bootvorgang stoppt nach ein paar Sekunden für 5 Sekunden (Timer) bei folgender Ausgabe.
