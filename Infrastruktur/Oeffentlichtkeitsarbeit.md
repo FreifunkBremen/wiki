@@ -18,11 +18,9 @@ Die folgende Liste ist eine Ideensammlung, welche Orte einen Vorteil durch Freif
 ### Bahnhofsviertel
 
 * Bahnhofsvorplatz
-* Café noon &#10003;
 * Bremer Informationszentrum
 für Menschenrechte und Entwicklung (beim Cinemax und außerdem Büroräume, die Fenster Richtung Breitenweg haben).
 * https://www.facebook.com/kioskbu.de (Anhänger von "Die Partei", daher vielleicht offen)
-* Fahrradstation (wird vom ADFC betrieben)
 * Kino City46
 * Gewerkschaftshaus des DGB
 
@@ -49,9 +47,7 @@ für Menschenrechte und Entwicklung (beim Cinemax und außerdem Büroräume, die
 
 ### Viertel
 
-* Sielwall-Kreuzung
 * Entlang der Straßenbahn
-* Café Sand &#10003;
 * Bauernladen / Erzeuger-Verbraucher-Genossenschaft
 * BUND Bremen (am besten über BUNDjugend)
 
