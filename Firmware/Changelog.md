@@ -27,7 +27,7 @@ Experimentelle Firmware-Versionen werden nicht offiziell unterstützt und werden
 Branch        | aktuelle Version                                                    | signed by
 ---           | ---                                                                 | ---
 **`stable`**  | [2018.2.2+bremen1](#freifunk-bremen-versionen_2018-2-2-bremen1)     | `oliver`, `janeric`
-**`testing`** | [2019.1+bremen1](#freifunk-bremen-versionen_2019-1.1-bremen2)     | `janeric`
+**`testing`** | [2019.1.1+bremen2](#freifunk-bremen-versionen_2019-1-1-bremen2)     | `janeric`
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
@@ -38,7 +38,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **gluon-Version**: [2019.1.1](#gluon-versionen_2019-1-1)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2019.1+bremen1/)
 
-- **11s als Standard aktiviert, als vorbereitung auf dem Domainwechsel.**
+- **11s als Standard aktiviert, als vorbereitung auf den Domainwechsel.**
 
 ### 2019.1.1+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
