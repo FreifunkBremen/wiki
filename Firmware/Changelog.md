@@ -64,6 +64,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 - **Update auf [Gluon 2019.1](#gluon-versionen_2019-1)**
   - neu unterstützte Geräte:
       - D-Link DAP-1330 A1
+      - TP-Link CPE210 v3
 
 ### 2018.2.2+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: [15.10.2019](https://downloads.bremen.freifunk.net/firmware/all/2018.2.2+bremen1/sysupgrade/stable.manifest)   
