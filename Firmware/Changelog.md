@@ -33,7 +33,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 
 ### 2019.1.1+bremen2
 **Veröffentlichung auf dem `stable`-Branch**: nie  
-**Veröffentlichung auf dem `testing`-Branch**: [26.01.2020](https://downloads.bremen.freifunk.net/firmware/all/2019.1.1+bremen2/sysupgrade/testing.manifest)  
+**Veröffentlichung auf dem `testing`-Branch**: [26.02.2020](https://downloads.bremen.freifunk.net/firmware/all/2019.1.1+bremen2/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2019.1.1+bremen2) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2019.1.1+bremen2)  
 **gluon-Version**: [2019.1.1](#gluon-versionen_2019-1-1)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2019.1+bremen1/)
@@ -48,7 +48,6 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2019.1+bremen1/)
 
 - **Update auf [Gluon 2019.1.1](#gluon-versionen_2019-1-1)**
-  - x
 
 ### 2019.1+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: [19.01.2020](http://downloads.ffhb.de/firmware/all/2019.1+bremen1/sysupgrade/stable.manifest)  
