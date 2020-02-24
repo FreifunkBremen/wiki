@@ -38,7 +38,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **gluon-Version**: [2019.1.1](#gluon-versionen_2019-1-1)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2019.1+bremen1/)
 
-- **11s als Standard aktiviert, als vorbereitung auf den Domainwechsel.**
+- **11s als Standard aktiviert, als Abschluss des Domainwechsels.**
 
 ### 2019.1.1+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: nie  
@@ -47,7 +47,12 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **gluon-Version**: [2019.1.1](#gluon-versionen_2019-1-1)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2019.1+bremen1/)
 
-- **Update auf [Gluon 2019.1.1](#gluon-versionen_2019-1-1)**
+- Update auf [Gluon 2019.1.1](#gluon-versionen_2019-1-1)
+- Umschalt-Automatik für den Wechsel von IBSS-Mesh auf 802.11s:
+  - man kann jetzt im Config-Modus die Domain (11s/neu oder IBSS/alt) auswählen
+  - am 5.3.2020 um 01:00 morgens wird der Knoten automatisch auf 11s umschalten
+  - falls der Knoten zwei Stunden lang offline ist, wird er ebenfalls automatisch auf 11s umschalten (das ist nötig, weil Knoten nach dem Einschalten erstmal keine korrekte Uhrzeit haben)
+- auf Geräten ohne WLAN-Chip (z.B. VPN-Offloader) sollte es jetzt keine Warnungen über fehlende Airtime-Informationen mehr geben
 
 ### 2019.1+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: [19.01.2020](http://downloads.ffhb.de/firmware/all/2019.1+bremen1/sysupgrade/stable.manifest)  
