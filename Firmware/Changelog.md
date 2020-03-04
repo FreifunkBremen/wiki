@@ -26,7 +26,7 @@ Experimentelle Firmware-Versionen werden nicht offiziell unterstützt und werden
 
 Branch        | aktuelle Version                                                    | signed by
 ---           | ---                                                                 | ---
-**`stable`**  | [2019.1+bremen1](#freifunk-bremen-versionen_2019-1-bremen1)         | `oliver`, `janeric`
+**`stable`**  | [2019.1.1+bremen1](#freifunk-bremen-versionen_2019-1-1-bremen1)     | `oliver`, `janeric`, `jplitza`
 **`testing`** | [2019.1.1+bremen2](#freifunk-bremen-versionen_2019-1-1-bremen2)     | `janeric`
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
@@ -36,7 +36,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **Veröffentlichung auf dem `testing`-Branch**: [26.02.2020](https://downloads.bremen.freifunk.net/firmware/all/2019.1.1+bremen2/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2019.1.1+bremen2) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2019.1.1+bremen2)  
 **gluon-Version**: [2019.1.1](#gluon-versionen_2019-1-1)  
-**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2019.1+bremen1/)
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2019.1.1+bremen2/)
 
 - **11s als Standard aktiviert, als Abschluss des Domainwechsels.**
 
@@ -45,7 +45,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **Veröffentlichung auf dem `testing`-Branch**: [20.01.2020](https://downloads.bremen.freifunk.net/firmware/all/2019.1.1+bremen1/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2019.1.1+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2019.1.1+bremen1)  
 **gluon-Version**: [2019.1.1](#gluon-versionen_2019-1-1)  
-**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2019.1+bremen1/)
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2019.1.1+bremen1/)
 
 - Update auf [Gluon 2019.1.1](#gluon-versionen_2019-1-1)
 - Umschalt-Automatik für den Wechsel von IBSS-Mesh auf 802.11s:
