@@ -10,8 +10,13 @@ Eine gute Übersichtseite mit vielen Informationen findet sich auch im Wiki von 
 
 ### Für den Innenbereich
 
+Aktuell (Stand 3/20) empfehlen wir den [**Archer C7**](https://www.heise.de/preisvergleich/tp-link-archer-c7-verschiedene-revisionen-a923544.html
+) von TP-Link. Er ist ab 60 Euro zu haben. 
+Ebenfalls empfehlenswert sind die Geräte WDR3600 und WDR4300, ebenfalls von TP-Link. 
+<!---  alter Inhalt:
 Für den schmalen Geldbeutel empfehlen wir den  [**TP-Link TL-WR841N**](https://www.heise.de/preisvergleich/tp-link-tl-wr841nd-a601787.html) für knapp 20 €.
 Wenn es etwas mehr kosten darf, raten wir zu dem leistungsfähigeren  TP-Link TL-WDR3600 (gebraucht ab ca. 40€), TL-WDR4300 (gebraucht ab ca. 45€) oder TL-WDR4900 (gebraucht ab ca 50 €).
+-->
 
 ### Richtfunk für den Außenbereich
 
@@ -27,7 +32,7 @@ Alle Außengeräte werden über das Netzwerkkabel mit Strom versorgt (PoE = Powe
 
 ### Firmware downloaden
 
-Zuerst brauchst du die passende Freifunk-Firmware für deinen Router. Die **Rückseite** deines Gerätes verrät dir, welche Firmware du genau brauchst.
+Zuerst brauchst du die passende Freifunk-Firmware für deinen Router. Die **Rückseite** deines Gerätes verrät dir, welche Firmware du genau brauchst. Als Beispiel wurde hier ein TP-Link WR841 genutzt, bei anderen Geräten verläuft das Flashen aber analog.
 
 <img src="https://jel.to/ff_pics/router_rueckseite.jpg" title="Rückseite deines Routers" />
 
@@ -39,11 +44,12 @@ In oberen Fall wäre es die Datei mit dem Namen: <pre>gluon-ffhb-*GLUONVERSION*~
 **Eine falsche Firmware kann dazu führen, dass wir den Router mit sehr großem Aufwand reanimieren müssen.**
 
 ###### Ubiquiti Besonderheit (Richtfunk)
-<s>Für die Richtfunkgeräte Ubiquiti Picostation M2, die NanoStaion loco M und die NanoBridge muss das Image der Bullet benutzt werden.</s>
+<s>Für die Richtfunkgeräte Ubiquiti Picostation M2, die NanoStaion loco M und die NanoBridge muss das Image der Ubiquiti Bullet benutzt werden.</s>
 
 *Dies entfällt ab Version 2015.1.2, in welcher separierte Images für alle Geräte eingeführt wurden.*
 
-**Ganz wichtig:** Auf der Konfigurationsseite für das Upgrade, wird auch die Version der Originalfirmware angezeigt. Ist die Versionsnummer > 5.5.x muss zwingend ein Downgrade der Firmware durchgeführt werden. Eine detailierte Anleitung ist in Vorbereitung. Bitte kommt mit dem Gerät zu einem der Freifrunktreffen, wir unterstützen dort gerne.
+**Ganz wichtig:** Auf der Konfigurationsseite für das Upgrade, wird auch die Version der aktuell installierten Originalfirmware angezeigt. Ist die Versionsnummer > 5.5.x muss zwingend ein Downgrade der Firmware durchgeführt werden. Eine detailierte Anleitung ist in Vorbereitung. Bitte kommt mit dem Gerät zu einem der Freifrunktreffen, wir unterstützen dort gerne. 
+Dies gilt nur für Richtfunk Geräte von Ubiquiti.
 
 ### Firmware aufspielen
 
@@ -54,7 +60,7 @@ Am besten du verwendest das graue LAN-Kabel, was schon im Karton deines Routers 
 
 Das Menü deines Routers, über den wir die neue Firmware aufspielen, erreichst du über den **Webbrowser**. Tippe dazu folgende Adresse in deine Navigationsleiste **(„1.“) : 192.168.0.1**
 
-Standardmäßig musst du dich mit einem Benutzernamen und einem Password **authentifizieren**, diese lauten im Auslieferungszustand **„admin“** und **„admin“**.
+Standardmäßig musst du dich mit einem Benutzernamen und einem Password **authentifizieren**, diese lauten im Auslieferungszustand **„admin“** und **„admin“**. Bei Ubiquiti-Geräten **„ubnt“** und **„ubnt“**.
 
 <img src="https://jel.to/ff_pics/menu_stock_1.jpg" title="Standard Weboberfläche">
 
@@ -76,7 +82,7 @@ Ein Router mit aufgespielter Freifunk-Firmware nennt sich Knoten und hat 2 Betri
 Ist ein Knoten im Konfigurationsmodus, so baut er keine Verbindungen zu anderen Knoten in der Umgebung und zum Freifunk-Server, und somit dem Internet, auf. Das WLAN ist deaktiviert.
 
 An Geräte, welche an einen LAN-Anschluss angeschlossen sind, verteilt er eine IP im Adressbereich `192.168.1.2-255`. Es kann einige Minuten dauern, bis der Knoten die IP vergeben hat. Wer sich nicht gedulden möchte kann sich selber manuell eine IP geben, wenn man weiß wie das auf dem eigenen System funktioniert.  
-Über `192.168.1.1` ist das Konfigurationsinterface des Knotens erreichbar.  
+Über `192.168.1.1` ist die Konfigurations-Seite des Knotens erreichbar.  
 Hier lassen sich die wichtigsten Einstellungen vornehmen.
 
 Wurde ein Knoten gerade frisch geflashed, startet er direkt in den Konfigurationsmodus für die Ersteinrichtung.  
