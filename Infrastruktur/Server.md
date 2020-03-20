@@ -30,8 +30,8 @@ Zum Uplink siehe [[Infrastruktur/Netzwerk]]
 ## Zentrale Dienste
 | Dienst                                 | Verantwortlicher          | Standort              |
 |----------------------------------------|---------------------------|-----------------------|
-| [Website](https://ffhb.de)             | jplitza, mortzu           | Bremen / LWLcom       |
-| [Downloads](https://downloads.ffhb.de) | corny, jplitza, mortzu    | Bremen / LWLcom       |
+| [Website](https://ffhb.de)             | jplitza, mortzu, oliver   | Bremen / LWLcom       |
+| [Downloads](https://downloads.ffhb.de) | corny, jplitza, mortzu, oliver  | Bremen / LWLcom       |
 | DNS                                    | corny, genofire, jplitza, mortzu   | Bremen / LWLcom  |
 | [Wiki](https://wiki.ffhb.de)           | jplitza, mortzu           | Bremen / LWLcom       |
 | [Karte](https://map.ffhb.de)           | genofire, jplitza, mortzu | Bremen / LWLcom       |
