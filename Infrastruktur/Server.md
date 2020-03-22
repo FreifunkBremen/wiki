@@ -46,3 +46,15 @@ Zum Uplink siehe [[Infrastruktur/Netzwerk]]
 | Cisco-Router | BGP | chrische, morpheus, mortzu, jplitza    | Bremen / LWLcom       |
 | bre-2  | Jenkins, vpn02, vpn04 | mortzu, jplitza            | Bremen / PLUTEX       |
 | echo   | vpn05                 | mortzu                     | Bremen / PLUTEX       |
+
+
+# Hinweise zu den Servern
+
+## Dienst auf dem Webserver neustarten
+Die Daemons auf dem Webserver laufen unter eigenen User-Accounts und werden durch die User-spezifische Systemd-Instanz kontrolliert. Um einen Dienst neuzustarten, loggt man sich mit dem entsprechenden User ein und führt z.B. sowas aus:
+
+`systemctl --user restart phabricator.service`
+
+Möglicherweise schlägt das fehl, mit der Fehlermeldung "Failed to connect to bus: No such file or directory". Das liegt an einem [Systemd-Fehler](https://github.com/systemd/systemd/issues/4229), der in der verwendeten Debian-Version noch nicht gefixt ist. Als Workaround kann man vor dem `systemctl`-Aufruf folgenden Befehl ausführen:
+
+`export XDG_RUNTIME_DIR=/run/user/$UID`
