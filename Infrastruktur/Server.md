@@ -50,7 +50,7 @@ Zum Uplink siehe [[Infrastruktur/Netzwerk]]
 
 # Hinweise zu den Servern
 
-## Dienst auf dem Webserver neustarten
+## Dienst auf dem Webserver neustarten (als normaler User)
 Die Daemons auf dem Webserver laufen unter eigenen User-Accounts und werden durch die User-spezifische Systemd-Instanz kontrolliert. Um einen Dienst neuzustarten, loggt man sich mit dem entsprechenden User ein und führt z.B. sowas aus:
 
 `systemctl --user restart phabricator.service`
@@ -58,3 +58,8 @@ Die Daemons auf dem Webserver laufen unter eigenen User-Accounts und werden durc
 Möglicherweise schlägt das fehl, mit der Fehlermeldung "Failed to connect to bus: No such file or directory". Das liegt an einem [Systemd-Fehler](https://github.com/systemd/systemd/issues/4229), der in der verwendeten Debian-Version noch nicht gefixt ist. Als Workaround kann man vor dem `systemctl`-Aufruf folgenden Befehl ausführen:
 
 `export XDG_RUNTIME_DIR=/run/user/$UID`
+
+## Dienst auf dem Webserver neustarten (als root)
+Als Root-user kann man auch den ganzen Systemd-Prozess des Users neustarten; dabei werden auch alle Kinder-Daemons neugestartet:
+
+`systemctl restart user@1010.service`
