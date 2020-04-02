@@ -12,12 +12,11 @@ Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat im [Hackerspace 
 
 ##### Tagesordnungen
 * der letzten Treffen:
-  * [[21.02.2020|Treffen/2020_02_21]]
   * [[06.03.2020|Treffen/2020_03_06]]
-* der nächsten Treffen:
   * [[20.03.2020|Treffen/2020_03_20]]
+* der nächsten Treffen:
   * [[03.04.2020|Treffen/2020_04_03]]
-
+  * [[17.04.2020|Treffen/2020_04_17]]
 
 * [Liste aller Treffen](/pages/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
 * Weitere Termine (nicht nur Treffen) finden sich in den Protokollen zu den verschiedenen Treffen
