@@ -14,7 +14,13 @@ Anmerkungen:
 * 2: https://grafana.bremen.freifunk.net/d/000000001/globals?orgId=1&from=1585094038403&to=1585129298085
 * 3: kern.warn kernel: (...) br-client: received packet on bat0 with own address as source address
 
-## TP-Link WBS 510
-* ab 2019.x keine Sendeleistung mehr (2mW) Bug im ATH Treiber.
-* RegHack funktioniert nicht, da Versionsabhängig.
-* 
+
+## Langsames Freifunk bei 50-MBit-Leitung
+[Louis sagt:](https://wiki.ffhb.de/Treffen/2020_03_20#protokoll_fehler-geschwindigkeit-des-freifunks-warum-ist-das-so-langsam_wie-%C3%A4u%C3%9Fern-sich-die-probleme) mit einer 50-MBit-Leitung ist das Internet über Freifunk merklich langsamer als über den direkten Anschluss. Lässt sich mit einem normalen Download messen.
+
+Nächste Schritte:
+* gib mal einen Download-Link, mit dem das messbar ist
+* tritt das zu beliebigen Zeiten auf, oder nur zu bestimmten Zeiten?
+* tritt das nur mit bestimmten VPN-Gateways auf?
+* tritt das nur an bestimmten Knoten oder mit bestimmten Knoten-Modellen auf?
+* ist ein Offloader im Einsatz?
