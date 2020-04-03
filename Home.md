@@ -11,7 +11,7 @@ Zurück zur Homepage geht es [hier](https://bremen.freifunk.net) lang.
 Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat im [Hackerspace Bremen](https://www.hackerspace-bremen.de) um 19 Uhr. In der ersten halben Stunde werden Fragen von Neulingen beantwortet und um 19:30 Uhr wird die Tagesordnung eröffnet.  Üblicherweise dauern die Treffen 2-3 Stunden mit kleinen Pausen zwischendrin.
 
 ### #stayathome: Online-Treffen während Corona
-Das Treffen im Hackerspace ist im Moment durch ein Online-Treffen per Videokonferenz ersetzt. Wir treffen uns zur gewohnten Zeit, aber nun unter https://jitsi.timlukas.de/ffhb
+Das Treffen im Hackerspace ist im Moment durch ein Online-Treffen per Videokonferenz ersetzt. Wir treffen uns zur gewohnten Zeit, aber nun unter https://jitsi.timlukas.de/ffhb (Chrome empfohlen)
 
 Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffhb) (s. https://ffhb.de/kontakt.html) genutzt werden; und das [Protokoll-Pad](https://hackmd.io/AwDgnA7ATArKC0BGGBjAzPALAUzSeARgYgGzxQAmEFFwiKBEKAhkA===?both) kommt beim Online-Treffen ebenfalls weiter zum Einsatz.
 
