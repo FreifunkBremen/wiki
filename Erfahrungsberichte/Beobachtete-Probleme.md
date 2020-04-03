@@ -13,3 +13,8 @@ Anmerkungen:
 * 1: https://grafana.bremen.freifunk.net/d/000000011/multicast?orgId=1&from=1585094038403&to=1585129298085&var-protocol=All
 * 2: https://grafana.bremen.freifunk.net/d/000000001/globals?orgId=1&from=1585094038403&to=1585129298085
 * 3: kern.warn kernel: (...) br-client: received packet on bat0 with own address as source address
+
+## TP-Link WBS 510
+* ab 2019.x keine Sendeleistung mehr (2mW) Bug im ATH Treiber.
+* RegHack funktioniert nicht, da Versionsabhängig.
+* 
