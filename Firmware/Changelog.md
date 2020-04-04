@@ -878,6 +878,28 @@ Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) 
 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
 
+### 2019.1.2
+**Veröffentlichungsdatum**: 04.02.2020  
+**offizielle Versionshinweise**: [2019.1.2](https://gluon.readthedocs.io/en/v2019.1.2/releases/v2019.1.2.html)  
+**Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2019.1.2/user/supported_devices.html)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2019.1.2) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2019.1.2)
+
+#### Fehlerbehebungen
+- zwei Sicherheitslücken in OpenWRT wurden geschlossen:
+  - CVE-2020-7248 in libubox
+  - CVE-2020-7982 in opkg
+
+
+### 2019.1.1
+**Veröffentlichungsdatum**: 06.01.2020  
+**offizielle Versionshinweise**: [2019.1.1](https://gluon.readthedocs.io/en/v2019.1.1/releases/v2019.1.1.html)  
+**Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2019.1.1/user/supported_devices.html)  
+**Github-Repository**: [Tag](https://github.com/freifunk-gluon/gluon/releases/tag/v2019.1.1) / [Commits](https://github.com/freifunk-gluon/gluon/commits/v2019.1.1)
+
+#### Fehlerbehebungen
+- diverse Fehlerbehebungen
+
+
 ### 2019.1
 **Veröffentlichungsdatum**: 14.09.2019  
 **offizielle Versionshinweise**: [2019.1](https://gluon.readthedocs.io/en/v2019.1/releases/v2019.1.html)  
