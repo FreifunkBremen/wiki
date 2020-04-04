@@ -27,9 +27,38 @@ Experimentelle Firmware-Versionen werden nicht offiziell unterstützt und werden
 Branch        | aktuelle Version                                                    | signed by
 ---           | ---                                                                 | ---
 **`stable`**  | [2019.1.1+bremen1](#freifunk-bremen-versionen_2019-1-1-bremen1)     | `oliver`, `janeric`, `jplitza`
-**`testing`** | [2019.1.1+bremen2](#freifunk-bremen-versionen_2019-1-1-bremen2)     | `janeric`
+**`testing`** | [2019.1.1+bremen3](#freifunk-bremen-versionen_2019-1-1-bremen3)     | `janeric`, `oliver`
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
+
+### 2019.1.2+bremen2
+**Veröffentlichung auf dem `stable`-Branch**: nie   
+**Veröffentlichung auf dem `testing`-Branch**: nie  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2019.1.2+bremen2) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2019.1.2+bremen2)  
+**gluon-Version**: [2019.1.2](#gluon-versionen_2019-1-2)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2019.1.2+bremen2/)
+
+- Outdoor-Geräte mit 5GHz-WLAN können jetzt offiziell und legal draußen verwendet werden. Dazu gibt es auf der Config-Seite des Knotens neue Optionen zur Outdoor-Installation, mit denen man angeben kann, dass das Gerät draußen benutzt werden soll.  
+Wenn dies aktiviert ist, werden spezielle Outdoor-Kanäle verwendet (Kanäle 100 bis 140), [DFS](https://de.wikipedia.org/wiki/Dynamic_Frequency_Selection) wird aktiviert, und Mesh-Verbindungen auf 5GHz werden deaktiviert (weil Meshing einen stabilen Kanal erfordert, aber DFS den Kanal ändern könnte).
+
+### 2019.1.2+bremen1
+**Veröffentlichung auf dem `stable`-Branch**: nie   
+**Veröffentlichung auf dem `testing`-Branch**: nie  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2019.1.2+bremen1) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2019.1.2+bremen1)  
+**gluon-Version**: [2019.1.2](#gluon-versionen_2019-1-2)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2019.1.2+bremen1/)
+
+- Update auf [Gluon 2019.1.2](#gluon-versionen_2019-1-2)
+
+### 2019.1.1+bremen3
+**Veröffentlichung auf dem `stable`-Branch**: [07.04.2020](https://downloads.bremen.freifunk.net/firmware/all/2019.1.1+bremen3/sysupgrade/stable.manifest)   
+**Veröffentlichung auf dem `testing`-Branch**: [07.03.2020](https://downloads.bremen.freifunk.net/firmware/all/2019.1.1+bremen3/sysupgrade/testing.manifest)  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2019.1.1+bremen3) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2019.1.1+bremen3)  
+**gluon-Version**: [2019.1.1](#gluon-versionen_2019-1-1)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2019.1.1+bremen3/)
+
+- SSH-Zugang ist jetzt auch wieder per Passwort möglich (anstatt nur per SSH-Key)
+- im Config-Modus kann man die Knotenposition jetzt auf einer Karte auswählen. Dazu muss der Browser aber Internetzugang haben; falls das nicht der Fall ist, kann man die Position aber auch weiterhin über geografische Koordinaten eingeben
 
 ### 2019.1.1+bremen2
 **Veröffentlichung auf dem `stable`-Branch**: nie  
