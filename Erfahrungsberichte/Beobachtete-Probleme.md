@@ -24,3 +24,9 @@ Nächste Schritte:
 * tritt das nur mit bestimmten VPN-Gateways auf?
 * tritt das nur an bestimmten Knoten oder mit bestimmten Knoten-Modellen auf?
 * ist ein Offloader im Einsatz?
+
+
+## 2019.1.2 bremen 2
+* Frank_H 841nd v8 & Archer C7v2 nach upgrade schlechte Meshverbindung auf der Karte, beide Router neu gestartet.
+*
+
