@@ -41,3 +41,11 @@ Wenn man sich per SSH aus dem Internet zu einem Knoten verbindet und dort große
 
 - das sind IPv6-Verbindungen (weil die Knoten nur über IPv6 erreichbar sind)
 - könnte ein MTU-Problem sein
+
+Lässt sich auch hier mit in Verbindung bringen:
+#### TL-MR3020 v1 hängt sich bei Upgrade auf (hias)
+Bei Manuellen upgrade eines TL-MR3020 v1  via ssh (mit 'autoupdater -f')
+friert die SSH Sitzung ein, und das Upgrade läuft nicht durch.
+
+Problem ist mind. 2x aufgetreten.
+Router mesh't nur via VPN.
