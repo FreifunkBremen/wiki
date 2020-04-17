@@ -49,3 +49,12 @@ friert die SSH Sitzung ein, und das Upgrade läuft nicht durch.
 
 Problem ist mind. 2x aufgetreten.
 Router mesh't nur via VPN.
+
+# Fehlermeldung in den Logs vieler Knoten
+Bei 7 von 8 Knoten festgestellt.
+Im Schnitt c.a. 80 x innerhalb eines Tages in den logs.
+Das war schon mal besser.
+
+daemon.err gluon-radv-filterd[1725]: Unable to find router ... in transtable_{global,local}
+
+daemon.err gluon-radv-filterd[1725]: Unable to find TQ for originator ... (router ...)
