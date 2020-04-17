@@ -28,5 +28,16 @@ Nächste Schritte:
 
 ## 2019.1.2 bremen 2
 * Frank_H 841nd v8 & Archer C7v2 nach upgrade schlechte Meshverbindung auf der Karte, beide Router neu gestartet.
-*
 
+
+## logread zeigt "fastd[1999]: resolving host `vpn01.bremen.freifunk.net' failed: Try again"
+Mögliche Ursache: der Knoten versucht, eine VPN-Verbindung aufzubauen, aber er hat keinen direkten Internetzugang.
+- deshalb: am besten Mesh-VPN ausschalten, wenn der Knoten eh definitiv kein VPN aufbauen soll; das reduziert den Log-Spam
+- abschalten geht per "/etc/init.d/fastd stop ; uci set fastd.mesh_vpn.enabled='0'; uci commit fastd"
+
+
+## SSH-Verbindungen zum Knoten bleiben hängen
+Wenn man sich per SSH aus dem Internet zu einem Knoten verbindet und dort große Datenmengen übertragen werden (z.B. durch Ausführen von `logread` und Scrollen), bleibt die SSH-Verbindung hängen.
+
+- das sind IPv6-Verbindungen (weil die Knoten nur über IPv6 erreichbar sind)
+- könnte ein MTU-Problem sein
