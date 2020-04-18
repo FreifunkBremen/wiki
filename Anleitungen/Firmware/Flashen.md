@@ -59,6 +59,7 @@ Am besten du verwendest das graue LAN-Kabel, was schon im Karton deines Routers 
 <img src="https://jel.to/ff_pics/router_anschluesse.jpg" title="Anschlüsse deines Routers" />
 
 Das Menü deines Routers, über den wir die neue Firmware aufspielen, erreichst du über den **Webbrowser**. Tippe dazu folgende Adresse in deine Navigationsleiste **(„1.“) : 192.168.0.1**
+(Bei manchen Router erreicht man das Menü auf der 192.168.0.254 oder 192.168.0.20)
 
 Standardmäßig musst du dich mit einem Benutzernamen und einem Password **authentifizieren**, diese lauten im Auslieferungszustand **„admin“** und **„admin“**. Bei Ubiquiti-Geräten **„ubnt“** und **„ubnt“**.
 
