@@ -59,13 +59,17 @@ Am besten du verwendest das graue LAN-Kabel, was schon im Karton deines Routers 
 <img src="https://jel.to/ff_pics/router_anschluesse.jpg" title="Anschlüsse deines Routers" />
 
 Das Menü deines Routers, über den wir die neue Firmware aufspielen, erreichst du über den **Webbrowser**. Tippe dazu folgende Adresse in deine Navigationsleiste **(„1.“) : 192.168.0.1**
-(Bei manchen Router erreicht man das Menü auf der 192.168.0.254 oder 192.168.0.20)
+
+(Bei manchen Router erreicht man das Menü unter der Adresse 192.168.0.254 oder 192.168.0.20)
+
+Bei einigen Routern erscheint eine "Sicherheitsinfo", welche darauf hinweist, dass das Menü zwar durch ein Zertifikat geschützt ist, allerdings ein "selbst-zertifiziertes". Klickt auf "Fortfahren". 
 
 Standardmäßig musst du dich mit einem Benutzernamen und einem Password **authentifizieren**, diese lauten im Auslieferungszustand **„admin“** und **„admin“**. Bei Ubiquiti-Geräten **„ubnt“** und **„ubnt“**.
 
 <img src="https://jel.to/ff_pics/menu_stock_1.jpg" title="Standard Weboberfläche">
 
 Den für uns interessanten Menüpunkt erreichst du links unter **„System Tools“ („2.“) → „Firmware Upgrade“ („3.“)**. Hier musst du nur noch die richtige **Firmwaredatei aus dem vorherigen Schritt auswählen („4.“)** und **hochladen („5.“)**. Prüfe bitte noch einmal, ob die Firmware wirklich zu deinem Routermodell passt, bevor du auf „Upgrade“ klickst! 
+Bei einigen Modellen von TP-Link wird noch gefragt, ob man die Konfiguration behalten möchte. Hierbei ist egal, welche Option man wählt, da ohnehin keine Einstellungen von der TP-Link-Firmware in die Freifunk-Firmware übernommen werden können.
 
 <img src="https://jel.to/ff_pics/menu_stock_2.jpg" title="Standard Weboberfläche">
 
