@@ -3,7 +3,8 @@
 Mit Gluon v2020.1 gab es einen Wechsel des NAND-Flash-Handlings bei Ubiquiti EdgeRouter X bzw. X-SFP.
 Falls defekte Flash-Speicherzellen vorhanden sind, welche bisher keine Probleme bereiteten, kann ein normales Sysupgrade von Gluon 2019.x (oder älter) auf Gluon v2020.1 (oder neuer) zu einem Soft-Brick führen!
 
-#### Siehe dazu das Gluon-Issue #1937.
+#### Siehe dazu das Gluon-Issue [#1937.](https://github.com/freifunk-gluon/gluon/issues/1937)
+
 Es kann sehr einfach überprüft werden, ob ein normal durchgeführtes Sysupgrade von Gluon v2019.x (oder älter) auf Gluon v2020.1 (oder neuer) zu einem Soft-Brick führen wird/würde.
 
 Bitte per SSH auf den entsprechenden EdgeRouter anmelden.
@@ -18,16 +19,19 @@ Kommt es jedoch zu einer Ausgabe wie z.B.
 ~~~
 [    1.529273] Bad eraseblock 1157 at 0x0000090a0000
 ~~~
+
 dann bitte die folgend beschriebenen Schritte durchführen.
 Von Gluon v2019.x (oder älter) auf Gluon v2020.1 (oder neuer) per SSH-Konsole
-Vorab:
+
+### Vorab:
 
 Mit der folgend beschriebenen Methode wird der EdgeRouter komplett zurückgesetzt (analog zum jungfräulichen Factory-Zustand) und in den Konfigmodus versetzt. Es ist also zwingend der physische Zugriff auf den Router notwendig!
 
 Was bei der folgend beschriebenen Methode jedoch entfällt, ist die Anwendung von TFTP in Kombination mit einem Hardware-Zugang per serieller TTL-Schnittstelle.
 
 Anwendung der folgend beschriebenen Methode auf eigene Gefahr :)
-Methodenbeschreibung
+
+### Methodenbeschreibung
 
 Die Methode basiert auf einem generischen Gluon v2020.1 mit initramfs-Kernel.
 
@@ -36,6 +40,7 @@ Jeder Gluon EdgeRouter X (X-SFP) kann mit Hilfe der folgenden Anleitung überred
 Die generische initramfs-Firmware stellt einen jungfräulichen Router mit Gluon v2020.1 im Konfigmodus bereit. (Das generische Gluon hat keinerlei weitere Eigenschaften/Funktionen.)
 
 Die Prozedur ist mehrphasig.
+
 ### Vorbereitungen
 
 Wenn ein Gluon EdgeRouter von Gluon v2019.x (oder älter) auf Gluon v2020.1 (oder neuer) aktualisiert werde soll, dann wird folgendes benötigt:
