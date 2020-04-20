@@ -30,8 +30,8 @@ Nächste Schritte:
 * Frank_H 841nd v8 & Archer C7v2 nach upgrade schlechte Meshverbindung auf der Karte, beide Router neu gestartet.
 
 
-## logread zeigt "fastd[1999]: resolving host `vpn01.bremen.freifunk.net' failed: Try again"
-Mögliche Ursache: der Knoten versucht, eine VPN-Verbindung aufzubauen, aber er hat keinen direkten Internetzugang.
+## [Gelöst] logread zeigt "fastd[1999]: resolving host `vpn01.bremen.freifunk.net' failed: Try again"
+Übliche Ursache: der Knoten versucht, eine VPN-Verbindung aufzubauen, aber er hat keinen direkten Internetzugang.
 - deshalb: am besten Mesh-VPN ausschalten, wenn der Knoten eh definitiv kein VPN aufbauen soll; das reduziert den Log-Spam
 - abschalten geht per "/etc/init.d/fastd stop ; uci set fastd.mesh_vpn.enabled='0'; uci commit fastd"
 
@@ -50,7 +50,7 @@ friert die SSH Sitzung ein, und das Upgrade läuft nicht durch.
 Problem ist mind. 2x aufgetreten.
 Router mesh't nur via VPN.
 
-# Fehlermeldung in den Logs vieler Knoten
+## Fehlermeldung in den Logs vieler Knoten
 Bei 7 von 8 Knoten festgestellt.
 Im Schnitt c.a. 80 x innerhalb eines Tages in den logs.
 Das war schon mal besser.
@@ -58,3 +58,11 @@ Das war schon mal besser.
 daemon.err gluon-radv-filterd[1725]: Unable to find router ... in transtable_{global,local}
 
 daemon.err gluon-radv-filterd[1725]: Unable to find TQ for originator ... (router ...)
+
+
+## [Gelöst] `okpg update` läuft nicht durch, wenn der Knoten mit vpn2 oder vpn5 verbunden ist
+Dieses Problem wurde in https://tasks.ffhb.de/T357 ("IPv6-Pakete mit bestimmten Größen werden nicht zuverlässig übertragen") weiter untersucht und gelöst.
+
+Das Symptom war, dass IPv6-TCP-Pakete mit Paketgrößen zwischen 1343 und 1366 Bytes (inklusive) nicht übertragen wurden, wenn der Knoten an vpn2 oder vpn5 hing.
+
+Das Problem war am Ende, dass ein Tunnel zwischen vpn2 bzw. vpn5 und dem ipv6-downlink-Host eine falsche MTU hatte.
