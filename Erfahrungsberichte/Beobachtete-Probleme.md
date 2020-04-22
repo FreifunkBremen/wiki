@@ -50,6 +50,8 @@ friert die SSH Sitzung ein, und das Upgrade läuft nicht durch.
 Problem ist mind. 2x aufgetreten.
 Router mesh't nur via VPN.
 
+Nachtrag:
+Fehler tritt vmtl dann auf wenn der Router nicht aus Freifunk aufgerufen wird.
 ## Fehlermeldung in den Logs vieler Knoten
 Bei 7 von 8 Knoten festgestellt.
 Im Schnitt c.a. 80 x innerhalb eines Tages in den logs.
