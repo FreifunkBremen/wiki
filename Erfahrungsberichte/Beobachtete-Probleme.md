@@ -103,3 +103,8 @@ TL-WR1043N/ND v4 mit WWAN
    | <-Ethernet, Frizbox, DSL
 VPN03
 ```
+
+Fragen hierzu:
+* welcher DSL-Anbieter wird da verwendet?
+* zu welchem Datum/Uhrzeit passierte das?
+* ist das immer so, oder gibt es Zeiten, wo es problemlos funktioniert? Morgens, mittags, abends? Am Wochenende oder unter der Woche?
