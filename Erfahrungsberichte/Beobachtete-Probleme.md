@@ -52,6 +52,7 @@ Router mesh't nur via VPN.
 
 Nachtrag:
 Fehler tritt vmtl dann auf wenn der Router nicht aus Freifunk aufgerufen wird.
+
 ## Fehlermeldung in den Logs vieler Knoten
 Bei 7 von 8 Knoten festgestellt.
 Im Schnitt c.a. 80 x innerhalb eines Tages in den logs.
@@ -68,3 +69,37 @@ Dieses Problem wurde in https://tasks.ffhb.de/T357 ("IPv6-Pakete mit bestimmten 
 Das Symptom war, dass IPv6-TCP-Pakete mit Paketgrößen zwischen 1343 und 1366 Bytes (inklusive) nicht übertragen wurden, wenn der Knoten an vpn2 oder vpn5 hing.
 
 Das Problem war am Ende, dass ein Tunnel zwischen vpn2 bzw. vpn5 und dem ipv6-downlink-Host eine falsche MTU hatte.
+
+## Schlechte Benutzererfahrung
+Verbindungsabbrüche  bei Onlinegaming.
+Speedtest zum VPN << 1 Mbit up and down an 30 Mbit DSL Anschluss.
+schlechtes Ping mit viel Duplikaten.
+
+In den Logs der beiden lokalen Knoten keine Hinweise.
+
+Ergebnis paralleler ping von client gegen localnode und aktuellem vpn:
+```
+--- vpn03.ffhb.de ping statistics ---
+808 packets transmitted, 737 packets received, +417 duplicates, 8.8% packet loss
+round-trip min/avg/max/stddev = 26.900/547.563/6832.153/1052.252 ms
+--- node.ffhb.de ping statistics ---
+818 packets transmitted, 812 packets received, 0.7% packet loss
+round-trip min/avg/max/stddev = 0.803/17.921/1125.749/83.971 ms
+```
+2 Stunden später, packet loss in der gleichen Größenordnung (um 10%) zu vpn, allerdings keine Duplikate mehr.
+Diesmal auch ping zu 2. Knoten um auch die mesh-Verbindung zu erfassen, hier packet los 0,1%, zu local.node 0,0%
+
+Local scheinbar keine Probleme, erst über VPN wird es schwierig.
+
+Umgebung:
+```
+client
+   | <-Funk client
+TL-WR841N/ND v10
+2019.1.2+bremen2
+   | <-Funk mesh TQ 90-100%
+TL-WR1043N/ND v4 mit WWAN
+2019.1.2+bremen2
+   | <-Ethernet, Frizbox, DSL
+VPN03
+```
