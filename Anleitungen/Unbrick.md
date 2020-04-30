@@ -167,7 +167,7 @@ tftp Server auf die LAN Schnittstelle setzen und in das Serververzeichnis die Da
 
 ## Recover Teil 1
 Den Port 1 (erster gelber Port) des TP-Link Archer C7v2 und den den LAN Port des PC mit dem Switch verbinden.
-Den Reset-Knopf ca. 5-10 Sekunden gedrückt halten. Wenn die Verbindungslampe vom Switch leuchtet (Kabelverbindung zum Archer), ~~dann loslassen~~ grückt halten, bis das Recyclingsymbol ganr rechts leuchtet. Sofort startet der Imagedownload. Ist dieses abgeschlossen, bootet der Archer und ist im Originalzustand. Ggf. wiederholen.
+Den Reset-Knopf ca. 5-10 Sekunden gedrückt halten. Wenn die Verbindungslampe vom Switch leuchtet (Kabelverbindung zum Archer), ~~dann loslassen~~ grückt halten, bis das Recyclingsymbol ganz rechts leuchtet. Sofort startet der Imagedownload. Ist dieses abgeschlossen, bootet der Archer und ist im Originalzustand. Ggf. wiederholen.
 Der Zugriff erfolgt über 192.168.0.1 admin/admin. 
 
 Bild: ![tftp-Download](https://cloud.ffhb.de/index.php/s/3RRwy3CsBxcHJyg/preview)
@@ -210,3 +210,8 @@ Gleiche Anleitung wie oben.
 Die IP Adresse des PC ist auf **192.168.0.100** einzustellen.
 Das Faktory Image wird umbenannt auf **"recovery.bin"**
 Login auf der CPE/WBS mit **192.168.0.254** und admin/admin, dann muss ein neues PW gesetzt werden. Der Upload der Freifunksoftware klappt mit der CPE/WBS Option Restore. Nach dem automatischen Reeboot klappt der Zugang wie bei jedem anderen Freifunkrouter mit **192.168.1.1**. Daten eingeben, neu Starten, fertig.
+
+In neueren SW Versionen muss nach dem TFTP recover, die IP Adresse des PC von 192.168.0.100 auf 192.168.0.2 gesetzt werden. Die IP Adresse der CPE 192.168.0.254 lässt sich nicht anpingen. Wird die Adresse https://192.168.0.254 im Broser angegeben, muss die Ausnahmeregel bestätigt werden. Jetzt antwortet die CPE auch auf Ping.
+
+Superschnellinstallation: Für Profis, nicht durchgehend getestet.
+Über TFTP recover kann ich alles auf den Router spielen. Also ein Freifunkimage auf recovery.bin umbenennen und ins TFTP Serververzeichnis schieben. Resetten, 10 Sek. später fertig. Aufpassen und recocery.bin nach gebrauch löschen.
