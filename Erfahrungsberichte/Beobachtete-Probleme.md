@@ -26,7 +26,9 @@ Nächste Schritte:
 * ist ein Offloader im Einsatz?
 
 
-## 2019.1.2 bremen 2
+## Unzuverlässige Karten-Updates bei Mesh-Verbindungen
+* Knoten, die nur per Mesh verbunden sind, erscheinend tw. nicht auf der Karte
+* tritt wohl erst seit 2019.1.2+bremen2 auf
 * Frank_H 841nd v8 & Archer C7v2 nach upgrade schlechte Meshverbindung auf der Karte, beide Router neu gestartet.
 
 
