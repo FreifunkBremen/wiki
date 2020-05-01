@@ -106,5 +106,16 @@ VPN03
 
 Fragen hierzu:
 * welcher DSL-Anbieter wird da verwendet?
+* - EWE
 * zu welchem Datum/Uhrzeit passierte das?
+* - Unspezifisch / unbekannt
 * ist das immer so, oder gibt es Zeiten, wo es problemlos funktioniert? Morgens, mittags, abends? Am Wochenende oder unter der Woche?
+* - Funktioniert auch Problemlos. Kann zu allen Zeiten sein.
+* Vorschläge um das Automatisch zu überwachen? Weiß jemand was fertiges?
+
+## DNS kaput
+Namensauflösung funktioniert im FF nicht mehr.
+betrifft clients und knoten.
+2020-05-01
+Zwischen 15:00 - 16:30 aufgetreten.
+
