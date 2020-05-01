@@ -120,4 +120,5 @@ Namensauflösung funktioniert im FF nicht mehr.
 betrifft clients und knoten.
 2020-05-01
 Zwischen 15:00 - 16:30 aufgetreten.
-
+Siehe Tagesordnung Freffen
+https://wiki.bremen.freifunk.net/Treffen/2020_05_01
