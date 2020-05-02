@@ -154,3 +154,16 @@ Quelle: https://help.ubnt.com/hc/en-us/articles/204910064-UniFi-Changing-the-Fir
 
 Danach startet das Gerät neu, dann erneut einloggen und weiter mit Punkt 1. um die Freifunk Firmware zu installieren.
 
+
+### 4.) MTD nachinstallieren (ungetestet)
+
+Memory Technology Device (MTD) ist ein Subsystem unter Linux, welches als Abstraktionsschicht für den Zugriff auf den Speicher eines Linux-Systems dient.
+
+MTD bietet eine vereinheitlichte Schnittstelle für Speicher-Bausteine, die zwischen den vielfältigen hardwarespezifischen Gerätetreibern und den oberen Schichten eines Systems vermittelt. Zum Einsatz kommt MTD primär für Flash-Speicher. Ein Vorzug von MTD ist, dass die Anwender dieser Abstraktionsschicht keine Kenntnisse über Interna der darunterliegenden Schichten (z. B. welches Dateisystem: FTL, FFS2) besitzen müssen. Des Weiteren kann von diesen oberen Ebenen beim Wechsel des Flash-Speichers dieselbe API weiterverwendet werden.
+
+MTD grenzt sich von den Gerätetreibern für USB, MMC oder SD-Karten ab. Für letztere werden Block Devices verwendet, die den physischen Datenzugriff intern regeln, während MTD für Rohformate von Flash-Speichern vorgesehen ist.
+Weblinks
+
+http://www.linux-mtd.infradead.org/
+
+Sollte sich also installieren lassen. 
