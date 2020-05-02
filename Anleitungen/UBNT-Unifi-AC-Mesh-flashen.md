@@ -1,14 +1,18 @@
 Ubiquiti Unifi AC-Mesh flashen
 
 Das funktioniert ein bischen anders als normale Freifunkrouter.
-Als erstes das Gerät normal in Betrieb nehmen und die Firmwareversion prüfen. Es wird eine Firmwareversion benötigt, die den Befehl "MTD" ausführt. Dieses Prüfen oder gleich auf die original Firmware 3.7.58, 3.8.3 oder 4.0.21 von Ubiquiti installieren. Ohne MTD kein Flashen.
+Als erstes das Gerät normal in Betrieb nehmen und die Firmwareversion prüfen. Es wird eine Firmwareversion benötigt, die den Befehl **"MTD"** ausführt. Dieses Prüfen oder gleich auf die original Firmware 3.7.58, 3.8.3 oder 4.0.21 von Ubiquiti installieren. 
+Ohne **"MTD"** kein Flashen.
 
 Die richtige Firmware von Ubiquiti herunterladen (3.7.58 / 3.8.3)
+
 https://www.ubnt.com/download/unifi/unifi-mesh/uap-ac-m
+
 Dann auf „SEE PAST FIRMWARE“ die „Unfi Firmware 3.7.58 for UAP-AC-LITE/M/…/… “ auswählen und herunterladen.
 
-Firmwareversion ermitteln und flashen:
+### 1.) Firmwareversion ermitteln und flashen:
 
+Unter Windows und Linux annähernd gleich.
 Das LAN Kabel ist mit dem Ubiquiti PoE Adapter verbunden.
 Netzwerkeinstellung des PC/Laptop auf manuell (statisch) stellen – 192.168.1.2/255.255.255.0
 
@@ -18,11 +22,11 @@ Anmeldung mit…
 
     ssh ubnt@192.168.1.20  =>Passwort ubnt
 
-Im Idealfall sieht die Ausgabe mit Angabe der vorinstallierten Firmware dann so aus. Wenn nicht, bitte unbedingt ein up/downgrade durchführen.
+Im Idealfall sieht die Ausgabe mit Angabe der vorinstallierten Firmware dann so aus. Wenn nicht, bitte unbedingt ein up/downgrade durchführen, Bzw. MTD ausführen, wenn nicht funktioniert, andere Version flashen. 
 
     BZ.v3.7.58#
 
-Auf eurem Rechner/Laptop, dass “sysupgrade-Image“ der „Unifi AC-Mesh/Lite“ eurer Domäne, (der einfachheitshalber) in „firmware.bin“ umbenennen und per scp ins /tmp Verzeichnis der AC-Mesh/Lite kopieren.
+Auf eurem Rechner/Laptop, dass “sysupgrade-Image“ der „Unifi AC-Mesh/Lite“ eurer Domäne, (der einfachheitshalber) in **„firmware.bin“** umbenennen und per scp ins /tmp Verzeichnis der AC-Mesh/Lite kopieren.
 cd /home/USER/PFAD/ZUR/FIRMWARE.BIN
 
     scp firmware.bin ubnt@192.168.1.20:/tmp/ =>Passwort ubnt
@@ -80,7 +84,7 @@ Diesen Wert ändern wir auf mindestens 17 dBm (oder 16 dBm). Damit bewegen wir u
  
 
  
-2. Back to Stock / Downgrade unter Linux Mint/Ubuntu
+### 2.) Back to Stock / Downgrade unter Linux Mint/Ubuntu
 
 Vorraussetzungen:
 Das LAN Kabel ist mit der Unifi AC Mesh PoE Adapter und deinem Laptop verbunden.
@@ -96,10 +100,12 @@ Terminal öffnen…
 …mit Passwort bestätigen, fertig!
 
 Die richtige Firmware von Ubiquiti herunterladen (3.7.58)
+
 https://www.ubnt.com/download/
+
 Oben rechts suchen nach „Unifi AC-Mesh“ dann auf  „SEE PAST FIRMWARE“ die „Unfi Firmware 3.7.58 for UAP-AC-LITE/M/…/… “ auswählen und laden.
 
-Die heruntergeladene Firmware in „firmware.bin“ umbenennen und unter /home/USER/“ abspeichern.
+Die heruntergeladene Firmware in **„firmware.bin“** umbenennen und unter /home/USER/“ abspeichern.
 
 Die Unifi Stromlos machen, in dem Du das PoE Kabel am Adapter entfernst.
 Den LAN Port des PoE Adapter mit deinem Laptop verbinden.
@@ -131,12 +137,12 @@ Nach ein paar Minuten bootet die Unifi selbstständig mit der originalen Firmwar
  
 
  
-3. Back to Stock / Downgrade unter Windows (noch nicht getestet)
+### 3.) Back to Stock / Downgrade unter Windows 
 
 Die Datei mit einem SCP-fähigen Program (z.B. WinSCP) auf der AC Mesh ablegen.
 
 Für den Login die gleichen Daten wie für SSH verwenden (ubnt@192.168.1.20 und PW: ubnt).
-Wichtig: Protokoll SCP auswählen, SFTP funktioniert nicht.
+Wichtig: Protokoll **SCP** auswählen, SFTP funktioniert nicht.
 
 Verzeichnis /tmp anwählen und dort die Datei ablegen, danach zu fwupdate.bin umbenennen.
 
@@ -147,3 +153,4 @@ Danach wieder per SSH (mit z.B. Putty) auf dem Gerät einloggen und folgendes au
 Quelle: https://help.ubnt.com/hc/en-us/articles/204910064-UniFi-Changing-the-Firmware-of-a-UniFi-Device#local%20upgrade
 
 Danach startet das Gerät neu, dann erneut einloggen und weiter mit Punkt 1. um die Freifunk Firmware zu installieren.
+
