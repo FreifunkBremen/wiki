@@ -122,3 +122,7 @@ betrifft clients und knoten.
 Zwischen 15:00 - 16:30 aufgetreten.
 Siehe Tagesordnung Freffen
 https://wiki.bremen.freifunk.net/Treffen/2020_05_01
+
+## UBNT AC-Mesh ohne SSID
+Bei meinem UBNT AC-M werden bei den Meshkanälen als SSID * angezeigt.
+Ist das so richtig? Bei anderen Geräten sehe ich das nicht.
