@@ -65,3 +65,22 @@ iperf3 -V -c2a06:8782:ffbb:1337:feec:daff:fe7f:28e1
 gestartet. Es wird ein Test mit einer Dauer von 10 Sekunden gestartet, bei dem jede Sekunde ein Ergebnis angezeigt wird. Die Testzeit kann über „-t 30“ auf 30 Sekunden verlängert werden, mit „-i 10“ wird das Intervall auf der Clientseite auf 10 Sekunden erhöht.
 
 Der Server wird im Terminal durch die Tastenkombination Strg+C beendet. 
+
+
+### Wiederholte Messung einrichten:
+
+Zum wiederholten Messen kann man iperf3 mit der Option -D starten, dann läuft der Iperf-Server als Daemon auch nach Ende der SSH-Session weiter. Beispiel:
+~~~
+iperf3 -s -D
+~~~
+
+
+Auf dem Client richtet man einen Cronjob ein, der zB jede Nacht um 3 Uhr für 5 Minuten testet. 
+~~~
+* 3 * * * iperf3 -c ServerIP -t 300
+~~~
+Dabei ist unbedingt darauf zu Achten, dass Kapazitäten nicht unnötig belastet werden, zB würde eine dauerhafte Messung die Verbindung zwischen Client und Server dauerhaft auslasten, sodass keine anderen Pakete übertragen werden können.
+
+
+
+
