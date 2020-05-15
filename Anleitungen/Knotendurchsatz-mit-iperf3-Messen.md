@@ -77,7 +77,10 @@ iperf3 -s -D
 
 Auf dem Client richtet man einen Cronjob ein, der zB jede Nacht um 3 Uhr für 5 Minuten testet. 
 ~~~
+crontab -e
 * 3 * * * iperf3 -c ServerIP -t 300
+Speichern und schließen, dann cron neu laden:
+/etc/init.d/cron reload
 ~~~
 
 Dabei ist unbedingt darauf zu Achten, dass Kapazitäten nicht unnötig belastet werden, zB würde eine dauerhafte Messung die Verbindung zwischen Client und Server dauerhaft auslasten, sodass keine anderen Pakete übertragen werden können.
