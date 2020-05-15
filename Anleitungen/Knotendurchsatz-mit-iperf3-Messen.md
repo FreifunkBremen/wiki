@@ -87,4 +87,26 @@ Dabei ist unbedingt darauf zu Achten, dass Kapazitäten nicht unnötig belastet 
 
 Die Ergebnisse muss man entweder selbst loggen bei Grafana ablesen. 
 
+### Speedtest zwischen Knoten und Knoten ohne iperf3:
+Kleine Alternative, mit wget kann auch eine unendlich große Datei von jedem FF-Router heruntergeladen werden. Dabei muss natürlich der Download irgendwann manuell abgebrochen werden!
+
+- mit ssh auf einen der Knoten anmelden
+- wget -6 -O /dev/null http://[IPv6_des_anderen_Knoten]/cgi-bin/devzero
+- mit [strg] + [c] auf der console wieder abbrechen.
+- automatische Speed-Berechnung: t=$(date +"%s"); wget http://speedtest.belwue.net/100M -O /dev/null ; echo -n "MBit/s: "; expr 8 \* 100 / $(($(date +"%s")-$t))
+
+Speedtest zwischen beliebigen Knoten und Client:
+oben genannte URL einfach mit einem Webbrowser (Firefox) herunterladen.
+
+~~~
+t=$(date +"%s"); wget http://speedtest.belwue.net/100M -O /dev/null ; echo -n "MBit/s: "; expr 8 \* 100 / $(($(date +"%s")-$t))
+~~~
+
+Auch folgende Zeile ist hübsch. Mit SSH auf den Router verbinden und folgende Zeile hineinkopieren.
+~~~
+t=$(date +"%s"); wget -O /dev/null http://vpn01.ffhb.de/speedtest/garbage.php?ckSize=100;  expr 8 \* 100 / $(($(date +"%s")-$t));echo "MBit/s: "
+~~~
+
+Der bremer VPN01 hat die IP Adressen: 10.196.0.1   2a06:8782:ffbb:1337::1
+Die anderen entsprechend .2 - .6
 
