@@ -10,9 +10,9 @@ Beim aktuellsten Modell des 841n(d), der Version 9+ ist es auch möglich, komple
 
 ## Hinweise:
 **Warum TFTP nicht klappt.** Der Router schaltet die LAN Schnittstelle ein und schaut auf einer von diesem Modell festgelegten IP-Adresse ob ein Modellspezifisches Image geladen werden kann. 
-Dieses erfolgt oft so schnell, dass der angeschlossene PC dies nicht mitbekommt. Lösung: einen kleinen Switch dazwischen schalten, dieser hält den PC Online und reagiert deutlich schneller auf den Uplink des Routers.
+Dieses erfolgt oft so schnell, dass der angeschlossene PC dies nicht mitbekommt. Lösung: einen kleinen Switch dazwischen schalten, dieser hält den PC Online und reagiert deutlich schneller auf den Uplink des Routers. Viele LAN Schnittstellen können in ihren Eigenschaften dauerhaft aktiviert werden.
 
-**Dauerbootschleife:** Auf dem Router sind zwei Images. Das Erste ist der uboot Bootloader, der am Ende des Startvorgangs das zweite Image anspring und die Applikation startet. In seltenen Fällen kommt es vor, das während der Installation eines neuen Images, der uboot Bootloader hinter den ersten geschrieben wird. uboot springt an eine feste Adresse im Speicher. Trifft es dort auf den neuen uboot, kommt es zur Schleife. Hier hilft ein gestripptes Image ohne uboot am Anfang.
+**Dauerbootschleife:** Auf dem Router sind zwei Images. Das Erste ist der uboot Bootloader, der am Ende des Startvorgangs das zweite Image anspring und die Applikation startet. In seltenen Fällen kommt es vor, das während der Installation eines neuen Images, der uboot Bootloader hinter den ersten geschrieben wird. uboot springt an eine feste Adresse im Speicher. Trifft es dort auf den neuen uboot, kommt es zur Schleife. Hier hilft ein gestripptes Image ohne uboot am Anfang. Ausprobieren kann man auch ein sysupgrade-image mit mtd in den Speicher zu schreiben. Weitere Infos unter [Openwrt]8https://openwrt.org/toh/start).
 
 **TFTP IP-Adressen:** Jedes Modell verwendet eigene Adressen. Die Adressen für den unbrick finden sich unter: https://openwrt.org/toh/start
 Alternativ den Bootvorgang auf der seriellen Konsole mitschneiden. Dort können wir die IP Adressen und das zu ladene Image ablesen.
