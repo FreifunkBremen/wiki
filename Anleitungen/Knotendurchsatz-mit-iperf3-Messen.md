@@ -79,8 +79,9 @@ Auf dem Client richtet man einen Cronjob ein, der zB jede Nacht um 3 Uhr für 5 
 ~~~
 * 3 * * * iperf3 -c ServerIP -t 300
 ~~~
+
 Dabei ist unbedingt darauf zu Achten, dass Kapazitäten nicht unnötig belastet werden, zB würde eine dauerhafte Messung die Verbindung zwischen Client und Server dauerhaft auslasten, sodass keine anderen Pakete übertragen werden können.
 
-
+Die Ergebnisse muss man entweder selbst loggen bei Grafana ablesen. 
 
 
