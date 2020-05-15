@@ -126,3 +126,12 @@ https://wiki.bremen.freifunk.net/Treffen/2020_05_01
 ## UBNT AC-Mesh ohne SSID
 Bei meinem UBNT AC-M werden bei den Meshkanälen als SSID * angezeigt.
 Ist das so richtig? Bei anderen Geräten sehe ich das nicht.
+
+
+## Sehr langsames Internet an der Radstation
+* am 15.5.2020 hat FsH an der Radstation Speedtests gemacht. Es war sehr langsam: 5-10 MBit/s; stark schwankend
+* früher (bei der Einrichtung, und auch bis ca. Mitte März) waren da noch 70 MBit/s erreichbar
+* der Vorplatz-Knoten ist zwar nur per WLAN-Mesh angebunden. Aber die Probleme gab es auch z.B. am GST-Knoten; und der mesht laut Karte per "Kabel" (also Kabel+Richtverbindung)
+* möglicherweise auch ein MTU-Problem?
+* seit den guten Ergebnissen wurden wohl mehrere Dinge geändert (Firmware-Upgrade, Kabel-Mesh-Verbindungen optimieren...)
+* die Radstation ist über den Schlachthof angebunden; also im Moment über vpn01
