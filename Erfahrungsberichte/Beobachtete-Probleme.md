@@ -59,11 +59,11 @@ Fehler tritt vmtl dann auf wenn der Router nicht aus Freifunk aufgerufen wird.
 Bei 7 von 8 Knoten festgestellt.
 Im Schnitt c.a. 80 x innerhalb eines Tages in den logs.
 Das war schon mal besser.
-
+```
 daemon.err gluon-radv-filterd[1725]: Unable to find router ... in transtable_{global,local}
 
 daemon.err gluon-radv-filterd[1725]: Unable to find TQ for originator ... (router ...)
-
+```
 
 ## [Gelöst] `okpg update` läuft nicht durch, wenn der Knoten mit vpn2 oder vpn5 verbunden ist
 Dieses Problem wurde in https://tasks.ffhb.de/T357 ("IPv6-Pakete mit bestimmten Größen werden nicht zuverlässig übertragen") weiter untersucht und gelöst.
