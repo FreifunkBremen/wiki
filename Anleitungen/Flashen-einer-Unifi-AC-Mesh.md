@@ -214,11 +214,11 @@ Danach startet das Gerät neu, dann erneut einloggen und weiter mit Punkt 2. um 
 Nach der Installation kann es vorkommen, dass auf 5GHz das Mesh nicht aktiv ist. Die Lösung: Verbindung mit SSH aufbauen. Datei /etc/config/network auf Einträge
 
 ~~~
-config interface 'mesh:radio0'
-    option proto 'gluon_mesh'
-    
-config interface 'mesh:radio1'
-    option proto 'gluon_mesh'  
+config interface 'mesh_radio0'
+	option proto 'gluon_mesh'
+
+config interface 'mesh_radio1'
+	option proto 'gluon_mesh'
 ~~~
 vorhanden sind, ggf. diese Ergänzen.
 
