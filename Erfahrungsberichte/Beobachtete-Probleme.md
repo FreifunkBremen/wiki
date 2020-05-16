@@ -127,6 +127,20 @@ https://wiki.bremen.freifunk.net/Treffen/2020_05_01
 Bei meinem UBNT AC-M werden bei den Meshkanälen als SSID * angezeigt.
 Ist das so richtig? Bei anderen Geräten sehe ich das nicht.
 
+Liegt wohl an 11s, dass nur ein * anstatt mesh.ffhb.net abgestrahlt wird.
+
+## UBNT AC-Mesh nur 2,4Ghz Mesh
+
+Bei der Erstinstallation kann es vorkommen, dass nur 2,4Ghz Mesh übernommen wird.
+Lösung: Datei /etc/config/network prüfen, ob beide Einträge vorhanden sind.
+~~~
+config interface 'mesh_radio0'
+	option proto 'gluon_mesh'
+
+config interface 'mesh_radio1'
+	option proto 'gluon_mesh'
+~~~
+
 
 ## Sehr langsames Internet an der Radstation
 * am 15.5.2020 hat FsH an der Radstation Speedtests gemacht. Es war sehr langsam: 5-10 MBit/s; stark schwankend
