@@ -206,4 +206,17 @@ Quelle: https://help.ubnt.com/hc/en-us/articles/204910064-UniFi-Changing-the-Fir
 
 Danach startet das Gerät neu, dann erneut einloggen und weiter mit Punkt 2. um die Freifunk Firmware zu installieren.
 
+### 4.) Hinweis
+
+Nach der Installation kann es vorkommen, dass auf 5GHz das Mesh nicht aktiv ist. Die Lösung: Verbindung mit SSH aufbauen. Datei /etc/config/network auf Einträge
+
+~~~
+config interface 'mesh:radio0'
+    option proto 'gluon_mesh'
+    
+config interface 'mesh:radio1'
+    option proto 'gluon_mesh'  
+~~~
+vorhanden sind, ggf. diese Ergänzen.
+
 **Diese Anleitung ist wie immer ohne Gewähr. Für Anregungen und Tipps immer offen.**
