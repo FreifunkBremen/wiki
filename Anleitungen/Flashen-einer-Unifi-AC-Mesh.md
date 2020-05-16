@@ -23,7 +23,7 @@ Der Reihe nach:
 
 [3.) Back to Stock - Downgrade unter Linux Mint-Ubuntu](#inhalt_3-back-to-stock-downgrade-unter-linux-mint-ubuntu)
 
-[3.) Back to Stock - Downgrade unter Windows]()
+[3.) Back to Stock - Downgrade unter Windows](#inhalt_3-back-to-stock-downgrade-unter-windows)
 
 ### 1.) Firmwareversion ermitteln und flashen:
 
