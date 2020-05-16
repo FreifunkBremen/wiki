@@ -25,6 +25,9 @@ Der Reihe nach:
 
 [3.) Back to Stock - Downgrade unter Windows](#inhalt_3-back-to-stock-downgrade-unter-windows)
 
+[4.) Hinweis](#inhalt_4-hinweis)
+
+
 ### 1.) Firmwareversion ermitteln und flashen:
 
 Das LAN Kabel ist mit dem Ubiquiti PoE Adapter verbunden.
