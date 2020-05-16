@@ -18,6 +18,7 @@ Der Reihe nach:
 
 ## Inhalt:
 [1.) Firmwareversion ermitteln und  flashen:](#inhalt_1-firmwareversion-ermitteln-und-flashen)
+
 [2.) Freifunk Image aufspielen](#inhalt_2-freifunk-image-aufspielen)
 
 
