@@ -21,6 +21,7 @@ Der Reihe nach:
 
 [2.) Freifunk Image aufspielen](#inhalt_2-freifunk-image-aufspielen)
 
+[]()
 
 ### 1.) Firmwareversion ermitteln und flashen:
 
