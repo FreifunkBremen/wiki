@@ -17,7 +17,7 @@ Dann auf „SEE PAST FIRMWARE“ die „Unfi Firmware 3.7.58 for UAP-AC-LITE/M/�
 Der Reihe nach: 
 
 ## Inhalt:
-[1.) Firmwareversion ermitteln und flashen:](#inhalt_1-firmwareversion_ermitteln_und_flashen:)
+[1.) Firmwareversion ermitteln und  flashen:](#inhalt_1-firmwareversion-ermitteln-und-flashen)
 
 ### 1.) Firmwareversion ermitteln und flashen:
 
