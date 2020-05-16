@@ -18,6 +18,8 @@ Der Reihe nach:
 
 ## Inhalt:
 [1.) Firmwareversion ermitteln und  flashen:](#inhalt_1-firmwareversion-ermitteln-und-flashen)
+[2.) Freifunk Image aufspielen](#inhalt_2-freifunk-image-aufspielen)
+
 
 ### 1.) Firmwareversion ermitteln und flashen:
 
@@ -71,7 +73,7 @@ BZ.v3.7.58#
 Wenn die Ausgabe so aussieht, kann die Freifunkfirmware installiert werden.	Ohne MTD bitte eine Firmware mit MTD aufspielen, weiter bei Punkt 3.
 	
 
-### 2. Freifunk Image aufspielen
+### 2.) Freifunk Image aufspielen
 	
 Auf eurem Rechner/Laptop, dass “sysupgrade-Image“ der „Unifi AC-Mesh/Lite“ eurer Domäne, (der einfachheitshalber) in „firmware.bin“ umbenennen und per scp ins /tmp Verzeichnis der AC-Mesh/Lite kopieren.
 cd /home/USER/PFAD/ZUR/FIRMWARE.BIN
