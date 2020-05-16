@@ -16,7 +16,10 @@ Dann auf „SEE PAST FIRMWARE“ die „Unfi Firmware 3.7.58 for UAP-AC-LITE/M/�
 
 Der Reihe nach: 
 
-### 1. Firmwareversion ermitteln und flashen:
+## Inhalt:
+[1.) Firmwareversion ermitteln und flashen:](#inhalt_1-firmwareversion_ermitteln_und_flashen:)
+
+### 1.) Firmwareversion ermitteln und flashen:
 
 Das LAN Kabel ist mit dem Ubiquiti PoE Adapter verbunden.
 Netzwerkeinstellung des PC/Laptop auf manuell (statisch) stellen – 192.168.1.2/255.255.255.0
