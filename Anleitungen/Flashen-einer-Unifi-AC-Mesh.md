@@ -21,7 +21,7 @@ Der Reihe nach:
 
 [2.) Freifunk Image aufspielen](#inhalt_2-freifunk-image-aufspielen)
 
-[]()
+[3.) Back to Stock - Downgrade unter Linux Mint-Ubuntu]()
 
 ### 1.) Firmwareversion ermitteln und flashen:
 
