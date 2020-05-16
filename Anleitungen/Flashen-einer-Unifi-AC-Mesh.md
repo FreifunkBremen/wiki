@@ -136,7 +136,7 @@ Weiterhin verteilt der Router in der Zeit über DHCP IP-Adressen, so das der PC 
 
 Startet nun die Konfiguration über: http://192.168.1.1 und die Konfiguration kann vorgenommen werden.
  
-### 3. Back to Stock / Downgrade unter Linux Mint/Ubuntu
+### 3. Back to Stock - Downgrade unter Linux Mint-Ubuntu
 
 Vorraussetzungen:
 Das LAN Kabel ist mit der Unifi AC Mesh PoE Adapter und deinem Laptop verbunden.
