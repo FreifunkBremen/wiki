@@ -23,6 +23,8 @@ Der Reihe nach:
 
 [3.) Back to Stock - Downgrade unter Linux Mint-Ubuntu](#inhalt_3-back-to-stock-downgrade-unter-linux-mint-ubuntu)
 
+[3.) Back to Stock - Downgrade unter Windows]()
+
 ### 1.) Firmwareversion ermitteln und flashen:
 
 Das LAN Kabel ist mit dem Ubiquiti PoE Adapter verbunden.
