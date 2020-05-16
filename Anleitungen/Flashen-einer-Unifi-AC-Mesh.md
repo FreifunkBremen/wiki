@@ -187,7 +187,7 @@ Nach ein paar Minuten bootet die Unifi selbstständig mit der originalen Firmwar
  
 
  
-### 3. Back to Stock / Downgrade unter Windows 
+### 3.) Back to Stock - Downgrade unter Windows 
 
 Die Datei mit einem SCP-fähigen Program (z.B. WinSCP) auf der AC Mesh ablegen.
 
