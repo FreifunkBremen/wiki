@@ -25,7 +25,7 @@ Der Reihe nach:
 
 [3.) Back to Stock - Downgrade unter Windows](#inhalt_3-back-to-stock-downgrade-unter-windows)
 
-[4.) Hinweis](#inhalt_4-hinweis)
+[4.) Hinweise](#inhalt_4-hinweise)
 
 
 ### 1.) Firmwareversion ermitteln und flashen:
@@ -209,7 +209,7 @@ Quelle: https://help.ubnt.com/hc/en-us/articles/204910064-UniFi-Changing-the-Fir
 
 Danach startet das Gerät neu, dann erneut einloggen und weiter mit Punkt 2. um die Freifunk Firmware zu installieren.
 
-### 4.) Hinweis
+### 4.) Hinweise
 
 Nach der Installation kann es vorkommen, dass auf 5GHz das Mesh nicht aktiv ist. Die Lösung: Verbindung mit SSH aufbauen. Datei /etc/config/network auf Einträge
 
