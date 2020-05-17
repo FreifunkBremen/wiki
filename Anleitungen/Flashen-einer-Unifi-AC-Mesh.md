@@ -222,4 +222,6 @@ config interface 'mesh_radio1'
 ~~~
 vorhanden sind, ggf. diese Ergänzen.
 
+Ein sysupgrade -n gluon-ffhb-2019.1.1+bremen3-ubiquiti-unifi-ac-mesh-sysupgrade.bin funktioniert ebenfalls, um erneut in den Konfigurationsmodus zu gelangen und das Gerät neu zu konfigurieren.
+
 **Diese Anleitung ist wie immer ohne Gewähr. Für Anregungen und Tipps immer offen.**
