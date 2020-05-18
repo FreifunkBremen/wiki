@@ -65,13 +65,6 @@ daemon.err gluon-radv-filterd[1725]: Unable to find router ... in transtable_{gl
 daemon.err gluon-radv-filterd[1725]: Unable to find TQ for originator ... (router ...)
 ```
 
-## [Gelöst] `okpg update` läuft nicht durch, wenn der Knoten mit vpn2 oder vpn5 verbunden ist
-Dieses Problem wurde in https://tasks.ffhb.de/T357 ("IPv6-Pakete mit bestimmten Größen werden nicht zuverlässig übertragen") weiter untersucht und gelöst.
-
-Das Symptom war, dass IPv6-TCP-Pakete mit Paketgrößen zwischen 1343 und 1366 Bytes (inklusive) nicht übertragen wurden, wenn der Knoten an vpn2 oder vpn5 hing.
-
-Das Problem war am Ende, dass ein Tunnel zwischen vpn2 bzw. vpn5 und dem ipv6-downlink-Host eine falsche MTU hatte.
-
 ## Schlechte Benutzererfahrung
 Verbindungsabbrüche  bei Onlinegaming.
 Speedtest zum VPN << 1 Mbit up and down an 30 Mbit DSL Anschluss.
@@ -149,3 +142,10 @@ config interface 'mesh_radio1'
 * möglicherweise auch ein MTU-Problem?
 * seit den guten Ergebnissen wurden wohl mehrere Dinge geändert (Firmware-Upgrade, Kabel-Mesh-Verbindungen optimieren...)
 * die Radstation ist über den Schlachthof angebunden; also im Moment über vpn01
+
+## [Gelöst] `okpg update` läuft nicht durch, wenn der Knoten mit vpn2 oder vpn5 verbunden ist
+Dieses Problem wurde in https://tasks.ffhb.de/T357 ("IPv6-Pakete mit bestimmten Größen werden nicht zuverlässig übertragen") weiter untersucht und gelöst.
+
+Das Symptom war, dass IPv6-TCP-Pakete mit Paketgrößen zwischen 1343 und 1366 Bytes (inklusive) nicht übertragen wurden, wenn der Knoten an vpn2 oder vpn5 hing.
+
+Das Problem war am Ende, dass ein Tunnel zwischen vpn2 bzw. vpn5 und dem ipv6-downlink-Host eine falsche MTU hatte.
