@@ -31,13 +31,6 @@ Nächste Schritte:
 * tritt wohl erst seit 2019.1.2+bremen2 auf
 * Frank_H 841nd v8 & Archer C7v2 nach upgrade schlechte Meshverbindung auf der Karte, beide Router neu gestartet.
 
-
-## [Gelöst] logread zeigt "fastd[1999]: resolving host `vpn01.bremen.freifunk.net' failed: Try again"
-Übliche Ursache: der Knoten versucht, eine VPN-Verbindung aufzubauen, aber er hat keinen direkten Internetzugang.
-- deshalb: am besten Mesh-VPN ausschalten, wenn der Knoten eh definitiv kein VPN aufbauen soll; das reduziert den Log-Spam
-- abschalten geht per "/etc/init.d/fastd stop ; uci set fastd.mesh_vpn.enabled='0'; uci commit fastd"
-
-
 ## SSH-Verbindungen zum Knoten bleiben hängen
 Wenn man sich per SSH aus dem Internet zu einem Knoten verbindet und dort große Datenmengen übertragen werden (z.B. durch Ausführen von `logread` und Scrollen), bleibt die SSH-Verbindung hängen.
 
@@ -142,6 +135,12 @@ config interface 'mesh_radio1'
 * möglicherweise auch ein MTU-Problem?
 * seit den guten Ergebnissen wurden wohl mehrere Dinge geändert (Firmware-Upgrade, Kabel-Mesh-Verbindungen optimieren...)
 * die Radstation ist über den Schlachthof angebunden; also im Moment über vpn01
+
+## [Gelöst] logread zeigt "fastd[1999]: resolving host `vpn01.bremen.freifunk.net' failed: Try again"
+Übliche Ursache: der Knoten versucht, eine VPN-Verbindung aufzubauen, aber er hat keinen direkten Internetzugang.
+- deshalb: am besten Mesh-VPN ausschalten, wenn der Knoten eh definitiv kein VPN aufbauen soll; das reduziert den Log-Spam
+- abschalten geht per "/etc/init.d/fastd stop ; uci set fastd.mesh_vpn.enabled='0'; uci commit fastd"
+
 
 ## [Gelöst] `okpg update` läuft nicht durch, wenn der Knoten mit vpn2 oder vpn5 verbunden ist
 Dieses Problem wurde in https://tasks.ffhb.de/T357 ("IPv6-Pakete mit bestimmten Größen werden nicht zuverlässig übertragen") weiter untersucht und gelöst.
