@@ -101,13 +101,6 @@ Fragen hierzu:
 * - Funktioniert auch Problemlos. Kann zu allen Zeiten sein.
 * Vorschläge um das Automatisch zu überwachen? Weiß jemand was fertiges?
 
-## DNS kaput
-Namensauflösung funktioniert im FF nicht mehr.
-betrifft clients und knoten.
-2020-05-01
-Zwischen 15:00 - 16:30 aufgetreten.
-Siehe Tagesordnung Freffen
-https://wiki.bremen.freifunk.net/Treffen/2020_05_01
 
 ## UBNT AC-Mesh ohne SSID
 Bei meinem UBNT AC-M werden bei den Meshkanälen als SSID * angezeigt.
@@ -141,6 +134,15 @@ config interface 'mesh_radio1'
 - deshalb: am besten Mesh-VPN ausschalten, wenn der Knoten eh definitiv kein VPN aufbauen soll; das reduziert den Log-Spam
 - abschalten geht per "/etc/init.d/fastd stop ; uci set fastd.mesh_vpn.enabled='0'; uci commit fastd"
 
+## [gelöst] DNS kaput
+Namensauflösung funktioniert im FF nicht mehr.
+betrifft clients und knoten.
+2020-05-01
+Zwischen 15:00 - 16:30 aufgetreten.
+Siehe Tagesordnung Freffen
+https://wiki.bremen.freifunk.net/Treffen/2020_05_01
+
+Lösung: Fehlerhaftes Script auf allen DNS-Servern wurde korrigiert.
 
 ## [Gelöst] `okpg update` läuft nicht durch, wenn der Knoten mit vpn2 oder vpn5 verbunden ist
 Dieses Problem wurde in https://tasks.ffhb.de/T357 ("IPv6-Pakete mit bestimmten Größen werden nicht zuverlässig übertragen") weiter untersucht und gelöst.
