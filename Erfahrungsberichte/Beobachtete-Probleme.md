@@ -150,3 +150,28 @@ Dieses Problem wurde in https://tasks.ffhb.de/T357 ("IPv6-Pakete mit bestimmten 
 Das Symptom war, dass IPv6-TCP-Pakete mit Paketgrößen zwischen 1343 und 1366 Bytes (inklusive) nicht übertragen wurden, wenn der Knoten an vpn2 oder vpn5 hing.
 
 Das Problem war am Ende, dass ein Tunnel zwischen vpn2 bzw. vpn5 und dem ipv6-downlink-Host eine falsche MTU hatte.
+
+
+## Mehr Bumms, wenn zu wenig Sendeleitung
+Einige Routermodelle sind sehr stark in ihrer Sendeleistung beschnitten worden.
+Die Sendeleistung kann nicht wie gewohnt über wireless eingestellt werden.
+
+Sendeleistung und Antennengewinn sind in der regdb hinterlegt. Die Werte stehen normalerweise auch in der config wireless.
+Interessanter Weise können die Einstellungen per Kommandozeile überschrieben werden.
+
+auslesen aktueller Stand
+iwinfo client0 txpowerlist
+iwinfo client1 txpowerlist
+Es wird der maximale Bereich und mit * die aktuelle Einstellung gezeigt.
+
+reg get zeigt dies auch.
+reg set US setzt Standort auf US
+reg get zeigt einen größeren Bereich und höhere Sendewerte. 
+
+Sind die Werte noch nicht zufriedenstellend, mit
+iw phy0 set txpower fixed 2300 # $wert mal 1000
+iw phy1 set txpower fixed 2500 
+uci commit
+wifi 
+einstellen.
+
