@@ -5,12 +5,14 @@ Hier werden Störungen, Ausfälle, Performance-Mängel und andere Probleme gesam
 Trag möglichst viele Details ein: was genau hast du beobachtet, wann war das, was hast du stattdessen erwartet?
 
 ### Güterbahnhof
-* Unregelmäßig (aber ca alle paar Wochen) fällt der Güterbahnhof aus
+* Regelmäßig fällt der Güterbhanhof aus
 * Wird dann nur notdürftig via CPE und Papageienhaus versorgt -> faktisch nicht nutzbar
 
-* 19.5.20:
+#### 19.5.20:
 * Geräte aus laut Karte aus: GB-KH-E3-1a, GB-KH-E0-1, GB-KH-E3-2, GB-KH-E1-1
 * Alle anderen Geräte bauen über das Papageienhaus eine Verbindung zum Schlachtthof auf
+* NanoBeams Zucker-Slave, KHSH-Slave, Schlachthof-Master sind eingeschaltet und arbeiten korrekt.
+* Mesh-Verbinudung zur Radstation existiert nicht
 
 ### Ausfälle (Loop?) morgens am 25.3.2020
 * von hias beobachtet
