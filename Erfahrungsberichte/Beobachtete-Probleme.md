@@ -4,7 +4,15 @@ Hier werden Störungen, Ausfälle, Performance-Mängel und andere Probleme gesam
 
 Trag möglichst viele Details ein: was genau hast du beobachtet, wann war das, was hast du stattdessen erwartet?
 
-## Ausfälle (Loop?) morgens am 25.3.2020
+### Güterbahnhof
+* Regelmäßig fällt der Güterbhanhof aus
+* Wird dann nur notdürftig via CPE und Papageienhaus versorgt -> faktisch nicht nutzbar
+
+* 19.5.20:
+* Geräte aus laut Karte aus: GB-KH-E3-1a, GB-KH-E0-1, GB-KH-E3-2, GB-KH-E1-1
+* Alle anderen Geräte bauen über das Papageienhaus eine Verbindung zum Schlachtthof auf
+
+### Ausfälle (Loop?) morgens am 25.3.2020
 * von hias beobachtet
 * hoher ICMP6 durchsatz[2], Hinweise auf loop in den Logs[3], Was war da los, Wurde was unternommen um es zu beheben und wenn ja, Was?
 * hat sich anscheinend von selbst wieder gelöst
@@ -15,7 +23,7 @@ Anmerkungen:
 * 3: kern.warn kernel: (...) br-client: received packet on bat0 with own address as source address
 
 
-## Langsames Freifunk bei 50-MBit-Leitung
+### Langsames Freifunk bei 50-MBit-Leitung
 [Louis sagt:](https://wiki.ffhb.de/Treffen/2020_03_20#protokoll_fehler-geschwindigkeit-des-freifunks-warum-ist-das-so-langsam_wie-%C3%A4u%C3%9Fern-sich-die-probleme) mit einer 50-MBit-Leitung ist das Internet über Freifunk merklich langsamer als über den direkten Anschluss. Lässt sich mit einem normalen Download messen.
 
 Nächste Schritte:
@@ -26,19 +34,19 @@ Nächste Schritte:
 * ist ein Offloader im Einsatz?
 
 
-## Unzuverlässige Karten-Updates bei Mesh-Verbindungen
+### Unzuverlässige Karten-Updates bei Mesh-Verbindungen
 * Knoten, die nur per Mesh verbunden sind, erscheinend tw. nicht auf der Karte
 * tritt wohl erst seit 2019.1.2+bremen2 auf
 * Frank_H 841nd v8 & Archer C7v2 nach upgrade schlechte Meshverbindung auf der Karte, beide Router neu gestartet.
 
-## SSH-Verbindungen zum Knoten bleiben hängen
+### SSH-Verbindungen zum Knoten bleiben hängen
 Wenn man sich per SSH aus dem Internet zu einem Knoten verbindet und dort große Datenmengen übertragen werden (z.B. durch Ausführen von `logread` und Scrollen), bleibt die SSH-Verbindung hängen.
 
 - das sind IPv6-Verbindungen (weil die Knoten nur über IPv6 erreichbar sind)
 - könnte ein MTU-Problem sein
 
 Lässt sich auch hier mit in Verbindung bringen:
-#### TL-MR3020 v1 hängt sich bei Upgrade auf (hias)
+### TL-MR3020 v1 hängt sich bei Upgrade auf (hias)
 Bei Manuellen upgrade eines TL-MR3020 v1  via ssh (mit 'autoupdater -f')
 friert die SSH Sitzung ein, und das Upgrade läuft nicht durch.
 
@@ -48,7 +56,7 @@ Router mesh't nur via VPN.
 Nachtrag:
 Fehler tritt vmtl dann auf wenn der Router nicht aus Freifunk aufgerufen wird.
 
-## Fehlermeldung in den Logs vieler Knoten
+### Fehlermeldung in den Logs vieler Knoten
 Bei 7 von 8 Knoten festgestellt.
 Im Schnitt c.a. 80 x innerhalb eines Tages in den logs.
 Das war schon mal besser.
@@ -58,7 +66,7 @@ daemon.err gluon-radv-filterd[1725]: Unable to find router ... in transtable_{gl
 daemon.err gluon-radv-filterd[1725]: Unable to find TQ for originator ... (router ...)
 ```
 
-## Schlechte Benutzererfahrung
+### Schlechte Benutzererfahrung
 Verbindungsabbrüche  bei Onlinegaming.
 Speedtest zum VPN << 1 Mbit up and down an 30 Mbit DSL Anschluss.
 schlechtes Ping mit viel Duplikaten.
@@ -102,13 +110,13 @@ Fragen hierzu:
 * Vorschläge um das Automatisch zu überwachen? Weiß jemand was fertiges?
 
 
-## UBNT AC-Mesh ohne SSID
+### UBNT AC-Mesh ohne SSID
 Bei meinem UBNT AC-M werden bei den Meshkanälen als SSID * angezeigt.
 Ist das so richtig? Bei anderen Geräten sehe ich das nicht.
 
 Liegt wohl an 11s, dass nur ein * anstatt mesh.ffhb.net abgestrahlt wird.
 
-## UBNT AC-Mesh nur 2,4Ghz Mesh
+### UBNT AC-Mesh nur 2,4Ghz Mesh
 
 Bei der Erstinstallation kann es vorkommen, dass nur 2,4Ghz Mesh übernommen wird.
 Lösung: Datei /etc/config/network prüfen, ob beide Einträge vorhanden sind.
@@ -121,7 +129,7 @@ config interface 'mesh_radio1'
 ~~~
 
 
-## Sehr langsames Internet an der Radstation
+### Sehr langsames Internet an der Radstation
 * am 15.5.2020 hat FsH an der Radstation Speedtests gemacht. Es war sehr langsam: 5-10 MBit/s; stark schwankend
 * früher (bei der Einrichtung, und auch bis ca. Mitte März) waren da noch 70 MBit/s erreichbar
 * der Vorplatz-Knoten ist zwar nur per WLAN-Mesh angebunden. Aber die Probleme gab es auch z.B. am GST-Knoten; und der mesht laut Karte per "Kabel" (also Kabel+Richtverbindung)
@@ -129,30 +137,7 @@ config interface 'mesh_radio1'
 * seit den guten Ergebnissen wurden wohl mehrere Dinge geändert (Firmware-Upgrade, Kabel-Mesh-Verbindungen optimieren...)
 * die Radstation ist über den Schlachthof angebunden; also im Moment über vpn01
 
-## [Gelöst] logread zeigt "fastd[1999]: resolving host `vpn01.bremen.freifunk.net' failed: Try again"
-Übliche Ursache: der Knoten versucht, eine VPN-Verbindung aufzubauen, aber er hat keinen direkten Internetzugang.
-- deshalb: am besten Mesh-VPN ausschalten, wenn der Knoten eh definitiv kein VPN aufbauen soll; das reduziert den Log-Spam
-- abschalten geht per "/etc/init.d/fastd stop ; uci set fastd.mesh_vpn.enabled='0'; uci commit fastd"
-
-## [gelöst] DNS kaput
-Namensauflösung funktioniert im FF nicht mehr.
-betrifft clients und knoten.
-2020-05-01
-Zwischen 15:00 - 16:30 aufgetreten.
-Siehe Tagesordnung Freffen
-https://wiki.bremen.freifunk.net/Treffen/2020_05_01
-
-Lösung: Fehlerhaftes Script auf allen DNS-Servern wurde korrigiert.
-
-## [Gelöst] `okpg update` läuft nicht durch, wenn der Knoten mit vpn2 oder vpn5 verbunden ist
-Dieses Problem wurde in https://tasks.ffhb.de/T357 ("IPv6-Pakete mit bestimmten Größen werden nicht zuverlässig übertragen") weiter untersucht und gelöst.
-
-Das Symptom war, dass IPv6-TCP-Pakete mit Paketgrößen zwischen 1343 und 1366 Bytes (inklusive) nicht übertragen wurden, wenn der Knoten an vpn2 oder vpn5 hing.
-
-Das Problem war am Ende, dass ein Tunnel zwischen vpn2 bzw. vpn5 und dem ipv6-downlink-Host eine falsche MTU hatte.
-
-
-## Mehr Bumms, wenn zu wenig Sendeleitung
+### Mehr Bumms, wenn zu wenig Sendeleitung
 Einige Routermodelle sind sehr stark in ihrer Sendeleistung beschnitten worden.
 Die Sendeleistung kann nicht wie gewohnt über wireless eingestellt werden.
 
@@ -175,3 +160,28 @@ uci commit
 wifi 
 einstellen.
 
+## Gelöste Probleme
+
+### [Gelöst] logread zeigt "fastd[1999]: resolving host `vpn01.bremen.freifunk.net' failed: Try again"
+Übliche Ursache: der Knoten versucht, eine VPN-Verbindung aufzubauen, aber er hat keinen direkten Internetzugang.
+- deshalb: am besten Mesh-VPN ausschalten, wenn der Knoten eh definitiv kein VPN aufbauen soll; das reduziert den Log-Spam
+- abschalten geht per "/etc/init.d/fastd stop ; uci set fastd.mesh_vpn.enabled='0'; uci commit fastd"
+
+### [gelöst] DNS kaput
+Namensauflösung funktioniert im FF nicht mehr.
+betrifft clients und knoten.
+2020-05-01
+Zwischen 15:00 - 16:30 aufgetreten.
+Siehe Tagesordnung Freffen
+https://wiki.bremen.freifunk.net/Treffen/2020_05_01
+
+Lösung: Fehlerhaftes Script auf allen DNS-Servern wurde korrigiert.
+
+### [Gelöst] `okpg update` läuft nicht durch, wenn der Knoten mit vpn2 oder vpn5 verbunden ist
+Dieses Problem wurde in https://tasks.ffhb.de/T357 ("IPv6-Pakete mit bestimmten Größen werden nicht zuverlässig übertragen") weiter untersucht und gelöst.
+
+Das Symptom war, dass IPv6-TCP-Pakete mit Paketgrößen zwischen 1343 und 1366 Bytes (inklusive) nicht übertragen wurden, wenn der Knoten an vpn2 oder vpn5 hing.
+
+Das Problem war am Ende, dass ein Tunnel zwischen vpn2 bzw. vpn5 und dem ipv6-downlink-Host eine falsche MTU hatte.
+
+[//]: # (Ende der gelösten Probleme)
