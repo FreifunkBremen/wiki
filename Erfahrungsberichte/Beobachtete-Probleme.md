@@ -5,7 +5,7 @@ Hier werden Störungen, Ausfälle, Performance-Mängel und andere Probleme gesam
 Trag möglichst viele Details ein: was genau hast du beobachtet, wann war das, was hast du stattdessen erwartet?
 
 ### Güterbahnhof
-* Regelmäßig fällt der Güterbhanhof aus
+* Unregelmäßig (aber ca alle paar Wochen) fällt der Güterbahnhof aus
 * Wird dann nur notdürftig via CPE und Papageienhaus versorgt -> faktisch nicht nutzbar
 
 * 19.5.20:
