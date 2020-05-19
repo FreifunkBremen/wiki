@@ -10,6 +10,7 @@ Trag möglichst viele Details ein: was genau hast du beobachtet, wann war das, w
 
 #### 19.5.20:
 * Geräte aus laut Karte aus: GB-KH-E3-1a, GB-KH-E0-1, GB-KH-E3-2, GB-KH-E1-1
+* Diese Geräte sind alle im 2.OG, bzwp. über den 2. OG angeschlossen
 * Alle anderen Geräte bauen über das Papageienhaus eine Verbindung zum Schlachtthof auf
 * NanoBeams Zucker-Slave, KHSH-Slave, Schlachthof-Master sind eingeschaltet und arbeiten korrekt.
 * Mesh-Verbinudung zur Radstation existiert nicht
