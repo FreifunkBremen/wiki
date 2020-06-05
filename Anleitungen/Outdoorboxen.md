@@ -5,7 +5,7 @@ Bilder von Outdoorboxen
 Testseite, um Bilder aus cloud.ffhb.de ins wiki zu bekommen.
 Link erstellen und mit /preview ergänzen.
 
-![Box](https://cloud.ffhb.de/index.php/s/SNFCZXAWSxg9iim/download)
+![Maja](https://radiobbsnextcloudpi4.spdns.de/index.php/s/xcxnZopZqYgXs78/preview)
 
 ![neuesBild](https://cloud.ffhb.de/index.php/s/J8nggBNNfGawzMr/preview)
 
