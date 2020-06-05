@@ -110,9 +110,9 @@ Bedeutung des externen Switch: In dem Bootloader eines jeden Routers ist eine Ab
 
 ER-X /SFP flashen:
 
-1. Der ER-X-SFP hat die Adresse 172.16.3.211 im Bootloader und erwartet einen TFTP-Server mit 172.16.3.210, wo er ein Image mit dem Namen vme50 sucht.
-2. Verbindun mit Port 0 herstellen und Router starten.
-3. Der ER-X hat die Adresse 172.16.213 im Bootloader und erwartet das vme50 auf 172.16.3.210
+1. Der ER-X-SFP hat die Adresse **172.16.3.211** im Bootloader und erwartet einen TFTP-Server mit **172.16.3.210**, wo er ein Image mit dem Namen **vme50** sucht.
+2. Verbindung mit Port 0 herstellen und Router starten.
+3. Der ER-X hat die Adresse **172.16.213** im Bootloader und erwartet das **vme50** auf **172.16.3.210**
 
 Der Bootvorgang wird für 5 Sekunden angehalten, auf der Konsole ist folgendes Menü. 5 Sekunden zum drücken der 2
 
