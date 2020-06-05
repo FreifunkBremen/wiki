@@ -4,7 +4,7 @@ Bilder von Outdoorboxen
 
 ![Box](https://cloud.ffhb.de/index.php/s/SNFCZXAWSxg9iim/download)
 
-![neuesBild](https://cloud.ffhb.de/index.php/s/J8nggBNNfGawzMr/download)
+![neuesBild](https://cloud.ffhb.de/index.php/s/J8nggBNNfGawzMr/preview)
 
 ![neuesBild nummer 2](https://cloud.ffhb.de/index.php/s/J8nggBNNfGawzMr/preview)
 
