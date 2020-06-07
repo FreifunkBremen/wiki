@@ -2,8 +2,13 @@
 
 Bilder von Outdoorboxen
 
-Testseite, um Bilder aus cloud.ffhb.de ins wiki zu bekommen.
-Link erstellen und mit /preview ergänzen.
+Dies ist eine Testseite, um Bilder aus unserer Cloud cloud.ffhb.de in das WIKI zu bekommen. Die normale Methode wie im MARKDOWN beschrieben, funktioniert nicht mit allen Browsern. Linkergänzung mit /download oder /preview.
+Die klassische Methode HTML Link mit weiteren Attributen funktioniert.
+
+Beispiellink:
+~~~
+<img src="https://cloud.ffhb.de/index.php/s/J8nggBNNfGawzMr/preview" width="300">
+~~~
 
 <img src="https://cloud.ffhb.de/index.php/s/J8nggBNNfGawzMr/preview" width="300">
 <img src="https://cloud.ffhb.de/index.php/s/PzcfemXKEX2BqD9/preview" width="300">
