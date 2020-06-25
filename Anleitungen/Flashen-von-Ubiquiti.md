@@ -6,4 +6,123 @@ Aktualisierung noch nicht abgeschlossen 25.6.2020
 ## Flashen von Ubiquiti Routern
 
 
+Kompatible Geräte
+
+    Ubiquiti Bullet M2
+    Ubiquiti Nanostation Loco M2 XM
+    Ubiquiti Nanostation Loco M5 XM
+    Ubiquiti Nanostation Loco M2 XW
+    Ubiquiti Nanostation Loco M5 XW
+    Ubiquiti Nanostation M2 XM
+    Ubiquiti Nanostation M5 XM
+    Ubiquiti Nanostation M2 XW
+    Ubiquiti Nanostation M5 XW
+    Ubiquiti Picostation M2 - nicht mehr erhältlich
+    Ubiquiti Picostation M5 - nicht mehr erhältlich
+    Ubiquiti Rocket M2
+    Ubiquiti Rocket M5
+    Ubiquiti Unifi AP
+    Ubiquiti Unifi AP LR
+    Ubiquiti Unifi AP Pro
+    Ubiquiti Unifi AP Outdoor
+
+Schritt 1: Einloggen in das UBNT Gerät
+
+    Netzwerkeinstellungen des Rechners konfigurieren wie folgt:
+        IP Adresse: 192.168.1.21
+        Subnetzmaske: 255.255.255.0
+    anschließend das UBNT Gerät mit dem Rechner verbinden
+
+(Achtung: nicht das Netzwerkkabel des Rechners in den PoE Port des UBNT Gerätes verbinden)
+
+    Browser öffnen und folgende IP Adresse eingeben: http://192.168.1.20
+    Auf der Startseite gibt man dem Gerät zuerst Benuternamen und ein password, default werte sind:
+        User: ubnt
+        Password: ubnt
+
+UBNT Router GUI, Logon Screen
+Schritt 2: Auswählen der richtigen Firmware
+
+Auf der Seite "Main" sieht man nun die Bezeichnung des Gerätes und auch die verwendete Hardwareversion sowie die aktuelle Firmwareversion. In unserem Beispiel:
+
+    Model: Nanostation Loco M5
+    Hardwareversion: XW (steht in Klammern hinter der Firmware)
+    Firmwareversion: v.5.62 (XW)
+
+UBNT Router GUI, Main Screen
+
+Die Hardwareversion des Gerätes befindet sich i.d.R. nicht auf der Verpackung, sondern ist nur direkt in der Weboberfläche erkennbar.
+Schritt 2a: Downgrad der AirOS Firmware
+
+(Nutzer der Firmware 0.37 können diesen Schritt 2a direkt überspringen)
+
+Bei Ubiquiti mit der Firmware AirOS XM.v5.6.X / XW.v5.6.X (oder neuer) kommt es zu Komplikationen. Ein direktes Einspielen der Freifunk Magdeburg Firmware (Version =< 0.36) ist NICHT MÖGLICH. Es ist notwendig bevor man die Freifunk Firmware oder OpenWRT aufspielt, zuerst ein Firmwaredowngrade auf die Version AirOS XM.v5.5.X oder XW.v5.5.X durchzuführen. Ohne diesen Firmwaredowngrade WIRD DAS GERÄT NICHT BOOTEN!
+
+Wenn dein Ubiquiti aktuell AirOS XM.v5.5.X oder AirOS XW.v5.5.X als Firmware verwendet oder du unsere aktuelle Firmware 0.37 einspielen möchtest, folge bitte diese Anleitung direkt ab dem Schritt 2b.
+
+Je nach Hardwareversion deines Gerätes musst du nun die Firmware AirOS XM.v5.5.X oder AirOS XW.v5.5.X downloaden von der Herstellerseite.
+
+    Download der Passenden Firmware AirOS XM.v5.5.X
+        Download AirOS XM.v5.5.10-u2.28005.150723.1358.bin for: AG-HP-2G16, AG-HP-5G23, AG-HP-5G27, AirGrid M2, AirGrid M5, AR, AR-HP, BM2HP, BM2-Ti, BM5HP, BM5-Ti, LiteStation M5, locoM2, locoM5, locoM9, M2, M3, M365, M5, M900, NB-2G18, NB-5G25, NBM3, NBM365, NBM9, NS2, NSM3, NSM365, NSM5, PBM10, PBM3, PBM5, Power AP N
+        Download AirOS XW.v5.5.10-u2.28005.150723.1358.bin, for: AG-HP-2G16, AG-HP-2G20, AG-HP-5G23, AG-HP-5G27, AirGrid M, AirGrid M2, AirGrid M5, locoM2, locoM5, locoM9, M2, M3, M365, M5, M900, NBE-M2-13, NBE-M5-16, NBE-M5-19, NSM2, NSM3, NSM365, NSM5, PBM3, PBM365, PBM5, RM2-Ti, RM5-Ti
+
+Nachdem du die Firmware auf deiner Festplatte gespeichert hast, gehe nun zur Seite "System" und klicke auf den Buttom "Datei auswählen" oben rechts.
+
+UBNT Router GUI, System Tag
+
+Hier wählst du nun das passende Image für dein Gerät aus, im Beispiel "AirOS XW.v5.5.10-u2.28005.150723.1358.bin"
+
+UBNT Router GUI, Imageauswahl
+
+Anschließend musst du für das Downgrade der Firmware auf AirOS XM.v5.5.X / AirOS XW.v5.5.X auf den Button "Absenden" klicken.
+
+UBNT Router GUI, Image senden
+
+Jetzt wird die Firmware von deinem PC auf das UBNT Gerät geladen.
+
+UBNT Router GUI, Uploading
+
+Mit dem klicken auf "Update" wird nun die Fireware geladen.
+
+UBNT Router GUI, Update Button
+
+Der Updatevorgang dauert in der Regel 1-2 Minuten.
+
+UBNT Router GUI, Updating
+Schritt 2b: Einspielen der Freifunk Firmware
+
+Wie bereits in Schritt 1 beschrieben musst du dich nach dem Eingeben der Logindaten unter der http://192.168.1.20 anmelden.
+
+UBNT Router GUI, Login
+
+Auf der Seite "System" sieht man nun die Bezeichnung des Gerätes und auch die verwendete Hardwareversion sowie die aktuelle Firmwareversion. In unserem Beispiel:
+
+    Model: Nanostation Loco M5
+    Hardwareversion: XW (steht in Klammern hinter der Firmware)
+    FirmwareversioN: v.5.5.10 (XW)
+
+Mit dem oben rechts kann man nun die Freifunk-Firmware mit dem Button "Datei auswählen" hochladen.
+
+Bitte beachte die Hardwareversion der Geräte. Die passende Firmware findest du unter https://md.freifunk.net/mitmachen/firmware/.
+
+UBNT Router GUI, Hardwareversion
+
+Hier wählst du nun das passende Image für dein Gerät aus, im Beispiel "gluon-ffmd-0.33-ubiquiti-loco-m-xw.bin" für unsere Nanostation Loco M5 (XW).
+
+UBNT Router GUI, Imageselektion
+
+Jetzt wird die Firmware von deinem PC auf das UBNT Gerät geladen.
+
+UBNT Router GUI, Firmware runterladen
+
+Anschließend muss man mit dem klick auf "Update" das Einspielen der Freifunk Firmware bestätigen.
+
+UBNT Router GUI, Firmware bestaetigen
+
+Der Updatevorgang dauert in der Regel 1-2 Minuten.
+
+UBNT Router GUI, Firmware aufspielen
+Schritt 3: Knoten konfigurieren
+
+Nachdem die Freifunk Firmware erfolgreich eingespielt wurde, musst du nun deinen Freifunk Knoten konfigurieren.
 
