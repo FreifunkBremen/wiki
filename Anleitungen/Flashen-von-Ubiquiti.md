@@ -8,23 +8,23 @@ Aktualisierung noch nicht abgeschlossen 25.6.2020
 
 Kompatible Geräte
 
-    [Ubiquiti Bullet M2](https://www.ubnt.com/airmax/bulletm/)
-    Ubiquiti Nanostation Loco M2 XM
-    Ubiquiti Nanostation Loco M5 XM
-    Ubiquiti Nanostation Loco M2 XW
-    Ubiquiti Nanostation Loco M5 XW
-    Ubiquiti Nanostation M2 XM
-    Ubiquiti Nanostation M5 XM
-    Ubiquiti Nanostation M2 XW
-    Ubiquiti Nanostation M5 XW
-    Ubiquiti Picostation M2 - nicht mehr erhältlich
-    Ubiquiti Picostation M5 - nicht mehr erhältlich
-    Ubiquiti Rocket M2
-    Ubiquiti Rocket M5
-    Ubiquiti Unifi AP
-    Ubiquiti Unifi AP LR
-    Ubiquiti Unifi AP Pro
-    Ubiquiti Unifi AP Outdoor
+- [Ubiquiti Bullet M2](https://www.ubnt.com/airmax/bulletm/)
+- [Ubiquiti Nanostation Loco M2 XM](https://www.ubnt.com/airmax/nanostationm/)
+- [Ubiquiti Nanostation Loco M5 XM]()
+- [Ubiquiti Nanostation Loco M2 XW]()
+- [Ubiquiti Nanostation Loco M5 XW]()
+- [Ubiquiti Nanostation M2 XM]()
+- [Ubiquiti Nanostation M5 XM]()
+- [Ubiquiti Nanostation M2 XW]()
+- [Ubiquiti Nanostation M5 XW]()
+- [Ubiquiti Picostation M2 - nicht mehr erhältlich]()
+- [Ubiquiti Picostation M5 - nicht mehr erhältlich]()
+-[Ubiquiti Rocket M2]()
+-[Ubiquiti Rocket M5]()
+-[Ubiquiti Unifi AP]()
+-[Ubiquiti Unifi AP LR]()
+-[Ubiquiti Unifi AP Pro]()
+-[Ubiquiti Unifi AP Outdoor]()
 
 Schritt 1: Einloggen in das UBNT Gerät
 
