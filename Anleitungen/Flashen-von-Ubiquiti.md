@@ -6,27 +6,27 @@ Aktualisierung noch nicht abgeschlossen 25.6.2020
 ## Flashen von Ubiquiti Routern
 
 
-Kompatible Geräte
+### Kompatible Geräte
 
 - [Ubiquiti Bullet M2](https://www.ubnt.com/airmax/bulletm/)
 - [Ubiquiti Nanostation Loco M2 XM](https://www.ubnt.com/airmax/nanostationm/)
-- [Ubiquiti Nanostation Loco M5 XM]()
-- [Ubiquiti Nanostation Loco M2 XW]()
-- [Ubiquiti Nanostation Loco M5 XW]()
-- [Ubiquiti Nanostation M2 XM]()
-- [Ubiquiti Nanostation M5 XM]()
-- [Ubiquiti Nanostation M2 XW]()
-- [Ubiquiti Nanostation M5 XW]()
-- [Ubiquiti Picostation M2 - nicht mehr erhältlich]()
-- [Ubiquiti Picostation M5 - nicht mehr erhältlich]()
--[Ubiquiti Rocket M2]()
--[Ubiquiti Rocket M5]()
--[Ubiquiti Unifi AP]()
--[Ubiquiti Unifi AP LR]()
--[Ubiquiti Unifi AP Pro]()
--[Ubiquiti Unifi AP Outdoor]()
+- [Ubiquiti Nanostation Loco M5 XM](https://www.ubnt.com/airmax/nanostationm/)
+- [Ubiquiti Nanostation Loco M2 XW](https://www.ubnt.com/airmax/nanostationm/)
+- [Ubiquiti Nanostation Loco M5 XW](https://www.ubnt.com/airmax/nanostationm/)
+- [Ubiquiti Nanostation M2 XM](https://www.ubnt.com/airmax/nanostationm/)
+- [Ubiquiti Nanostation M5 XM](https://www.ubnt.com/airmax/nanostationm/)
+- [Ubiquiti Nanostation M2 XW](https://www.ubnt.com/airmax/nanostationm/)
+- [Ubiquiti Nanostation M5 XW](https://www.ubnt.com/airmax/nanostationm/)
+- [Ubiquiti Picostation M2 - nicht mehr erhältlich](https://www.netwifiworks.com/PicoStation-M.asp)
+- [Ubiquiti Picostation M5 - nicht mehr erhältlich](https://www.netwifiworks.com/PicoStation-M.asp)
+- [Ubiquiti Rocket M2](https://www.ubnt.com/airmax/rocketm/)
+- [Ubiquiti Rocket M5](https://www.ubnt.com/airmax/rocketm/)
+- [Ubiquiti Unifi AP](https://www.ubnt.com/unifi/unifi-ap/)
+- [Ubiquiti Unifi AP LR](https://www.ubnt.com/unifi/unifi-ap/)
+- [Ubiquiti Unifi AP Pro](https://www.ubnt.com/unifi/unifi-ap/)
+- [Ubiquiti Unifi AP Outdoor](https://www.ubnt.com/unifi/unifi-ap/)
 
-Schritt 1: Einloggen in das UBNT Gerät
+### Schritt 1: Einloggen in das UBNT Gerät
 
     Netzwerkeinstellungen des Rechners konfigurieren wie folgt:
         IP Adresse: 192.168.1.21
