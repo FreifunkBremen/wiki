@@ -8,7 +8,7 @@ Aktualisierung noch nicht abgeschlossen 25.6.2020
 
 Kompatible Geräte
 
-    Ubiquiti Bullet M2
+    [Ubiquiti Bullet M2](https://www.ubnt.com/airmax/bulletm/)
     Ubiquiti Nanostation Loco M2 XM
     Ubiquiti Nanostation Loco M5 XM
     Ubiquiti Nanostation Loco M2 XW
