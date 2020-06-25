@@ -35,13 +35,15 @@ Aktualisierung noch nicht abgeschlossen 25.6.2020
 
 (Achtung: nicht das Netzwerkkabel des Rechners in den PoE Port des UBNT Gerätes verbinden)
 
-    Browser öffnen und folgende IP Adresse eingeben: http://192.168.1.20
-    Auf der Startseite gibt man dem Gerät zuerst Benuternamen und ein password, default werte sind:
-        User: ubnt
-        Password: ubnt
+Browser öffnen und folgende IP Adresse eingeben: [http://192.168.1.20](http://192.168.1.20/)
+Auf der Startseite gibt man dem Gerät zuerst Benuternamen und ein password, default werte sind:
+- User: ubnt
+- Password: ubnt
 
-UBNT Router GUI, Logon Screen
-Schritt 2: Auswählen der richtigen Firmware
+[UBNT Router GUI, Logon Screen]
+<img src="https://cloud.ffhb.de/index.php/s/epc3T9HLdp7kNzb/preview" width="800">
+
+### Schritt 2: Auswählen der richtigen Firmware
 
 Auf der Seite "Main" sieht man nun die Bezeichnung des Gerätes und auch die verwendete Hardwareversion sowie die aktuelle Firmwareversion. In unserem Beispiel:
 
