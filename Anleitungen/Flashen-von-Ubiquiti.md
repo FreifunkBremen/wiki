@@ -96,19 +96,19 @@ Schritt 2b: Einspielen der Freifunk Firmware
 
 Wie bereits in Schritt 1 beschrieben musst du dich nach dem Eingeben der Logindaten unter der http://192.168.1.20 anmelden.
 
-UBNT Router GUI, Login
+<img src="https://cloud.ffhb.de/index.php/s/KTrpMJP2EdzyfEL/preview" alt="UBNT Router GUI, Login" width="600">
 
 Auf der Seite "System" sieht man nun die Bezeichnung des Gerätes und auch die verwendete Hardwareversion sowie die aktuelle Firmwareversion. In unserem Beispiel:
 
-    Model: Nanostation Loco M5
-    Hardwareversion: XW (steht in Klammern hinter der Firmware)
-    FirmwareversioN: v.5.5.10 (XW)
+ - Model: Nanostation Loco M5
+ - Hardwareversion: XW (steht in Klammern hinter der Firmware)
+ - FirmwareversioN: v.5.5.10 (XW)
 
 Mit dem oben rechts kann man nun die Freifunk-Firmware mit dem Button "Datei auswählen" hochladen.
 
-Bitte beachte die Hardwareversion der Geräte. Die passende Firmware findest du unter https://md.freifunk.net/mitmachen/firmware/.
+Bitte beachte die Hardwareversion der Geräte. XM ist die Normale. Die passende Firmware findest du unter https://downloads.bremen.freifunk.net/firmware/stable/factory/.
 
-UBNT Router GUI, Hardwareversion
+<img src="https://cloud.ffhb.de/index.php/s/FRWgdxJGbyk9TLq/preview" alt="UBNT Router GUI, Hardwareversion" width="600">
 
 Hier wählst du nun das passende Image für dein Gerät aus, im Beispiel "gluon-ffmd-0.33-ubiquiti-loco-m-xw.bin" für unsere Nanostation Loco M5 (XW).
 
