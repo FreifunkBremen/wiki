@@ -40,45 +40,46 @@ Auf der Startseite gibt man dem Gerät zuerst Benuternamen und ein password, def
 - User: ubnt
 - Password: ubnt
 
-[UBNT Router GUI, Logon Screen]
-<img src="https://cloud.ffhb.de/index.php/s/epc3T9HLdp7kNzb/preview" width="800">
+<img src="https://cloud.ffhb.de/index.php/s/epc3T9HLdp7kNzb/preview"  alt="UBNT Router GUI, Logon Screen" width="600">
 
 ### Schritt 2: Auswählen der richtigen Firmware
 
 Auf der Seite "Main" sieht man nun die Bezeichnung des Gerätes und auch die verwendete Hardwareversion sowie die aktuelle Firmwareversion. In unserem Beispiel:
 
-    Model: Nanostation Loco M5
-    Hardwareversion: XW (steht in Klammern hinter der Firmware)
-    Firmwareversion: v.5.62 (XW)
+- Model: Nanostation Loco M5
+- Hardwareversion: XW (steht in Klammern hinter der Firmware)
+- Firmwareversion: v.5.62 (XW)
 
-UBNT Router GUI, Main Screen
+<img src="https://cloud.ffhb.de/index.php/s/mfBxdP9MfxAPCwM/preview" alt="UBNT Router GUI, Main Screen" width="600">
 
-Die Hardwareversion des Gerätes befindet sich i.d.R. nicht auf der Verpackung, sondern ist nur direkt in der Weboberfläche erkennbar.
-Schritt 2a: Downgrad der AirOS Firmware
+Die Hardwareversion des Gerätes befindet sich i.d.R. **nicht** auf der Verpackung, sondern ist nur direkt in der Weboberfläche erkennbar.
+
+### Schritt 2a: Downgrad der AirOS Firmware
 
 (Nutzer der Firmware 0.37 können diesen Schritt 2a direkt überspringen)
 
-Bei Ubiquiti mit der Firmware AirOS XM.v5.6.X / XW.v5.6.X (oder neuer) kommt es zu Komplikationen. Ein direktes Einspielen der Freifunk Magdeburg Firmware (Version =< 0.36) ist NICHT MÖGLICH. Es ist notwendig bevor man die Freifunk Firmware oder OpenWRT aufspielt, zuerst ein Firmwaredowngrade auf die Version AirOS XM.v5.5.X oder XW.v5.5.X durchzuführen. Ohne diesen Firmwaredowngrade WIRD DAS GERÄT NICHT BOOTEN!
+Bei Ubiquiti mit der Firmware AirOS XM.v5.6.X / XW.v5.6.X (oder neuer) kommt es zu Komplikationen. Ein direktes Einspielen der Freifunk Firmware ist **NICHT MÖGLICH**. Es ist notwendig, bevor man die Freifunk Firmware oder OpenWRT aufspielt, zuerst ein Firmwaredowngrade auf die Version AirOS **XM.v5.5.X** oder **XW.v5.5.X** durchzuführen. Ohne diesen Firmwaredowngrade WIRD DAS GERÄT NICHT BOOTEN!
 
-Wenn dein Ubiquiti aktuell AirOS XM.v5.5.X oder AirOS XW.v5.5.X als Firmware verwendet oder du unsere aktuelle Firmware 0.37 einspielen möchtest, folge bitte diese Anleitung direkt ab dem Schritt 2b.
+Wenn dein Ubiquiti aktuell AirOS XM.v5.5.X oder AirOS XW.v5.5.X als Firmware verwendet, folge bitte diese Anleitung direkt ab dem Schritt 2b.
 
 Je nach Hardwareversion deines Gerätes musst du nun die Firmware AirOS XM.v5.5.X oder AirOS XW.v5.5.X downloaden von der Herstellerseite.
 
-    Download der Passenden Firmware AirOS XM.v5.5.X
-        Download AirOS XM.v5.5.10-u2.28005.150723.1358.bin for: AG-HP-2G16, AG-HP-5G23, AG-HP-5G27, AirGrid M2, AirGrid M5, AR, AR-HP, BM2HP, BM2-Ti, BM5HP, BM5-Ti, LiteStation M5, locoM2, locoM5, locoM9, M2, M3, M365, M5, M900, NB-2G18, NB-5G25, NBM3, NBM365, NBM9, NS2, NSM3, NSM365, NSM5, PBM10, PBM3, PBM5, Power AP N
-        Download AirOS XW.v5.5.10-u2.28005.150723.1358.bin, for: AG-HP-2G16, AG-HP-2G20, AG-HP-5G23, AG-HP-5G27, AirGrid M, AirGrid M2, AirGrid M5, locoM2, locoM5, locoM9, M2, M3, M365, M5, M900, NBE-M2-13, NBE-M5-16, NBE-M5-19, NSM2, NSM3, NSM365, NSM5, PBM3, PBM365, PBM5, RM2-Ti, RM5-Ti
+- Download der Passenden Firmware AirOS XM.v5.5.X
+ - Download AirOS XM.v5.5.10-u2.28005.150723.1358.bin for: AG-HP-2G16, AG-HP-5G23, AG-HP-5G27, AirGrid M2, AirGrid M5, AR, AR-HP, BM2HP, BM2-Ti, BM5HP, BM5-Ti, LiteStation M5, locoM2, locoM5, locoM9, M2, M3, M365, M5, M900, NB-2G18, NB-5G25, NBM3, NBM365, NBM9, NS2, NSM3, NSM365, NSM5, PBM10, PBM3, PBM5, Power AP N
+ - Download AirOS XW.v5.5.10-u2.28005.150723.1358.bin, for: AG-HP-2G16, AG-HP-2G20, AG-HP-5G23, AG-HP-5G27, AirGrid M, AirGrid M2, AirGrid M5, locoM2, locoM5, locoM9, M2, M3, M365, M5, M900, NBE-M2-13, NBE-M5-16, NBE-M5-19, NSM2, NSM3, NSM365, NSM5, PBM3, PBM365, PBM5, RM2-Ti, RM5-Ti
 
 Nachdem du die Firmware auf deiner Festplatte gespeichert hast, gehe nun zur Seite "System" und klicke auf den Buttom "Datei auswählen" oben rechts.
 
 UBNT Router GUI, System Tag
 
+
 Hier wählst du nun das passende Image für dein Gerät aus, im Beispiel "AirOS XW.v5.5.10-u2.28005.150723.1358.bin"
 
-UBNT Router GUI, Imageauswahl
+<img src="https://cloud.ffhb.de/index.php/s/Qyt7djoA4fEiQGd/preview" alt="UBNT Router GUI, Imageauswahl" width="600">
 
 Anschließend musst du für das Downgrade der Firmware auf AirOS XM.v5.5.X / AirOS XW.v5.5.X auf den Button "Absenden" klicken.
 
-UBNT Router GUI, Image senden
+<img src="https://cloud.ffhb.de/index.php/s/TWwRDE7Zkpsiaj4/preview" alt="UBNT Router GUI, Image senden" width="600">
 
 Jetzt wird die Firmware von deinem PC auf das UBNT Gerät geladen.
 
