@@ -70,33 +70,34 @@ Je nach Hardwareversion deines Gerätes musst du nun die Firmware AirOS XM.v5.5.
 
 Nachdem du die Firmware auf deiner Festplatte gespeichert hast, gehe nun zur Seite "System" und klicke auf den Buttom "Datei auswählen" oben rechts.
 
-UBNT Router GUI, System Tag
+<img src="https://cloud.ffhb.de/index.php/s/Qyt7djoA4fEiQGd/preview" alt="UBNT Router GUI, System Tag" width="600">
 
 
 Hier wählst du nun das passende Image für dein Gerät aus, im Beispiel "AirOS XW.v5.5.10-u2.28005.150723.1358.bin"
 
-<img src="https://cloud.ffhb.de/index.php/s/Qyt7djoA4fEiQGd/preview" alt="UBNT Router GUI, Imageauswahl" width="600">
+<img src="https://cloud.ffhb.de/index.php/s/TWwRDE7Zkpsiaj4/preview" alt="UBNT Router GUI, Imageauswahl" width="600">
 
 Anschließend musst du für das Downgrade der Firmware auf AirOS XM.v5.5.X / AirOS XW.v5.5.X auf den Button "Absenden" klicken.
 
-<img src="https://cloud.ffhb.de/index.php/s/TWwRDE7Zkpsiaj4/preview" alt="UBNT Router GUI, Image senden" width="600">
+<img src="https://cloud.ffhb.de/index.php/s/rGsiRD28aXb5YpH/preview" alt="UBNT Router GUI, Image senden" width="600">
 
 Jetzt wird die Firmware von deinem PC auf das UBNT Gerät geladen.
 
-UBNT Router GUI, Uploading
+<img src="https://cloud.ffhb.de/index.php/s/KTrpMJP2EdzyfEL/preview" alt="UBNT Router GUI, Uploading" width="600">
 
 Mit dem klicken auf "Update" wird nun die Fireware geladen.
 
-UBNT Router GUI, Update Button
+<img src="https://cloud.ffhb.de/index.php/s/FRWgdxJGbyk9TLq/preview" alt="UBNT Router GUI, Update Button" width="600">
 
 Der Updatevorgang dauert in der Regel 1-2 Minuten.
 
-UBNT Router GUI, Updating
-Schritt 2b: Einspielen der Freifunk Firmware
+<img src="https://cloud.ffhb.de/index.php/s/FatYoL4jjWM7JPH/preview" alt="UBNT Router GUI, Updating" width="600">
+
+### Schritt 2b: Einspielen der Freifunk Firmware
 
 Wie bereits in Schritt 1 beschrieben musst du dich nach dem Eingeben der Logindaten unter der http://192.168.1.20 anmelden.
 
-<img src="https://cloud.ffhb.de/index.php/s/KTrpMJP2EdzyfEL/preview" alt="UBNT Router GUI, Login" width="600">
+<img src="https://cloud.ffhb.de/index.php/s/q99ygopAEZ4CLxM/preview" alt="UBNT Router GUI, Login" width="600">
 
 Auf der Seite "System" sieht man nun die Bezeichnung des Gerätes und auch die verwendete Hardwareversion sowie die aktuelle Firmwareversion. In unserem Beispiel:
 
@@ -108,23 +109,24 @@ Mit dem oben rechts kann man nun die Freifunk-Firmware mit dem Button "Datei aus
 
 Bitte beachte die Hardwareversion der Geräte. XM ist die Normale. Die passende Firmware findest du unter https://downloads.bremen.freifunk.net/firmware/stable/factory/.
 
-<img src="https://cloud.ffhb.de/index.php/s/FRWgdxJGbyk9TLq/preview" alt="UBNT Router GUI, Hardwareversion" width="600">
+<img src="https://cloud.ffhb.de/index.php/s/TEEHHmYJqdBaMzF/preview" alt="UBNT Router GUI, Hardwareversion" width="600">
 
 Hier wählst du nun das passende Image für dein Gerät aus, als Beispiel "gluon-ffhb-2019.1.1+bremen3-ubiquiti-nanostation-loco-m5-xw.bin" für unsere Nanostation Loco M5 (XW).
 
-UBNT Router GUI, Imageselektion
+<img src="https://cloud.ffhb.de/index.php/s/dr6MxwwTPcZFsjn/preview" alt="UBNT Router GUI, Imageselektion" width="600">
 
 Jetzt wird die Firmware von deinem PC auf das UBNT Gerät geladen.
 
-<img src="https://cloud.ffhb.de/index.php/s/FatYoL4jjWM7JPH/preview" alt="UBNT Router GUI, Firmware runterladen" width="600">
+<img src="https://cloud.ffhb.de/index.php/s/QJJ9wrF6zPXcwb4/preview" alt="UBNT Router GUI, Firmware runterladen" width="600">
 
 Anschließend muss man mit dem klick auf "Update" das Einspielen der Freifunk Firmware bestätigen.
 
-<img src="https://cloud.ffhb.de/index.php/s/q99ygopAEZ4CLxM/preview" alt="UBNT Router GUI, Firmware bestaetigen" width="600">
+<img src="https://cloud.ffhb.de/index.php/s/ACnk786tFbrAbLi/preview" alt="UBNT Router GUI, Firmware bestaetigen" width="600">
+
 
 Der Updatevorgang dauert in der Regel 1-2 Minuten.
 
-<img src="https://cloud.ffhb.de/index.php/s/TEEHHmYJqdBaMzF/preview" alt="UBNT Router GUI, Firmware aufspielen" width="600">
+<img src="https://cloud.ffhb.de/index.php/s/B7jRibFPQWEH9LW/preview" alt="UBNT Router GUI, Firmware aufspielen" width="600">
 
 ### Schritt 3: Knoten konfigurieren
 
