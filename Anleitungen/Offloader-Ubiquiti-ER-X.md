@@ -11,6 +11,10 @@ Warum Offloader? Werden mehrere Freifunkrouter verwendet, ist es sinnvoll, dass 
 - Geringer Stromverbrauch: 5W, 12V Netzteil.
 - Der ER-X SFP hat neben dem SFP-Modul und dem 24V Netzteil auf allen Ports passiv POE 24V.
 
+### Was spricht gegen dieses Modell Ubiquiti EdgeRouter X (ER-X) / (ER-X SFP)?
+- Zu erwartender Softbrick mit Gluon 2020.1.x, Bitte aktuellen Stand erfragen. https://github.com/freifunk-gluon/gluon/issues/1937
+- Mehr Durchsatz? dann Thinclient Futro als Offloader verwenden.
+
 ### Diverse nützliche Links:
 - https://www.ubnt.com/edgemax/edgerouter-x/
 - https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_X_DS.pdf
