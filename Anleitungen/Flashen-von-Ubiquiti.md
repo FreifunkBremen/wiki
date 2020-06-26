@@ -110,22 +110,23 @@ Bitte beachte die Hardwareversion der Geräte. XM ist die Normale. Die passende 
 
 <img src="https://cloud.ffhb.de/index.php/s/FRWgdxJGbyk9TLq/preview" alt="UBNT Router GUI, Hardwareversion" width="600">
 
-Hier wählst du nun das passende Image für dein Gerät aus, im Beispiel "gluon-ffmd-0.33-ubiquiti-loco-m-xw.bin" für unsere Nanostation Loco M5 (XW).
+Hier wählst du nun das passende Image für dein Gerät aus, als Beispiel "gluon-ffhb-2019.1.1+bremen3-ubiquiti-nanostation-loco-m5-xw.bin" für unsere Nanostation Loco M5 (XW).
 
 UBNT Router GUI, Imageselektion
 
 Jetzt wird die Firmware von deinem PC auf das UBNT Gerät geladen.
 
-UBNT Router GUI, Firmware runterladen
+<img src="https://cloud.ffhb.de/index.php/s/FatYoL4jjWM7JPH/preview" alt="UBNT Router GUI, Firmware runterladen" width="600">
 
 Anschließend muss man mit dem klick auf "Update" das Einspielen der Freifunk Firmware bestätigen.
 
-UBNT Router GUI, Firmware bestaetigen
+<img src="https://cloud.ffhb.de/index.php/s/q99ygopAEZ4CLxM/preview" alt="UBNT Router GUI, Firmware bestaetigen" width="600">
 
 Der Updatevorgang dauert in der Regel 1-2 Minuten.
 
-UBNT Router GUI, Firmware aufspielen
-Schritt 3: Knoten konfigurieren
+<img src="https://cloud.ffhb.de/index.php/s/TEEHHmYJqdBaMzF/preview" alt="UBNT Router GUI, Firmware aufspielen" width="600">
+
+### Schritt 3: Knoten konfigurieren
 
 Nachdem die Freifunk Firmware erfolgreich eingespielt wurde, musst du nun deinen Freifunk Knoten konfigurieren.
 
