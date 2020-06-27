@@ -44,3 +44,5 @@ Bei der Fritzbox 4040 sind alle vier gelben Ports entweder Mesh oder Client, den
 
     eth0 - gelbe Buchsen - Standard ist Mesh, kann zu Client umgeschaltet werden
     eth1 - blaue Buchse - Uplink/VPN
+    
+Installation geht nicht, probier mal die aktuellste FW 4.1.0er. Die sollte eigentlich gehen. Falls die nicht klappt, musst du ganz auf die 4.0.1er zurück und dann mit sysupgrade auf 4.1.0 aktualisieren. Die 4.0.3er ist kaputt, was das Bootloader-Image für die 4040 angeht.
