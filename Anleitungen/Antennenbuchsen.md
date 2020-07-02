@@ -4,7 +4,8 @@
 Auf einigen WLAN Routern sind an den PCB Antennen Buchsen aufgelötet, an die keine externen Antennen angeschlossen werden können. Bei den Buchsen handelt es sich um Messadapter. Es sind Koaxumschalter die das Antennensignal auf einen Messadapter umschalten. Der Adapter ist ein RF-Steckverbinder/Koaxial-Steckverbinder RCPT COAX MS-156HF SMT sieht wie folgt aus.
 
 
-![MS-156HF](https://cloud.ffhb.de/index.php/s/EBRZ7otBTGnGPT6/preview)
+<img src="https://cloud.ffhb.de/index.php/s/LAyxzDRXmbeCm7E/preview" width="100" "MS-156HF">
+<img src="https://cloud.ffhb.de/index.php/s/F2H6SFgJnB9B6w7/preview" width="100" "MS-156HF">
 
 Platine GL.iNet AR300M mit RF-Steckverbinder/Koaxial-Steckverbinder RCPT COAX MS-156HF SMT
 
