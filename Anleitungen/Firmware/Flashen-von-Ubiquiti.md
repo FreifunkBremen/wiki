@@ -20,7 +20,7 @@ Aktualisierung abgeschlossen am 26.6.2020
 - [Ubiquiti Picostation M2 - nicht mehr erhältlich](https://www.netwifiworks.com/PicoStation-M.asp)
 - [Ubiquiti Picostation M5 - nicht mehr erhältlich](https://www.netwifiworks.com/PicoStation-M.asp)
 - [Ubiquiti Rocket M2](https://www.ubnt.com/airmax/rocketm/)
-- [Ubiquiti Rocket M5](https://www.ubnt.com/airmax/rocketm/) **Betrieb seit 17. Juni 2020 durch BNetzA verboten!**
+- [Ubiquiti Rocket M5](https://www.ubnt.com/airmax/rocketm/) **Betrieb seit 17. Juni 2020 durch [BNetzA](https://www.bnetza-amtsblatt.de/download/36) verboten!**
 - [Ubiquiti Unifi AP](https://www.ubnt.com/unifi/unifi-ap/)
 - [Ubiquiti Unifi AP LR](https://www.ubnt.com/unifi/unifi-ap/)
 - [Ubiquiti Unifi AP Pro](https://www.ubnt.com/unifi/unifi-ap/)
