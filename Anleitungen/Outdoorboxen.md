@@ -16,11 +16,11 @@ Die klassische Methode HTML Link mit weiteren Attributen funktioniert.
 #### Outdoorboxbilder
 
 
-Beispiellink:
+Beispiellink als Codeblock:
 ~~~
 <img src="https://cloud.ffhb.de/index.php/s/J8nggBNNfGawzMr/preview" width="300">
 ~~~
-
+Beispiellink als Inlinecode:
 `<img src="https://cloud.ffhb.de/index.php/s/J8nggBNNfGawzMr/preview" width="300">`
 
 <img src="https://cloud.ffhb.de/index.php/s/J8nggBNNfGawzMr/preview" width="300">
