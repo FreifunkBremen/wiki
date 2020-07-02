@@ -7,7 +7,8 @@ Die klassische Methode HTML Link mit weiteren Attributen funktioniert.
 
 ### Inhaltsverzeichnis:
 
-- [Outdoorboxbilder](#inhalt_Outdoorboxbilder)
+- [Outdoorboxbilder](#inhalt_outdoorboxbilder)
+ - [ExternesBild](#inhalt_externesbild)
 
 ----
 
@@ -31,6 +32,8 @@ Beispiellink:
 <img src="https://cloud.ffhb.de/index.php/s/ZqyafdpgQtLbaAM/preview" width="300">
 <img src="https://cloud.ffhb.de/index.php/s/sdqW6Arpf2mdE4y/preview" width="300">
 
+
+### ExternesBild
 <img src="https://radiobbsnextcloudpi4.spdns.de/index.php/s/xcxnZopZqYgXs78/preview" width="200">
 
 
