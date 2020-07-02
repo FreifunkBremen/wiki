@@ -17,11 +17,11 @@ Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffh
 
 ##### Tagesordnungen
 * der letzten Treffen:
-  * [[15.05.2020|Treffen/2020_05_15]]
   * [[05.06.2020|Treffen/2020_06_05]]
-* der nächsten Treffen:
   * [[19.06.2020|Treffen/2020_06_19]]
+* der nächsten Treffen:
   * [[03.07.2020|Treffen/2020_07_03]]
+  * [[17.07.2020|Treffen/2020_07_17]]
 
 
 * [Liste aller Treffen](/pages/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
