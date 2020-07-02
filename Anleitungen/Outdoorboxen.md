@@ -9,7 +9,7 @@ Die klassische Methode HTML Link mit weiteren Attributen funktioniert.
 
 [Outdoorboxbilder](#inhalt_outdoorboxbilder)
 
-[ExternesBild](#inhalt_externesbild)
+. [ExternesBild](#inhalt_externesbild)
 
 ----
 
