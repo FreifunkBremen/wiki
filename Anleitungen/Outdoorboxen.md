@@ -21,6 +21,8 @@ Beispiellink:
 <img src="https://cloud.ffhb.de/index.php/s/J8nggBNNfGawzMr/preview" width="300">
 ~~~
 
+`<img src="https://cloud.ffhb.de/index.php/s/J8nggBNNfGawzMr/preview" width="300">`
+
 <img src="https://cloud.ffhb.de/index.php/s/J8nggBNNfGawzMr/preview" width="300">
 <img src="https://cloud.ffhb.de/index.php/s/PzcfemXKEX2BqD9/preview" width="300">
 
