@@ -7,9 +7,9 @@ Die klassische Methode HTML Link mit weiteren Attributen funktioniert.
 
 ## Inhalt:
 
-[Outdoorboxbilder](#inhalt_outdoorboxbilder)
+- [Outdoorboxbilder](#inhalt_outdoorboxbilder)
 
-- [ExternesBild](#inhalt_externesbild)
+ - [ExternesBild](#inhalt_externesbild)
 
 ----
 
