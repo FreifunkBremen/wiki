@@ -9,18 +9,18 @@ Auf einigen WLAN Routern sind an den PCB Antennen Buchsen aufgelötet, an die ke
 
 Platine GL.iNet AR300M mit RF-Steckverbinder/Koaxial-Steckverbinder RCPT COAX MS-156HF SMT
 
-![AR300M](https://cloud.ffhb.de/index.php/s/Qz9LM3hy9J44Nxh/download)
+<img src="https://cloud.ffhb.de/index.php/s/em9B4nCzkQZ7W4b/preview" width="300" "AR300M">
 
 Die normale Anschlussbuchse auf Routerplatinen ist für i-pex U.LF MHF  MLL Anschlusskabel.
 Siehe: [WIKI-Link](https://de.wikipedia.org/wiki/U.FL)
 
 Auf der Platine des GL.iNet AR300M mit externen Antennen, sind die Buchsen MS-156HF gegen U.FL-Stecker ausgetauscht worden.
 
-![U.FL-Stecker](https://cloud.ffhb.de/index.php/s/aETfh76steRajgN/download)
+<img src="https://cloud.ffhb.de/index.php/s/n8EefQmintociqm/preview" width="100" "U.FL-Stecker">
 
-Platine GL.iNet AR300M mit externen Anschlüssen auf U.FL-Stecker. Die PCB Antennen auf dem Board sind durch die U.FL-Stecker unterbrochen.
+Platine GL.iNet AR300M mit externen Anschlüssen auf U.FL-Stecker. Die PCB Antennen auf dem Board sind durch die U.FL-Stecker dauerhaft unterbrochen. Da es keine Anschlußkabel für die Messbuchsen gibt, ist ein wahlweiser Anschluß von zusätzlichen externen Antennenanschlüssen nicht möglich.
 
-![AR300M1](https://cloud.ffhb.de/index.php/s/HkIshkFlFCtnVCL/download)
+<img src="https://cloud.ffhb.de/index.php/s/B9TCEbf8E6zzm26/preview" width="300" "AR300M1">
 
 Material, sofern ein Umbau oder eine Reperatur durchgeführt werden soll, kann als Beispiel über www.reichelt.de beschafft werden.
 Ein Basteltip: RP-SMA Einbaubuchsen mit i-pex U.FL Anschluss, sind oft Preisgünstiger als Pigtails. Einfach den Stecker Abschneiden und Koaxkabel direkt anlöten.
