@@ -6,14 +6,16 @@ Der Status der Gateways kann hier eingesehen werden: https://status.bremen.freif
 Zum Uplink siehe [[Infrastruktur/Netzwerk]]
 
 ### Sponsoren und Konfiguration
-| Server | Sponsor      | Standort            |
-|:-------|:-------------|:--------------------|
-| vpn01  | LWLcom       | Bremen              |
-| vpn02  | PLUTEX       | Bremen              |
-| vpn03  | LWLcom       | Bremen              |
-| vpn04  | PLUTEX       | Bremen              |
-| vpn05  | PLUTEX       | Bremen              |
-| vpn06  | Digineo GmbH | 23media, Frankfurt  |
+| Server | Sponsor      | Standort            | Anbindung    |
+|:-------|:-------------|:--------------------|:-------------|
+| vpn01  | LWLcom       | Bremen              | ~700 MBit/s  |
+| vpn02  | PLUTEX       | Bremen              |              |
+| vpn03  | LWLcom       | Bremen              |              |
+| vpn04  | PLUTEX       | Bremen              |              |
+| vpn05  | PLUTEX       | Bremen              |              |
+| vpn06  | Digineo GmbH | 23media, Frankfurt  |              |
+
+("Anbindung" ist die gemessene Bandbreite aus dem Internet.)
 
 ### Ansprechpartner
 
