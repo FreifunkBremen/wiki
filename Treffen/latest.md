@@ -1,6 +1,6 @@
 # Read-only
 Dies ist das eingebundene Protokoll des letzten Treffens.
-Du kannst das Protokoll unter [/2020_07_17]() bearbeiten
+Du kannst das Protokoll unter [](2020_07_17) bearbeiten
 
 ---
 
