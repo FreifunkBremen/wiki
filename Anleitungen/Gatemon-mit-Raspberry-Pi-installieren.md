@@ -6,6 +6,8 @@ Diese Artikel beschreibt, wie man auf einem [Raspberry Pi](https://www.raspberry
 
 Fragen zu diesem Artikel könnt ihr im Chat oder auf der Mailing-Liste stellen, wie unter https://ffhb.de/kontakt.html beschrieben. Ich freu mich über Verbesserungen und Korrekturen!
 
+Es soll bewusst auf einem Raspberri Pi laufen, statt auf einem Router. Da so die sicht "als Client" aufs Netz sichergestellt werden soll.
+
 ## Hardware-Voraussetzungen
 Grundlage für diese Anleitung ist ein Raspberry Pi Model 1B oder besser. Das Gerät wird am Schluss per LAN-Kabel an einen Freifunk-Router angeschlossen und kann dann (ohne Tastatur, Maus oder Monitor) still seinen Dienst verrichten.
 
