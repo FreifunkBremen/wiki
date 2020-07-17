@@ -1,12 +1,12 @@
 ### Inhaltsverzeichnis:
 
-- [Akkubetrieb_TP-Link_WR841n](#inhaltsverzeichnis_akkubetrieb_tp-link_wr841n)
-- [Akkubetrieb TP-Link Archer C7](#inhaltsverzeichnis_akkubetrieb_tp-link_archer_c7)
+- [Akkubetrieb TP-Link WR841n](#inhaltsverzeichnis_akkubetrieb-tp-link-wr841n)
+- [Akkubetrieb TP-Link Archer C7](#inhaltsverzeichnis_akkubetrieb-tp-link-archer-c7)
 
 ----
 
 
-###Akkubetrieb_TP-Link_WR841n 
+###Akkubetrieb TP-Link WR841n 
 
 Wer seinen Router durch zusätzliche Akkus schützen möchte,
 findet im Netz viele Varianten. 
