@@ -78,7 +78,15 @@ Wenn es keine Verbindung gibt, müssen wir die serielle Schnittstelle verwenden.
 Ich habe durch diverse Konfigurationen den Router unbrauchbar gemacht.
 Keine Panik, es gibt die serielle Schnittstelle im Router, also Aufschrauben bitte. Auf der rechten Seite am Rand sind 4 Pins eingelötet an der ein Seriell-USB Adapter angeschlossen werden kann.
 - Router öffnen: Auf der Rückseite sind zwei kleine Kreuzschrauben, die die beiden Gehäusehälften zusammenhalten. Im SFP Modell zuerst das SFP entfernen. Schrauben herausnehmen und Gehäuse aufklappen.
+
+[Bild: UBNT-ERX-SFP_Rückseite]<img src="https://cloud.ffhb.de/index.php/s/g9qFbLZ3RzbkYBH/preview" width="800">
+
+[Bild: UBNT-ERX-SFP_Rückseite_öffnen]<img src="https://cloud.ffhb.de/index.php/s/ZNKZEcCKTsXNMyn/preview" width="800">
+
 - Seriellen Adapter Anschliessen. Ich verwende hier ein Raspberry-PI Seriell-USB Kabel. z.B. dieses: https://www.conrad.de/de/raspberry-pi-usb-kabel-usb-rb-ttl-raspberry-pi-409202.html andere TTL Adapter funktionieren aber auch.
+
+[Bild: UBNT-ERX-SFP_Serielle_Pins]<img src="https://cloud.ffhb.de/index.php/s/aXX6bstTTfMm4AX/preview" width="800">
+
 - Herstellerbeschreibung des Raspberry-Pi-Kabels: "Mit diesem Kabel verbinden Sie Ihren Raspberry PI ganz einfach mit einem PC System. Gleichzeitig stellt das Kabel über den USB Port des PC 5V bei 500mA zur Verfügung, so dass Sie kein separates Netzteil verwenden müssen. Der in dem Kabel integrierte serielle PL2303HX Chip sorgt dafür, dass beide Geräte miteinander Daten austauschen können. Hierbei werden Windows XP, Vista, 7 und 8 unterstützt. Belegung der PIN Stecker: rot = Power +5V / schwarz = Ground / weiß = RX / grün = TX"
 - Die PIN Belegung der seriellen Schnittstelle des ER-X ist beschrieben unter: https://openwrt.org/toh/ubiquiti/ubiquiti_edgerouter_x_er-x_ka#poe_out_on_edgerouter_x
 - ER-X: PIN zum Reset-Knopf: Ground, TX, RX, 3,3V, der zur ETH 5 Buchse zeigt.
