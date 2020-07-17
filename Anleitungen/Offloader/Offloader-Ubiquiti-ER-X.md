@@ -24,6 +24,8 @@ EdgeRouter X | EdgeRouter X-SFP
 - Mehr Durchsatz? dann Thinclient Futro als Offloader verwenden.
 
 ### Diverse nützliche Links:
+
+- **Wichtig:** https://wiki.bremen.freifunk.net/Anleitungen/Offloader/2020-Update-Offloader-Ubiquiti-ER-X
 - https://www.ubnt.com/edgemax/edgerouter-x/
 - https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_X_DS.pdf
 - https://www.ubnt.com/edgemax/comparison/ (Vergleich der Modelle)
