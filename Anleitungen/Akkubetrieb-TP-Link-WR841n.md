@@ -32,7 +32,6 @@ können belibig in Abhängigkeit der Akkus variert werden.
 
 1 * Akku 18650 3200mah ca. 20€ [Reichelt.de](https://www.reichelt.de/industriezelle-li-ion-18650-3-7-v-3200-mah-button-top-nc-nl188-p151103.html?r=1)
 
-####Kosten: 3 Teile ca. 3 Euro.
 
 ###Zubehör: (bei einem Freifunker oder Hackerspace eures Vertrauens, werdet ihr fündig)
 etwas Heißkleber oder Baukleber etc.
