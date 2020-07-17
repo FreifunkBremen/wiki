@@ -82,4 +82,10 @@ Laufzeit: WR841N V8 mit LEDs und 2*12000mAh
 
 ###Akkubetrieb TP-Link Archer C7
 
-in Arbeit.
+in Arbeit. hier schon mal die Bilder des pcb
+
+
+[Bild: Ils - 3 Pieces 3S 20A Li-ion Lithium Battery 18650 Charger Piece B BMS Protection Board 12.6V Cell]<img src="https://cloud.ffhb.de/index.php/s/q8LdkRoZp9rNTGR/preview" width="800">
+
+[Bild: Ils - 3 Pieces 3S 20A Li-ion Lithium Battery 18650 Charger Piece B BMS Protection Board 12.6V Cell-Front-Back]<img src="https://cloud.ffhb.de/index.php/s/FtXc2mn8EFM4Kyx/preview" width="800">
+
