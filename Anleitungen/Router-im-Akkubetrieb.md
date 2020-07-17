@@ -1,12 +1,12 @@
 ### Inhaltsverzeichnis:
 
-- [Akkubetrieb TP Link WR841n](#inhaltsverzeichnis_akkubetrieb-tp-link-wr841n)
-- [Akkubetrieb TP Link Archer C7](#inhaltsverzeichnis_akkubetrieb-tp-link-archer-c7)
+- [Akkubetrieb TP-Link WR841n](#inhaltsverzeichnis_akkubetrieb-tp-link-wr841n)
+- [Akkubetrieb TP-Link Archer C7](#inhaltsverzeichnis_akkubetrieb-tp-link-archer-c7)
 
 ----
 
 
-### Akkubetrieb TP Link WR841n 
+###Akkubetrieb TP-Link WR841n 
 
 Wer seinen Router durch zusätzliche Akkus schützen möchte,
 findet im Netz viele Varianten. 
@@ -80,6 +80,6 @@ Laufzeit: WR841N V8 mit LEDs und 2*12000mAh
 
 
 
-### Akkubetrieb TP Link Archer C7
+###Akkubetrieb TP-Link Archer C7
 
 in Arbeit.
