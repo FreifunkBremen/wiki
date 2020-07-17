@@ -1,3 +1,10 @@
+### Inhaltsverzeichnis:
+
+- [Akkubetrieb TP-Link WR841n](#inhaltsverzeichnis_akkubetrieb_tp-link_wr841n)
+- [Akkubetrieb TP-Link Archer C7](#inhaltsverzeichnis_akkubetrieb_tp-link_archer_c7)
+
+----
+
 
 ###Akkubetrieb TP-Link WR841n 
 
@@ -71,3 +78,8 @@ Laufzeit: WR841N V8 mit LEDs und 2*12000mAh
 
 **Nach dem Test der 12000mah Akkus stellte sich heraus, das es chinesische Fake-Akkus sind. Für den Akkubetrieb bitte vernünftige Akkus kaufen.**
 
+
+
+###Akkubetrieb TP-Link Archer C7
+
+in Arbeit.
