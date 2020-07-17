@@ -1,7 +1,7 @@
 ### Inhaltsverzeichnis:
 
-- [Akkubetrieb TP-Link WR841n](#inhaltsverzeichnis_akkubetrieb-tp-link-wr841n)
-- [Akkubetrieb TP-Link Archer C7](#inhaltsverzeichnis_akkubetrieb-tp-link-archer-c7)
+- [Akkubetrieb TP Link WR841n](#inhaltsverzeichnis_akkubetrieb-tp-link-wr841n)
+- [Akkubetrieb TP Link Archer C7](#inhaltsverzeichnis_akkubetrieb-tp-link-archer-c7)
 
 ----
 
