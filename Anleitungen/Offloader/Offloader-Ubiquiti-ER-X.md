@@ -52,7 +52,7 @@ Frohes Freifunken.
 ## Unbrick UBNT EdgeRouter X und X-SFP
 
 Wenn der Router einmal gebrickt ist, also es besteht kein Zugriff mehr über die externen Schnittstellen, hier im folgenden einige Rettungsversuche. 
-- Browser-Cache leeren, wenn von http auf https umgeleitet wird.
+- Browser-Cache leeren, wenn von **http** auf **https** umgeleitet wird.
 - SSH Zuriff auf lokaler Adresse probieren.
 - Serielles Kabel anschliessen.
 - per TFTP im Bootvorgang neu flashen. 
@@ -60,7 +60,7 @@ Wenn der Router einmal gebrickt ist, also es besteht kein Zugriff mehr über die
 
 ### Freifunkimage verbastelt? Zugriff über SSH
 
-Unter /etc/confog/network ist ein Abschnitt, der die Interne Adresse beschreibt. Der Zugriff auf das Gerät erfolgt über einen Client-Port oder im Konfig-Modus nach einem langen Reset. Die local ip ist/kann je nach Freifunk-Community unterschiedlich sein.
+Unter /etc/config/network ist ein Abschnitt, der die interne Adresse beschreibt. Der Zugriff auf das Gerät erfolgt über einen Client-Port oder im Konfig-Modus nach einem langen Reset. Die local IP ist/kann je nach Freifunk-Community unterschiedlich sein.
 
 ~~~
 config interface 'local_node'
@@ -71,12 +71,12 @@ config interface 'local_node'
 	option proto 'static' 
 ~~~
 
-SSH starten und mit root@fd2f:5119:0f2c::127 verbindung aufnehmen.
+SSH starten und mit `root@fd2f:5119:0f2c::127` verbindung aufnehmen.
 Wenn es keine Verbindung gibt, müssen wir die serielle Schnittstelle verwenden. 
 
 ### Freifunkimage verbastelt? Zugriff über die serielle Schnittstelle
 Ich habe durch diverse Konfigurationen den Router unbrauchbar gemacht.
-Keine Panik, es gibt die serielle Schnittstelle im Router. Auf der rechten Seite am Rand sind 4 Pins eingelötet an der ein Seriell-USB Adapter angeschlossen werden kann.
+Keine Panik, es gibt die serielle Schnittstelle im Router, also Aufschrauben bitte. Auf der rechten Seite am Rand sind 4 Pins eingelötet an der ein Seriell-USB Adapter angeschlossen werden kann.
 - Router öffnen: Auf der Rückseite sind zwei kleine Kreuzschrauben, die die beiden Gehäusehälften zusammenhalten. Im SFP Modell zuerst das SFP entfernen. Schrauben herausnehmen und Gehäuse aufklappen.
 - Seriellen Adapter Anschliessen. Ich verwende hier ein Raspberry-PI Seriell-USB Kabel. z.B. dieses: https://www.conrad.de/de/raspberry-pi-usb-kabel-usb-rb-ttl-raspberry-pi-409202.html andere TTL Adapter funktionieren aber auch.
 - Herstellerbeschreibung des Raspberry-Pi-Kabels: "Mit diesem Kabel verbinden Sie Ihren Raspberry PI ganz einfach mit einem PC System. Gleichzeitig stellt das Kabel über den USB Port des PC 5V bei 500mA zur Verfügung, so dass Sie kein separates Netzteil verwenden müssen. Der in dem Kabel integrierte serielle PL2303HX Chip sorgt dafür, dass beide Geräte miteinander Daten austauschen können. Hierbei werden Windows XP, Vista, 7 und 8 unterstützt. Belegung der PIN Stecker: rot = Power +5V / schwarz = Ground / weiß = RX / grün = TX"
