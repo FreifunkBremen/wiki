@@ -5,8 +5,8 @@ Auf einigen WLAN Routern sind an den PCB Antennen Buchsen aufgelötet, an die ke
 
 
 <img src="https://cloud.ffhb.de/index.php/s/LAyxzDRXmbeCm7E/preview" width="100" "MS-156HF">
-
-<img src="https://cloud.ffhb.de/index.php/s/F2H6SFgJnB9B6w7/preview" width="100" "MS-156HF">
+<img src="https://cloud.ffhb.de/index.php/s/J8nggBNNfGawzMr/preview" width="300">
+<img src="https://cloud.ffhb.de/index.php/s/F2H6SFgJnB9B6w7/preview" width="100">
 
 Platine GL.iNet AR300M mit RF-Steckverbinder/Koaxial-Steckverbinder RCPT COAX MS-156HF SMT
 
