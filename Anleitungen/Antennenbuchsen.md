@@ -4,24 +4,23 @@
 Auf einigen WLAN Routern sind an den PCB Antennen Buchsen aufgelötet, an die keine externen Antennen angeschlossen werden können. Bei den Buchsen handelt es sich um Messadapter. Es sind Koaxumschalter die das Antennensignal auf einen Messadapter umschalten. Der Adapter ist ein RF-Steckverbinder/Koaxial-Steckverbinder RCPT COAX MS-156HF SMT sieht wie folgt aus.
 
 
-<img src="https://cloud.ffhb.de/index.php/s/LAyxzDRXmbeCm7E/preview" width="100" "MS-156HF">
-<img src="https://cloud.ffhb.de/index.php/s/J8nggBNNfGawzMr/preview" width="300">
+<img src="https://cloud.ffhb.de/index.php/s/LAyxzDRXmbeCm7E/preview" width="100">
 <img src="https://cloud.ffhb.de/index.php/s/F2H6SFgJnB9B6w7/preview" width="100">
 
 Platine GL.iNet AR300M mit RF-Steckverbinder/Koaxial-Steckverbinder RCPT COAX MS-156HF SMT
 
-<img src="https://cloud.ffhb.de/index.php/s/em9B4nCzkQZ7W4b/preview" width="300" "AR300M">
+<img src="https://cloud.ffhb.de/index.php/s/em9B4nCzkQZ7W4b/preview" width="300">
 
 Die normale Anschlussbuchse auf Routerplatinen ist für i-pex U.LF MHF  MLL Anschlusskabel.
 Siehe: [WIKI-Link](https://de.wikipedia.org/wiki/U.FL)
 
 Auf der Platine des GL.iNet AR300M mit externen Antennen, sind die Buchsen MS-156HF gegen U.FL-Stecker ausgetauscht worden.
 
-<img src="https://cloud.ffhb.de/index.php/s/n8EefQmintociqm/preview" width="100" "U.FL-Stecker">
+<img src="https://cloud.ffhb.de/index.php/s/n8EefQmintociqm/preview" width="100">
 
-<img src="https://cloud.ffhb.de/index.php/s/miNitoFb6oMMBmc/preview" width="100" "U.FL-Stecker">
+<img src="https://cloud.ffhb.de/index.php/s/miNitoFb6oMMBmc/preview" width="100">
 
-<img src="https://cloud.ffhb.de/index.php/s/Z9MfJirRR78K28t/preview" width="100" "U.FL-Kabel">
+<img src="https://cloud.ffhb.de/index.php/s/Z9MfJirRR78K28t/preview" width="100">
 
 Platine GL.iNet AR300M mit externen Anschlüssen auf U.FL-Stecker. Die PCB Antennen auf dem Board sind durch die U.FL-Stecker dauerhaft unterbrochen. Da es keine Anschlußkabel für die Messbuchsen gibt, ist ein wahlweiser Anschluß von zusätzlichen externen Antennenanschlüssen nicht möglich.
 
