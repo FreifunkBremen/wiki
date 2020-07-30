@@ -17,11 +17,11 @@ Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffh
 
 ##### Tagesordnungen
 * der letzten Treffen:
-  * [[19.06.2020|Treffen/2020_06_19]]
-  * [[03.07.2020|Treffen/2020_07_03]]
+    * [[19.06.2020|Treffen/2020_06_19]]
+    * [[03.07.2020|Treffen/2020_07_03]]
 * der nächsten Treffen:
-  * [[17.07.2020|Treffen/2020_07_17]]
-  * [[07.08.2020|Treffen/2020_08_07]]
+    * [[17.07.2020|Treffen/2020_07_17]]
+    * [[07.08.2020|Treffen/2020_08_07]]
 
 
 * [Liste aller Treffen](/pages/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
@@ -30,20 +30,25 @@ Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffh
 Eine Übersicht aller Arten von Zusammenkünften findest du unter [[Treffen|Treffen/00_Treffen]].
 
 ## Organisatorisches
-* [[Oeffentlichtkeitsarbeit]]
+* [[Öffentlichtkeitsarbeit|Infrastruktur/Oeffentlichtkeitsarbeit]]
 * [[Wo bekomme ich einen Router?|Router/Routerabholstandorte]]
 * Gemeinsamer [[Kalender]]
-* [[Breminale 2019|Events/Breminale/2019/Freifunk-Bremen-auf-der-Breminale-2019]]
+* Breminale
+    * [[2015|Events/Breminale/Allgemein]] 
+    * [[2016|Events/Breminale/2016/Alles]]
+    * [[2017|Events/Breminale/2017/Alles]]
+    * [[2018|Events/Breminale/2018/Alles]]
+    * [[2019|Events/Breminale/2019/Freifunk-Bremen-auf-der-Breminale-2019]]
 
 ## Technisches
 * [[Firmware|Anleitungen/Firmware/Home]]
- * [Unterstützte Router](/Anleitungen/Firmware/Flashen#auswahl-der-hardware)
- * [[Flashen|Anleitungen/Firmware/Flashen]]
- * [FFHB-Gluon-Quellen bei Github](https://github.com/FreifunkBremen/gluon-site-ffhb)
+    * [Unterstützte Router](/Anleitungen/Firmware/Flashen#auswahl-der-hardware)
+    * [[Flashen|Anleitungen/Firmware/Flashen]]
+    * [FFHB-Gluon-Quellen bei Github](https://github.com/FreifunkBremen/gluon-site-ffhb)
 * [[Dienste|Dienste/Home]]
- * [[DNS|Dienste/DNS]]
- * [[Monitoring|Dienste/Monitoring]]
-* [[Datenschutz]]
+    * [[DNS|Dienste/DNS]]
+    * [[Monitoring|Dienste/Monitoring]]
+* [[Datenschutz|Infrastruktur/Datenschutz]]
 
 ## Änderungen mitbekommen
 
