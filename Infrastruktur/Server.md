@@ -6,6 +6,7 @@ Der Status der Gateways kann hier eingesehen werden: https://status.bremen.freif
 Zum Uplink siehe [[Infrastruktur/Netzwerk]]
 
 ### Sponsoren und Konfiguration
+
 | Server | Sponsor      | Standort            | Anbindung    |
 |:-------|:-------------|:--------------------|:-------------|
 | vpn01  | LWLcom       | Bremen              | ~700 MBit/s  |
@@ -24,12 +25,13 @@ Zum Uplink siehe [[Infrastruktur/Netzwerk]]
 | vpn01   | jplitza, mortzu       | -                   |
 | vpn02   | jplitza, mortzu       | -                   |
 | vpn03   | jplitza, mortzu       | -                   |
-| vpn04   | jplitza, mortzu       | genofire            |
+| vpn04   | jplitza, mortzu       | -                   |
 | vpn05   | jplitza, mortzu       | -                   |
 | vpn06   | corny                 | genofire, jplitza   |
 
 
 ## Zentrale Dienste
+
 | Dienst                                 | Verantwortlicher          | Standort              |
 |----------------------------------------|---------------------------|-----------------------|
 | [Website](https://ffhb.de)             | jplitza, mortzu, oliver   | Bremen / LWLcom       |
@@ -42,6 +44,7 @@ Zum Uplink siehe [[Infrastruktur/Netzwerk]]
 
 
 ## Physikalische Hardware
+
 | Server | Dienste               | Verantwortlicher           | Standort              |
 |-------------------------|-----------------------|----------------------------|-----------------------|
 | bre-1  | DNS, Mailserver, Webserver, Karte (ffmap), IPv6-Downlink, vpn01, vpn03 | chrische, morpheus, mortzu, jplitza | Bremen / LWLcom |
