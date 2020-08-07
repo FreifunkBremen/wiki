@@ -25,7 +25,7 @@ Zum Uplink siehe [[Infrastruktur/Netzwerk]]
 | vpn01   | jplitza, mortzu       | -                   |
 | vpn02   | jplitza, mortzu       | -                   |
 | vpn03   | jplitza, mortzu       | -                   |
-| vpn04   | jplitza, mortzu       | -                   |
+| vpn04   | genofire              | jplitza, mortzu     |
 | vpn05   | jplitza, mortzu       | -                   |
 | vpn06   | corny                 | genofire, jplitza   |
 
