@@ -208,6 +208,8 @@ Collected errors:
 Ein paar nützliche Zusatzprogramme
 
 ~~~
+opkg update
 OPKG install htop iperf3
+opkg install znc znc-mod-fail2ban znc-mod-flooddetach znc-mod-log znc-mod-webadmin znc-webskin-ice
 ~~~
 
