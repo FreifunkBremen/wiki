@@ -1,9 +1,9 @@
-Welche SW braucht ein Futro?
+### Welche SW braucht ein Futro?
 
 Ich installiere gerne ein paar nüzliche Pakete nach, ein Futro hat viel Platz zum Spielen.
+Zunächst häufig benötigte Treiber.
 
-
-
+~~~
 opkg update
 opkg install kmod-usb-storage block-mount block-hotplug kmod-fs-ext4 kmod-fs-vfat kmod-nls-cp437 kmod-nls-iso8859-1
 opkg install kmod-usb-core kmod-usb2 kmod-usb-hid --force-depends
@@ -13,10 +13,10 @@ opkg install usbutil swap-utils  kmod-nls-cp1250 kmod-nls-cp1251 kmod-nls-cp437 
 opkg install kmod-nls-iso8859-1 kmod-nls-iso8859-13 kmod-nls-iso8859-15 kmod-nls-iso8859-2 kmod-nls-koi8r kmod-nls-utf8 
 opkg install kmod-usb-core kmod-usb2 kmod-usb-hid kmod-usb-net kmod-usb-net-asix kmod-usb-net-dm9601-ethernstall 
 
-
+~~~
 Die open aufgeführten Installationspakete sehen wie folgt auf:
 
-
+~~~
 root@FUTRO-2 S550-2 ffhb-0019997a6f26 Mobil:~# opkg update
 
 Downloading http://downloads.openwrt.org/releases/18.06-SNAPSHOT/packages/x86_64/base/Packages.gz
@@ -202,4 +202,12 @@ Package kmod-usb-net-asix (4.14.167-1) installed in root is up to date.
 Unknown package 'kmod-usb-net-dm9601-ethernstall'.
 Collected errors:
  * opkg_install_cmd: Cannot install package kmod-usb-net-dm9601-ethernstall.
+
+~~~
+
+Ein paar nützliche Zusatzprogramme
+
+~~~
+OPKG install htop iperf3
+~~~
 
