@@ -209,7 +209,7 @@ Ein paar nützliche Zusatzprogramme
 
 ~~~
 opkg update
-OPKG install htop iperf3
+OPKG install htop iperf3 e2fsprogs fdisk
 opkg install znc znc-mod-fail2ban znc-mod-flooddetach znc-mod-log znc-mod-webadmin znc-webskin-ice
 opkg install openvpn-openssl openvpn-easy-rsa
 
