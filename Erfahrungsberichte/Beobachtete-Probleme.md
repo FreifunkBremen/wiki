@@ -163,6 +163,23 @@ uci commit
 wifi 
 einstellen.
 
+### Update geht nicht mehr [hias 2020-08-19]
+#### autoupdater: warning: error downloading manifest: Connection failed
+Bis jetzt nur auf 841er getestet an zwei verschiedenen Knoten / Stnadorten. Problem war gestern schon da.
+```
+root@hias-TestNode01:~# cat /lib/gluon/release
+2019.1.2+bremen2
+root@hias-TestNode01:~# autoupdater -f
+Retrieving manifest from http://downloads.bremen.freifunk.net/firmware/testing/sysupgrade/testing.manifest ...
+autoupdater: warning: error downloading manifest: Connection failed
+autoupdater: error: no usable mirror found
+root@hias-TestNode01:~# ping downloads.bremen.freifunk.net
+PING downloads.bremen.freifunk.net (2a06:8782:ff00::f2): 56 data bytes
+^C
+--- downloads.bremen.freifunk.net ping statistics ---
+52 packets transmitted, 0 packets received, 100% packet loss
+```
+
 ## Gelöste Probleme
 
 ### [Gelöst] logread zeigt "fastd[1999]: resolving host `vpn01.bremen.freifunk.net' failed: Try again"
