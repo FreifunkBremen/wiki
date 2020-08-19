@@ -166,6 +166,7 @@ einstellen.
 ### Update geht nicht mehr [hias 2020-08-19]
 #### autoupdater: warning: error downloading manifest: Connection failed
 Bis jetzt nur auf 841er getestet an zwei verschiedenen Knoten / Stnadorten. Problem war gestern schon da.
+Brange: testing
 ```
 root@hias-TestNode01:~# cat /lib/gluon/release
 2019.1.2+bremen2
