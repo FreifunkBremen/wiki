@@ -182,7 +182,41 @@ PING downloads.bremen.freifunk.net (2a06:8782:ff00::f2): 56 data bytes
 ```
 Nachtrag auf Wunsch:
 ```
-traceroute ffhb.de
+root@hias-TestNode01:~# ip route list
+10.196.0.0/17 dev local-node scope link  src 10.196.0.127 
+
+```
+
+Diese Fehler sind anscheinend nicht das Problem, da bei Frank auf einem C7 mit gleicher Version die selben, dort gibt es aber kein Problem:
+```
+root@hias-TestNode01:~# ip -6 route list
+unreachable default dev lo  metric 65535  error -148
+unreachable default dev lo  metric -1  error -128
+2a06:8782:ffbb:1337::/64 dev br-client  metric 256 
+fd2f:5119:f2c::127 dev local-node  metric 256 
+fd2f:5119:f2c::/64 dev br-client  metric 256 
+fd2f:5119:f2c::/64 dev br-client  metric 1024 
+unreachable fd4f:baa:d0bc::/48 dev lo  metric 2147483647  error -148
+fe80::/64 dev local-node  metric 256 
+fe80::/64 dev br-client  metric 256 
+fe80::/64 dev bat0  metric 256 
+fe80::/64 dev primary0  metric 256 
+fe80::/64 dev client0  metric 256 
+fe80::/64 dev mesh0  metric 256 
+fe80::/64 dev mesh-vpn  metric 256 
+default via fe80::5054:ff:fe53:c8e0 dev br-client  metric 512 
+unreachable default dev lo  metric -1  error -128
+ff00::/8 dev local-node  metric 256 
+ff00::/8 dev br-client  metric 256 
+ff00::/8 dev bat0  metric 256 
+ff00::/8 dev primary0  metric 256 
+ff00::/8 dev client0  metric 256 
+ff00::/8 dev mesh0  metric 256 
+ff00::/8 dev mesh-vpn  metric 256 
+unreachable default dev lo  metric -1  error -128
+```
+```
+root@hias-TestNode01:~# traceroute ffhb.de
 traceroute to ffhb.de (2a06:8782:ff00::f2), 30 hops max, 64 byte packets
  1  *  *  *
  2  *  *  *
@@ -215,6 +249,7 @@ traceroute to ffhb.de (2a06:8782:ff00::f2), 30 hops max, 64 byte packets
 29  *  *  *
 30  *  *  *
 ```
+
 
 ## Gelöste Probleme
 
