@@ -180,6 +180,41 @@ PING downloads.bremen.freifunk.net (2a06:8782:ff00::f2): 56 data bytes
 --- downloads.bremen.freifunk.net ping statistics ---
 52 packets transmitted, 0 packets received, 100% packet loss
 ```
+Nachtrag auf Wunsch:
+```
+traceroute ffhb.de
+traceroute to ffhb.de (2a06:8782:ff00::f2), 30 hops max, 64 byte packets
+ 1  *  *  *
+ 2  *  *  *
+ 3  *  *  *
+ 4  *  *  *
+ 5  *  *  *
+ 6  *  *  *
+ 7  *  *  *
+ 8  *  *  *
+ 9  *  *  *
+10  *  *  *
+11  *  *  *
+12  *  *  *
+13  *  *  *
+14  *  *  *
+15  *  *  *
+16  *  *  *
+17  *  *  *
+18  *  *  *
+19  *  *  *
+20  *  *  *
+21  *  *  *
+22  *  *  *
+23  *  *  *
+24  *  *  *
+25  *  *  *
+26  *  *  *
+27  *  *  *
+28  *  *  *
+29  *  *  *
+30  *  *  *
+```
 
 ## Gelöste Probleme
 
