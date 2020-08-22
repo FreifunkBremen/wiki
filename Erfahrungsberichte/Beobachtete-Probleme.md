@@ -167,6 +167,7 @@ einstellen.
 #### autoupdater: warning: error downloading manifest: Connection failed
 Bis jetzt nur auf 841er getestet an zwei verschiedenen Knoten / Stnadorten. Problem war gestern schon da.
 Brange: testing
+EDIT: Auch füf 1043er mit 2019.1.2+bremen2 das gleiche.
 ```
 root@hias-TestNode01:~# cat /lib/gluon/release
 2019.1.2+bremen2
@@ -181,40 +182,6 @@ PING downloads.bremen.freifunk.net (2a06:8782:ff00::f2): 56 data bytes
 52 packets transmitted, 0 packets received, 100% packet loss
 ```
 Nachtrag auf Wunsch:
-```
-root@hias-TestNode01:~# ip route list
-10.196.0.0/17 dev local-node scope link  src 10.196.0.127 
-
-```
-
-Diese Fehler sind anscheinend nicht das Problem, da bei Frank auf einem C7 mit gleicher Version die selben, dort gibt es aber kein Problem:
-```
-root@hias-TestNode01:~# ip -6 route list
-unreachable default dev lo  metric 65535  error -148
-unreachable default dev lo  metric -1  error -128
-2a06:8782:ffbb:1337::/64 dev br-client  metric 256 
-fd2f:5119:f2c::127 dev local-node  metric 256 
-fd2f:5119:f2c::/64 dev br-client  metric 256 
-fd2f:5119:f2c::/64 dev br-client  metric 1024 
-unreachable fd4f:baa:d0bc::/48 dev lo  metric 2147483647  error -148
-fe80::/64 dev local-node  metric 256 
-fe80::/64 dev br-client  metric 256 
-fe80::/64 dev bat0  metric 256 
-fe80::/64 dev primary0  metric 256 
-fe80::/64 dev client0  metric 256 
-fe80::/64 dev mesh0  metric 256 
-fe80::/64 dev mesh-vpn  metric 256 
-default via fe80::5054:ff:fe53:c8e0 dev br-client  metric 512 
-unreachable default dev lo  metric -1  error -128
-ff00::/8 dev local-node  metric 256 
-ff00::/8 dev br-client  metric 256 
-ff00::/8 dev bat0  metric 256 
-ff00::/8 dev primary0  metric 256 
-ff00::/8 dev client0  metric 256 
-ff00::/8 dev mesh0  metric 256 
-ff00::/8 dev mesh-vpn  metric 256 
-unreachable default dev lo  metric -1  error -128
-```
 ```
 root@hias-TestNode01:~# traceroute ffhb.de
 traceroute to ffhb.de (2a06:8782:ff00::f2), 30 hops max, 64 byte packets
@@ -248,6 +215,23 @@ traceroute to ffhb.de (2a06:8782:ff00::f2), 30 hops max, 64 byte packets
 28  *  *  *
 29  *  *  *
 30  *  *  *
+```
+Frank berichtete ähnliche Probleme, nach einem manuellen upgrade durch übertragen via ssh. Funktioniert bei Frank wieder alles.
+
+`/etc/inid.d/network restart` brachte nichts.
+`reboot` brachte nichts.
+Upgrade via SSH hat funktioniert. danach ging auch wieder ping und der autoupdater:
+image von [testing/sysupgrade/](https://downloads.bremen.freifunk.net/firmware/testing/sysupgrade/) mit scp nach /tmp übertragen dann:
+```
+cd /tmp
+root@hias-TestNode01:/tmp# sysupgrade gluon-ffhb-2019.1.2\+bremen2-tp-link-tl-wr841n-nd-v10-sysupgrade.bin
+root@hias-TestNode01:~# cat /lib/gluon/release
+2019.1.2+bremen2
+
+# update mit autoupdater
+root@hias-TestNode01:~# autoupdater -f
+Retrieving manifest from http://downloads.bremen.freifunk.net/firmware/testing/sysupgrade/testing.manifest ...
+No new firmware available.
 ```
 
 
