@@ -29,7 +29,7 @@ Die folgen Tipps vereinfachen uns den Umgang mit Linux, was aber auch zur Folge 
 
 ----
 
-###VM-Tools
+### VM-Tools
 Wenn ich ein Linux in einem VM-Player verwende (Gast-System), kann es Sinnvoll sein, einen Order freizugeben oder einen Ordner vom Laptop (Host-System) einzubinden. Hierzu gibt es die VM-Tools, die natürlich noch mehr können als nur Orden freizugeben. Kopieren und Einfügen von Text, Bildern und Dateien zwischen Host- und Gastcomputer sowie Verbesserung der Maus. Die Installation ist je nach Player etwas anders, hier die beiden häufigsten Methoden:
 
 In der Menüleiste des Player unter VM, Reinstall VM Tools, wird ein Ordner in den Gast gemountet. Dies sollte ein virtuelles CD / DVD-Laufwerk innerhalb der Ubuntu-Gastmaschine mounten. Wenn dies geschieht, öffne das Ubuntu-Terminal und führe die folgenden Befehle aus, um den Inhalt vom CD / DVD-Laufwerk in den Ordner / tmp zu extrahieren.
@@ -56,7 +56,7 @@ sudo apt installieren open-vm-tools öffnen-vm-tools-desktop
 Neustart und fertig.
 
 
-###Alias
+### Alias
 Sich wiederholende Befehlsfolgen oder häufig benutze komplizierte Eingaben, verpacken wir als Alias.
 https://wiki.ubuntuusers.de/alias/
 Damit diese Alias Namen permanent sind, geben wir dieses direkt in ~/.bash_aliases ein. Diese Datei liegt versteckt in unserem Homeverzeichnis.
@@ -66,7 +66,7 @@ Beispiel: Bessere Lesbarkeit durch farbliche Ausgabe der Dateien über 'ls'
 alias ls='ls --color=auto'
 Nach dem Speichern und öffnen einer neuen Konsole (Terminalfenster) ist die Ausgabe mit 'ls' nun farblich dargestellt.
 
-###Alias und bashrc Systemweit
+### Alias und bashrc Systemweit
 Manchmal kann es sinnvoll sein eine lokale Benutzereinstellung systemweit für alle zur Verfügung zu stellen. Für Einstellungen der Konsole wird dieses in der globalen Konfigurationsdatei /etc/bash.bashrc vorgenommen. Die Datei ist als Administrator zu öffnen. Beispiel: sudo gedit /etc/bash.bashrc
 Ich verwende gerne Leafpad.
 ~~~
@@ -76,7 +76,7 @@ sudo leafpad /etc/bash.bashrc
 
 Wird dort das Alias-Beispiel von oben eingetragen, ist dieses für alle Benutzer gültig. Die globale Vorgabe wird durch die lokale Einstellung des Benutzers überschrieben. Die lokale Einstellung wird im Homeverzeichnis des Benutzers unter .bashrc vorgenommen.
 
-###SSH Login auf einem Router vereinfachen.
+### SSH Login auf einem Router vereinfachen.
 Siehe auch: http://wiki.bremen.freifunk.net/Anleitungen/SSH-Node-Verwaltung.
 
 Normalerweise öffnen wir eine SSH Verbindung in der Konsole mit 'SSH root@ipv6', dann Passwort oder Passphrase.
@@ -114,7 +114,7 @@ cat ~/.ssh/ffhb.pub | ssh root@fe80::6a72:51ff:fe04:f52e%en1 'cat >> /etc/dropbe
 ~~~
 ffhb.pub war der öffentliche Schlüssel, den wir weiter oben generiert haben. Damit der Befehl auch tatsächlich auf dem Router ausgeführt wird, muss noch ein leztes Mal das Passwort eingegeben werden, aber anschließend nutzen alle Logins den Schlüssel. 
 
-###32 Bit oder 64 Bit
+### 32 Bit oder 64 Bit
 
 Was läuft auf meinem Systen? oder was kann mein System?
 Folgender Befehl verrät ob euer Linux Betriebsystem (Kernel) im 32 oder 64 bit Modus läuft: Konsole öffnen und eingeben.
@@ -140,13 +140,13 @@ keine Ausgabe = 32 Bit
 ~~~
 Diese Abfrage ist wichtig, da alle Anleitungen zum Offloader das 32Bit Generic Image verwenden. Die kleinen Thin-Clients können aber 64Bit. Das Tuning bringt 1/1000 mehr Geschwindigkeit.
 
-###Icons auf dem Desktop
+### Icons auf dem Desktop
 Mit Icons auf dem Desktop sollte man Sparsam sein. Wer Icons auf dem Desktop haben möchte, kann wie folgt vorgehen. Bei Ubuntu liegt am linken Rand der Starter. Das erste Icon oben ist die Suchfunktion. Alle dort angezeigten Icons können direkt auf den Desktop gezogen werden.
 
-###Klassische Startleiste
+### Klassische Startleiste
 Nicht alle erfreuen sich an dem neuen Starter. Einfach über das Softwarecenter nach ClassicMenue Indicator' oder 'Startleiste' suchen, installieren, freuen.
 
-###IP v6 Adresse des angeschlossenen Routers
+### IP v6 Adresse des angeschlossenen Routers
 Wir wollen die IPv6 Adresse des Routers finden. Dazu einfach im Terminal eingeben (sofern per WLAN mit Freifunknetz verbunden): (Vorweg: *%en1* ist der Bezeichner für das Interface, über das verbunden werden soll. Hier Ethernet 1....kann auch 0 oder 2 ... oder ein ganz anderes Interface sein. Im Zweifel *"ifconfig"* oder *"ip addr show"* eingeben und die Bezeichnung der Interfaces checken). Mein *%en0* Interface ist z.B *enp0s25*
 
 Der Interfacename wir auch unter dem Netzwerksymbol im Menüpunkt Verbindungsinformation angezeigt (Schnittstelle: Ethernet (enp0s25)).
@@ -168,7 +168,7 @@ ffhb@FFHB:~$
 ~~~
 
 
-###Security Check : Routerkonfiguration auslesen
+### Security Check : Routerkonfiguration auslesen
 
 Im Folgenden ein kleines Script, welches aus einer Linux-Umgebung heraus über ip v4 oder ip v6 die Konfiguration eines Freifunkrouters ausliest und die Daten lokal in einer Datei ablegt. Das Script piped die Bildschirmausgabe einfach in eine Datei. Es werden keine Schreiboperationen auf dem Router durchgeführt.
 Das Script dient zum Experimentieren und als Kopiervorlage, die Abragen bitte auf eigene Bedürfnisse Anpassen. Das Script zeigt 3 Möglichkeiten des Zugriffs auf einen Router oder VM. Einzelabfrage, Schleife mit Übergabe an SSH Anfrage, SSH Sitzung mit Schleife. Die dritte Variante läuft sehr schnell, da die SSH Sitzung nicht immer neu gestartet werden muss.
