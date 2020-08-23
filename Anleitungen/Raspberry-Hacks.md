@@ -40,14 +40,14 @@ Warum Einzelteile?
 - Lüfter: Es gibt besonders Geräuscharme Lüfter, Lüfter sind aber nicht erforderlich.
 - Kühlkörpergehäuse, aus meiner Sicht, der Burner :-) [(3B+)](https://www.elv.de/joy-it-armor-gehaeuse-block-fuer-raspberry-pi-3-schutz-und-kuehlung-zugleich.html?utm_source=google&utm_medium=cpc&refid=GShopping?Gads_Shopping&gclid=CjwKCAjwqZPrBRBnEiwAmNJsNvANtVXfqRuPLPLzGS2CqQdZXWmnE5eZbqIZUJrgTrRyzrFxdivcWRoC7MEQAvD_BwE) [(4B)](https://www.reichelt.de/gehaeuse-fuer-raspberry-pi-4-alu-schwarz-rpi-case-alu07-p261677.html?&trstct=pos_13)
 
-### [-------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)
+### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
 
 ### Erstinstallation
 Ich möchte nicht jedesmal einen Monitor und Tastatur anklemmen. Es funktioniert auch alles per serieller Schnittstelle oder über **SSH**.
 Ab 2016 sind jedoch beide Zugänge deaktiviert. In diesem Beispiel verwende ich 2018-11-13-raspbian-stretch-full.img oder neuer. Dieses Image wird auf die Mikro-SD geschrieben. Die Mikro-SD wird in einem Dateieditor geöffnet. Dort wird die Datei `config.txt` um den Eintrag `enable_uart=1` ergänzt. Jetzt steht nach dem Booten die serielle Schnittstelle zur Verfüfung. Für den sofortigen SSH Zugang wird eine leere Datei `ssh` (ohne .txt am Ende) angelegt. Nach dem Booten sehen wir auf unserem Heimrouter den angeschlossenen Pi und seine IP-Adresse. Jetzt SSH Zugriff starten. Beispiel pi@192.168.178.101 -p 22 unter Windows mit Putty/Kitty. user:`pi` pw:`raspberry`
 
 Die weiteren Konfigurationen im Terminal mit sudo `raspi-config` vornehmen.
-### [-------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)
+### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
 
 ### Erstinstallation Hinweise
 Image auf Micro-SD Karte schreiben. -> 2 Partitionen /boot & /rootfs & freier Platz je nach SD Größe.
@@ -55,7 +55,7 @@ Image auf Micro-SD Karte schreiben. -> 2 Partitionen /boot & /rootfs & freier Pl
 Wenn die SD Karte gerade noch im Lesegerät steckt, gleich die Einstellugen für Netzteil, Monitor und serielle Konsole in die `/boot/config.txt` eintragen, leere Datei ssh anlegen (aktiviert den SSH Zugang).
 
 Natürlich können die Grudeinstellungen auch in der Image-Datei vorgenommen werden. Unter Windows evtl. mit dem Tool https://www.winimage.com/ das Image Bearbeiten.
-### [-------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)
+### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
 
 #### Virenscanner ClamAV installieren 
 Wenn der Raspi mit dem Internet verbunden ist, sollte ein Virenscanner installiert werden.
@@ -72,7 +72,7 @@ Autoupdate einrichten über crontab, hinten anhängen:
 sudo crontab -e
 00 00 * * * clamscan -r /
 ~~~
-### [-------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)
+### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
 
 ### Netzteil
 Wird auf dem Monitor ein roter Blitz rechts oben eingeblendet, so liegt eine Unterspannung vor. Eine schlimme Folge ist, die Taktfrequenz wird runtergesetzt und der Pi ist deutlich langsamer.
@@ -85,7 +85,7 @@ avoid_warnings=2
 ~~~
 Achtung: Bei zu geringer Betriebsspannung funktionieren keine externen USB Festplatten. Hier ist ein Raspi Netzteil mit 5,1V zu Verwenden.
 Laut Spezifikation benötigt der Raspberry Pi eine Spannung von 4,75 – 5,25 Volt. Meine Empfehlung ist folgendes Netzteil: [(3B+ USB)](https://www.reichelt.de/raspberry-pi-ladegeraet-5-v-2-5-a-micro-usb-schwarz-rasp-nt-25-sw-e-p240934.html?&trstct=pos_5) oder [(4B USB-C)](https://www.reichelt.de/raspberry-pi-netzteil-5-1-v-3-0-a-usb-type-c-eu-stecker-s-rpi-ps-15w-bk-eu-p260010.html?&trstct=pos_3)
-### [-------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)
+### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
 
 ### Monitor
 Viele Monitore funktionieren nicht korrekt am Raspi. Der häufigste Fehler ist der schwarze Rand, also ein kleiners Bild. Viele Monitorprobleme können über die Datei /boot/config.txt korrigiert werden. Probleme mit dem ZERO liegen häufig am Mini-HDMI-Adapter. Es sollen nur wenige funktionieren. Bitte auf den richtigen Adapter achten. https://www.rasppishop.de/Raspberry-Pi-Zero-Hdmi-Adapter-mini-Hdmi-zu-Hdmi
@@ -94,7 +94,7 @@ sudo nano /boot/config.txt
 
 disable_overscan=1
 ~~~
-### [-------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)
+### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
 
 ### Serielle Schnittstelle
 Die serielle Schnittstelle auf der GPIO Leiste wird mit folgendem Eintrag aktiviert.
@@ -111,6 +111,7 @@ sudo nano /boot/cmdline.txt
 Weitere Informationen zur seriellen Schnittstelle unter: http://www.netzmafia.de/skripten/hardware/RasPi/RasPi_Serial.html
 
 Das serielle Kabel, bzw. USB-2-Serial-Adapter auf den GPIO 14 = Pin 8 TX & GPIO 14 = Pin 10 RX, sowie GND (irgend ein freier GND Pin)
+### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
 
 ### LAN Interface feste IP-Adresse
 Wird der Raspi per Kabel an einen Router angeschlossen macht eine statische IP-Adresse Sinn. Ok, am Router lässt sich auch eine feste Adresse per DHCP zuweisen.
@@ -126,6 +127,7 @@ static domain_name_servers=192.168.178.1
 
 sudo /etc/init.d/networking restart
 ~~~
+### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
 
 ### LAN Interface Fallback
 Der Pi bekommt normalerweise eine IP Adresse per DHCP zugewiesen. Es gibt eine Möglichkeit, das LAN-Interface so zu konfigurieren, das der Pi vom Router eine IP per DHCP bekommt und wenn er an einen PC angesteckt wird, eine statische IP hat. Dazu wird in der Datei: `sudo nano /etc/dhcpcd.conf` am Ende die Fallbackeinstellung aktiviert. Die Fallbackadresse muss außerhalb des DHCP Bereiches des Routers liegen.
@@ -144,6 +146,7 @@ fallback static_eth0
 
 sudo /etc/init.d/networking restart
 ~~~
+### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
 
 ### WLAN Verbindung einrichten
 Damit sich der Raspi 3B+ mit einem WLAN verbindet, folgende Einstellungen mit eigenen Daten ändern.
@@ -174,6 +177,7 @@ WLAN Netwerke scannen mit:
 sudo iwlist wlan0 scan
 ~~~
 siehe auch: https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
+### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
 
 ### WLAN Access Point einrichten
 Den Pi als WLAN Access Point nutzen und über den LAN Anschluß mit einem Router verbinden. Für dieses Scenario gibt es viele Anwendungsfälle, wie z.B. über den PI Medien verwenden (Bilder / Video / Musik) wenn er nicht am Netz hängt.
@@ -198,6 +202,7 @@ Zeile 61:
   fi
 ~~~
 
+### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
 
 #### FILE /etc/hostapd/hostapd.conf 2,4 Ghz
 ~~~
@@ -217,6 +222,7 @@ rsn_pairwise=CCMP
 wpa_passphrase=somepassword
 ~~~
 802.11a/n/ac with WPA2-PSK and CCMP. A simple but secure AP for recent hardware:
+### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
 
 #### FILE /etc/hostapd/hostapd.conf 5 Ghz
 ~~~
@@ -236,6 +242,7 @@ wpa_key_mgmt=WPA-PSK
 rsn_pairwise=CCMP
 wpa_passphrase=somepassword
 ~~~
+### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
 
 ### SSH Login auf dem Raspi
 Funktioniert wie auf dem Freifunkrouter. SSH Server aktivieren über:
@@ -245,6 +252,7 @@ sudo raspi-config
 In den Homeverzeichnissen der angelegten Benutzer das Verzeichnis .ssh erstellen. Dorthin die Datei authorized_keys mit unserem Schlüssel kopieren.
 
 Die Konfigurationen unter /etc/ssh werden nicht angefasst. Deren Funktion ist für den SSH Zugriff nicht genau geklärt, alle Einstellungen sind auskommentiert. (Forschungsarbeit notwendig). So wie es aussieht, sind diese Konfigdateien für ältere Raspbian-Versionen gedacht. Auf der aktuellen Version ist es schon automatisch aktiv.
+### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
 
 ### SAMBA Verzeichnisfreigabe
 Ordner für den Netzwerkzugriff freigeben, geht einfach über Samba. Hinweis: Viedo-Stream geht nicht bei hochauflösenden Videos. Auch über LAN werden nicht genug Daten geliefert.
@@ -291,6 +299,7 @@ sudo adduser --disabled-login neuerbenutzer
 sudo smbpasswd -a neuerbenutzer
 sudo /etc/init.d/samba restart
 ~~~
+### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
 
 ### Projekt Taster
 Ein Aus Reboot Taster. Tolle Sache, wenn der Pi hängt, kann mit dem Taster neu gestartet werden. Eleganter als den Netzstecker zu ziehen. Taste unter 3 Sekunden drücken, Pi bootet. Taster über 3 Sekunden drücken, Pi fährt runter. Erneutes Drücken im Aus Zustand, Pi startet.
@@ -377,10 +386,12 @@ Group=root
 [Install]
 WantedBy=multi-user.target 
 ~~~
+### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
 
 ### Projekt Webserver
 Viele tolle Projekte verwenden ein Webinterface und jedes Projekt einen anderen Webserver. Wenn mehrere Webseiten auf dem Pi laufen sollen, kommen wir um Virtualhosts nicht herum. Damit verschiedene Webseiten vernünftig funktionieren, bedarf es einer sauberen Konfiguration. Deshalb ist hier die erste Wahl: Apache2
 Wer also mehr als nur eine Webseite auf dem Pi hosten möchte, sollte sich mit dem Apache Webserver beschäftigen.
+### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
 
 ### Projekt Nextcloud
 Eine Nextcloud auf dem Pi zu istallieren ist eine recht einfache Sache. Damit die Nextcloud auch vernünftig funktioniert, bedarf es tiefergehenden Fachwissens. Hier gibt es Abhilfe durch ein vorkonfiguriertes System, in dem bereits alle relevanten Einstellungen vorgenommen wurden.
@@ -388,6 +399,7 @@ Meine Empfehlung: nextcloudpi
 https://github.com/nextcloud/nextcloudpi
 https://ownyourbits.com/nextcloudpi/
 Hinweis: Ehrlich, brecht euch nicht die Finger. Verwendet das fertige NectCloudPi. Das ist Frustschonend.
+### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
 
 ### Projekt DynDNS
 Zwei Möglichkeiten für DynDNS als Vorschlag.
@@ -440,6 +452,7 @@ Eure IP-Adresse findet ihr in der Datei /tmp/spdynuIP.cnf
 
 cat /tmp/spdynuIP.cnf
 zeigt externe IP des Routers. (geht.)
+### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
 
 ### Lets Encrypt Zertifikat
 Let’s Encrypt Zertifikat erstellen:
@@ -462,6 +475,7 @@ Falls das Zertifikat abgelaufen ist und/oder nicht erneuert wurde, kann dieses d
 cd /etc/letsentcrypt
 ./certbot-auto
 ~~~
+### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
 
 ### Umzug auf neuere Hardware
 Buster - die neue Version von Raspbian
