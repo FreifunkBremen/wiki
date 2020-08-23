@@ -21,7 +21,7 @@ Alternativ den Bootvorgang auf der seriellen Konsole mitschneiden. Dort können 
 
 [Teil 2 unbrick TFTP Archer C7](#inhalt_Unbrick Anleitung TP-Link Archer C7 v2)
 
-##Vorbereitungen
+## Vorbereitungen
 
 Folgende Dinge werden benötigt:
 * gebrickter Router
