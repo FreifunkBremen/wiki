@@ -102,6 +102,10 @@ Wir legen im Ordner '~/.ssh/' eine Textdatei namens config an. In diese Datei ko
 #ssh (secure shell) configuration file
 Host router1
     HostName ipv6-Adresse
+Host router2
+    HostName ipv6-Adresse
+# Einstellungen mit * am Ende gelten für alle ohne eigene Angaben
+Host * 
     Port 22
     User root
     IdentityFile ~/.ssh/ffhb
