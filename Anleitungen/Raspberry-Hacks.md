@@ -7,26 +7,26 @@ Hier sind also nur ein paar _Stolpersteine_ erwähnt, die unserer `Aufmerksamkei
 Eine wichtige Quelle ist: https://www.raspberrypi.org/documentation/
 
 ## Inhalt:
-- [Kaufberatung](#inhalt_kaufberatung)
-- [Erstinstallation](#inhalt_erstinstallation)
-- [Virenscanner ClamAV installieren](#inhalt_virenscanner-clamav-installieren)
-- [Netzteil](#inhalt_netzteil)
-- [Monitor](#inhalt_monitor)
-- [Serielle Schnittstelle](#inhalt_serielle-schnittstelle)
-- [LAN Interface feste IP-Adresse](#inhalt_lan-interface-feste-ip-adresse)
-- [LAN Interface Fallback](#inhalt_lan-interface-fallback)
-- [WLAN Verbindung einrichten](#inhalt_wlan-verbindung-einrichten)
-- [WLAN Access Point einrichten](#inhalt_wlan-access-point-einrichten)
-- [SSH Login auf dem Raspi](#inhalt_ssh-login-auf-dem-raspi)
-- [SAMBA Verzeichnisfreigabe](#inhalt_samba-verzeichnisfreigabe)
-- [Projekt Taster](#inhalt_projekt-taster)
-- [Projekt Webserver](#inhalt_projekt-webserver)
-- [Projekt Nextcloud](#inhalt_projekt-nextcloud)
-- [Projekt DynDNS](#inhalt_projekt-dyndns)
-- [Projekt Lets Encrypt Zertifikat](#inhalt_lets-encrypt-zertifikat)
-- [Umzug auf neuere Hardware](#inhalt_umzug-auf-neuere-hardware)
+- [Kaufberatung](#kaufberatung)
+- [Erstinstallation](#erstinstallation)
+- [Virenscanner ClamAV installieren](#virenscanner-clamav-installieren)
+- [Netzteil](#netzteil)
+- [Monitor](#monitor)
+- [Serielle Schnittstelle](#serielle-schnittstelle)
+- [LAN Interface feste IP-Adresse](#lan-interface-feste-ip-adresse)
+- [LAN Interface Fallback](#lan-interface-fallback)
+- [WLAN Verbindung einrichten](#wlan-verbindung-einrichten)
+- [WLAN Access Point einrichten](#wlan-access-point-einrichten)
+- [SSH Login auf dem Raspi](#ssh-login-auf-dem-raspi)
+- [SAMBA Verzeichnisfreigabe](#samba-verzeichnisfreigabe)
+- [Projekt Taster](#projekt-taster)
+- [Projekt Webserver](#projekt-webserver)
+- [Projekt Nextcloud](#projekt-nextcloud)
+- [Projekt DynDNS](#projekt-dyndns)
+- [Projekt Lets Encrypt Zertifikat](#lets-encrypt-zertifikat)
+- [Umzug auf neuere Hardware](#umzug-auf-neuere-hardware)
 
-###Kaufberatung
+### Kaufberatung
 Soll es nur ein Gerät sein, lohnt sich ein Bundle, damit habe ich alles zusammen, was für den Betrieb eines Raspberry benötigt wird. Werden es evtl. mehrere Geräte oder es werden ein paar Besonderheiten gewünscht, lohnen sich Einzelteile.
 
 Warum Einzelteile?
@@ -40,20 +40,20 @@ Warum Einzelteile?
 - Lüfter: Es gibt besonders Geräuscharme Lüfter, Lüfter sind aber nicht erforderlich.
 - Kühlkörpergehäuse, aus meiner Sicht, der Burner :-) [(3B+)](https://www.elv.de/joy-it-armor-gehaeuse-block-fuer-raspberry-pi-3-schutz-und-kuehlung-zugleich.html?utm_source=google&utm_medium=cpc&refid=GShopping?Gads_Shopping&gclid=CjwKCAjwqZPrBRBnEiwAmNJsNvANtVXfqRuPLPLzGS2CqQdZXWmnE5eZbqIZUJrgTrRyzrFxdivcWRoC7MEQAvD_BwE) [(4B)](https://www.reichelt.de/gehaeuse-fuer-raspberry-pi-4-alu-schwarz-rpi-case-alu07-p261677.html?&trstct=pos_13)
 
-###Erstinstallation
+### Erstinstallation
 Ich möchte nicht jedesmal einen Monitor und Tastatur anklemmen. Es funktioniert auch alles per serieller Schnittstelle oder über **SSH**.
 Ab 2016 sind jedoch beide Zugänge deaktiviert. In diesem Beispiel verwende ich 2018-11-13-raspbian-stretch-full.img oder neuer. Dieses Image wird auf die Mikro-SD geschrieben. Die Mikro-SD wird in einem Dateieditor geöffnet. Dort wird die Datei `config.txt` um den Eintrag `enable_uart=1` ergänzt. Jetzt steht nach dem Booten die serielle Schnittstelle zur Verfüfung. Für den sofortigen SSH Zugang wird eine leere Datei `ssh` (ohne .txt am Ende) angelegt. Nach dem Booten sehen wir auf unserem Heimrouter den angeschlossenen Pi und seine IP-Adresse. Jetzt SSH Zugriff starten. Beispiel pi@192.168.178.101 -p 22 unter Windows mit Putty/Kitty. user:`pi` pw:`raspberry`
 
 Die weiteren Konfigurationen im Terminal mit sudo `raspi-config` vornehmen.
 
-###Erstinstallation Hinweise
+### Erstinstallation Hinweise
 Image auf Micro-SD Karte schreiben. -> 2 Partitionen /boot & /rootfs & freier Platz je nach SD Größe.
 2 Varianten: mit gParted das rootfs vergrößern oder neue Partition anlegen, die später gemounted wird. Beide Varianten haben ihre Vor- und Nachteile. Die bessere Lösung ist die neue Partition einzuhängen. Zum Spielen und Programme installieren ist die Variante 1 besser, da die Partition mit /rootfs im Neuzustand bereits fast voll ist.
 Wenn die SD Karte gerade noch im Lesegerät steckt, gleich die Einstellugen für Netzteil, Monitor und serielle Konsole in die `/boot/config.txt` eintragen, leere Datei ssh anlegen (aktiviert den SSH Zugang).
 
 Natürlich können die Grudeinstellungen auch in der Image-Datei vorgenommen werden. Unter Windows evtl. mit dem Tool https://www.winimage.com/ das Image Bearbeiten.
 
-###Virenscanner ClamAV installieren 
+### Virenscanner ClamAV installieren 
 Wenn der Raspi mit dem Internet verbunden ist, sollte ein Virenscanner installiert werden.
 Weitere Infos unter: https://www.clamav.net/
 ~~~
@@ -69,7 +69,7 @@ sudo crontab -e
 00 00 * * * clamscan -r /
 ~~~
 
-###Netzteil
+### Netzteil
 Wird auf dem Monitor ein roter Blitz rechts oben eingeblendet, so liegt eine Unterspannung vor. Eine schlimme Folge ist, die Taktfrequenz wird runtergesetzt und der Pi ist deutlich langsamer.
 Kann das Netzteil nicht genug Strom liefern, bzw. hat weniger als 5,1V so kann die Überwachung auf Unterspannung abgeschaltet werden.
 Mit den Editor nano im Terminalfenster die Datei `config.txt` öffnen
@@ -81,14 +81,14 @@ avoid_warnings=2
 Achtung: Bei zu geringer Betriebsspannung funktionieren keine externen USB Festplatten. Hier ist ein Raspi Netzteil mit 5,1V zu Verwenden.
 Laut Spezifikation benötigt der Raspberry Pi eine Spannung von 4,75 – 5,25 Volt. Meine Empfehlung ist folgendes Netzteil: [(3B+ USB)](https://www.reichelt.de/raspberry-pi-ladegeraet-5-v-2-5-a-micro-usb-schwarz-rasp-nt-25-sw-e-p240934.html?&trstct=pos_5) oder [(4B USB-C)](https://www.reichelt.de/raspberry-pi-netzteil-5-1-v-3-0-a-usb-type-c-eu-stecker-s-rpi-ps-15w-bk-eu-p260010.html?&trstct=pos_3)
 
-###Monitor
+### Monitor
 Viele Monitore funktionieren nicht korrekt am Raspi. Der häufigste Fehler ist der schwarze Rand, also ein kleiners Bild. Viele Monitorprobleme können über die Datei /boot/config.txt korrigiert werden. Probleme mit dem ZERO liegen häufig am Mini-HDMI-Adapter. Es sollen nur wenige funktionieren. Bitte auf den richtigen Adapter achten. https://www.rasppishop.de/Raspberry-Pi-Zero-Hdmi-Adapter-mini-Hdmi-zu-Hdmi
 ~~~
 sudo nano /boot/config.txt
 
 disable_overscan=1
 ~~~
-###Serielle Schnittstelle
+### Serielle Schnittstelle
 Die serielle Schnittstelle auf der GPIO Leiste wird mit folgendem Eintrag aktiviert.
 ~~~
 sudo nano /boot/config.txt
@@ -104,7 +104,7 @@ Weitere Informationen zur seriellen Schnittstelle unter: http://www.netzmafia.de
 
 Das serielle Kabel, bzw. USB-2-Serial-Adapter auf den GPIO 14 = Pin 8 TX & GPIO 14 = Pin 10 RX, sowie GND (irgend ein freier GND Pin)
 
-###LAN Interface feste IP-Adresse
+### LAN Interface feste IP-Adresse
 Wird der Raspi per Kabel an einen Router angeschlossen macht eine statische IP-Adresse Sinn. Ok, am Router lässt sich auch eine feste Adresse per DHCP zuweisen.
 Im Terminalfenster wie folgt vorgehen.
 ~~~
@@ -119,7 +119,7 @@ static domain_name_servers=192.168.178.1
 sudo /etc/init.d/networking restart
 ~~~
 
-###LAN Interface Fallback
+### LAN Interface Fallback
 Der Pi bekommt normalerweise eine IP Adresse per DHCP zugewiesen. Es gibt eine Möglichkeit, das LAN-Interface so zu konfigurieren, das der Pi vom Router eine IP per DHCP bekommt und wenn er an einen PC angesteckt wird, eine statische IP hat. Dazu wird in der Datei: `sudo nano /etc/dhcpcd.conf` am Ende die Fallbackeinstellung aktiviert. Die Fallbackadresse muss außerhalb des DHCP Bereiches des Routers liegen.
 ~~~
 sudo nano /etc/dhcpcd.conf
@@ -137,7 +137,7 @@ fallback static_eth0
 sudo /etc/init.d/networking restart
 ~~~
 
-###WLAN Verbindung einrichten
+### WLAN Verbindung einrichten
 Damit sich der Raspi 3B+ mit einem WLAN verbindet, folgende Einstellungen mit eigenen Daten ändern.
 ~~~
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
@@ -167,7 +167,7 @@ sudo iwlist wlan0 scan
 ~~~
 siehe auch: https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
 
-###WLAN Access Point einrichten
+### WLAN Access Point einrichten
 Den Pi als WLAN Access Point nutzen und über den LAN Anschluß mit einem Router verbinden. Für dieses Scenario gibt es viele Anwendungsfälle, wie z.B. über den PI Medien verwenden (Bilder / Video / Musik) wenn er nicht am Netz hängt.
 Dieses Thema wird sehr häufig im Netz diskutiert und es gibt nur wenig brauchbare Lösungen. Eine recht gute ist hier zu finden:
 https://github.com/damiencaselli/rpi3-hotspot
@@ -191,7 +191,7 @@ Zeile 61:
 ~~~
 
 
-####FILE /etc/hostapd/hostapd.conf 2,4 Ghz
+#### FILE /etc/hostapd/hostapd.conf 2,4 Ghz
 ~~~
 interface=wlan0       # the interface used by the AP
 hw_mode=g             # g simply means 2.4GHz band
@@ -210,7 +210,7 @@ wpa_passphrase=somepassword
 ~~~
 802.11a/n/ac with WPA2-PSK and CCMP. A simple but secure AP for recent hardware:
 
-####FILE /etc/hostapd/hostapd.conf 5 Ghz
+#### FILE /etc/hostapd/hostapd.conf 5 Ghz
 ~~~
 interface=wlan0       # the interface used by the AP
 hw_mode=a             # a simply means 5GHz
@@ -229,7 +229,7 @@ rsn_pairwise=CCMP
 wpa_passphrase=somepassword
 ~~~
 
-###SSH Login auf dem Raspi
+### SSH Login auf dem Raspi
 Funktioniert wie auf dem Freifunkrouter. SSH Server aktivieren über:
 ~~~
 sudo raspi-config
@@ -238,21 +238,24 @@ In den Homeverzeichnissen der angelegten Benutzer das Verzeichnis .ssh erstellen
 
 Die Konfigurationen unter /etc/ssh werden nicht angefasst. Deren Funktion ist für den SSH Zugriff nicht genau geklärt, alle Einstellungen sind auskommentiert. (Forschungsarbeit notwendig). So wie es aussieht, sind diese Konfigdateien für ältere Raspbian-Versionen gedacht. Auf der aktuellen Version ist es schon automatisch aktiv.
 
-###SAMBA Verzeichnisfreigabe
+### SAMBA Verzeichnisfreigabe
 Ordner für den Netzwerkzugriff freigeben, geht einfach über Samba. Hinweis: Viedo-Stream geht nicht bei hochauflösenden Videos. Auch über LAN werden nicht genug Daten geliefert.
-- Installieren:
+Installieren:
 ~~~
 sudo apt-get install samba
 ~~~
+
 Das Paket hat jede Menge Abhängigkeiten, die Installation dauert etwas.
 
 - Konfiguration:
 Die gesamte Konfiguration von Samba beziehungsweise dem SMB Dienst funktioniert über dessen Konfigurationsdatei /etc/samba/smb.conf.
 
 Freier Zugriff. Am Ende folgendes erweitern:
+
 ~~~
 sudo nano /etc/samba/smb.conf
 ~~~
+
 ~~~
 [Videos]
 path = /home/pi/Videos
@@ -281,7 +284,7 @@ sudo smbpasswd -a neuerbenutzer
 sudo /etc/init.d/samba restart
 ~~~
 
-###Projekt Taster
+### Projekt Taster
 Ein Aus Reboot Taster. Tolle Sache, wenn der Pi hängt, kann mit dem Taster neu gestartet werden. Eleganter als den Netzstecker zu ziehen. Taste unter 3 Sekunden drücken, Pi bootet. Taster über 3 Sekunden drücken, Pi fährt runter. Erneutes Drücken im Aus Zustand, Pi startet.
 
 Originalbeiträge: 
@@ -367,18 +370,18 @@ Group=root
 WantedBy=multi-user.target 
 ~~~
 
-###Projekt Webserver
+### Projekt Webserver
 Viele tolle Projekte verwenden ein Webinterface und jedes Projekt einen anderen Webserver. Wenn mehrere Webseiten auf dem Pi laufen sollen, kommen wir um Virtualhosts nicht herum. Damit verschiedene Webseiten vernünftig funktionieren, bedarf es einer sauberen Konfiguration. Deshalb ist hier die erste Wahl: Apache2
 Wer also mehr als nur eine Webseite auf dem Pi hosten möchte, sollte sich mit dem Apache Webserver beschäftigen.
 
-###Projekt Nextcloud
+### Projekt Nextcloud
 Eine Nextcloud auf dem Pi zu istallieren ist eine recht einfache Sache. Damit die Nextcloud auch vernünftig funktioniert, bedarf es tiefergehenden Fachwissens. Hier gibt es Abhilfe durch ein vorkonfiguriertes System, in dem bereits alle relevanten Einstellungen vorgenommen wurden.
 Meine Empfehlung: nextcloudpi
 https://github.com/nextcloud/nextcloudpi
 https://ownyourbits.com/nextcloudpi/
 Hinweis: Ehrlich, brecht euch nicht die Finger. Verwendet das fertige NectCloudPi. Das ist Frustschonend.
 
-###Projekt DynDNS
+### Projekt DynDNS
 Zwei Möglichkeiten für DynDNS als Vorschlag.
 
 DynDNS Domain bei spdyn.de
@@ -430,7 +433,7 @@ Eure IP-Adresse findet ihr in der Datei /tmp/spdynuIP.cnf
 cat /tmp/spdynuIP.cnf
 zeigt externe IP des Routers. (geht.)
 
-###Lets Encrypt Zertifikat
+### Lets Encrypt Zertifikat
 Let’s Encrypt Zertifikat erstellen:
 Damit ihr über HTTPS auf eure Nextcloud usw. des Pi, zugreifen könnt benötigt ihr ein Zertifikat. Dies geht mit dem folgenden Befehl (Hinweis: Ihr müsst domain.spdns.de mit eurer bei spdyn angelegten Domain und die E-Mail Adresse user@domain.tld ersetzen!)
 ~~~
@@ -452,7 +455,7 @@ cd /etc/letsentcrypt
 ./certbot-auto
 ~~~
 
-###Umzug auf neuere Hardware
+### Umzug auf neuere Hardware
 Buster - die neue Version von Raspbian
 
 Der Rapberry 4 benötigt Buster, Buster ist zu älterer Hardware abwärtskompatibel.
