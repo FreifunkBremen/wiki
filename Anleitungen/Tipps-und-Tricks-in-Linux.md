@@ -49,7 +49,8 @@ Folgender Befehl führt die Installation aus.
 sudo apt installieren open-vm-tools öffnen-vm-tools-desktop
 ~~~
 Neustart und fertig.
-** [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)**
+
+**[---------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 ### Alias
 Sich wiederholende Befehlsfolgen oder häufig benutze komplizierte Eingaben, verpacken wir als Alias.
@@ -61,7 +62,7 @@ Beispiel: Bessere Lesbarkeit durch farbliche Ausgabe der Dateien über 'ls'
 alias ls='ls --color=auto'
 Nach dem Speichern und öffnen einer neuen Konsole (Terminalfenster) ist die Ausgabe mit 'ls' nun farblich dargestellt.
 
-### Alias und bashrc Systemweit
+#### Alias und bashrc Systemweit
 Manchmal kann es sinnvoll sein eine lokale Benutzereinstellung systemweit für alle zur Verfügung zu stellen. Für Einstellungen der Konsole wird dieses in der globalen Konfigurationsdatei /etc/bash.bashrc vorgenommen. Die Datei ist als Administrator zu öffnen. Beispiel: sudo gedit /etc/bash.bashrc
 Ich verwende gerne Leafpad.
 ~~~
@@ -71,7 +72,7 @@ sudo leafpad /etc/bash.bashrc
 
 Wird dort das Alias-Beispiel von oben eingetragen, ist dieses für alle Benutzer gültig. Die globale Vorgabe wird durch die lokale Einstellung des Benutzers überschrieben. Die lokale Einstellung wird im Homeverzeichnis des Benutzers unter .bashrc vorgenommen.
 
-### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
+**[---------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 ### SSH Login auf einem Router vereinfachen.
 Siehe auch: http://wiki.bremen.freifunk.net/Anleitungen/SSH-Node-Verwaltung.
@@ -110,7 +111,7 @@ Systemweite Einstellung:  /etc/ssh/ssh_config
 cat ~/.ssh/ffhb.pub | ssh root@fe80::6a72:51ff:fe04:f52e%en1 'cat >> /etc/dropbear/authorized_keys'
 ~~~
 ffhb.pub war der öffentliche Schlüssel, den wir weiter oben generiert haben. Damit der Befehl auch tatsächlich auf dem Router ausgeführt wird, muss noch ein leztes Mal das Passwort eingegeben werden, aber anschließend nutzen alle Logins den Schlüssel. 
-### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
+**[---------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 ### 32 Bit oder 64 Bit
 
