@@ -23,10 +23,7 @@ Die folgen Tipps vereinfachen uns den Umgang mit Linux, was aber auch zur Folge 
 [[_TOC_]]
 
 ----
-[[vor _TOC_ nach]]
 
-
-----
 ### VM-Tools
 Wenn ich ein Linux in einem VM-Player verwende (Gast-System), kann es Sinnvoll sein, einen Order freizugeben oder einen Ordner vom Laptop (Host-System) einzubinden. Hierzu gibt es die VM-Tools, die natürlich noch mehr können als nur Orden freizugeben. Kopieren und Einfügen von Text, Bildern und Dateien zwischen Host- und Gastcomputer sowie Verbesserung der Maus. Die Installation ist je nach Player etwas anders, hier die beiden häufigsten Methoden:
 
@@ -52,7 +49,7 @@ Folgender Befehl führt die Installation aus.
 sudo apt installieren open-vm-tools öffnen-vm-tools-desktop
 ~~~
 Neustart und fertig.
-### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
+** [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)**
 
 ### Alias
 Sich wiederholende Befehlsfolgen oder häufig benutze komplizierte Eingaben, verpacken wir als Alias.
