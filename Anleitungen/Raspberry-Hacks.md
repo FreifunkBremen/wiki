@@ -39,7 +39,7 @@ Warum Einzelteile?
 - Kühlkörper: sind immer gut und es gibt sie in Schick, Kupfer / vergoldet.
 - Lüfter: Es gibt besonders Geräuscharme Lüfter, Lüfter sind aber nicht erforderlich.
 - Kühlkörpergehäuse, aus meiner Sicht, der Burner :-) [(3B+)](https://www.elv.de/joy-it-armor-gehaeuse-block-fuer-raspberry-pi-3-schutz-und-kuehlung-zugleich.html?utm_source=google&utm_medium=cpc&refid=GShopping?Gads_Shopping&gclid=CjwKCAjwqZPrBRBnEiwAmNJsNvANtVXfqRuPLPLzGS2CqQdZXWmnE5eZbqIZUJrgTrRyzrFxdivcWRoC7MEQAvD_BwE) [(4B)](https://www.reichelt.de/gehaeuse-fuer-raspberry-pi-4-alu-schwarz-rpi-case-alu07-p261677.html?&trstct=pos_13)
-###                                                                           [Zurück zum Inhalt:](#inhalt)
+###-----[Zurück zum Inhalt:](#inhalt)
 
 ### Erstinstallation
 Ich möchte nicht jedesmal einen Monitor und Tastatur anklemmen. Es funktioniert auch alles per serieller Schnittstelle oder über **SSH**.
