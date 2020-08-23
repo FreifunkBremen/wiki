@@ -50,7 +50,7 @@ sudo apt installieren open-vm-tools öffnen-vm-tools-desktop
 ~~~
 Neustart und fertig.
 
-**[----------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+**[--------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 ### Alias
 Sich wiederholende Befehlsfolgen oder häufig benutze komplizierte Eingaben, verpacken wir als Alias.
