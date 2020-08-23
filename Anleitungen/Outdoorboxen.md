@@ -1,4 +1,3 @@
-
 Bilder von Outdoorboxen und Markdownbeispiele.
 
 Dies ist eine Testseite, um Bilder aus unserer **Cloud** [cloud.ffhb.de](cloud.ffhb.de) in das WIKI zu bekommen. Die normale Methode wie im MARKDOWN beschrieben, funktioniert nicht mit allen Browsern. Linkergänzung mit /download oder /preview.
@@ -6,9 +5,9 @@ Die klassische Methode HTML Link mit weiteren Attributen funktioniert.
 
 ### Inhaltsverzeichnis:
 
-- [Outdoorboxbilder](#inhaltsverzeichnis_outdoorboxbilder) alter Link
-- [Outdoorboxbilder](#inhalt_outdoorboxbilder) alter Link
-- [Outdoorboxbilder](#outdoorboxbilder) neuer Link
+- [Outdoorboxbilder](#inhaltsverzeichnis_outdoorboxbilder) alter Link Markdown
+- [Outdoorboxbilder](#inhalt_outdoorboxbilder) alter Link Markdown
+- [Outdoorboxbilder](#outdoorboxbilder) neuer funtionstüchtiger Link
 
 ----
 
