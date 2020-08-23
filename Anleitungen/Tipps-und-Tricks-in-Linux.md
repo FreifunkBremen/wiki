@@ -20,6 +20,7 @@ Die folgen Tipps vereinfachen uns den Umgang mit Linux, was aber auch zur Folge 
 
 ----
 [[_TOC_]]
+
 ----
 
 ### VM-Tools
@@ -266,4 +267,5 @@ echo "Ergebnisse unter: $OUTFILE, $LOGFILE, $UCIFILE und $CONFFILE"
 ~~~
 
 Noch ein Hinweis. In einer VM Umgebung die Netzwerkeinstellunng NAT kontrollieren und ggf. den Haken bei ip6 setzen oder den ip6 Präfix anpassen (2a06:8782:ffbb:1337::/64). Änderungen am Script bitte Kennzeichnen oder ab hier Anfügen.
+
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
