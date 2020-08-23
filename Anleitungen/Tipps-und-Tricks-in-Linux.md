@@ -111,14 +111,14 @@ Siehe: https://wiki.ubuntuusers.de/SSH/ oder 'man ssh_config'
 ~~~
 Lokaler Benutzer: ~/.ssh/config
 Systemweite Einstellung:  /etc/ssh/ssh_config
-~~~
+
 Reihenfolge der SSH Eingabe:
      ssh(1) obtains configuration data from the following sources in the following order:
            1.   command-line options
            2.   user's configuration file (~/.ssh/config)
            3.   system-wide configuration file (/etc/ssh/ssh_config)
 
-
+~~~
 
 *Der Linuxprofi kopiert den Schlüssel wie folgt auf den Router:*
 ~~~
