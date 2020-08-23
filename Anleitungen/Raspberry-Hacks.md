@@ -39,14 +39,14 @@ Warum Einzelteile?
 - Kühlkörper: sind immer gut und es gibt sie in Schick, Kupfer / vergoldet.
 - Lüfter: Es gibt besonders Geräuscharme Lüfter, Lüfter sind aber nicht erforderlich.
 - Kühlkörpergehäuse, aus meiner Sicht, der Burner :-) [(3B+)](https://www.elv.de/joy-it-armor-gehaeuse-block-fuer-raspberry-pi-3-schutz-und-kuehlung-zugleich.html?utm_source=google&utm_medium=cpc&refid=GShopping?Gads_Shopping&gclid=CjwKCAjwqZPrBRBnEiwAmNJsNvANtVXfqRuPLPLzGS2CqQdZXWmnE5eZbqIZUJrgTrRyzrFxdivcWRoC7MEQAvD_BwE) [(4B)](https://www.reichelt.de/gehaeuse-fuer-raspberry-pi-4-alu-schwarz-rpi-case-alu07-p261677.html?&trstct=pos_13)
-##                                                                                                  [Zurück zum Inhalt:](#inhalt)
+###                                                                                                  [Zurück zum Inhalt:](#inhalt)
 
 ### Erstinstallation
 Ich möchte nicht jedesmal einen Monitor und Tastatur anklemmen. Es funktioniert auch alles per serieller Schnittstelle oder über **SSH**.
 Ab 2016 sind jedoch beide Zugänge deaktiviert. In diesem Beispiel verwende ich 2018-11-13-raspbian-stretch-full.img oder neuer. Dieses Image wird auf die Mikro-SD geschrieben. Die Mikro-SD wird in einem Dateieditor geöffnet. Dort wird die Datei `config.txt` um den Eintrag `enable_uart=1` ergänzt. Jetzt steht nach dem Booten die serielle Schnittstelle zur Verfüfung. Für den sofortigen SSH Zugang wird eine leere Datei `ssh` (ohne .txt am Ende) angelegt. Nach dem Booten sehen wir auf unserem Heimrouter den angeschlossenen Pi und seine IP-Adresse. Jetzt SSH Zugriff starten. Beispiel pi@192.168.178.101 -p 22 unter Windows mit Putty/Kitty. user:`pi` pw:`raspberry`
 
 Die weiteren Konfigurationen im Terminal mit sudo `raspi-config` vornehmen.
-##                                                                                                  [Zurück zum Inhalt:](#inhalt)
+###                                                                                                  [Zurück zum Inhalt:](#inhalt)
 
 ### Erstinstallation Hinweise
 Image auf Micro-SD Karte schreiben. -> 2 Partitionen /boot & /rootfs & freier Platz je nach SD Größe.
@@ -56,7 +56,7 @@ Wenn die SD Karte gerade noch im Lesegerät steckt, gleich die Einstellugen für
 Natürlich können die Grudeinstellungen auch in der Image-Datei vorgenommen werden. Unter Windows evtl. mit dem Tool https://www.winimage.com/ das Image Bearbeiten.
 ##                                                                                                  [Zurück zum Inhalt:](#inhalt)
 
-### Virenscanner ClamAV installieren 
+#### Virenscanner ClamAV installieren 
 Wenn der Raspi mit dem Internet verbunden ist, sollte ein Virenscanner installiert werden.
 Weitere Infos unter: https://www.clamav.net/
 ~~~
@@ -71,7 +71,7 @@ Autoupdate einrichten über crontab, hinten anhängen:
 sudo crontab -e
 00 00 * * * clamscan -r /
 ~~~
-##                                                                                                  [Zurück zum Inhalt:](#inhalt)
+###                                                                                                  [Zurück zum Inhalt:](#inhalt)
 
 ### Netzteil
 Wird auf dem Monitor ein roter Blitz rechts oben eingeblendet, so liegt eine Unterspannung vor. Eine schlimme Folge ist, die Taktfrequenz wird runtergesetzt und der Pi ist deutlich langsamer.
