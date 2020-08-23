@@ -39,6 +39,7 @@ Warum Einzelteile?
 - Kühlkörper: sind immer gut und es gibt sie in Schick, Kupfer / vergoldet.
 - Lüfter: Es gibt besonders Geräuscharme Lüfter, Lüfter sind aber nicht erforderlich.
 - Kühlkörpergehäuse, aus meiner Sicht, der Burner :-) [(3B+)](https://www.elv.de/joy-it-armor-gehaeuse-block-fuer-raspberry-pi-3-schutz-und-kuehlung-zugleich.html?utm_source=google&utm_medium=cpc&refid=GShopping?Gads_Shopping&gclid=CjwKCAjwqZPrBRBnEiwAmNJsNvANtVXfqRuPLPLzGS2CqQdZXWmnE5eZbqIZUJrgTrRyzrFxdivcWRoC7MEQAvD_BwE) [(4B)](https://www.reichelt.de/gehaeuse-fuer-raspberry-pi-4-alu-schwarz-rpi-case-alu07-p261677.html?&trstct=pos_13)
+
 ### [-------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)
 
 ### Erstinstallation
@@ -46,7 +47,7 @@ Ich möchte nicht jedesmal einen Monitor und Tastatur anklemmen. Es funktioniert
 Ab 2016 sind jedoch beide Zugänge deaktiviert. In diesem Beispiel verwende ich 2018-11-13-raspbian-stretch-full.img oder neuer. Dieses Image wird auf die Mikro-SD geschrieben. Die Mikro-SD wird in einem Dateieditor geöffnet. Dort wird die Datei `config.txt` um den Eintrag `enable_uart=1` ergänzt. Jetzt steht nach dem Booten die serielle Schnittstelle zur Verfüfung. Für den sofortigen SSH Zugang wird eine leere Datei `ssh` (ohne .txt am Ende) angelegt. Nach dem Booten sehen wir auf unserem Heimrouter den angeschlossenen Pi und seine IP-Adresse. Jetzt SSH Zugriff starten. Beispiel pi@192.168.178.101 -p 22 unter Windows mit Putty/Kitty. user:`pi` pw:`raspberry`
 
 Die weiteren Konfigurationen im Terminal mit sudo `raspi-config` vornehmen.
-### -------------------------------------------------------------------------------- [Zurück zum Inhalt:](#inhalt)
+### [-------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)
 
 ### Erstinstallation Hinweise
 Image auf Micro-SD Karte schreiben. -> 2 Partitionen /boot & /rootfs & freier Platz je nach SD Größe.
@@ -54,7 +55,7 @@ Image auf Micro-SD Karte schreiben. -> 2 Partitionen /boot & /rootfs & freier Pl
 Wenn die SD Karte gerade noch im Lesegerät steckt, gleich die Einstellugen für Netzteil, Monitor und serielle Konsole in die `/boot/config.txt` eintragen, leere Datei ssh anlegen (aktiviert den SSH Zugang).
 
 Natürlich können die Grudeinstellungen auch in der Image-Datei vorgenommen werden. Unter Windows evtl. mit dem Tool https://www.winimage.com/ das Image Bearbeiten.
-### -------------------------------------------------------------------------------- [Zurück zum Inhalt:](#inhalt)
+### [-------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)
 
 #### Virenscanner ClamAV installieren 
 Wenn der Raspi mit dem Internet verbunden ist, sollte ein Virenscanner installiert werden.
@@ -71,7 +72,7 @@ Autoupdate einrichten über crontab, hinten anhängen:
 sudo crontab -e
 00 00 * * * clamscan -r /
 ~~~
-### -------------------------------------------------------------------------------- [Zurück zum Inhalt:](#inhalt)
+### [-------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)
 
 ### Netzteil
 Wird auf dem Monitor ein roter Blitz rechts oben eingeblendet, so liegt eine Unterspannung vor. Eine schlimme Folge ist, die Taktfrequenz wird runtergesetzt und der Pi ist deutlich langsamer.
@@ -84,7 +85,7 @@ avoid_warnings=2
 ~~~
 Achtung: Bei zu geringer Betriebsspannung funktionieren keine externen USB Festplatten. Hier ist ein Raspi Netzteil mit 5,1V zu Verwenden.
 Laut Spezifikation benötigt der Raspberry Pi eine Spannung von 4,75 – 5,25 Volt. Meine Empfehlung ist folgendes Netzteil: [(3B+ USB)](https://www.reichelt.de/raspberry-pi-ladegeraet-5-v-2-5-a-micro-usb-schwarz-rasp-nt-25-sw-e-p240934.html?&trstct=pos_5) oder [(4B USB-C)](https://www.reichelt.de/raspberry-pi-netzteil-5-1-v-3-0-a-usb-type-c-eu-stecker-s-rpi-ps-15w-bk-eu-p260010.html?&trstct=pos_3)
-###                                                                           [Zurück zum Inhalt:](#inhalt)
+### [-------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)
 
 ### Monitor
 Viele Monitore funktionieren nicht korrekt am Raspi. Der häufigste Fehler ist der schwarze Rand, also ein kleiners Bild. Viele Monitorprobleme können über die Datei /boot/config.txt korrigiert werden. Probleme mit dem ZERO liegen häufig am Mini-HDMI-Adapter. Es sollen nur wenige funktionieren. Bitte auf den richtigen Adapter achten. https://www.rasppishop.de/Raspberry-Pi-Zero-Hdmi-Adapter-mini-Hdmi-zu-Hdmi
@@ -93,6 +94,8 @@ sudo nano /boot/config.txt
 
 disable_overscan=1
 ~~~
+### [-------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)
+
 ### Serielle Schnittstelle
 Die serielle Schnittstelle auf der GPIO Leiste wird mit folgendem Eintrag aktiviert.
 ~~~
