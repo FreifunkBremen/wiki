@@ -19,7 +19,8 @@ Alternativ den Bootvorgang auf der seriellen Konsole mitschneiden. Dort können 
 
 [Teil 1 unbrick seriell](#vorbereitungen)
 
-[Teil 2 unbrick TFTP Archer C7](#inhalt_Unbrick Anleitung TP-Link Archer C7 v2)
+[Teil 2 unbrick TFTP Archer C7](#unbrick-anleitung-tp-link-archer-c7-v2)
+
 
 ## Vorbereitungen
 
@@ -76,7 +77,7 @@ systemctl start tftpd.socket
 Standardmäßig ist das Verzeichnis des FTP-Servers unter Arch /srv/tftp/, hier gilt es also das ***passende*** Image hin zu kopieren. 
 Mit netstat und ps aux | grep tftp prüfen, ob Server wirklich läuft
 
-# Console öffnen
+# Konsole öffnen
 Sobald der Router startet müssten wir Ausgaben in der Console sehen (er rebootet ständig). Nun hämmern wir die Buchstaben "tpl" in das serielle Fenster, damit wir eine Console bekommen.
 
 ## Netzwerkschnittstellen Konfigurieren
@@ -127,7 +128,7 @@ Nun solltet ihr wieder einen ansprechbaren Router haben!
 Wer die Unbrickaktion des öfteren durchführt, sollte sich z.B. in der Bucht einen USB-TTL Adapter für ca. 1€ zulegen.
 
 
-#Unbrick Anleitung TP-Link Archer C7 v2
+# Unbrick Anleitung TP-Link Archer C7 v2
 
 siehe hier: https://forum.dd-wrt.com/phpBB2/viewtopic.php?t=275635&postdays=0&postorder=asc&start=0
 
