@@ -9,15 +9,14 @@ Damit uns Linux nicht frustriert, hier ein paar hilfreiche Tipps und Tricks.
 Die folgen Tipps vereinfachen uns den Umgang mit Linux, was aber auch zur Folge hat, das wir ein bischen Winblöd werden.
 
 ## Inhalt:
-
--[VM-Tools](#vm-tools)
--[Alias](#alias)
--[SSH Login auf einem Router vereinfachen.](#ssh-login-auf-einem-router-vereinfachen)
--[32 Bit oder 64 Bit](#32-bit-oder-64-bit)
--[Icons auf dem Desktop](#icons-auf-dem-desktop)
--[Klassische Startleiste](#klassische-startleiste)
--[IP v6 Adresse des angeschlossenen Routers](#ip-v6-adresse-des-angeschlossenen-routers)
--[Security Check : Routerkonfiguration auslesen](#security-check-routerkonfiguration-auslesen)
+- [VM-Tools](#vm-tools)
+- [Alias](#alias)
+- [SSH Login auf einem Router vereinfachen.](#ssh-login-auf-einem-router-vereinfachen)
+- [32 Bit oder 64 Bit](#32-bit-oder-64-bit)
+- [Icons auf dem Desktop](#icons-auf-dem-desktop)
+- [Klassische Startleiste](#klassische-startleiste)
+- [IP v6 Adresse des angeschlossenen Routers](#ip-v6-adresse-des-angeschlossenen-routers)
+- [Security Check : Routerkonfiguration auslesen](#security-check-routerkonfiguration-auslesen)
 
 ----
 
