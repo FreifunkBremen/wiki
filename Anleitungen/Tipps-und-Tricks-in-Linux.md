@@ -20,6 +20,10 @@ Die folgen Tipps vereinfachen uns den Umgang mit Linux, was aber auch zur Folge 
 
 ----
 
+[[_TOC_]]
+
+
+----
 ### VM-Tools
 Wenn ich ein Linux in einem VM-Player verwende (Gast-System), kann es Sinnvoll sein, einen Order freizugeben oder einen Ordner vom Laptop (Host-System) einzubinden. Hierzu gibt es die VM-Tools, die natürlich noch mehr können als nur Orden freizugeben. Kopieren und Einfügen von Text, Bildern und Dateien zwischen Host- und Gastcomputer sowie Verbesserung der Maus. Die Installation ist je nach Player etwas anders, hier die beiden häufigsten Methoden:
 
