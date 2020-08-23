@@ -9,22 +9,9 @@ Zum Auszuprobieren reicht es aber aus. Pro Audiostream werden 20% Leistung beim 
 
 
 ## Inhalt:
-
-
-[1.) Allgemeines](#inhalt_1-allgemeines)
-
-[2.) Voraussetzungen](#inhalt_2-voraussetzungen)
-
-[3.) Installation Icecast & Ices](#inhalt_3-installation)
-
-4.) Konfiguration [Icecast](#inhalt_4-konfiguration-icecast) & [Ices](#inhalt_4-konfiguration-ices)
-
-[5.) FAQ](#inhalt_5-faq)
-
-[6.) Relay-Server](#inhalt_6-relay-server)
+[[_TOC]]
 
 ----
-
 
 ### 1.) Allgemeines
 
