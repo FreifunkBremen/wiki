@@ -70,6 +70,7 @@ sudo leafpad /etc/bash.bashrc
 ~~~
 
 Wird dort das Alias-Beispiel von oben eingetragen, ist dieses für alle Benutzer gültig. Die globale Vorgabe wird durch die lokale Einstellung des Benutzers überschrieben. Die lokale Einstellung wird im Homeverzeichnis des Benutzers unter .bashrc vorgenommen.
+
 ### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
 
 ### SSH Login auf einem Router vereinfachen.
@@ -108,7 +109,8 @@ Systemweite Einstellung:  /etc/ssh/ssh_config
 ~~~
 cat ~/.ssh/ffhb.pub | ssh root@fe80::6a72:51ff:fe04:f52e%en1 'cat >> /etc/dropbear/authorized_keys'
 ~~~
-ffhb.pub war der öffentliche Schlüssel, den wir weiter oben generiert haben. Damit der Befehl auch tatsächlich auf dem Router ausgeführt wird, muss noch ein leztes Mal das Passwort eingegeben werden, aber anschließend nutzen alle Logins den Schlüssel. ### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
+ffhb.pub war der öffentliche Schlüssel, den wir weiter oben generiert haben. Damit der Befehl auch tatsächlich auf dem Router ausgeführt wird, muss noch ein leztes Mal das Passwort eingegeben werden, aber anschließend nutzen alle Logins den Schlüssel. 
+### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
 
 ### 32 Bit oder 64 Bit
 
@@ -135,12 +137,15 @@ cat /proc/cpuinfo | grep lm
 keine Ausgabe = 32 Bit
 ~~~
 Diese Abfrage ist wichtig, da alle Anleitungen zum Offloader das 32Bit Generic Image verwenden. Die kleinen Thin-Clients können aber 64Bit. Das Tuning bringt 1/1000 mehr Geschwindigkeit.
+### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
 
 ### Icons auf dem Desktop
 Mit Icons auf dem Desktop sollte man Sparsam sein. Wer Icons auf dem Desktop haben möchte, kann wie folgt vorgehen. Bei Ubuntu liegt am linken Rand der Starter. Das erste Icon oben ist die Suchfunktion. Alle dort angezeigten Icons können direkt auf den Desktop gezogen werden.
+### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
 
 ### Klassische Startleiste
 Nicht alle erfreuen sich an dem neuen Starter. Einfach über das Softwarecenter nach ClassicMenue Indicator' oder 'Startleiste' suchen, installieren, freuen.
+### [------------------------------------------------------------------------------------------ Zurück zum Inhalt:](#inhalt)
 
 ### IP v6 Adresse des angeschlossenen Routers
 Wir wollen die IPv6 Adresse des Routers finden. Dazu einfach im Terminal eingeben (sofern per WLAN mit Freifunknetz verbunden): (Vorweg: *%en1* ist der Bezeichner für das Interface, über das verbunden werden soll. Hier Ethernet 1....kann auch 0 oder 2 ... oder ein ganz anderes Interface sein. Im Zweifel *"ifconfig"* oder *"ip addr show"* eingeben und die Bezeichnung der Interfaces checken). Mein *%en0* Interface ist z.B *enp0s25*
