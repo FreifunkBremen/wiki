@@ -77,15 +77,24 @@ Siehe auch: http://wiki.bremen.freifunk.net/Anleitungen/SSH-Node-Verwaltung.
 
 Normalerweise öffnen wir eine SSH Verbindung in der Konsole mit 'SSH root@ipv6', dann Passwort oder Passphrase.
 Das möchte ich vereinfachen.
-Schritt 1. SSH Key ohne Passphrase anlegen.
+
+Schritt 1. SSH Key ohne Passphrase anlegen. (! Verminderte Sicherheit!)
 Konsole öffen, mit 'cd ~./ssh' in das Verzeichnis wechseln, wo unsere Keys abgelegt werden sollen.
-Schlüsselpaar generieren mit: 'ssh-keygen -t rsa', als Namen z.B. ffhb angeben. Es werden nun ein privater Schlüssel ffhb und ein öffentlicher Schlüssel ffhb.pub im Verzeichnis ./ssh angelegt.
+Schlüsselpaar generieren mit: 'ssh-keygen -t rsa', als Namen z.B. ffhb angeben. Es werden nun ein privater Schlüssel ffhb und ein öffentlicher Schlüssel ffhb.pub im Verzeichnis ./ssh angelegt. Der Privatekey ist im Format für OpenSSH, für Windows ist dieser noch in das Putty-Formart *.ppk zu Konvertieren. 
 Den öffentlichen Schlüssel kopieren wir nun auf unseren Router.
-Bisher bekanntes SSH Login auf den Router, wechseln nach 'cd /etc/dropbear'. Öfnnen der Datei authorized_keys mit vi 'vi authorized_keys'
+Bisher bekanntes SSH Login auf den Router, dann wechseln nach 'cd /etc/dropbear'. Öfnnen der Datei authorized_keys mit vi 'vi authorized_keys'
 Am Ende der Datei unseren Schlüssel kopieren und Speichern. Mit 'chmod 0600 authorized_keys' die Dateirechte setzen.
 Auf unserem Rechner fügen wir in die Datei '~/.bash_aliases' unser neues Alias ein.
 z.B. alias router='ssh root@ipv6' und speichern.
 In einer neuen Konsole bekommen wir nur durch die Eingabe von 'router' sofort eine SSH Verbindung zu unserem Router.
+Beispiel:
+~~~
+alias myrouter='sudo ssh -B enx00e04c720f41 -i /home/ffhb/.ssh/ffhb -6 2a06:8782:ffbb:1337:219:99ff:fe7a:6f26'
+- Wenn wir kein root sind, start mit sudo ssh
+- B Netzwerkkarte, falls mehr als eine mögliche Verbindung, Interface angeben.
+- i Pfad auf Schlüssel
+- 6 IP-v6 Adresse unseres Routers
+~~~
 
 *Alternative Lösung:*
 Wir legen im Ordner '~/.ssh/' eine Textdatei namens config an. In diese Datei kopieren wir folgende Zeilen.
@@ -103,6 +112,13 @@ Siehe: https://wiki.ubuntuusers.de/SSH/ oder 'man ssh_config'
 Lokaler Benutzer: ~/.ssh/config
 Systemweite Einstellung:  /etc/ssh/ssh_config
 ~~~
+Reihenfolge der SSH Eingabe:
+     ssh(1) obtains configuration data from the following sources in the following order:
+           1.   command-line options
+           2.   user's configuration file (~/.ssh/config)
+           3.   system-wide configuration file (/etc/ssh/ssh_config)
+
+
 
 *Der Linuxprofi kopiert den Schlüssel wie folgt auf den Router:*
 ~~~
