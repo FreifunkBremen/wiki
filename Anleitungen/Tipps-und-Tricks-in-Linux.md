@@ -23,9 +23,8 @@ Die folgen Tipps vereinfachen uns den Umgang mit Linux, was aber auch zur Folge 
 [[_TOC_]]
 
 ----
-[[_TOC_ depthTo:2 orderedList:true]]
+[[vor _TOC_ nach]]
 
-[[test !TOC]]
 
 ----
 ### VM-Tools
