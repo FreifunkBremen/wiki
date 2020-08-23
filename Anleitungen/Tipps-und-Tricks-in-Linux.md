@@ -11,21 +11,21 @@ Die folgen Tipps vereinfachen uns den Umgang mit Linux, was aber auch zur Folge 
 ## Inhalt:
 
 
-[VM-Tools](#inhalt_vmtools)
+[VM-Tools](#vmtools)
 
-[Alias](#inhalt_alias)
+[Alias](#alias)
 
-[SSH Login auf einem Router vereinfachen.](#inhalt_ssh-login-auf-einem-router-vereinfachen)
+[SSH Login auf einem Router vereinfachen.](#ssh-login-auf-einem-router-vereinfachen)
 
-[32 Bit oder 64 Bit](#inhalt_32-bit-oder-64-bit)
+[32 Bit oder 64 Bit](#32-bit-oder-64-bit)
 
-[Icons auf dem Desktop](#inhalt_icons-auf-dem-desktop)
+[Icons auf dem Desktop](#icons-auf-dem-desktop)
 
-[Klassische Startleiste](#inhalt_klassische-startleiste)
+[Klassische Startleiste](#klassische-startleiste)
 
-[IP v6 Adresse des angeschlossenen Routers](#inhalt_ip-v6-adresse-des-angeschlossenen-routers)
+[IP v6 Adresse des angeschlossenen Routers](#ip-v6-adresse-des-angeschlossenen-routers)
 
-[Security Check : Routerkonfiguration auslesen](#inhalt_security-check-routerkonfiguration-auslesen)
+[Security Check : Routerkonfiguration auslesen](#security-check-routerkonfiguration-auslesen)
 
 ----
 
