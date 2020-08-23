@@ -17,7 +17,7 @@ Dieses erfolgt oft so schnell, dass der angeschlossene PC dies nicht mitbekommt.
 **TFTP IP-Adressen:** Jedes Modell verwendet eigene Adressen. Die Adressen für den unbrick finden sich unter: https://openwrt.org/toh/start
 Alternativ den Bootvorgang auf der seriellen Konsole mitschneiden. Dort können wir die IP Adressen und das zu ladene Image ablesen.
 
-[Teil 1 unbrick seriell](#inhalt:Vorbereitungen)
+[Teil 1 unbrick seriell](#Vorbereitungen)
 
 [Teil 2 unbrick TFTP Archer C7](#inhalt_Unbrick Anleitung TP-Link Archer C7 v2)
 
