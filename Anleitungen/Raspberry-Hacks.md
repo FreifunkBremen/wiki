@@ -263,6 +263,8 @@ sudo raspi-config
 In den Homeverzeichnissen der angelegten Benutzer das Verzeichnis .ssh erstellen. Dorthin die Datei authorized_keys mit unserem Schlüssel kopieren.
 
 Die Konfigurationen unter /etc/ssh werden nicht angefasst. Deren Funktion ist für den SSH Zugriff nicht genau geklärt, alle Einstellungen sind auskommentiert. (Forschungsarbeit notwendig). So wie es aussieht, sind diese Konfigdateien für ältere Raspbian-Versionen gedacht. Auf der aktuellen Version ist es schon automatisch aktiv.
+siehe auch: [https://wiki.bremen.freifunk.net/Anleitungen/Tipps-und-Tricks-in-Linux.md#alias](https://wiki.bremen.freifunk.net/Anleitungen/Tipps-und-Tricks-in-Linux.md#alias)
+siehe auch: [https://wiki.bremen.freifunk.net/Anleitungen/Tipps-und-Tricks-in-Linux.md#ssh-login-auf-einem-router-vereinfachen](https://wiki.bremen.freifunk.net/Anleitungen/Tipps-und-Tricks-in-Linux.md#ssh-login-auf-einem-router-vereinfachen)
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
