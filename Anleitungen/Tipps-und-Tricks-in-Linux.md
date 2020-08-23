@@ -10,7 +10,7 @@ Die folgen Tipps vereinfachen uns den Umgang mit Linux, was aber auch zur Folge 
 
 ## Inhalt:
 
-[VM-Tools](#vmtools)
+[VM-Tools](#vm-tools)
 
 [Alias](#alias)
 
