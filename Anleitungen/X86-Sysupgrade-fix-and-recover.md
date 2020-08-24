@@ -287,7 +287,7 @@ root@ffhb-0013490bd9f6:~#
 Das ist echt cool :-)
 
 
-###Upgradefest, Upgrade-Fest
+### Upgradefest, Upgrade-Fest
 Es wird immer wieder die Frage gestellt, wie man Pakete upgradesicher installieren kann. Achtung: In der Frage ist bereits ein fataler Fehler enthalten. Nicht die Pakete sind es, sondern die Konfiguration soll erhalten bleiben. Mit einem Sysupgrade können neuere Pakete bereitgestellt werden.
 
 Nach einem sysupgrade installieren wir die zusätzlichen Pakete neu. Wir können uns hierfür eine Favoritenliste oder ein Script basteln.
