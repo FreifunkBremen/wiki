@@ -47,6 +47,6 @@ Hier nun einige Beispiele, es sollte eine korreckte Beipielanzeige dargestellt w
 [[_TOC_]]
 
 ~~~
-\[[_TOC_]]
-Diese Angabe erzeugt automatisch ein Inhaltsverzeichnis aus allen Überschriften die mit # ## ### beginnen.
+\[\[_TOC_]]
+Diese Angabe ohne \ erzeugt automatisch ein Inhaltsverzeichnis aus allen Überschriften die mit # ## ### beginnen.
 ~~~
