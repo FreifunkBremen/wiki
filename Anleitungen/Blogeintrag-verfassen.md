@@ -82,4 +82,11 @@ Normale WLAN-Antenne 2,4 Ghz  :  Externer Link
 ~~~
 
 
+~~~
+Diese Umrandung ist dabei wichtig:
+![Bild](#/preview)   Ersetze das # durch den Link.
+<img src="#/preview">
+~~~
 
+
+----
