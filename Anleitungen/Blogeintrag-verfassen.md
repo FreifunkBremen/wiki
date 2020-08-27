@@ -13,13 +13,26 @@ Hier nun einige Beispiele, es sollte eine korreckte Beipielanzeige dargestellt w
 
 ## Inhalt:
 - [Kapitel 1](#kapitel-1)
-- [Kapitel 1.1](#kapitel-1.1)
+- [Kapitel 1.1](#kapitel-1-1)
   - [Kapitel 2](#kapitel-2)
-  - [Kapitel 2.1](#kapitel-2.1)
+  - [Kapitel 2.1](#kapitel-2-1)
 
 ## Kapitel 1
 ### Kapitel 1.1
 ## Kapitel 2
 ### Kapitel 2.1
+
+~~~
+## Inhalt:  (Leerzeichen zwischen # und Text)
+- [Kapitel 1](#kapitel-1)  (Leerzeichen Sonderzeichen durch Minus Ersetzen)
+- [Kapitel 1.1](#kapitel-1-1)
+  - [Kapitel 2](#kapitel-2)   (Einrücken erzeugt Untermenüs)
+  - [Kapitel 2.1](#kapitel-2-1)
+
+## Kapitel 1
+### Kapitel 1.1
+## Kapitel 2
+### Kapitel 2.1
+~~~
 
 
