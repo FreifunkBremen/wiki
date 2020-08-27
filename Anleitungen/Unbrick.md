@@ -153,8 +153,10 @@ Für andere Modelle ein entsprechendes Image suchen.
 Über den tftp Server wird die Firmware auf das Gerät gespielt und das sollte automatisch passieren. Zuerst eine passende tftp Version installieren, die gibt es hier: http://tftpd32.jounin.net/tftpd32_download.html
 
 Bild: ![cp210-UART](https://cloud.ffhb.de/index.php/s/HS65Ac4Ytes44aw/preview)
+
 <img src="https://cloud.ffhb.de/index.php/s/HS65Ac4Ytes44aw/preview">
-[CP210-UART-Treiber](https://www.silabs.com/products/development-tools/software/direct-access-drivers)
+
+![CP210-UART-Treiber](https://www.silabs.com/products/development-tools/software/direct-access-drivers)
 
 Der tftp Server soll an eurer LAN Schnittstelle lauschen, das macht er jedoch nur, wenn die LAN Schnittstelle auf **"up"** ist. (Ist diese auf up, dann ist es ausreichend, wenn er auf der Loopbackadresse 127.0.0.1 läuft). Also jetz einen Link zum Ethernet Switch herstellen. 
 
