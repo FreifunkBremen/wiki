@@ -48,5 +48,20 @@ Hier nun einige Beispiele, es sollte eine korreckte Beipielanzeige dargestellt w
 
 ~~~
 \[\[_TOC_]]
-Diese Angabe ohne \ erzeugt automatisch ein Inhaltsverzeichnis aus allen Überschriften die mit # ## ### beginnen.
+Diese Angabe ohne \ erzeugt automatisch ein Inhaltsverzeichnis aus allen 
+Überschriften die mit # ## ### beginnen.
+~~~
+
+----
+
+## Bilder Einfügen und Verlinken
+
+![WLAN Dipol](http://martybugs.net/wireless/images/ducky_element_tn.jpg)
+
+Normale WLAN-Antenne 2,4 Ghz
+
+~~~
+![WLAN Dipol](http://martybugs.net/wireless/images/ducky_element_tn.jpg)
+
+Normale WLAN-Antenne 2,4 Ghz  :  Externer Link
 ~~~
