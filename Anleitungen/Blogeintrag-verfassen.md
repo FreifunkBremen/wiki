@@ -11,6 +11,13 @@ Hier nun einige Beispiele, es sollte eine korreckte Beipielanzeige dargestellt w
 - vor Listen muss eine Freizeile gelassen werden
 ~~~
 
+----
+
+~~~
+---- 4 Minus erzeugt eine Trennlinie
+~~~
+
+
 ## Inhalt:
 - [Kapitel 1](#kapitel-1)
 - [Kapitel 1.1](#kapitel-1-1)
