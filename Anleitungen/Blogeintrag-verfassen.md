@@ -42,4 +42,11 @@ Hier nun einige Beispiele, es sollte eine korreckte Beipielanzeige dargestellt w
 ### Kapitel 2.1
 ~~~
 
+----
 
+[[_TOC_]]
+
+~~~
+[[_TOC_]]
+Diese Angabe erzeugt automatisch ein Inhaltsverzeichnis aus allen Überschriften die mit # ## ### beginnen.
+~~~
