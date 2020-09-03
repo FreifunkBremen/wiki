@@ -150,7 +150,8 @@ Für den TP-Link Archer C7 v2 auf der Herstellerseite das passende Image herunte
 Image z.B. hier: https://static.tp-link.com/Archer%20C7(EU)_V2_170803.zip
 oder hier: https://static.tp-link.com/res/down/soft/Archer_C7(EU)_V2_160616.zip
 Für andere Modelle ein entsprechendes Image suchen.
-Supportseite TP-Link: https://www.tp-link.com/de/support/download/archer-c7/
+
+[Supportseite TP-Link:](https://www.tp-link.com/de/support/download/archer-c7/) https://www.tp-link.com/de/support/download/archer-c7/
 
 ## tftp
 Über den tftp Server wird die Firmware auf das Gerät gespielt und das sollte automatisch passieren. Zuerst eine passende tftp Version installieren, die gibt es hier: http://tftpd32.jounin.net/tftpd32_download.html
