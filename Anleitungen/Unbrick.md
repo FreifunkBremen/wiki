@@ -1,6 +1,8 @@
 # Unbrick Anleitung TP-Link
 [[_TOC_]]
 
+----
+## Einleitung:
 Sobald der Router eine Firmware mit der falschen Versions- oder Modellnummer abbekommt, hat man schnell einen Briefbeschwerer.
 
 Diese Anleitung konzentriert sich im ersten Teil auf das Flashen/Retten des Router über die serielle Schnittstelle, im zweiten Teil über Failsafe per TFTP.
@@ -53,7 +55,7 @@ Dabei erfolgt das Verbinden wie folgt:
 * Router GND -> Wandler GND
 * Router VCC nichts mit machen
 
-### Was tun bei 5V Wandler?
+### Was tun beim 5V Wandler?
 Die Pegel des Router laufen nur bei 3.3V, es muss also gewandelt werden. Am einfachsten geht das mit einem Spannungsteiler am RX-Pin des Routers.
 Schaltung wie folgt:
 
@@ -127,8 +129,7 @@ Nun solltet ihr wieder einen ansprechbaren Router haben!
 
 ### Für Unbrickprofis
 
-Wer die Unbrickaktion des öfteren durchführt, sollte sich z.B. in der Bucht einen USB-TTL Adapter für ca. 1€ zulegen.
-
+Wer die Unbrickaktion des öfteren durchführt, sollte sich z.B. in der Bucht einen USB-TTL Adapter für ca. 1€ zulegen. Der USB-TTL-Adapter für den Raspberry funktioniert auch sehr gut.
 
 # Unbrick Anleitung TP-Link Archer C7 v2
 
@@ -143,7 +144,7 @@ Folgende Dinge werden benötigt:
 * Einen Computer mit ein paar Programmen
 
 ## Vorgeschichte
-Fast alle Router haben einen failsaverecover. Der schreibgeschützte Bootloader des Routers versucht kurz eine Verbindung von **LAN1** ( erster gelbe Port) zu einem tftp Server herzustellen und ein entsprechendes recover.bin zu laden. Dazu hat der Router kurz die IP Adress **192.168.0.86** und schaut auf die Serveradresse **192.168.0.66**, sofern ein **Link** vorhanden ist.
+Fast alle Router haben einen Failsaverecover. Der schreibgeschützte Bootloader des Routers versucht kurz eine Verbindung von **LAN1** ( erster gelber Port) zu einem tftp Server herzustellen und ein entsprechendes **recover.bin** zu laden. Dazu hat der Router kurz die IP Adresse **192.168.0.86** und schaut auf die Serveradresse **192.168.0.66**, sofern ein **Link** vorhanden ist. Der Router ist ggf. schneller als die PC-Lanschnittstelle auf up ist. Da hilft es, einen Switch dazwischen zu Schalten.
 
 ## Recovery Image
 Für den TP-Link Archer C7 v2 auf der Herstellerseite das passende Image herunterladen und entpacken. Das entpackte Binary in ArcherC7v2_tp_recovery.bin umbenennen.
