@@ -154,6 +154,8 @@ Für andere Modelle ein entsprechendes Image suchen.
 
 [Supportseite TP-Link:](https://www.tp-link.com/de/support/download/archer-c7/) https://www.tp-link.com/de/support/download/archer-c7/
 
+Das Recover-Image für den Archer C7 v5 ist: ArcherC7v5_tp_recovery.bin
+
 ## tftp
 Über den tftp Server wird die Firmware auf das Gerät gespielt und das sollte automatisch passieren. Zuerst eine passende tftp Version installieren, die gibt es hier: http://tftpd32.jounin.net/tftpd32_download.html
 
@@ -176,7 +178,7 @@ Den Port 1 (erster gelber Port) des TP-Link Archer C7v2 und den den LAN Port des
 Den Reset-Knopf ca. 5-10 Sekunden gedrückt halten. Wenn die Verbindungslampe vom Switch leuchtet (Kabelverbindung zum Archer), ~~dann loslassen~~ grückt halten, bis das Recyclingsymbol ganz rechts leuchtet. Sofort startet der Imagedownload. Ist dieses abgeschlossen, bootet der Archer und ist im Originalzustand. Ggf. wiederholen.
 Der Zugriff erfolgt über 192.168.0.1 admin/admin. 
 
-Bild: ![tftp-Download](https://cloud.ffhb.de/index.php/s/3RRwy3CsBxcHJyg/preview)
+Bild: ![tftp-Download](https://cloud.ffhb.de/index.php/s/ZqyafdpgQtLbaAM/preview)
 
 Wir öffnen die Einstellung sysupgrade im Router und kopieren unser Freifunkimage drauf. Ist unser PC noch angeschlossen, das LAN Interface von 192.168.0.66 jetzt auf 192.168.1.66 ändern.
 
