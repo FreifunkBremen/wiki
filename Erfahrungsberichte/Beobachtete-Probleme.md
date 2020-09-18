@@ -20,6 +20,7 @@ Trag möglichst viele Details ein: was genau hast du beobachtet, wann war das, w
 
 Nächste Schritte:
 * gib mal einen Download-Link, mit dem das messbar ist
+* wie viel langsamer ist der Freifunk-Anschluss denn? Und wie schnell ist der normale Internet-Anschluss?
 * tritt das zu beliebigen Zeiten auf, oder nur zu bestimmten Zeiten?
 * tritt das nur mit bestimmten VPN-Gateways auf?
 * tritt das nur an bestimmten Knoten oder mit bestimmten Knoten-Modellen auf?
