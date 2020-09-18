@@ -133,6 +133,10 @@ uci commit
 wifi 
 einstellen.
 
+### Schlachthof-Knoten sind aus dem Internet über HTTP nicht erreichbar
+Seiten wie http://schlachthof-dachboden.nodes.ffhb.de/ sind jetzt (2020-09-18 21:30) aus dem Internet nicht erreichbar (der Browser lädt ewig). Aus dem Freifunk-Netz sind die Seiten aber problemlos zu erreichen!
+
+Das gilt anscheinend für alle Seiten, die über den Schlachthof angebunden sind.
 
 ## Gelöste Probleme
 
@@ -185,7 +189,7 @@ Ist das so richtig? Bei anderen Geräten sehe ich das nicht.
 Liegt wohl an 11s, dass nur ein * anstatt mesh.ffhb.net abgestrahlt wird.
 
 
-### UBNT AC-Mesh nur 2,4Ghz Mesh
+### UBNT AC-Mesh nur 2,4Ghz Mesh (Gelöst)
 
 Bei der Erstinstallation kann es vorkommen, dass nur 2,4Ghz Mesh übernommen wird.
 Lösung: Datei /etc/config/network prüfen, ob beide Einträge vorhanden sind.
