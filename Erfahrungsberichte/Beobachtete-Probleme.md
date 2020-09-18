@@ -133,7 +133,73 @@ uci commit
 wifi 
 einstellen.
 
-### Update geht nicht mehr [hias 2020-08-19]
+
+## Gelöste Probleme
+
+### [Gelöst] logread zeigt "fastd[1999]: resolving host `vpn01.bremen.freifunk.net' failed: Try again"
+Übliche Ursache: der Knoten versucht, eine VPN-Verbindung aufzubauen, aber er hat keinen direkten Internetzugang.
+- deshalb: am besten Mesh-VPN ausschalten, wenn der Knoten eh definitiv kein VPN aufbauen soll; das reduziert den Log-Spam
+- abschalten geht per "/etc/init.d/fastd stop ; uci set fastd.mesh_vpn.enabled='0'; uci commit fastd"
+
+### [gelöst] DNS kaput
+Namensauflösung funktioniert im FF nicht mehr.
+betrifft clients und knoten.
+2020-05-01
+Zwischen 15:00 - 16:30 aufgetreten.
+Siehe Tagesordnung Freffen
+https://wiki.bremen.freifunk.net/Treffen/2020_05_01
+
+Lösung: Fehlerhaftes Script auf allen DNS-Servern wurde korrigiert.
+
+### [Gelöst] `okpg update` läuft nicht durch, wenn der Knoten mit vpn2 oder vpn5 verbunden ist
+Dieses Problem wurde in https://tasks.ffhb.de/T357 ("IPv6-Pakete mit bestimmten Größen werden nicht zuverlässig übertragen") weiter untersucht und gelöst.
+
+Das Symptom war, dass IPv6-TCP-Pakete mit Paketgrößen zwischen 1343 und 1366 Bytes (inklusive) nicht übertragen wurden, wenn der Knoten an vpn2 oder vpn5 hing.
+
+Das Problem war am Ende, dass ein Tunnel zwischen vpn2 bzw. vpn5 und dem ipv6-downlink-Host eine falsche MTU hatte.
+
+### Ausfälle (Loop?) morgens am 25.3.2020 (Anscheinend Gelöst)
+* von hias beobachtet
+* hoher ICMP6 durchsatz[2], Hinweise auf loop in den Logs[3], Was war da los, Wurde was unternommen um es zu beheben und wenn ja, Was?
+* hat sich anscheinend von selbst wieder gelöst
+
+Anmerkungen:
+* 1: https://grafana.bremen.freifunk.net/d/000000011/multicast?orgId=1&from=1585094038403&to=1585129298085&var-protocol=All
+* 2: https://grafana.bremen.freifunk.net/d/000000001/globals?orgId=1&from=1585094038403&to=1585129298085
+* 3: kern.warn kernel: (...) br-client: received packet on bat0 with own address as source address
+
+### SSH-Verbindungen zum Knoten bleiben hängen (anscheinend gelöst)
+Wenn man sich per SSH aus dem Internet zu einem Knoten verbindet und dort große Datenmengen übertragen werden (z.B. durch Ausführen von `logread` und Scrollen), bleibt die SSH-Verbindung hängen.
+
+- das sind IPv6-Verbindungen (weil die Knoten nur über IPv6 erreichbar sind)
+- könnte ein MTU-Problem sein
+
+Lässt sich auch hier mit in Verbindung bringen: "TL-MR3020 v1 hängt sich bei Upgrade auf (hias)"
+
+Nachtrag: lag vmtl. doch an T357, was nicht rebootfest gelöst worden war.
+
+### UBNT AC-Mesh ohne SSID (Gelöst)
+Bei meinem UBNT AC-M werden bei den Meshkanälen als SSID * angezeigt.
+Ist das so richtig? Bei anderen Geräten sehe ich das nicht.
+
+Liegt wohl an 11s, dass nur ein * anstatt mesh.ffhb.net abgestrahlt wird.
+
+
+### UBNT AC-Mesh nur 2,4Ghz Mesh
+
+Bei der Erstinstallation kann es vorkommen, dass nur 2,4Ghz Mesh übernommen wird.
+Lösung: Datei /etc/config/network prüfen, ob beide Einträge vorhanden sind.
+~~~
+config interface 'mesh_radio0'
+	option proto 'gluon_mesh'
+
+config interface 'mesh_radio1'
+	option proto 'gluon_mesh'
+~~~
+
+
+
+### Update geht nicht mehr [hias 2020-08-19] (Gelöst)
 #### autoupdater: warning: error downloading manifest: Connection failed
 Bis jetzt nur auf 841er getestet an zwei verschiedenen Knoten / Stnadorten. Problem war gestern schon da.
 Brange: testing
@@ -204,69 +270,9 @@ Retrieving manifest from http://downloads.bremen.freifunk.net/firmware/testing/s
 No new firmware available.
 ```
 
+Nachtrag: dieses Problem war wohl durch falsches Routing o.ä. im Zusammenhang mit vpn04/vpn07 verursacht worden.
 
-## Gelöste Probleme
-
-### [Gelöst] logread zeigt "fastd[1999]: resolving host `vpn01.bremen.freifunk.net' failed: Try again"
-Übliche Ursache: der Knoten versucht, eine VPN-Verbindung aufzubauen, aber er hat keinen direkten Internetzugang.
-- deshalb: am besten Mesh-VPN ausschalten, wenn der Knoten eh definitiv kein VPN aufbauen soll; das reduziert den Log-Spam
-- abschalten geht per "/etc/init.d/fastd stop ; uci set fastd.mesh_vpn.enabled='0'; uci commit fastd"
-
-### [gelöst] DNS kaput
-Namensauflösung funktioniert im FF nicht mehr.
-betrifft clients und knoten.
-2020-05-01
-Zwischen 15:00 - 16:30 aufgetreten.
-Siehe Tagesordnung Freffen
-https://wiki.bremen.freifunk.net/Treffen/2020_05_01
-
-Lösung: Fehlerhaftes Script auf allen DNS-Servern wurde korrigiert.
-
-### [Gelöst] `okpg update` läuft nicht durch, wenn der Knoten mit vpn2 oder vpn5 verbunden ist
-Dieses Problem wurde in https://tasks.ffhb.de/T357 ("IPv6-Pakete mit bestimmten Größen werden nicht zuverlässig übertragen") weiter untersucht und gelöst.
-
-Das Symptom war, dass IPv6-TCP-Pakete mit Paketgrößen zwischen 1343 und 1366 Bytes (inklusive) nicht übertragen wurden, wenn der Knoten an vpn2 oder vpn5 hing.
-
-Das Problem war am Ende, dass ein Tunnel zwischen vpn2 bzw. vpn5 und dem ipv6-downlink-Host eine falsche MTU hatte.
-
-### Ausfälle (Loop?) morgens am 25.3.2020 (Anscheinend Gelöst)
-* von hias beobachtet
-* hoher ICMP6 durchsatz[2], Hinweise auf loop in den Logs[3], Was war da los, Wurde was unternommen um es zu beheben und wenn ja, Was?
-* hat sich anscheinend von selbst wieder gelöst
-
-Anmerkungen:
-* 1: https://grafana.bremen.freifunk.net/d/000000011/multicast?orgId=1&from=1585094038403&to=1585129298085&var-protocol=All
-* 2: https://grafana.bremen.freifunk.net/d/000000001/globals?orgId=1&from=1585094038403&to=1585129298085
-* 3: kern.warn kernel: (...) br-client: received packet on bat0 with own address as source address
-
-### SSH-Verbindungen zum Knoten bleiben hängen (anscheinend gelöst)
-Wenn man sich per SSH aus dem Internet zu einem Knoten verbindet und dort große Datenmengen übertragen werden (z.B. durch Ausführen von `logread` und Scrollen), bleibt die SSH-Verbindung hängen.
-
-- das sind IPv6-Verbindungen (weil die Knoten nur über IPv6 erreichbar sind)
-- könnte ein MTU-Problem sein
-
-Lässt sich auch hier mit in Verbindung bringen: "TL-MR3020 v1 hängt sich bei Upgrade auf (hias)"
-
-Nachtrag: lag vmtl. doch an T357, was nicht rebootfest gelöst worden war.
-
-### UBNT AC-Mesh ohne SSID (Gelöst)
-Bei meinem UBNT AC-M werden bei den Meshkanälen als SSID * angezeigt.
-Ist das so richtig? Bei anderen Geräten sehe ich das nicht.
-
-Liegt wohl an 11s, dass nur ein * anstatt mesh.ffhb.net abgestrahlt wird.
-
-
-### UBNT AC-Mesh nur 2,4Ghz Mesh
-
-Bei der Erstinstallation kann es vorkommen, dass nur 2,4Ghz Mesh übernommen wird.
-Lösung: Datei /etc/config/network prüfen, ob beide Einträge vorhanden sind.
-~~~
-config interface 'mesh_radio0'
-	option proto 'gluon_mesh'
-
-config interface 'mesh_radio1'
-	option proto 'gluon_mesh'
-~~~
+Mit `ip -6 route get 2a00:1450:4005:80a::2003` (also um den nächsten Hop der Route zu google.de anzuzeigen) war zu sehen, dass alle diese Pakete an vpn04 geleitet wurden.
 
 
 [//]: # (Ende der gelösten Probleme)
