@@ -32,13 +32,6 @@ Nächste Schritte:
 * tritt wohl erst seit 2019.1.2+bremen2 auf
 * Frank_H 841nd v8 & Archer C7v2 nach upgrade schlechte Meshverbindung auf der Karte, beide Router neu gestartet.
 
-### SSH-Verbindungen zum Knoten bleiben hängen
-Wenn man sich per SSH aus dem Internet zu einem Knoten verbindet und dort große Datenmengen übertragen werden (z.B. durch Ausführen von `logread` und Scrollen), bleibt die SSH-Verbindung hängen.
-
-- das sind IPv6-Verbindungen (weil die Knoten nur über IPv6 erreichbar sind)
-- könnte ein MTU-Problem sein
-
-Lässt sich auch hier mit in Verbindung bringen:
 ### TL-MR3020 v1 hängt sich bei Upgrade auf (hias)
 Bei Manuellen upgrade eines TL-MR3020 v1  via ssh (mit 'autoupdater -f')
 friert die SSH Sitzung ein, und das Upgrade läuft nicht durch.
@@ -258,5 +251,15 @@ Anmerkungen:
 * 1: https://grafana.bremen.freifunk.net/d/000000011/multicast?orgId=1&from=1585094038403&to=1585129298085&var-protocol=All
 * 2: https://grafana.bremen.freifunk.net/d/000000001/globals?orgId=1&from=1585094038403&to=1585129298085
 * 3: kern.warn kernel: (...) br-client: received packet on bat0 with own address as source address
+
+### SSH-Verbindungen zum Knoten bleiben hängen (anscheinend gelöst)
+Wenn man sich per SSH aus dem Internet zu einem Knoten verbindet und dort große Datenmengen übertragen werden (z.B. durch Ausführen von `logread` und Scrollen), bleibt die SSH-Verbindung hängen.
+
+- das sind IPv6-Verbindungen (weil die Knoten nur über IPv6 erreichbar sind)
+- könnte ein MTU-Problem sein
+
+Lässt sich auch hier mit in Verbindung bringen: "TL-MR3020 v1 hängt sich bei Upgrade auf (hias)"
+
+Nachtrag: lag vmtl. doch an T357, was nicht rebootfest gelöst worden war.
 
 [//]: # (Ende der gelösten Probleme)
