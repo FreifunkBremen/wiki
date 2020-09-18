@@ -15,17 +15,6 @@ Trag möglichst viele Details ein: was genau hast du beobachtet, wann war das, w
 * NanoBeams Zucker-Slave, KHSH-Slave, Schlachthof-Master sind eingeschaltet und arbeiten korrekt.
 * Mesh-Verbinudung zur Radstation existiert nicht
 
-### Ausfälle (Loop?) morgens am 25.3.2020
-* von hias beobachtet
-* hoher ICMP6 durchsatz[2], Hinweise auf loop in den Logs[3], Was war da los, Wurde was unternommen um es zu beheben und wenn ja, Was?
-* hat sich anscheinend von selbst wieder gelöst
-
-Anmerkungen:
-* 1: https://grafana.bremen.freifunk.net/d/000000011/multicast?orgId=1&from=1585094038403&to=1585129298085&var-protocol=All
-* 2: https://grafana.bremen.freifunk.net/d/000000001/globals?orgId=1&from=1585094038403&to=1585129298085
-* 3: kern.warn kernel: (...) br-client: received packet on bat0 with own address as source address
-
-
 ### Langsames Freifunk bei 50-MBit-Leitung
 [Louis sagt:](https://wiki.ffhb.de/Treffen/2020_03_20#protokoll_fehler-geschwindigkeit-des-freifunks-warum-ist-das-so-langsam_wie-%C3%A4u%C3%9Fern-sich-die-probleme) mit einer 50-MBit-Leitung ist das Internet über Freifunk merklich langsamer als über den direkten Anschluss. Lässt sich mit einem normalen Download messen.
 
@@ -258,5 +247,15 @@ Dieses Problem wurde in https://tasks.ffhb.de/T357 ("IPv6-Pakete mit bestimmten 
 Das Symptom war, dass IPv6-TCP-Pakete mit Paketgrößen zwischen 1343 und 1366 Bytes (inklusive) nicht übertragen wurden, wenn der Knoten an vpn2 oder vpn5 hing.
 
 Das Problem war am Ende, dass ein Tunnel zwischen vpn2 bzw. vpn5 und dem ipv6-downlink-Host eine falsche MTU hatte.
+
+### Ausfälle (Loop?) morgens am 25.3.2020 (Anscheinend Gelöst)
+* von hias beobachtet
+* hoher ICMP6 durchsatz[2], Hinweise auf loop in den Logs[3], Was war da los, Wurde was unternommen um es zu beheben und wenn ja, Was?
+* hat sich anscheinend von selbst wieder gelöst
+
+Anmerkungen:
+* 1: https://grafana.bremen.freifunk.net/d/000000011/multicast?orgId=1&from=1585094038403&to=1585129298085&var-protocol=All
+* 2: https://grafana.bremen.freifunk.net/d/000000001/globals?orgId=1&from=1585094038403&to=1585129298085
+* 3: kern.warn kernel: (...) br-client: received packet on bat0 with own address as source address
 
 [//]: # (Ende der gelösten Probleme)
