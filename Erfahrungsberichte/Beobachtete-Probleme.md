@@ -104,6 +104,12 @@ Fragen hierzu:
 * seit den guten Ergebnissen wurden wohl mehrere Dinge geändert (Firmware-Upgrade, Kabel-Mesh-Verbindungen optimieren...)
 * die Radstation ist über den Schlachthof angebunden; also im Moment über vpn01
 
+Nächste Schritte:
+* Geschwindigkeit direkt zum Knoten messen: `wget -O /dev/null http://node.ffhb.de/cgi-bin/devzero`
+* Geschwindigkeit zum Güterbahnhof messen: `wget -O /dev/null http://GB-KH-E3-1a.nodes.ffhb.de/cgi-bin/devzero`
+* Geschwindigkeit zum Schlachthof messen: `wget -O /dev/null http://schlachthof-dachboden.nodes.ffhb.de/cgi-bin/devzero`
+* Geschwindigkeit zum Server messen: http://vpn01.ffhb.de/speedtest/
+
 ### Mehr Bumms, wenn zu wenig Sendeleitung
 Einige Routermodelle sind sehr stark in ihrer Sendeleistung beschnitten worden.
 Die Sendeleistung kann nicht wie gewohnt über wireless eingestellt werden.
