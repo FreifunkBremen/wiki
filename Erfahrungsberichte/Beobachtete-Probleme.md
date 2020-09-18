@@ -96,12 +96,6 @@ Fragen hierzu:
 * Vorschläge um das Automatisch zu überwachen? Weiß jemand was fertiges?
 
 
-### UBNT AC-Mesh ohne SSID
-Bei meinem UBNT AC-M werden bei den Meshkanälen als SSID * angezeigt.
-Ist das so richtig? Bei anderen Geräten sehe ich das nicht.
-
-Liegt wohl an 11s, dass nur ein * anstatt mesh.ffhb.net abgestrahlt wird.
-
 ### UBNT AC-Mesh nur 2,4Ghz Mesh
 
 Bei der Erstinstallation kann es vorkommen, dass nur 2,4Ghz Mesh übernommen wird.
@@ -261,5 +255,12 @@ Wenn man sich per SSH aus dem Internet zu einem Knoten verbindet und dort große
 Lässt sich auch hier mit in Verbindung bringen: "TL-MR3020 v1 hängt sich bei Upgrade auf (hias)"
 
 Nachtrag: lag vmtl. doch an T357, was nicht rebootfest gelöst worden war.
+
+### UBNT AC-Mesh ohne SSID (Gelöst)
+Bei meinem UBNT AC-M werden bei den Meshkanälen als SSID * angezeigt.
+Ist das so richtig? Bei anderen Geräten sehe ich das nicht.
+
+Liegt wohl an 11s, dass nur ein * anstatt mesh.ffhb.net abgestrahlt wird.
+
 
 [//]: # (Ende der gelösten Probleme)
