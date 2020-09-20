@@ -138,6 +138,38 @@ Seiten wie http://schlachthof-dachboden.nodes.ffhb.de/ sind jetzt (2020-09-18 21
 
 Das gilt anscheinend für alle Seiten, die über den Schlachthof angebunden sind.
 
+#### Update 2020-09-20 ollibaba
+
+Die Schlachthof-Anbindung hat anscheinend Probleme, Pakete größer als ca. 1390 Bytes ins Internet zu senden. Lässt sich mit ping ausprobieren:
+
+`
+#!/bin/bash
+
+trap "echo Cancelled; exit;" SIGINT SIGTERM
+
+for i in $(seq 400 1600); do
+	fping6 -q -c 2 -p 200 -b "$i" "$1" >/dev/null 2>&1
+	res=$?
+	echo -n "."
+	if [ $res == 0 ]; then
+		true
+	else
+		echo
+		echo "bytes=$i DOWN"
+	fi
+	sleep 0.2
+done
+`
+
+Ich kann von meinem normalen Internetanschluss Pakete mit bis zu 1506 Bytes zum Schlachthof (Knoten: GB-KH-E3-1a) hinschicken. Test: wget --post-data="`head -c 1800 /dev/zero | tr '\0' '*'`" 'http://GB-KH-E3-1a.nodes.ffhb.de/'
+
+Aber ich kann nicht vom Schlachthof große Pakete empfangen; die werden anscheinend verworfen. Test (per SSH auf GB-KH-E3-1a): wget --post-data="`head -c 1250 /dev/zero | tr '\0' '*'`" http://ffhb.de
+
+Auf anderen Knoten (also meinen eigenen Knoten) kann ich diesen Test-Befehl hingegen erfolgreich ausführen.
+
+Auch mit Ping lässt sich das einfach reproduzieren: `ping6 -s 1391 GB-KH-E3-1a.nodes.ffhb.de`
+Bei anderen Knoten (die nicht am Schlachthof angebunden sind) funktioniert dieser Ping-Befehl.
+
 ## Gelöste Probleme
 
 ### [Gelöst] logread zeigt "fastd[1999]: resolving host `vpn01.bremen.freifunk.net' failed: Try again"
