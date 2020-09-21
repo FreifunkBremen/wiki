@@ -6,5 +6,5 @@ Du kannst das Protokoll unter [[2020_09_18|2020_09_18]] bearbeiten
 
 ---
 
-[[include:Treffen/2020_09_18]]
+[[include:2020_09_18]]
     
