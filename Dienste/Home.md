@@ -47,6 +47,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.150 test-vm, anon6789
     * 10.196.0.200 Dienste von jplitza
     * 10.196.0.250 gatemon-oliverspi, ollibaba
+    * 10.196.0.251 gatemon-charlotte (per WLAN), mortzu
     * 10.196.1.0/24 Richtfunk-Management
         * 10.196.1.4 Hal över Fährhäuschen NanoBeam
     * 10.196.10.0 - 10.196.19.255 per DHCP vergeben von 10.196.0.1
@@ -103,6 +104,7 @@ IPv6 Routing zum Gateway vpn06
 * 2a06:8782:ffbb:1337::88 services.ffhb.moritzrudert.de (u.A. gatemon-plutex), mortzu
 * 2a06:8782:ffbb:1337::b0 bis bf (janeric)
 * 2a06:8782:ffbb:1337::c8 (steffen)
+* 2a06:8782:ffbb:1337::d1 gatemon-charlotte (per WLAN), mortzu
 
 #### 2a06:8782:ffbb:bat0::/64
 Babel-Netzwerk Segment für die Knoten/Nodes und das Routing des Client-Netzwerks
