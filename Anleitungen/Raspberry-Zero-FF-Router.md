@@ -1,5 +1,5 @@
 Wir bauen eine Freifunkrouter mit einem Raspberry-Zero-W. Der Zero-W hat WLAN :-)
-
+##Inhalt
 [[_TOC_]]
 
 ### Teile-Liste
@@ -33,7 +33,11 @@ Dieses ist bereits hier im WIKI unter [RaspBerry-Hacks](https://wiki.bremen.frei
 
 Speicherkarte in den Zero stecken, Zubehör anstöpseln und booten lassen.
 
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
 ### Konfiguration
 Solange der Zero nicht konfiguriert ist, Funkt er nicht. Der Zugang erfolgt über die serielle Schnittstelle oder über ein angeschlossenes LAN-Interface. Wenn der Zero eher voll verkabelt ist, also Maus Monitor Tastatur, kann er auch darüber konfiguriert werden.
 ICh beschränke mich hier auf Seriell, WEB-Interface und SSH.
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
