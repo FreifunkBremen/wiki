@@ -23,7 +23,11 @@ Den leeren Speicherplatz später zu mounten ist der bessere Weg, da nach einem S
 
 <img src="https://cloud.ffhb.de/index.php/s/PgrACoTsgj4B2Jq/preview">
 
-Ich bastel ja immer gerne mit Windows und mit Linux und vermische die Arbeiten auch miteinander. Es geht auch nur mit einem Betriebssystem, ich nutze aber gerne beides. Das Bild oben zeigt die Ansicht in GParted der Micro-SD Karte mit aufgespieltem Image. Mite einem Klick ist der noch freie Platz einer neuen Partition zugeordnet.
+Ich bastel ja immer gerne mit Windows und mit Linux und vermische die Arbeiten auch gerne miteinander. Es geht auch nur mit einem Betriebssystem, ich nutze aber gerne beides. 
+
+Das Bild oben zeigt die Ansicht in GParted der Micro-SD Karte mit aufgespieltem Image. 
+Mit einem Klick ist der noch freie Platz einer neuen Partition zugeordnet und formatiert.
+
 Schaue ich auf den Inhalt der Karte, sehe ich die Grundstruktur von Raspbian. Damit wäre die Grundkonfiguration ja sofort möglich.
 Dieses ist bereits hier im WIKI unter [RaspBerry-Hacks](https://wiki.bremen.freifunk.net/Anleitungen/Raspberry-Hacks) beschrieben.
 
