@@ -1,4 +1,7 @@
 Wir bauen eine Freifunkrouter mit einem Raspberry-Zero-W. Der Zero-W hat WLAN :-)
+
+**- Diese Zeile zeigt an, der Beitrag ist noch im Entwurf!**
+
 ## Inhalt
 
 [[_TOC_]]
