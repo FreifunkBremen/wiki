@@ -77,7 +77,7 @@ config setup_mode
        option enabled '0'
        option configured '0'
 ~~~
-configured = '0', also unkonfiguriert. Das ändern wir schon mal auf fertig. Reboot erst ganz zum schluss.
+configured = '0', also unkonfiguriert. Das ändern wir schon mal auf fertig. Reboot erst ganz zum schluss und mit vi in  /etc/dropbear/authorized_keys den eigenen SSH Key einfügen.
 ~~~
 uci set gluon-setup-mode.@setup_mode[0].enabled=0
 uci commit gluon-setup-mode
@@ -90,10 +90,21 @@ uci set gluon-node-info.@location[0].share_location='1'
 uci set gluon-node-info.@location[0].latitude='53.086859171'
 uci set gluon-node-info.@location[0].longitude='8.815151428'
 uci commit gluon-node-info
+reboot
 ~~~
 
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
-    
+### Statische IP WAN
+Set a static IPv4 for the WAN-Port
+~~~
+uci set network.wan.proto=static
+uci set network.wan.ipaddr=192.168.1.1
+uci set network.wan.netmask=255.255.255.0
+uci set network.wan.gateway=192.168.1.1
+uci commit network
+/etc/init.d/network restart
+~~~
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
