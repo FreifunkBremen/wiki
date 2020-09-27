@@ -21,6 +21,12 @@ Die hier angegebenen Links dienen nur als Beispiel und sind meine persönliche E
 Von der [Freifunk-Imageseite](https://downloads.bremen.freifunk.net/firmware/) die Firmware herunterladen und entpacken. Das Image wird dann mit einem Imager auf die Mico-SD geschrieben, dauert ca. 22 Sekunden. Ggf. mit einem geeigneten Tool die Partitionsgröße anpassen (nicht empfohlen) oder den restlichen Speicherplatz partitionieren und später mounten. 
 Den leeren Speicherplatz später zu mounten ist der bessere Weg, da nach einem Sysupgrade die Erweiterng verloren geht. Also bitte immer zusätzliche Partitionen erstellen. 
 
+<img src="https://cloud.ffhb.de/index.php/s/PgrACoTsgj4B2Jq/preview" width="300">
+
+Ich bastel ja immer gerne mit Windows und mit Linux und vermische die Arbeiten auch miteinander. Es geht auch nur mit einem Betriebssystem, ich nutze aber gerne beides. Das Bild oben zeigt die Ansicht in GParted der Micro-SD Karte mit aufgespieltem Image. Mite einem Klick ist der noch freie Platz einer neuen Partition zugeordnet.
+Schaue ich auf den Inhalt der Karte, sehe ich die Grundstruktur von Raspbian. Damit wäre die Grundkonfiguration ja sofort möglich.
+Dieses ist bereits hier im WIKI unter [RaspBerry-Hacks](https://wiki.bremen.freifunk.net/Anleitungen/Raspberry-Hacks) beschrieben.
+
 Speicherkarte in den Zero stecken, Zubehör anstöpseln und booten lassen.
 
 ### Konfiguration
