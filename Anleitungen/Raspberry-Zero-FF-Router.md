@@ -36,6 +36,20 @@ Speicherkarte in den Zero stecken, Zubehör anstöpseln und booten lassen.
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
+### Erster Zugriff LAN
+Der Raspberry hat nun das ersta mal gebootet.
+LAN Kabel ist angeschlossen, IP auf 192.168.1.2 gesetzt und Ping 192.168.1.1 auf den Raspberry.
+Leider kein Erfolg, was ist passiert? Wir konfigurieren einen Freifunkrouter über die gelben Ports, das am Pi angesteckete Interface (Kabelpeitsche oder USB/LAN HAT-Modul) stellt ein blaues WAN Interface zur Verfügung.
+- Hier fehlt jetzt erst einmal das Vorgehen, wie wird das Interface auf LAN umbiegen.
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
+### Zweiter Zugriff Seriell
+Nachdem den LAN-Zugriff gescheitert ist, gehen wir über die serielle Schnittstelle auf den Pi-Zero.
+Zugriff klappt.
+<img src="https://cloud.ffhb.de/index.php/s/6JBDP8TkcdcEq7g/preview">
+Einstellungen: 115200 8 N 1 auf dem gefundenen COM Port.
+
 ### Konfiguration
 Solange der Zero nicht konfiguriert ist, Funkt er nicht. Der Zugang erfolgt über die serielle Schnittstelle oder über ein angeschlossenes LAN-Interface. Wenn der Zero eher voll verkabelt ist, also Maus Monitor Tastatur, kann er auch darüber konfiguriert werden.
 ICh beschränke mich hier auf Seriell, WEB-Interface und SSH.
