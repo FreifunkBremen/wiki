@@ -18,8 +18,8 @@ Die hier angegebenen Links dienen nur als Beispiel und sind meine persönliche E
 - ggf. Maus und Tastatur, sowie Monitor und [Micro-HDMI Kabel](https://www.reichelt.de/hdmi-a-stecker-hdmi-micro-d-stecker-4k-2-0-m-delock-84783-p167187.html?&trstct=pos_4&nbc=1) 
 
 ### Image vorbereiten
-Von der [Freifunk-Imageseite](https://downloads.bremen.freifunk.net/firmware/) die Firmware herunterladen und entpacken. Das Image wird dann mit einem Imager auf die Mico-SD geschrieben. Ggf. mit einem geeigneten Tool die Partitionsgröße anpassen oder den restlichen Speicherplatz partitionieren und später mounten. 
-Den leeren Speicherplatz später zu mounten ist der bessere Weg, da nauch einem Sysupgrade eine erweiterte Karte verloren geht.
+Von der [Freifunk-Imageseite](https://downloads.bremen.freifunk.net/firmware/) die Firmware herunterladen und entpacken. Das Image wird dann mit einem Imager auf die Mico-SD geschrieben, dauert ca. 22 Sekunden. Ggf. mit einem geeigneten Tool die Partitionsgröße anpassen (nicht empfohlen) oder den restlichen Speicherplatz partitionieren und später mounten. 
+Den leeren Speicherplatz später zu mounten ist der bessere Weg, da nach einem Sysupgrade die Erweiterng verloren geht. Also bitte immer zusätzliche Partitionen erstellen. 
 
 Speicherkarte in den Zero stecken, Zubehör anstöpseln und booten lassen.
 
