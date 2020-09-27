@@ -51,9 +51,49 @@ Zugriff klappt.
 <img src="https://cloud.ffhb.de/index.php/s/6JBDP8TkcdcEq7g/preview">
 Einstellungen: 115200 8 N 1 auf dem gefundenen COM Port.
 
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
+### Node zurücksetzen
+
+Wenn man mal etwas kaputt-konfiguriert hat lässt sich der Zustand "frisch-geflash" wie folgt wiederherstellen.
+
+    Der Befehl firstboot setzt alle Konfigurationen zurück.
+    Anschließend startet man mit dem Befehl reboot neu.
+
+Der Node befindet sich jetzt im wieder im Config-Mode, wie beim ersten Start.
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
 ### Konfiguration
 Solange der Zero nicht konfiguriert ist, Funkt er nicht. Der Zugang erfolgt über die serielle Schnittstelle oder über ein angeschlossenes LAN-Interface. Wenn der Zero eher voll verkabelt ist, also Maus Monitor Tastatur, kann er auch darüber konfiguriert werden.
-ICh beschränke mich hier auf Seriell, WEB-Interface und SSH.
+Ich möchte mich hier auf Seriell, WEB-Interface und SSH beschränken.
+
+#### Konfiguration Serielles Interface
+Ich sammel hier mal alle Punkte, die mit notwendig erscheinen.
+1. Wie ist jetzt mein Konfigsatus?
+~~~
+cat /etc/config/gluon-setup-mode
+config setup_mode
+       option enabled '0'
+       option configured '0'
+~~~
+configured = '0', also unkonfiguriert. Das ändern wir schon mal auf fertig. Reboot erst ganz zum schluss.
+~~~
+uci set gluon-setup-mode.@setup_mode[0].enabled=0
+uci commit gluon-setup-mode
+uci set system.@system[0].hostname='FFHB-Raspi-Zero-WH-01'
+uci commit system
+uci set gluon-node-info.@owner[0]='MaxMustermann'
+uci set gluon-node-info.@owner[0].contact='MustermannBremen@bremen.freifunk.net'
+uci set gluon-node-info.@location[0]='location'
+uci set gluon-node-info.@location[0].share_location='1'
+uci set gluon-node-info.@location[0].latitude='53.086859171'
+uci set gluon-node-info.@location[0].longitude='8.815151428'
+uci commit gluon-node-info
+~~~
+
+
+    
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
