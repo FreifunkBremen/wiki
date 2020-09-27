@@ -81,6 +81,10 @@ config setup_mode
        option configured '0'
 ~~~
 configured = '0', also unkonfiguriert. Das ändern wir schon mal auf fertig. Reboot erst ganz zum schluss und mit vi in  /etc/dropbear/authorized_keys den eigenen SSH Key einfügen.
+
+2. Konfigurieren über serielle Konsole.
+Daten entsprechend Anpassen.
+
 ~~~
 uci set gluon-setup-mode.@setup_mode[0].enabled=0
 uci commit gluon-setup-mode
@@ -95,6 +99,11 @@ uci set gluon-node-info.@location[0].longitude='8.815151428'
 uci commit gluon-node-info
 reboot
 ~~~
+
+3. Schritt 1 Wiederholen.
+Der Eintrag option configured muss auf 1 stehen. Ggf. die Datei /etc/config/gluon-setup-mode mit vi editieren.
+Neu booten, jetzt sind auch über ifconfig alle Interfaces zu sehen.
+
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
