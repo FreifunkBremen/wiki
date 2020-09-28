@@ -1,3 +1,5 @@
+Der Aufwand über die KOnsole wäre mir zu groß, deshalb werde ich die Einstellungen über den Kartenleser vornehmen. Über den Kartenleser fällt es mir auch leichter die Konfiguration mit bestehenden Routern zu Vergleichen.
+
 Wir bauen eine Freifunkrouter mit einem Raspberry-Zero-W. Der Zero-W hat WLAN :-)
 
 **- Diese Zeile zeigt an, der Beitrag ist noch im Entwurf!**
@@ -40,10 +42,13 @@ Speicherkarte in den Zero stecken, Zubehör anstöpseln und booten lassen.
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 ### Erster Zugriff - LAN
-Der Raspberry hat nun das ersta mal gebootet.
+Der Raspberry hat nun das erste mal gebootet.
 LAN Kabel ist angeschlossen, IP auf 192.168.1.2 gesetzt und Ping 192.168.1.1 auf den Raspberry.
-Leider kein Erfolg, was ist passiert? Wir konfigurieren einen Freifunkrouter über die gelben Ports, das am Pi angesteckete Interface (Kabelpeitsche oder USB/LAN HAT-Modul) stellt ein blaues WAN Interface zur Verfügung.
+Leider kein Erfolg, was ist passiert? Wir konfigurieren einen Freifunkrouter über die gelben Ports, das am Pi angesteckete Interface (Kabelpeitsche oder USB/LAN HAT-Modul) stellt ein blaues WAN Interface zur Verfügung. Eine andere Überlegung ist, die USB Treiber für die Netzwerkkarte sind nicht installaiert, da das Image von einem Pi3 ist und nicht für den Zero.
 - Hier fehlt jetzt erst einmal das Vorgehen, wie wird das Interface auf LAN umbiegen.
+- - evtl. das OpenWrt Repro auf den freien Speicher clonen
+- - die Konfig von einen laufendem Router auf die Speicherkarte schubsen.
+- - Speicherkarte über Kartenleser konfigurieren.
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
