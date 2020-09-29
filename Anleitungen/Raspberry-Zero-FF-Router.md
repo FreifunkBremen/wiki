@@ -106,9 +106,9 @@ uci commit gluon-node-info
 reboot
 ~~~
 
-3. Schritt 1 Wiederholen.
+3. Schritt 1 Konfigsatus Wiederholen.
 Der Eintrag option configured muss auf 1 stehen. Ggf. die Datei /etc/config/gluon-setup-mode mit vi editieren.
-Neu booten, jetzt sind auch über ifconfig alle Interfaces zu sehen.
+Neu booten, jetzt sind auch über ifconfig **fast** alle Interfaces zu sehen.
 
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
@@ -128,10 +128,13 @@ uci commit network
 
 ## Zweiter Versuch
 ### Manuelle Konfiguration im Kartenleser
-Nach nochmaliger Prüfung der HArdware auf der OpenWRT Seite (https://openwrt.org/toh/raspberry_pi_foundation/raspberry_pi) hatte ich dschon das richtige Image für den Pi (nicht Pi2) installiert.
+- Nach nochmaliger Prüfung der Hardware auf der OpenWRT Seite (https://openwrt.org/toh/raspberry_pi_foundation/raspberry_pi) hatte ich dschon das richtige Image für den Pi (nicht Pi2) installiert.
 Der Pi Zero basiert auf den brcm2708 Packages.
-Also erst mal das eingepackte Repro laden. (https://downloads.openwrt.org/releases/19.07.4/targets/brcm2708/bcm2708/openwrt-imagebuilder-19.07.4-brcm2708-bcm2708.Linux-x86_64.tar.xz)
+- Also erst mal das eingepackte Repro laden. (https://downloads.openwrt.org/releases/19.07.4/targets/brcm2708/bcm2708/openwrt-imagebuilder-19.07.4-brcm2708-bcm2708.Linux-x86_64.tar.xz)
 Dort ist ein Verzeichnis Packages enthalten, welches auf den freien BEreich der SD Karte kopiert wird. Damit stehen die Installationspakete Offline zur Verfügung.
+- Das Paket belegt kaum Platz und passt auch auf die Betriebspartition, falls das mit dem Mounten nicht klappt.
+- Raspi wieder booten
+
 
 
 
