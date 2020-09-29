@@ -158,5 +158,49 @@ Die Micro-SD wird in Linux mit einem Kartenleser eingebunden. Auf die Krte wird 
 <img src="https://cloud.ffhb.de/index.php/s/tqaPwTp2M4MWM5W/preview">
 
 
+Konfiguration lokaler Repros:
+Adjust Repositories. Feeds are set in /etc/opkg/distfeeds.conf
+~~~
+src/gz reboot_core http://downloads.lede-project.org/snapshots/targets/ramips/mt7620/packages
+src/gz reboot_base http://downloads.lede-project.org/snapshots/packages/mipsel_24kc/base
+src/gz reboot_telephony http://downloads.lede-project.org/snapshots/packages/mipsel_24kc/telephony
+src/gz reboot_packages http://downloads.lede-project.org/snapshots/packages/mipsel_24kc/packages
+src/gz reboot_routing http://downloads.lede-project.org/snapshots/packages/mipsel_24kc/routing
+src/gz reboot_luci http://downloads.lede-project.org/snapshots/packages/mipsel_24kc/luci
+~~~
+there is also another file for custom feeds called /etc/opkg/customfeeds.conf
+add your custom package feeds here
+src/gz example_feed_name http://www.example.com/path/to/files
 
+Both files are accessible and can be modified from Luci Web interface too, Click on Services then on Software. Click on Configuration tab, then scroll down.
+### Local Repositories
+You can configure opkg to fetch the packages locally:
+~~~
+src/gz local file:///path/to/packagesDirectory
+~~~
+OpenWrt uses multiple repositories, where every repository requires a unique identifier. It is logical to use their original names, e.g.:
+~~~
+...
+src/gz base file:///path/to/packages/directory/packages/base
+src/gz luci file:///path/to/packages/directory/packages/luci
+src/gz packages file:///path/to/packages/directory/packages/packages
+src/gz oldpackages file:///path/to/packages/directory/packages/oldpackages
+... etc ...
+~~~
+
+
+Damit der Zero USB-Ethernet verwenden kann, werden folgende Module benötigt.
+Kernel modules -> USB Support -> kmod-usb-net
+kmod-usb-net-asix
+asix-ax88179
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
+## Dritter Versuch
+### Alternative Idee
+Wir verwenden einen normalen Pi mit dem vorgesehenem Image, bringen ihn normal wie ein Freifunkrouter ans Netz.
+Jetzt installieren wir alle notwendigen Pakete nach und stecken die Karte in den Zero.
+Problem, zum Testen habe ich nur Pi3 und Pi4, damit kann ich diesen Weg nicht weiterverfolgen.
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
