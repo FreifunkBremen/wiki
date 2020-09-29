@@ -1,8 +1,13 @@
-Der Aufwand über die KOnsole wäre mir zu groß, deshalb werde ich die Einstellungen über den Kartenleser vornehmen. Über den Kartenleser fällt es mir auch leichter die Konfiguration mit bestehenden Routern zu Vergleichen.
-
 Wir bauen eine Freifunkrouter mit einem Raspberry-Zero-W. Der Zero-W hat WLAN :-)
 
-**- Diese Zeile zeigt an, der Beitrag ist noch im Entwurf!**
+**- Diese Zeile zeigt an, der Beitrag ist noch im Entwurf! 29.9.2020**
+
+Dieser Beitrag zeigt den gescheitertetn Versuch, einen Pi-Zero WH mit Freifunk zu Verwenden.
+Warum es aktuell nicht funktioniert: 
+- Kein passendes Image
+- Vorhandenes Pi Image muss verbogen werden
+
+
 
 ## Inhalt
 
@@ -128,13 +133,29 @@ uci commit network
 
 ## Zweiter Versuch
 ### Manuelle Konfiguration im Kartenleser
-- Nach nochmaliger Prüfung der Hardware auf der OpenWRT Seite (https://openwrt.org/toh/raspberry_pi_foundation/raspberry_pi) hatte ich dschon das richtige Image für den Pi (nicht Pi2) installiert.
-Der Pi Zero basiert auf den brcm2708 Packages.
-- Also erst mal das eingepackte Repro laden. (https://downloads.openwrt.org/releases/19.07.4/targets/brcm2708/bcm2708/openwrt-imagebuilder-19.07.4-brcm2708-bcm2708.Linux-x86_64.tar.xz)
-Dort ist ein Verzeichnis Packages enthalten, welches auf den freien BEreich der SD Karte kopiert wird. Damit stehen die Installationspakete Offline zur Verfügung.
-- Das Paket belegt kaum Platz und passt auch auf die Betriebspartition, falls das mit dem Mounten nicht klappt.
-- Raspi wieder booten
 
+Was wir bisher wissen:
+- Das Pi Image hat kein WLAN
+- Das Pi Image hat keine USB Unterstützung
+- Basis OpenWRT 18.06
+- Target brcm2708/bcm2708
+- Raspberry Pi Zero W -	Broadcom BCM2835
+- BCM2708 BCM2835 ARMv6 ARM1176JZF-S 
+- Auf der Micro-SD ist massig Platz
+- Zugriff nur im Kartenleser unter Linux
+- Zugriff auf den Zero nur über serielle Konsole
+
+Weiters Vorgehen:
+- Klonen des OpenWrt 18.06 Repro auf die Pi Zero Partition
+- Konfigurieren des lokalen Repros
+- Installieren der Treiber
+- Installieren von Paketen
+
+Klonen des OpenWrt 18.06 Repro auf die Pi Zero Partition.
+Das verwendete Image basiert auf OpenWRT 18.06, diese Information bekommt man aus dem Git der Community.
+Die Micro-SD wird in Linux mit einem Kartenleser eingebunden. Auf die Krte wird das Repro "releases / 18.06.8 / packages / arm_arm1176jzf-s_vfp / " kopiert, alle Unterverzeichnisse.
+
+<img src="https://cloud.ffhb.de/index.php/s/tqaPwTp2M4MWM5W/preview">
 
 
 
