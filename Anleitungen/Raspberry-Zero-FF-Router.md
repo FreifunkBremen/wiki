@@ -2,11 +2,14 @@ Wir bauen eine Freifunkrouter mit einem Raspberry-Zero-W. Der Zero-W hat WLAN :-
 
 **- Diese Zeile zeigt an, der Beitrag ist noch im Entwurf! 29.9.2020**
 
-Dieser Beitrag zeigt den gescheitertetn Versuch, einen Pi-Zero WH mit Freifunk zu Verwenden.
+Dieser Beitrag zeigt den **gescheitertetn Versuch**, einen Pi-Zero WH mit Freifunk zu Verwenden.
 Warum es aktuell nicht funktioniert: 
 - Kein passendes Image
-- Vorhandenes Pi Image muss verbogen werden
+- Vorhandenes Pi Image muss verbogen werden.
 
+- Nur für Leute geeignet, die ihr Gluon selbst kompilieren und damit auch schon etwas mehr als nur „standard-Howto-Erfahrung“ gesammelt haben.
+RPI-Gluon ist meiner Meinung nach ein Spielfeld für Leute, die schon 3-4 TP-Link, Ubiquiti etc Geräte zu laufen haben und neue Herausforderungen suchen.
+Oder anders: Für Neueinsteigende ist das ein ziemlich mutiger Sprung. Nicht unschaffbar, aber für viele vermutlich zu frustrierend.
 
 
 ## Inhalt
@@ -80,7 +83,7 @@ Der Node befindet sich jetzt im wieder im Config-Mode, wie beim ersten Start.
 
 ### Konfiguration
 Solange der Zero nicht konfiguriert ist, Funkt er nicht. Der Zugang erfolgt über die serielle Schnittstelle oder über ein angeschlossenes LAN-Interface. Wenn der Zero eher voll verkabelt ist, also Maus Monitor Tastatur, kann er auch darüber konfiguriert werden.
-Ich möchte mich hier auf Seriell, WEB-Interface und SSH beschränken.
+Ich möchte mich hier auf Seriell beschränken.
 
 #### Konfiguration Serielles Interface
 Ich sammel hier mal alle Punkte, die mit notwendig erscheinen.
@@ -193,6 +196,9 @@ Damit der Zero USB-Ethernet verwenden kann, werden folgende Module benötigt.
 Kernel modules -> USB Support -> kmod-usb-net
 kmod-usb-net-asix
 asix-ax88179
+
+opkg update
+opkg install kmod-usb-net-asix asix-ax88179
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
