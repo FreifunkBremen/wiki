@@ -210,3 +210,16 @@ Problem, zum Testen habe ich nur Pi3 und Pi4, damit kann ich diesen Weg nicht we
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
+## Vierter Versuch
+
+Es gelingt nicht, die zusätzliche Partition zu mounten.
+Im Kartenleser wird die Partition des Gluon (sda2) von 256 MB vergrößert auf z.B. 10 GB. Der Restspeicherplatz wird zu sda3 zugeordnet.
+Überspielen des Repro 18.06 nach z.B. /root
+Anpassen der Repropfade für lokale Installation
+opkg update,
+dann opkg install <paket>
+Viele Pakete können installiert werden.
+LAN und WLAN bekomme ich nicht zum laufen :-(
+
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
