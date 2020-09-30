@@ -147,6 +147,7 @@ Was wir bisher wissen:
 - Auf der Micro-SD ist massig Platz
 - Zugriff nur im Kartenleser unter Linux
 - Zugriff auf den Zero nur über serielle Konsole
+- die Partitionen sind mmcblk0p1 - 3  ../dev/mmcblk0p1
 
 Weiters Vorgehen:
 - Klonen des OpenWrt 18.06 Repro auf die Pi Zero Partition
@@ -220,6 +221,7 @@ opkg update,
 dann opkg install <paket>
 Viele Pakete können installiert werden.
 LAN und WLAN bekomme ich nicht zum laufen :-(
+
 
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
