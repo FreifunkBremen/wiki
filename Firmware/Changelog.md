@@ -26,16 +26,28 @@ Experimentelle Firmware-Versionen werden nicht offiziell unterstützt und werden
 
 Branch        | aktuelle Version                                                    | signed by
 ---           | ---                                                                 | ---
-**`stable`**  | [2019.1.2+bremen2](#freifunk-bremen-versionen_2019-1-2-bremen2)     | `janeric`, `oliver`
+**`stable`**  | [2019.1.2+bremen3](#freifunk-bremen-versionen_2019-1-2-bremen3)     | `janeric`, `oliver`, `genofire`
 **`testing`** | [2019.1.2+bremen3](#freifunk-bremen-versionen_2019-1-2-bremen3)     | `oliver`
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
+
+### 2019.1.2+bremen4
+**Veröffentlichung auf dem `stable`-Branch**: nie   
+**Veröffentlichung auf dem `testing`-Branch**: nie   
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2019.1.2+bremen4) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2019.1.2+bremen4)  
+**gluon-Version**: [2019.1.2](#gluon-versionen_2019-1-2)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2019.1.2+bremen4/)
+
+Diese Version ist eine Vorbereitung für den Wechsel auf eine neue Batman-Version (also eine neue Version des Mesh-Protokolls).
+Man kann jetzt im Config-Modus wieder die Domain auswählen:
+- "Freifunk Bremen (mit 11s Mesh-Unterstützung)" aktiviert das alte (bisherige) Protokoll, womit sich der Knoten mit dem normalen Bremer Freifunk-Netz verbindet
+- "Freifunk Bremen neu (mit Batman v15 - Testnetz)" aktiviert das neue Protokoll; der Knoten verbindet sich dann mit einem neuen Testnetz, das über den vpn04-Server läuft
 
 ### 2019.1.2+bremen3
 **Veröffentlichung auf dem `stable`-Branch**: nie   
 **Veröffentlichung auf dem `testing`-Branch**: [04.09.2020](https://downloads.bremen.freifunk.net/firmware/all/2019.1.2+bremen3/sysupgrade/stable.manifest)   
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2019.1.2+bremen3) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2019.1.2+bremen3)  
-**gluon-Version**: [2019.1.3](#gluon-versionen_2019-1-3)  
+**gluon-Version**: [2019.1.2](#gluon-versionen_2019-1-2)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2019.1.2+bremen3/)
 
 - es wird jetzt eine "[Offline-SSID](https://github.com/FreifunkBremen/gluon-site-ffhb/issues/35)" ausgestrahlt, wenn der Knoten keine Internetverbindung hat (genauer: wenn er den VPN-Server nicht erreichen kann). Diese SSID lautet "FF_offline_*Knotenname*".
