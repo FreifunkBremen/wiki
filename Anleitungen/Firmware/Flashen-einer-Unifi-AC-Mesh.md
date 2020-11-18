@@ -17,6 +17,7 @@ Dann auf „SEE PAST FIRMWARE“ die „Unfi Firmware 3.7.58 for UAP-AC-LITE/M/�
 Der Reihe nach: 
 
 ## Inhalt:
+__TOC__
 [1.) Firmwareversion ermitteln und  flashen:](#inhalt_1-firmwareversion-ermitteln-und-flashen)
 
 [2.) Freifunk Image aufspielen](#inhalt_2-freifunk-image-aufspielen)
@@ -223,5 +224,13 @@ config interface 'mesh_radio1'
 vorhanden sind, ggf. diese Ergänzen.
 
 Ein sysupgrade -n gluon-ffhb-2019.1.1+bremen3-ubiquiti-unifi-ac-mesh-sysupgrade.bin funktioniert ebenfalls, um erneut in den Konfigurationsmodus zu gelangen und das Gerät neu zu konfigurieren.
+
+Sysupgrade: per SSH verbinden
+~~~
+cd /tmp
+wget http://downloads.bremen.freifunk.net/firmware/all/2019.1.2+bremen3/sysupgrade/gluon-ffhb-2019.1.2+bremen3-ubiquiti-unifi-ac-mesh-sysupgrade.bin
+sysupgrade gluon-ffhb-2019.1.2+bremen3-ubiquiti-unifi-ac-mesh-sysupgrade.bin
+~~~
+
 
 **Diese Anleitung ist wie immer ohne Gewähr. Für Anregungen und Tipps immer offen.**
