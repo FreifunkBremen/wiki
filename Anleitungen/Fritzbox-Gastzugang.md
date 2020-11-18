@@ -1,8 +1,9 @@
-Wenn man der Software, Hardware oder Administration eines Freifunk-Knoten nicht vertrauen möchte ist es kein Problem, den Knoten am Gastzugang einer Fritzbox zu betreiben. Dort hat er keinen Zugriff auf die anderen Geräte im LAN und auch seinen Internetzugang kann man stark einschränken. Folgende Schritte sind dafür notwendig:
+Wenn man der Software, Hardware oder Administration eines Freifunk-Knoten nicht vertrauen möchte ist es kein Problem, den Knoten am Gastzugang einer Fritzbox zu betreiben. Dort hat er keinen Zugriff auf die anderen Geräte im LAN und auch seinen Internetzugang kann man stark einschränken. Auch Interessant, wird mehr Bandbreite im eigenen LAN benötigt, wird automatisch das Gast-LAN verdrängt.
+Folgende Schritte sind dafür notwendig:
 
 1. Eine aktuelle Firmware auf der Fritzbox installieren. Diese Anleitung wurde für Fritz!OS 06.21 geschrieben, kann aber auch bei älteren Versionen funktionieren. Ggf. sind jedoch die Klickpfade im Webinterface dann anders.
-2. Freifunk-Knoten an LAN-Port 4 anschließen. Dies ist leider der einzige, der als "Gastzugang" konfiguriert werden kann.
-3. Heimnetz → Heimnetzübersicht → Netzwerkeinstellungen → „Gastzugang für LAN 4 aktiv“ aktivieren. Ggf. „Anmeldung am Gastzugang nur nach Zustimmung zu den Nutzungsbedingungen gestatten“ deaktivieren.
+2. Freifunk-Knoten an LAN-Port **4** anschließen. Dies ist leider der einzige Port, der als "Gastzugang" konfiguriert werden kann.
+3. Heimnetz → Heimnetzübersicht → Netzwerkeinstellungen → „Gastzugang für **LAN 4** aktiv“ aktivieren. Ggf. „Anmeldung am Gastzugang nur nach Zustimmung zu den Nutzungsbedingungen gestatten“ deaktivieren.
 4. Internet → Filter → Listen → Netzwerkanwendung hinzufügen
     1. Netzwerkanwendung „Alles außer Freifunk-VPN“
     2. Neues Protokoll → Protokoll „UDP“, Quellport „beliebig“, Zielport „Port 1 bis 49999“ → OK
@@ -18,4 +19,4 @@ Wenn man der Software, Hardware oder Administration eines Freifunk-Knoten nicht 
     * Gesperrte Netzwerkanwendungen: die eben angelegte „Alles außer Freifunk-VPN“
     * OK
 
-Technische Erklärung: diese ganzen Schritte sind notwendig, weil das Freifunk-Gerät einen VPN-Tunnel zum Freifunk-Gateway-Server aufbauen muss; und das passiert über UDP Port 50000. Dieser Port ist im Gastzugang der Fritzbox standardmäßig blockiert, deshalb muss man den Port explizit öffnen, damit der VPN-Tunnel aufgebaut werden kann.
+Technische Erklärung: diese ganzen Schritte sind notwendig, weil das Freifunk-Gerät einen VPN-Tunnel zum Freifunk-Gateway-Server aufbauen muss; und das passiert über **UDP Port 50000**. Dieser Port ist im Gastzugang der Fritzbox standardmäßig blockiert, deshalb muss man den Port explizit öffnen, damit der VPN-Tunnel aufgebaut werden kann.
