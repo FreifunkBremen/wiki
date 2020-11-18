@@ -16,7 +16,7 @@ Dann auf „SEE PAST FIRMWARE“ die „Unfi Firmware 3.7.58 for UAP-AC-LITE/M/�
 
 Der Reihe nach: 
 
-## Inhalt:
+## Inhalt
 
 [[_TOC_]]
 
@@ -70,7 +70,8 @@ Example: To write linux.trx to mtd4 labeled as linux and reboot afterwards
 BZ.v3.7.58#
 ~~~
 Wenn die Ausgabe so aussieht, kann die Freifunkfirmware installiert werden.	Ohne MTD bitte eine Firmware mit MTD aufspielen, weiter bei Punkt 3.
-	
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 ### 2.) Freifunk Image aufspielen
 	
@@ -132,6 +133,8 @@ Der Router befindet sich nach dem ersten Neustart automatisch im Konfigurationsm
 Weiterhin verteilt der Router in der Zeit über DHCP IP-Adressen, so das der PC eine passende Adresse erhält.
 
 Startet nun die Konfiguration über: http://192.168.1.1 und die Konfiguration kann vorgenommen werden.
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
  
 ### 3.) Back to Stock - Downgrade unter Linux Mint-Ubuntu
 
@@ -182,7 +185,7 @@ Sent x bytes in y seconds
 Nach ein paar Minuten bootet die Unifi selbstständig mit der originalen Firmware.
 
  
-
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
  
 ### 3.) Back to Stock - Downgrade unter Windows 
 
@@ -200,6 +203,8 @@ Danach wieder per SSH (mit z.B. Putty) auf dem Gerät einloggen und folgendes au
 Quelle: https://help.ubnt.com/hc/en-us/articles/204910064-UniFi-Changing-the-Firmware-of-a-UniFi-Device#local%20upgrade
 
 Danach startet das Gerät neu, dann erneut einloggen und weiter mit Punkt 2. um die Freifunk Firmware zu installieren.
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 ### 4.) Hinweise
 
@@ -223,5 +228,6 @@ wget http://downloads.bremen.freifunk.net/firmware/all/2019.1.2+bremen3/sysupgra
 sysupgrade gluon-ffhb-2019.1.2+bremen3-ubiquiti-unifi-ac-mesh-sysupgrade.bin
 ~~~
 
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 **Diese Anleitung ist wie immer ohne Gewähr. Für Anregungen und Tipps immer offen.**
