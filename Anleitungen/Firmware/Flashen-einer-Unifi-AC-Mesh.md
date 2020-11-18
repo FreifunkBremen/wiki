@@ -17,17 +17,8 @@ Dann auf „SEE PAST FIRMWARE“ die „Unfi Firmware 3.7.58 for UAP-AC-LITE/M/�
 Der Reihe nach: 
 
 ## Inhalt:
-__TOC__
-[1.) Firmwareversion ermitteln und  flashen:](#inhalt_1-firmwareversion-ermitteln-und-flashen)
 
-[2.) Freifunk Image aufspielen](#inhalt_2-freifunk-image-aufspielen)
-
-[3.a) Back to Stock - Downgrade unter Linux Mint-Ubuntu](#inhalt_3-back-to-stock-downgrade-unter-linux-mint-ubuntu)
-
-[3.b) Back to Stock - Downgrade unter Windows](#inhalt_3-back-to-stock-downgrade-unter-windows)
-
-[4.) Hinweise](#inhalt_4-hinweise)
-
+[[_TOC_]]
 
 ### 1.) Firmwareversion ermitteln und flashen:
 
