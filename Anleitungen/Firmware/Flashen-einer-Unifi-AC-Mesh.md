@@ -221,7 +221,7 @@ vorhanden sind, ggf. diese Ergänzen.
 
 Ein sysupgrade -n gluon-ffhb-2019.1.1+bremen3-ubiquiti-unifi-ac-mesh-sysupgrade.bin funktioniert ebenfalls, um erneut in den Konfigurationsmodus zu gelangen und das Gerät neu zu konfigurieren.
 
-Sysupgrade: per SSH verbinden
+Sysupgrade: per SSH verbinden, Firmwarelink kpoieren und nach wget einfügen. Vom Link das s aus https: entfernen, damit klappt der Download.
 ~~~
 cd /tmp
 wget http://downloads.bremen.freifunk.net/firmware/all/2019.1.2+bremen3/sysupgrade/gluon-ffhb-2019.1.2+bremen3-ubiquiti-unifi-ac-mesh-sysupgrade.bin
