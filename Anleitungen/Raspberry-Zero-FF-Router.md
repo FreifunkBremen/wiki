@@ -6,10 +6,12 @@ Dieser Beitrag zeigt den **gescheitertetn Versuch**, einen Pi-Zero WH mit Freifu
 Warum es aktuell nicht funktioniert: 
 - Kein passendes Image
 - Vorhandenes Pi Image muss verbogen werden.
-
 - Nur für Leute geeignet, die ihr Gluon selbst kompilieren und damit auch schon etwas mehr als nur „standard-Howto-Erfahrung“ gesammelt haben.
-RPI-Gluon ist meiner Meinung nach ein Spielfeld für Leute, die schon 3-4 TP-Link, Ubiquiti etc Geräte zu laufen haben und neue Herausforderungen suchen.
-Oder anders: Für Neueinsteigende ist das ein ziemlich mutiger Sprung. Nicht unschaffbar, aber für viele vermutlich zu frustrierend.
+- Aktell keine Lösung
+RPI-Gluon ist meiner Meinung nach ein Spielfeld für Leute, die schon 3-4 TP-Link, 
+Ubiquiti etc Geräte zu laufen haben und neue Herausforderungen suchen.
+Oder anders: Für Neueinsteigende ist das ein ziemlich mutiger Sprung. 
+Nicht unschaffbar, aber für viele vermutlich zu frustrierend.
 
 
 ## Inhalt
