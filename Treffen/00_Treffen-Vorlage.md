@@ -1,4 +1,4 @@
-# Treffen 18.12.2020
+# Treffen 01.01.2021
 
 **Termin:** 19:00 Uhr Start und Neulingsbegrüßung, 19:30 Uhr Eröffnung der Tagesordnung
 
