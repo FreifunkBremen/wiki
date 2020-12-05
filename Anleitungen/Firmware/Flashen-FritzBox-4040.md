@@ -39,16 +39,21 @@ https://fritz-tools.readthedocs.io/de/latest/
 
 Für Windows gibt es eine Powershell Anwendung: https://github.com/adrianschmutzler/evaFFF 
 
-### Auch Interessant:
-Bei der Fritzbox 4040 sind alle vier gelben Ports entweder Mesh oder Client, denn diese hängen alle intern an einem Hardware-Switch und werden nicht als VLAN an den Switch angebunden, somit sind die Ports nicht aufteilbar. Dies ist vermutlich auch in Zukunft nicht möglich.
+### Auch Interessant: Wichtige Infos:
+
+* Bei der Fritzbox 4040 sind alle vier gelben Ports entweder Mesh oder Client, denn diese hängen alle intern an einem Hardware-Switch und werden nicht als VLAN an den Switch angebunden, somit sind die Ports nicht aufteilbar. Dies ist vermutlich auch in Zukunft nicht möglich.
 
     eth0 - gelbe Buchsen - Standard ist Mesh, kann zu Client umgeschaltet werden
     eth1 - blaue Buchse - Uplink/VPN
     
-Installation geht nicht, probier mal die aktuellste FW 4.1.0er. Die sollte eigentlich gehen. Falls die nicht klappt, musst du ganz auf die 4.0.1er zurück und dann mit sysupgrade auf 4.1.0 aktualisieren. Die 4.0.3er ist kaputt, was das Bootloader-Image für die 4040 angeht.
+* Installation geht nicht, probiert mal die aktuellste FW 4.1.0er. Die sollte eigentlich gehen. Falls die nicht klappt, musst du ganz auf die 4.0.1er zurück und dann mit sysupgrade auf 4.1.0 aktualisieren. _Achtung:_ Die 4.0.3er ist kaputt, was das Bootloader-Image für die 4040 angeht.
 
+* Das Flashen der FB 4040 mit der Anleitung unter https://fritz-tools.readthedocs.io/de/latest/ und der aktuellen Firmware sollte auch problemlos funktionieren.
 
-Ich kann bestätigen, dass flashen der FB 4040 mit der Anleitung unter https://fritz-tools.readthedocs.io/de/latest/ und der aktuellen Firmware kein Problem ist.
+* Tipp, wie man auf der FB 4040 in den Config-Mode kommt: im normalen Betrieb die WPS-Taste drücken; nach ca. 10-15 Sekunden startet der Router automatisch im Config-Mode neu. Es ist nicht nötig, dafür manuell den Strom zu trennen oder sowas.
 
+* je nach Tageszeit liegt der Upload bei 20-25 MBit/s (ziemlich unabhängig davon, ob Mesh-VPN-Verschlüsselung aktiviert ist)
 
-Wiki biite für Bremen aktualisieren.
+* Stromverbrauch ist laut seiner Messung erfreulich niedrig: ca. 2,5 Watt
+
+Wiki bitte für Bremen aktualisieren.
