@@ -1,7 +1,7 @@
 ### Flashen einer FritzBox 4040.
 Die folgenden Infos wurden aus verschiedenen Foren etc. zusammengetragen und sind mit Stand 6/2020 nicht verifiziert.
 
-- Anzumerken ist: Das Flashen einer FritzBox ist nichts für Anfänger. Bitte informiert euch bei Leuten, die bereits die 4040 geflasht haben.
+- Anzumerken ist: Das Flashen einer FritzBox ist nichts für Anfänger. Bitte informiert euch bei Leuten, die bereits die 4040 geflasht haben. Kommt gerne auf eines unserer Treffen, auch per Videokonferenz, dort sind immer ein paar flashen dabei.
 
 Eine Anleitung behauptet, so funktioniert es definitiv für jede Box:
 
