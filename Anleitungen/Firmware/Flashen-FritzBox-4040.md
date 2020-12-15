@@ -17,10 +17,11 @@ Eine Anleitung aus den Erfahrungen aus 12/2020 ausgeführt mit Linux:
     python3 fritzflash.py
     Enter
 9.  FritzBox ans Stromnetz anschließen.
-10. Anweisung im Terminal folgen.
-11. LAN-Schnittstelle des PC auf DHCP zurückstellen.
-12. Warten bis LAN wider aktiv ist dann 192.168.1.1 aufrufen.
-13. Den Router im Browser Webinterface einrichten (wie bei allen neuen Knoten).
+10. Wenn alle Lampen aufleuchten nochmals Enter
+11. Anweisung im Terminal folgen.
+12. LAN-Schnittstelle des PC auf DHCP zurückstellen.
+13. Warten bis LAN wider aktiv ist dann 192.168.1.1 aufrufen.
+14. Den Router im Browser Webinterface einrichten (wie bei allen neuen Knoten).
 
 ### Konfigurationsmodus/Fritzbox 4040 
 
