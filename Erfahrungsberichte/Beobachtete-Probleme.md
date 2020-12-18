@@ -170,6 +170,8 @@ Auf anderen Knoten (also meinen eigenen Knoten) kann ich diesen Test-Befehl hing
 Auch mit Ping lässt sich das einfach reproduzieren: ```ping6 -s 1391 GB-KH-E3-1a.nodes.ffhb.de```
 Bei anderen Knoten (die nicht am Schlachthof angebunden sind) funktioniert dieser Ping-Befehl.
 
+Mit `tracepath6 GB-KH-E3-1a.nodes.ffhb.de` wird eine PMTU von 1492 ermittelt; das ist demnach zu hoch und sorgt damit für Probleme.
+
 ## Gelöste Probleme
 
 ### [Gelöst] logread zeigt "fastd[1999]: resolving host `vpn01.bremen.freifunk.net' failed: Try again"
