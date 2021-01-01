@@ -136,7 +136,7 @@ Startet nun die Konfiguration über: http://192.168.1.1 und die Konfiguration ka
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
  
-### 3.) Back to Stock - Downgrade unter Linux Mint-Ubuntu
+### 3a.) Back to Stock - Downgrade unter Linux Mint-Ubuntu
 
 Vorraussetzungen:
 Das LAN Kabel ist mit der Unifi AC Mesh PoE Adapter und deinem Laptop verbunden.
@@ -187,7 +187,7 @@ Nach ein paar Minuten bootet die Unifi selbstständig mit der originalen Firmwar
  
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
  
-### 3.) Back to Stock - Downgrade unter Windows 
+### 3b.) Back to Stock - Downgrade unter Windows 
 
 Die Datei mit einem SCP-fähigen Program (z.B. WinSCP) auf der AC Mesh ablegen.
 
