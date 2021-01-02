@@ -2,9 +2,9 @@
 
 # Bearbeitungshinweis
 Dies ist das eingebundene Protokoll des letzten Treffens.
-Du kannst das Protokoll unter [[2020_12_18|2020_12_18]] bearbeiten
+Du kannst das Protokoll unter [[2021_01_01|2021_01_01]] bearbeiten
 
 ---
 
-[[include:2020_12_18]]
+[[include:2021_01_01]]
     
