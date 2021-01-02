@@ -5,7 +5,7 @@ Beim Regeltreffen geht es um allgemeine Organisation: Was muss erledigt werden? 
 
 * __Wann?__: Jeweils am **ersten** und **dritten Freitag**, um 19Uhr.
 * __Wo?__: In den Räumlichkeiten des [Hackerspace Bremen e.V](https://www.hackerspace-bremen.de/anfahrt/)
-* #stayathome: Online-Treffen während Corona
+* __#stayathome:__ Online-Treffen während Corona
 
 Das Treffen im Hackerspace ist im Moment durch ein Online-Treffen per Videokonferenz ersetzt. Wir treffen uns zur gewohnten Zeit, aber nun unter https://bremen.freifunk.net/to/videokonf (Chrome empfohlen).
 
