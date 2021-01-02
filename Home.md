@@ -47,7 +47,7 @@ Eine Übersicht aller Arten von Zusammenkünften findest du unter [[Treffen|Tref
     * [FFHB-Gluon-Quellen bei Github](https://github.com/FreifunkBremen/gluon-site-ffhb)
 * [[Dienste|Dienste/Home]]
     * [[DNS|Dienste/DNS]]
-    * [[Monitoring|/Anleitungen/Gatemon-mit-Raspberry-Pi-installieren]]
+    * [[Monitoring|Anleitungen/Gatemon-mit-Raspberry-Pi-installieren]]
 * [[Datenschutz|Infrastruktur/Datenschutz]]
 
 ## Änderungen mitbekommen
