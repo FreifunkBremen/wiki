@@ -164,14 +164,14 @@ Das Terminal öffnen und
 
     tftp
 
-eingeben.
+eingeben. Dann 2x enter
 
 Den Reset Button drücken und halten.
 Die Unifi AC-Mesh mit dem PoE Kabel am Adapter verbinden.
 Halte den Reset Button solange gedrückt, bis die LED’s abwechselnd blau-weiß blinkt (ca.20 Sekunden).
 Jetzt fährt die Unifi in den Recovery Mode und blinkt weiterhin abwechselnd blau-weiß.
 
-Dann jede Zeile einzeln eintippen.
+Dann jede Zeile einzeln eintippen. Dann jeweils enter.
 
     connect 192.168.1.20
     binary
@@ -179,10 +179,9 @@ Dann jede Zeile einzeln eintippen.
     timeout 60
     put firmware.bin
 
-Als Ausgabe erscheint…
-Sent x bytes in y seconds
+Dann folgt ein schneller blau/weis wechsel
 
-Nach ein paar Minuten bootet die Unifi selbstständig mit der originalen Firmware.
+Nach ein paar Minuten bootet die Unifi selbstständig mit der originalen Firmware. Wenn die LED Durchgehend weiß Leuchtet ist der Neustart abgeschlossen.
 
  
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
