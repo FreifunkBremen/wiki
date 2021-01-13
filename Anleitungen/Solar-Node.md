@@ -1,4 +1,4 @@
-#Solarnode
+# Solarnode
 ## Vorraussetzungen
 Um einen Freifunk Node über eine Solaranlage zu versorgen sollte eine Grundfläche von mindestens 1m² vorhanden sein.
 
