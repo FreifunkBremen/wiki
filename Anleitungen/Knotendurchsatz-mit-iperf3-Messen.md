@@ -18,7 +18,7 @@ Dies wird auf beiden Knoten ausgeführt.
 ### Portfreigabe in der Firewall
 
 Wird gerne vergessen. Auf dem Knoten, bei dem iperf3 im Server-Modus ausgeführt wird, muss Port 5201 in der Firewall freigegeben werden. Mit den folgenden Befehlen wird eine weitere Firewall-Regel dazu hinzugefügt und die Firewall neu gestartet: Die Firewallregel ist nicht permanent und wird mit dem nächsten Release gelöscht.
-Der Eintrag erfolgt in: /etc/config/firewall  (nicht in /etc/firewall.user)
+Der Eintrag erfolgt in: */etc/config/firewall*  (nicht in /etc/firewall.user)
 ~~~
 uci add firewall rule
 uci set firewall.@rule[-1].src=mesh
@@ -51,7 +51,7 @@ config rule
 	option family 'ipv6'
 ~~~
 
-Firewall ebenfalls neu Starten. /etc/init.d/firewall restart
+Firewall ebenfalls neu Starten. */etc/init.d/firewall restart*
 
 ### Starten von iperf3
 
