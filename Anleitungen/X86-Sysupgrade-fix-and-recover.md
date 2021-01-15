@@ -166,7 +166,13 @@ root@ffhb-0019997a7220:~# mount /dev/sda3 /mnt/sda3
 
 ## opkg-update-fix
 Bei einigen Gluonversionen konnten keine Pakete installiert werden. Einfach den DNS auf 8.8.8.8 setzen. (Alternative DNS: 8.8.4.4, 9.9.9.9 - 9.9.9.12)
-Alternativ die Pakete direkt installieren:
+
+/etc/opkg.conf anpassen: Nur einen Teil pro Zeile einfügen.
+~~~ 
+echo "nameserver 8.8.8.8">>/etc/resolv.conf
+~~~
+
+Alternativ die Pakete direkt installieren, d.h. per scp ins /tmp Verzeichnis kopieren.
 
 ~~~
 root@ffhb-0019997a7220:~# opkg install openssl
