@@ -2,7 +2,7 @@
 Herzlich willkommen im Freifunk Bremen Wiki.
 Das Wiki stellt eine Informationssammlung dar, an der jede und jeder mitarbeiten kann. Du findest hier Informationen zu den unterschiedlichsten Themen.
 
-Alle erstellten Seiten findest du [hier](/pages).
+Alle erstellten Seiten findest du [hier](/gollum/overview).
 
 Zurück zur Homepage geht es [hier](https://bremen.freifunk.net) lang.
 
