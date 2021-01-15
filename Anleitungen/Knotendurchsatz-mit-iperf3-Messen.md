@@ -18,6 +18,7 @@ Dies wird auf beiden Knoten ausgeführt.
 ### Portfreigabe in der Firewall
 
 Wird gerne vergessen. Auf dem Knoten, bei dem iperf3 im Server-Modus ausgeführt wird, muss Port 5201 in der Firewall freigegeben werden. Mit den folgenden Befehlen wird eine weitere Firewall-Regel dazu hinzugefügt und die Firewall neu gestartet: Die Firewallregel ist nicht permanent und wird mit dem nächsten Release gelöscht.
+Der Eintrag erfolgt in: /etc/config/firewall  (nicht in /etc/firewall.user)
 ~~~
 uci add firewall rule
 uci set firewall.@rule[-1].src=mesh
@@ -60,7 +61,9 @@ iperf3 -s -V
 ~~~
 gestartet. (-s: Server, -V: Detailliertere Ausgabe (Verbose)). Auf dem Client-Knoten wird iperf3 nun mit dem Kommando -c und der Angabe der IPv6 des iperf-Servers
 ~~~
-iperf3 -V -c2a06:8782:ffbb:1337:feec:daff:fe7f:28e1
+iperf3 -c 2a06:8782:ffbb:1337:219:99ff:fe7a:6f26 -V
+oder
+iperf3 -c fd2f:5119:f2c::219:99ff:fe7a:6f26 -V
 ~~~
 gestartet. Es wird ein Test mit einer Dauer von 10 Sekunden gestartet, bei dem jede Sekunde ein Ergebnis angezeigt wird. Die Testzeit kann über „-t 30“ auf 30 Sekunden verlängert werden, mit „-i 10“ wird das Intervall auf der Clientseite auf 10 Sekunden erhöht.
 
