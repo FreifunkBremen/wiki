@@ -168,8 +168,17 @@ root@ffhb-0019997a7220:~# mount /dev/sda3 /mnt/sda3
 Bei einigen Gluonversionen konnten keine Pakete installiert werden. Einfach den DNS auf 8.8.8.8 setzen. (Alternative DNS: 8.8.4.4, 9.9.9.9 - 9.9.9.12)
 
 /etc/opkg.conf anpassen: Nur einen Teil pro Zeile einfügen.
+Konsole:
 ~~~ 
 echo "nameserver 8.8.8.8">>/etc/resolv.conf
+/etc/init.d/gluon-wan-dnsmasq restart
+~~~
+Konsole über UCI Befehle
+~~~
+uci add_list gluon-wan-dnsmasq.@static[0].server=8.8.8.8
+uci add_list gluon-wan-dnsmasq.@static[1].server=8.8.4.4
+uci commit gluon-wan-dnsmasq
+/etc/init.d/gluon-wan-dnsmasq restart
 ~~~
 
 Alternativ die Pakete direkt installieren, d.h. per scp ins /tmp Verzeichnis kopieren.
