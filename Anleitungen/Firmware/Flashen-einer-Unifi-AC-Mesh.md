@@ -111,7 +111,7 @@ Als Ausgabe erscheint:
 
 und ein Nullbyte an den Anfang der Partition schreiben.
 ~~~
-    dd if=/dev/zero bs=1 count=1 of=/dev/mtdX **<-x Anpassen**
+    dd if=/dev/zero bs=1 count=1 of=/dev/mtdX  **<-x Anpassen** hier ist es mtd4
 ~~~
 Die gesuchte Partition ist vor dem reboot /dev/mtd4.
 
