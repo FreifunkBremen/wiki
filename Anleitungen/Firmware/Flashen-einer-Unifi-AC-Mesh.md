@@ -3,6 +3,8 @@
 
 Flashen einer Unifi AC-Mesh / AC-Lite unter Linux Mint/Ubuntu:
 
+Die Ubiquity Geräte haben für die eigene Firmware ein tolles System, da ständig weiterentwickelt und optimiert wird.
+Das technische System sollte hier kurz vorgestellt werden. Die UBNT Firmware wird auf zwei Speicherbänke geladen. Zwischen diesen Speicherbänken wird umgeschaltet wenn eine neu Firmware eingespielt wurde. Dadurch kann ohne Installation wieder auf die vorhergehende Version zurückgeschaltet werden. Die Firmware wurde auch dahin optimiert, vermeindlich unnötige Tools aus dem Betriebssystem zu entfernen. Das führt jedoch zu Problemen, wenn fremde Firmware eingespielt werden soll.
 Vor dem flashen muss unbedingt darauf geachtet werden das die vorinstallierte original Firmware 3.7.58, 3.8.3 oder 4.0.21 von Ubiquiti installiert ist!
 Ubiquiti Firmware Versionen kleiner 3.7.58 kann beim aufspielen und Updaten mit Freifunk Firmware (ab Version 0.9.4 / GLUON 2017.1.7) zum Soft-Brick führen!
 
@@ -13,7 +15,7 @@ Auf dem Gerätekarton steht ein Testdatum, Geräte bis 1.4.2019 sollten die rich
 Die richtige Firmware von Ubiquiti herunterladen (3.7.58 / 3.8.3)
 https://www.ubnt.com/download/unifi/unifi-mesh/uap-ac-m
 Dann auf „SEE PAST FIRMWARE“ die „Unfi Firmware 3.7.58 for UAP-AC-LITE/M/…/… “ auswählen und herunterladen.
-
+Dieser Schritt ist leider manchmal notwendig.
 Der Reihe nach: 
 
 ## Inhalt
