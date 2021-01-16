@@ -40,7 +40,7 @@ Im Idealfall sieht die Ausgabe mit Angabe der vorinstallierten Firmware dann so 
 
     BZ.v3.7.58#
     
-
+Test, ob MTD vorhanden ist.
 ~~~
 BZ.v3.7.58# mtd
 Usage: mtd [<options> ...] <command> [<arguments> ...] <device>[:<device>...]
