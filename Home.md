@@ -26,7 +26,6 @@ Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffh
     
 * [Liste aller Treffen](/gollum/overview/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
 * Weitere Termine (nicht nur Treffen) finden sich in den Protokollen zu den verschiedenen Treffen
-https://wiki.bremen.freifunk.net/gollum/overview/Treffen/
 Eine Übersicht aller Arten von Zusammenkünften findest du unter [[Treffen|Treffen/00_Treffen]].
 
 ## Organisatorisches
