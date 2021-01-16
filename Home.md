@@ -19,8 +19,8 @@ Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffh
 * der letzten Treffen:
     * [[18.12.2020|Treffen/2020_12_18]]
     * [[01.01.2021|Treffen/2021_01_01]]
-* der nächsten Treffen:
     * [[15.01.2021|Treffen/2021_01_15]]
+* der nächsten Treffen:
     * [[05.02.2021|Treffen/2021_02_05]]
     * [[19.02.2021|Treffen/2021_02_19]]
     
