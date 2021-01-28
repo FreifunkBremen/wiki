@@ -27,13 +27,13 @@ Experimentelle Firmware-Versionen werden nicht offiziell unterstützt und werden
 Branch        | aktuelle Version                                                    | signed by
 ---           | ---                                                                 | ---
 **`stable`**  | [2019.1.2+bremen3](#freifunk-bremen-versionen_2019-1-2-bremen3)     | `janeric`, `oliver`, `genofire`
-**`testing`** | [2019.1.2+bremen3](#freifunk-bremen-versionen_2019-1-2-bremen3)     | `oliver`
+**`testing`** | [2019.1.2+bremen4](#freifunk-bremen-versionen_2019-1-2-bremen4)     | `oliver`
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
 ### 2019.1.2+bremen4
 **Veröffentlichung auf dem `stable`-Branch**: nie   
-**Veröffentlichung auf dem `testing`-Branch**: nie   
+**Veröffentlichung auf dem `testing`-Branch**: [27.01.2021](https://downloads.bremen.freifunk.net/firmware/all/2019.1.2+bremen4/sysupgrade/testing.manifest)   
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2019.1.2+bremen4) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2019.1.2+bremen4)  
 **gluon-Version**: [2019.1.2](#gluon-versionen_2019-1-2)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2019.1.2+bremen4/)
@@ -44,8 +44,8 @@ Man kann jetzt im Config-Modus wieder die Domain auswählen:
 - "Freifunk Bremen neu (mit Batman v15 - Testnetz)" aktiviert das neue Protokoll; der Knoten verbindet sich dann mit einem neuen Testnetz, das über den vpn04-Server läuft
 
 ### 2019.1.2+bremen3
-**Veröffentlichung auf dem `stable`-Branch**: nie   
-**Veröffentlichung auf dem `testing`-Branch**: [04.09.2020](https://downloads.bremen.freifunk.net/firmware/all/2019.1.2+bremen3/sysupgrade/stable.manifest)   
+**Veröffentlichung auf dem `stable`-Branch**: [21.09.2020](https://downloads.bremen.freifunk.net/firmware/all/2019.1.2+bremen3/sysupgrade/stable.manifest)   
+**Veröffentlichung auf dem `testing`-Branch**: [04.09.2020](https://downloads.bremen.freifunk.net/firmware/all/2019.1.2+bremen3/sysupgrade/testing.manifest)   
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2019.1.2+bremen3) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2019.1.2+bremen3)  
 **gluon-Version**: [2019.1.2](#gluon-versionen_2019-1-2)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2019.1.2+bremen3/)
