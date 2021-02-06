@@ -2,9 +2,7 @@
 
 2021-02-07 
 
-__Dieser Artikel richtet sich an Nutzer der Testing-Firmware__
-
-[2019.1.2+bremen4](https://wiki.bremen.freifunk.net/Firmware/Changelog#2019-1-2-bremen4), die helfen wollen, das Bremer Freifunk-Netz schneller zu machen.
+__Dieser Artikel richtet sich an Nutzer der Testing-Firmware__  [2019.1.2+bremen4](https://wiki.bremen.freifunk.net/Firmware/Changelog#2019-1-2-bremen4), die helfen wollen, das Bremer Freifunk-Netz schneller zu machen.
 
 ## Hintergrund
 Eine Website zu öffnen ist für uns meist nur einen Klick entfernt. Technisch gesehen, sind es dutzende kleine Schritte. Damit die Website durch das Freifunk-Netz zu dir geschickt werden kann, muss der Weg über verschiedene Netzwerkgeräte wie Router und Server zu deinem Endgerät bekannt sein. Es muss eine Route existieren. Um dieses "Routing" kümmert sich im Bremer Freifunk-Netz momentan B.A.T.M.A.N in der Version 13. Die ist nicht mehr ganz taufrisch.
