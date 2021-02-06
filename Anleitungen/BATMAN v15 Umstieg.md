@@ -1,6 +1,6 @@
 "B.A.T.M.A.N-Wechsel für Testing-Nutzer"
 
-2021-02-07 
+**2021-02-07** 
 
 __Dieser Artikel richtet sich an Nutzer der Testing-Firmware__  [2019.1.2+bremen4](https://wiki.bremen.freifunk.net/Firmware/Changelog#2019-1-2-bremen4), die helfen wollen, das Bremer Freifunk-Netz schneller zu machen.
 
