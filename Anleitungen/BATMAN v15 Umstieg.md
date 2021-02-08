@@ -19,6 +19,8 @@ __Hinweis__
 - Remote first.
 Beginne mit Änderungen am entfernten Gerät.
 - B.A.T.M.A.N v15 und v14 sind nicht kompatibel. Sie meshen nicht. Stelle bitte sicher, dass alle Router, die per Kabel oder WLAN mit deinem Router meshen, die gleiche Domain ausgewählt haben.
+- Hinweis: wir benutzen dann nicht Port 50000 für Batman v15, sondern z.B. **50001**
+- Umstellung / Erweiterung im Homerouter, falls nur der Port 50000 im Gastnetz freigegeben wurde.
 
 ### Wechsel per Weboberfläche
 
