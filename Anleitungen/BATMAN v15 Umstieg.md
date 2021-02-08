@@ -28,6 +28,9 @@ Beginne mit Änderungen am entfernten Gerät.
 ### Wechsel per SSH
     uci set gluon.core.domain='ffhb_batv15' && gluon-reconfigure && gluon-reload &&  uci commit
 
+### zurück per SSH
+    uci set gluon.core.domain='ffhb_11s' && gluon-reconfigure && gluon-reload &&  uci commit
+    
 ## Hilfe und Rückmeldung
 Wenn ihr Fragen habt oder eine Rückmeldung geben wollt, dann kommt in den [Chat](https://webirc.hackint.org/#ircs://irc.hackint.org/#ffhb?nick=Gast_?),
 schreibt auf der [Mailingliste](https://lists.bremen.freifunk.net/mailman/listinfo/ff-bremen/),
