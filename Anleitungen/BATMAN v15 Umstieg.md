@@ -1,4 +1,4 @@
-# Auf Startfreigabe warten, Aktell noch kaputt!
+# Auf Startfreigabe warten, Aktuell noch kaputt!
 
 "B.A.T.M.A.N-Wechsel für Testing-Nutzer"
 
