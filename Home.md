@@ -17,12 +17,11 @@ Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffh
 
 ##### Tagesordnungen
 * der letzten Treffen:
-    * [[18.12.2020|Treffen/2020_12_18]]
-    * [[01.01.2021|Treffen/2021_01_01]]
     * [[15.01.2021|Treffen/2021_01_15]]
-* der nächsten Treffen:
     * [[05.02.2021|Treffen/2021_02_05]]
+* der nächsten Treffen:
     * [[19.02.2021|Treffen/2021_02_19]]
+    * [[05.03.2021|Treffen/2021_03_05]]
     
 * [Liste aller Treffen](/gollum/overview/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
 * Weitere Termine (nicht nur Treffen) finden sich in den Protokollen zu den verschiedenen Treffen
