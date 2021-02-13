@@ -46,21 +46,21 @@ Ein häufiges Problem sind die Zugänge zum Strom. Viele Hallen Nutzer*innen sch
 
 #### Linke Seite
 
-### Tor40
+##### Tor40
 Bei Tor40 wurde im Januar ein Router (1043er) verbaut, er hängt per Outdoor-Kabel via Zwischendecke direkt am agffgb03 (aka Zentrale)
 
-### Linie7
+##### Linie7
 Bei Linie7 ist ein Archer-C7 im Einsatz, der hängt per Outdoor-Kabel am Tor40-Router.
 Der Name: agffgb10
 
-### Offene Ateliers
+##### Offene Ateliers
 zwischen Linie7 und Schaulust sind Ateliers, da steht ein WR940-Router.
 Da hier die Wände im Gegensatz zur den Toren auf der anderen Seite wesentlich robuster sind. Wurde zur Nachverdichtung ein weitere Router (Archer C7) in den dichten Ateliers zwischen Linie 7 und Schauluft angebracht. Momentan noch per WIFI Mesh, so lange bis eine Kabelinstallation möglich ist. 
 
-### Schaulust
+##### Schaulust
 Archer C7 ist von Linie7 her angebunden. Anbindung zur Spedition folgt demnächst.
 
-### Veranstaltungsraum zwischen Schaulust und Spedition
+##### Veranstaltungsraum zwischen Schaulust und Spedition
 Hier hängt nun ein WR1043 in einer Ecke. Dies war der Ringschluss-Router in diesem Gebäudeteil.
 
 ## Sonstiges 
