@@ -37,8 +37,12 @@ Damit genug Ports zur Versorgung der Proberäume zur Verfügung stehen, hängt a
 ##### Ateliers zwischen Künstlerhaus und längerer Halle
 An der beschriebenen Stelle hängt ein WR1043 "auf dem Gang". Er hängt per Mesh an einem Archer C7 im 2.OG.
 
-##### Tor 25
+##### Tor 25 und folgende
 Bei Tor25 ist nun auch ein Router (1043er) gelandet. 
+Bis Tor 1 sind nun Kabel und Router verlegt. 
+Die Tore hier haben dünnere Wände und viele Lagerorte. Die Abstände der Router variert hier regelmäßig.
+Ein häufiges Problem sind die Zugänge zum Strom. Viele Hallen Nutzer*innen schalten ihren Hauptschalter bei Abwesenheit aus. Hier sind mit Uwe (vom GB) spezielle Lösungen entwickelt worden oder auf PoE Geräte umgeschwenkt worden. Bei Freifunk Ausfällen auf dieser Seite ist fehlender Strom immer in Betracht zu ziehen.
+
 
 #### Linke Seite
 
@@ -51,6 +55,7 @@ Der Name: agffgb10
 
 ### Offene Ateliers
 zwischen Linie7 und Schaulust sind Ateliers, da steht ein WR940-Router.
+Da hier die Wände im Gegensatz zur den Toren auf der anderen Seite wesentlich robuster sind. Wurde zur Nachverdichtung ein weitere Router (Archer C7) in den dichten Ateliers zwischen Linie 7 und Schauluft angebracht. Momentan noch per WIFI Mesh, so lange bis eine Kabelinstallation möglich ist. 
 
 ### Schaulust
 Archer C7 ist von Linie7 her angebunden. Anbindung zur Spedition folgt demnächst.
@@ -58,15 +63,13 @@ Archer C7 ist von Linie7 her angebunden. Anbindung zur Spedition folgt demnächs
 ### Veranstaltungsraum zwischen Schaulust und Spedition
 Hier hängt nun ein WR1043 in einer Ecke. Dies war der Ringschluss-Router in diesem Gebäudeteil.
 
-## nächste Standorte
+## Sonstiges 
 
-### Tor13 
-Das 75m-Kabel genügt vermutlich/hoffentlich bis Tor13. Dort sollte der nächste Router hin, der dann mit einem 30-50m Kabel Tor 11 per Kabel anbindet. 
+### Container-Kiosk
+Auf dem Gelände Eingang steht ein zum Kiosk und Parkwächterhäusche ausgebauter Container. Dieser ist zwar im LT Schema benannt, weil er sich auf dieser Seite befinden, aber defacto über einen bestehenden Wasser- und Stromkabelkanal mit an die RT Reihe angeschlossen. 
 
-
-### Tor 8
-Von Tor 11 aus sollte Tor 8 per 50m-Kabel erreichbar sein. 
-
+### austehend: Ringschluss
+Wegen der häufigen Stromprobleme wollen wir dauerhaft einen Ringschluss zwischen Spedition und der rechten Hallenseite vollziehen
 
 ### erstmal verschoben: Ende der Gleishalle / Querlenker
 Am Ende der Gleishalle kommt vielleicht noch einie Installation hin, um die Obdachlosen hinter dem GB zu versorgen. 
