@@ -11,7 +11,7 @@ Naming Convention:
 Konfiguration der Knoten:
 
 * Soweit nicht anders angegeben geben alle Router auf allen Ports das Mesh-Netz raus. 
-* Wifi-Mesh wäre wünschenswerterweise überall aus. 
+* Wifi-Mesh wäre wünschenswerterweise überall aus (aktuell nocht nicht der Fall, wird an manchen Orten noch als Fallback-Option benutzt, Stand: Feb2021). 
 * Außer bei Routern im GB-RT und GB-LT Strang, da ist Wifi-Mesh aktiviert. Durch die Schaltung der Router in Reihe gibt es manchmal bei Stromausfällen (Hauptsicherung aus, Elektro-Umbau, etc) abrisse für viele Nutzer*innenn. Daher ist der WIFI-Mesh als Fallback aktiviert.
 * agffgb07 ("Keller"): WLAN komplett aus, Client-Netz auf den (gelben) LAN-Ports, durch einen USB-Switch 3 zusätzliche Client-Ports 
 * agffgb12 ("Schaulust"): Wifi-Mesh ist an, damit der Router erreichbar ist, auch wenn die Verkabelung zu Tor40 ausfällt.
