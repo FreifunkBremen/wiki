@@ -4,6 +4,10 @@ Hier werden Störungen, Ausfälle, Performance-Mängel und andere Probleme gesam
 
 Trag möglichst viele Details ein: was genau hast du beobachtet, wann war das, was hast du stattdessen erwartet?
 
+### Knoten werden auf der Karte als Offline angezeigt, lassen sich aber anpingen
+
+* Möglichkeit 1: der `respondd`-Prozess auf dem Knoten ist abgestürzt. Einfachste Lösung: Knoten neustarten.
+
 ### Güterbahnhof
 * Regelmäßig fällt der Güterbhanhof aus
 * Wird dann nur notdürftig via CPE und Papageienhaus versorgt -> faktisch nicht nutzbar
