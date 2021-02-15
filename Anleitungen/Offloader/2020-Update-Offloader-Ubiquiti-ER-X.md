@@ -185,7 +185,7 @@ Siehe [Bauanleitung](/data/README.md) zu diesem Projekt.
 - [FF-Winterberg: Die Nutzung von Ubiquiti EdgeRouter-X als Freifunk Offloader](https://www.freifunk-winterberg.net/die-nutzung-von-ubiquiti-edgerouter-x-als-freifunk-offloader)
 - [ERX, ERX-SFP System Recovery per serieller Schnittstelle und TFTP](https://community.ubnt.com/t5/EdgeMAX/ERX-ERX-SFP-System-Recovery/td-p/2056921) 
 - [Sector5D-Blog: OpenWRT on the Ubiquiti EdgeRouter X](http://sector5d.org/openwrt-on-the-ubiquiti-edgerouter-x.html)
-
+- [Offloader-Ubiquiti-ER-X](https://wiki.bremen.freifunk.net/gollum/edit/Anleitungen/Offloader/Offloader-Ubiquiti-ER-X.md)
 <br>
 
 - [UBNT: Quickstart Guide EdgeRouter X](https://dl.ubnt.com/guides/edgemax/EdgeRouter_ER-X_QSG.pdf)
