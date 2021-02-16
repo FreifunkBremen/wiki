@@ -41,8 +41,8 @@ An der beschriebenen Stelle hängt ein WR1043 "auf dem Gang". Er hängt per Mesh
 Bis Tor 1 sind nun Kabel und Router verlegt. 
 
 * Tor 25 (GB-RT-1) ist ein Router (1043er) gelandet.  
-* Tor XX (GB-RT-2) ist ein Router.
-* Tor XX (GB-RT-3) ist ein Router.
+* Tor XX  (GB-RT-2) ist ein Router.
+* Tor 13/14 (GB-RT-3) ist ein Router.
 * Tor 11 (GB-RT-4) ist ein Router, hier war auch die vorherige Mesh Installation auf dem Dach.
 * Tor 9 (GB-RT-5) ist ein Archer C7.
 * Tor 7 (GB-RT-6) ist ein Archer C7.
