@@ -46,7 +46,7 @@ Bis Tor 1 sind nun Kabel und Router verlegt.
 * Tor 11 (GB-RT-4) ist ein Router, hier war auch die vorherige Mesh Installation auf dem Dach.
 * Tor 9 (GB-RT-5) ist ein Archer C7.
 * Tor 7 (GB-RT-6) ist ein Archer C7.
-* Tor ? (jan) (GB-RT-7) ist ein Archer C7.
+* Tor 5 (jan) (GB-RT-7) ist ein Archer C7.
 * Tor 4 (GB-RT-8) ist ein Archer C7.
 * Tor 1 (GB-RT-9) ist ein Archer C7.
 
