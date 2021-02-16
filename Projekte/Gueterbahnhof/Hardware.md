@@ -40,15 +40,15 @@ An der beschriebenen Stelle hängt ein WR1043 "auf dem Gang". Er hängt per Mesh
 ##### Tor 25 bis Tor 1
 Bis Tor 1 sind nun Kabel und Router verlegt. 
 
-* Tor 25 (GB-RT-1) ist ein Router (1043er) gelandet.  
-* Tor XX  (GB-RT-2) ist ein Router.
-* Tor 13/14 (GB-RT-3) ist ein Router.
-* Tor 11 (GB-RT-4) ist ein Router, hier war auch die vorherige Mesh Installation auf dem Dach.
-* Tor 9 (GB-RT-5) ist ein Archer C7.
-* Tor 7 (GB-RT-6) ist ein Archer C7.
-* Tor 5 (jan) (GB-RT-7) ist ein Archer C7.
-* Tor 4 (GB-RT-8) ist ein Archer C7.
-* Tor 1 (GB-RT-9) ist ein Archer C7.
+* Tor 25 (GB-RT-1) ist ein Router (1043er) gelandet.  (kontakt: a.b. / tor 26?)
+* Tor XX  (GB-RT-2) ist ein Router. (kontakt?)
+* Tor 13/14 (GB-RT-3) ist ein Router. (kontakt: k.s.)
+* Tor 11 (GB-RT-4) ist ein Router, hier war auch die vorherige Mesh Installation auf dem Dach. (kontakt: m.l.r. / j.m.)
+* Tor 9 (GB-RT-5) ist ein Archer C7. (kontakt: t.l.)
+* Tor 7 (GB-RT-6) ist ein Archer C7. (kontakt: r.w.)
+* Tor 5 (GB-RT-7) ist ein Archer C7. (kontakt: j.t.)
+* Tor 4 (GB-RT-8) ist ein Archer C7. (kontakt: j.ö.)
+* Tor 1 (GB-RT-9) ist ein Archer C7. (kontakt: t.s.)
 
 Die Tore hier haben dünnere Wände und viele Lagerorte. Die Abstände der Router variert hier regelmäßig und muss vielleicht je nach Nutzung und Entwicklung nachverdichtet werden. Die Netzwerkabel können dort alle bequem auf einer vorhandne Kabeltrasse geführt werden.
 Ein häufiges Problem sind die Zugänge zum Strom. Viele Hallen Nutzer*innen schalten ihren Hauptschalter bei Abwesenheit aus. Hier sind mit Uwe (vom GB) spezielle Lösungen entwickelt worden oder auf PoE Geräte umgeschwenkt worden. Bei Freifunk Ausfällen auf dieser Seite ist fehlender Strom immer in Betracht zu ziehen.
