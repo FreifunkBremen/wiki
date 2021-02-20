@@ -1,6 +1,6 @@
 # SSH-Node-Verwaltung
 
-[[TOC]]
+[[_TOC_]]
 
 ## Vorbereitung
 
