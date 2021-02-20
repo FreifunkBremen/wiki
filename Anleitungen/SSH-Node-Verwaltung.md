@@ -31,7 +31,8 @@ Putty, puttygen und pageant helfen einem hier weiter.
 ## Möglichkeiten per Konsole
 Alle folgenden Erklärungen und Befehle setzen voraus, dass bereits eine SSH-Verbindung zu dem gewünschten Node besteht.
 
-Die folgende Wiki-Seite von gluon (unserer Firmware-Basis) enthält die meisten und wichtigsten Befehle: https://github.com/freifunk-gluon/gluon/wiki/Commandline-administration  
+Die folgende Wiki-Seite von gluon (unserer Firmware-Basis) enthält die meisten und wichtigsten Befehle: [https://github.com/freifunk-gluon/gluon/wiki/Commandline-administration](https://github.com/freifunk-gluon/gluon/wiki/Commandline-administration)  
+und [https://wiki.freifunk.net/Konsole](https://wiki.freifunk.net/Konsole)
 Diese Wiki-Seite versteht sich als Ergänzung der dort erklärten Befehle.
 
 ### Firmware automatisch per Autoupdater aktualisieren
@@ -68,6 +69,15 @@ Wenn man mal etwas kaputt-konfiguriert hat lässt sich der Zustand "frisch-gefla
 2. Anschließend startet man mit dem Befehl `reboot` neu. 
  
 Der Node befindet sich jetzt im wieder im Config-Mode, wie beim ersten Start.
+
+Den Reset Knopf 20 Sekunden drücken, bis alle Lampen einmal Aufblinken geht auch.
+
+**(Re-)entering config mode**
+~~~
+uci set gluon-setup-mode.@setup_mode[0].enabled='1'
+uci commit gluon-setup-mode
+reboot
+~~~
 
 ### Geo Daten (Position) Ändern
 Am einfachten ist es, die Position auf der Freifunkkarte festzulegen.
