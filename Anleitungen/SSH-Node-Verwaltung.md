@@ -80,3 +80,12 @@ Beispiel: Fernsehturm Utbremer Str. 91
 ~~~
 uci set gluon-node-info.@location[0]='location'; uci set gluon-node-info.@location[0].share_location='1'; uci set gluon-node-info.@location[0].latitude='53.095761940'; uci set gluon-node-info.@location[0].longitude='8.791882843'; uci commit gluon-node-info
 ~~~
+
+Gleichel Beispiel als Liste
+~~~
+uci set gluon-node-info.@location[0]='location'
+uci set gluon-node-info.@location[0].share_location='1'
+uci set gluon-node-info.@location[0].latitude='53.095761940'
+uci set gluon-node-info.@location[0].longitude='8.791882843'
+uci commit gluon-node-info
+~~~
