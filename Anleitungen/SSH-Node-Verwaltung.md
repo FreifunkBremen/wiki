@@ -55,6 +55,17 @@ Führe folgende Befehle angepasst aus:
 echo 3 > /proc/sys/vm/drop_caches
 sysupgrade [FIRMWAREFILE]
 ```
+### Autoupdater Branch festlegen
+Wenn der Router nach dem Reboot wieder oben ist könnt ihr den Branch für den Autoupdater noch festlegen:
+~~~
+uci set autoupdater.settings.enabled='1'
+uci set autoupdater.settings.branch='stable'
+uci commit autoupdater
+~~~
+Das Update kann man dann manuell anstoßen.
+~~~
+autoupdater -f 
+~~~
 
 ### SSH-Key auf Node hinzufügen oder entfernen
 Die Datei in der die erlaubten SSH-PublicKeys liegen, befindet sich in `/etc/dropbear/authorized_keys`. Zum Bearbeiten muss diese einfach in dem Editor der Wahl geöffnet werden.  
