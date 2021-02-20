@@ -1,8 +1,10 @@
 # SSH-Node-Verwaltung
 
+[[TOC]]
+
 ## Vorbereitung
 
-### Was ist SSH?
+### Was ist SSH? Hintergrundwissen.
 
 > Secure Shell oder SSH bezeichnet sowohl ein Netzwerkprotokoll als auch entsprechende Programme, mit deren Hilfe man auf eine sichere Art und Weise eine verschlüsselte Netzwerkverbindung mit einem entfernten Gerät herstellen kann. Häufig wird diese Methode verwendet, um lokal eine entfernte Kommandozeile verfügbar zu machen, das heißt, auf einer lokalen Konsole werden die Ausgaben der entfernten Konsole ausgegeben und die lokalen Tastatureingaben werden an den entfernten Rechner gesendet. Genutzt werden kann dies beispielsweise zur Fernwartung eines in einem entfernten Rechenzentrum stehenden Servers. Die neuere Protokoll-Version SSH-2 bietet weitere Funktionen wie Datenübertragung per SFTP. Die IANA hat dem Protokoll den TCP-Port 22 zugeordnet.
 
@@ -66,3 +68,15 @@ Wenn man mal etwas kaputt-konfiguriert hat lässt sich der Zustand "frisch-gefla
 2. Anschließend startet man mit dem Befehl `reboot` neu. 
  
 Der Node befindet sich jetzt im wieder im Config-Mode, wie beim ersten Start.
+
+### Geo Daten (Position) Ändern
+Am einfachten ist es, die Position auf der Freifunkkarte festzulegen.
+
+https://map.bremen.freifunk.net/#!/de/map
+
+In der rechten oberen Ecke ist ein PIN, der steht für Koordinaten wählen. Einfach draufklicken und mit dem Fadenkreuz auf der gewünschten Position erneut klicken. Am linken Rand werden die gewählten Koordinaten angezeigt. Eine fertige Befehlsfolge für die SSH-Shell wird ebenfalls angezeigt. DIesen einfach kopieren und in die Shell einfügen. Nach ein paar Minuten steht der Router auf der neuen Position.
+
+Beispiel: Fernsehturm Utbremer Str. 91
+~~~
+uci set gluon-node-info.@location[0]='location'; uci set gluon-node-info.@location[0].share_location='1'; uci set gluon-node-info.@location[0].latitude='53.095761940'; uci set gluon-node-info.@location[0].longitude='8.791882843'; uci commit gluon-node-info
+~~~
