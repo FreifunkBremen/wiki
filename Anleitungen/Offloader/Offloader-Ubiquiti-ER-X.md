@@ -4,6 +4,9 @@ Einige Erfolge und die tollen verfügbaren Anleitungen, sollen hier Mut machen, 
 Warum Offloader? Werden mehrere Freifunkrouter verwendet, ist es sinnvoll, dass nicht alle Router ihren eigenen VPN Tunnel aufbauen. Der Offloader übernimmt die Verschlüsselung und mesht über die LAN Ports mit den Freifunkroutern, das gibt ein deutlich schnelleres Netz bei geringen Kosten. Der ER-X macht dann bis zu 35 MBit/s.
 
 Die folgende Anleitung gilt für die Ubiquiti Router ER-X und ER-X-SFP:
+
+### Der unkomplizierte Weg zur Installation ist die Konsole!
+**[https://www.freifunk-winterberg.net/die-nutzung-von-ubiquiti-edgerouter-x-als-freifunk-offloader/](https://www.freifunk-winterberg.net/die-nutzung-von-ubiquiti-edgerouter-x-als-freifunk-offloader/)**
   
   
 EdgeRouter X | EdgeRouter X-SFP
