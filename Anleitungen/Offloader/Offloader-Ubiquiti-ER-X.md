@@ -25,6 +25,7 @@ EdgeRouter X | EdgeRouter X-SFP
 ### Was spricht gegen dieses Modell Ubiquiti EdgeRouter X (ER-X) / (ER-X SFP)?
 - Zu erwartender Softbrick mit **Gluon 2020.1.x**, Bitte aktuellen Stand erfragen. https://github.com/freifunk-gluon/gluon/issues/1937
 - Mehr Durchsatz? dann einen Thinclient Futro S550 / S900 als Offloader verwenden.
+- DAS SFP Modul funktioniert unter Gluon nicht.
 
 ### Diverse nützliche Links:
 
