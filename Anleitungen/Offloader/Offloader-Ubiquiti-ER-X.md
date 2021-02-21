@@ -23,8 +23,8 @@ EdgeRouter X | EdgeRouter X-SFP
 - Der ER-X SFP hat neben dem SFP-Modul und dem 24V Netzteil auf allen Ports passiv POE 24V.
 
 ### Was spricht gegen dieses Modell Ubiquiti EdgeRouter X (ER-X) / (ER-X SFP)?
-- Zu erwartender Softbrick mit Gluon 2020.1.x, Bitte aktuellen Stand erfragen. https://github.com/freifunk-gluon/gluon/issues/1937
-- Mehr Durchsatz? dann Thinclient Futro als Offloader verwenden.
+- Zu erwartender Softbrick mit **Gluon 2020.1.x**, Bitte aktuellen Stand erfragen. https://github.com/freifunk-gluon/gluon/issues/1937
+- Mehr Durchsatz? dann einen Thinclient Futro S550 / S900 als Offloader verwenden.
 
 ### Diverse nützliche Links:
 
