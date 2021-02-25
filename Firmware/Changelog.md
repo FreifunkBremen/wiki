@@ -31,6 +31,17 @@ Branch        | aktuelle Version                                                
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
+### 2019.1.3+bremen2
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: nie   
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2019.1.3+bremen2) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2019.1.3+bremen2)  
+**gluon-Version**: [2019.1.3](#2019-1-3)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2019.1.3+bremen12/)
+
+- Update auf Gluon 2019.1.3, mit einigen kleineren Fehlerbehebungen
+- Batman v15 verbindet sich zu vpn04 jetzt auf Port 50000 (statt 50001)
+- Batman v15 versucht sich auch zu vpn01/2/3/5/6 zu verbinden, jeweils auf Port 50001; damit sind wir darauf vorbereitet, dass diese Server irgendwann ebenfalls auf Batman v15 umgestellt werden
+
 ### 2019.1.2+bremen4
 **Veröffentlichung auf dem `stable`-Branch**: nie   
 **Veröffentlichung auf dem `testing`-Branch**: [27.01.2021](https://downloads.bremen.freifunk.net/firmware/all/2019.1.2+bremen4/sysupgrade/testing.manifest)   
