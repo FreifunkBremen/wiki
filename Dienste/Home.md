@@ -45,6 +45,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.139 gatemon-banane, yannik
     * 10.196.0.141 gatemon-yannik2, yannik
     * 10.196.0.142 yannik
+    * 10.196.0.145 Güterbahnhof-Test über yannik
     * 10.196.0.150 test-vm, anon6789
     * 10.196.0.200 Dienste von jplitza
     * 10.196.0.250 gatemon-oliverspi, ollibaba
