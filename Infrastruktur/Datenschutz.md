@@ -42,13 +42,13 @@ Wir versuchen den Grad der Sensibilität der Daten durch diese "Bezugsart" zu ve
 
 | Daten                      | Bezugsart    | Gespeichert | Öffentlich | Speicherdauer | …im Backup |
 |----------------------------|--------------|-------------|------------|---------------|------------|
-| Webseitenbesuche           | keine⁵       | ✔           | ✘          | 1 Monat       | +3 Tage    |
-| Mails an die Mailingliste  | Person       | ✔           | ✔⁶         | unbegrenzt    | +3 Tage    |
-| Änderungsverlauf im Wiki   | keine⁵       | ✔           | ✔          | unbegrenzt    | unbegrenzt |
+| Webseitenbesuche           | keine⁶       | ✔           | ✘          | 1 Monat       | +3 Tage    |
+| Mails an die Mailingliste  | Person       | ✔           | ✔⁷         | unbegrenzt    | +3 Tage    |
+| Änderungsverlauf im Wiki   | keine⁶       | ✔           | ✔          | unbegrenzt    | unbegrenzt |
 
-⁵ "keine" heißt hier, dass zur Speicherung von Informationen der Verweis auf eindeutige Identifikationsnummern (z.B. IP-Adressen, Session Daten) komplett bei der Erhebung oder kurze Zeit später entfernt oder stark verkürzt wird. Bei IPv4-Adressen bedeutet das konkret, dass sie durch Nullen ersetzt werden.
+⁶ "keine" heißt hier, dass zur Speicherung von Informationen der Verweis auf eindeutige Identifikationsnummern (z.B. IP-Adressen, Session Daten) komplett bei der Erhebung oder kurze Zeit später entfernt oder stark verkürzt wird. Bei IPv4-Adressen bedeutet das konkret, dass sie durch Nullen ersetzt werden.
 
-⁶ im [Archiv der Mailingliste](https://lists.ffhb.de/mailman/private/ff-bremen/) (nur für Mitglieder zugänglich)
+⁷ im [Archiv der Mailingliste](https://lists.ffhb.de/mailman/private/ff-bremen/) (nur für Mitglieder zugänglich)
 
 ## Datenverarbeitung
 
