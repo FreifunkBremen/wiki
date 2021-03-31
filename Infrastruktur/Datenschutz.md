@@ -25,18 +25,21 @@ Wir versuchen den Grad der Sensibilität der Daten durch diese "Bezugsart" zu ve
 
 ### Als Aufsteller eines Knotens
 
-| Daten                      | Bezugsart    | Gespeichert | Öffentlich | Speicherdauer | …im Backup |
-|----------------------------|--------------|-------------|------------|---------------|------------|
-| Kontaktdaten (freiwillig)  | Person       | ✘           | ✔          | Auf dem Knoten, solange dieser online ist       | ✘          |
-| Koordinaten (freiwillig)   | Person       | ✔           | ✔          | 7 Tage³       | ✘          |
-| Nutzungsstatistiken        | Knoten⁴      | ✔           | ✔          | 7 Tage³    | ✘          |
-| Nutzungsstatistiken        | Freifunk Bremen⁵      | ✔           | ✔          | unbegrenzt    | ✘          |
+| Daten                          | Bezugsart    | Gespeichert | Öffentlich | Speicherdauer | …im Backup |
+|--------------------------------|--------------|-------------|------------|---------------|------------|
+| Kontaktdaten (freiwillig)      | Person       | ✘           | ✔          | Auf dem Knoten, solange dieser online ist       | ✘          |
+| Koordinaten (freiwillig)       | Person       | ✔           | ✔          | 7 Tage³       | ✘          |
+| VPN-Server↔Knoten (IP-Adresse) | Knoten       | ✘           | ✘          | Während aktiver VPN-Verbindung⁴  |  ✘ |
+| Nutzungsstatistiken            | Knoten⁵      | ✔           | ✔          | 7 Tage³    | ✘          |
+| Nutzungsstatistiken            | Freifunk Bremen⁶     | ✔           | ✔          | unbegrenzt    | ✘          |
 
 ³ Diese Daten werden auf dem Knoten dauerhaft gespeichert und von diesem regelmäßig im Netz bekannt gegeben. Unsere Server halten die Daten (beispielsweise nach Abschalten des Knotens) noch für 7 Tage vor, bevor sie vergessen werden.
 
-⁴ Die Nutzungsstatistiken sind eindeutig dem Knoten zugeordnet. Falls also Kontaktdaten und/oder Koordinaten zum Knoten bekannt sind, sind diese Daten auf den Aufsteller des Knotens beziehbar, nicht jedoch auf einzelne Benutzer dieses Knotens.
+⁴ Den VPN-Server des Freifunk-Bremen ist die IP-Adresse des Koten(-betreibers) bekannt, von der eine VPN-Verbindung aufgebaut wird. Diese befindet sich im Arbeitsspeicher des VPN-Servers, wir allerdings nicht in Log-Dateien oder auf andere Art und Weise auf eine Festplatte geschrieben oder woanders hin übermittelt.
 
-⁵ Im Gegensatz zur Knoten-Bezogen Speicherung, existiert noch eine kumulierte Speicherform. In der es keine Zuweisung zum einzelnen Knoten mehr vorhanden sind. In der bleibt die Gesamtzahl an Nutzer auf allen Knoten und die Gesamtzahl der Knoten üblich. Diese Daten sind [hier](https://grafana.bremen.freifunk.net/dashboard/db/globals) als Graph einzusehen.
+⁵ Die Nutzungsstatistiken sind eindeutig dem Knoten zugeordnet. Falls also Kontaktdaten und/oder Koordinaten zum Knoten bekannt sind, sind diese Daten auf den Aufsteller des Knotens beziehbar, nicht jedoch auf einzelne Benutzer dieses Knotens.
+
+⁶ Im Gegensatz zur Knoten-Bezogen Speicherung, existiert noch eine kumulierte Speicherform. In der es keine Zuweisung zum einzelnen Knoten mehr vorhanden sind. In der bleibt die Gesamtzahl an Nutzer auf allen Knoten und die Gesamtzahl der Knoten üblich. Diese Daten sind [hier](https://grafana.bremen.freifunk.net/dashboard/db/globals) als Graph einzusehen.
 
 ### Sonstiges
 
