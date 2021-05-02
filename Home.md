@@ -18,10 +18,9 @@ Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffh
 ##### Tagesordnungen
 * der letzten Treffen:
 
-    * [[19.03.2021|Treffen/2021_03_19]]
     * [[02.04.2021|Treffen/2021_04_02]]
-* der nächsten Treffen:
     * [[16.04.2021|Treffen/2021_04_16]]
+* der nächsten Treffen:
     * [[07.05.2021|Treffen/2021_05_07]]
     * [[21.05.2021|Treffen/2021_05_21]]
     
