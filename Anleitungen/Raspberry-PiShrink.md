@@ -3,6 +3,7 @@
 [PiShrink](https://github.com/Drewsif/PiShrink)
 
 ## Inhalt:
+[[_TOC_]]
 
 Wer öfter mit einem Raspberry arbeitet, kennt das Problem, schnell kaputtgespielt und kein passendes Backup-Image zur Hand.
 Deshalb erstellen wir nach der Installation auch ein Backup-Image.
