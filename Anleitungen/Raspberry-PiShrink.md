@@ -41,6 +41,7 @@ Berichte zu PiShrink finden sich zu genüge, einfach mal Nachlesen.
 Einige Links zum Thema:
 
 http://www.netzmafia.de/skripten/hardware/RasPi/SD_Karte_verkleinern.html
+
 https://github.com/Drewsif/PiShrink
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
