@@ -1,4 +1,6 @@
-PiShrink
+**PiShrink**
+
+[PiShrink](https://github.com/Drewsif/PiShrink)
 
 Wer öfter mit einem Raspberry arbeitet, kennt das Problem, schnell kaputtgespielt und kein passendes Backup-Image zur Hand.
 Deshalb erstellen wir nach der Installation auch ein Backup-Image.
@@ -17,7 +19,7 @@ Wer also mit festen Images konfrontiert wird, sollte auch andere Optionen in Bet
 Raspberry Pi Images schrumpfen
 
 Nehmen wir an, man hat einen Raspberry Pi mit einer SD-Karte mit 256 GB komplett eingerichtet und will ein Image erstellen um dies auf andere Raspberry Pi zu installieren. 
-Die meisten Nutzer werden hierfür Befehle wie dd if=/dev/mmcblk0 of=/home/username/raspberry.img bs=4M nutzen. Das ist einfach, hat den Nachteil, dass die
+Die meisten Nutzer werden hierfür Befehle wie ~~~dd if=/dev/mmcblk0 of=/home/username/raspberry.img bs=4M~~~ nutzen. Das ist einfach, hat den Nachteil, dass die
 Image-Datei ist 256 GB groß ist, egal wie viel Speicherplatz tatsächlich genutzt wird. Auch wenn Speicherplatz nicht mehr sehr teuer ist verschwendet man diesen in dem Fall. 
 Man müsste das Image also schrumpfen. Was manuell durchaus machbar ist. Oder man nutzt PiShrink.
 
@@ -28,6 +30,7 @@ Erstelle man nun mittels dd den Inhalt des geschrumpften Image auf eine andere S
 so dass der gesamte Speicherplatz zur Verfügung steht. Hierfür baut PiShrink einen entsprechenden Befehl in die Image-Datei ein.
 Berichte zu PiShrink finden sich zu genüge, einfach mal Nachlesen.
 
-Einige Links zum Theme:
+Einige Links zum Thema:
+
 http://www.netzmafia.de/skripten/hardware/RasPi/SD_Karte_verkleinern.html
 https://github.com/Drewsif/PiShrink
