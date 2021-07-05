@@ -15,9 +15,11 @@
 
 #### Dach (süd)
 Auf dem Dach hat Nico einen schicken Mast installiert, daran befestigt sind aktuell 2 CPE210 und die Ubiquiti-Nanobeam zum Internet-Zugangspunkt beim Schlachthof ("Uplink"). 
+Nächster Meshender Router im Künstlerhaus: GB-KH-E3-1a
 
 #### Dach (nord)
 Auf dem nördlichen Dach hat Nico einen schicken Mast angebracht, daran befestigt ist aktuell eine Ubiquiti-Nanobeam zur Radstation.
+Nächster Meshender Router im Künstlerhaus: GB-KH-E3-2
 
 #### 2.OG 
 Im 2.OG sind aktuell 2 Archer C7 im Einsatz, einer regelt hauptsächlich den Verkehr (Mesht mit allem), der Andere hängt neben dem Aufenthaltsraum/Küche.
@@ -28,14 +30,14 @@ im 1.OG steht ein WR1043 auf einem Podest auf dem Flur. An diesem Router soll de
 #### Keller
 Im Keller hängt bei den Bandräumen ein Archer C7, das WLAN wurde abgeschaltet, auf den gelben Ports kommt Client-Netz (also Internet) raus. 
 Das orangene Kabel liefert das Mesh-Netz, muss daher immer im blauen Port eingesteckt sein. 
-Damit genug Ports zur Versorgung der Proberäume zur Verfügung stehen, hängt am Archer aktuell ein 5-Port USB-Switch. 
+Damit genug Ports zur Versorgung der Proberäume zur Verfügung stehen, hängt an dem Archer C7 aktuell ein 5-Port USB-Switch. 
 
 ### Lange Hallen
 
 #### Rechte Seite 
 
 ##### Ateliers zwischen Künstlerhaus und längerer Halle
-An der beschriebenen Stelle hängt ein WR1043 "auf dem Gang". Er hängt per Mesh an einem Archer C7 im 2.OG.
+An der beschriebenen Stelle hängt ein WR1043 "auf dem Gang". Er hängt per Mesh an einem Archer C7 (Name:GB-KH-E3-2) im 2.OG und mesht wiederum mit Router GB-KH-E1-2
 
 ##### Tor 25 bis Tor 1
 Bis Tor 1 sind nun Kabel und Router verlegt. 
