@@ -59,15 +59,19 @@ Ein häufiges Problem sind die Zugänge zum Strom. Viele Hallen Nutzer*innen sch
 #### Linke Seite
 
 ##### Tor40
-Bei Tor40 wurde im Januar ein Router (1043er) verbaut, er hängt per Outdoor-Kabel via Zwischendecke direkt am agffgb03 (aka Zentrale)
+Bei Tor40 wurde im Januar ein Router (1043er) verbaut, er hängt per Outdoor-Kabel via Zwischendecke direkt am Router GB-KH-E3-1a (aka "Zentrale")
+
+##### Vor Tor40, outdoor
+Vor Tor40 hängt zum testen eine Ubiquiti AC-Mesh, Name: "GB_acmesh_test"
 
 ##### Linie7
 Bei Linie7 ist ein Archer-C7 im Einsatz, der hängt per Outdoor-Kabel am Tor40-Router.
-Der Name: agffgb10
+Der Name: GB-LT-2
 
 ##### Offene Ateliers
 zwischen Linie7 und Schaulust sind Ateliers, da steht ein WR940-Router.
-Da hier die Wände im Gegensatz zur den Toren auf der anderen Seite wesentlich robuster sind. Wurde zur Nachverdichtung ein weitere Router (Archer C7) in den dichten Ateliers zwischen Linie 7 und Schauluft angebracht. Momentan noch per WIFI Mesh, so lange bis eine Kabelinstallation möglich ist. 
+Da hier die Wände im Gegensatz zur den Toren auf der anderen Seite wesentlich robuster sind. Wurde zur Nachverdichtung ein weitere Router (Archer C7) in den dichten Ateliers zwischen Linie 7 und Schaulust angebracht. 
+Momentan noch per WIFI Mesh, so lange bis eine Kabelinstallation möglich ist. 
 
 ##### Schaulust
 Archer C7 ist von Linie7 her angebunden. Anbindung zur Spedition folgt demnächst.
@@ -81,8 +85,9 @@ Hier hängt nun ein WR1043 in einer Ecke. Dies war der Ringschluss-Router in die
 Auf dem Gelände Eingang steht ein zum Kiosk und Parkwächterhäusche ausgebauter Container. Dieser ist zwar im LT Schema benannt, weil er sich auf dieser Seite befinden, aber defacto über einen bestehenden Wasser- und Stromkabelkanal mit an die RT Reihe angeschlossen. 
 
 ### austehend: Ringschluss
-Wegen der häufigen Stromprobleme wollen wir dauerhaft einen Ringschluss zwischen Spedition und der rechten Hallenseite vollziehen
+Wegen der häufigen Stromprobleme wollen wir dauerhaft einen Ringschluss zwischen Spedition und der rechten Hallenseite vollziehen. Sollte dann ein Router ausfallen, kann das Signal über die jeweils andere Hallenseite zum Router gelangen. 
 
 ### erstmal verschoben: Ende der Gleishalle / Querlenker
 Am Ende der Gleishalle kommt vielleicht noch einie Installation hin, um die Obdachlosen hinter dem GB zu versorgen. 
 Die Querlenker wären dann Nutznießer. Sinnvolle Installation ist vmtl eine CPE für Richtfunk und eine AC-Mesh mit Antenne zur Versordung der Clients (wie ehemals CafeSand)
+Edit: Die Querlenker haben mittlerweile einen Router mit guten Antennen und hängen per Mesh an einer Papageienhaus-CPE. Papageienhaus
