@@ -48,6 +48,7 @@ Dies ist eine Anregung für Dinge, die man mitnehmen oder vorbereiten sollte, we
 - Gaffa-Tape
 - Edding
 - Zollstock
+- Arbeitshandschuhe
 - Smartphone mit WLAN und Kamera
 - Laptop + Stromkabel
 - Powerbank + USB-Kabel
@@ -61,7 +62,7 @@ Dies ist eine Anregung für Dinge, die man mitnehmen oder vorbereiten sollte, we
 - Benutzerhandbücher (PDFs) der verbauten Geräte, um notfalls die Standard-Zugangsdaten zu haben
 - kleine 1m-Spanngurte, um mal temporär etwas zu befestigen
 - Papier + Stift
-- ein paar Freifunk-Flyer
+- ein paar Freifunk-Flyer und -Aufkleber
 - Wasserflasche
 - was zu Essen (Süßigkeiten, Obst, Mini-Brötchen...)
 
