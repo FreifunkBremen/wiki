@@ -52,6 +52,8 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.251 gatemon-charlotte (per WLAN), mortzu
     * 10.196.1.0/24 Richtfunk-Management
         * 10.196.1.4 Hal över Fährhäuschen NanoBeam
+    * 10.196.2.10 - 50 Testbreich #Strahlemann
+        *10.196.2.15 CPE 210 v3.2 #Strahlemann
     * 10.196.10.0 - 10.196.19.255 per DHCP vergeben von 10.196.0.1
     * 10.196.20.0 - 10.196.29.255 per DHCP vergeben von 10.196.0.2
     * 10.196.30.0 - 10.196.39.255 per DHCP vergeben von 10.196.0.3
@@ -107,6 +109,7 @@ IPv6 Routing zum Gateway vpn06
 * 2a06:8782:ffbb:1337::b0 bis bf (janeric)
 * 2a06:8782:ffbb:1337::c8 (steffen)
 * 2a06:8782:ffbb:1337::d1 gatemon-charlotte (per WLAN), mortzu
+* 2a06:8782:ffbb:1337:ffff:00e5:ffff:0100 CPE 210 v3.2 #Strahlemann ( Funktioniert irgentwie nicht ausserhalb aus FF. :-( )
 
 #### 2a06:8782:ffbb:bat0::/64
 Babel-Netzwerk Segment für die Knoten/Nodes und das Routing des Client-Netzwerks
