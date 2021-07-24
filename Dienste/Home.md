@@ -53,7 +53,7 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.1.0/24 Richtfunk-Management
         * 10.196.1.4 Hal över Fährhäuschen NanoBeam
     * 10.196.2.10 - 50 Testbreich #Strahlemann
-        *10.196.2.15 CPE 210 v3.2 #Strahlemann
+        * 10.196.2.15 CPE 210 v3.2 #Strahlemann
     * 10.196.10.0 - 10.196.19.255 per DHCP vergeben von 10.196.0.1
     * 10.196.20.0 - 10.196.29.255 per DHCP vergeben von 10.196.0.2
     * 10.196.30.0 - 10.196.39.255 per DHCP vergeben von 10.196.0.3
