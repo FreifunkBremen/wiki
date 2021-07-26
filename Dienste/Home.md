@@ -109,7 +109,7 @@ IPv6 Routing zum Gateway vpn06
 * 2a06:8782:ffbb:1337::b0 bis bf (janeric)
 * 2a06:8782:ffbb:1337::c8 (steffen)
 * 2a06:8782:ffbb:1337::d1 gatemon-charlotte (per WLAN), mortzu
-* 2a06:8782:ffbb:1337:ffff:00e5:ffff:0100 CPE 210 v3.2 #Strahlemann ( Funktioniert irgentwie nicht ausserhalb aus FF. :-( )
+* 2a06:8782:ffbb:1337:1ad6:c7ff:fe90:dd6c CPE 210 v3.2 #Strahlemann ( Funktioniert irgentwie nicht ausserhalb aus FF. :-( )
 
 #### 2a06:8782:ffbb:bat0::/64
 Babel-Netzwerk Segment für die Knoten/Nodes und das Routing des Client-Netzwerks
