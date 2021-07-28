@@ -70,7 +70,7 @@ Corny stellt das Netz `2a06:8782::/32` zur Verfügung.
 Daraus verwenden wir `2a06:8782:ffbb:1337::/64` für unser Layer 2 (Batman-adv).
 
 
-Ausserdem nutzen wir das ULA-Netz `fd2f:5119:0f2c::/48`, welches einem an manchen Stellen ebenso wie das ehemalige Prefix `2001:bf7:540::/48` begegnet.
+Ausserdem nutzen wir das ULA-Netz `fd2f:5119:0f2c::/48`.
 
 Einige Adressen sind fest hinterlegt. Sie werden im Folgenden aufgelistet.
 
