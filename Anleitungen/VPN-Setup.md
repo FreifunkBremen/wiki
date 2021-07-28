@@ -25,7 +25,7 @@ Siehe https://github.com/FreifunkBremen/gateway-doku/blob/master/vpn-servers.md 
 * 2: MAC-Adresse
 * 3: IP-Adressen
  * 10.196.0.0/16 IPv4 (im Mesh /17)
- * 2001:bf7:540 IPv6
+ * 2a06:8782:ffbb:1337 IPv6
 
 ### Knoten und Endgeräte über WLAN, BATMAN Routing (Layer 2)
 * LAN erstreckt sich von CLient zu Gateway
