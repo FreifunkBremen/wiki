@@ -25,7 +25,7 @@ Ein Firmware-Mirror muss aber per IPv6 erreichbar sein. Das letzte Byte der IPv6
 
 ```
 iface eth0 inet6 static
-  address 2001:bf7:540::6f
+  address 2a06:8782:ffbb:1337::6f
   netmask 64
 ```
 
