@@ -1,7 +1,7 @@
 ### Wie kann ein USB Stick am Router als Laufwerk verwendet werden?
 Nun, das ist ganz einfach, folgende 3 Schritte sind notwendig.
 
-[[TOC]]
+[[_TOC_]]
 
 ### 1.) USB Treiber nachinstallieren
 
