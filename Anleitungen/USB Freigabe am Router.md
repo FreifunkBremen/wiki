@@ -17,7 +17,7 @@ opkg update && opkg install block-mount e2fsprogs kmod-fs-ext4 kmod-usb-storage 
 ~~~
 Ausgabe:
 ~~~
-root@ffhb-a42bb0de8272-C7v2-00:/dev# opkg update
+root@ffhb-a42bb0de8272-C7v2-00:# opkg update
 Downloading http://downloads.openwrt.org/releases/18.06-SNAPSHOT/packages/mips_24kc/base/Packages.gz
 Updated list of available packages in /var/opkg-lists/openwrt_base
 Downloading http://downloads.openwrt.org/releases/18.06-SNAPSHOT/packages/mips_24kc/base/Packages.sig
@@ -78,7 +78,7 @@ Configuring kmod-fs-ext4.
 Configuring libss.
 Configuring libext2fs.
 Configuring e2fsprogs.
-root@ffhb-a42bb0de8272-C7v2-00:/dev#
+root@ffhb-a42bb0de8272-C7v2-00:
 ~~~
 
 Hinweis Merken: block-mount, this file has been obsoleted. please call "/sbin/block mount" directly.
@@ -86,6 +86,31 @@ dann checken wir mal, ob der Stick da ist.
 ~~~
 ls -al /dev/sd* 
 ~~~
+OK, USB Stick wird angezeigt.
+~~~
+brw-------    1 root     root        8,   0 Aug  7 17:04 /dev/sda
+brw-------    1 root     root        8,   1 Aug  7 17:04 /dev/sda1
+~~~
+
+Formatieren :-)
+~~~
+mkfs.ext4 /dev/sda1
+mke2fs 1.44.1 (24-Mar-2018)
+/dev/sda1 contains a exfat file system labelled 'Samsung USB'
+Proceed anyway? (y,N) **y**
+Creating filesystem with 15664140 4k blocks and 3916304 inodes
+Filesystem UUID: e5234b4f-3680-496a-9aa5-4b2e57992587
+Superblock backups stored on blocks:
+        32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208,
+        4096000, 7962624, 11239424
+
+Allocating group tables: done
+Writing inode tables: done
+Creating journal (65536 blocks):
+done
+Writing superblocks and filesystem accounting information: done
+~~~
+
 
 ### 2.) Samba konfigurieren
 
