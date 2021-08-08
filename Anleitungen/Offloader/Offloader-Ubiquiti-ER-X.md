@@ -1,4 +1,6 @@
 ## Gluon auf UBNT EdgeRouter X und X-SFP
+
+## Inhalt
 [[_TOC_]]
 Einige Erfolge und die tollen verfügbaren Anleitungen, sollen hier Mut machen, die kleinen Leistungsstarken Ubiquiti Edgerouter ER-X als Offloader einzusetzen.
 Warum Offloader? Werden mehrere Freifunkrouter verwendet, ist es sinnvoll, dass nicht alle Router ihren eigenen VPN Tunnel aufbauen. Der Offloader übernimmt die Verschlüsselung und mesht über die LAN Ports mit den Freifunkroutern, das gibt ein deutlich schnelleres Netz bei geringen Kosten. Der ER-X macht dann bis zu 35 MBit/s.
@@ -53,6 +55,7 @@ EdgeRouter X | EdgeRouter X-SFP
 
 Frohes Freifunken.
 
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 ## Unbrick UBNT EdgeRouter X und X-SFP
 
@@ -379,3 +382,5 @@ http://cloud.ffhb.de/index.php/f/8213
 
 - [UBNT: Quickstart Guide EdgeRouter X](https://dl.ubnt.com/guides/edgemax/EdgeRouter_ER-X_QSG.pdf)
 - [UBNT: Downloadseite der original UBNT-Stockfirmware für EdgeRouter X und EdgeRouter X-SFP](https://www.ubnt.com/download/edgemax/edgerouter-x)
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
