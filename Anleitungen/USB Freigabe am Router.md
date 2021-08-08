@@ -6,7 +6,10 @@ Nun, das ist ganz einfach, folgende 3 Schritte sind notwendig.
 [[_TOC_]]
 
 Das Vorgehen ist an die OpenWRT Anleitung angelehnt.
+
 [https://openwrt.org/docs/guide-user/storage/usb-drives-quickstart](https://openwrt.org/docs/guide-user/storage/usb-drives-quickstart)
+
+[https://openwrt.org/docs/guide-user/storage/usb-installing](https://openwrt.org/docs/guide-user/storage/usb-installing)
 
 Es wird ein vorbereiteter USB Stick benötig ( Hier wurde eine Samsung USB 3.1 mit 65Gb verwendet)
 Zugang zum Router via SSH-Konsole. Verwendeter Router TP-Link Archer C7 mit zwei USB Buchsen (USB1, USB2).
@@ -99,7 +102,10 @@ OK, USB Stick wird angezeigt.
 brw-------    1 root     root        8,   0 Aug  7 17:04 /dev/sda
 brw-------    1 root     root        8,   1 Aug  7 17:04 /dev/sda1
 ~~~
-Wenn Probleme auftreten, bitte in den original Anleitungen weiterlesen. [https://openwrt.org/docs/guide-user/storage/usb-drives](https://openwrt.org/docs/guide-user/storage/usb-drives)
+Wenn Probleme auftreten, bitte in den original Anleitungen weiterlesen.
+[https://openwrt.org/docs/guide-user/storage/usb-drives](https://openwrt.org/docs/guide-user/storage/usb-drives)
+
+[https://openwrt.org/docs/guide-user/storage/usb-installing](https://openwrt.org/docs/guide-user/storage/usb-installing)
 
 Formatieren :-)
 
