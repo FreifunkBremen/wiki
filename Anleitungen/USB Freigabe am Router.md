@@ -165,10 +165,13 @@ Auch hier wieder der Hinweis auf die Originalinstallationsanleitung bei OpenWRT.
 [https://openwrt.org/docs/guide-user/services/nas/start](https://openwrt.org/docs/guide-user/services/nas/start)
 
 Zunächst SSH Verbindung über die Konsole zu unserem Router herstellen, die SW Liste aktualisieren und samba installieren.
+Alle weiterführende Informationen unter:
+
+[https://openwrt.org/docs/guide-user/services/nas/cifs.server](https://openwrt.org/docs/guide-user/services/nas/cifs.server)
 
 **_`Eingabe:`_**
 ~~~
-opkg update && opkg install samba
+opkg update && opkg install samba4
 ~~~
 
 **_`Ausgabe:`_**
