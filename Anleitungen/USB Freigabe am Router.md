@@ -111,6 +111,7 @@ done
 Writing superblocks and filesystem accounting information: done
 ~~~
 
+Für andere Datenträger (FAT, NTFS, SSD) werden ggf. andere oder zusätzliche Treiber benötigt.
 
 ### 2.) Samba konfigurieren
 
