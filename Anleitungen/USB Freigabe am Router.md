@@ -168,6 +168,34 @@ Auch hier wieder der Hinweis auf die Originalinstallationsanleitung bei OpenWRT.
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 ### 3.) Firewall öffnen
+Hier ein paar Vorschläge, um Löcher in die Firewall zu bekommen. Die Konfiguration bitte in `firewall.user` vornehmen, damit die Konfig updatesicher ist. 
+
+~~~
+uci -q delete firewall.samba_nsds
+uci set firewall.samba_nsds="rule"
+uci set firewall.samba_nsds.name="Allow-Samba/NS/DS"
+uci set firewall.samba_nsds.src="lan"
+uci set firewall.samba_nsds.dest_port="137-138"
+uci set firewall.samba_nsds.proto="udp"
+uci set firewall.samba_nsds.target="ACCEPT"
+uci -q delete firewall.samba_ss
+uci set firewall.samba_ss="rule"
+uci set firewall.samba_ss.name="Allow-Samba/SS"
+uci set firewall.samba_ss.src="lan"
+uci set firewall.samba_ss.dest_port="139"
+uci set firewall.samba_ss.proto="tcp"
+uci set firewall.samba_ss.target="ACCEPT"
+uci -q delete firewall.samba_smb
+uci set firewall.samba_smb="rule"
+uci set firewall.samba_smb.name="Allow-Samba/SMB"
+uci set firewall.samba_smb.src="lan"
+uci set firewall.samba_smb.dest_port="445"
+uci set firewall.samba_smb.proto="tcp"
+uci set firewall.samba_smb.target="ACCEPT"
+uci commit firewall
+/etc/init.d/firewall restart
+~~~
+
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
