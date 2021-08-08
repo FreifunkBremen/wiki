@@ -1,5 +1,5 @@
 ### Wie kann ein USB Stick am Router als Laufwerk verwendet werden?
-Erstellt am: 08.08.2021
+Erstellt am: 08.08.2021 Thema noch nicht abgeschlossen, Einrichtung ok, Zugriff funktionirt novh nicht.
 
 Nun, das ist ganz einfach, folgende 3 Schritte sind notwendig.
 ## Inhalt
