@@ -195,6 +195,8 @@ Downloading http://downloads.openwrt.org/releases/18.06-SNAPSHOT/packages/mips_2
 Configuring samba36-server.
 ~~~
 
+Konfigdatei:  /etc/config/samba
+
 
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
