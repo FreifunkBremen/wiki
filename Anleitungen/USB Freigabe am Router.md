@@ -148,7 +148,7 @@ chmod 555 /mnt/sda1
 chmod 444 /mnt/sda1/USB_DISK_NOT_PRESENT
 mount /dev/sda1 /mnt/sda1
 ~~~
-Die Datei `USB_DISK_NOT_PRESENT` sehe ich nur, wenn kein Stick gesteckt ist, bzw. kein mount erfolgt ist.
+Die Datei `USB_DISK_NOT_PRESENT` mit 0 Bytes sehe ich nur, wenn kein Stick gesteckt ist, bzw. kein mount erfolgt ist. Die Datei wird nicht auf dem Stick angelegt :-) sondern auf dem Router ohne Stick unter: /mnt/sda1/
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
