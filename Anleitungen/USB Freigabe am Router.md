@@ -161,6 +161,7 @@ Die Datei `USB_DISK_NOT_PRESENT` mit 0 Bytes sehe ich nur, wenn kein Stick geste
 ### 2.) Samba konfigurieren
 Samba fällt in die Kategorie NAS und sorgt dafür, das eine Laufwerksfreigabe erzeugt wird.
 Auch hier wieder der Hinweis auf die Originalinstallationsanleitung bei OpenWRT.
+
 [https://openwrt.org/docs/guide-user/services/nas/start](https://openwrt.org/docs/guide-user/services/nas/start)
 
 
