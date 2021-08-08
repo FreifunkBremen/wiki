@@ -164,6 +164,18 @@ Auch hier wieder der Hinweis auf die Originalinstallationsanleitung bei OpenWRT.
 
 [https://openwrt.org/docs/guide-user/services/nas/start](https://openwrt.org/docs/guide-user/services/nas/start)
 
+Zunächst SSH Verbindung über die Konsole zu unserem Router herstellen, die SW Liste aktualisieren und samba installieren.
+
+**_`Eingabe:`_**
+~~~
+opkg update && opkg install samba
+~~~
+
+**_`Ausgabe:`_**
+~~~
+
+~~~
+
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
