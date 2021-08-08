@@ -85,11 +85,13 @@ root@ffhb-a42bb0de8272-C7v2-00:
 Hinweis Merken: **block-mount**, this file has been obsoleted. please call "/sbin/block mount" directly.
 
 Dann checken wir mal, ob der Stick da ist.
+
 **_`Eingabe:`_**
 ~~~
 ls -al /dev/sd* 
 ~~~
 OK, USB Stick wird angezeigt. 
+
 **_`Ausgabe:`_**
 ~~~
 brw-------    1 root     root        8,   0 Aug  7 17:04 /dev/sda
@@ -98,10 +100,12 @@ brw-------    1 root     root        8,   1 Aug  7 17:04 /dev/sda1
 Wenn Probleme auftreten, bitte in den original Anleitungen weiterlesen. [https://openwrt.org/docs/guide-user/storage/usb-drives](https://openwrt.org/docs/guide-user/storage/usb-drives)
 
 Formatieren :-)
+
 **_`Eingabe:`_**
 ~~~
 mkfs.ext4 /dev/sda1
 ~~~
+
 **_`Ausgabe:`_**
 ~~~
 mke2fs 1.44.1 (24-Mar-2018)
