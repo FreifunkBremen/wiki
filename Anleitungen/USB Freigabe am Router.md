@@ -132,11 +132,11 @@ Weitere Infos unter: [https://openwrt.org/docs/guide-user/storage/usb-drives](ht
 Bis zu diesem Punkt hat alles funktioniert. Hier ein paar ergänzende Anmerkungen:
 - Mountverzeichnis ist /mnt/sda1, dies kann natürlich mit anderen Parametern geändert werden.
 - Ich sehe das Verzeichnis nicht / nicht mehr.
- - ist das rebootfest?
- - ist das updatefest?
- - automount?
- - no mount Anzeige hergestellt?
- - refresh des Anzeigefensters durchgeführt?
+  - ist das rebootfest?
+  - ist das updatefest?
+  - automount?
+  - no mount Anzeige hergestellt?
+  - refresh des Anzeigefensters durchgeführt?
 
 NoMountAnzeige, altes Linuxwissen.
 An den Mountpunkt wird eine Verzeichnisstruktur des Datenträgers eingehängt. Was an diesem Punkt vorher war, wird ausgeblendet.
