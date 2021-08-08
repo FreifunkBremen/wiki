@@ -13,8 +13,9 @@ Der USB Stick wird in USB1 gesteckt, zwischen den USB Buchsen sind zwei LED, wov
 ### 1.) USB Treiber nachinstallieren
 Im ersten Schritt die Treiber installieren, damit der Stick erkannt wird. 
 
+`Eingabe`
 ~~~
-**Eingabe: **opkg update && opkg install block-mount e2fsprogs kmod-fs-ext4 kmod-usb-storage kmod-usb2 kmod-usb3
+opkg update && opkg install block-mount e2fsprogs kmod-fs-ext4 kmod-usb-storage kmod-usb2 kmod-usb3
 ~~~
 
 ~~~
