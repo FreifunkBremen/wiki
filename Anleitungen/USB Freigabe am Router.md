@@ -12,6 +12,8 @@ Der USB Stick wird in USB1 gesteckt, zwischen den USB Buchsen sind zwei LED, wov
 
 ### 1.) USB Treiber nachinstallieren
 Im ersten Schritt die Treiber installieren, damit der Stick erkannt wird. 
+
+Eingabe:
 ~~~
 opkg update && opkg install block-mount e2fsprogs kmod-fs-ext4 kmod-usb-storage kmod-usb2 kmod-usb3
 ~~~
@@ -84,10 +86,12 @@ root@ffhb-a42bb0de8272-C7v2-00:
 Hinweis Merken: **block-mount**, this file has been obsoleted. please call "/sbin/block mount" directly.
 
 Dann checken wir mal, ob der Stick da ist.
+
+Eingabe:
 ~~~
 ls -al /dev/sd* 
 ~~~
-OK, USB Stick wird angezeigt.
+OK, USB Stick wird angezeigt. Ausgabe:
 ~~~
 brw-------    1 root     root        8,   0 Aug  7 17:04 /dev/sda
 brw-------    1 root     root        8,   1 Aug  7 17:04 /dev/sda1
@@ -95,6 +99,8 @@ brw-------    1 root     root        8,   1 Aug  7 17:04 /dev/sda1
 Wenn Probleme auftreten, bitte in den original Anleitungen weiterlesen. [https://openwrt.org/docs/guide-user/storage/usb-drives](https://openwrt.org/docs/guide-user/storage/usb-drives)
 
 Formatieren :-)
+
+Eingabe:
 ~~~
 mkfs.ext4 /dev/sda1
 ~~~
