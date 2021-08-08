@@ -4,7 +4,7 @@ Nun, das ist ganz einfach, folgende 3 Schritte sind notwendig.
 [[_TOC_]]
 
 Das Vorgehen ist an die OpenWRT Anleitung angelehnt.
-https://openwrt.org/docs/guide-user/storage/usb-drives-quickstart
+[https://openwrt.org/docs/guide-user/storage/usb-drives-quickstart](https://openwrt.org/docs/guide-user/storage/usb-drives-quickstart)
 
 Es wird ein vorbereiteter USB Stick benötig ( Hier wurde eine Samsung USB 3.1 mit 65Gb verwendet)
 Zugang zum Router via SSH-Konsole. Verwendeter Router TP-Link Archer C7 mit zwei USB Buchsen (USB1, USB2).
@@ -112,6 +112,8 @@ Writing superblocks and filesystem accounting information: done
 ~~~
 
 Für andere Datenträger (FAT, NTFS, SSD) werden ggf. andere oder zusätzliche Treiber benötigt.
+Weitere Infos unter: [https://openwrt.org/docs/guide-user/storage/usb-drives](https://openwrt.org/docs/guide-user/storage/usb-drives)
+
 
 ### 2.) Samba konfigurieren
 
