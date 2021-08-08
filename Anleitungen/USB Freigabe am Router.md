@@ -19,7 +19,6 @@ opkg update && opkg install block-mount e2fsprogs kmod-fs-ext4 kmod-usb-storage 
 ~~~
 **_`Ausgabe:`_**
 ~~~
-root@ffhb-a42bb0de8272-C7v2-00:# opkg update
 Downloading http://downloads.openwrt.org/releases/18.06-SNAPSHOT/packages/mips_24kc/base/Packages.gz
 Updated list of available packages in /var/opkg-lists/openwrt_base
 Downloading http://downloads.openwrt.org/releases/18.06-SNAPSHOT/packages/mips_24kc/base/Packages.sig
@@ -86,12 +85,12 @@ root@ffhb-a42bb0de8272-C7v2-00:
 Hinweis Merken: **block-mount**, this file has been obsoleted. please call "/sbin/block mount" directly.
 
 Dann checken wir mal, ob der Stick da ist.
-
-Eingabe:
+**_`Eingabe:`_**
 ~~~
 ls -al /dev/sd* 
 ~~~
-OK, USB Stick wird angezeigt. Ausgabe:
+OK, USB Stick wird angezeigt. 
+**_`Ausgabe:`_**
 ~~~
 brw-------    1 root     root        8,   0 Aug  7 17:04 /dev/sda
 brw-------    1 root     root        8,   1 Aug  7 17:04 /dev/sda1
@@ -99,12 +98,11 @@ brw-------    1 root     root        8,   1 Aug  7 17:04 /dev/sda1
 Wenn Probleme auftreten, bitte in den original Anleitungen weiterlesen. [https://openwrt.org/docs/guide-user/storage/usb-drives](https://openwrt.org/docs/guide-user/storage/usb-drives)
 
 Formatieren :-)
-
-Eingabe:
+**_`Eingabe:`_**
 ~~~
 mkfs.ext4 /dev/sda1
 ~~~
-Ausgabe:
+**_`Ausgabe:`_**
 ~~~
 mke2fs 1.44.1 (24-Mar-2018)
 /dev/sda1 contains a exfat file system labelled 'Samsung USB'
