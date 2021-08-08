@@ -228,6 +228,30 @@ uci commit firewall
 /etc/init.d/firewall restart
 ~~~
 
+Die Einträge in der Konfigdatei /etc/firewall sehen dann so aus.
+
+~~~
+config rule 'samba_nsds'
+	option name 'Allow-Samba/NS/DS'
+	option src 'lan'
+	option dest_port '137-138'
+	option proto 'udp'
+	option target 'ACCEPT'
+
+config rule 'samba_ss'
+	option name 'Allow-Samba/SS'
+	option src 'lan'
+	option dest_port '139'
+	option proto 'tcp'
+	option target 'ACCEPT'
+
+config rule 'samba_smb'
+	option name 'Allow-Samba/SMB'
+	option src 'lan'
+	option dest_port '445'
+	option proto 'tcp'
+	option target 'ACCEPT'
+~~~
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
