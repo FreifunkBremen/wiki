@@ -2,7 +2,7 @@
 Erstellt am: 08.08.2021
 
 Nun, das ist ganz einfach, folgende 3 Schritte sind notwendig.
-
+## Inhalt
 [[_TOC_]]
 
 Das Vorgehen ist an die OpenWRT Anleitung angelehnt.
@@ -150,7 +150,13 @@ mount /dev/sda1 /mnt/sda1
 ~~~
 Die Datei `USB_DISK_NOT_PRESENT` sehe ich nur, wenn kein Stick gesteckt ist, bzw. kein mount erfolgt ist.
 
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
 ### 2.) Samba konfigurieren
 
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
 ### 3.) Firewall öffnen
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
