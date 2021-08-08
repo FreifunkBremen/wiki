@@ -170,15 +170,31 @@ Alle weiterführende Informationen unter:
 [https://openwrt.org/docs/guide-user/services/nas/cifs.server](https://openwrt.org/docs/guide-user/services/nas/cifs.server)
 
 **_`Eingabe:`_**
-
 ~~~
-opkg update && opkg install samba4
+opkg update && opkg list | grep -i samba
 ~~~
 
 **_`Ausgabe:`_**
 ~~~
-aus
+...
+samba36-client - 3.6.25-12 - Samba 3.6 SMB/CIFS client
+samba36-hotplug - 3.6.25-12 - Samba 3.6 SMB/CIFS hotplug
+samba36-net - 3.6.25-12 - Samba 3.6 SMB/CIFS net commands
+samba36-server - 3.6.25-12 - The Samba software suite is a collection of programs that implements the SMB protocol for UNIX systems, allowing you to serve files and printers to Windows, NT, OS/2 and DOS clients. This protocol is sometimes also referred to as the LanManager or Netbios protocol.
 ~~~
+
+**_`Eingabe:`_**
+~~~
+opkg install samba36-server
+~~~
+
+**_`Ausgabe:`_**
+~~~
+Installing samba36-server (3.6.25-12) to root...
+Downloading http://downloads.openwrt.org/releases/18.06-SNAPSHOT/packages/mips_24kc/base/samba36-server_3.6.25-12_mips_24kc.ipk
+Configuring samba36-server.
+~~~
+
 
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
