@@ -13,13 +13,12 @@ Der USB Stick wird in USB1 gesteckt, zwischen den USB Buchsen sind zwei LED, wov
 ### 1.) USB Treiber nachinstallieren
 Im ersten Schritt die Treiber installieren, damit der Stick erkannt wird. 
 
-`Eingabe`
+`_Eingabe:_`
 ~~~
 opkg update && opkg install block-mount e2fsprogs kmod-fs-ext4 kmod-usb-storage kmod-usb2 kmod-usb3
 ~~~
-
+_`Ausgabe:`_
 ~~~
-**Ausgabe:**
 root@ffhb-a42bb0de8272-C7v2-00:# opkg update
 Downloading http://downloads.openwrt.org/releases/18.06-SNAPSHOT/packages/mips_24kc/base/Packages.gz
 Updated list of available packages in /var/opkg-lists/openwrt_base
