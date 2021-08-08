@@ -129,6 +129,26 @@ Writing superblocks and filesystem accounting information: done
 Für andere Datenträger (FAT, NTFS, SSD) werden ggf. andere oder zusätzliche Treiber benötigt.
 Weitere Infos unter: [https://openwrt.org/docs/guide-user/storage/usb-drives](https://openwrt.org/docs/guide-user/storage/usb-drives)
 
+Bis zu diesem Punkt hat alles funktioniert. Hier ein paar ergänzende Anmerkungen:
+- Mountverzeichnis ist /mnt/sda1, dies kann natürlich mit anderen Parametern geändert werden.
+- Ich sehe das Verzeichnis nicht / nicht mehr.
+- - ist das rebootfest?
+- - ist das updatefest?
+- - automount?
+- - no mount Anzeige hergestellt?
+- - refresh des Anzeigefensters durchgeführt?
+
+NoMountAnzeige, altes Linuxwissen.
+An den Mountpunkt wird eine Verzeichnisstruktur des Datenträgers eingehängt. Was an diesem Punkt vorher war, wird ausgeblendet.
+Also erstelle ich am Mountpunkt eine Datei mit aussagekräftigem Namen.
+~~~
+umount /mnt/sda1   
+touch /mnt/sda1/USB_DISK_NOT_PRESENT
+chmod 555 /mnt/sda1 
+chmod 444 /mnt/sda1/USB_DISK_NOT_PRESENT
+mount /dev/sda1 /mnt/sda1
+~~~
+Die Datei `USB_DISK_NOT_PRESENT` sehe ich nur, wenn kein Stick gesteckt ist, bzw. kein mount erfolgt ist.
 
 ### 2.) Samba konfigurieren
 
