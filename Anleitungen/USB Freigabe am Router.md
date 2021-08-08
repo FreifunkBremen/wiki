@@ -97,6 +97,9 @@ Wenn Probleme auftreten, bitte in den original Anleitungen weiterlesen. [https:/
 Formatieren :-)
 ~~~
 mkfs.ext4 /dev/sda1
+~~~
+Ausgabe:
+~~~
 mke2fs 1.44.1 (24-Mar-2018)
 /dev/sda1 contains a exfat file system labelled 'Samsung USB'
 Proceed anyway? (y,N) **y**
