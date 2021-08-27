@@ -1,10 +1,10 @@
-# Raspberry Pi mit batman-adv ins Freifunk-Mesh bringen
+# RaspBerry Pi mit batman-adv ins Freifunk-Mesh bringen
 
 [[_TOC_]]
 
 ## Worum es geht
 
-Neulich wollte Oliver an seinem Freifunk-Router einen [Raspberry Pi](https://www.raspberrypi.org/) anschließen, sodass der PI im [FFHB-Netz](http://bremen.freifunk.net) hängt. Allerdings hat er auf dem Router die [Mesh-on-LAN](http://gluon.readthedocs.org/en/latest/features/wired-mesh.html#mesh-on-lan)-Funktion eingeschaltet, weil da noch weitere Freifunk-Router per Kabel angeschlossen sind.
+Neulich wollte Oliver an seinem Freifunk-Router einen [RaspBerry Pi](https://www.raspberrypi.org/) anschließen, sodass der PI im [FFHB-Netz](http://bremen.freifunk.net) hängt. Allerdings hat er auf dem Router die [Mesh-on-LAN](http://gluon.readthedocs.org/en/latest/features/wired-mesh.html#mesh-on-lan)-Funktion eingeschaltet, weil da noch weitere Freifunk-Router per Kabel angeschlossen sind.
 
 Wenn man Mesh on LAN angeschaltet hat, müssen alle per Kabel an dem Router angeschlossenen Geräte direkt das "[batman-adv](http://www.open-mesh.org/projects/batman-adv/wiki/Doc-overview)"-Protokoll sprechen, um über den Router ins Netz zu kommen. Geräte, die das Protokoll nicht unterstützen, bekommen einfach keine IP zugewiesen.
 
