@@ -77,6 +77,36 @@ sudo crontab -e
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
+### So aktualisieren Sie clamtk (alle Schritte) / clamav (Schritte 1-3)
+
+1. Entfernen Sie möglicherweise fehlerhafte AV-Installationen:
+
+~~~
+sudo apt-get remove clamav clamtk freshclam
+sudo apt-get autoremove
+~~~
+
+2. Installieren Sie AV neu
+
+~~~
+sudo apt-get install clamav -y      # *(Terminal Version)*
+sudo apt-get install clamtk -y      # *(GUI version)*
+~~~
+
+3. AV-Datenbank aktualisieren
+
+~~~
+sudo freshclam                    # *(takes ~30 minutes to download definitions)*
+~~~ 
+
+4. AV & Scan konfigurieren: In diesem Beispiel wird nur clamtk verwendet
+
+~~~
+clamtk                           # (Opens GUI)*
+~~~
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
 ### Netzteil
 Wird auf dem Monitor ein roter Blitz rechts oben eingeblendet, so liegt eine Unterspannung vor. Eine schlimme Folge ist, die Taktfrequenz wird runtergesetzt und der Pi ist deutlich langsamer.
 Kann das Netzteil nicht genug Strom liefern, bzw. hat weniger als 5,1V so kann die Überwachung auf Unterspannung abgeschaltet werden.
