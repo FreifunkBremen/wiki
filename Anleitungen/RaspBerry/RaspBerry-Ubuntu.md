@@ -110,6 +110,12 @@ Sind alle Updates installiert, sollte der Pi neu gestartet werden:
 sudo reboot
 ~~~
 
+**Problem** nach jedem Neustart ist das LAN Interface down, es wurde bisher kein Fix gefunden.
+~~~
+sudo dhclient eth0
+~~~
+LAN läuft wieder, aber mit diesem BUG ist ein Betrieb nicht sinnvoll.
+
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
@@ -138,8 +144,7 @@ und bestätigt mit TAB & „OK“. Danach fragt das System, welche Einstellung d
 auch hier wählt man wieder „de_DE.UTF-8 UTF-8“. Um die neue Spracheinstellung zu aktivieren, 
 muss das System neu gestartet werden.
 
-Problem nach jedem Neustart ist das LAN Interface down, es wurde bisher kein Fix gefunden.
-
+**Problem** nach jedem Neustart ist das LAN Interface down, es wurde bisher kein Fix gefunden.
 ~~~
 sudo dhclient eth0
 ~~~
