@@ -42,7 +42,7 @@ Natürlich können die Grudeinstellungen auch in der Image-Datei vorgenommen wer
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
-#### Virenscanner ClamAV installieren 
+### Virenscanner ClamAV installieren 
 Wenn der Raspi mit dem Internet verbunden ist, sollte ein Virenscanner installiert werden.
 Weitere Infos unter: https://www.clamav.net/
 ~~~
