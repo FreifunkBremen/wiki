@@ -6,25 +6,8 @@ Hier sind also nur ein paar _Stolpersteine_ erwähnt, die unserer `Aufmerksamkei
 
 Eine wichtige Quelle ist: https://www.raspberrypi.org/documentation/
 
-## Inhalt:
-- [Kaufberatung](#kaufberatung)
-- [Erstinstallation](#erstinstallation)
-- [Virenscanner ClamAV installieren](#virenscanner-clamav-installieren)
-- [Netzteil](#netzteil)
-- [Monitor](#monitor)
-- [Serielle Schnittstelle](#serielle-schnittstelle)
-- [LAN Interface feste IP-Adresse](#lan-interface-feste-ip-adresse)
-- [LAN Interface Fallback](#lan-interface-fallback)
-- [WLAN Verbindung einrichten](#wlan-verbindung-einrichten)
-- [WLAN Access Point einrichten](#wlan-access-point-einrichten)
-- [SSH Login auf dem Raspi](#ssh-login-auf-dem-raspi)
-- [SAMBA Verzeichnisfreigabe](#samba-verzeichnisfreigabe)
-- [Projekt Taster](#projekt-taster)
-- [Projekt Webserver](#projekt-webserver)
-- [Projekt Nextcloud](#projekt-nextcloud)
-- [Projekt DynDNS](#projekt-dyndns)
-- [Projekt Lets Encrypt Zertifikat](#lets-encrypt-zertifikat)
-- [Umzug auf neuere Hardware](#umzug-auf-neuere-hardware)
+## Inhalt
+[[_TOC_]]
 
 ### Kaufberatung
 Soll es nur ein Gerät sein, lohnt sich ein Bundle, damit habe ich alles zusammen, was für den Betrieb eines Raspberry benötigt wird. Werden es evtl. mehrere Geräte oder es werden ein paar Besonderheiten gewünscht, lohnen sich Einzelteile.
