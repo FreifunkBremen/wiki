@@ -1,4 +1,4 @@
-**[Raspberry-PiShrink](https://github.com/Drewsif/PiShrink)**
+**[RaspBerry-PiShrink](https://github.com/Drewsif/PiShrink)**
 
 ## Inhalt:
 [[_TOC_]]
