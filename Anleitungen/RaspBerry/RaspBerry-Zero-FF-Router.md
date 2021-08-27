@@ -1,4 +1,4 @@
-Wir bauen eine Freifunkrouter mit einem Raspberry-Zero-W. Der Zero-W hat WLAN :-)
+Wir bauen eine Freifunkrouter mit einem RaspBerry-Zero-W. Der Zero-W hat WLAN :-)
 
 **- Diese Zeile zeigt an, der Beitrag ist noch im Entwurf! 29.9.2020**
 
