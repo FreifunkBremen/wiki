@@ -31,8 +31,8 @@ Das Programm ist für Superfaule und funktioniert prima.
 Das Programm kennt alle Images, und läd das Ausgwählte frisch aus dem Netz.
 Ohne Netzanbindung kann auch ein vorhandenes Image ausgewählt weden.
 
-Habe das Empfohlene 32 Bit Image verwendet. Leider kann ich mich nicht einlaggen.
-Die User/PW Kombination ubuntu/ubuntu wird verweigert. Das 64Bit Image hat hingegen funktioniert. 
+Habe das Empfohlene 32 Bit Image verwendet. 
+**Problem**: Leider kann ich mich nicht einl0ggen. Die User/PW Kombination ubuntu/ubuntu wird verweigert. Das 64Bit Image hat hingegen funktioniert. 
 
 Nach erfolgreichem Schreiben, ist die SD Karte unter Windows nicht zu sehen.
 Ziehen uns Stecken hilft, dadurch kann auf den FAT Anteil Bootpartition zugegriffen werden.
@@ -43,7 +43,7 @@ Habe an den PI dann Tastatur und Monitor angeschlosen.
 
 Also die Headless Installation über WiFi oder LAN mit SSH Zugriff klappt nicht.
 Die IP Afrage im Netz über arp klappt nicht.
-Zitat
+**Zitat**:
 Determining the Pi’s IP address
 To determine the IP address of your board, open a terminal and run the arp command:
 On Ubuntu and Mac OS:
@@ -68,7 +68,7 @@ arp -a | findstr dc-a6-32
 ~~~
 
 Es werden IP Adressen von vorhandenen PI´s wiedergegeben, aber nicht von diesem hier.
-Dieser PI ist ziemlich taub, kein WiFi aber LAN ist up
+Dieser PI ist ziemlich taub, kein WiFi aber LAN ist up und kein Zugriff.
 
 Kurz einen Schritt zurück.
 
@@ -90,9 +90,9 @@ sudo apt install net-tools
 sudo apt install wireless-tools
 ~~~
 
-Prima, jetzt können wir die ip Abfragen
-arp -a und unser Gateway wird angezeigt
-ifconfig und eth0 mit IP Adresse etc.
+Anmerkung: Old-School, der Befehl IP - a reicht hier aus.
+
+Prima, jetzt können wir die ip Abfragen, arp -a und unser Gateway wird angezeigt, ifconfig und eth0 mit IP Adresse etc.
 
 Ich mach vieles über Windows, jetzt wird mir auf Windows mit arp -a auch der neue Ubuntu Pi angezeigt.
 mit putty/kitty etc. kann ich jetzt per SSH zugreifen und benötige den angeschlossenen Fernseher nicht mehr,
@@ -137,6 +137,13 @@ für Deutsch wählt man mit der Sternchentaste/Leertaste daraus „de_DE.UTF-8 U
 und bestätigt mit TAB & „OK“. Danach fragt das System, welche Einstellung die Standardeinstellung werden soll; 
 auch hier wählt man wieder „de_DE.UTF-8 UTF-8“. Um die neue Spracheinstellung zu aktivieren, 
 muss das System neu gestartet werden.
+
+Problem nach jedem Neustart ist das LAN Interface down, es wurde bisher kein Fix gefunden.
+
+~~~
+sudo dhclient eth0
+~~~
+LAN läuft wieder, aber mit diesem BUG ist ein Betrieb nicht sinnvoll.
 
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
