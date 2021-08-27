@@ -1,4 +1,4 @@
-## Ubuntu auf eine RspBerry installieren
+## Ubuntu auf einem RaspBerry installieren
 
 (27.8.2021 F_H) Die folgenden Spielereien dienen der Unterhaltung und Bildung. 
 Der Artikel beschreibt einen Versuch, Ubuntu auf einem Raspberry zu Installieren.
