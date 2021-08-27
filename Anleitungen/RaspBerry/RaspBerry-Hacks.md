@@ -62,27 +62,27 @@ sudo crontab -e
 
 ### So aktualisieren Sie clamtk (alle Schritte) / clamav (Schritte 1-3)
 
-* 1) Entfernen Sie möglicherweise fehlerhafte AV-Installationen:
+* 1.) Entfernen Sie möglicherweise fehlerhafte AV-Installationen:
 
 ~~~
 sudo apt-get remove clamav clamtk freshclam
 sudo apt-get autoremove
 ~~~
 
-* 2) Installieren Sie AV neu
+* 2.) Installieren Sie AV neu
 
 ~~~
 sudo apt-get install clamav -y      # *(Terminal Version)*
 sudo apt-get install clamtk -y      # *(GUI version)*
 ~~~
 
-* 3.)AV-Datenbank aktualisieren
+* 3.) AV-Datenbank aktualisieren
 
 ~~~
 sudo freshclam                    # *(takes ~30 minutes to download definitions)*
 ~~~ 
 
-* 4) AV & Scan konfigurieren: In diesem Beispiel wird nur clamtk verwendet
+* 4.) AV & Scan konfigurieren: In diesem Beispiel wird nur clamtk verwendet
 
 ~~~
 clamtk                           # (Opens GUI)*
