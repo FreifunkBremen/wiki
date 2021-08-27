@@ -12,32 +12,21 @@ Hier sind also nur ein paar **_Stolpersteine_** erwähnt, die unserer `Aufmerksa
 Die Probleme meiner Ubuntu Installation konnten für den Raspbian nicht gelöst oder genauer beschrieben werden.
 Am Ende kommt keine funtionierende Installation raus
 
-
 ### Vorbereitung
 
 Damit ein neues Projekt funktioniert, wird dieses auf lauffähiger Hardware aufgesetzt. Die Hardware besteht hier aus einem lauffähigen RaspBerry 3B+ mit seriellem USB Port als Konsole. Geprüft und angeschlossen wurden ein Fernseher mit HDMI Anschluss, USB Tastatur und USB Maus. Netzteil, diverse Kabel, und Flashcards.
-
+Jetzt wissen wir, wir haben eine funktionieren Kiste und können loslegen.
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
-
 
 ### Pi Imager
 
-Die weiteren Konfigurationen im Terminal mit sudo `raspi-config` vornehmen.
-
-**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
-
-Installtion von Ubuntu Server LTS auf dem Raspi.
-
-Zuerst einen benötigen wir einen lauffähigen Raspi mit Monitor und Tastatur, Maus optional.
-Wenn wir hier ein neues Gerät verwenden, dieses bitte erst zum laufen bringen, egal mit was.
-
-Für die Installation von Ubuntu gibt es eine schöne Anleitung,
-die alles sehr einfach beschreibt.
-Leider fehlt es Problembeschreibungen und deren Lösungen und es gibt Probleme.
+[Installtion von Ubuntu Server LTS 64Bit auf dem Raspi.](https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview)
+Für die Installation von Ubuntu gibt es eine schöne Anleitung, die alles sehr einfach beschreibt.
+Leider fehlt es an Problembeschreibungen und deren Lösungen und es gibt leider Probleme.
 
 SD-Karte bespielen:
-Anstatt Winimage etc. habe ich die SD Karte mit dem Raspi-Imager bespielt.
+Anstatt Winimage etc. habe ich die SD Karte mit dem [Raspi-Imager](https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#2-prepare-the-sd-card) bespielt.
 Das Programm ist für Superfaule und funktioniert prima.
 Das Programm kennt alle Images, und läd das Ausgwählte frisch aus dem Netz.
 Ohne Netzanbindung kann auch ein vorhandenes Image ausgewählt weden.
