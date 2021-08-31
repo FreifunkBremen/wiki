@@ -49,6 +49,7 @@ Dies ist eine Anregung für Dinge, die man mitnehmen oder vorbereiten sollte, we
 - Edding
 - Zollstock
 - Arbeitshandschuhe
+- gelbe Warnwesten (z.B. aus dem Auto), um bei Arbeiten in öffentlichen Bereichen nach "Techniker:in" auszusehen :-)
 - Smartphone mit WLAN und Kamera
 - Laptop + Stromkabel
 - Powerbank + USB-Kabel
