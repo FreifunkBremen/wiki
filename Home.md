@@ -19,9 +19,10 @@ Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffh
 * der letzten Treffen:
     * [[03.09.2021|Treffen/2021_09_03]]
     * [[17.09.2021|Treffen/2021_09_17]]
-* der nächsten Treffen:
     * [[01.10.2021|Treffen/2021_10_03]]
+* der nächsten Treffen:
     * [[15.10.2021|Treffen/2021_10_15]]
+    * [[05.11.2021|Treffen/2021_11_05]]
     
 * [Liste aller Treffen](/gollum/overview/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
 * Weitere Termine (nicht nur Treffen) finden sich in den Protokollen zu den verschiedenen Treffen
