@@ -35,7 +35,7 @@ Diese Schritte müssen auf einem System ausgeführt werden, das genug Festplatte
 * Planet-Datei kopieren: `cp 2019-09-planet-10.mbtiles germany.mbtiles`
 	* wir werden die Deutschland-Daten dann in die kopierte Datei dazuschreiben
 * im Tilemaker-Verzeichnis ausführen: `./build/tilemaker --input germany-latest.osm.pbf --output germany.mbtiles --merge --config resources/config-openmaptiles.json --process resources/process-openmaptiles.lua`
-    * Hinweis: die kopierte `germany.mbtiles` muss so platziert sein, dass dieser Datei dort hinein schreibt. Tilemaker soll keine neue `germany.mbtiles` anlegen!
+    * Hinweis: die kopierte `germany.mbtiles` muss so platziert sein, dass dieser Befehl dort hinein schreibt. Tilemaker soll keine neue `germany.mbtiles` anlegen!
 * die fertige `germany.mbtiles` kann jetzt auf den Tileserver nach /home/tiles/germany.mbtiles kopiert werden
 * auf dem Tileserver muss noch Tessera neugestartet werden:
 	* `su - tiles`
