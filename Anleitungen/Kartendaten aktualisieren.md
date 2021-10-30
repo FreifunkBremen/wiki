@@ -14,7 +14,7 @@ Dieser Artikel beschreibt, wie man eine neue mbtiles-Datei aus den aktuellen roh
 	* unwichtige Daten (die wir sowieso nicht darstellen wollen) werden rausgefiltert
 	* die Daten werden in Kacheln aufgeteilt, damit es später einfacher wird, Daten bestimmter Gegenden zu laden
 * für die Konvertierung von .osm.pbf in .mbtiles gibt es mehrere Wege
-	* wir benutzen hier die [Tilemaker-Software](https://github.com/systemed/tilemaker), weil die das alles in einem Schritt erledigt und einfach zu benutzen ist. Dafür benötigen wir aber einen starken Rechner mit viel RAM ([geschätzt](https://wheregroup.com/blog/tilemaker-am-limit/): die Dateigröße der .osm.pbf-Datei mal 12).
+	* wir benutzen hier die [Tilemaker-Software](https://github.com/systemed/tilemaker), weil die das alles in einem Schritt erledigt und einfach zu benutzen ist. Dafür benötigen wir aber einen starken Rechner mit viel RAM ([geschätzt](https://wheregroup.com/blog/tilemaker-am-limit/): die Dateigröße der .osm.pbf-Datei mal 12; bzw. mit Auslagerung auf SSD ca. Faktor 6).
 	* alternativ gibt es auch eine Anleitung unter [[https://openmaptiles.org/docs/generate/generate-openmaptiles/]], die aber aufwändiger ist (dafür kommt die evtl. auch mit einem schwächeren Rechner aus)
 * die Umwandlung in das einfachere Datenschema machen wir mithilfe von zwei Config-Dateien, die bei der Tilemaker-Software mitgeliefert werden ([config-openmaptiles.json](https://github.com/systemed/tilemaker/blob/master/resources/config-openmaptiles.json) und [process-openmaptiles.lua](https://github.com/systemed/tilemaker/blob/master/resources/process-openmaptiles.lua))
 	* man kann hier auch eigene Configs verwenden, um ein eigenes Datenschema zu erhalten
@@ -24,7 +24,7 @@ Dieser Artikel beschreibt, wie man eine neue mbtiles-Datei aus den aktuellen roh
 
 ## Anleitung
 
-Diese Schritte müssen auf einem System ausgeführt werden, das genug Festplattenplatz (10 GB?) und RAM (ca. 48 GB) hat. Ich hab in dieser Anleitung mal angenommen, dass die ganze Prozedur auf unserem Jenkins-Server ausgeführt wird, als User "jenkins", im Verzeichnis ~/tiles/ .
+Diese Schritte müssen auf einem System ausgeführt werden, das genug Festplattenplatz (40 GB?) und RAM (ca. 30 GB) hat. Ich hab in dieser Anleitung mal angenommen, dass die ganze Prozedur auf unserem Jenkins-Server ausgeführt wird, als User "jenkins", im Verzeichnis ~/tiles/ .
 
 * Software runterladen: [[https://github.com/systemed/tilemaker/releases/download/v2.0.0/tilemaker-ubuntu-16.04.zip]] und auspacken
 * aktuelle Kartendaten für Deutschland runterladen, von [[https://download.geofabrik.de/europe/germany-latest.osm.pbf]]
@@ -34,8 +34,9 @@ Diese Schritte müssen auf einem System ausgeführt werden, das genug Festplatte
 	* Hinweis: der Download von archive.org ist recht langsam
 * Planet-Datei kopieren: `cp 2019-09-planet-10.mbtiles germany.mbtiles`
 	* wir werden die Deutschland-Daten dann in die kopierte Datei dazuschreiben
-* im Tilemaker-Verzeichnis ausführen: `./build/tilemaker --input germany-latest.osm.pbf --output germany.mbtiles --merge --config resources/config-openmaptiles.json --process resources/process-openmaptiles.lua`
+* im Tilemaker-Verzeichnis ausführen: `./build/tilemaker --input germany-latest.osm.pbf --output germany.mbtiles --merge --store ./tmp/ --config resources/config-openmaptiles.json --process resources/process-openmaptiles.lua`
     * Hinweis: die kopierte `germany.mbtiles` muss so platziert sein, dass dieser Befehl dort hinein schreibt. Tilemaker soll keine neue `germany.mbtiles` anlegen!
+    * in `./tmp/` werden dann temporäre Dateien für die Konvertierung abgelegt (ca. 30 GB). Das ist nur mit einer SSD sinnvoll! Die `--store`-Option kann auch weggelassen werden, aber dann benötigt der Prozess ca. 48 GB RAM.
 * die fertige `germany.mbtiles` kann jetzt auf den Tileserver nach /home/tiles/germany.mbtiles kopiert werden
 * auf dem Tileserver muss noch Tessera neugestartet werden:
 	* `su - tiles`
