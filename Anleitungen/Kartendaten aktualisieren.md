@@ -26,6 +26,7 @@ Dieser Artikel beschreibt, wie man eine neue mbtiles-Datei aus den aktuellen roh
 
 Diese Schritte müssen auf einem System ausgeführt werden, das genug Festplattenplatz (40 GB?) und RAM (ca. 30 GB) hat. Ich hab in dieser Anleitung mal angenommen, dass die ganze Prozedur auf unserem Jenkins-Server ausgeführt wird, als User "jenkins", im Verzeichnis ~/tiles/ .
 
+* die ganzen Befehle (oder zumindest die tilemaker-Befehle) sollten in einer `tmux`- oder `screen`-Session ausgeführt werden, damit die auch noch weiterlaufen, falls die SSH-Verbindung getrennt wird.
 * Software runterladen: [[https://github.com/systemed/tilemaker/releases/download/v2.0.0/tilemaker-ubuntu-16.04.zip]] und auspacken
 * aktuelle Kartendaten für Deutschland runterladen, von [[https://download.geofabrik.de/europe/germany-latest.osm.pbf]]
 	* für Tests kann man auch z.B. [[https://download.geofabrik.de/europe/germany/bremen-latest.osm.pbf]] runterladen; dann braucht man nur ca. 100 MB RAM
@@ -41,6 +42,7 @@ Diese Schritte müssen auf einem System ausgeführt werden, das genug Festplatte
 * im Tilemaker-Verzeichnis ausführen: `./build/tilemaker --input germany-latest.osm.pbf --output germany.mbtiles --merge --store ./tmp/ --config resources/config-openmaptiles.json --process resources/process-openmaptiles.lua`
     * Hinweis: die kopierte `germany.mbtiles` muss so platziert sein, dass dieser Befehl dort hinein schreibt. Tilemaker soll keine neue `germany.mbtiles` anlegen!
     * in `./tmp/` werden dann temporäre Dateien für die Konvertierung abgelegt (ca. 30 GB). Das ist nur mit einer SSD sinnvoll! Die `--store`-Option kann auch weggelassen werden, aber dann benötigt der Prozess ca. 48 GB RAM.
+    * die Konvertierung dauert in der Jenkins-VM ca. 75 Minuten bei 500 % CPU-Last.
 * die fertige `germany.mbtiles` kann jetzt auf den Tileserver nach /home/tiles/germany.mbtiles kopiert werden
 * auf dem Tileserver muss noch Tessera neugestartet werden:
 	* `su - tiles`
