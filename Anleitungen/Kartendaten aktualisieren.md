@@ -29,6 +29,10 @@ Diese Schritte müssen auf einem System ausgeführt werden, das genug Festplatte
 * Software runterladen: [[https://github.com/systemed/tilemaker/releases/download/v2.0.0/tilemaker-ubuntu-16.04.zip]] und auspacken
 * aktuelle Kartendaten für Deutschland runterladen, von [[https://download.geofabrik.de/europe/germany-latest.osm.pbf]]
 	* für Tests kann man auch z.B. [[https://download.geofabrik.de/europe/germany/bremen-latest.osm.pbf]] runterladen; dann braucht man nur ca. 100 MB RAM
+* Küstenlinien runterladen und auspacken (ohne diese Daten fehlen an manchen Stellen die Meeresküsten):
+    * `wget https://osmdata.openstreetmap.de/download/water-polygons-split-4326.zip`
+    * `unzip water-polygons-split-4326.zip`
+    * `ln -s water-polygons-split-4326 coastline`
 * [[https://archive.org/download/osm-vector-mbtiles/planet/2019-09-planet-10.mbtiles]] runterladen
 	* das werden wir als niedrig aufgelöste Karte für die Welt außerhalb Deutschlands verwenden (das sind zwar etwas alte Daten; aber da stehen eh keine Knoten, und wir sparen dadurch viel Platz).
 	* Hinweis: der Download von archive.org ist recht langsam
