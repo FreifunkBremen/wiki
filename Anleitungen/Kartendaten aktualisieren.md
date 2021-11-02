@@ -37,13 +37,15 @@ Diese Schritte müssen auf einem System ausgeführt werden, das genug Festplatte
 * [[https://archive.org/download/osm-vector-mbtiles/planet/2019-09-planet-10.mbtiles]] runterladen
 	* das werden wir als niedrig aufgelöste Karte für die Welt außerhalb Deutschlands verwenden (das sind zwar etwas alte Daten; aber da stehen eh keine Knoten, und wir sparen dadurch viel Platz).
 	* Hinweis: der Download von archive.org ist recht langsam
-* Planet-Datei kopieren: `cp 2019-09-planet-10.mbtiles germany.mbtiles`
+* Planet-Datei kopieren: `cp 2019-09-planet-10.mbtiles germany-<datum>_planet10-201909.mbtiles`
 	* wir werden die Deutschland-Daten dann in die kopierte Datei dazuschreiben
-* im Tilemaker-Verzeichnis ausführen: `./build/tilemaker --input germany-latest.osm.pbf --output germany.mbtiles --merge --store ./tmp/ --config resources/config-openmaptiles.json --process resources/process-openmaptiles.lua`
-    * Hinweis: die kopierte `germany.mbtiles` muss so platziert sein, dass dieser Befehl dort hinein schreibt. Tilemaker soll keine neue `germany.mbtiles` anlegen!
+* im Tilemaker-Verzeichnis ausführen: `./build/tilemaker --input germany-latest.osm.pbf --output germany-<datum>_planet10-201909.mbtiles --merge --store ./tmp/ --config resources/config-openmaptiles.json --process resources/process-openmaptiles.lua`
+    * Hinweis: die kopierte `germany-<datum>_planet10-201909.mbtiles` muss so platziert sein, dass dieser Befehl dort hinein schreibt. Tilemaker soll keine neue mbtiles-Datei anlegen!
     * in `./tmp/` werden dann temporäre Dateien für die Konvertierung abgelegt (ca. 30 GB). Das ist nur mit einer SSD sinnvoll! Die `--store`-Option kann auch weggelassen werden, aber dann benötigt der Prozess ca. 48 GB RAM.
     * die Konvertierung dauert in der Jenkins-VM ca. 75 Minuten bei 500 % CPU-Last.
-* die fertige `germany.mbtiles` kann jetzt auf den Tileserver nach /home/tiles/germany.mbtiles kopiert werden
+* die fertige `germany-<datum>_planet10-201909.mbtiles` kann jetzt auf den Tileserver nach `/home/tiles/` kopiert werden
 * auf dem Tileserver muss noch Tessera neugestartet werden:
 	* `su - tiles`
 	* `systemctl --user restart tessera.service`
+* wenn die Karte grob gut aussieht, kann die alte mbtiles-Datei auf dem Webserver gelöscht werden.
+* die mbtiles-Datei wird auch unter [[http://downloads.bremen.freifunk.net/maps/]] bereitgestellt (über einen Symlink); also sollte darauf geachtet werden, dass die neue Datei dort ebenfalls zu finden ist (und dass der Symlink auf die alte Datei gelöscht wird).
