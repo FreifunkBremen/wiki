@@ -533,9 +533,7 @@ Found the following certs:
 root@pi4:~#
 ~~~
 Damit ist alles ok. Falls es manuell erneut werden soll:
-~~~
-certbot renew --dry-run
-~~~
+Als Benutzer PI Anmelden, mit sudo ncp-config starten und letsencrypt erneuern.
 Wenn es mal nicht klappt, der Dienst ist stark frequentiert. Ei abgelaufenes Zertifikat ist jetzt kein Drama.
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
