@@ -425,10 +425,13 @@ Wer also mehr als nur eine Webseite auf dem Pi hosten möchte, sollte sich mit d
 
 ### Projekt Nextcloud
 Eine Nextcloud auf dem Pi zu istallieren ist eine recht einfache Sache. Damit die Nextcloud auch vernünftig funktioniert, bedarf es tiefergehenden Fachwissens. Hier gibt es Abhilfe durch ein vorkonfiguriertes System, in dem bereits alle relevanten Einstellungen vorgenommen wurden.
-Meine Empfehlung: nextcloudpi
-https://github.com/nextcloud/nextcloudpi
-https://ownyourbits.com/nextcloudpi/
-Hinweis: Ehrlich, brecht euch nicht die Finger. Verwendet das fertige NectCloudPi. Das ist Frustschonend.
+
+**Meine Empfehlung:** nextcloudpi
+
+[https://github.com/nextcloud/nextcloudpi](https://github.com/nextcloud/nextcloudpi)
+[https://ownyourbits.com/nextcloudpi/](https://ownyourbits.com/nextcloudpi/)
+
+**Hinweis:** Ehrlich, brecht euch nicht die Finger. Verwendet das fertige NectCloudPi. Das ist Frustschonend.
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
