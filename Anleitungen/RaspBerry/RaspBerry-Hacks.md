@@ -511,6 +511,31 @@ cd /etc/letsentcrypt
 ./certbot-auto
 ~~~
 
+Status checken: Da hatte mir letsencrypt eine Mail geschickt, das Zertifikat läuft aus.
+Let's Encrypt Expiry Bot <expiry@letsencrypt.org>
+Let's Encrypt certificate expiration notice for domain "nextcloudpi4.spdns.de"
+
+Per Konsole ab auf den Pi:
+~~~
+root@pi4:~# certbot certificates
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Found the following certs:
+  Certificate Name: radiobbsnextcloudpi4.spdns.de
+    Domains: radiobbsnextcloudpi4.spdns.de
+    Expiry Date: 2021-11-22 12:41:01+00:00 (**VALID:** 10 days)
+    Certificate Path: /etc/letsencrypt/live/radiobbsnextcloudpi4.spdns.de/fullchain.pem
+    Private Key Path: /etc/letsencrypt/live/radiobbsnextcloudpi4.spdns.de/privkey.pem
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+root@pi4:~#
+~~~
+Damit ist alles ok. Falls es manuell erneut werden soll:
+~~~
+certbot renew --dry-run
+~~~
+Wenn es mal nicht klappt, der Dienst ist stark frequentiert. Ei abgelaufenes Zertifikat ist jetzt kein Drama.
+
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 ### Umzug auf neuere Hardware
