@@ -512,7 +512,9 @@ cd /etc/letsentcrypt
 ~~~
 
 Status checken: Da hatte mir letsencrypt eine Mail geschickt, das Zertifikat läuft aus.
+
 Let's Encrypt Expiry Bot <expiry@letsencrypt.org>
+
 Let's Encrypt certificate expiration notice for domain "nextcloudpi4.spdns.de"
 
 Per Konsole ab auf den Pi:
