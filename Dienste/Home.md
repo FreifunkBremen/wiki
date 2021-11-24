@@ -101,6 +101,7 @@ IPv6 Routing zum Gateway vpn06
   * 2a06:8782:ffbb:1337::3 vpn03 (DNS, Gateway)
   * 2a06:8782:ffbb:1337::5 vpn05 (DNS, Gateway, anon6789/genofire)
   * 2a06:8782:ffbb:1337::6 vpn06 (DNS, Gateway)
+* 2a06:8782:ffbb:1337::11 (jw/jens,teanet.org)
 * 2a06:8782:ffbb:1337::5b bis 5f (genofire)
 * 2a06:8782:ffbb:1337::83 gatemon-charlotte.ffhb.moritzrudert.de, mortzu
 * 2a06:8782:ffbb:1337::86 gatemon-sommerwg.ffhb.moritzrudert.de, mortzu
