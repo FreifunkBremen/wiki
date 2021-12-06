@@ -48,4 +48,4 @@ Diese Schritte müssen auf einem System ausgeführt werden, das genug Festplatte
 	* `su - tiles`
 	* `systemctl --user restart tessera.service`
 * wenn die Karte grob gut aussieht, kann die alte mbtiles-Datei auf dem Webserver gelöscht werden.
-* die mbtiles-Datei wird auch unter [[http://downloads.bremen.freifunk.net/maps/]] bereitgestellt (über einen Symlink); also sollte darauf geachtet werden, dass die neue Datei dort ebenfalls zu finden ist (und dass der Symlink auf die alte Datei gelöscht wird).
+* die mbtiles-Datei wird auch unter [[https://downloads.bremen.freifunk.net/maps/]] bereitgestellt (über einen Symlink); also sollte darauf geachtet werden, dass die neue Datei dort ebenfalls zu finden ist (und dass der Symlink auf die alte Datei gelöscht wird).
