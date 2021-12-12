@@ -575,16 +575,21 @@ Betriebssystem | Standard User | Standard Passwort | Beschreibung
 Raspberry Pi OS (ehemals Raspbian)   | pi   | raspberry   | Standard Betriebssystem, auf dem viele andere OS basieren. Gibt es in zwei Versionen (normal und Lite).
 -------- | -------- | -------- | --------
 NOOBS   | pi   | raspberry   | Enthält besonders für Einsteiger und Schüler viele nützliche Zusatzprogramme.
-Inhalt   | Inhalt   | Inhalt   | Inhalt
-Inhalt   | Inhalt   | Inhalt   | Inhalt
-Inhalt   | Inhalt   | Inhalt   | Inhalt
+-------- | -------- | -------- | --------
+OpenHAB   | openhabian   | openhabian   | Beliebtes OS zum Bauen eines Smart Homes. Ausführliche Beschreibung und Anleitung gibt es hier.
+-------- | -------- | -------- | --------
+Snappy Ubuntu Core   | -   | (SSH Key benötigt)   | 
+-------- | -------- | -------- | --------
+Windows 10 IoT   | -   | nicht benötigt   | 	IoT Version von Windows 10. I
+-------- | -------- | -------- | --------
+OSMC   | osmc   | osmc   | Open Source Media Center – läuft auf verschiedenen Plattformen, u.a. auf dem Raspberry Pi.
+-------- | -------- | -------- | --------
+OPENELEC   | pi   | raspberry   | Inhalt
+-------- | -------- | -------- | --------
+KODI   | pi   | raspberry   | Auf dem Raspberry Pi OS basierendes Mediencenter – kann Musik, Filme, uvm. wiedergeben.
+-------- | -------- | -------- | --------
+Ubuntu   | ubuntu   | ubuntu   | Ubuntu Version für ARM Prozessoren. Für Ubuntu Mate gibt es keine Standard-Login-Daten (werden beim Setup vergeben).
+-------- | -------- | -------- | --------
+		
 
-	
-			
-OpenHAB	openhabian	openhabian	Beliebtes OS zum Bauen eines Smart Homes. Ausführliche Beschreibung und Anleitung gibt es hier.
-Snappy Ubuntu Core	–	(SSH Key benötigt)	
-Windows 10 IoT		nicht benötigt	IoT Version von Windows 10. Installationshinweise gibt es hier.
-OSMC	osmc	osmc	Open Source Media Center – läuft auf verschiedenen Plattformen, u.a. auf dem Raspberry Pi.
-OPENELEC	pi	raspberry	
-KODI	pi	raspberry	Auf dem Raspberry Pi OS basierendes Mediencenter – kann Musik, Filme, uvm. wiedergeben.
-Ubuntu	ubuntu	ubuntu	Ubuntu Version für ARM Prozessoren. Für Ubuntu Mate gibt es keine Standard-Login-Daten (werden beim Setup vergeben).
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
