@@ -40,6 +40,22 @@ Wenn die SD Karte gerade noch im Lesegerät steckt, gleich die Einstellugen für
 
 Natürlich können die Grudeinstellungen auch in der Image-Datei vorgenommen werden. Unter Windows evtl. mit dem Tool https://www.winimage.com/ das Image Bearbeiten.
 
+
+Noch ein Update: Wenn ich meine Pi's immer in bekannter Umgebung Installiere, kann anstatt der config.txt cmdline.txt und
+wpa_supplicant.conf mit Inhalt auf die Karte zu kopieren
+~~~
+country=DE 
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev 
+update_config=1 
+network={
+     ssid="Meine SSID"
+     scan_ssid=1
+     psk="Mein-WLAN-Passwort"
+     key_mgmt=WPA-PSK
+}
+~~~
+alternativ auch den neuen Raspberry Pi Imager verwenden. Das Tool zum Beschreiben von SD/Micro-SD Karten kann nicht nur das aktuelle Image automatisch Laden, sondern kann in einem versteckten Menü Strg+Shift+x fast alle Konfigparameter speichern und übertragen.
+
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 ### Virenscanner ClamAV installieren 
