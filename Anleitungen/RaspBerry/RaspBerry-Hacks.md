@@ -609,3 +609,15 @@ Ubuntu   | ubuntu   | ubuntu   | Ubuntu Version für ARM Prozessoren. Für Ubunt
 		
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
+### Raspberry-stable-to-oldstable
+
+Wenn warum auch immer, die Updatelisten nicht mehr geladen werden, Meldunf change from stable-to-oldstable,
+dann hilft: 
+~~~
+sudo apt update -y
+~~~
+danach sollte wieder alles geladen werden.
+
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
