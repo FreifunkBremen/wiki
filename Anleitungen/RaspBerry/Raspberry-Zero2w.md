@@ -37,8 +37,9 @@ over_voltage_sdram=3
 over_voltage=5
 ~~~
 
-# Ctrl+X, Y, Enter to save the session
-# Reboot to run at the new clock frequency
+Ctrl+X, Y, Enter to save the session
+
+Reboot to run at the new clock frequency
 
 ~~~
 $ sudo reboot
