@@ -92,3 +92,22 @@ hdmi_force_cec_address:1=65535
 hdmi_pixel_freq_limit:0=0x9a7ec80
 ~~~
 pi@ZERO-2:~ $
+
+
+### Swap
+Auslagerungsdatei vergrößern. Aber nur wenn es notwendig ist.
+Die Standardauslagerungsgröße beträgt 100 MB. Das ist nicht genug, um die Webbrowser zufrieden zu stellen. Wir werden sie auf 2 GB erhöhen.
+1.) Schalte den Swap vorübergehend aus:
+    sudo dphys-swapfile swapoff
+2.) Bearbeite nun /etc/dphys-swapfile
+    sudo nano /etc/dphys-swapfile
+    suche nach CONF_SWAPSIZE=100 neuer Wert
+    CONF_SWAPSIZE=2048
+3.) Speichern und beenden (Strg + O, Enter, Strg + X) oder (Strg + X), Y, Enter
+4.) Wieder Einschalten
+Initialisieren Sie nundie Auslagerungsdatei:
+    sudo dphys-swapfile setup
+    sudo dphys-swapfile swapon
+
+Ein Neustart ist nicht erforderlich. Jetzt sollte Chromium mit mehreren Tabs besser funktionieren.
+
