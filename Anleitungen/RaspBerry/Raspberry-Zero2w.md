@@ -104,7 +104,7 @@ Die Standardauslagerungsgröße beträgt 100 MB. Das ist nicht genug, um die Web
 2.) Bearbeite nun /etc/dphys-swapfile
     sudo nano /etc/dphys-swapfile
     suche nach CONF_SWAPSIZE=100 neuer Wert
-    CONF_SWAPSIZE=2048
+    CONF_SWAPSIZE=2048 in Zeile 16 von 26
 
 3.) Speichern und beenden (Strg + O, Enter, Strg + X) oder (Strg + X), Y, Enter
 
