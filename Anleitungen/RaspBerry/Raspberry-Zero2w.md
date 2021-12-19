@@ -19,7 +19,7 @@ VLC muss deinstalliert werden, da es die Upgrades behindert. Firefox und Chrome 
 * Mirco Schalter an der SD Karte wackelt manchmal. 
 * 
 
-### Ocerclocking
+### Overclocking
 
 Übertakten geht gut, mach mehr Bumms, ist ja der gleiche Chip wie beim 3B+
 ~~~
