@@ -15,9 +15,10 @@ VLC muss deinstalliert werden, da es die Upgrades behindert. Firefox und Chrome 
 
 ### Probleme
 
+* 512Mb Begrenzung zerlegt gafische Anwendungen, Chrome, Firefox, Youtube ...
 * Bisher funktionieren nur max. 32Gb SD Karten.
 * Mirco Schalter an der SD Karte wackelt manchmal. 
-* 
+* Showstopper: Buster 64Bit. Faktor 10 langsamer, läuft nicht gut.
 
 ### Overclocking
 
