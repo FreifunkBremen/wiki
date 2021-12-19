@@ -18,3 +18,29 @@ VLC muss deinstalliert werden, da es die Upgrades behindert. Firefox und Chrome 
 * Bisher funktionieren nur max. 32Gb SD Karten.
 * Mirco Schalter an der SD Karte wackelt manchmal. 
 * 
+
+Ocerclocking
+Übertakten geht gut, mach mehr Bumms, ist ja der gleiche Chip wie beim 3B+
+~~~
+sudo nano /boot/config.txt
+~~~
+
+~~~
+# Add your lines at the end of the config.txt file.
+# this is an example.
+arm_freq=1300
+gpu_freq=500
+sdram_freq=500
+over_voltage_sdram=3
+# over_voltage is done by the governor.
+# set the parameter to overrule its moderate choice.
+over_voltage=5
+~~~
+
+# Ctrl+X, Y, Enter to save the session
+# Reboot to run at the new clock frequency
+
+~~~
+$ sudo reboot
+~~~
+
