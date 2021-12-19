@@ -1,6 +1,6 @@
 Es gibt wieder ein neues Spielzeug aus der der Raspberry Reihe, den Zero 2W.
 
-[[TOC]]
+[[_TOC_]]
 
 ### Was ist neu?
 
@@ -14,5 +14,7 @@ VLC muss deinstalliert werden, da es die Upgrades behindert. Firefox und Chrome 
 64 Bit lohnt hier noch nicht.
 
 ### Probleme
-Bisher funktionieren nur max. 32Gb SD Karten.
-Mirco Schalter an der SD Karte wackelt manchmal. 
+
+* Bisher funktionieren nur max. 32Gb SD Karten.
+* Mirco Schalter an der SD Karte wackelt manchmal. 
+* 
