@@ -19,6 +19,7 @@ VLC muss deinstalliert werden, da es die Upgrades behindert. Firefox und Chrome 
 * Bisher funktionieren nur max. 32Gb SD Karten.
 * Mirco Schalter an der SD Karte wackelt manchmal. 
 * Showstopper: Buster 64Bit. Faktor 10 langsamer, läuft nicht gut.
+* Bootpartition zu klein und zu 96%belegt. Die SD Karte muss angepasst werden.
 
 ### Overclocking
 
