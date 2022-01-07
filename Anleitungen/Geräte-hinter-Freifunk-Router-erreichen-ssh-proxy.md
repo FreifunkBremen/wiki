@@ -38,3 +38,8 @@ Ggf. mit Login-Daten.
 ```
 http://192.168.1.15
 ```
+
+---
+## Tipp: Freifunk-Gerät dahinter ist nicht erreichbar
+Falls dahinter ein Gerät mit Freifunk-Software ist, das nicht wie erwartet reagiert, kann es sein, dass es im "Setup-Modus" ist.
+Dann kann es mit http://192.168.1.1 aufgerufen werden und der Setup-Modus beendet werden.
