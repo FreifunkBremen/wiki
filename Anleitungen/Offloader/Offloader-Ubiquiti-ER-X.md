@@ -91,7 +91,7 @@ Keine Panik, es gibt die serielle Schnittstelle im Router, also Aufschrauben bit
 
 [Bild: UBNT-ERX-SFP_Rückseite_öffnen]<img src="https://cloud.ffhb.de/index.php/s/ZNKZEcCKTsXNMyn/preview" width="800">
 
-- Seriellen Adapter Anschliessen. Ich verwende hier ein Raspberry-PI Seriell-USB Kabel. z.B. dieses: https://www.conrad.de/de/raspberry-pi-usb-kabel-usb-rb-ttl-raspberry-pi-409202.html andere TTL Adapter funktionieren aber auch.
+- Seriellen Adapter anschliessen. Ich verwende hier ein Raspberry-PI Seriell-USB Kabel. z.B. dieses: https://www.conrad.de/de/raspberry-pi-usb-kabel-usb-rb-ttl-raspberry-pi-409202.html andere TTL Adapter (z.B. Raspi [TTL-USB](https://www.reichelt.de/raspberry-pi-usb-zu-ttl-0-9-m-pl2303hx-rpi-usb-ttl-p150567.html?&trstct=pos_1&nbc=1) von Reichelt) funktionieren aber auch.
 
 [Bild: UBNT-ERX-SFP_Serielle_Pins]<img src="https://cloud.ffhb.de/index.php/s/aXX6bstTTfMm4AX/preview" width="800">
 
