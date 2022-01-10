@@ -28,30 +28,30 @@ EdgeRouter X | EdgeRouter X-SFP
 - Zu erwartender Softbrick mit **Gluon 2020.1.x**, Bitte aktuellen Stand erfragen. https://github.com/freifunk-gluon/gluon/issues/1937
 - Mehr Durchsatz? dann einen Thinclient Futro S550 / S900 als Offloader verwenden.
 - DAS SFP Modul funktioniert unter Gluon nicht.
-- KEIN POE+ 44-57 Volt
+- KEIN POE+ 44-57 Volt (nur POE 24V)
 - 
 ### Diverse nützliche Links:
 
-- **Wichtig:** https://wiki.bremen.freifunk.net/Anleitungen/Offloader/2020-Update-Offloader-Ubiquiti-ER-X
-- https://www.ubnt.com/edgemax/edgerouter-x/
-- https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_X_DS.pdf
-- https://www.ubnt.com/edgemax/comparison/ (Vergleich der Modelle)
-- https://www.heise.de/preisvergleich/ubiquiti-edgerouter-er-x-a1271798.html
-- https://wiki.funkfeuer.at/wiki/Hardware/EdgeRouter_X
-- https://wiki.funkfeuer.at/wiki/Hardware/EdgeRouter_X-SFP
+- **Wichtig:** [https://wiki.bremen.freifunk.net/Anleitungen/Offloader/2020-Update-Offloader-Ubiquiti-ER-X](https://wiki.bremen.freifunk.net/Anleitungen/Offloader/2020-Update-Offloader-Ubiquiti-ER-X)
+- [https://www.ubnt.com/edgemax/edgerouter-x/](https://www.ubnt.com/edgemax/edgerouter-x/)
+- [https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_X_DS.pdf](https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_X_DS.pdf)
+- [https://www.ubnt.com/edgemax/comparison/](https://www.ubnt.com/edgemax/comparison/) (Vergleich der Modelle)
+- [https://www.heise.de/preisvergleich/ubiquiti-edgerouter-er-x-a1271798.html](https://www.heise.de/preisvergleich/ubiquiti-edgerouter-er-x-a1271798.html)
+- [https://wiki.funkfeuer.at/wiki/Hardware/EdgeRouter_X](https://wiki.funkfeuer.at/wiki/Hardware/EdgeRouter_X)
+- [https://wiki.funkfeuer.at/wiki/Hardware/EdgeRouter_X-SFP](https://wiki.funkfeuer.at/wiki/Hardware/EdgeRouter_X-SFP)
 
 ### Links zu Anleitungen:
-- https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image (Empfehlenswert)
-- https://www.freifunk-winterberg.net/die-nutzung-von-ubiquiti-edgerouter-x-als-freifunk-offloader/
-- https://wiki.openwrt.org/toh/ubiquiti/ubiquiti_edgerouter_x_er-x_ka
-- https://community.ubnt.com/t5/EdgeMAX-Updates-Blog/EdgeMAX-EdgeRouter-X-X-SFP-bootloader-update/ba-p/1472216
+- [https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image) (Empfehlenswert)
+- [https://www.freifunk-winterberg.net/die-nutzung-von-ubiquiti-edgerouter-x-als-freifunk-offloader/](https://www.freifunk-winterberg.net/die-nutzung-von-ubiquiti-edgerouter-x-als-freifunk-offloader/)
+- [https://wiki.openwrt.org/toh/ubiquiti/ubiquiti_edgerouter_x_er-x_ka](https://wiki.openwrt.org/toh/ubiquiti/ubiquiti_edgerouter_x_er-x_ka)
+- [https://community.ubnt.com/t5/EdgeMAX-Updates-Blog/EdgeMAX-EdgeRouter-X-X-SFP-bootloader-update/ba-p/1472216](https://community.ubnt.com/t5/EdgeMAX-Updates-Blog/EdgeMAX-EdgeRouter-X-X-SFP-bootloader-update/ba-p/1472216)
 
 ### Links zu Firmware:
-- https://downloads.openwrt.org/snapshots/trunk/ramips/mt7621/openwrt-ramips-mt7621-ubnt-erx-squashfs-sysupgrade.tar
-- https://dl.ubnt.com/firmwares/edgemax/v1.10.x/ER-e50.v1.10.6.5112725.tar
-- https://dl.ubnt.com/firmwares/edgemax/v1.10.x/ER-e50.v1.10.7.5127989.tar
-- https://downloads.bremen.freifunk.net/firmware/stable/sysupgrade/gluon-ffhb-2017.1.8+bremen1-ubnt-erx-sysupgrade.tar
-- https://downloads.bremen.freifunk.net/firmware/all/2017.1.8+bremen1/sysupgrade/gluon-ffhb-2017.1.8+bremen1-ubnt-erx-sfp-sysupgrade.tar
+- [https://downloads.openwrt.org/snapshots/trunk/ramips/mt7621/openwrt-ramips-mt7621-ubnt-erx-squashfs-sysupgrade.tar](https://downloads.openwrt.org/snapshots/trunk/ramips/mt7621/openwrt-ramips-mt7621-ubnt-erx-squashfs-sysupgrade.tar)
+- [https://dl.ubnt.com/firmwares/edgemax/v1.10.x/ER-e50.v1.10.6.5112725.tar](https://dl.ubnt.com/firmwares/edgemax/v1.10.x/ER-e50.v1.10.6.5112725.tar)
+- [https://dl.ubnt.com/firmwares/edgemax/v1.10.x/ER-e50.v1.10.7.5127989.tar](https://dl.ubnt.com/firmwares/edgemax/v1.10.x/ER-e50.v1.10.7.5127989.tar)
+- [https://downloads.bremen.freifunk.net/firmware/stable/sysupgrade/gluon-ffhb-2017.1.8+bremen1-ubnt-erx-sysupgrade.tar](https://downloads.bremen.freifunk.net/firmware/stable/sysupgrade/gluon-ffhb-2017.1.8+bremen1-ubnt-erx-sysupgrade.tar)
+- [https://downloads.bremen.freifunk.net/firmware/all/2017.1.8+bremen1/sysupgrade/gluon-ffhb-2017.1.8+bremen1-ubnt-erx-sfp-sysupgrade.tar](https://downloads.bremen.freifunk.net/firmware/all/2017.1.8+bremen1/sysupgrade/gluon-ffhb-2017.1.8+bremen1-ubnt-erx-sfp-sysupgrade.tar)
 
 Frohes Freifunken.
 
