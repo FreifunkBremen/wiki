@@ -103,7 +103,11 @@ Keine Panik, es gibt die serielle Schnittstelle im Router, also Aufschrauben bit
 <img src="https://cloud.ffhb.de/index.php/s/WzFybT2jkNFkND5/preview" width="800">
 
 
-Wer den Bootvorgang aufzeichnen möchte, verbindet den USB Adapter vor Inbetriebnahme mit dem PC und startet ein Terminal Programm. Unter Windows z.B. TerTerm und LOG einschalten. Der serielle Adapter hat sich bei mir unter COM 8 installiert. (Das Windows Terminal kann original nur bis COM 4). Geschwindigkeit: 57600 / 8 / N / 1 einstellen. Router Einschalten.
+Wer den Bootvorgang aufzeichnen möchte, verbindet den USB Adapter vor Inbetriebnahme mit dem PC und startet ein Terminal Programm. Unter Windows z.B. TeraTerm und LOG einschalten. 
+
+Der serielle Adapter hat sich bei mir unter COM 8 installiert. (Das Windows Terminal kann original nur bis COM 4). 
+
+Geschwindigkeit: 57600 / 8 / N / 1 einstellen. Router Einschalten.
 
 Wenn am Ende des Bootvorgangs ungefähr folgende Ausgabe übrig bleibt, dann ist der Router am Leben und alle Einstellungen können über die Konsole geändert werden.
 
