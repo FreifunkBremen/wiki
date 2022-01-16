@@ -40,10 +40,10 @@ Zuerst gilt es die Version und das Modell des Routers herauszufinden. Anschließ
 Nun gilt es die drei Kontakte der seriellen Schnittstelle ausfindig zu machen. Mit der Suchmaschine deiner Wahl und den Begriffen "PCB Layout + $Routermodell" "ttl pins  + $Routermodell" o.ä. sind diese leicht zu finden. Einige uns schon bekannte Pole befinden sich hier:
 
 Platine des 741v2:
-<img src="https://jel.to/ff_pics/741v2-1.jpg" title="PCB 741v2" />
+<img src="https://cloud.ffhb.de/index.php/s/o3qdrref6SGfzfx/preview" title="PCB 741v2" />
 
 Platine des 841v7:
-<img src="https://jel.to/ff_pics/841ndv7.2.jpg" title="PCV 841v7" />
+<img src="https://cloud.ffhb.de/index.php/s/Z3obHnaczb8Tqk4/preview" title="PCV 841v7" />
 
 ...mehr folgen
 
@@ -59,7 +59,7 @@ Dabei erfolgt das Verbinden wie folgt:
 Die Pegel des Router laufen nur bei 3.3V, es muss also gewandelt werden. Am einfachsten geht das mit einem Spannungsteiler am RX-Pin des Routers.
 Schaltung wie folgt:
 
-<img src="https://jel.to/ff_pics/spannungsteiler.jpg" title="Spannungsteiler" />
+<img src="https://cloud.ffhb.de/index.php/s/MAYyCrq2oHN2gCk/preview" title="Spannungsteiler" />
 
 ### Auf dem Computer
 Ist der Wandler richtig am Router angeschlossen muss der Adapter auch in den Computer eingesteckt werden. Mit einem Terminal-Programm öffnen wir die Schnittstelle:
