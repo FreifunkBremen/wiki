@@ -24,10 +24,11 @@ Angaben|Beschreibung
   Beispiel: `### Findorff` (`###`
  wichtig)
 - Am Ende der weißen Schrift dieses Abschnittes, fügt man eine neue Zeile hinzu
-- Dort trägt man seine Daten nach folgendem Schema ein:  
+- Dort trägt man seine Daten nach folgendem Schema ein:
+   ```
+    STANDORT | KONTAKT | GERÄTE | KOSTEN
   ```
-  STANDORT | KONTAKT | GERÄTE | KOSTEN
-  ```
+  
 - Speichern! Ganz oben auf das Diskettensymbol klicken
 
 
@@ -39,25 +40,35 @@ Wer seine Router selbst flashen möchte, erhält diese häufig zum Selbstkostenp
 ## Abnehmen
 
 ### Horn-Lehe
+
 Standort      | Kontakt                   | Geräte                     | Kosten    | Kommentar
 ---           | ---                       | ---                        | ---       | ---
 TietjenStraße | Tietjenstrasse@e.mail.de  | WR841N and moor | 20 €      | 
 
 ### Neustadt
+
 Standort                    | Kontakt                             | Geräte            | Kosten  | Kommentar
 ---                         | ---                                 | ---               | ---     | ---
 hhs-1 | [Mailingliste] oder [Chat] | TP-LINK TL-WR841N | 20 €    | Sonntags von 14:00 bis 16:00 oder nach Absprache
 
 ### Peterswerder
-Standort     | Kontakt                           | Geräte            | Kosten
----          | ---                               | ---               | ---
-asm_100_EG | auf [Mailingliste] oder im [Chat] | TP-LINK TL-WR841N | 20 €
-| | |	TP-Link TL-WDR3600 v1 | 35 €
+
+Standort     | Kontakt                           | Geräte            | Kosten    | Kommentar
+---          | ---                               | ---               | ---       | ---
+asm_100_EG | auf [Mailingliste] oder im [Chat] | TP-LINK TL-WR841N | 20 € | 
+| |	TP-Link TL-WDR3600 v1 | 35 € | 
+
+### Sebaldsbrück
+
+Standort      | Kontakt                   | Geräte                     | Kosten    | Kommentar
+---           | ---                       | ---                        | ---       | ---
+Semmelweisstraße | freifunk@dennisschuerholz.de oder via [Signal](https://signal.group/#CjQKIEggwEzNXcuVHZemVklS2-Ou10d04qOXSokml98u7xcQEhDqV6ZTG0CTvagQVXa9R4Ep)  | WR940N, WA901ND, AC1750 (Archer C7) v2  | 20 € - 50 €      | 
 
 ### Viertel
-Standort                                    | Kontakt                     | Geräte                        | Kosten
----                                         | ---                         | ---                           | ---
-Auf den Häfen| khaldoun@my.mail.de | WR841N (v9), WDR3600,4300  | 20-50€
+
+Standort                                    | Kontakt                     | Geräte                        | Kosten    | Kommentar
+---                                         | ---                         | ---                           | ---       | ---
+Auf den Häfen| khaldoun@my.mail.de | WR841N (v9), WDR3600,4300  | 20-50€ | 
 
 
 
