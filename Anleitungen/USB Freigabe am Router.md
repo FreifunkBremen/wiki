@@ -163,10 +163,13 @@ Die Datei `USB_DISK_NOT_PRESENT` mit 0 Bytes sehe ich nur, wenn kein Stick geste
 Tricky & Durty, funktioniert aber ;.)
 
 Per SSH auf dem Router Anmelden.
+
 cd /lib/gluon/status-page/www/ 
+
 ln -s /mnt/usb usb    /mnt/usb ist der Ort der Freigabe, der zweite Parameter (hier usb) soll der künftige Name sein.
 
 Zugriff über: http://[2a06:8782:ffbb:1337:c6e9:84ff:fed5:138e]/shared/
+
 Also HTTP://   [ipv6 des Routers] /Name-der-Freigabe
 
 Alles klar?
