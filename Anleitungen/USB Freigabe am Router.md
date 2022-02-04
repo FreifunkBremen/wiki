@@ -273,3 +273,37 @@ config rule 'samba_smb'
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
+### 4.) FTP-Server aufsetzen, damit Leute was hochladen können
+
+* per SSH auf dem Knoten einloggen
+* `opkg update`
+* `opkg install vsftpd`
+* Passwort für ftp-Benutzer setzen: `passwd ftp`
+* Home-Verzeichnis für ftp-Benutzer auf den USB-Stick setzen: `vi /etc/passwd` und dann ìn der `ftp`-Zeile das `/home/ftp` durch `/mnt/usb` ersetzen (oder den Ordner, der per FTP erreichbar sein soll)
+    * dieser Ordner muss existieren und muss für den ftp-Benutzer lesbar und schreibbar sein. Der Ordner darf aber nicht für _alle_ Benutzer schreibbar sein!
+* mit `vi /etc/vsftpd.conf` die Config-Datei bearbeiten:
+    * `listen=YES` auf `listen=NO` ändern
+    * `listen_ipv6=YES` hinzufügen
+    * `chroot_local_user=YES` hinzufügen
+    * `local_root=/mnt/usb` hinzufügen (oder wo auch immer der USB-Stick gemountet ist)
+    * `userlist_enable=YES` hinzufügen
+    * `userlist_deny=NO` hinzufügen
+    * `userlist_file=/etc/vsftpd/vsftpd.users` hinzufügen
+* Liste der erlaubten FTP-Nutzer anlegen: `echo ftp > /etc/vsftpd/vsftpd.users`
+* Config-Änderungen anwenden: `/etc/init.d/vsftpd restart`
+
+#### Firewall-Regel für FTP hinzufügen
+* mit `vi /etc/config/firewall` die Firewall-Config bearbeiten und ganz unten diese Zeilen einfügen:
+```
+config rule 'public_ftp'           
+        option dest_port '21'               
+        option src 'mesh'                   
+        option target 'ACCEPT'                 
+        option proto 'tcp'                   
+        option name 'public_ftp'                
+```
+* Änderungen der Firewall-Config anwenden: `/etc/init.d/firewall restart`
+
+Jetzt sollte der FTP-Server unter der IP des Knotens erreichbar sein. Man kann sich dann als Benutzer "ftp" einloggen, mit dem Passwort, das am Anfang (bei `passwd ftp`) gesetzt wurde.
+
+Die Firewall-Regeln sind sehr einfach gehalten. Manche FTP-Programme kommen damit nicht klar; dann kann man evtl. noch die Firewall-Regeln so erweitern, wie das unter https://forum.openwrt.org/t/configuring-firewall-for-cross-zone-ftp-connections/84567 beschrieben wird.
