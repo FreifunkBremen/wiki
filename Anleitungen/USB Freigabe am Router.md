@@ -158,7 +158,18 @@ Die Datei `USB_DISK_NOT_PRESENT` mit 0 Bytes sehe ich nur, wenn kein Stick geste
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
-### 2.) Samba konfigurieren
+### 2.) Symbol Link auf Statusseite setzten.
+
+Tricky & Durty, funktionier aber ;.)
+
+Per SSH auf dem Router Anmelden.
+cd /lib/gluon/status-page/www/ 
+
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
+
+### 3.) Samba konfigurieren (kann man machen)
 Samba fällt in die Kategorie NAS und sorgt dafür, das eine Laufwerksfreigabe erzeugt wird.
 Auch hier wieder der Hinweis auf die Originalinstallationsanleitung bei OpenWRT.
 
@@ -201,7 +212,7 @@ Konfigdatei:  /etc/config/samba
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
-### 3.) Firewall öffnen
+### 4.) Firewall öffnen
 Hier ein paar Vorschläge, um Löcher in die Firewall zu bekommen. Die Konfiguration bitte in `firewall.user` vornehmen, damit die Konfig updatesicher ist. 
 
 ~~~
