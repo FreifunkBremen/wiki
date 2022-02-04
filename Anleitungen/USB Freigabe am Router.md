@@ -1,7 +1,7 @@
 ### Wie kann ein USB Stick am Router als Laufwerk verwendet werden?
 Erstellt am: 08.08.2021 Thema noch nicht abgeschlossen, Einrichtung ok, Zugriff funktionirt novh nicht.
 
-Nun, das ist ganz einfach, folgende 3 Schritte sind notwendig.
+Nun, das ist ganz einfach, folgende 2 Schritte sind notwendig.
 ## Inhalt
 [[_TOC_]]
 
@@ -174,7 +174,7 @@ Löschen der Freigabe: `rm /lib/gluon/status-page/www/shared` (das letzte /share
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 
-### 3.) Samba konfigurieren (kann man machen)
+### 3.) Alternativ: Samba konfigurieren (kann man machen)
 Samba fällt in die Kategorie NAS und sorgt dafür, das eine Laufwerksfreigabe erzeugt wird.
 Auch hier wieder der Hinweis auf die Originalinstallationsanleitung bei OpenWRT.
 
@@ -273,19 +273,18 @@ config rule 'samba_smb'
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
-### 4.) FTP-Server aufsetzen, damit Leute was hochladen können
+### 4.) Alternativ: FTP-Server konfigurieren (damit Leute was hochladen können)
 
 * per SSH auf dem Knoten einloggen
 * `opkg update`
 * `opkg install vsftpd`
 * Passwort für ftp-Benutzer setzen: `passwd ftp`
-* Home-Verzeichnis für ftp-Benutzer auf den USB-Stick setzen: `vi /etc/passwd` und dann ìn der `ftp`-Zeile das `/home/ftp` durch `/mnt/usb` ersetzen (oder den Ordner, der per FTP erreichbar sein soll)
+* Home-Verzeichnis für ftp-Benutzer auf den USB-Stick setzen: `vi /etc/passwd` und dann in der `ftp`-Zeile das `/home/ftp` durch `/mnt/usb` ersetzen (oder den Ordner, der per FTP erreichbar sein soll)
     * dieser Ordner muss existieren und muss für den ftp-Benutzer lesbar und schreibbar sein. Der Ordner darf aber nicht für _alle_ Benutzer schreibbar sein!
 * mit `vi /etc/vsftpd.conf` die Config-Datei bearbeiten:
     * `listen=YES` auf `listen=NO` ändern
     * `listen_ipv6=YES` hinzufügen
     * `chroot_local_user=YES` hinzufügen
-    * `local_root=/mnt/usb` hinzufügen (oder wo auch immer der USB-Stick gemountet ist)
     * `userlist_enable=YES` hinzufügen
     * `userlist_deny=NO` hinzufügen
     * `userlist_file=/etc/vsftpd/vsftpd.users` hinzufügen
@@ -306,4 +305,12 @@ config rule 'public_ftp'
 
 Jetzt sollte der FTP-Server unter der IP des Knotens erreichbar sein. Man kann sich dann als Benutzer "ftp" einloggen, mit dem Passwort, das am Anfang (bei `passwd ftp`) gesetzt wurde.
 
-Die Firewall-Regeln sind sehr einfach gehalten. Manche FTP-Programme kommen damit nicht klar; dann kann man evtl. noch die Firewall-Regeln so erweitern, wie das unter https://forum.openwrt.org/t/configuring-firewall-for-cross-zone-ftp-connections/84567 beschrieben wird.
+Die Firewall-Regeln sind sehr einfach gehalten. Manche FTP-Programme kommen damit nicht klar; dann kann man evtl. noch die Firewall-Regeln so erweitern, wie das unter [[https://forum.openwrt.org/t/configuring-firewall-for-cross-zone-ftp-connections/84567]] beschrieben wird.
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
+### 5.) Alternativ: WebDAV-Server konfigurieren (damit Leute was hochladen können)
+
+Ist unter [[https://gist.github.com/stokito/5db2aa2cc184717d45600889d8115100]] beschrieben. Hab ich aber nicht ausprobiert :-)
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
