@@ -158,23 +158,18 @@ Die Datei `USB_DISK_NOT_PRESENT` mit 0 Bytes sehe ich nur, wenn kein Stick geste
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
-### 2.) Symbol Link auf Statusseite setzten.
+### 2.) Symbolischen Link für den Webserver setzten.
 
-Tricky & Durty, funktioniert aber ;.)
+Tricky & Dirty, funktioniert aber ;.)
 
-Per SSH auf dem Router Anmelden.
+* Per SSH auf dem Router anmelden.
+* `cd /lib/gluon/status-page/www/`
+* `ln -s /mnt/usb shared`
+    * /mnt/usb ist der Ort der Freigabe, der zweite Parameter (hier shared) soll der künftige Name sein.
+* Zugriff dann über: http://[2a06:8782:ffbb:1337:c6e9:84ff:fed5:138e]/shared/
+    * Also HTTP://   [ipv6 des Routers] /Name-der-Freigabe
 
-cd /lib/gluon/status-page/www/ 
-
-ln -s /mnt/usb usb    /mnt/usb ist der Ort der Freigabe, der zweite Parameter (hier usb) soll der künftige Name sein.
-
-Zugriff über: http://[2a06:8782:ffbb:1337:c6e9:84ff:fed5:138e]/shared/
-
-Also HTTP://   [ipv6 des Routers] /Name-der-Freigabe
-
-Alles klar?
-
-Löschen der Freigabe: rm /lib/gluon/status-page/www/usb  das letzte /usb ist der Freigabename, den ihr gewählt habt.
+Löschen der Freigabe: `rm /lib/gluon/status-page/www/shared` (das letzte /shared ist der Freigabename, den ihr gewählt habt).
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
@@ -222,7 +217,7 @@ Konfigdatei:  /etc/config/samba
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
-### 4.) Firewall öffnen
+#### 3.1.) Firewall für Samba öffnen
 Hier ein paar Vorschläge, um Löcher in die Firewall zu bekommen. Die Konfiguration bitte in `firewall.user` vornehmen, damit die Konfig updatesicher ist. 
 
 ~~~
