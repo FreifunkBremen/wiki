@@ -171,6 +171,8 @@ Also HTTP://   [ipv6 des Routers] /Name-der-Freigabe
 
 Alles klar?
 
+Löschen der Freigabe: rm /lib/gluon/status-page/www/usb  das letzte /usb ist der Freigabename, den ihr gewählt habt.
+
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 
