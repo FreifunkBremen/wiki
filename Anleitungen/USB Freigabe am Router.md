@@ -279,8 +279,13 @@ config rule 'samba_smb'
 * `opkg update`
 * `opkg install vsftpd`
 * Passwort für ftp-Benutzer setzen: `passwd ftp`
-* Home-Verzeichnis für ftp-Benutzer auf den USB-Stick setzen: `vi /etc/passwd` und dann in der `ftp`-Zeile das `/home/ftp` durch `/mnt/usb` ersetzen (oder den Ordner, der per FTP erreichbar sein soll)
-    * dieser Ordner muss existieren und muss für den ftp-Benutzer lesbar und schreibbar sein. Der Ordner darf aber nicht für _alle_ Benutzer schreibbar sein!
+* Home-Verzeichnis für ftp-Benutzer auf den USB-Stick setzen:
+    * Benutzer-Config mit`vi /etc/passwd` bearbeiten
+    * dann in der `ftp`-Zeile das `/home/ftp` durch `/mnt/usb` ersetzen (oder den Ordner, der per FTP erreichbar sein soll)
+    * dieser Ordner muss existieren und muss für den ftp-Benutzer lesbar sein. Der Ordner darf aber nicht schreibbar sein!
+    * deshalb am besten in diesem Ordner noch einen weiteren Ordner anlegen, der dann für den ftp-Benutzer schreibbar ist:
+        * `mkdir /mnt/usb/upload`
+        * `chown ftp:ftp /mnt/usb/upload`
 * mit `vi /etc/vsftpd.conf` die Config-Datei bearbeiten:
     * `listen=YES` auf `listen=NO` ändern
     * `listen_ipv6=YES` hinzufügen
@@ -308,6 +313,7 @@ Jetzt sollte der FTP-Server unter der IP des Knotens erreichbar sein. Man kann s
 Die Firewall-Regeln sind sehr einfach gehalten. Manche FTP-Programme kommen damit nicht klar; dann kann man evtl. noch die Firewall-Regeln so erweitern, wie das unter [[https://forum.openwrt.org/t/configuring-firewall-for-cross-zone-ftp-connections/84567]] beschrieben wird.
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
 
 ### 5.) Alternativ: WebDAV-Server konfigurieren (damit Leute was hochladen können)
 
