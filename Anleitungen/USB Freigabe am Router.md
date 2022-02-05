@@ -153,12 +153,26 @@ NoMountAnzeige, altes Linuxwissen.
 An den Mountpunkt wird eine Verzeichnisstruktur des Datenträgers eingehängt. Was an diesem Punkt vorher war, wird ausgeblendet.
 Also erstelle ich am Mountpunkt eine Datei mit aussagekräftigem Namen.
 ~~~
-umount /mnt/sdb1   
+mkdir -p /mnt/sdb1
+umount /mnt/sdb1   #make sure the disk isn't mounted before doing this
 touch /mnt/sdb1/USB_DISK_NOT_PRESENT
 chmod 555 /mnt/sdb1 
 chmod 444 /mnt/sdb1/USB_DISK_NOT_PRESENT
 mount /dev/sdb1 /mnt/sdb1
 ~~~
+
+oder
+
+~~~
+mkdir -p /mnt/usb
+umount /mnt/usb   #make sure the disk isn't mounted before doing this
+touch /mnt/usb/USB_DISK_NOT_PRESENT
+chmod 555 /mnt/usb 
+chmod 444 /mnt/usb/USB_DISK_NOT_PRESENT
+mount -t vfat /dev/sdb1 /mnt/usb
+
+~~~
+
 Die Datei `USB_DISK_NOT_PRESENT` mit 0 Bytes sehe ich nur, wenn kein Stick gesteckt ist, bzw. kein mount erfolgt ist. Die Datei wird nicht auf dem Stick angelegt :-) sondern auf dem Router ohne Stick unter: /mnt/sda1/
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
