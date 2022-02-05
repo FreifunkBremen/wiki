@@ -89,7 +89,7 @@ root@ffhb-a42bb0de8272-C7v2-00:
 
 Hinweis Merken: **block-mount**, this file has been obsoleted. please call "/sbin/block mount" directly.
 
-Dann checken wir mal, ob der Stick da ist.
+Dann checken wir mal, ob der Stick da ist. Je nach Routertyp kann der USB Stick sda2 oder sdb1 sdb2 sein.
 
 **_`Eingabe:`_**
 ~~~
@@ -99,8 +99,13 @@ OK, USB Stick wird angezeigt.
 
 **_`Ausgabe:`_**
 ~~~
-brw-------    1 root     root        8,   0 Aug  7 17:04 /dev/sda
-brw-------    1 root     root        8,   1 Aug  7 17:04 /dev/sda1
+brw-------    1 root     root        8,   0 Feb  4 22:21 /dev/sda
+brw-------    1 root     root        8,   1 Feb  4 22:21 /dev/sda1
+brw-------    1 root     root        8,   2 Feb  4 22:21 /dev/sda2
+brw-------    1 root     root        8,   3 Feb  4 22:21 /dev/sda3
+brw-------    1 root     root        8,  16 Feb  5 13:56 /dev/sdb
+brw-------    1 root     root        8,  17 Feb  5 13:56 /dev/sdb1
+
 ~~~
 Wenn Probleme auftreten, bitte in den original Anleitungen weiterlesen.
 [https://openwrt.org/docs/guide-user/storage/usb-drives](https://openwrt.org/docs/guide-user/storage/usb-drives)
