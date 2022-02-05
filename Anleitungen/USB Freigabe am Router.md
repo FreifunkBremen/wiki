@@ -16,11 +16,11 @@ Zugang zum Router via SSH-Konsole. Verwendeter Router TP-Link Archer C7 mit zwei
 Der USB Stick wird in USB1 gesteckt, zwischen den USB Buchsen sind zwei LED, wovon dann die untere Leuchtet, der Stick ist nun elektrisch mit dem Router verbunden.
 
 ### 1.) USB Treiber nachinstallieren
-Im ersten Schritt die Treiber installieren, damit der Stick erkannt wird. 
+Im ersten Schritt die Treiber installieren, damit der Stick erkannt wird. Wer den Stick nicht umformatieren will, sollte den passenden Treiber installieren. kmod-fs-exfat für große USB Sticks, odr kmod-fs-ntfs für ftfs :-)
 
 **_`Eingabe:`_**
 ~~~
-opkg update && opkg install block-mount e2fsprogs kmod-fs-ext4 kmod-usb-storage kmod-usb2 kmod-usb3
+opkg update && opkg install block-mount e2fsprogs kmod-fs-ext4 kmod-usb-storage kmod-usb2 kmod-usb3 kmod-fs-exfat
 ~~~
 **_`Ausgabe:`_**
 ~~~
