@@ -20,7 +20,7 @@ Im ersten Schritt die Treiber installieren, damit der Stick erkannt wird. Wer de
 
 **_`Eingabe:`_**
 ~~~
-opkg update && opkg install block-mount e2fsprogs kmod-fs-ext4 kmod-usb-storage kmod-usb2 kmod-usb3 kmod-fs-exfat
+opkg update && opkg install block-mount e2fsprogs kmod-fs-ext4 kmod-usb-storage kmod-usb2 kmod-usb3 kmod-fs-exfat kmod-fs-vfat
 ~~~
 **_`Ausgabe:`_**
 ~~~
