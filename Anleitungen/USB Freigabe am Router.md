@@ -116,13 +116,13 @@ Formatieren :-)
 
 **_`Eingabe:`_**
 ~~~
-mkfs.ext4 /dev/sda1
+mkfs.ext4 /dev/sdb1
 ~~~
 
 **_`Ausgabe:`_**
 ~~~
 mke2fs 1.44.1 (24-Mar-2018)
-/dev/sda1 contains a exfat file system labelled 'Samsung USB'
+/dev/sdb1 contains a exfat file system labelled 'Samsung USB'
 Proceed anyway? (y,N) **y**
 Creating filesystem with 15664140 4k blocks and 3916304 inodes
 Filesystem UUID: e5234b4f-3680-496a-9aa5-4b2e57992587
@@ -153,11 +153,11 @@ NoMountAnzeige, altes Linuxwissen.
 An den Mountpunkt wird eine Verzeichnisstruktur des Datenträgers eingehängt. Was an diesem Punkt vorher war, wird ausgeblendet.
 Also erstelle ich am Mountpunkt eine Datei mit aussagekräftigem Namen.
 ~~~
-umount /mnt/sda1   
-touch /mnt/sda1/USB_DISK_NOT_PRESENT
-chmod 555 /mnt/sda1 
-chmod 444 /mnt/sda1/USB_DISK_NOT_PRESENT
-mount /dev/sda1 /mnt/sda1
+umount /mnt/sdb1   
+touch /mnt/sdb1/USB_DISK_NOT_PRESENT
+chmod 555 /mnt/sdb1 
+chmod 444 /mnt/sdb1/USB_DISK_NOT_PRESENT
+mount /dev/sda1 /mnt/sdb1
 ~~~
 Die Datei `USB_DISK_NOT_PRESENT` mit 0 Bytes sehe ich nur, wenn kein Stick gesteckt ist, bzw. kein mount erfolgt ist. Die Datei wird nicht auf dem Stick angelegt :-) sondern auf dem Router ohne Stick unter: /mnt/sda1/
 
