@@ -225,3 +225,10 @@ In neueren SW Versionen muss nach dem TFTP recover, die IP Adresse des PC von 19
 
 Superschnellinstallation: Für Profis, nicht durchgehend getestet.
 Über TFTP recover kann ich alles auf den Router spielen. Also ein Freifunkimage auf recovery.bin umbenennen und ins TFTP Serververzeichnis schieben. Resetten, 10 Sek. später fertig. Aufpassen und recocery.bin nach gebrauch löschen.
+
+### Unbrick ERX
+
+Für Informationen zum Offloader ERX / ERX-SFP geht es hier weiter:
+https://wiki.bremen.freifunk.net/Anleitungen/Offloader/Offloader-Ubiquiti-ER-X.md
+
+
