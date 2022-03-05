@@ -229,6 +229,7 @@ Superschnellinstallation: Für Profis, nicht durchgehend getestet.
 ### Unbrick ERX
 
 Für Informationen zum Offloader ERX / ERX-SFP geht es hier weiter:
-https://wiki.bremen.freifunk.net/Anleitungen/Offloader/Offloader-Ubiquiti-ER-X.md
+
+[https://wiki.bremen.freifunk.net/Anleitungen/Offloader/Offloader-Ubiquiti-ER-X.md](https://wiki.bremen.freifunk.net/Anleitungen/Offloader/Offloader-Ubiquiti-ER-X.md)
 
 
