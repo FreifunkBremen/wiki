@@ -226,6 +226,11 @@ In neueren SW Versionen muss nach dem TFTP recover, die IP Adresse des PC von 19
 Superschnellinstallation: Für Profis, nicht durchgehend getestet.
 Über TFTP recover kann ich alles auf den Router spielen. Also ein Freifunkimage auf recovery.bin umbenennen und ins TFTP Serververzeichnis schieben. Resetten, 10 Sek. später fertig. Aufpassen und recocery.bin nach gebrauch löschen.
 
+### WBS 210 510
+
+Wichtige Info zur WBS: Das Testen der WBS ist seit längerer Zeit negativ verlaufen. Ab 2019.x ist die Sendeleistung auf 4mW herabgesetzt und kann über comandline nicht angepasst werden. WLAN Mash ohne Funktion, nimmt keine Clients auf. Die WBS sollte als broken gesetzt werden.
+Rückfall auf 2017.1.8 bei den Archer C7v2, WBS510 nur über Original-FW. Original-Image über Bootloader und TFT installierbar. Anleitung im Wiki.
+
 ### Unbrick ERX
 
 Für Informationen zum Offloader ERX / ERX-SFP geht es hier weiter:
