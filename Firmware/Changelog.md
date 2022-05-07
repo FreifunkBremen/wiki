@@ -920,6 +920,20 @@ Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) 
 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
 
+### 2019.1.3+ (git250b623f)
+**Veröffentlichungsdatum**: 05.05.2022  
+**offizielle Versionshinweise**: [2019.1.3](https://gluon.readthedocs.io/en/v2019.1.3/releases/v2019.1.3.html)  
+**Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2019.1.3/user/supported_devices.html)  
+**Github-Repository**: [Commits](https://github.com/freifunk-gluon/gluon/commit/250b623fb4a1bc2d6e0b91809385b8aaa1a4b5d5)
+
+Für dieses Gluon-Release gibt es keine eigene Versionsnummer (weil der 2019.x-Branch nicht mehr offiziell gepflegt wird).
+Deshalb wird diese Version hier mit dem Git-Commit ([250b623f](https://github.com/freifunk-gluon/gluon/commit/250b623fb4a1bc2d6e0b91809385b8aaa1a4b5d5)) benannt.
+
+#### Fehlerbehebungen
+- Behebung für kritische Sicherheitslücke [CVE-2022-24884](https://github.com/freifunk-gluon/gluon/security/advisories/GHSA-xqhj-fmc7-f8mv)
+- diverse andere Fehlerbehebungen
+
+
 ### 2019.1.3
 **Veröffentlichungsdatum**: 05.11.2020  
 **offizielle Versionshinweise**: [2019.1.3](https://gluon.readthedocs.io/en/v2019.1.3/releases/v2019.1.3.html)  
