@@ -60,6 +60,10 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.40.0 - 10.196.49.255 per DHCP vergeben von 10.196.0.4
     * 10.196.50.0 - 10.196.59.255 per DHCP vergeben von 10.196.0.5
     * 10.196.60.0 - 10.196.69.255 per DHCP vergeben von 10.196.0.6
+    * 10.196.70.0 - 10.196.79.255 per DHCP vergeben von 10.196.0.7
+    * 10.196.80.0 - 10.196.89.255 per DHCP vergeben von 10.196.0.8
+    * 10.196.90.0 - 10.196.99.255 per DHCP vergeben von 10.196.0.9
+    * 10.196.100.0 - 10.196.109.255 per DHCP vergeben von 10.196.0.10
     *  10.196.122.224 - 10.196.122.255  Range von hias
 
 
@@ -111,6 +115,9 @@ IPv6 Routing zum Gateway vpn06
 * 2a06:8782:ffbb:1337::c8 (steffen)
 * 2a06:8782:ffbb:1337::d1 gatemon-charlotte (per WLAN), mortzu
 * 2a06:8782:ffbb:1337:1ad6:c7ff:fe90:dd6c CPE 210 v3.2 #Strahlemann ( Funktioniert irgentwie nicht ausserhalb aus FF. :-( )
+
+#### 2a06:8782:ffbb:42::/64
+(reserviert für das neue Batman-v15-Netz)
 
 #### 2a06:8782:ffbb:bat0::/64
 Babel-Netzwerk Segment für die Knoten/Nodes und das Routing des Client-Netzwerks
