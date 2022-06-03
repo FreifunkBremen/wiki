@@ -35,7 +35,6 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.81 gatemon-Frank_H, Frank_H
     * 10.196.0.82 WBS510 OpenWRT temporäre Tests; Frank_H
     * 10.196.0.90-94 genofire
-    * 10.196.0.120 gatemon, rainbowcables, mortzu
     * 10.196.0.127 local-node FFHB
     * 10.196.0.135 gatemon-moge, mortzu
     * 10.196.0.136 services.ffhb.mortzu.de (u.A. gatemon-plutex), mortzu
