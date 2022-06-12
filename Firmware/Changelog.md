@@ -51,7 +51,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2019.1.3+bremen5/)
 
 In dieser Version gibt es nur diverse Änderungen für das Batman-v15-Testnetz:
-- für Kabel-Mesh-Verbindungen wird jetzt VXLAN verwendet
+- für Kabel-Mesh-Verbindungen wird jetzt [VXLAN](https://gluon.readthedocs.io/en/latest/features/wired-mesh.html#wired-mesh-encapsulation) verwendet. Das betrifft nur das Batman-v15-Netz! Im v13-Modus (also im derzeitigen "stabilen" Netz) wird VXLAN nicht verwendet.
 - der experimentelle VPN-Server vpn04 wurde entfernt, und stattdessen wurden die regulären neuen Server vpn07/08/09/10 hinzugefügt
     - die Server vpn09 und 10 sind allerdings noch nicht in Betrieb
 - es werden jetzt die korrekten DNS- und NTP-Server verwendet
