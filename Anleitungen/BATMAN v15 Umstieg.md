@@ -43,9 +43,13 @@ Und einerseits könnte B.A.T.M.A.N v15 effizienter und dadurch schneller sein; a
 Im Moment ist die Erwartung, dass die Geschwindigkeit sich durch den Umstieg nicht merklich verändern wird. Falls ihr aber natürlich bemerkt, dass das v15-Netz deutlich langsamer ist, dann gebt gerne Bescheid!
 
 ## Rückmeldung der Ergebnisse, und Hilfe
-Wenn ihr Rückmeldung geben wollt, oder wenn ihr Fragen habt, dann kommt in den [Chat](https://webirc.hackint.org/#ircs://irc.hackint.org/#ffhb?nick=Gast_?),
-schreibt auf der [Mailingliste](https://lists.bremen.freifunk.net/mailman/listinfo/ff-bremen/),
-oder kommt zum (online) [Treffen](/kontakt.html#treffen)!
+Wenn ihr Rückmeldung geben wollt, oder wenn ihr Fragen habt, dann schreibt das gerne im [Chat](https://webirc.hackint.org/#ircs://irc.hackint.org/#ffhb?nick=Gast_?) oder auf der [Mailingliste](https://lists.bremen.freifunk.net/mailman/listinfo/ff-bremen/),
+oder kommt zum [Treffen](/kontakt.html#treffen)!
+
+Die Ergebnisse sammeln wir dann unter [Erfahrungsberichte/Batman v15 Probleme](Erfahrungsberichte/Batman v15 Probleme).
+
+
+## Fußnoten:
 
 [^versV13]: genauer: "2013.4.0 compat14 mit B.A.T.M.A.N. IV"
 [^versV15]: genauer: "2018.1-4 compat15 mit B.A.T.M.A.N. IV"
