@@ -27,13 +27,13 @@ Experimentelle Firmware-Versionen werden nicht offiziell unterstützt und werden
 Branch        | aktuelle Version                                                    | signed by
 ---           | ---                                                                 | ---
 **`stable`**  | [2019.1.3+bremen3](#2019-1-3-bremen3)     | `oliver`, `jplitza`, [00000er-Schlüssel](https://github.com/freifunk-gluon/gluon/security/advisories/GHSA-xqhj-fmc7-f8mv)
-**`testing`** | [2019.1.3+bremen3](#2019-1-3-bremen3)     | `oliver`
+**`testing`** | [2019.1.3+bremen7](#2019-1-3-bremen7)     | `oliver`
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
 ### 2019.1.3+bremen7
 **Veröffentlichung auf dem `stable`-Branch**: nie  
-**Veröffentlichung auf dem `testing`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: [14.06.2022](https://downloads.bremen.freifunk.net/firmware/all/2019.1.3+bremen7/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2019.1.3+bremen7) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2019.1.3+bremen7)  
 **gluon-Version**: [2019.1.3+ (git250b623f)](#2019-1-3-git250b623f)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2019.1.3+bremen7/)
