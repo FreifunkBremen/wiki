@@ -46,7 +46,7 @@ Im Moment ist die Erwartung, dass die Geschwindigkeit sich durch den Umstieg nic
 Wenn ihr Rückmeldung geben wollt, oder wenn ihr Fragen habt, dann schreibt das gerne im [Chat](https://webirc.hackint.org/#ircs://irc.hackint.org/#ffhb?nick=Gast_?) oder auf der [Mailingliste](https://lists.bremen.freifunk.net/mailman/listinfo/ff-bremen/),
 oder kommt zum [Treffen](/kontakt.html#treffen)!
 
-Die Ergebnisse sammeln wir dann unter [Erfahrungsberichte/Batman v15 Probleme](Erfahrungsberichte/Batman v15 Probleme).
+Die Ergebnisse sammeln wir dann unter [Erfahrungsberichte/Batman v15 Probleme](/Erfahrungsberichte/Batman v15 Probleme).
 
 
 ## Fußnoten:
