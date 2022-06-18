@@ -6,7 +6,7 @@ Hier sammeln wir Probleme, die beim [Testen vom neuen B.A.T.M.A.N-v15-Netz](/Anl
 - Reverse-DNS für Knoten-IPs funktioniert nicht
 - `host -6 heise.de` geht nicht (aber das geht auf meinem PC im normalen Internet ebenfalls nicht?! Sollte das funktionieren?)
 - vpn07.onffhb.de und vpn08.onffhb.de werden nicht aufgelöst
-- Knoten in Domain ffhb_batv15 zeigen keine Offline-SSID und sind nicht mehr erreichbar. Auf der Statusseite von Knoten in der alten Domain "ffhb_11s", werden "ffhb_batv15"-Knoten noch angezeigt.
+- Knoten in Domain `ffhb_batv15` zeigen keine Offline-SSID obwohl sie allein und Offline sind. (Mit `ffhb_11s` mesh in Reichweite)
 
 
 ## Noch nicht getestet
