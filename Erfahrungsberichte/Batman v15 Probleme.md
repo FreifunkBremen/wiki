@@ -28,4 +28,4 @@ Diese Punkte sollten noch getestet werden:
     - für den IPv4-Gateway steht da ein Name, wie erwartet
     - im v13-Netz steht bei den IPv4- und IPv6-Gateways jeweils ein Name
     - muss der `respondd` auf den VPN-Servern noch irgendwelche anderen Infos/Adressen melden, damit das funzt?
-- neue Server zum Monitoring hinzufügen
+- ~~neue Server zum Monitoring hinzufügen~~
