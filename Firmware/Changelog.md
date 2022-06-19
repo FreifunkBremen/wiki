@@ -31,6 +31,19 @@ Branch        | aktuelle Version                                                
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
+### 2019.1.3+bremen8
+**Veröffentlichung auf dem `stable`-Branch**: nie  
+**Veröffentlichung auf dem `testing`-Branch**: nie  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2019.1.3+bremen8) / [Commits](https://github.com/FreifunkBremen/gluon-site-ffhb/commits/v2019.1.3+bremen8)  
+**gluon-Version**: [2019.1.3+ (git250b623f)](#2019-1-3-git250b623f)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2019.1.3+bremen8/)
+
+Diese Version wird für die Umstellung auf Batman v15 verwendet werden und enthält die nötigen letzten Anpassungen:
+- die automatische Umschaltung auf das v15-Netz (mittels ["gluon-scheduled-domain-switch"](https://gluon.readthedocs.io/en/v2019.1.3/package/gluon-scheduled-domain-switch.html)) wurde aktiviert, für Fr 1. Jul 02:00:00 CEST 2022
+- die Namen der verfügbaren Freifunk-Domains wurden angepasst (das v15-Netz ist jetzt nicht mehr "experimentell", sondern ist das "neue Netz")
+- die zukünftigen Gateway-Server vpn09 und vpn10 werden jetzt auch als DNS- und NTP-Server verwendet
+- der VPN-Key von vpn10 wurde korrigiert
+
 ### 2019.1.3+bremen7
 **Veröffentlichung auf dem `stable`-Branch**: nie  
 **Veröffentlichung auf dem `testing`-Branch**: [14.06.2022](https://downloads.bremen.freifunk.net/firmware/all/2019.1.3+bremen7/sysupgrade/testing.manifest)  
