@@ -22,9 +22,9 @@ Beginne mit Änderungen am entfernten Gerät.
 
 1. Halte den Reset-Knopf etwa 10-15 Sekunden gedrückt, bis alle Lämpchen kurz aufblinken.
 2. Öffne die Seite _http://192.168.1.1/_
-3. Wähle im Feld _Domain_ die Zeile _Freifunk Bremen - Experimentelles Netz (mit Batman v15)_ aus.
+3. Wähle im Feld _Domain_ die Zeile _Freifunk Bremen - neues Netz (ab Juli 2022; mit Batman v15)_ aus.
 4. Drücke _Speichern und Neustarten_.
-5. Zurück über den gleichen Weg, dann wählen wir _Freifunk Bremen - Normales Netz_ aus.
+5. Zurück über den gleichen Weg, dann wählen wir _Freifunk Bremen - altes Netz (bis Juni 2022; mit Batman 2013)_ aus.
 
 CPE210v3: Gerät nach Reset nicht erreichbar? dann einmal kurz stromlos machen, dann ist das Gerät im Konfigmodus erreichbar.
 
