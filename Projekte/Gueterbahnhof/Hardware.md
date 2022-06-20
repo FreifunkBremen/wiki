@@ -1,14 +1,3 @@
-## Übersicht verbauter Hardware: 
-
-* 6x (+ X) TP-Link Archer C7
-* 4x TP-Link CPE210 ('hof', 'garten', bei tor11 und 'spedition')
-* 2x Ubiquiti Nanobeam AC 19 (Richtung Schlachthof und Radstation)
-* 5x TP-Link WR1043
-* 1x TP-Link WR940
-* 1x TP-Link WR841 (temporär, zum Debuggen)
-* einiges an Kabel, teils Patch-Kabel, teils selbst aufgelegt/gecrimpt
-
-
 ## aktuelle Standorte
 
 ### Künstlerhaus
@@ -91,3 +80,14 @@ Wegen der häufigen Stromprobleme wollen wir dauerhaft einen Ringschluss zwische
 Am Ende der Gleishalle kommt vielleicht noch einie Installation hin, um die Obdachlosen hinter dem GB zu versorgen. 
 Die Querlenker wären dann Nutznießer. Sinnvolle Installation ist vmtl eine CPE für Richtfunk und eine AC-Mesh mit Antenne zur Versordung der Clients (wie ehemals CafeSand)
 Edit: Die Querlenker haben mittlerweile einen Router mit guten Antennen und hängen per Mesh an einer Papageienhaus-CPE. Papageienhaus
+
+## Übersicht verbauter Hardware (nicht mehr aktuell): 
+
+* 6x (+ X) TP-Link Archer C7
+* 4x TP-Link CPE210 ('hof', 'garten', bei tor11 und 'spedition')
+* 2x Ubiquiti Nanobeam AC 19 (Richtung Schlachthof und Radstation)
+* 5x TP-Link WR1043
+* 1x TP-Link WR940
+* 1x TP-Link WR841 (temporär, zum Debuggen)
+* einiges an Kabel, teils Patch-Kabel, teils selbst aufgelegt/gecrimpt
+
