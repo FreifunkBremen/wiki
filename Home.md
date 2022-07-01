@@ -24,10 +24,10 @@ Es ist noch nicht klar, ob das Treffen auch gleichzeitig per Videokonferenz übe
 * der letzten Treffen:
     * [[03.06.2022|Treffen/2022_06_03]]
     * [[17.06.2022|Treffen/2022_06_17]]
-* der nächsten Treffen: 
     * [[01.07.2022|Treffen/2022_07_01]]
+* der nächsten Treffen: 
     * [[15.07.2022|Treffen/2022_07_15]]
-    
+    * [[05.08.2022|Treffen/2022_08_05]]
 * [Liste aller Treffen](/gollum/overview/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
 * Weitere Termine (nicht nur Treffen) finden sich in den Protokollen zu den verschiedenen Treffen
 Eine Übersicht aller Arten von Zusammenkünften findest du unter [[Treffen|Treffen/00_Treffen]].
