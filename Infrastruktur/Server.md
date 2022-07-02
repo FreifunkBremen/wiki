@@ -15,6 +15,9 @@ Zum Uplink siehe [[Infrastruktur/Netzwerk]]
 | vpn04  | PLUTEX       | Bremen              |              |
 | vpn05  | PLUTEX       | Bremen              |              |
 | vpn06  | Digineo GmbH | 23media, Frankfurt  |              |
+| vpn07  | PLUTEX       | Bremen              |              |
+| vpn08  | PLUTEX       | Bremen              |              |
+| vpn09  | LWLcom       | Bremen              |              |
 
 ("Anbindung" ist die gemessene Bandbreite aus dem Internet.)
 
@@ -28,6 +31,9 @@ Zum Uplink siehe [[Infrastruktur/Netzwerk]]
 | vpn04   | genofire              | jplitza, mortzu     |
 | vpn05   | jplitza, mortzu       | -                   |
 | vpn06   | corny                 | genofire, jplitza   |
+| vpn07   | jplitza, mortzu       | -                   |
+| vpn08   | jplitza, mortzu       | -                   |
+| vpn09   | jplitza, mortzu       | -                   |
 
 
 ## Zentrale Dienste
@@ -48,9 +54,9 @@ Zum Uplink siehe [[Infrastruktur/Netzwerk]]
 
 | Server | Dienste               | Verantwortlicher           | Standort              |
 |-------------------------|-----------------------|----------------------------|-----------------------|
-| bre-1  | DNS, Mailserver, Webserver, Karte (ffmap), IPv6-Downlink, vpn01, vpn03 | chrische, morpheus, mortzu, jplitza | Bremen / LWLcom |
+| bre-1  | DNS, Mailserver, Webserver, Karte (ffmap), IPv6-Downlink, vpn01, vpn03, vpn07, vpn08 | chrische, morpheus, mortzu, jplitza | Bremen / LWLcom |
 | Cisco-Router | BGP | chrische, morpheus, mortzu, jplitza    | Bremen / LWLcom       |
-| bre-2  | Jenkins, vpn02, vpn04 | mortzu, jplitza            | Bremen / PLUTEX       |
+| bre-2  | Jenkins, vpn02, vpn04, vpn09 | mortzu, jplitza            | Bremen / PLUTEX       |
 | echo   | vpn05                 | mortzu                     | Bremen / PLUTEX       |
 
 
