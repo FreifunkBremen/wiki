@@ -6,6 +6,9 @@ Alle erstellten Seiten findest du [hier](/gollum/overview).
 
 Zurück zur Homepage geht es [hier](https://bremen.freifunk.net) lang.
 
+## Breminale 2022
+[[Freifunk auf der Breminale 2022 - Übersichtsseite|/Events/Breminale/2022/Freifunk-Bremen-auf-der-Breminale-2022.md]]
+
 ## Infos zu unseren Treffen
 
 Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat im [Hackerspace Bremen](https://www.hackerspace-bremen.de) um 19 Uhr. In der ersten halben Stunde werden Fragen von Neulingen beantwortet und um 19:30 Uhr wird die Tagesordnung eröffnet.  Üblicherweise dauern die Treffen 2-3 Stunden mit kleinen Pausen zwischendrin.
