@@ -4,5 +4,6 @@ Es gibt endlich wieder eine [Breminale](https://breminale-festival.de/), und wir
 - Breminale-Ende: So, 17.7., nachts
 
 ## Kommunikation
-* IRC: [#ffhb_events im Hackint](irc://irc.hackint.org/ffhb_events)
-* Hackmd-Pad: <https://md.darmstadt.ccc.de/9yPqMGH3RCWF7bqqu77Zeg>
+- IRC: [#ffhb_events im Hackint](irc://irc.hackint.org/ffhb_events)
+    - im Browser: [Webchat](https://webirc.hackint.org/#ircs://irc.hackint.org/#ffhb_events?nick=Gast_?)
+- Hackmd-Pad: <https://md.darmstadt.ccc.de/9yPqMGH3RCWF7bqqu77Zeg>
