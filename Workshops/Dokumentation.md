@@ -7,7 +7,8 @@ Hier kommt Dokumentation einzelner Workshops hin, gerne auch mit verwendeten Mat
 #### Plan:
 * Durchführender Yannik
 * Material: Crimpzange, Crimpstecker, Laptop, altes (kaputtes) Kabel
-* Links:  [https://www.grundlagen-computer.de/netzwerk/anleitung-netzwerkkabel-selbst-erstellen-crimpen-eines-patch-kabels-cat-5](https://www.grundlagen-computer.de/netzwerk/anleitung-netzwerkkabel-selbst-erstellen-crimpen-eines-patch-kabels-cat-5)
+* Links:  <a href="https://www.grundlagen-computer.de/netzwerk/anleitung-netzwerkkabel-selbst-erstellen-crimpen-eines-patch-kabels-cat-5" target="_blank">https://www.grundlagen-computer.de/netzwerk/anleitung-netzwerkkabel-selbst-erstellen-crimpen-eines-patch-kabels-cat-5</a>
+
 
 #### Durchführung
 * spät gestartet, Zeit überzogen.
