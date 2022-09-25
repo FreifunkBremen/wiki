@@ -25,8 +25,6 @@ Es ist noch nicht klar, ob das Treffen auch gleichzeitig per Videokonferenz übe
 
 ##### Tagesordnungen
 * der letzten Treffen:
-    * [[05.08.2022|Treffen/2022_08_05]]
-    * [[19.08.2022|Treffen/2022_08_19]]
     * [[02.09.2022|Treffen/2022_09_02]]
     * [[16.09.2022|Treffen/2022_09_16]]
 * der nächsten Treffen: 
