@@ -1,6 +1,7 @@
+## Inhalt
 ## Freifunk Router Image in VM-Ware/VM-Player betreiben 
 (Windows Umgebung, mit Linux geht es ähnlich)
-## Inhalt
+
 [[_TOC_]]
 
 ### Warum sollte ich das tun?
