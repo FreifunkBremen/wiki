@@ -1,5 +1,7 @@
 ## Freifunk Router Image in VM-Ware/VM-Player betreiben 
 (Windows Umgebung, mit Linux geht es ähnlich)
+## Inhalt
+[[_TOC_]]
 
 ### Warum sollte ich das tun?
 - Es wird keine reale Hardware benötigt, ich kann direkt auf meinem PC damit arbeiten.
@@ -43,6 +45,8 @@ Start der neuen virtuellen Maschine, nach ca. 10-14 Sekunden ist der Bootvorgang
 Einmal Enter drücken und die Meldung BusyBox v1.23.2 mit dem OPENWRT Wireless Freedom ASCII Logo erscheint.
 Wir sind jetzt als root@000c29afeec3:/# in der Shell und können auf dem Router Arbeiten.
 
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
 ### Der Router steht im Konfigmode und macht erst mal nichts mehr.
 Vom PC aus können wir nicht auf die Konfigurationsoberfläche 192.168.1.1 wegen des Bridgemode. Eingaben in die Shell kopieren, oder Netzwerk auf NAT ändern (Anleitung fehlt, zweite Netzwerkkarte hinzufügen) und per SSH zugreifen.
 Der VM Player stellt ein Terminal zur Verfügung. Folgende Konfigurationsschritte führen wir nun durch.
@@ -63,6 +67,8 @@ uci set fastd.mesh_vpn.enabled=1
 uci commit fastd
 ~~~
 
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
 ### Damit der Router auf der Karte sichtbar wird, können die GEO Daten konfiguriert werden. Diese Daten aus der Freifunkkarte kopieren.
 ~~~
 uci set gluon-node-info.@location[0]='location'
@@ -74,3 +80,4 @@ uci commit gluon-node-info
 Nachdem wir den Router Konfiguriert haben starten wir diesen mit dem Befehl **reboot -n**  neu. 
 Der Router ist nun in der Grundkonfiguration fertig. Die Geodaten mit dem uci Befehlssatz, kann auf der Freifunkkarte mit dem Pin erstellt werden.
 
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
