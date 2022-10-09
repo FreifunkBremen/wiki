@@ -1,5 +1,5 @@
 Es gibt wieder ein neues Spielzeug aus der der Raspberry Reihe, den Zero 2W.
-
+## Inhalt
 [[_TOC_]]
 
 ### Was ist neu?
@@ -20,6 +20,8 @@ VLC muss deinstalliert werden, da es die Upgrades behindert. Firefox und Chrome 
 * Mirco Schalter an der SD Karte wackelt manchmal. 
 * Showstopper: Buster 64Bit. Faktor 10 langsamer, läuft nicht gut.
 * Bootpartition zu klein und zu 96%belegt. Die SD Karte muss angepasst werden.
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 ### Overclocking
 
@@ -115,3 +117,5 @@ Die Standardauslagerungsgröße beträgt 100 MB. Das ist nicht genug, um die Web
 
 Ein Neustart ist nicht erforderlich. Jetzt sollte Chromium mit mehreren Tabs besser funktionieren.
 
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
