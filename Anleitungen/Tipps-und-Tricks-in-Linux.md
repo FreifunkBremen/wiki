@@ -49,6 +49,19 @@ sudo apt installieren open-vm-tools öffnen-vm-tools-desktop
 ~~~
 Neustart und fertig.
 
+Shered Folders.
+VMware Tools Issues in VMware Workstation or Fusion
+
+Shared Folders mount is unavailable on Linux VM. If the Shared Folders feature is enabled on a Linux VM while it is powered off, the shared folders mount is not available on restart.
+
+Note: This issue is applicable to VMware Tools running on Workstation and Fusion.
+
+Workaround:
+
+If the VM is powered on, disable and enable the Shared Folders feature from the interface. For resolving the issue permanently, edit /etc/fstab and add an entry to mount the Shared Folders automatically on boot.
+
+
+
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 ### Alias
