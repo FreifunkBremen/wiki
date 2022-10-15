@@ -80,6 +80,32 @@ Sollte sich die SW Version nicht aktivieren lassen, bitte im OpenWRT Forum nach 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 ### 6. Exploit für den Hack unter Linux vorbereiten
+Als Windwos Bemutzer habe ich eine Ubuntu VM, ein USB Netzwerkadapter an den Router angeschlossen.
+Das Linuxsystem aktualisieren und ein paar Pakete nachinstallieren.
+Pakete (gegebenfalls mit sudo apt install nachinstallieren):
+~~~
+    python3 pip3
+    git
+    telnet
+~~~
+
+Die Aktualisierung könnte so aussehen.
+~~~
+
+ffhb@ffhb:~$ sudo apt update && sudo apt upgrade
+...
+Paketlisten werden gelesen... Fertig
+...
+Alle Pakete sind aktuell.
+
+ffhb@ffhb:~$ sudo apt install python3-pip git telnet 
+...
+Paketlisten werden gelesen... Fertig
+...
+python3-pip ist schon die neueste Version (20.0.2-5ubuntu1.6).
+0 aktualisiert, 0 neu installiert, 0 zu entfernen und 0 nicht aktualisiert.
+~~~
+
 
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
