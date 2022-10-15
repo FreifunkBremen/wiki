@@ -232,10 +232,12 @@ Danach ist der Router fertig installiert und über die IP 192.168.1.1 erreichbar
 
 Hier Links zu weitern Anleitungen: 
 
-[https://wiki.bremen.freifunk.net/Anleitungen/Firmware/Flashen_Xiaomi-mi_router_4a.md ](https://wiki.bremen.freifunk.net/Anleitungen/Firmware/Flashen_Xiaomi-mi_router_4a.md )
+[https://wiki.bremen.freifunk.net/Anleitungen/Firmware/Flashen_Xiaomi-mi_router_4a.md ](https://wiki.bremen.freifunk.net/Anleitungen/Firmware/Flashen_Xiaomi-mi_router_4a.md ) 
 [https://regensburg.freifunk.net/news/article/xiaomi-4a-gigabit-edition-support/](https://regensburg.freifunk.net/news/article/xiaomi-4a-gigabit-edition-support/) 
-[https://wiki.freifunk-dresden.de/index.php/Router_einrichten_Xiaomi#Xiaomi_MI_Router_4A_Gigabit ](https://wiki.freifunk-dresden.de/index.php/Router_einrichten_Xiaomi#Xiaomi_MI_Router_4A_Gigabit )
-[https://openwrt.org/toh/xiaomi/mi_router_4](https://openwrt.org/toh/xiaomi/mi_router_4)
+
+[https://wiki.freifunk-dresden.de/index.php/Router_einrichten_Xiaomi#Xiaomi_MI_Router_4A_Gigabit ](https://wiki.freifunk-dresden.de/index.php/Router_einrichten_Xiaomi#Xiaomi_MI_Router_4A_Gigabit ) 
+
+[https://openwrt.org/toh/xiaomi/mi_router_4](https://openwrt.org/toh/xiaomi/mi_router_4) 
 
 
 
