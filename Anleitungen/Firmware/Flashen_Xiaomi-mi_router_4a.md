@@ -140,6 +140,15 @@ There two options to provide the files needed for invasion:
   2. Download needed files from remote github repository. (choose this option only if github is accessable inside router device.)
 Which option do you prefer? (default: 1)
 
+****************
+router_ip_address: 192.168.31.1
+stok: 7508040b98e1b16255c465cf2f5a947c
+file provider: local file server
+****************
+start uploading config file...
+start exec command...
+local file server is runing on 0.0.0.0:57765. root='script_tools'
+
 Hinweis: Es müssen folgende beide Zeilen zu sehen sein.
 
 local file server is getting 'busybox-mipsel' for 192.168.31.1.
@@ -147,10 +156,79 @@ local file server is getting 'dropbearStaticMipsel.tar.bz2' for 192.168.31.1.
 
 Wenn nicht, ist wahrscheinlich eine lokale Firewall (Ubuntu -> ufw / Fedora -> firewalld etc.) aktiv, die Verbindungen blockiert. Diese muss dann temporär deaktiviert werden (sudo ufw disable / sudo systemctl stop firewalld). 
 
+done! Now you can connect to the router using several options: (user: root, password: root)
+* telnet 192.168.31.1
+* ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -c 3des-cbc -o UserKnownHostsFile=/dev/null root@192.168.31.1
+* ftp: using a program like cyberduck
+ffhb@ffhb:~/OpenWRTInvasion$ 
+
+
+
+ffhb@ffhb:~/OpenWRTInvasion$ telnet 192.168.31.1
+Trying 192.168.31.1...
+Connected to 192.168.31.1.
+Escape character is '^]'.
+
+XiaoQiang login: root
+Password: 
+
+
+BusyBox v1.19.4 (2020-08-18 11:07:27 UTC) built-in shell (ash)
+Enter 'help' for a list of built-in commands.
+
+ -----------------------------------------------------
+       Welcome to XiaoQiang!
+ -----------------------------------------------------
+  $$$$$$\  $$$$$$$\  $$$$$$$$\      $$\      $$\        $$$$$$\  $$\   $$\
+ $$  __$$\ $$  __$$\ $$  _____|     $$ |     $$ |      $$  __$$\ $$ | $$  |
+ $$ /  $$ |$$ |  $$ |$$ |           $$ |     $$ |      $$ /  $$ |$$ |$$  /
+ $$$$$$$$ |$$$$$$$  |$$$$$\         $$ |     $$ |      $$ |  $$ |$$$$$  /
+ $$  __$$ |$$  __$$< $$  __|        $$ |     $$ |      $$ |  $$ |$$  $$<
+ $$ |  $$ |$$ |  $$ |$$ |           $$ |     $$ |      $$ |  $$ |$$ |\$$\
+ $$ |  $$ |$$ |  $$ |$$$$$$$$\       $$$$$$$$$  |       $$$$$$  |$$ | \$$\
+ \__|  \__|\__|  \__|\________|      \_________/        \______/ \__|  \__|
+
+
+root@XiaoQiang:~# 
+
+
+curl -4 -k http-link auf mein communityfile
+
+curl -4 -k https://download.freifunk-dresden.de/firmware/.nightly/firmware/ramips.mt7621.generic/openwrt-ramips-mt7621-xiaomi_mi-router-4a-gigabit-initramfs-kernel.bin --output firmware.bin 
+
+mtd -e OS1 -r write firmware.bin OS1
+
+Wenn das funktioniert, ist der Router nach dem Neustart auf dem OpwnWRT Image.
+Ich habe mir die Images per FTP ins /tmp Verzeichnis gelegt.
+
+
+
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
-### 7. 
+### 7. Systemupgrade
+
+Nun gibt es zwei Optionen das Sysupgrade auszuführen.
+1. via Webinterface
+
+Die Website auf http://192.168.1.1 aufrufen und in die Firmware Verwaltung wechseln.
+
+Menü: Verwalten > Wartung > Firmware
+
+Nun das Sysupgrade-Image auswählen und "Firmware laden".
+
+2. via SSH
+
+Mit SSH (ssh root@192.168.1.1) anmelden und Systemupgrade durchführen: Vorher auf OpenWRT einloggen, für den User root ein PW festlegen. Also root/root ist ok.
+
+cd /tmp
+wget -4 https://download.freifunk-dresden.de/firmware/.nightly/firmware/ramips.mt7621.generic/openwrt-ramips-mt7621-xiaomi_mi-router-4a-gigabit-squashfs-sysupgrade.bin -O sysupgrade.bin
+sysupgrade -n sysupgrade.bin
+
+oder per SCP in das /tmp Verzeichnis kopieren.
+
+Dieser Vorgang dauert ca. 10 Minuten, es werden Neustarts durchgeführt.
+Danach ist der Router fertig installiert und über die IP 192.168.1.1 erreichbar. (benötigt statische IP Konfiguration, also mein Rechner bekommt 192.168.1.2) 
 
 
 **Diese Anleitung ist wie immer ohne Gewähr. Für Anregungen und Tipps immer offen.**
