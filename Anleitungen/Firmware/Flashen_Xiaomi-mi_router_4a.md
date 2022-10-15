@@ -42,7 +42,7 @@ Warnung 10/2022 Xiaomi liefert derzeit v2 der 4A-Gigabit-Edition aus, die anhand
 
 Achtung: Gbit ports sind 3 (1x WAN, 2x LAN) und nicht 2xWAN, 1xLAN
 
-Achtung: Die Buchsen haben keine Aussparung für das LAN Kabel, könnte eng werden.
+Achtung: Die Buchsen haben keine Aussparung für das LAN Kabel, könnte eng werden. Die Abbildungen in der Bedienungsanleitung sind Spegelverkert und habenen einige Schreibfehler.
 
 
 
@@ -64,11 +64,23 @@ Der Start mit gedrücktem Reset Knopf soll den TFTP Ladevorgang anstossen, ist n
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
-### 5. Grundkonfiguration
+### 5. Grundkonfiguration & Downgrade auf Version 3.0.24 der Xiaomi Firmware
+Bereits die normale Inbetriebnahme kann nur erfolgreich durchgeführt wenn der Router
+an einen Internetanschluss mit DHCP verkabelt ist. Es wird ein zweites LAN Kabel benötigt.
+An den beiden LAN Schnittstellen hört dieser nach dem Booten auf die IP 192.168.31.1. 
+
+Hier bitte eine Basiskonfiguration durchführen - auch um die Firmware Version zu checken. 
+Sollte diese nicht 3.0.24 sein, kann nach der initialen Konfiguration über das Admin 
+Interface ein Downgrade vorgenommen werden. Eine passende Firmware findet ihr hier:
+https://github.com/ffrgb/stockimages/blob/master/xiaomi-4a-gige/miwifi_r4a_all_03233_3.0.24_INT.bin
+
+Sollte sich die SW Version nicht aktivieren lassen, bitte im OpenWRT Forum nach der Geräte-SW suchen und Prüfen ob es eine Möglichkeit zum flashen für diese Version gibt. Es ist dem Hersteller überlassen, die Gerätefirmware abzusichern, das diese nicht durch freie Software ersetzt werden kann.
+
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
-### 6. 
+### 6. Exploit für den Hack unter Linux vorbereiten
+
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
