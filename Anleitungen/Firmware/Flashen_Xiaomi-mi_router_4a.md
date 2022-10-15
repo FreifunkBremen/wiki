@@ -230,6 +230,16 @@ oder per SCP in das /tmp Verzeichnis kopieren.
 Dieser Vorgang dauert ca. 10 Minuten, es werden Neustarts durchgeführt.
 Danach ist der Router fertig installiert und über die IP 192.168.1.1 erreichbar. (benötigt statische IP Konfiguration, also mein Rechner bekommt 192.168.1.2) 
 
+Hier Links zu weitern Anleitungen: 
+
+https://wiki.bremen.freifunk.net/Anleitungen/Firmware/Flashen_Xiaomi-mi_router_4a.md 
+
+https://regensburg.freifunk.net/news/article/xiaomi-4a-gigabit-edition-support/ 
+
+https://wiki.freifunk-dresden.de/index.php/Router_einrichten_Xiaomi 
+
+https://wiki.freifunk-dresden.de/index.php/Router_einrichten_Xiaomi#Xiaomi_MI_Router_4A_Gigabit https://openwrt.org/toh/xiaomi/mi_router_4
+
 
 **Diese Anleitung ist wie immer ohne Gewähr. Für Anregungen und Tipps immer offen.**
 
