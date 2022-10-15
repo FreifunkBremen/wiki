@@ -106,6 +106,40 @@ python3-pip ist schon die neueste Version (20.0.2-5ubuntu1.6).
 0 aktualisiert, 0 neu installiert, 0 zu entfernen und 0 nicht aktualisiert.
 ~~~
 
+Invasion durchführen (hier die Verlinkung auf FF-Dresden)
+
+Auf Linux-PC Console öffnen und folgende Befehle ausführen:
+Tools zum 'Öffnen' des Routers für Freifunk-Firmware installieren
+
+~~~
+git clone https://github.com/Freifunk-Dresden/OpenWRTInvasion
+cd OpenWRTInvasion
+pip3 install -r requirements.txt 
+~~~
+
+Gerät per Tool öffnen
+
+~~~
+python3 remote_command_execution_vulnerability.py
+~~~
+
+Router IP eintippen, zuvor gewähltes Passwort Eingeben, default Option 1 wählen und warten bis das Script durchgelaufen ist.
+
+Beispiel:
+
+Router IP address [press enter for using the default 'miwifi.com']: 192.168.31.1
+Enter router admin password: test1234
+There two options to provide the files needed for invasion:
+  1. Use a local TCP file server runing on random port to provide files in local directory `script_tools`.
+  2. Download needed files from remote github repository. (choose this option only if github is accessable inside router device.)
+Which option do you prefer? (default: 1)
+
+Hinweis: Es müssen folgende beide Zeilen zu sehen sein.
+
+local file server is getting 'busybox-mipsel' for 192.168.31.1.
+local file server is getting 'dropbearStaticMipsel.tar.bz2' for 192.168.31.1.
+
+Wenn nicht, ist wahrscheinlich eine lokale Firewall (Ubuntu -> ufw / Fedora -> firewalld etc.) aktiv, die Verbindungen blockiert. Diese muss dann temporär deaktiviert werden (sudo ufw disable / sudo systemctl stop firewalld). 
 
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
