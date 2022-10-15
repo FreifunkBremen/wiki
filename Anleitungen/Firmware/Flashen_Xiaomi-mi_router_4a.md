@@ -105,6 +105,12 @@ Paketlisten werden gelesen... Fertig
 python3-pip ist schon die neueste Version (20.0.2-5ubuntu1.6).
 0 aktualisiert, 0 neu installiert, 0 zu entfernen und 0 nicht aktualisiert.
 ~~~
+Noch mal gucken, ob der Router noch da ist:
+~~~
+ffhb@ffhb:~$ ping 192.168.31.1
+PING 192.168.31.1 (192.168.31.1) 56(84) Bytes Daten.
+64 Bytes von 192.168.31.1: icmp_seq=1 ttl=64 Zeit=1.38 ms
+~~~
 
 Invasion durchführen (hier die Verlinkung auf FF-Dresden)
 
