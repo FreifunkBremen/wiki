@@ -1,10 +1,13 @@
-Evtl. wird das der neue Butter & Brot Freifunk Router.
+Evtl. wird das der neue Butter & Brot Freifunk Router. Es wird ein Nachfolger für 4Mb Geräte wie den TP-Link WR841 gesucht.
+Preis und Leistung des Xiaomi 4A Gigabit Edition sind Beeindruckend. Hier mein Eindruck zu dem Gerät.
+
+## Mein Ergebnis vorab: Als Bürgergerät ungeeignet, Bastelkiste.
 
 ## Inhalt
 
 [[_TOC_]]
 
-### 1.) "Xiaomi Mi Router 4A"
+### 1.) "XR4A XIAOMI Mi Router 4A Gigabit Edition"
 
 Information: gibt's in zwei Varianten (100Mbit und Gigabit)
 kostet zwischen 15€ (100MBit) und 35€ (Gbit)
@@ -30,7 +33,7 @@ Text
 
 Achtung: Unterschiedliche Routerhardware. (Xiaomi Mi Router 4A (MIR4A) 100M) ist nicht (Xiaomi Mi Router 4A (MIR4A) Gbit)
 
-Warnung Xiaomi liefert seit 2020 Mi Router 4A Gigabit Edition-Geräte ohne angemessene Abschirmung aus. Beachten Sie, dass diese aufgrund von Funkstörungen Probleme verursachen können. Trotzdem ist es flashbar.
+Warnung Xiaomi liefert seit 2020 Mi Router 4A Gigabit Edition-Geräte ohne angemessene Abschirmung aus. Beachten Sie, dass diese aufgrund von Funkstörungen Probleme verursachen können. 
 
 Warnung 03/2022 OpenWrt funktioniert derzeit nicht auf Geräten mit Eon- oder CFeon-Flash-Chips. [Klicken Sie auf den Link.](https://openwrt.org/inbox/toh/xiaomi/xiaomi_mi_router_4a_gigabit_edition#unable_to_install_openwrt_to_new_r4a_gigabit_edition) 
 Es wurden keine Probleme mit Winbond- oder GigaDevice-Flash-Chips gemeldet, die in früher hergestellte Einheiten eingebaut wurden. Andere Unterschiede wurden auch bei dem chinesischen Modell beobachtet, das im September 2021 hergestellt wurde. [Klicken Sie auf Link](https://forum.openwrt.org/t/observations-on-xiaomi-mir4ag-newer-firmware/127373)
@@ -45,20 +48,31 @@ Achtung: Die Buchsen haben keine Aussparung für das LAN Kabel, könnte eng werd
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
-### 3. SSH Zugang
+### 3. SSH FTP Telnet Zugang
 
-ssh root@<RouterIP> password is admin.
+Alle Zugänge sind deaktiviert.
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 ### 4. TTL UART
 Als erstes löte ich einige Kabel an die UART-Pins auf der Platine und verbinde sie mit einem TTL-zu-USB-Adapter. 
-Ich kann die übliche Linux-Ausgabe von einem Router sehen, aber leider kann ich nicht damit interagieren: 
+So sollte man die übliche Linux-Ausgabe von einem Router sehen, aber leider kommt da nichts: 
 Ich kann U-Boot nicht daran hindern, automatisch zu booten, und ich kann die Befehlszeilenschnittstelle 
 nicht aufrufen, sobald die Standard-Firmware gebootet hat.
 
+Der Start mit gedrücktem Reset Knopf soll den TFTP Ladevorgang anstossen, ist nicht genau verifiziert.
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
+### 5. Grundkonfiguration
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
+### 6. 
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
+### 7. 
 
 
 **Diese Anleitung ist wie immer ohne Gewähr. Für Anregungen und Tipps immer offen.**
