@@ -1,7 +1,7 @@
 Evtl. wird das der neue Butter & Brot Freifunk Router. Es wird ein Nachfolger für 4Mb Geräte wie den TP-Link WR841 gesucht.
 Preis und Leistung des Xiaomi 4A Gigabit Edition sind Beeindruckend. Hier mein Eindruck zu dem Gerät.
 
-## Mein Ergebnis vorab: Als Bürgergerät ungeeignet, Bastelkiste.
+### Mein Ergebnis vorab: Als Bürgergerät ungeeignet, Bastelkiste. Das Gerät ist was für Freifunkbastler. Stand 15.10.2022
 
 ## Inhalt
 
