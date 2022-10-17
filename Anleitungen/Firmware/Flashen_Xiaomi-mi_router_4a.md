@@ -58,15 +58,21 @@ nicht aufrufen, sobald die Standard-Firmware gebootet hat.
 
 Nachdem das Gerät auf die Bremer FF Sw geflasht ist, zeigte ein serieller Adapter folgende Ausgabe:
 
-~~~{r, max.height='100px', attr.output='.numberLines'}
+~~~pre {
+  white-space: pre !important;
+  overflow-y: scroll !important;
+  max-height: 100px !important;
+}
+
+
+{r, max.height='100px', attr.output='.numberLines'}
 1:100
-
-
 {r, max.height='100px'}
 1:100
-
-
 {style="max-height: 100px;"}
+
+<pre class="table" style="max-height: 100px;">
+
 
 /bin/ash: üø: not found
 root@ffhb-64644adb97c2-XIAOMI-Mi-Router-4A-Gigabit-Edition:/# 
@@ -637,7 +643,7 @@ BusyBox v1.35.0 (2022-07-05 21:49:31 UTC) built-in shell (ash)
  -----------------------------------------------------
 root@ffhb-64644adb97c2-XIAOMI-Mi-Router-4A-Gigabit-Edition:/# 
 root@ffhb-64644adb97c2-XIAOMI-Mi-Router-4A-Gigabit-Edition:/# 
-
+</pre>
 ~~~
 
 
