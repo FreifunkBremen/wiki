@@ -58,12 +58,7 @@ nicht aufrufen, sobald die Standard-Firmware gebootet hat.
 
 Nachdem das Gerät auf die Bremer FF Sw geflasht ist, zeigte ein serieller Adapter folgende Ausgabe:
 
-~~~{css, echo=FALSE}
-.scroll-100 {
-  max-height: 100px;
-  overflow-y: auto;
-  background-color: inherit;
-}
+~~~{style="max-height: 100px;"}
 
 /bin/ash: üø: not found
 root@ffhb-64644adb97c2-XIAOMI-Mi-Router-4A-Gigabit-Edition:/# 
