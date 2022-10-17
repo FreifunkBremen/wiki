@@ -60,15 +60,6 @@ Nachdem das Gerät auf die Bremer FF Sw geflasht ist, zeigte ein serieller Adapt
 
 ~~~pre{white-space: pre !important; overflow-y: scroll !important; max-height: 100px !important;}<pre class="table" style="max-height: 100px;">
 
-{r, max.height='100px', attr.output='.numberLines'}
-1:100
-{r, max.height='100px'}
-1:100
-{style="max-height: 100px;"}
-
-<pre class="table" style="max-height: 100px;">
-
-
 /bin/ash: üø: not found
 root@ffhb-64644adb97c2-XIAOMI-Mi-Router-4A-Gigabit-Edition:/# 
 root@ffhb-64644adb97c2-XIAOMI-Mi-Router-4A-Gigabit-Edition:/# 
