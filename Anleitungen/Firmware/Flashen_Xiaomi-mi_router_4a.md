@@ -736,6 +736,10 @@ done! Now you can connect to the router using several options: (user: root, pass
 * telnet 192.168.31.1
 * ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -c 3des-cbc -o UserKnownHostsFile=/dev/null root@192.168.31.1
 * ftp: using a program like cyberduck
+* 
+
+~~~
+
 ffhb@ffhb:~/OpenWRTInvasion$ 
 
 
@@ -774,8 +778,10 @@ curl -4 -k https://download.freifunk-dresden.de/firmware/.nightly/firmware/ramip
 
 mtd -e OS1 -r write firmware.bin OS1
 
+~~~
+
 Wenn das funktioniert, ist der Router nach dem Neustart auf dem OpwnWRT Image.
-Ich habe mir die Images per FTP ins /tmp Verzeichnis gelegt.
+Ich habe mir vorher die Images per FTP ins /tmp Verzeichnis gelegt.
 
 
 
