@@ -58,12 +58,8 @@ nicht aufrufen, sobald die Standard-Firmware gebootet hat.
 
 Nachdem das Gerät auf die Bremer FF Sw geflasht ist, zeigte ein serieller Adapter folgende Ausgabe:
 
-~~~pre {
-  white-space: pre !important;
-  overflow-y: scroll !important;
-  max-height: 100px !important;
-}
-
+~~~pre{white-space: pre !important; overflow-y: scroll !important; max-height: 100px !important;}
+<pre class="table" style="max-height: 100px;">
 
 {r, max.height='100px', attr.output='.numberLines'}
 1:100
