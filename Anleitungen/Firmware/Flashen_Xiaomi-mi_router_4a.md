@@ -632,7 +632,11 @@ root@ffhb-64644adb97c2-XIAOMI-Mi-Router-4A-Gigabit-Edition:/#
 
 ~~~
 
+
 Der Start mit gedrücktem Reset Knopf soll den TFTP Ladevorgang anstossen, ist nicht genau verifiziert.
+Auch mit installierter FF - SW wurde noch kein Test mit TFTP durchgeführt.
+
+
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
