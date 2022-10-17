@@ -829,28 +829,4 @@ Hier Links zu weitern Anleitungen:
 
 **Diese Anleitung ist wie immer ohne Gewähr. Für Anregungen und Tipps immer offen.**
 
----
-title: "Stop looking bad RMarkdown!"
-output: html_document
----
 
-<style>
-pre code, pre, code {
-  white-space: pre !important;
-  overflow-x: scroll !important;
-  word-break: keep-all !important;
-  word-wrap: initial !important;
-}
-</style>
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-options(width=200)
-```
-
-#### I want this to print without text wrapping:
-
-```{r }
-x <- matrix(nrow = 3, ncol = 20, data = 1)
-x
-```
