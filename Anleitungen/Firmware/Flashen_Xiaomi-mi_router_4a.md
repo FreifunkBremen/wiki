@@ -58,7 +58,11 @@ nicht aufrufen, sobald die Standard-Firmware gebootet hat.
 
 Nachdem das Gerät auf die Bremer FF Sw geflasht ist, zeigte ein serieller Adapter folgende Ausgabe:
 
-~~~{r, max.height='100px'}
+~~~{r, max.height='100px', attr.output='.numberLines'}
+1:100
+
+
+{r, max.height='100px'}
 1:100
 
 
