@@ -27,7 +27,10 @@ es gibt auch eine inoffizielle Freifunk-Bremen-Firmware für dieses Gerät: http
 Platine GL.iNet AR300M mit RF-Steckverbinder/Koaxial-Steckverbinder RCPT COAX MS-156HF SMT
 
 <img src="https://cloud.ffhb.de/index.php/s/em9B4nCzkQZ7W4b/preview" width="300">
-<img src="https://cloud.ffhb.de/index.php/core/preview?fileId=152544&x=1920&y=1080&a=true" width="300">
+<img src="https://cloud.ffhb.de/index.php/s/b6ygAR4ppA83GXe/preview" width="300">
+
+<img src="preview" width="300">
+<img src="/preview" width="300">
 
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
