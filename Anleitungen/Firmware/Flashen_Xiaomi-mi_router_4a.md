@@ -21,16 +21,12 @@ wird von der neusten Gluon-Version unterstützt (s. https://gluon.readthedocs.io
 es gibt auch eine inoffizielle Freifunk-Bremen-Firmware für dieses Gerät: https://code.bremen.freifunk.net/ffhb/firmware/gluon-site-ffhb/-/jobs/1497/artifacts/file/gluon/output/images/sysupgrade/gluon-ffhb-2019.1.3+bremen9-build137-xiaomi-mi-router-4a-gigabit-edition-sysupgrade.bin
 
 
-<img src="https://cloud.ffhb.de/index.php/s/LAyxzDRXmbeCm7E/preview" width="100">
-<img src="https://cloud.ffhb.de/index.php/s/F2H6SFgJnB9B6w7/preview" width="100">
 
-Platine GL.iNet AR300M mit RF-Steckverbinder/Koaxial-Steckverbinder RCPT COAX MS-156HF SMT
+<img src="https://cloud.ffhb.de/index.php/s/b6ygAR4ppA83GXe/preview" width="500">
 
-<img src="https://cloud.ffhb.de/index.php/s/em9B4nCzkQZ7W4b/preview" width="300">
-<img src="https://cloud.ffhb.de/index.php/s/b6ygAR4ppA83GXe/preview" width="300">
+<img src="https://cloud.ffhb.de/index.php/s/Tr3yEKQ8kW87Snb/preview" width="500">
 
-<img src="preview" width="300">
-<img src="/preview" width="300">
+<img src="https://cloud.ffhb.de/index.php/s/bYNxzApsy2kJZLC/preview" width="500">
 
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
