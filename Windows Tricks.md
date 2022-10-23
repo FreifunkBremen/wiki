@@ -2,7 +2,9 @@ Hier ein paar Windows Hacks, die man immer wieder benötigt.
 
 Egal wie die Fenster gerade aussehen, dahinter funktionieren sie alle gleich.
 
-[[TOC]]
+## Inhalt
+
+[[_TOC_]]
 
 
 ### Zombie Hardware
@@ -31,5 +33,20 @@ start DEVMGMT.MSC
 
 2.) Das Verfahren eignet sich auch für andere Gerätetypen; insbesondere auch für inaktive Parallelschnittstellen
 
- 
+
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
+
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
+
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
+
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
  
