@@ -27,9 +27,11 @@ Egal wie die Fenster gerade aussehen, dahinter funktionieren sie alle gleich.
 
 1.) Die folgenden Eingaben in eine Kommandozeile oder in einem Batch führen ebenfalls zur  Anzeige der Zombies im Gerätemanager :
 
+~~~
 set devmgr_show_nonpresent_devices=1
 set devmgr_show_details=1
 start DEVMGMT.MSC
+~~~
 
 2.) Das Verfahren eignet sich auch für andere Gerätetypen; insbesondere auch für inaktive Parallelschnittstellen
 
