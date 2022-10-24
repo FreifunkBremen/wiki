@@ -106,7 +106,7 @@ Der Erfolg wird wie folgt quittiert:
 done
 Bytes transferred = 3932160 (3c0000 hex)
 ```
-Falls es zu keiner Verbindung kommen sollte, Schritte wiederholen. Eventuell gibt es ein Problem mit ARP (ich musste den ARP Eintrag für den Router bei mir auf dem Rechner statis festlegen)
+Falls es zu keiner Verbindung kommen sollte, Schritte wiederholen. Eventuell gibt es ein Problem mit ARP (ich musste den ARP Eintrag für den Router bei mir auf dem Rechner statisch festlegen)
 Dazu : 
 ```
 sudo arp -s 192.168.1.2 $MACADRESSEDESROUTER
