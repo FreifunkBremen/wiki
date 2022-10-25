@@ -819,15 +819,21 @@ oder per SCP in das /tmp Verzeichnis kopieren.
 Dieser Vorgang dauert ca. 10 Minuten, es werden Neustarts durchgeführt.
 Danach ist der Router fertig installiert und über die IP 192.168.1.1 erreichbar. (benötigt statische IP Konfiguration, also mein Rechner bekommt 192.168.1.2) 
 
-### Links zu weitern Anleitungen: 
+### 8. Links zu weitern Anleitungen: 
 
 [https://wiki.bremen.freifunk.net/Anleitungen/Firmware/Flashen_Xiaomi-mi_router_4a.md ](https://wiki.bremen.freifunk.net/Anleitungen/Firmware/Flashen_Xiaomi-mi_router_4a.md ) 
+
 [https://regensburg.freifunk.net/news/article/xiaomi-4a-gigabit-edition-support/](https://regensburg.freifunk.net/news/article/xiaomi-4a-gigabit-edition-support/) 
+
 [https://wiki.freifunk-dresden.de/index.php/Router_einrichten_Xiaomi#Xiaomi_MI_Router_4A_Gigabit](https://wiki.freifunk-dresden.de/index.php/Router_einrichten_Xiaomi#Xiaomi_MI_Router_4A_Gigabit ) 
+
 [https://openwrt.org/toh/xiaomi/mi_router_4](https://openwrt.org/toh/xiaomi/mi_router_4) 
+
 [https://forum.ffrn.de/t/howto-installation-xiaomi-mi-router-4a-r4ac-100m-international-edition/3536](https://forum.ffrn.de/t/howto-installation-xiaomi-mi-router-4a-r4ac-100m-international-edition/3536) 
+
 [https://github.com/acecilia/OpenWRTInvasion](https://github.com/acecilia/OpenWRTInvasion)
 
+[https://invidious.tiekoetter.com/watch?v=VxzEvdDWU_s](https://invidious.tiekoetter.com/watch?v=VxzEvdDWU_s) 
 
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
