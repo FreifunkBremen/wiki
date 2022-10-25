@@ -190,3 +190,5 @@ Siehe [Bauanleitung](/data/README.md) zu diesem Projekt.
 
 - [UBNT: Quickstart Guide EdgeRouter X](https://dl.ubnt.com/guides/edgemax/EdgeRouter_ER-X_QSG.pdf)
 - [UBNT: Downloadseite der original UBNT-Stockfirmware für EdgeRouter X und EdgeRouter X-SFP](https://www.ubnt.com/download/edgemax/edgerouter-x)
+- [https://help.ui.com/hc/en-us/articles/360019289113-EdgeRouter-TFTP-Recovery](https://help.ui.com/hc/en-us/articles/360019289113-EdgeRouter-TFTP-Recovery) 
+- [https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image)
