@@ -30,7 +30,7 @@ Dann wird die Adresse des Bedien-PC geprüft. Hier gibt es viele Möglichkeiten.
 
 Dann starten wir unseren Browser und geben https://192.168.1.1 ein und schon wird der Startbildschirm angezeigt.
 
-<img src="https://cloud.ffhb.de/index.php/s/cimbERfB6ebcfs5/preview" width="500">
+<img src="https://cloud.ffhb.de/index.php/s/cimbERfB6ebcfs5/preview" width="800">
 
 
 <img src=" /preview" width="500">
