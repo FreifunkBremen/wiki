@@ -17,10 +17,13 @@ In die neue VM hänge ich mein Freifunkimage.vdmk als HDD ein und schon gehts lo
 ### 2.) Erster Start
 Zunächst starte ich meine beiden VM's. Im Routerfenster sehe ich die Konsole des Routers.
 
-![Konsole des Routers](https://cloud.ffhb.de/index.php/s/Tk7JoBLabGC4b4k)
+![Konsole des Routers](https://cloud.ffhb.de/index.php/s/Tk7JoBLabGC4b4k/preview)
 
 
-<img src="https://cloud.ffhb.de/index.php/s/Tk7JoBLabGC4b4k" width="500">
+<img src="https://cloud.ffhb.de/index.php/s/LAyxzDRXmbeCm7E/preview" width="100">
+<img src="https://cloud.ffhb.de/index.php/s/F2H6SFgJnB9B6w7/preview" width="100">
+
+<img src="https://cloud.ffhb.de/index.php/s/Tk7JoBLabGC4b4k/preview" width="500">
 
 
 
