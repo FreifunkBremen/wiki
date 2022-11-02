@@ -17,15 +17,18 @@ In die neue VM hänge ich mein Freifunkimage.vdmk als HDD ein und schon gehts lo
 ### 2.) Erster Start
 Zunächst starte ich meine beiden VM's. Im Routerfenster sehe ich die Konsole des Routers.
 
-![Konsole des Routers](https://cloud.ffhb.de/index.php/s/Tk7JoBLabGC4b4k/preview width="500")
-
-
-<img src="https://cloud.ffhb.de/index.php/s/LAyxzDRXmbeCm7E/preview" width="100">
-<img src="https://cloud.ffhb.de/index.php/s/F2H6SFgJnB9B6w7/preview" width="100">
 
 <img src="https://cloud.ffhb.de/index.php/s/Tk7JoBLabGC4b4k/preview" width="500">
+Konsole des Routers
 
 
+Dann wird die Adresse des Bedien-PC geprüft. Hier gibt es viele Möglichkeiten.
 
+<img src="https://cloud.ffhb.de/index.php/s/bZX3Q6yLXqd3fjs/preview" width="500">
 
 gluon-ffhb-2019.1.3+bremen8-
+
+<img src=" /preview" width="500">
+<img src=" /preview" width="500">
+<img src=" /preview" width="500">
+<img src=" /preview" width="500">
