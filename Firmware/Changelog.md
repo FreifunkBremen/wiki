@@ -36,7 +36,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **Veröffentlichung auf dem `stable`-Branch**: [noch nicht](https://downloads.bremen.freifunk.net/firmware/all/2021.1.2+bremen1/sysupgrade/stable.manifest)  
 **Veröffentlichung auf dem `testing`-Branch**: [noch nicht](https://downloads.bremen.freifunk.net/firmware/all/2021.1.2+bremen1/sysupgrade/testing.manifest)
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2021.1.2+bremen1) / [Commits/Compare](https://github.com/FreifunkBremen/gluon-site-ffhb/compare/v2019.1.3+bremen8...v2021.1.2+bremen1)  
-**gluon-Version**: [2019.1.3+ (git250b623f)](#2019-1-3-git250b623f)  
+**gluon-Version**: [2021.1.2](#2021-1-2)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2021.1.2+bremen1/)
 
 Diese Version ist die erste neue Versio nach der Umstellung auf Batman v15:
