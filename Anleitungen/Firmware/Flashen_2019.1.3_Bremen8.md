@@ -49,13 +49,46 @@ Imfolgenden die Unterseiten.
 Die INFO Seite zeigt einige technische Daten des Routers.
 
 <img src="https://cloud.ffhb.de/index.php/s/CSaB3D8sHCrNDnk/preview" width="800">
+
+Unter Remotezugriss können SSH Key (speichern) und Passwort (speichern) eingegeben werden.
+Für den Zugriff auf den Router sollte ein Key und kein Password verwendet werden.
+
 <img src="https://cloud.ffhb.de/index.php/s/bBAYN29Qgsws8nq/preview" width="800">
+
+WLAN, hier können die WLAN Einstellungen geändert werden. Das Bild muss noch ausgetauscht werden, da meine VM kein WLAN hat. Die USB WLAN-Karte hatte ich vergessen.
+
 <img src="https://cloud.ffhb.de/index.php/s/9DoyQN4RrFs5YaZ/preview" width="800">
+
+Privates WLAN, ein weiteren WLAN mit Passwordschutz / KEY
+
 <img src="https://cloud.ffhb.de/index.php/s/eZzmCdfbeMnpbiK/preview" width="800">
+
+Offline SSID, Wenn keine Internetverbindung besteht, wird die Freifunk SSID in Offline geändert.
+
 <img src="https://cloud.ffhb.de/index.php/s/GJM8PdLJe793X2E/preview" width="800">
+
+WAN Verbindung, falls erforderlich kann der Router eine feste IP bekommen, DHCP wird emfohlen.
+
 <img src="https://cloud.ffhb.de/index.php/s/PHoYEEHGL254LeE/preview" width="800">
+
+Mesh VPN, hier sollte hohe Sicherheit eingestellt sein, damit der Traffic verschlüsselt wird. Ein VPN Tunnel wird immer verwendet.
+
 <img src="https://cloud.ffhb.de/index.php/s/Z6BZxBbso9ngkA4/preview" width="800">
+
+Automatische Updates, sollte auf stable und aktiv sein. Andere Einstellungen ist etwas für Experten, die ihre Images selber bauen.
+
 <img src="https://cloud.ffhb.de/index.php/s/tPqy9Lx9Qf6APBr/preview" width="800">
+
+Firmware aktualisieren. Hier können neue Images eingespielt werden oder die Konfiguration gelöscht werden. Überschreiben mit neuen Daten im Konfigmodus ist ebenfalls OK.
+
 <img src="https://cloud.ffhb.de/index.php/s/RNmoMMsDGYtMXiK/preview" width="800">
-<img src=" /preview" width="800">
+
+###5.) Auf der Karte
+
+Wenn der Router neu startet, wird er nach ein paar Minuten auf der Karte angezeit, sofern die Geodaten eingegeben wurden.
+
+https://map.bremen.freifunk.net/#!/de/map
+
 <img src="https://cloud.ffhb.de/index.php/s/NpK55Y4CioYfWF8/preview" width="800">
+
+
