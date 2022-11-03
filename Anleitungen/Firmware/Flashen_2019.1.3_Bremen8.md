@@ -27,10 +27,16 @@ Dann wird die Adresse des Bedien-PC geprüft. Hier gibt es viele Möglichkeiten.
 
 <img src="https://cloud.ffhb.de/index.php/s/bZX3Q6yLXqd3fjs/preview" width="500">
 
-
+### 3.) Hauptbildschirm / Willkommen! Seite
 Dann starten wir unseren Browser und geben https://192.168.1.1 ein und schon wird der Startbildschirm angezeigt.
 
 <img src="https://cloud.ffhb.de/index.php/s/cimbERfB6ebcfs5/preview" width="800">
+
+Auf der Willkommen! Seite wird in der Kopfzeile die Softwareversion Angezeigt. Auf der rechten Seite ist Wizard hervorgehoben, dies ist der Knopf, der zu dieser Seite zurück führt. Daneben die Erweiterten Einstellungen. Bevor ihr Eingaben macht, erkundet bitte die Erweiterten Einstellungen.
+
+Hinweis: Eingaben in den Erweiterten Einstellungen werden über den Speichern Button gespeichert. Es können alle Unterseiten einzeln gespeichert werden. Wird auf der Startseite gespeichert, so bootet der Router und geht aus dem Konfigmodus in den Produktivmodus. Es können keine weiteren Eingaben gemacht werden.
+
+### 4.) Immer erst die Unterseiten durcharbeiten.
 
 
 <img src=" /preview" width="500">
