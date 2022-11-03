@@ -14,6 +14,8 @@ Um einen Router zu Konfigurieren verwende ich einen virtuellen Router in Form ei
 Ich hab mir eine neu VM erstellt und eine zweite Netzwerkkarte hinzugefügt. Die bekommt die 192.168.1.1 zugewiesen, die Netzwerkkarte klemme ich auch ein Netzwerk mit 192.168.1.0. Mein Konfigurationspc ist auch eine VM, hier ist es mal Ubuntu. Der PC bekommt 192.168.1.2.
 In die neue VM hänge ich mein Freifunkimage.vdmk als HDD ein und schon gehts los.
 
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
 ### 2.) Erster Start
 Zunächst starte ich meine beiden VM's. Im Routerfenster sehe ich die Konsole des Routers.
 
@@ -30,6 +32,8 @@ Dann wird die Adresse des Bedien-PC geprüft. Hier gibt es viele Möglichkeiten.
 ### 3.) Hauptbildschirm / Willkommen! Seite
 Dann starten wir unseren Browser und geben https://192.168.1.1 ein und schon wird der Startbildschirm angezeigt.
 
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
 <img src="https://cloud.ffhb.de/index.php/s/cimbERfB6ebcfs5/preview" width="800">
 
 Auf der Willkommen! Seite wird in der Kopfzeile die Softwareversion Angezeigt. Auf der rechten Seite ist Wizard hervorgehoben, dies ist der Knopf, der zu dieser Seite zurück führt. Daneben die Erweiterten Einstellungen. Bevor ihr Eingaben macht, erkundet bitte die Erweiterten Einstellungen.
@@ -42,6 +46,8 @@ In der unteren Hälfte der Willkommen Seite werden die Geodaten angegeben und Ko
 Die Geodaten werden auf der Seite [https://map.bremen.freifunk.net/#!/de/map](https://map.bremen.freifunk.net/#!/de/map) über den PIN (rechts oben) auf der Karte gesetzt und in die Routerkonfiguration kopiert. Bei einigen SW Versionen ist an dieser Stelle auf dem Router eine Karte eingebaut.
 
 <img src="https://cloud.ffhb.de/index.php/s/5XEaYPzKYgdaeBP/preview" width="800">
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 ### 4.) Immer erst die Unterseiten durcharbeiten.
 
@@ -83,7 +89,9 @@ Firmware aktualisieren. Hier können neue Images eingespielt werden oder die Kon
 
 <img src="https://cloud.ffhb.de/index.php/s/RNmoMMsDGYtMXiK/preview" width="800">
 
-###5.) Auf der Karte
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
+### 5.) Auf der Karte
 
 Wenn der Router neu startet, wird er nach ein paar Minuten auf der Karte angezeit, sofern die Geodaten eingegeben wurden.
 
