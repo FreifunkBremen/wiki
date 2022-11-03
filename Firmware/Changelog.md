@@ -983,12 +983,11 @@ Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfacht
 
 ### 2021.1.2
 **Veröffentlichungsdatum**: 05.05.2022  
-**offizielle Versionshinweise**: [2019.1.3](https://gluon.readthedocs.io/en/v2021.1.2/releases/v2021.1.2.html)  
+**offizielle Versionshinweise**: [2021.1.2](https://gluon.readthedocs.io/en/v2021.1.2/releases/v2021.1.2.html)  
 **Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2021.1.2/user/supported_devices.html)  
-**Github-Repository**: [Commits](https://github.com/freifunk-gluon/gluon/commits/v2019.1.3)
+**Github-Repository**: [Commits](https://github.com/freifunk-gluon/gluon/commits/v2021.1.2)
 
 #### Fehlerbehebungen
-- Behebung für kritische Sicherheitslücke [CVE-2022-24884](https://github.com/freifunk-gluon/gluon/security/advisories/GHSA-xqhj-fmc7-f8mv)
 - viele, viele Änderungen im Vergleich zur 2019.1.3
 
 
