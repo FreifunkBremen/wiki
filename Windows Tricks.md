@@ -7,7 +7,7 @@ Egal wie die Fenster gerade aussehen, dahinter funktionieren sie alle gleich.
 [[_TOC_]]
 
 
-### Zombie Hardware
+### Zombie Hardware (serielle USB Schnittstellen und andere)
 
  Wenn z.B. ein Adapter angestöpselt wird, dann wir er erkannt und im Gerätemanager angezeigt.
  Wenn es aber mal klemmt oder das Gerät nicht funktioniert, weil z.B. etwas anderes verwendet die Hardware.
