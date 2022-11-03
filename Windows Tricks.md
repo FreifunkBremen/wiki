@@ -54,6 +54,7 @@ start DEVMGMT.MSC
 | col 3 is | right-aligned |    $1 |
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
 | Syntax      | Description | Test Text     |
 | :---        |    :----:   |          ---: |
 | Header      | Title       | Here's this   |
@@ -64,6 +65,10 @@ start DEVMGMT.MSC
 | Header | Title |
 | Paragraph | Text |
 
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
