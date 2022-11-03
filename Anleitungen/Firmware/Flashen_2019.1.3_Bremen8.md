@@ -38,8 +38,15 @@ Hinweis: Eingaben in den Erweiterten Einstellungen werden über den Speichern Bu
 
 <img src="https://cloud.ffhb.de/index.php/s/rNfSSGXwy9eCF4z/preview" width="800">
 
+In der unteren Hälfte der Willkommen Seite werden die Geodaten angegeben und Kontaktdaten wenn gewünscht.
+Die Geodaten werden auf der Seite https://map.bremen.freifunk.net/#!/de/map über den PIN (rechts oben) auf der Karte gesetzt und in die Routerkonfiguration kopiert. Bei einigen SW Versionen ist an dieser Stelle auf dem Router eine Karte eingebaut.
+
+<img src="https://cloud.ffhb.de/index.php/s/rNfSSGXwy9eCF4z/preview" width="800">
 
 ### 4.) Immer erst die Unterseiten durcharbeiten.
+
+Imfolgenden die Unterseiten.
+Die INFO Seite zeigt einige technische Daten des Routers.
 
 <img src="https://cloud.ffhb.de/index.php/s/CSaB3D8sHCrNDnk/preview" width="800">
 <img src="https://cloud.ffhb.de/index.php/s/bBAYN29Qgsws8nq/preview" width="800">
