@@ -1,5 +1,8 @@
 # Blogeintrag verfassen
 
+## Inhalt
+
+[[_TOC_]]
 
 ## Markdown Spezialitäten zu beachten
 Im Gegensatz zum Github-Markdown, verhält sich unsere Website leicht anders, deswegen ist die Vorschau beim Website-Editor bei Github, nicht imme korrekt:
@@ -99,6 +102,49 @@ Diese Umrandung ist dabei wichtig:
 ![Bild](#/preview)   Ersetze das # durch den Link.
 <img src="#/preview">
 ~~~
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
+
+|  Tabelle | Tabelle |  Tabelle  | Tabelle  |  Tabelle |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
+| Syntax | Description |
+| --- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
+> #### The quarterly results look great!
+>
+> - Revenue was off the chart.
+> - Profits were higher than ever.
+>
+>  *Everything* is going according to **plan**.
 
 
 ----
