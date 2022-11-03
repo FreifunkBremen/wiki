@@ -31,6 +31,20 @@ Branch        | aktuelle Version                                                
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
+
+### v2021.1.2+bremen1
+**Veröffentlichung auf dem `stable`-Branch**: [noch nicht](https://downloads.bremen.freifunk.net/firmware/all/2021.1.2+bremen1/sysupgrade/stable.manifest)  
+**Veröffentlichung auf dem `testing`-Branch**: [noch nicht](https://downloads.bremen.freifunk.net/firmware/all/2021.1.2+bremen1/sysupgrade/testing.manifest)
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2021.1.2+bremen1) / [Commits/Compare](https://github.com/FreifunkBremen/gluon-site-ffhb/compare/v2019.1.3+bremen8...v2021.1.2+bremen1)  
+**gluon-Version**: [2019.1.3+ (git250b623f)](#2019-1-3-git250b623f)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2021.1.2+bremen1/)
+
+Diese Version ist die erste neue Versio nach der Umstellung auf Batman v15:
+- default site (falls per SSH installiert) auf ffhb_batv15
+- entfernen von alten site config (ffhb\_11s und ffhb\_legacy)
+- build.sh angepast für neuen gluon.sh
+- haveged durch urngd ersetzt
+
 ### 2019.1.3+bremen8
 **Veröffentlichung auf dem `stable`-Branch**: [21.06.2022](https://downloads.bremen.freifunk.net/firmware/all/2019.1.3+bremen8/sysupgrade/stable.manifest)  
 **Veröffentlichung auf dem `testing`-Branch**: [20.06.2022](https://downloads.bremen.freifunk.net/firmware/all/2019.1.3+bremen8/sysupgrade/testing.manifest)  
