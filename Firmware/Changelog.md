@@ -981,6 +981,17 @@ Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) 
 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
 
+### 2022.1
+**Veröffentlichungsdatum**: 05.09.2022  
+**offizielle Versionshinweise**: [2022.1](https://gluon.readthedocs.io/en/v2022.1/releases/v2022.1.html)  
+**Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2022.1/user/supported_devices.html)  
+**Github-Repository**: [Commits](https://github.com/freifunk-gluon/gluon/commits/v2022.1)
+
+#### Ängerungen
+- Viele neuen Geräte
+- Entfernen viele Geräte, die nicht genug Speicher haben (wie zum Beispiel: TP-Link WR421)
+- viele, viele Änderungen im Vergleich zur 2021.1
+
 ### 2021.1.2
 **Veröffentlichungsdatum**: 05.05.2022  
 **offizielle Versionshinweise**: [2021.1.2](https://gluon.readthedocs.io/en/v2021.1.2/releases/v2021.1.2.html)  
