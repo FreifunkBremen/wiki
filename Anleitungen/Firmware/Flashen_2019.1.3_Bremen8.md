@@ -36,7 +36,7 @@ Auf der Willkommen! Seite wird in der Kopfzeile die Softwareversion Angezeigt. A
 
 Hinweis: Eingaben in den Erweiterten Einstellungen werden über den Speichern Button gespeichert. Es können alle Unterseiten einzeln gespeichert werden. Wird auf der Startseite gespeichert, so bootet der Router und geht aus dem Konfigmodus in den Produktivmodus. Es können keine weiteren Eingaben gemacht werden.
 
-<img src="https://cloud.ffhb.de/index.php/s/bBAYN29Qgsws8nq/preview" width="800">
+<img src="https://cloud.ffhb.de/index.php/s/rNfSSGXwy9eCF4z/preview" width="800">
 
 
 ### 4.) Immer erst die Unterseiten durcharbeiten.
