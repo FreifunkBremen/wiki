@@ -36,9 +36,18 @@ Auf der Willkommen! Seite wird in der Kopfzeile die Softwareversion Angezeigt. A
 
 Hinweis: Eingaben in den Erweiterten Einstellungen werden über den Speichern Button gespeichert. Es können alle Unterseiten einzeln gespeichert werden. Wird auf der Startseite gespeichert, so bootet der Router und geht aus dem Konfigmodus in den Produktivmodus. Es können keine weiteren Eingaben gemacht werden.
 
+<img src="https://cloud.ffhb.de/index.php/s/NpK55Y4CioYfWF8/preview" width="800">
+
+
 ### 4.) Immer erst die Unterseiten durcharbeiten.
 
-
-<img src=" /preview" width="500">
-<img src=" /preview" width="500">
-<img src=" /preview" width="500">
+<img src="https://cloud.ffhb.de/index.php/s/CSaB3D8sHCrNDnk/preview" width="800">
+<img src="https://cloud.ffhb.de/index.php/s/LL5Sg2a5QNc8EKz/preview" width="800">
+<img src="https://cloud.ffhb.de/index.php/s/9DoyQN4RrFs5YaZ/preview" width="800">
+<img src="https://cloud.ffhb.de/index.php/s/eZzmCdfbeMnpbiK/preview" width="800">
+<img src="https://cloud.ffhb.de/index.php/s/GJM8PdLJe793X2E/preview" width="800">
+<img src="https://cloud.ffhb.de/index.php/s/PHoYEEHGL254LeE/preview" width="800">
+<img src="https://cloud.ffhb.de/index.php/s/Z6BZxBbso9ngkA4/preview" width="800">
+<img src="https://cloud.ffhb.de/index.php/s/tPqy9Lx9Qf6APBr/preview" width="800">
+<img src="https://cloud.ffhb.de/index.php/s/RNmoMMsDGYtMXiK/preview" width="800">
+<img src=" /preview" width="800">
