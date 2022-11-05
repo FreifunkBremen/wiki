@@ -9,6 +9,16 @@ Momentan können wir nur sagen, Ausprobieren und uns Routermodel und Software me
 
 [[_TOC_]]
 
+### 0.) Router vorbereiten
+Der Router, der jetzt ein Freifunkrouter werden soll, wird mit dem passenden Image geladen und neu gestartet.
+Zunächst auf dem Router Anmelden, ggf. muss erst ein PW eingerichtet werden.
+
+<img src="https://cloud.ffhb.de/index.php/s/kHpyaqARrFXsLdQ/preview" width="800">
+
+In den Routereinstellungen unter System, einen manuellen Systemupgrade durchführen. Dazu das passende Freifunk Image laden und den Router neu starten. Der Router startet im Freifunk Konfigmodus.
+
+<img src="https://cloud.ffhb.de/index.php/s/Q92wbK2BH3kXREP/preview" width="800">
+
 ### 1.) Konfigurationsbeispiel mit virtuellem Image.
 Um einen Router zu Konfigurieren verwende ich einen virtuellen Router in Form eines VMWare Inages. Zum Download wird auch ein Image als vdi angeboten. Ich verwende hier ""[gluon-ffhb-2019.1.3+bremen8-x86-64.vmdk](https://downloads.bremen.freifunk.net/firmware/stable/factory/gluon-ffhb-2019.1.3+bremen8-x86-64.vmdk)"" von unserem [Downloadserver](https://downloads.bremen.freifunk.net/firmware/).
 Ich hab mir eine neu VM erstellt und eine zweite Netzwerkkarte hinzugefügt. Die bekommt die 192.168.1.1 zugewiesen, die Netzwerkkarte klemme ich auch ein Netzwerk mit 192.168.1.0. Mein Konfigurationspc ist auch eine VM, hier ist es mal Ubuntu. Der PC bekommt 192.168.1.2.
