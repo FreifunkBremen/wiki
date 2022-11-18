@@ -22,11 +22,9 @@ Es ist noch nicht klar, ob das Treffen auch gleichzeitig per Videokonferenz übe
 
 ##### Tagesordnungen
 * der letzten Treffen:
-    * [[07.10.2022|Treffen/2022_10_07]]
-    * [[21.10.2022|Treffen/2022_10_21]]
-* der nächsten Treffen: 
     * [[04.11.2022|Treffen/2022_11_04]]
     * [[18.11.2022|Treffen/2022_11_18]]
+* der nächsten Treffen: 
     * [[02.12.2022|Treffen/2022_12_02]]
     * [[16.12.2022|Treffen/2022_12_16]]
     
