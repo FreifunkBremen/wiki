@@ -322,7 +322,7 @@ und wieder aus:
 UCI Befehle folgen.
 
 
-### Mesh on LAN & Clentports auf dem ER-X
+### Mesh on LAN & Clientports auf dem ER-X
 
 Folgende Konfiguration beschreibt, wie auf den LANports Mesh und Client aufgeteilt wird. Beachte, die Konfiguration ist nicht upgradefest und im Experimentierstatus, also keine Gewähr, dass es funktioniert.
 Um die Konfiguration zu verstehen, ist es hilfreich, sich die Unterschiede der /etc/config/network anzusehen, wenn der Router einmal als Mesh und dann als Client konfiguriert ist.
