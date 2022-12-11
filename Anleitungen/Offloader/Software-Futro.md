@@ -13,6 +13,7 @@ opkg install usbutil swap-utils  kmod-nls-cp1250 kmod-nls-cp1251 kmod-nls-cp437 
 opkg install kmod-nls-iso8859-1 kmod-nls-iso8859-13 kmod-nls-iso8859-15 kmod-nls-iso8859-2 kmod-nls-koi8r kmod-nls-utf8 
 opkg install kmod-usb-core kmod-usb2 kmod-usb-hid kmod-usb-net kmod-usb-net-asix kmod-usb-net-dm9601-ethernstall 
 
+.
 ~~~
 Die open aufgeführten Installationspakete sehen wie folgt auf:
 
