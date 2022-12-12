@@ -1,5 +1,5 @@
 Wenn du auf dieser Seite gelandet bist, ist meistens etwas schief gegangen. Keiner Sorge, das lässt sich fixen. Bei X86 - Systemen ist die Festplatte größer als die Systempartition. Die X86 Images belegen ungefähr 50Mb Plattenplatz auf der Disk. Der restliche Plattenplatz ist unpartitioniert und steht zum Spielen bereit. Dieser Platz lässt sich für andere Anwendungen nutzen und muss nur eingerichtet (oder wieder gerettet) werden. Dazu kann die vorhandene Partition vergrößert werden oder eine weitere Partition erstellt werden.
-Anm. Linux-Partitionen vergrössert man nicht, es wird eine neue in das vorhandene System eingehängt.
+Anm. Linux-Partitionen vergrössert man in der Regel nicht, es wird eine neue Partition in das vorhandene System eingehängt.
 Der Autoupdater sollte deaktiviert werden, das verhindert Überraschungen.
 
 Leider sind die Erweiterungen nicht upgradefest. Ein sysupgrade erzeugt immer wieder die Originalgröße des Images und löscht alle anderen Partitionen. Ein Fix in Gluon ist in Arbeit. Tip: Diese Spielereien können auch in einer VM Umgebung geübt werden. Mit der Umstellung auf LEDE wird sich die Partitionsgröße ändern, damit sind unsere Spielereien dann sowieso hinüber. Deshalb Backups anlegen und was ich behalten möchte, in einem Installationsscript ablegen, das erspart später viel Arbeit.
