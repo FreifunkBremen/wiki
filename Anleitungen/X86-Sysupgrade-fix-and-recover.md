@@ -181,8 +181,15 @@ uci commit gluon-wan-dnsmasq
 /etc/init.d/gluon-wan-dnsmasq restart
 ~~~
 
-Alternativ die Pakete direkt installieren, d.h. per scp ins /tmp Verzeichnis kopieren.
+Über SCP editieren: /etc/resolv.conf
+~~~
+search lan
+nameserver 8.8.8.8 8.8.4.4
+nameserver 2001:4860:4860::8888 2001:4860:4860::8844
 
+~~~
+
+Alternativ die Pakete direkt installieren, d.h. per scp ins /tmp Verzeichnis kopieren.
 ~~~
 root@ffhb-0019997a7220:~# opkg install openssl
 Unknown package 'openssl'.
@@ -226,6 +233,9 @@ https://downloads.openwrt.org/snapshots/packages/x86_64/packages/
 https://downloads.lede-project.org/snapshots/packages/x86_64/packages/
 ~~~
 Die Dateiablage ist identisch.
+
+#### Update Dezember 2022
+Die Datei /etc/opkg/distfed.conf anpassen, ändere alle Links von HTTPS auf HTTP, dann klappt die SW Aktualisierung ohne SSL!
 
 ### Offloader auf X86-64 Image updaten
 Die vielen Installationsanleitungen für einen Offloader beziehen sich immer auf das generic Image mit 32 Bit. Da funktioniert fast immer. Hier ist nun zu sehen wie einfach der Umstieg auf 64 Bit ist. In diesem Beispiel verwende ich die momentan gültige Testing unserer community. Bisher ist auf dem Offloader das Image https://downloads.bremen.freifunk.net/firmware/testing/sysupgrade/gluon-ffhb-2017.1.4+bremen2-x86-generic-sysupgrade.img.gz installiert. für den Umstieg lade ich das https://downloads.bremen.freifunk.net/firmware/testing/sysupgrade/gluon-ffhb-2017.1.4+bremen2-x86-64-sysupgrade.img.gz Image herunter. Mit einem unzipper eurer Wahl entpacken und ins /tmp Verzeichnis des Offloaders kopieren. Erfahrene Anwender machen das direkt alles im /tmp des Offloaders.
