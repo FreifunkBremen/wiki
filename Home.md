@@ -11,9 +11,9 @@ Zurück zur Homepage geht es [hier](https://bremen.freifunk.net) lang.
 Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat im [Hackerspace Bremen](https://www.hackerspace-bremen.de) um 19 Uhr. In der ersten halben Stunde werden Fragen von Neulingen beantwortet und um 19:30 Uhr wird die Tagesordnung eröffnet.  Üblicherweise dauern die Treffen 2-3 Stunden mit kleinen Pausen zwischendrin.
 
 ### #stayathome: Treffen während Corona
-~~Das Treffen im Hackerspace ist im Moment durch ein Online-Treffen per Videokonferenz ersetzt. Wir treffen uns zur gewohnten Zeit, aber nun unter [https://bremen.freifunk.net/to/videokonf](https://bremen.freifunk.net/to/videokonf) (Chrome empfohlen).~~
+Das Treffen im Hackerspace findet zusätzlich als Hybrides-Treffen per Videokonferenz ersetzt. Wir treffen uns zur gewohnten Zeit im Hackerspace und zusätzlich unter [https://bremen.freifunk.net/to/videokonf](https://bremen.freifunk.net/to/videokonf) (Chrome empfohlen).
 
-~~Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffhb) (s. [https://ffhb.de/kontakt.html](https://ffhb.de/kontakt.html)) genutzt werden; und das [Protokoll-Pad](https://hackmd.io/AwDgnA7ATArKC0BGGBjAzPALAUzSeARgYgGzxQAmEFFwiKBEKAhkA===?both) kommt beim Online-Treffen ebenfalls weiter zum Einsatz.~~
+Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffhb) (s. [https://ffhb.de/kontakt.html](https://ffhb.de/kontakt.html)) genutzt werden; und das [Protokoll-Pad](https://hackmd.io/AwDgnA7ATArKC0BGGBjAzPALAUzSeARgYgGzxQAmEFFwiKBEKAhkA===?both) kommt beim Online-Treffen ebenfalls weiter zum Einsatz.
 
 _Update von Mai 2022:_ nach zwei Jahren mit Online-Treffen haben wir beschlossen, die nächsten Treffen erst einmal wieder in der Realität stattfinden zu lassen.
 Wir treffen uns also am 3.6.2022 (und auch danach) wieder im Hackerspace.
