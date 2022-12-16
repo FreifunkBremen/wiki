@@ -15,17 +15,12 @@ Das Treffen im Hackerspace findet zusätzlich als Hybrides-Treffen per Videokonf
 
 Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffhb) (s. [https://ffhb.de/kontakt.html](https://ffhb.de/kontakt.html)) genutzt werden; und das [Protokoll-Pad](https://hackmd.io/AwDgnA7ATArKC0BGGBjAzPALAUzSeARgYgGzxQAmEFFwiKBEKAhkA===?both) kommt beim Online-Treffen ebenfalls weiter zum Einsatz.
 
-_Update von Mai 2022:_ nach zwei Jahren mit Online-Treffen haben wir beschlossen, die nächsten Treffen erst einmal wieder in der Realität stattfinden zu lassen.
-Wir treffen uns also am 3.6.2022 (und auch danach) wieder im Hackerspace.
-Dabei wird aller Voraussicht nach [Maskenpflicht bestehen](https://www.hackerspace-bremen.de/2022/04/29/raeume-wieder-fuer-besucherinnen-geoeffnet/).
-Es ist noch nicht klar, ob das Treffen auch gleichzeitig per Videokonferenz übertragen wird.
-
 ##### Tagesordnungen
 * der letzten Treffen:
     * [[18.11.2022|Treffen/2022_11_18]]
     * [[02.12.2022|Treffen/2022_12_02]]
-* der nächsten Treffen:     
     * [[16.12.2022|Treffen/2022_12_16]]
+* der nächsten Treffen:    
     * [[06.01.2023|Treffen/2023_01_06]]
     * [[20.01.2023|Treffen/2023_01_20]]
     
