@@ -449,7 +449,8 @@ Eine Nextcloud auf dem Pi zu istallieren ist eine recht einfache Sache. Damit di
 
 **Hinweis:** Ehrlich, brecht euch nicht die Finger. Verwendet das fertige NectCloudPi. Das ist Frustschonend.
 
-Aktualisierung, nur über ncp!!!!
+#### Aktualisierung, nur über ncp!!!!
+
     1) die config files bleiben erhalten und bleiben im passenden zustand
     2) es wird nichts geupdated was nicht getestet ist.
 
