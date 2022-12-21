@@ -33,7 +33,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 
 ### 2022.1.1+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: [noch nicht](https://downloads.bremen.freifunk.net/firmware/all/2022.1.1+bremen1/sysupgrade/stable.manifest)  
-**Veröffentlichung auf dem `testing`-Branch**: [noch nicht](https://downloads.bremen.freifunk.net/firmware/all/2022.1.1+bremen1/sysupgrade/testing.manifest)
+**Veröffentlichung auf dem `testing`-Branch**: [noch nicht](https://downloads.bremen.freifunk.net/firmware/all/2022.1.1+bremen1/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2022.1.1+bremen1) / [Commits/Compare](https://github.com/FreifunkBremen/gluon-site-ffhb/compare/v2021.1.2+bremen1...v2022.1.1+bremen1)  
 **gluon-Version**: [2022.1.1](#2022-1-1)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2022.1.1+bremen1/)
@@ -43,7 +43,7 @@ Diese Version ist nur eine Update auf der neuen Gluon-Version:
 
 ### 2021.1.2+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: [noch nicht](https://downloads.bremen.freifunk.net/firmware/all/2021.1.2+bremen1/sysupgrade/stable.manifest)  
-**Veröffentlichung auf dem `testing`-Branch**: [21.11.2022](https://downloads.bremen.freifunk.net/firmware/all/2021.1.2+bremen1/sysupgrade/testing.manifest)
+**Veröffentlichung auf dem `testing`-Branch**: [21.11.2022](https://downloads.bremen.freifunk.net/firmware/all/2021.1.2+bremen1/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2021.1.2+bremen1) / [Commits/Compare](https://github.com/FreifunkBremen/gluon-site-ffhb/compare/v2019.1.3+bremen8...v2021.1.2+bremen1)  
 **gluon-Version**: [2021.1.2](#2021-1-2)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2021.1.2+bremen1/)
