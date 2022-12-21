@@ -992,8 +992,8 @@ Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfacht
 
 ### 2022.1.1
 **Veröffentlichungsdatum**: 05.09.2022  
-**offizielle Versionshinweise**: [2022.1.1](https://gluon.readthedocs.io/en/v2022.1.1/releases/v2022.1.1.html)  
-**Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2022.1.1/user/supported_devices.html)  
+**offizielle Versionshinweise**: [2022.1.1](https://gluon.readthedocs.io/en/v2022.1.x/releases/v2022.1.1.html)  
+**Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2022.1.x/user/supported_devices.html)  
 **Github-Repository**: [Commits](https://github.com/freifunk-gluon/gluon/commits/v2022.1.1)
 
 #### Ängerungen
