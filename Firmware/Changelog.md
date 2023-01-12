@@ -49,6 +49,7 @@ Diese Version ist nur eine Update auf der neuen Gluon-Version:
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2021.1.2+bremen1/)
 
 Diese Version ist die erste neue Version nach der Umstellung auf Batman v15:
+- Upgrade auf eine viel neuere Gluon-Version ([2021.1.2](#2021-1-2)), wodurch z.B. weitere Geräte unterstützt werden
 - default site (falls per SSH installiert) auf ffhb_batv15
 - entfernen von alten site config (ffhb\_11s und ffhb\_legacy)
 - build.sh angepast für neuen gluon.sh
