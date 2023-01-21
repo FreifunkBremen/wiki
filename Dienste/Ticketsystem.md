@@ -26,11 +26,10 @@ Eine Übersicht von Anwendungen findet man unter dem Seitenleisten-Punkt "[Appli
 
 ### Admin / Backend
 #### SSH Zugriff
-Das Ticketsystem läuft auf `andromeda.hostedinspace.de` unter dem Benutzer `ffhb-tickets`.
+Das Ticketsystem läuft auf `webserver.ffhb.de` unter dem Benutzer `tasks`.
 Im Moment haben Zugriff:
-* mortzu (Serverinhaber)
-* ec8or
-* ollibaba
+* jplitza
+* mortzu
 * SimJoSt
 
 
