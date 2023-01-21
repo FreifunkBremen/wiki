@@ -102,11 +102,9 @@ IPv6 Routing zum Gateway vpn06
   * 2a06:8782:ffbb:1337::6 vpn06 (DNS, Gateway)
 * 2a06:8782:ffbb:1337::11 (bremnet.de/lxsbbs revival)
 * 2a06:8782:ffbb:1337::5b bis 5f (genofire)
-* 2a06:8782:ffbb:1337::86 gatemon-sommerwg.ffhb.moritzrudert.de, mortzu
-* 2a06:8782:ffbb:1337::87 gatemon-moge.ffhb.moritzrudert.de, mortzu
+* 2a06:8782:ffbb:1337::87 gatemon-moge, mortzu
 * 2a06:8782:ffbb:1337::b0 bis bf (janeric)
 * 2a06:8782:ffbb:1337::c8 (steffen)
-* 2a06:8782:ffbb:1337::d1 gatemon-charlotte (per WLAN), mortzu
 * 2a06:8782:ffbb:1337:1ad6:c7ff:fe90:dd6c CPE 210 v3.2 #Strahlemann ( Funktioniert irgentwie nicht ausserhalb aus FF. :-( )
 
 #### 2a06:8782:ffbb:42::/64
