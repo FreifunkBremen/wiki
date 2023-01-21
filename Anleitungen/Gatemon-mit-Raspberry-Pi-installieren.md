@@ -89,9 +89,9 @@ sudo systemctl disable dhcpcd
 
 Nach einem Reboot sollte `ip a | grep "inet "` die neue Adresse zeigen.
 
-Als nächstes installiert man die nötige Zusatzsoftware, mittels:
+Als nächstes installiert man die nötige Zusatzsoftware, mittels (als root):
 ```
-sudo apt-get install build-essential monitoring-plugins-basic monitoring-plugins-standard nagios-plugins-contrib ndisc6 dnsutils git curl
+apt-get install curl dnsutils gcc git jq libc6-dev make monitoring-plugins-basic monitoring-plugins-standard mtr-tiny
 ```
 (nicht wundern: dieser Befehl installiert ca. 80 neue Pakete).
 
@@ -172,7 +172,7 @@ The results of all gatemons (in Bremen) are available here:
  [status.ffhb.de](https://status.ffhb.de/) .
 
 Questions on this Article and the gatemons are welcome either in the 
-Chat or on the Mailinglist, Contact-Info can be found here: https://ffhb.de/kontakt.html. 
+Chat or on the Mailinglist, Contact-Info can be found here: [[https://ffhb.de/kontakt.html]]. 
 we are looking forward to constructive criticism and feedback.
 
 
@@ -193,7 +193,7 @@ For the setup-process you will need:
 
 
 ## install Raspian
-Get an image of raspian here:  https://www.raspberrypi.org/downloads/raspbian/ 
+Get an image of raspian here: [[https://www.raspberrypi.org/downloads/raspbian/]]
 This Documentation assumes the Lite-Version of Raspian. For other images than "Lite" it may be necessary to use an USB-Mouse.
 
 Write the image to a SD-Card, as mentioned in the raspberry- [Guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md).
@@ -232,7 +232,7 @@ iface eth0 inet6 auto
 Idealy you connect the raspi to one of your freifunk-routers, you could also use the wifi, but none of us tried this so far. 
 (Many router-models have USB-Ports, you can use this to power the raspi)
 
-To be connected to the Freifunk-Net, the Mesh-on-LAN option mus be disabled. (The raspi needs the client-net)
+To be connected to the Freifunk-Net, the Mesh-on-LAN option must be disabled. (The raspi needs the client-net)
 
 After connecting the raspi to the router and rebooting via `sudo reboot`, you can login again and check the ip-adresses, the raspi was given. 
 Example:
@@ -247,12 +247,12 @@ Use it to connect to the pi via ssh (user "pi")
 
 
 ## Installing Gatemon 
-The Gatemon-Software needs an API-Token to send data to https://status.ffhb.de/. 
+The Gatemon-Software needs an API-Token to send data to [[https://status.ffhb.de/]]. 
 You can get a Token in our IRC-Chat or via Mail to: liste@bremen.freifunk.net. Simply say "hi, i am XYZ and would like to have a Token for status.ffhb.de"
 The Token is a long string, just like a password. Please use on Token for each Gatemon. 
 
 Furthermore your raspi needs a static IPv4-Adress (since the DHCP-Port is needed for the tests and cannot be used for the normal adress-management).
-To set a static IPv4-Adress, go to https://wiki.ffhb.de/Dienste/Home#ipv4-adressen , find an unused adress, write this adress with your nicname and some contact data on this page.
+To set a static IPv4-Adress, go to [[https://wiki.ffhb.de/Dienste/Home#ipv4-adressen]], find an unused adress, write this adress with your nickname and some contact data on this page.
 
 The adress (lets assume 10.196.0.250 here) can be used by writing the following lines (and only these lines) in the file `/etc/network/interfaces.d/eth0` 
 
@@ -276,34 +276,31 @@ sudo systemctl disable dhcpcd
 
 After reboot, the command  `ip a | grep "inet "` should print your IP.
 
-Next, you need the software, install it via:
+Next, you need the software, install it via (as root):
 ```
-sudo apt-get install build-essential monitoring-plugins-basic monitoring-plugins-standard nagios-plugins-contrib ndisc6 dnsutils git curl
+apt-get install curl dnsutils gcc git jq libc6-dev make monitoring-plugins-basic monitoring-plugins-standard mtr-tiny
 ```
 (dont panic, this command installs around 80 packages)
 
-Then install the Gatemon-Software as described on the github-page:
-https://github.com/FreifunkBremen/gatemon#installation beschrieben:
+Then install the Gatemon-Software as described on the [github-page](https://github.com/FreifunkBremen/gatemon#installation) (as root):
 
 ```
 git clone https://github.com/FreifunkBremen/gatemon
 cd gatemon
 make check_dhcp
-sudo mkdir /usr/lib/gatemon
-sudo cp check-all-vpn-exits.sh check_dhcp /usr/lib/gatemon/
-sudo cp check-all-vpn-exits.cfg /etc/
-sudo cp check-all-vpn-exits.cron /etc/cron.d/check-all-vpn-exits
+cp gatemon.cfg /etc/
+cp gatemon.cron /etc/cron.d/gatemon
 ```
 
 Second last step:
-edit the following lines in the file `/etc/check-all-vpn-exits.cfg`:
+edit the following lines in the file `/etc/gatemon.cfg`:
 
 * API_TOKEN: your API-Token, that you got before.
-* MESHMON_NAME: a short name for yur gatemon. It will appear on status.ffhb.de (no more than 20 characters, please)
-* MESHMON_PROVIDER: short description of your Internet-Provider; This text will appear on status.ffhb.de in the Tooltip and can help to localize the problem to certain providers.
+* GATEMON_NAME: a short name for yur gatemon. It will appear on status.ffhb.de (no more than 20 characters, please)
+* GATEMON_PROVIDER: short description of your Internet-Provider; This text will appear on status.ffhb.de in the Tooltip and can help to localize the problem to certain providers.
 * NETWORK_DEVICE: eth0 (the name of the network-Interface, that is connected to the internet, usually eth0. You are free to try setting up a gatemon via wifi, please give feedback to the mailinglist.)
 
-Now wait 15 Minutes. Then, the gatemon should appear on  https://status.ffhb.de/ . 
+Now wait 15 Minutes. Then, the gatemon should appear on [[https://status.ffhb.de/]].
 The Gatemon-Tests will run every 10 Minutes.
 If that works, you can disconnect screen and keyboard and place the raspi next to your freifunk-Router.
 DONE!
@@ -312,7 +309,7 @@ DONE!
 If the Gatemon doesnt appear on status.ffhb.de after 15 minutes,
 you can start the Check-Software with this command:
 ```
-sudo /usr/lib/gatemon/check-all-vpn-exits.sh
+sudo /opt/gatemon/gatemon.sh
 ```
 The output may tell you more about the problem. If the output looks fine, the cronjob may be the problem. 
 
@@ -324,4 +321,4 @@ Further assistance can be requested in the IRC-Channel or on the Mailinglist.
       * run `sudo netstat -tapnu | grep ":68 "` to see which process is using port 68
       * if it is a "dhcpcd" process: run `sudo systemctl disable dhcpcd` die disable it for the future, then stop the current dhcpcd process with `sudo systemctl stop dhcpcd`
 * **cron job doesn't run:**
-  * make sure the file in /etc/cron.d/ has no suffix (it should be named `/etc/cron.d/check-all-vpn-exits`, without any `.cron` suffix)
+  * make sure the file in /etc/cron.d/ has no suffix (it should be named `/etc/cron.d/gatemon`, without any `.cron` suffix)
