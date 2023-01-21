@@ -48,8 +48,7 @@ Diese Leute stehen in Kontakt mit dem Senat zwecks Umsetzung des [Bürgerschafts
 
 **Erreichbarkeit:** politik@bremen.freifunk.net
 
-* Claus / Nebirosh
-* SimJoSt
+* Vorstand des [Vereins](https://bremen.freifunk.net/verein/)
 
 
 ## Social-Media
