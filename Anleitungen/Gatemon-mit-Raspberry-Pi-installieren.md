@@ -119,7 +119,7 @@ Wenn das alles soweit funktioniert, kann man Tastatur und Monitor abstöpseln un
 ## Fehlersuche
 Falls der eigene Gatemon nicht nach spätestens 15 Minuten auf status.ffhb.de auftaucht, kann man mal die Check-Software von Hand starten:
 ```
-sudo /usr/lib/gatemon/check-all-vpn-exits.sh
+sudo /opt/gatemon/gatemon.sh
 ```
 Aus den Ausgaben lässt sich evtl. rausfinden, wo das Problem liegt.
 
@@ -131,7 +131,7 @@ Weitere Hilfe findet man dann im IRC, auf der Mailingliste oder beim Treffen.
       * lass dir mit `sudo netstat -tapnu | grep ":68 "` anzeigen, wer grad Port 68 benutzt
       * falls es ein dhcpcd-Prozess ist: den Dienst mit `sudo systemctl disable dhcpcd` für die Zukunft deaktivieren, und dann mit `sudo systemctl stop dhcpcd` den aktuellen dhcpcd-Prozess beenden
 * **Cron-Job läuft nicht:**
-  * die Datei in /etc/cron.d/ darf keine Endung haben (muss also `/etc/cron.d/check-all-vpn-exits` heißen, ohne `.cron` am Ende)
+  * die Datei in /etc/cron.d/ darf keine Endung haben (muss also `/etc/cron.d/gatemon` heißen, ohne `.cron` am Ende)
 
 ### Gatemon-Update
 Ein Update wird wie folgt durchgeführt. SSH Zugang als root zum Gatemon herstellen.
