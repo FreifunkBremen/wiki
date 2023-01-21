@@ -5,10 +5,10 @@
 | Server | Sponsor       | Kosten       |
 |:-------|:--------------|:-------------|
 | bre1   | LWLCOM        | unbekannt    |
-| bre2   | PLUTEX        | unbekannt    |
+| bre2   | PLUTEX / Förderverein | 14,28 € / Jahr |
 
 ## Domains
 
 | Domain          | Sponsor       | Kosten        |
 |:----------------|:--------------|:--------------|
-| ffhb.de         | jplitza       | 4,65 € / Jahr |
+| ffhb.de         | Förderverein  | 4,65 € / Jahr |
