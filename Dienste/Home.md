@@ -37,7 +37,6 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.90-94 genofire
     * 10.196.0.127 local-node FFHB
     * 10.196.0.135 gatemon-moge, mortzu
-    * 10.196.0.136 services.ffhb.mortzu.de (u.A. gatemon-plutex), mortzu
     * 10.196.0.137 gatemon-gueterbahnhof, yannik
     * 10.196.0.139 gatemon-banane, yannik
     * 10.196.0.141 gatemon-yannik2, yannik
@@ -46,7 +45,6 @@ Folgende IP-Adressen sind vergeben:
     * 10.196.0.150 test-vm, anon6789
     * 10.196.0.200 Dienste von jplitza
     * 10.196.0.250 gatemon-oliverspi, ollibaba
-    * 10.196.0.251 gatemon-charlotte (per WLAN), mortzu
     * 10.196.1.0/24 Richtfunk-Management
         * 10.196.1.4 Hal över Fährhäuschen NanoBeam
     * 10.196.2.10 - 50 Testbreich #Strahlemann
@@ -104,10 +102,8 @@ IPv6 Routing zum Gateway vpn06
   * 2a06:8782:ffbb:1337::6 vpn06 (DNS, Gateway)
 * 2a06:8782:ffbb:1337::11 (bremnet.de/lxsbbs revival)
 * 2a06:8782:ffbb:1337::5b bis 5f (genofire)
-* 2a06:8782:ffbb:1337::83 gatemon-charlotte.ffhb.moritzrudert.de, mortzu
 * 2a06:8782:ffbb:1337::86 gatemon-sommerwg.ffhb.moritzrudert.de, mortzu
 * 2a06:8782:ffbb:1337::87 gatemon-moge.ffhb.moritzrudert.de, mortzu
-* 2a06:8782:ffbb:1337::88 services.ffhb.moritzrudert.de (u.A. gatemon-plutex), mortzu
 * 2a06:8782:ffbb:1337::b0 bis bf (janeric)
 * 2a06:8782:ffbb:1337::c8 (steffen)
 * 2a06:8782:ffbb:1337::d1 gatemon-charlotte (per WLAN), mortzu
@@ -130,4 +126,4 @@ Babel-Netzwerksegment das für die Clients an den Knotes/Nodes und darüber hina
   * 2a06:8782:ffbb:bat1::5 vpn05 (DNS, Gateway, anon6789/genofire)
 
 ## Andere Netze
-Aus dem Bremer Freifunk-Netz heraus erreichst du auch die Freifunk-Netze andere Städte und deren Dienste, beispielsweise [jene in Lübeck](http://luebeck.freifunk.net/wiki/Freifunk-verwenden). Auch zu anderen Netzen wie dem [dn42](http://dn42.net) oder [Chaos-VPN](http://wiki.hamburg.ccc.de/index.php/ChaosVPN) besteht eine Verbindung.
+Aus dem Bremer Freifunk-Netz heraus erreichst du auch die Freifunk-Netze andere Städte und deren Dienste. Auch zu anderen Netzen wie dem [dn42](http://dn42.net) oder [Chaos-VPN](http://wiki.hamburg.ccc.de/index.php/ChaosVPN) besteht eine Verbindung.
