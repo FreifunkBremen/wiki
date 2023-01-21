@@ -45,8 +45,8 @@ Zum Uplink siehe [[Infrastruktur/Netzwerk]]
 | [DNS](https://github.com/FreifunkBremen/ffhb-dns)  | corny, genofire, jplitza, mortzu   | Bremen / LWLcom  |
 | [Wiki](https://wiki.ffhb.de)           | jplitza, mortzu           | Bremen / LWLcom       |
 | [Karte](https://map.ffhb.de)           | genofire, jplitza, mortzu | Bremen / LWLcom       |
-| [Ticketsystem](https://tasks.ffhb.de)  | mortzu, SimJoSt, ollibaba | Bremen / LWLcom       |
-| [gatemon](https://status.ffhb.de)      | mortzu                    | Bremen / LWLcom       |
+| [Ticketsystem](https://tasks.ffhb.de)  | jplitza, mortzu, oliver, SimJoSt | Bremen / LWLcom       |
+| [gatemon](https://status.ffhb.de)      | jplitza, mortzu           | Bremen / LWLcom       |
 | [tiles](https://tiles.ffhb.de) (s.a. [[Anleitungen/Kartendaten aktualisieren]]) | ollibaba                  | Bremen / LWLcom       |
 
 
