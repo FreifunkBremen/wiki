@@ -4,7 +4,6 @@ Auf unserem Download-Server wird unsere Firmware hinterlegt sowie verschiedene D
 ## Zugriff
 Der Download-Server läuft auf `webserver.ffhb.de` unter dem Benutzer `downloads`.
 Im Moment haben Zugriff:
-* corny
 * jplitza
 * mortzu
 * ollibaba
