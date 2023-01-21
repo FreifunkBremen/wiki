@@ -11,22 +11,21 @@ Diese Leute kümmern sich um Anfragen von Knotenbesitzern und jenen, die es werd
 **Erreichbarkeit:** info@bremen.freifunk.net  
 *(presse@bremen.freifunk.net zeigt auf info@bremen.freifunk.net um die Wiederaufnahme alter Anfragen möglich zu machen)*
 
-* SimJoSt
-* corny / Julian
-* Yannik
-* Louis
+* corny
 * FrankT
-* Jan-Eric
-
+* janeric
+* lokn
+* SimJoSt
+* yannik
 
 ## Firmware
 Diese Leute bauen und verwalten die Software, die auf den Knoten läuft.
 
 **Erreichbarkeit:** über die [Liste](https://lists.ffhb.de/mailman/listinfo/ff-bremen)
 
-* JP
+* jplitza
+* oliver
 * SimJoSt
-* Oliver
 
 
 ## Gateways
@@ -34,11 +33,11 @@ Diese Leute administrieren die Gateways (a.k.a. VPN-Server), zu denen sich die K
 
 **Erreichbarkeit:** gerne über die [Liste](https://lists.ffhb.de/mailman/listinfo/ff-bremen), oder für Vertrauliches über server@bremen.freifunk.net
 
-* JP
-* Moritz / mortzu
-* Geno / Martin / genofire
-* anon6789 / Jelto
-* corny / Julian
+* genofire
+* janeric
+* jplitza
+* mortzu
+* oliver
 
 Verantwortung der einzelnen Gateways siehe: [[Infrastruktur/Server|/Infrastruktur/Server]]
 
@@ -53,26 +52,26 @@ Diese Leute stehen in Kontakt mit dem Senat zwecks Umsetzung des [Bürgerschafts
 
 ## Social-Media
 ### [Twitter](https://twitter.com/FreifunkHB)
-* JP
-* Louis
+* jplitza
+* lokn
 * SimJoSt
 
 ### [Facebook](https://www.facebook.com/FreifunkBremen)
 * *Administratoren:*
+  * anon6789
+  * lokn
   * SimJoSt
-  * Jelto
-  * Louis
 * *Redakteur:*
-  * Timlukas
   * chrische
-  * corny / Julian
-  * morpheus / Simon
-  * Gesche
+  * corny
+  * gesche
+  * morpheus
+  * timlukas
 
 ### [Instagram](https://www.instagram.com/freifunkhb/)
+* lokn
+* janeric
 * SimJoSt
-* Louis
-* Jan-Eric
 
 ### [OStatus + ActivityPub (Mastodom)](https://chaos.social/@FreifunkBremen)
 * genofire
