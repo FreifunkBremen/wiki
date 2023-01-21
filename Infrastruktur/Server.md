@@ -1,7 +1,7 @@
 Es gibt momentan 6 Gateway-Server, die zum Verbinden der Knoten untereinander und mit dem Internet genutzt werden.
 
 ## Gateways a.k.a VPNs
-Der Status der Gateways kann hier eingesehen werden: https://status.bremen.freifunk.net/
+Der Status der Gateways kann hier eingesehen werden: [[https://status.bremen.freifunk.net/]]
 
 Zum Uplink siehe [[Infrastruktur/Netzwerk]]
 
