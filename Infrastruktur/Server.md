@@ -54,10 +54,9 @@ Zum Uplink siehe [[Infrastruktur/Netzwerk]]
 
 | Server | Dienste               | Verantwortlicher           | Standort              |
 |-------------------------|-----------------------|----------------------------|-----------------------|
-| bre-1  | DNS, Mailserver, Webserver, Karte (ffmap), IPv6-Downlink, vpn01, vpn03, vpn07, vpn08 | chrische, morpheus, mortzu, jplitza | Bremen / LWLcom |
+| bre-1  | DNS, Mailserver, Webserver, Karte (ffmap), IPv6-Downlink, vpn01, vpn09 | chrische, morpheus, mortzu, jplitza | Bremen / LWLcom |
 | Cisco-Router | BGP | chrische, morpheus, mortzu, jplitza    | Bremen / LWLcom       |
-| bre-2  | Jenkins, vpn02, vpn04, vpn09 | mortzu, jplitza            | Bremen / PLUTEX       |
-| echo   | vpn05                 | mortzu                     | Bremen / PLUTEX       |
+| bre-2  | BGP-Router, GitLab, Jenkins, Monitoring, [NLNOG-Server](https://ring.nlnog.net/), vpn07, vpn09 | mortzu, jplitza            | Bremen / PLUTEX       |
 
 
 # Hinweise zu den Servern
