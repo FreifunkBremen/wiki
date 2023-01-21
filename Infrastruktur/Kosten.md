@@ -1,14 +1,11 @@
 # laufende Kosten
 
-## Server
+## Physikalische Server
 
 | Server | Sponsor       | Kosten       |
 |:-------|:--------------|:-------------|
-| vpn01  | LWLCOM        | unbekannt    |
-| vpn02  | PLUTEX        | unbekannt    |
-| vpn03  | LWLCOM        | unbekannt    |
-| vpn05  | anon6789      | unbekannt    |
-| vpn06  | corny         | unbekannt    |
+| bre1   | LWLCOM        | unbekannt    |
+| bre2   | PLUTEX        | unbekannt    |
 
 ## Domains
 
