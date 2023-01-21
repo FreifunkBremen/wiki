@@ -139,6 +139,7 @@ Ein Update wird wie folgt durchgeführt. SSH Zugang als root zum Gatemon herstel
 cd /opt/gatemon
 git pull --rebase https://github.com/FreifunkBremen/gatemon
 make check_dhcp
+make -C libpacketmark
 ~~~
 
 #### Upgrade auf 0.5
