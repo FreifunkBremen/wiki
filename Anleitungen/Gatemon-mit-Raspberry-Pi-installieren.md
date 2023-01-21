@@ -4,7 +4,7 @@
 
 Diese Artikel beschreibt, wie man auf einem [Raspberry Pi](https://www.raspberrypi.org/) die Bremer [Gatemon-Software](https://github.com/FreifunkBremen/gatemon) installiert. Mit so einem Gerät hilft man, die Bremer Freifunk-VPN-Server ständig auf Probleme zu überprüfen. Die Ergebnisse aller Gatemons sind unter [status.ffhb.de](https://status.ffhb.de/) verfügbar.
 
-Fragen zu diesem Artikel könnt ihr im Chat oder auf der Mailing-Liste stellen, wie unter https://ffhb.de/kontakt.html beschrieben. Ich freu mich über Verbesserungen und Korrekturen!
+Fragen zu diesem Artikel könnt ihr im Chat oder auf der Mailing-Liste stellen, wie unter [[https://ffhb.de/kontakt.html]] beschrieben. Ich freu mich über Verbesserungen und Korrekturen!
 
 Es soll bewusst auf einem Raspberri Pi laufen, statt auf einem Router. Da so die sicht "als Client" aufs Netz sichergestellt werden soll.
 
@@ -23,7 +23,7 @@ Zur Einrichtung braucht man:
 - grundlegende Kenntnisse der Linux-Kommandozeile
 
 ## Raspian installieren
-Unter https://www.raspberrypi.org/downloads/raspbian/ lädt man sich eines der angebotenen Images runter.
+Unter [[https://www.raspberrypi.org/downloads/raspbian/]] lädt man sich eines der angebotenen Images runter.
 Ich gehe in dieser Anleitung davon aus, dass das "Lite"-Image verwendet wird. Wenn man später gerne eine grafische Oberfläche auf dem Raspi haben möchte, kann man auch eines der anderen Images nehmen. Dann braucht man während der Installation zusätzlich eine USB-Maus.
 
 Das Image schreibt man auf die SD-Karte, wie in der [Anleitung](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) beschrieben.
@@ -61,10 +61,10 @@ Der Raspi wird jetzt an diesen LAN-Port angeschlossen und neugestartet (mittels 
 Der Teil zwischen "inet6" und dem Schrägstrich ist die öffentliche IPv6-Adresse. Unter dieser Adresse meldet man sich jetzt per SSH an (Benutzer "pi").
 
 ## Gatemon installieren
-Die Gatemon-Software benötigt ein sogenanntes API-Token, um Daten zu https://status.ffhb.de/ hochzuladen. Dieses Token bekommt man z.B. im IRC-Chat, oder per Mail-Anfrage an liste@bremen.freifunk.net oder bei einem Freifunk-Treffen: einfach fragen "ich bin der XYZ und hätte gerne ein API-Token für status.ffhb.de".
+Die Gatemon-Software benötigt ein sogenanntes API-Token, um Daten zu [[https://status.ffhb.de/]] hochzuladen. Dieses Token bekommt man z.B. im IRC-Chat, oder per Mail-Anfrage an liste@bremen.freifunk.net oder bei einem Freifunk-Treffen: einfach fragen "ich bin der XYZ und hätte gerne ein API-Token für status.ffhb.de".
 Das Token ist einfach eine lange Zeichenfolge (wie ein langes Passwort). Man sollte ein Token immer nur auf einem einzigen Gatemon verwenden.
 
-Außerdem braucht der Raspi für die Gatemon-Software eine statische IPv4-Adresse (weil der DHCP-Port für die Tests benötigt wird und man somit keinen DHCP-Client laufen lassen kann). Dazu sucht man sich unter https://wiki.ffhb.de/Dienste/Home#ipv4-adressen eine unbenutzte Adresse und trägt diese auf der Wiki-Seite ein (zusammen mit einem IRC-Nick oder anderen Kontaktdaten).
+Außerdem braucht der Raspi für die Gatemon-Software eine statische IPv4-Adresse (weil der DHCP-Port für die Tests benötigt wird und man somit keinen DHCP-Client laufen lassen kann). Dazu sucht man sich unter [[https://wiki.ffhb.de/Dienste/Home#ipv4-adressen]] eine unbenutzte Adresse und trägt diese auf der Wiki-Seite ein (zusammen mit einem IRC-Nick oder anderen Kontaktdaten).
 
 Die gewählte IP (z.B. "10.196.0.250") benutzt man, indem man in `/etc/network/interfaces.d/eth0` folgenden Inhalt einträgt (statt des bisherigen Inhalts):
 
@@ -95,7 +95,7 @@ sudo apt-get install build-essential monitoring-plugins-basic monitoring-plugins
 ```
 (nicht wundern: dieser Befehl installiert ca. 80 neue Pakete).
 
-Dann installiert man die Gatemon-Software, wie unter https://github.com/FreifunkBremen/gatemon#installation beschrieben (ab einer halbwegs neuen Version heißen die Daten "gatemon.\*" statt "check-all-vpn-exits.\*"):
+Dann installiert man die Gatemon-Software, wie unter [[https://github.com/FreifunkBremen/gatemon#installation]] beschrieben (ab einer halbwegs neuen Version heißen die Daten "gatemon.\*" statt "check-all-vpn-exits.\*"):
 ```
 git clone https://github.com/FreifunkBremen/gatemon
 cd gatemon
@@ -112,7 +112,7 @@ Weiterhin bearbeitet man die `/etc/check-all-vpn-exits.cfg` und ändert die Anga
 * MESHMON_PROVIDER: kurzer Beschreibung des verwendeten Internet-Provider; der Text erscheint auf status.ffhb.de im Tooltip und kann helfen, Probleme auf einzelne Provider einzugrenzen
 * NETWORK_DEVICE: eth0 (also der Name des Netzwerk-Interface, mit dem der Raspi ins Netz geht)
 
-Jetzt wartet man bis zu 15 Minuten; danach sollte auf https://status.ffhb.de/ der eigene Gatemon neu auftauchen. Die Gatemon-Tests werden nun automatisch alle 10 Minuten durchgeführt.
+Jetzt wartet man bis zu 15 Minuten; danach sollte auf [[https://status.ffhb.de/]] der eigene Gatemon neu auftauchen. Die Gatemon-Tests werden nun automatisch alle 10 Minuten durchgeführt.
 
 Wenn das alles soweit funktioniert, kann man Tastatur und Monitor abstöpseln und den Raspi in die Ecke neben den Freifunk-Router stellen. Fertig!
 
@@ -153,7 +153,7 @@ Konfigdatei anpassen: /etc/gatemon.cfg
 * automatische Updates einrichten
 * Postfix installieren, um Fehler-Ausgaben zu bekommen
 * rdnssd für dynamische DNS-Server-Adressen einrichten
-** s.a. https://olivergerlich.wordpress.com/2017/07/20/preventing-rdnssd-from-ruining-the-sd-card/
+** s.a. [[https://olivergerlich.wordpress.com/2017/07/20/preventing-rdnssd-from-ruining-the-sd-card/]]
 * Datei in /etc/cron.d/ darf keine Endung haben, war bei yannik problematisch.
 * auf bananaPI kann man auch gatemon installieren, ich musste aber build-essentials installieren und in /etc/dhcp/dhcpcp.conf alles auskommentieren. (und vllt noch 1-2 weitere sachen, die ich übersehen hab) Ich würds trotzdem empfehlen, google hilft.
 
