@@ -2,7 +2,7 @@
 
 **Termin:** 19:00 Uhr Start und Neulingsbegrüßung, 19:30 Uhr Eröffnung der Tagesordnung
 
-**Ort:** [online](https://bremen.freifunk.net/to/videokonf)
+**Ort:** [online https://meet.ffmuc.net/ffhb](https://meet.ffmuc.net/ffhb)
 
 ## Tagesordnung
 ### Neulingsbegrüßung (19:00 – 19:30 Uhr)
