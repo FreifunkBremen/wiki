@@ -11,7 +11,7 @@ Zurück zur Homepage geht es [hier](https://bremen.freifunk.net) lang.
 Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat im [Hackerspace Bremen](https://www.hackerspace-bremen.de) um 19 Uhr. In der ersten halben Stunde werden Fragen von Neulingen beantwortet und um 19:30 Uhr wird die Tagesordnung eröffnet.  Üblicherweise dauern die Treffen 2-3 Stunden mit kleinen Pausen zwischendrin.
 
 ### #stayathome: Treffen während Corona
-Zu dem Treffen im Hackerspace findet zusätzlich als Hybrides-Treffen per Videokonferenz statt. Wir treffen uns zur gewohnten Zeit im Hackerspace und zusätzlich unter [https://bremen.freifunk.net/to/videokonf](https://bremen.freifunk.net/to/videokonf) (Chrome empfohlen).
+Zu dem Treffen im Hackerspace findet zusätzlich als Hybrides-Treffen per Videokonferenz statt. Wir treffen uns zur gewohnten Zeit im Hackerspace und zusätzlich unter [https://meet.ffmuc.net/ffhb](https://meet.ffmuc.net/ffhb) (Chrome empfohlen).
 
 Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffhb) (s. [https://ffhb.de/kontakt.html](https://ffhb.de/kontakt.html)) genutzt werden; und das [Protokoll-Pad](https://hackmd.io/AwDgnA7ATArKC0BGGBjAzPALAUzSeARgYgGzxQAmEFFwiKBEKAhkA===?both) kommt beim Online-Treffen ebenfalls weiter zum Einsatz.
 
@@ -23,8 +23,8 @@ Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffh
     * [[20.01.2023|Treffen/2023_01_20]]
     * [[03.02.2023|Treffen/2023_02_03]]
     * [[17.02.2023|Treffen/2023_02_17]]
-    * [[03.03.2023|Treffen/2023_02_03]]
-    * [[17.03.2023|Treffen/2023_02_17]]
+    * [[03.03.2023|Treffen/2023_03_03]]
+    * [[17.03.2023|Treffen/2023_03_17]]
     
 * [Liste aller Treffen](/gollum/overview/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
 * Weitere Termine (nicht nur Treffen) finden sich in den Protokollen zu den verschiedenen Treffen
