@@ -28,12 +28,14 @@ tp-link-tl-wr740n-nd-v4
 ## Image suchen
 
 Jetzt suchen :eyes: wir uns das passende Image.
-Unter https://downloads.bremen.freifunk.net/firmware/ werden die Verzeichnisse mit den Images aufgelistet.
+Unter [https://downloads.bremen.freifunk.net/firmware/](https://downloads.bremen.freifunk.net/firmware/) werden die Verzeichnisse mit den Images aufgelistet.
 Zum Beispiel liegen unter https://downloads.bremen.freifunk.net/firmware/all/2016.1.5+bremen1/sysupgrade/
 die Images für v2015.1.5+bremen1 vom 26.5.2016. Bzw. einfach mal Suchen und das finden, welches ich Einspielen möchte.
 
 Den Link zu dem entsprechen Image aus dem Browser kopieren und mit wget voran auf der Konsole einfügen. Auf dem Image mit rechter Maustaste klicken und Linkadresse kopieren.
-
+~~~
+Schreibe wget und füge den kopierten Links ein, mache aus https:// ein http://
+~~~
 Für den TP-LINK TL-WR1043ND sieht das so aus.
 ~~~
 wget http://downloads.bremen.freifunk.net/firmware/all/2016.1.5+bremen1/sysupgrade/gluon-ffhb-2016.1.5+bremen1-tp-link-tl-wr1043n-nd-v1-sysupgrade.bin
