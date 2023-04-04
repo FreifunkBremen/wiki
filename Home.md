@@ -20,9 +20,13 @@ Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffh
     * [[03.03.2023|Treffen/2023_03_03]]
     * [[17.03.2023|Treffen/2023_03_17]]
 * der nächsten Treffen:    
-    * [[07.04.2023 (Online!)|Treffen/2023_04_07]]
+    * [[07.04.2023 (Karfreitag Online!)|Treffen/2023_04_07]]
     * [[21.04.2023|Treffen/2023_04_21]]
-
+    * [[05.05.2023|Treffen/2023_05_05]]
+    * [[19.05.2023|Treffen/2023_05_19]]
+    * [[02.06.2023|Treffen/2023_06_02]]
+    * [[16.06.2023|Treffen/2023_06_16]]
+    
 * [Liste aller Treffen](/gollum/overview/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
 * Weitere Termine (nicht nur Treffen) finden sich in den Protokollen zu den verschiedenen Treffen
 Eine Übersicht aller Arten von Zusammenkünften findest du unter [[Treffen|Treffen/00_Treffen]].
