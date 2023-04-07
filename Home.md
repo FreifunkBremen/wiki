@@ -8,10 +8,7 @@ Zurück zur Homepage geht es [hier](https://bremen.freifunk.net) lang.
 
 ## Infos zu unseren Treffen
 
-Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat im [Hackerspace Bremen](https://www.hackerspace-bremen.de) um 19 Uhr. In der ersten halben Stunde werden Fragen von Neulingen beantwortet und um 19:30 Uhr wird die Tagesordnung eröffnet.  Üblicherweise dauern die Treffen 2-3 Stunden mit kleinen Pausen zwischendrin.
-
-### #stayathome: Treffen während Corona
-Zu dem Treffen im Hackerspace findet zusätzlich als Hybrides-Treffen per Videokonferenz statt. Wir treffen uns zur gewohnten Zeit im Hackerspace und zusätzlich unter [https://meet.ffmuc.net/ffhb](https://meet.ffmuc.net/ffhb) (Chrome empfohlen).
+Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat per Video unter <https://meet.ffmuc.net/ffhb> um 19 Uhr. In der ersten halben Stunde werden Fragen von Neulingen beantwortet und um 19:30 Uhr wird die Tagesordnung eröffnet.  Üblicherweise dauern die Treffen 2-3 Stunden mit kleinen Pausen zwischendrin.
 
 Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffhb) (s. [https://ffhb.de/kontakt.html](https://ffhb.de/kontakt.html)) genutzt werden; und das [Protokoll-Pad](https://hackmd.io/AwDgnA7ATArKC0BGGBjAzPALAUzSeARgYgGzxQAmEFFwiKBEKAhkA===?both) kommt beim Online-Treffen ebenfalls weiter zum Einsatz.
 
