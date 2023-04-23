@@ -3,19 +3,9 @@
 ## Inhalt:
 [[_TOC_]]
 
-Wer öfter mit einem Raspberry arbeitet, kennt das Problem, schnell kaputtgespielt und kein passendes Backup-Image zur Hand.
-Deshalb erstellen wir nach der Installation auch ein Backup-Image.
-Mit dem Befehl dd erstellen wir ein Abbild der Micro-SD. Und da kommt die Frage auf, jedesmal ein Image in Größe der Micro-SD
-und wie kommt das Image auf eine andere Micro-SD mit anderer Größe?
-Vorab, es geht und es gibt mehrere Wege.
+Wer öfter mit einem Raspberry arbeitet, kennt das Problem, der ist schnell mal kaputtgespielt.
 
-Ich möchte hier ein "Aber" oder einen anderen Standpunkt anmerken.
-Bei den Freifunkern wird mit Images gearbeitet, die fest auf den Routerspeicher eingestellt sind.
-Natürlich gibt es Ausnahmen, da einige Router einen großen Speicher haben oder durch Flash/Micro-SD Karten flexibel sind. Die Images sind nur so groß, wie sie benötigt werden.
-Das ist auch beim Raspi der Fall. Da ziehe ich ein 256Mb Image auf eine 256Gb SD-Karte und habe 256Gb-256Mb Platz verschwendet.
-Kein Problem Image ist schnell an die SD-Karte angepasst, ! bis ein Update erscheint und durch das Update ist unser Image wieder in den alten Grenzen.
-Da hilft uns ein anderer Weg weiter, der freie Platz wird partitioniert und gemountet. Kann durch ein upgrade ebenfalls zerstört werden, ist jedoch mit Bordmitteln schnell gefixt.
-Wer also mit festen Images konfrontiert wird, sollte auch andere Optionen in Betracht ziehen.
+Hier geht es darum, ein komprimiertes Backupimage zu erstellen.
 
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
