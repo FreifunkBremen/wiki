@@ -1,6 +1,5 @@
-
-## Inhalt: X86 Images Fixen
-
+## Inhalt:
+X86 Images Fixen
 [[_TOC_]]
 
 
