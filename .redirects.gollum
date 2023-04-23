@@ -24,3 +24,4 @@ Treffen/2013_12_20.md: 2013/2013_12_20.md
 2013/2013_12_20.md: Treffen/2013/2013_12_20.md
 Treffen/2023_02_07.md: Treffen/2023_02_03.md
 Windows Tricks.md: Anleitungen/Windows Tricks.md
+Anleitungen/X86-VM-VDMK-Image.md: Anleitungen/Offloader/X86-VM-VDMK-Image.md
