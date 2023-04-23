@@ -1,3 +1,22 @@
+
+## Inhalt: X86 Images Fixen
+
+[[_TOC_]]
+
+
+#### Aktuelle Änderungen
+
+Ab 2020.1 wird die Imagegröße wieder angepasst von 256Mb auf 128Mb.
+ - Für uns heisst das: vorher Backup erstellen, Datensicherung Konfig Sicherung. Nach dem Update geht es mit allen Installationen von vorne los.
+ 
+Nach 2019: Das X86 Image kann gar nichts mehr. Es geht nicht mal mehr ein Ping -4 google.de. Ein X86 Offloader ist dann wirklich OFF und loaded nur noch. Alle Anleitungen funktionieren dadurch aktuell nicht.
+EVTL. müssen erst ein paar Dienste wieder konfiguriert werden: DNS, Firewall.
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
+
+#### Kaputt
+
 Wenn du auf dieser Seite gelandet bist, ist meistens etwas schief gegangen. Keiner Sorge, das lässt sich fixen. Bei X86 - Systemen ist die Festplatte größer als die Systempartition. Die X86 Images belegen ungefähr 50Mb Plattenplatz auf der Disk. Der restliche Plattenplatz ist unpartitioniert und steht zum Spielen bereit. Dieser Platz lässt sich für andere Anwendungen nutzen und muss nur eingerichtet (oder wieder gerettet) werden. Dazu kann die vorhandene Partition vergrößert werden oder eine weitere Partition erstellt werden.
 Anm. Linux-Partitionen vergrössert man in der Regel nicht, es wird eine neue Partition in das vorhandene System eingehängt.
 Der Autoupdater sollte deaktiviert werden, das verhindert Überraschungen.
@@ -164,6 +183,8 @@ config 'mount'
 root@ffhb-0019997a7220:~# mount /dev/sda3 /mnt/sda3
 ~~~
 
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
 ## opkg-update-fix
 Bei einigen Gluonversionen konnten keine Pakete installiert werden. Einfach den DNS auf 8.8.8.8 setzen. (Alternative DNS: 8.8.4.4, 9.9.9.9 - 9.9.9.12)
 
@@ -218,6 +239,8 @@ Configuring openssl-util.
 - Wenn das alles nicht geht, die benötigten Pakete direkt aus dem Repro ziehen und ins /tmp schubsen, manuell installieren.
 - Klappt das immer noch nicht, schau im IRC oder auf einem Freifunk Treffen vorbei.
 
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
 #### Update Januar 2018
 Mit dem Umstieg auf LEDE können die Pakete von folgenden Seiten geladen werden:
 HTTP 	https://downloads.lede-project.org/releases/packages-17.01/x86_64/
@@ -225,6 +248,8 @@ FTP 	ftp://ftp.halifax.rwth-aachen.de/lede/releases/packages-17.01/x86_64/
 
 Eine Paketliste findet sich hier: https://lede-project.org/packages/table/start
 Da auf der Flashkarte des FUTRO viel Platz ist (wir haben ja /mnt/sda3), habe ich einfach das verlinkte Pakage Verzeichnis dorthin kopiert und installiere meine benötigten Pakete einfach direkt von dort.
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 #### Update Februar 2018
 Die Pakage-Repros zwischen OpenWRT und LEDE sind verlinkt. Die Inhalte (Pakete)  zwischen 32 & 64 Bit sind angepasst.
@@ -234,8 +259,12 @@ https://downloads.lede-project.org/snapshots/packages/x86_64/packages/
 ~~~
 Die Dateiablage ist identisch.
 
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
 #### Update Dezember 2022
 Die Datei /etc/opkg/distfed.conf anpassen, ändere alle Links von HTTPS auf HTTP, dann klappt die SW Aktualisierung ohne SSL!
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 ### Offloader auf X86-64 Image updaten
 Die vielen Installationsanleitungen für einen Offloader beziehen sich immer auf das generic Image mit 32 Bit. Da funktioniert fast immer. Hier ist nun zu sehen wie einfach der Umstieg auf 64 Bit ist. In diesem Beispiel verwende ich die momentan gültige Testing unserer community. Bisher ist auf dem Offloader das Image https://downloads.bremen.freifunk.net/firmware/testing/sysupgrade/gluon-ffhb-2017.1.4+bremen2-x86-generic-sysupgrade.img.gz installiert. für den Umstieg lade ich das https://downloads.bremen.freifunk.net/firmware/testing/sysupgrade/gluon-ffhb-2017.1.4+bremen2-x86-64-sysupgrade.img.gz Image herunter. Mit einem unzipper eurer Wahl entpacken und ins /tmp Verzeichnis des Offloaders kopieren. Erfahrene Anwender machen das direkt alles im /tmp des Offloaders.
@@ -311,6 +340,7 @@ root@ffhb-0013490bd9f6:~#
 ~~~
 Das ist echt cool :-)
 
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 ### Upgradefest, Upgrade-Fest
 Es wird immer wieder die Frage gestellt, wie man Pakete upgradesicher installieren kann. Achtung: In der Frage ist bereits ein fataler Fehler enthalten. Nicht die Pakete sind es, sondern die Konfiguration soll erhalten bleiben. Mit einem Sysupgrade können neuere Pakete bereitgestellt werden.
@@ -353,4 +383,7 @@ Hier werden nicht die Pakete aufgenommen, sonderen deren Konfigurationsdateien o
 ~~~
 Hier muss man jedoch alle Konfigurationsdateien angeben, die bei einem Paket installiert werden, also auch Libraries, evtl. LOG-Files und config files.
 Besondere Benutzer und Rechte bitte mit in einem eigen Script hinterlegen.
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
 
