@@ -27,7 +27,7 @@ Wichtige Anmerkung zum Umstieg von Offloadern auf LEDE. Bisher wurde der beliebt
 Fall 1: Die vorhandene Partition wurde vergrößert und ein sysupgrade durchgeführt. Hier ist nichts mehr zu Retten, die Pertition wurde verkleinert. Für die Zukunft, nicht am Original rumfummeln und zusätzliche Partitionen immer einhängen.
 
 Fall 2: Es war eine dritte Partition /sda3 erstellt und gemounted. Diese ist nun nach einem sysupgrade verschwunden.
-#### Es kann Hilfe geben, wir gehen wie folgt vor:
+Es kann Hilfe geben, wir gehen wie folgt vor:
 
 - Das X86 System ist im Freifunk Online und wir können uns per Konsole auf einer der ipv6 Adressen Anmelden.
 
@@ -184,7 +184,7 @@ root@ffhb-0019997a7220:~# mount /dev/sda3 /mnt/sda3
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
-## opkg-update-fix
+#### opkg-update-fix
 Bei einigen Gluonversionen konnten keine Pakete installiert werden. Einfach den DNS auf 8.8.8.8 setzen. (Alternative DNS: 8.8.4.4, 9.9.9.9 - 9.9.9.12)
 
 /etc/opkg.conf anpassen: Nur einen Teil pro Zeile einfügen.
