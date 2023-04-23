@@ -28,9 +28,19 @@ speedtest-cli --list
 
 
 
-
-
-Einige Links zum Thema:
+~~~
+pi@pi4:~ $ speedtest-cli
+Retrieving speedtest.net configuration...
+Testing from Deutsche Telekom AG (93.215.158.51)...
+Retrieving speedtest.net server list...
+Selecting best server based on ping...
+Hosted by Schlueter Onlinedienste (Ruethen) [179.26 km]: 15.497 ms
+Testing download speed................................................................................
+Download: 245.76 Mbit/s
+Testing upload speed......................................................................................................
+Upload: 43.65 Mbit/s
+pi@pi4:~ $
+~~~
 
 
 
