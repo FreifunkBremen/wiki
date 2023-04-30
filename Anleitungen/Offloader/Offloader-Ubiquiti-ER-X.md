@@ -105,9 +105,11 @@ Keine Panik, es gibt die serielle Schnittstelle im Router, also Aufschrauben bit
 
 Wer den Bootvorgang aufzeichnen möchte, verbindet den USB Adapter vor Inbetriebnahme mit dem PC und startet ein Terminal Programm. Unter Windows z.B. TeraTerm und LOG einschalten. 
 
-Der serielle Adapter hat sich bei mir unter COM 8 installiert. (Das Windows Terminal kann original nur bis COM 4). 
+Der serielle Adapter hat sich bei mir unter COM 8 installiert. **(Das Windows Terminal kann original nur bis COM 4)**. 
 
-Geschwindigkeit: 57600 / 8 / N / 1 einstellen. Router Einschalten.
+Wenn es nicht klappt, den Apapter irgenwie in den Bereich Com 1 - Com 4 bringen!
+
+Geschwindigkeit: **57600 / 8 / N / 1** einstellen. Router Einschalten.
 
 Wenn am Ende des Bootvorgangs ungefähr folgende Ausgabe übrig bleibt, dann ist der Router am Leben und alle Einstellungen können über die Konsole geändert werden.
 
@@ -184,11 +186,11 @@ vmlinux.tmp
 ~~~
 3. Gehäuse öffnen und Herstellergarantie verlieren. 
 4. USB serielle Verbindung herstellen. 
-5. Terminal starten (TeraTerm, Putty etc.) 57600 8N1 einstellen.
+5. Terminal starten (TeraTerm, Putty etc.) **57600 8N1** einstellen.
 6. ER-X Netzkabel anstecken und sehen, das die Ausgaben im Terminal lesbar sind.
 
 7. LAN Kabel von eth0 (linke Buchse) mit PC Verbinden.
-8. PC LAN auf 172.16.3.210 einstellen, Netzmaske 255.255.255.0 Gateway auf die Routeradresse 172.16.3.213 für ER-X oder 172.16.3.211 für den ER-X-SFP
+8. PC LAN auf** 172.16.3.210** einstellen, Netzmaske 255.255.255.0 Gateway auf die Routeradresse 172.16.3.213 für ER-X oder 172.16.3.211 für den ER-X-SFP
 9. Router einschalten, der Bootvorgang stoppt nach ein paar Sekunden für 5 Sekunden (Timer) bei folgender Ausgabe.
  
 5 Sekunden zum drücken der 1
