@@ -20,6 +20,9 @@ Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffh
     * [[19.05.2023|Treffen/2023_05_19]]
     * [[02.06.2023|Treffen/2023_06_02]]
     * [[16.06.2023|Treffen/2023_06_16]]
+    * [[07.07.2023|Treffen/2023_07_07]]
+    * [[21.07.2023|Treffen/2023_07_21]]    
+    
     
 * [Liste aller Treffen](/gollum/overview/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
 * Weitere Termine (nicht nur Treffen) finden sich in den Protokollen zu den verschiedenen Treffen
