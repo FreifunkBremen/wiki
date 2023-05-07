@@ -41,8 +41,9 @@ Wenn die SD Karte gerade noch im Lesegerät steckt, gleich die Einstellugen für
 Natürlich können die Grudeinstellungen auch in der Image-Datei vorgenommen werden. Unter Windows evtl. mit dem Tool https://www.winimage.com/ das Image Bearbeiten.
 
 
-Noch ein Update: Wenn ich meine Pi's immer in bekannter Umgebung Installiere, kann anstatt der config.txt cmdline.txt und
-wpa_supplicant.conf mit Inhalt auf die Karte zu kopieren
+**Noch ein Update:** Wenn ich meine Pi's immer in bekannter Umgebung Installiere, kann anstatt der config.txt cmdline.txt und
+wpa_supplicant.conf mit Inhalt auf die Karte zu kopieren, alternativ auch den neuen Raspberry Pi Imager verwenden.
+
 ~~~
 country=DE 
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev 
@@ -54,7 +55,7 @@ network={
      key_mgmt=WPA-PSK
 }
 ~~~
-alternativ auch den neuen Raspberry Pi Imager verwenden. Das Tool zum Beschreiben von SD/Micro-SD Karten kann nicht nur das aktuelle Image automatisch Laden, sondern kann in einem versteckten Menü Strg+Shift+x fast alle Konfigparameter speichern und übertragen.
+ Das Tool zum Beschreiben von SD/Micro-SD Karten kann nicht nur das aktuelle Image automatisch Laden, sondern kann in einem versteckten Menü Strg+Shift+x fast alle Konfigparameter speichern und übertragen.
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
@@ -191,16 +192,23 @@ sudo /etc/init.d/networking restart
 
 ### WLAN Verbindung einrichten
 Damit sich der Raspi 3B+ mit einem WLAN verbindet, folgende Einstellungen mit eigenen Daten ändern.
-~~~
+
 sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 
+~~~
+country=DE 
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev 
+update_config=1 
 network={
-    ssid="TestNetzwerk"
-    psk="Mein1SuperGeheimesWLANPasswort!"
-    key_mgmt=WPA-PSK
+     ssid="Meine SSID"
+     scan_ssid=1
+     psk="Mein-WLAN-Passwort"
+     key_mgmt=WPA-PSK
 }
 ~~~
+
 Damit die Änderungen wirksam werden, muss der Netzwerkadapter neu gestartet werden. Für mehrere Netzwerke, den Abschnitt network={...} mehrfach untereinander schreiben.
+
 ~~~
 Möglichkeit 1, das Interface ab- und wieder anzuschalten.
 
@@ -211,13 +219,16 @@ Möglichkeit 2, den ganzen Netzwerkstack neu starten.
 
     sudo service networking restart
 ~~~
+
 Damit ist die Einrichtung abgeschlossen und der Raspberry Pi verbindet sich mit deinem WLAN-Netzwerk.
 
 WLAN Netwerke scannen mit:
+
 ~~~
 sudo iwlist wlan0 scan
 ~~~
-siehe auch: https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
+
+siehe auch: [https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
@@ -226,7 +237,7 @@ Den Pi als WLAN Access Point nutzen und über den LAN Anschluß mit einem Router
 Dieses Thema wird sehr häufig im Netz diskutiert und es gibt nur wenig brauchbare Lösungen. Eine recht gute ist hier zu finden:
 https://github.com/damiencaselli/rpi3-hotspot
 
-http://www.linux-ratgeber.de/den-raspberry-pi-als-wlan-hotspot-einrichten/
+[http://www.linux-ratgeber.de/den-raspberry-pi-als-wlan-hotspot-einrichten/](http://www.linux-ratgeber.de/den-raspberry-pi-als-wlan-hotspot-einrichten/)
 
 Zur Beachtung:
 Der Pi 3B+ ist Dualbandfähig, kann als Hotspot nur auf 2,4 oder 5 Ghz funken. Eine Konfiguration für WLAN0 = 2,4Ghz & WLAN1=5Ghz existiert noch nicht.
@@ -353,9 +364,9 @@ sudo /etc/init.d/samba restart
 Ein Aus Reboot Taster. Tolle Sache, wenn der Pi hängt, kann mit dem Taster neu gestartet werden. Eleganter als den Netzstecker zu ziehen. Taste unter 3 Sekunden drücken, Pi bootet. Taster über 3 Sekunden drücken, Pi fährt runter. Erneutes Drücken im Aus Zustand, Pi startet.
 
 Originalbeiträge: 
-https://gilyes.com/pi-shutdown-button/
-https://www.heise.de/ct/hotline/Ein-Ausschalter-fuer-Raspberry-Pi-und-Raspi-Zero-3892620.html
-Download ftp://ftp.heise.de/pub/ct/listings/1722-144.zip
+[https://gilyes.com/pi-shutdown-button/](https://gilyes.com/pi-shutdown-button/)
+[https://www.heise.de/ct/hotline/Ein-Ausschalter-fuer-Raspberry-Pi-und-Raspi-Zero-3892620.html](https://www.heise.de/ct/hotline/Ein-Ausschalter-fuer-Raspberry-Pi-und-Raspi-Zero-3892620.html)
+Download [ftp://ftp.heise.de/pub/ct/listings/1722-144.zip](ftp://ftp.heise.de/pub/ct/listings/1722-144.zip)
 
 
 Systemd-Job für den Ausschalt-Jumper (GPIO-Pins 5+GND).
