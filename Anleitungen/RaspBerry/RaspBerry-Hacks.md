@@ -12,6 +12,8 @@ Eine wichtige Quelle ist: **[https://www.raspberrypi.org/documentation/](https:/
 ### Kaufberatung
 Soll es nur ein Gerät sein, lohnt sich ein Bundle, damit habe ich alles zusammen, was für den Betrieb eines Raspberry benötigt wird. Werden es evtl. mehrere Geräte oder es werden ein paar Besonderheiten gewünscht, lohnen sich Einzelteile.
 
+Preis & Verfügbarkeit bei [Reichelt.de](https://www.reichelt.de/einplatinen-computer-c8242.html?ACTION=2&GROUPID=8242&SEARCH=%2A&START=0&OFFSET=16&nbc=1&SID=93fc81e56a0b64904a6008866311463568b3c93291b2dfdbd9dbc) 
+
 Warum Einzelteile?
 - Micro-SD: wird mehr Speicher benötigt lohnt eine große Karte. Die kleine Karte aus einem Bundle wäre übrig.
 - Netzteil: Das originale Netzteil ist sehr groß und verdeckt benachbarte Steckdosen einer Leiste. Das schmale EU-Netzteil 2,5A 5,1V ist besser.
