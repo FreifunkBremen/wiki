@@ -2,7 +2,7 @@
 
 (13.1.2019 F_H) Die folgenden Spielereien dienen der Unterhaltung und Bildung. Der Artikel beschreibt meine ersten Schritte mit dem kleinen Kumpel, einem Raspberry 3&4B+. Da es einige Stolpersteine gibt, kann dies evtl. hilfreich sein. Rückschläge machen keinen Spass und können vermieden werden. Bei älteren Modellen können die Einstellungen ggf. anders sein.
 
-Hier sind also nur ein paar _Stolpersteine_ erwähnt, die unserer `Aufmerksamkeit` bedürfen! Es ist eine Quelle gegen das Vergessen.
+Hier sind also nur ein paar _Stolpersteine_ erwähnt, die unserer `Aufmerksamkeit` bedürfen! Es soll eine Quelle gegen das Vergessen sein.
 
 Eine wichtige Quelle ist: https://www.raspberrypi.org/documentation/
 
