@@ -4,7 +4,7 @@
 
 Hier sind also nur ein paar _Stolpersteine_ erwähnt, die unserer `Aufmerksamkeit` bedürfen! Es soll eine Quelle gegen das Vergessen sein.
 
-Eine wichtige Quelle ist: https://www.raspberrypi.org/documentation/
+Eine wichtige Quelle ist: **[https://www.raspberrypi.org/documentation/](https://www.raspberrypi.org/documentation/)**
 
 ## Inhalt
 [[_TOC_]]
