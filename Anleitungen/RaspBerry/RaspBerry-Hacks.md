@@ -61,6 +61,10 @@ alternativ auch den neuen Raspberry Pi Imager verwenden. Das Tool zum Beschreibe
 ### Virenscanner ClamAV installieren 
 Wenn der Raspi mit dem Internet verbunden ist, sollte ein Virenscanner installiert werden.
 Weitere Infos unter: https://www.clamav.net/
+
+Unter Buster Version 10 und Bullseye Version 11 kann es zum Stillstand des Systems kommen.
+Vor der Installation ggf. ein Backup / Kopie der Flashcard erstellen.
+
 ~~~
 sudo apt-get update
 sudo apt-get upgrade
