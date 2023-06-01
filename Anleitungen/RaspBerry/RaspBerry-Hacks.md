@@ -372,8 +372,10 @@ Download [ftp://ftp.heise.de/pub/ct/listings/1722-144.zip](ftp://ftp.heise.de/pu
 
 
 Systemd-Job für den Ausschalt-Jumper (GPIO-Pins 5+GND).
+
 Installation: Die Datei pishutdown.py nach /usr/local/bin
 und pishutdown.service nach /etc/systemd/system kopieren.
+
 Starten des Service mit:
 ~~~
 sudo systemctl enable pishutdown.service
