@@ -20,7 +20,7 @@ Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffh
 * der nächsten Treffen:
     * [[02.06.2023|Treffen/2023_06_02]]
     * [[16.06.2023|Treffen/2023_06_16]]
-    * [[07.07.2023|Treffen/2023_07_07]] Breminale: 12. Juli 2023 – So. 16. Juli 2023
+    * [[07.07.2023|Treffen/2023_07_07]] Breminale: 12. Juli 2023 – So. 16. Juli 2023 Jeden Tag am Deich!
     * [[21.07.2023|Treffen/2023_07_21]]    
     
     
