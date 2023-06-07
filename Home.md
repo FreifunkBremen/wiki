@@ -37,6 +37,7 @@ Eine Übersicht aller Arten von Zusammenkünften findest du unter [[Treffen|Tref
     * [[2017|Events/Breminale/2017/Alles]]
     * [[2018|Events/Breminale/2018/Alles]]
     * [[2019|Events/Breminale/2019/Freifunk-Bremen-auf-der-Breminale-2019]]
+    * [[2022|Events/Breminale/2022/Freifunk-Bremen-auf-der-Breminale-2022]]
 
 ## Technisches
 * [[Firmware|Anleitungen/Firmware/Home]]
