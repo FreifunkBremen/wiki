@@ -1,3 +1,9 @@
+wollen wir am Mittwoch, 21.6. um 18 Uhr Breminale-Planungstreffen machen?
+Ich könnte als Ort den Schwimmverein Bremen von 1910 vorschlagen.
+Hier bitte ankreuzen, wer kann: https://nuudel.digitalcourage.de/cQ2jIQ8Gf67shnQH
+
+Vorgeschlagene Agenda
+
 - Menschliches
     - wer macht mit
     - was sind Wünsche und Vorstellungen aller Beteiligten
