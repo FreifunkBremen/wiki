@@ -1,0 +1,15 @@
+- Menschliches
+    - wer macht mit
+    - was sind Wünsche und Vorstellungen aller Beteiligten
+    - wollen wir jetzt Essen (aka Pizza) organisieren?
+- Technisches
+    - Vorstellung "Konzept" "Freifunk und 'BierWLAN'"
+    - Diskussion Netzstruktur
+    - Diskussion Firmware
+- Bauwagen
+    - Transport Material?
+    - Kühlschrank, Deko, Schloss + Schlüssel?
+- Sonstiges
+    - Inventurtermin Plutex vereinbaren?
+    - Flash-Termin vor Breminale vereinbaren?
+    - Marketing? Instagram/Mastodon/Presse/Blog?
