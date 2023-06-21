@@ -1,3 +1,13 @@
+- Breminale-Beginn: Mi, 12.7., nachmittags
+- Breminale-Ende: So, 16.7., nachts
+
+## Kommunikation
+- Hackmd-Pad: <https://md.darmstadt.ccc.de/rm1y9mmtTsi1G1WimT9pVw>
+
+
+
+## Einladung zum Planungstreffen
+
 wollen wir am Mittwoch, 21.6. um 18 Uhr Breminale-Planungstreffen machen?
 Ich könnte als Ort den Schwimmverein Bremen von 1910 vorschlagen.
 Hier bitte ankreuzen, wer kann: https://nuudel.digitalcourage.de/cQ2jIQ8Gf67shnQH
