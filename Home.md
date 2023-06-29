@@ -14,13 +14,15 @@ Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffh
 
 ##### Tagesordnungen
 * der letzten Treffen:
-    * [[05.05.2023|Treffen/2023_05_05]]
-    * [[19.05.2023|Treffen/2023_05_19]]
     * [[02.06.2023|Treffen/2023_06_02]]
-* der nächsten Treffen:
     * [[16.06.2023|Treffen/2023_06_16]]
+* der nächsten Treffen:
     * [[07.07.2023|Treffen/2023_07_07]] Breminale: 12. Juli 2023 – So. 16. Juli 2023 Jeden Tag am Deich!
     * [[21.07.2023|Treffen/2023_07_21]]    
+    * [[04.08.2023|Treffen/2023_08_04]]  
+    * [[18.08.2023|Treffen/2023_08_18]]  
+    * [[01.09.2023|Treffen/2023_09_01]]      
+    * [[15.09.2023|Treffen/2023_09_15]]  
     
     
 * [Liste aller Treffen](/gollum/overview/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
