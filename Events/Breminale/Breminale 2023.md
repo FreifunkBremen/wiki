@@ -29,3 +29,7 @@ Vorgeschlagene Agenda
     - Inventurtermin Plutex vereinbaren?
     - Flash-Termin vor Breminale vereinbaren?
     - Marketing? Instagram/Mastodon/Presse/Blog?
+    - 
+    - 
+Hier die Pads: https://md.darmstadt.ccc.de/rm1y9mmtTsi1G1WimT9pVw?edit
+
