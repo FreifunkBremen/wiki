@@ -1,5 +1,5 @@
 # Inventur 2023
-###In dieser Liste fehlt:
+### In dieser Liste fehlt:
 - Wann durchgeführt!
 - Wer hat gemacht.
 - Wo ist das Material
