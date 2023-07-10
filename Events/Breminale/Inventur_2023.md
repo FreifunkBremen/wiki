@@ -1,4 +1,12 @@
 # Inventur 2023
+Dieser Liste fehlt:
+Wann durchgeführt!
+Wer hat gemacht.
+Wo ist das Material
+Wer ist Ansprechpartner.
+
+Was ist mit <inventory.ffhb.de>
+
 
 ## vorhandens Material
 
