@@ -33,3 +33,5 @@ Vorgeschlagene Agenda
     - 
 Hier die Pads: https://md.darmstadt.ccc.de/rm1y9mmtTsi1G1WimT9pVw?edit
 
+- Übersicht verbaute Infrastruktur: <https://md.darmstadt.ccc.de/31CdaPLVRXel-cMlatsfuQ#>
+
