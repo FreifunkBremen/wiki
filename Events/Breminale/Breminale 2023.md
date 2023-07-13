@@ -37,3 +37,8 @@ Hier die Pads:
 Übersicht verbaute Infrastruktur: 
 - <https://md.darmstadt.ccc.de/31CdaPLVRXel-cMlatsfuQ#>
 
+Inventurdaten, Zwischenstand als Excel. noch unvollständig. https://cloud.ffhb.de/index.php/login
+
+https://cloud.ffhb.de/index.php/f/160827
+
+
