@@ -41,7 +41,7 @@ Inventurdaten, Zwischenstand als Excel. noch unvollständig. https://cloud.ffhb.
 
 https://cloud.ffhb.de/index.php/f/160827
 
-## Abbau Treffen Sonntag 19 Uhr Bauwagen
+## Abbau-Treffen Sonntag 19 Uhr Bauwagen
 
 Am Sonntag ab 19 Uhr treffen wir uns zur Abbaubesprechung.
 
