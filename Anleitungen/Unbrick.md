@@ -188,6 +188,9 @@ Diesen Teil benötigen wir, wenn vorhergender Abschnitt fehlschlägt und der Rou
 Letzter Versuch mit Recover Teil 1
 Es gibt speziell gepatchte Firmware ohne Bootloader für TP-Link Router, hier zur finden: http://www.friedzombie.com/tplink-stripped-firmware/
 
+Der Original-Link ist anscheinend down: Hier ein alternativer Link:
+https://cloud.ffhb.de/index.php/s/feZNr759EiLWTLX
+
 **Anmerkung** Die Seite ist nicht erreichbar, bitte den Google-Cache oder Wayback verwenden. Alternativ, den Bootloader selbst [Abschneiden](https://freifunk-firmware.de/bootcut.php): https://freifunk-firmware.de/bootcut.php
 
 Wieso stripped? Normalerweise erkennt der Bootloader bei der Installation des Images, das dieses ebenfalls einen Bootloader aufweist und überspringt diesen bei der Installation. Ist dies nicht der Fall, haben wir einen zweiten Bootloader direkt nach dem Ersten mit der Einsprungadresse des Zweiten. Eine prima Bootschleife. Ein gestripptes Image ist quasi nur die Applikation ohne Bootloader.
