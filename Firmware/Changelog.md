@@ -31,6 +31,18 @@ Branch        | aktuelle Version                                                
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
+### 2023.1+bremen1
+**Veröffentlichung auf dem `stable`-Branch**: [noch nicht](https://downloads.bremen.freifunk.net/firmware/all/2023.1+bremen1/sysupgrade/stable.manifest)  
+**Veröffentlichung auf dem `testing`-Branch**: [noch nicht](https://downloads.bremen.freifunk.net/firmware/all/2023.1+bremen1/sysupgrade/testing.manifest)  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2023.1+bremen1) / [Commits/Compare](https://github.com/FreifunkBremen/gluon-site-ffhb/compare/v2022.1.1+bremen1...v2023.1+bremen1)  
+**gluon-Version**: [2023.1](#2023-1)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2023.1+bremen1/)
+
+Diese Version ist nur eine Update auf der neuen Gluon-Version:
+ - DNS Cache
+ - Interface Rollen UI
+ - Cellular Modem
+
 ### 2022.1.1+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: [noch nicht](https://downloads.bremen.freifunk.net/firmware/all/2022.1.1+bremen1/sysupgrade/stable.manifest)  
 **Veröffentlichung auf dem `testing`-Branch**: [noch nicht](https://downloads.bremen.freifunk.net/firmware/all/2022.1.1+bremen1/sysupgrade/testing.manifest)  
