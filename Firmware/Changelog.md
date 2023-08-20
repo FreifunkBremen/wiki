@@ -991,6 +991,22 @@ Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) 
 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
 
+### 2023.1
+**Veröffentlichungsdatum**: 10.08.2023  
+**offizielle Versionshinweise**: [2022.1.1](https://gluon.readthedocs.io/en/v2023.1.x/releases/v2023.1.html)  
+**Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2023.1.x/user/supported_devices.html)  
+**Github-Repository**: [Commits](https://github.com/freifunk-gluon/gluon/commits/v2023.1)
+
+#### Ängerungen
+- Viele neuen Geräte
+- DNS Cache
+- Cellular Modem Support
+- Interface Role UI
+
+### 2022.1.4
+### 2022.1.3
+### 2022.1.2
+
 ### 2022.1.1
 **Veröffentlichungsdatum**: 05.09.2022  
 **offizielle Versionshinweise**: [2022.1.1](https://gluon.readthedocs.io/en/v2022.1.x/releases/v2022.1.1.html)  
