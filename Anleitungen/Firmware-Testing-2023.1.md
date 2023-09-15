@@ -19,7 +19,7 @@ Die neue Testing muss von Hand installiert werden.
 sysupgrade-ubnt-erx-sfp kein passendes Image da neuer Name gluon-ffhb-2023.1+bremen1-ubiquiti-edgerouter-x-sfp-sysupgrade.bin statt
 gluon-ffhb-2021.1.2+bremen1-ubnt-erx-sfp-sysupgrade.bin mit neuer Versionsnummer. Image wird nicht akzeptiert.
 
-Der Upgradekandidat stand auf 2019, der sysupgrade auf 2021 war problemlos.
+Der Upgradekandidat stand auf 2019, der sysupgrade auf 2021 war problemlos. Erst jetzt funktionierte der upgrade auf 2023.
 
 Text
 
