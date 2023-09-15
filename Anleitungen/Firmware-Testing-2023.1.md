@@ -12,18 +12,18 @@ Die neue Testing muss von Hand installiert werden.
 3.) SW Aktivieren
 4.) freuen und mit dem neuen Router spielen.
 
-Der Normalfall ist der Upgrade von 2021 auf 2023.
+Ein Upgrade auf v2023 benötigt min v2021 (aktuelle Stable).
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
-### 2.) Hier bitte Probleme notieren
+### 2.) Update von ubnt-erx-sfp (Solved: wrong usage)
 
 sysupgrade-ubnt-erx-sfp kein passendes Image da neuer Name gluon-ffhb-2023.1+bremen1-ubiquiti-edgerouter-x-sfp-sysupgrade.bin statt
 gluon-ffhb-2021.1.2+bremen1-ubnt-erx-sfp-sysupgrade.bin mit neuer Versionsnummer. Image wird nicht akzeptiert.
 
 Der Upgradekandidat stand auf 2019, der sysupgrade auf 2021 war problemlos. Erst jetzt funktionierte der upgrade auf 2023.
 
-Text
+*Lösung* dieses Verhalten hört sich danach an, das ein Update auf 2021 vorher nicht durchgeführt wurde ... Das würde ich unter "wrong usage" abstempeln (oder so). Doch cool zu wissen, das dort eine überprüfung stattfindet (vielleicht können wir so uralte versionen auf lange offline nodes doch noch updaten)
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
