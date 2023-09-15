@@ -17,7 +17,10 @@ Die neue Testing muss von Hand installiert werden.
 ### 2.) Hier bitte Probleme notieren
 
 ~~~
-ich bin ein Kasten
+sysupgrade-ubnt-erx-sfp kein passendes Image da neuer Name gluon-ffhb-2023.1+bremen1-ubiquiti-edgerouter-x-sfp-sysupgrade.bin statt
+gluon-ffhb-2021.1.2+bremen1-ubnt-erx-sfp-sysupgrade.bin mit neuer Versionsnummer. Image wird nicht akzeptiert.
+
+
 ~~~
 
 Text
