@@ -16,8 +16,8 @@ Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffh
 * der letzten Treffen:
     * [[18.08.2023|Treffen/2023_08_18]]  
     * [[01.09.2023|Treffen/2023_09_01]]      
-* der nächsten Treffen: 
     * [[15.09.2023|Treffen/2023_09_15]]  
+* der nächsten Treffen: 
     * [[06.10.2023|Treffen/2023_10_06]]     
     * [[20.10.2023|Treffen/2023_10_20]]   
     
