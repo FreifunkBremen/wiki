@@ -12,6 +12,8 @@ Die neue Testing muss von Hand installiert werden.
 3.) SW Aktivieren
 4.) freuen und mit dem neuen Router spielen.
 
+Der Normalfall ist der Upgrade von 2021 auf 2023.
+
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 ### 2.) Hier bitte Probleme notieren
