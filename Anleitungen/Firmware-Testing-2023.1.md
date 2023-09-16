@@ -25,6 +25,11 @@ Der Upgradekandidat stand auf 2019, der sysupgrade auf 2021 war problemlos. Erst
 
 *Lösung* dieses Verhalten hört sich danach an, das ein Update auf 2021 vorher nicht durchgeführt wurde ... Das würde ich unter "wrong usage" abstempeln (oder so). Doch cool zu wissen, das dort eine überprüfung stattfindet (vielleicht können wir so uralte versionen auf lange offline nodes doch noch updaten)
 
+ubnt-AC-Mesh, meine hatten vorher weisses List, jetzt sind sie wieder blau wie früher.
+Archer C7-v2, irgenwann hörte das Blinken auf, es war nur die Netz LED an, jetz ist die Power LED, das Sternchen an daneben blinken die 2,4 und 5 GHz Antennensymbole wieder.
+
+Ein Archer C7-v2 wollte nicht meshen, der Upgrade erfolgte problemlos im Konfigmodus. Reset lange drüchen, dann über das Webinterface http://192.168.1.1 Image laden und alles schick.
+
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 ### 2.) Überschrift 2
