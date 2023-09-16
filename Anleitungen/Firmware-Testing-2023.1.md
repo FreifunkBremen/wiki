@@ -22,8 +22,18 @@ sysupgrade-ubnt-erx-sfp kein passendes Image da neuer Name gluon-ffhb-2023.1+bre
 gluon-ffhb-2021.1.2+bremen1-ubnt-erx-sfp-sysupgrade.bin mit neuer Versionsnummer. Image wird nicht akzeptiert.
 
 Der Upgradekandidat stand auf 2019, der sysupgrade auf 2021 war problemlos. Erst jetzt funktionierte der upgrade auf 2023.
+Nachtrag: das Gerät hatte gebootet aber das alte Image war wieder aktiv. Ein erneuter Versuch zeigte folgende Fehlermeldung.
+
+
+root@ffhb-f09fc20f8752-UBNT-ERX-SFP:/tmp# sysupgrade gluon-ffhb-2023.1+bremen1-ubiquiti-edgerouter-x-sfp-sysupgrade.bin
+Sat Sep 16 23:42:50 CEST 2023 upgrade: The device is supported, but the config is incompatible to the new image (1.1->1.0). Please upgrade without keeping config (sysupgrade -n).
+Image check failed.
+
+Also hier muß denn wohl die Konfig manuell neu eingegeben werden. oder Backup erstellen.
 
 *Lösung* dieses Verhalten hört sich danach an, das ein Update auf 2021 vorher nicht durchgeführt wurde ... Das würde ich unter "wrong usage" abstempeln (oder so). Doch cool zu wissen, das dort eine überprüfung stattfindet (vielleicht können wir so uralte versionen auf lange offline nodes doch noch updaten)
+
+
 
 ubnt-AC-Mesh, meine hatten vorher weisses List, jetzt sind sie wieder blau wie früher.
 Archer C7-v2, irgenwann hörte das Blinken auf, es war nur die Netz LED an, jetz ist die Power LED, das Sternchen an daneben blinken die 2,4 und 5 GHz Antennensymbole wieder.
