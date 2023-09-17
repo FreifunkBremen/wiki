@@ -1,3 +1,5 @@
+Im Verzeichnis factory fehlen einige Images, die im sysupgrade vorhanden sind. Ich finde, das sollte gefixt werden, damit ich nit einer alten Firmware starten muss. Beispiele ubiquity AC Mesh  und ER-X Edgerouter
+
 ## Inhalt
 
 [[_TOC_]]
@@ -45,6 +47,25 @@ Ein Archer C7-v2 wollte nicht meshen, der Upgrade erfolgte problemlos im Konfigm
 ### 3.) factory vs. sysupgrade
 
 Im Verzeichnis factory fehlen einige Images, die sysupgrade vorhanden sind. Ich finde, das sollte gefixt werden, damit ich nit einer alten Firmware starten muss.
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
+
+### 4.) ERX
+
+root@ffhb-fcecda7277b8-ubnt-ERX:~#
+
+t=$(date +"%s"); wget http://speedtest.belwue.net/100M -O /dev/null ; echo -n "MBit/s: "; expr 8 \* 100 / $(($(date +"%s")-$t))
+Downloading 'http://speedtest.belwue.net/100M'
+Failed to send request: Operation not permitted
+MBit/s: 160
+root@ffhb-fcecda7277b8-ubnt-ERX:~# 
+
+Erster Speedtest mit 160Mb sieht gut aus.
+
+Upgrade ERX von 2021 nach 2023 ohne Probleme. das neue Image mit Namen edgerouter ist problemlos akzeptiert worden.
+
+
 
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
