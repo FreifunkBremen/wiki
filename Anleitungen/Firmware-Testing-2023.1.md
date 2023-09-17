@@ -42,7 +42,9 @@ Ein Archer C7-v2 wollte nicht meshen, der Upgrade erfolgte problemlos im Konfigm
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
-### 2.) Überschrift 2
+### 3.) factory vs. sysupgrade
+
+Im Verzeichnis factory fehlen einige Images, die sysupgrade vorhanden sind. Ich finde, das sollte gefixt werden, damit ich nit einer alten Firmware starten muss.
 
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
