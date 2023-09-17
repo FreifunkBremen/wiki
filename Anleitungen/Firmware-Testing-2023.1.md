@@ -30,8 +30,7 @@ Nachtrag: das Gerät hatte gebootet aber das alte Image war wieder aktiv. Ein er
 root@ffhb-f09fc20f8752-UBNT-ERX-SFP:/tmp# sysupgrade gluon-ffhb-2023.1+bremen1-ubiquiti-edgerouter-x-sfp-sysupgrade.bin
 Sat Sep 16 23:42:50 CEST 2023 upgrade: The device is supported, but the config is incompatible to the new image (1.1->1.0). Please upgrade without keeping config (sysupgrade -n).
 Image check failed.
-
-Also hier muß denn wohl die Konfig manuell neu eingegeben werden. oder Backup erstellen.
+Das Image wurde jedoch angenommen, der ER-X SFP ist jetzt auf 2023.1
 
 *Lösung* dieses Verhalten hört sich danach an, das ein Update auf 2021 vorher nicht durchgeführt wurde ... Das würde ich unter "wrong usage" abstempeln (oder so). Doch cool zu wissen, das dort eine überprüfung stattfindet (vielleicht können wir so uralte versionen auf lange offline nodes doch noch updaten)
 
