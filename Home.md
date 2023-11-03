@@ -17,6 +17,7 @@ Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffh
     * [[20.10.2023|Treffen/2023_10_20]]   
     * [[03.11.2023|Treffen/2023_11_03]]  
 * der nächsten Treffen: 
+    * Ordentliche Mitgliederversammlung des Fördervereins Freifunk Bremen e.V. am 4.11.2023 18 Uhr Online
     * [[17.11.2023|Treffen/2023_11_17]]  
     * [[01.12.2023|Treffen/2023_12_01]]   
     * [[15.12.2023|Treffen/2023_12_15]]   
