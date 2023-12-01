@@ -8,7 +8,9 @@ Zurück zur Homepage geht es [hier](https://bremen.freifunk.net) lang.
 
 ## Infos zu unseren Treffen
 
-Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat per Video unter <https://meet.ffmuc.net/ffhb> um 19 Uhr. In der ersten halben Stunde werden Fragen von Neulingen beantwortet und um 19:30 Uhr wird die Tagesordnung eröffnet.  Üblicherweise dauern die Treffen 2-3 Stunden mit kleinen Pausen zwischendrin.
+Wir treffen uns einmal im Monat: Am 3. Freitag im Monat um 19 Uhr. In der ersten halben Stunde werden Fragen von Neulingen beantwortet und um 19:30 Uhr wird die Tagesordnung eröffnet.  Üblicherweise dauern die Treffen 2-3 Stunden mit kleinen Pausen zwischendrin.
+
+evtl. gibt es eine Onlinegruppe per Video unter <https://meet.ffmuc.net/ffhb>
 
 Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffhb) (s. [https://ffhb.de/kontakt.html](https://ffhb.de/kontakt.html)) genutzt werden; und das [Protokoll-Pad](https://hackmd.io/AwDgnA7ATArKC0BGGBjAzPALAUzSeARgYgGzxQAmEFFwiKBEKAhkA===?both) kommt beim Online-Treffen ebenfalls weiter zum Einsatz.
 
@@ -19,7 +21,7 @@ Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffh
     * Ordentliche Mitgliederversammlung des Fördervereins Freifunk Bremen e.V. am 4.11.2023 18 Uhr Online
     * [[17.11.2023|Treffen/2023_11_17]]  
     * [[01.12.2023|Treffen/2023_12_01]]   
-* der nächsten Treffen: 
+* der nächsten Treffen: jeden 3. Freitag
     * [[15.12.2023|Treffen/2023_12_15]]   
     * [[19.01.2024|Treffen/2024_01_19]]      
     * [[16.02.2024|Treffen/2024_02_16]]      
