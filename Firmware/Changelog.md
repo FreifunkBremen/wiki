@@ -31,6 +31,15 @@ Branch        | aktuelle Version                                                
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
+### 2023.1.1+bremen1
+**Veröffentlichung auf dem `stable`-Branch**: [noch nicht](https://downloads.bremen.freifunk.net/firmware/all/2023.1.1+bremen1/sysupgrade/stable.manifest)  
+**Veröffentlichung auf dem `testing`-Branch**: [noch nicht](https://downloads.bremen.freifunk.net/firmware/all/2023.1.1+bremen1/sysupgrade/testing.manifest)  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2023.1.1+bremen1) / [Commits/Compare](https://github.com/FreifunkBremen/gluon-site-ffhb/compare/v2023.1+bremen1...v2023.1.1+bremen1)  
+**gluon-Version**: [2023.1.1](#2023-1-1)  
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2023.1.1+bremen1/)
+
+Diese Version ist nur eine Update auf die neue Gluon-Version, mit einer wichtigen Fehlerbehebung für Upgrades von Version 2021.1.x auf 2023.1.x .
+
 ### 2023.1+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: [noch nicht](https://downloads.bremen.freifunk.net/firmware/all/2023.1+bremen1/sysupgrade/stable.manifest)  
 **Veröffentlichung auf dem `testing`-Branch**: [noch nicht](https://downloads.bremen.freifunk.net/firmware/all/2023.1+bremen1/sysupgrade/testing.manifest)  
@@ -38,7 +47,7 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **gluon-Version**: [2023.1](#2023-1)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2023.1+bremen1/)
 
-Diese Version ist nur eine Update auf der neuen Gluon-Version:
+Diese Version ist nur eine Update auf die neue Gluon-Version:
  - DNS Cache
  - Interface Rollen UI
  - Cellular Modem
@@ -1003,13 +1012,23 @@ Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) 
 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
 
+### 2023.1.1
+**Veröffentlichungsdatum**: 10.10.2023  
+**offizielle Versionshinweise**: [2023.1.1](https://gluon.readthedocs.io/en/v2023.1.1/releases/v2023.1.1.html)  
+**Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2023.1.1/user/supported_devices.html)  
+**Github-Repository**: [Commits](https://github.com/freifunk-gluon/gluon/commits/v2023.1.1)
+
+#### Wichtige Fehlerbehebungen
+- bei x86-Geräten (also z.B. VMs, PCs, manche Offloader) geht die Konfiguration nicht mehr verloren, wenn man von Version 2021.1.x auf Version 2023.1.x aktualisiert.
+
+
 ### 2023.1
 **Veröffentlichungsdatum**: 10.08.2023  
-**offizielle Versionshinweise**: [2022.1.1](https://gluon.readthedocs.io/en/v2023.1.x/releases/v2023.1.html)  
+**offizielle Versionshinweise**: [2023.1](https://gluon.readthedocs.io/en/v2023.1.x/releases/v2023.1.html)  
 **Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2023.1.x/user/supported_devices.html)  
 **Github-Repository**: [Commits](https://github.com/freifunk-gluon/gluon/commits/v2023.1)
 
-#### Ängerungen
+#### Änderungen
 - Viele neuen Geräte
 - DNS Cache
 - Cellular Modem Support
@@ -1025,7 +1044,7 @@ Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfacht
 **Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2022.1.x/user/supported_devices.html)  
 **Github-Repository**: [Commits](https://github.com/freifunk-gluon/gluon/commits/v2022.1.1)
 
-#### Ängerungen
+#### Änderungen
 - Viele neuen Geräte
 - Entfernen viele Geräte, die nicht genug Speicher haben (wie zum Beispiel: TP-Link WR421)
 - viele, viele Änderungen im Vergleich zur 2021.1
