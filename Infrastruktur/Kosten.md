@@ -2,10 +2,7 @@
 
 ## Physikalische Server
 
-| Server | Sponsor       | Kosten       |
-|:-------|:--------------|:-------------|
-| bre1   | LWLCOM        | unbekannt    |
-| bre2   | PLUTEX / Förderverein | 14,28 € / Jahr |
+Die Colocation aller Server und Router sowie deren Stromverbrauch und Traffic wird von LWLcom gesponsort.
 
 ## Domains
 
