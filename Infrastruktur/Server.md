@@ -14,7 +14,7 @@ Zum Uplink siehe [[Infrastruktur/Netzwerk]]
 | [Karte](https://map.ffhb.de)           | genofire, jplitza, mortzu |
 | [Ticketsystem](https://tasks.ffhb.de)  | jplitza, mortzu, oliver, SimJoSt |
 | [gatemon](https://status.ffhb.de)      | jplitza, mortzu           |
-| [tiles](https://tiles.ffhb.de) (s.a. [[Anleitungen/Kartendaten aktualisieren]]) | ollibaba                  |****
+| [tiles](https://tiles.ffhb.de) (s.a. [[Anleitungen/Kartendaten aktualisieren]]) | ollibaba                  |
 
 
 ## Physikalische Hardware
