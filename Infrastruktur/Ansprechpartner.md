@@ -51,11 +51,6 @@ Diese Leute stehen in Kontakt mit dem Senat zwecks Umsetzung des [Bürgerschafts
 
 
 ## Social-Media
-### [Twitter](https://twitter.com/FreifunkHB)
-* jplitza
-* lokn
-* SimJoSt
-
 ### [Facebook](https://www.facebook.com/FreifunkBremen)
 * *Administratoren:*
   * anon6789
