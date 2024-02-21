@@ -25,19 +25,23 @@ Zum Uplink siehe [[Infrastruktur/Netzwerk]]
 | bre-2   | HP ProLiant DL360e Gen8 | 2× Intel Xeon E5-2430 v2 @ 2.50GHz, 6C, 12T | 128 GB | VMs        | janeric, jplitza, mortzu          | Bremen / LWLcom |
 | bre-3   | Dell PowerEdge R610     | 2× Intel Xeon L5640 @ 2.27GHz, 6C, 12T      | 24 GB  | VMs        | jplitza, mortzu                       | Bremen / LWLcom |
 
-
 # Hinweise zu den Servern
+
+## Wartungsfenster
+
+Die VM-Hosts starten automatisch in der Nacht auf Sonntag neu, um sicherzustellen dass alle Dienste die aktuellsten Softwareversionen benutzen.
 
 ## Dienst auf dem Webserver neustarten (als normaler User)
 Die Daemons auf dem Webserver laufen unter eigenen User-Accounts und werden durch die User-spezifische Systemd-Instanz kontrolliert. Um einen Dienst neuzustarten, loggt man sich mit dem entsprechenden User ein und führt z.B. sowas aus:
 
-`systemctl --user restart phabricator.service`
+    systemctl --user restart phabricator.service
+
 
 Möglicherweise schlägt das fehl, mit der Fehlermeldung "Failed to connect to bus: No such file or directory". Das liegt an einem [Systemd-Fehler](https://github.com/systemd/systemd/issues/4229), der in der verwendeten Debian-Version noch nicht gefixt ist. Als Workaround kann man vor dem `systemctl`-Aufruf folgenden Befehl ausführen:
 
-`export XDG_RUNTIME_DIR=/run/user/$UID`
+    export XDG_RUNTIME_DIR=/run/user/$UID
 
 ## Dienst auf dem Webserver neustarten (als root)
 Als Root-user kann man auch den ganzen Systemd-Prozess des Users neustarten; dabei werden auch alle Kinder-Daemons neugestartet:
 
-`systemctl restart user@1010.service`
+    systemctl restart user@1010.service
