@@ -3,7 +3,7 @@
 
 Beim Regeltreffen geht es um allgemeine Organisation: Was muss erledigt werden? Welche Termine stehen an? Sind Anfragen die in der Gruppe diskutiert werden müssen? etc.
 
-* __Wann?__: Jeweils am **ersten** und **dritten Freitag**, um 19Uhr.
+* __Wann?__: Jeweils am **dritten Freitag**, um 19Uhr.
 * __Wo?__: In den Räumlichkeiten des [Hackerspace Bremen e.V](https://www.hackerspace-bremen.de/anfahrt/)
 * __#stayathome:__ Online-Treffen während Corona
 
