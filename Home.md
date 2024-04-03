@@ -16,20 +16,20 @@ Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffh
 
 ##### Tagesordnungen
 * der letzten Treffen:
-    * [[15.12.2023|Treffen/2023_12_15]]   
-    * [[19.01.2024|Treffen/2024_01_19]]      
-    * [[16.02.2024|Treffen/2024_02_16]]      
-    * [[15.03.2024|Treffen/2024_03_15]]
+    * [[15.12.2023|Treffen/2023/2023_12_15]]   
+    * [[19.01.2024|Treffen/2024/2024_01_19]]      
+    * [[16.02.2024|Treffen/2024/2024_02_16]]      
+    * [[15.03.2024|Treffen/2024/2024_03_15]]
 * der nächsten Treffen: jeden 3. Freitag
-    * [[19.04.2024|Treffen/2024_04_19]]
-    * [[17.05.2024|Treffen/2024_05_17]]
-    * [[21.06.2024|Treffen/2024_06_21]]
-    * [[19.07.2024|Treffen/2024_07_19]]
-    * [[16.08.2024|Treffen/2024_08_16]]
-    * [[20.09.2024|Treffen/2024_09_20]]
-    * [[18.10.2024|Treffen/2024_10_18]]
-    * [[15.11.2024|Treffen/2024_11_15]]
-    * [[20.12.2024|Treffen/2024_12_20]] 
+    * [[19.04.2024|Treffen/2024/2024_04_19]]
+    * [[17.05.2024|Treffen/2024/2024_05_17]]
+    * [[21.06.2024|Treffen/2024/2024_06_21]]
+    * [[19.07.2024|Treffen/2024/2024_07_19]]
+    * [[16.08.2024|Treffen/2024/2024_08_16]]
+    * [[20.09.2024|Treffen/2024/2024_09_20]]
+    * [[18.10.2024|Treffen/2024/2024_10_18]]
+    * [[15.11.2024|Treffen/2024/2024_11_15]]
+    * [[20.12.2024|Treffen/2024/2024_12_20]] 
     
 * [Liste aller Treffen](/gollum/overview/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
 * Weitere Termine (nicht nur Treffen) finden sich in den Protokollen zu den verschiedenen Treffen
