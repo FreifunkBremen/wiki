@@ -19,8 +19,8 @@ Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffh
     * [[15.12.2023|Treffen/2023_12_15]]   
     * [[19.01.2024|Treffen/2024_01_19]]      
     * [[16.02.2024|Treffen/2024_02_16]]      
-* der nächsten Treffen: jeden 3. Freitag
     * [[15.03.2024|Treffen/2024_03_15]]
+* der nächsten Treffen: jeden 3. Freitag
     * [[19.04.2024|Treffen/2024_04_19]]
     * [[17.05.2024|Treffen/2024_05_17]]
     * [[21.06.2024|Treffen/2024_06_21]]
