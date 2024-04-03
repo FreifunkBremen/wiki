@@ -23,7 +23,7 @@ Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffh
     * [[15.03.2024|Treffen/2024_03_15]]
     * [[19.04.2024|Treffen/2024_04_19]]
     * [[17.05.2024|Treffen/2024_05_17]]
-    * [[27.06.2024|Treffen/2024_06_21]]
+    * [[21.06.2024|Treffen/2024_06_21]]
     * [[19.07.2024|Treffen/2024_07_19]]
     * [[16.08.2024|Treffen/2024_08_16]]
     * [[20.09.2024|Treffen/2024_09_20]]
