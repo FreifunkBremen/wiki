@@ -1,8 +1,10 @@
-# Treffen 01.01.2023
+# Treffen 01.01.2025
 
 **Termin:** 19:00 Uhr Start und Neulingsbegrüßung, 19:30 Uhr Eröffnung der Tagesordnung
 
-**Ort:** [online https://meet.ffmuc.net/ffhb](https://meet.ffmuc.net/ffhb)
+**Ort:** Vor Ort im Hackerspace, Bornstr. 14/15. Direkten Zutritt zum Innenhof erhältst du von der Bornstr. zwischen Hausnummer 18 und 19-22, über den Parkplatz gehen und durch dass große Rolltor in der Ecke.
+
+Heute **nicht** online https://meet.ffmuc.net/ffhb Wir wollen ab 19:00 Uhr in gemütlicher Atmosphäre und mit persönlichem Kontakt wieder Freiunken. Alle Interessierten sind also alle herzlich eingeladen, dazuzukommen und mitzumachen!
 
 ## Tagesordnung
 ### Neulingsbegrüßung (19:00 – 19:30 Uhr)
