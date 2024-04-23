@@ -11,6 +11,10 @@ Bitte keine USB Verlängerungskabel verwenden, die Goldrandlösung ist das RASPI
 Löten müssen wir sowieso, auf die Platine werden die 4 Pins, die wir von der Leiste abbrechen, eingelötet.
 Den RASPI UART können wir dan direkt anstöpseln RX, TX, GND.
 
+### Treiber installieren.
+
+Einige Chipsätze benötigen Treiber. 
+
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 
