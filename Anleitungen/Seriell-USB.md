@@ -1,4 +1,4 @@
-Informationen zu seriellen USB Adaptern.
+Informationen zu seriellen USB Adaptern. (Artikel in Arbeit)
 ## Inhalt
 [[_TOC_]]
 
@@ -6,25 +6,10 @@ Informationen zu seriellen USB Adaptern.
 
 hier einige Bilder von verfügbaren TTL-USB Adaptern.
 Preise liegen zwischen 1 - 5 Euro.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-|  Tabelle | Tabelle |  Tabelle  | Tabelle  |  Tabelle |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+Beim Basteln haben wir mal wieder festgestellt, 1 Jahr nichts geflasht, schon sind wir wieder Anfänger.
+Bitte keine USB Verlängerungskabel verwenden, die Goldrandlösung ist das RASPI UART und eine Stiftleiste.
+Löten müssen wir sowieso, auf die Platine werden die 4 Pins, die wir von der Leiste abbrechen, eingelötet.
+Den RASPI UART können wir dan direkt anstöpseln RX, TX, GND.
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
