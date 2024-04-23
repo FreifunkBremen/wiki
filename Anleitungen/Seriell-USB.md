@@ -13,7 +13,7 @@ Den RASPI UART können wir dan direkt anstöpseln RX, TX, GND.
 
 ### Treiber installieren.
 
-Einige Chipsätze benötigen Treiber. 
+Einige Chipsätze benötigen Treiber. Diese bitte installieren und den enstehenden COM Port im Gerätemanager einstellen. Ein COM85 wird keinem nützen. Der RASPI UART wird manchmal hochgezählt, Auch hier im Gerätemanager eingreifen.
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
