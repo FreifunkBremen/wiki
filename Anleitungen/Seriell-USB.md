@@ -35,4 +35,9 @@ Freifunkrouter verwenden wie auch alle anderen Router eine Baudrate von 115200 8
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
+### Pinbelegung
+
+Bitte die Pinbelegung über https://www.opemwrt.org/toh abfragen. Dort sind alle Daten und Fotos zu den einzelnen Modellen verlinkt. Auch wie ein Gehäuse geöffnet wird.
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
