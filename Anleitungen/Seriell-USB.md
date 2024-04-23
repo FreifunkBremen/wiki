@@ -7,13 +7,10 @@ Informationen zu seriellen USB Adaptern.
 hier einige Bilder von verfügbaren TTL-USB Adaptern.
 Preise liegen zwischen 1 - 5 Euro.
 
-USB-TTL UART PL3203
 
-<img src="https://cloud.ffhb.de/index.php/s/fXe9j9JAMFRLQsf/preview" title="USB-TTL UART PL3203"  width="300" />
 
-USB-TTL UART CP2102
 
-<img src="https://cloud.ffhb.de/index.php/s/x2WzaaeWx44s3pW/preview" title="USB-TTL UART CP2102" width="300" />
+
 
 <img src="https://cloud.ffhb.de/index.php/s/6JXZqaLjSDiQtgy/preview" title="USB-TTL UART" />
 
@@ -32,9 +29,9 @@ USB-TTL UART CP2102
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 
-|  Tabelle | Tabelle |  Tabelle  |
+|  USB-TTL UART PL3203 | USB-TTL UART CP2102 |  Tabelle  |
 |---|---|---|
-|   |   |   |
+| <img src="https://cloud.ffhb.de/index.php/s/fXe9j9JAMFRLQsf/preview" title="USB-TTL UART PL3203"  width="300" />  | <img src="https://cloud.ffhb.de/index.php/s/x2WzaaeWx44s3pW/preview" title="USB-TTL UART CP2102" width="300" />  |   |
 |   |   |   |
 |   |   |   |
 
