@@ -17,6 +17,7 @@ Einige Chipsätze benötigen Treiber. Diese bitte installieren und den enstehend
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
+### UART Modelle
 
 |  USB-TTL UART PL3203 | USB-TTL UART CP2102 |  USB-A TTL UART CP2102  |
 |---|---|---|
@@ -27,4 +28,11 @@ Einige Chipsätze benötigen Treiber. Diese bitte installieren und den enstehend
 | <img src="https://cloud.ffhb.de/index.php/s/E84MMBPGjMdzxd7/preview" title="USB-TTL UART" width="300" />  | <img src="https://cloud.ffhb.de/index.php/s/LJja8Qi9geKRNXT/preview" title="USB-TTL UART" width="300" />  | <img src="https://cloud.ffhb.de/index.php/s/aXX6bstTTfMm4AX/preview" title="USB-TTL UART" width="300" />  |
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
+### Baudrate
+
+Freifunkrouter verwenden wie auch alle anderen Router eine Baudrate von 115200 8 N 1
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
 
