@@ -35,7 +35,7 @@ Preise liegen zwischen 1 - 5 Euro.
 
 | Federleiste | Raspi UART  |   |
 |---|---|---|
-| <img src="https://cloud.ffhb.de/index.php/s/E84MMBPGjMdzxd7/preview" title="USB-TTL UART" width="300" />  | <img src="https://cloud.ffhb.de/index.php/s/LJja8Qi9geKRNXT/preview" title="USB-TTL UART" width="300" />  |   |
+| <img src="https://cloud.ffhb.de/index.php/s/E84MMBPGjMdzxd7/preview" title="USB-TTL UART" width="300" />  | <img src="https://cloud.ffhb.de/index.php/s/LJja8Qi9geKRNXT/preview" title="USB-TTL UART" width="300" />  | <img src="https://cloud.ffhb.de/index.php/s/aXX6bstTTfMm4AX/preview" title="USB-TTL UART" width="300" />  |
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
