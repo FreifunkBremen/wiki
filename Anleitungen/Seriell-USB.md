@@ -1,4 +1,4 @@
-Informationen zu seriellen USB Adaptern. (Artikel in Arbeit)
+Informationen zu seriellen USB Adaptern. **(WIKI-Eintrag in Arbeit 4/2024)**
 ## Inhalt
 [[_TOC_]]
 
@@ -29,9 +29,12 @@ Einige Chipsätze benötigen Treiber. Diese bitte installieren und den enstehend
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
-### Baudrate
+### Welche Baudrate
 
 Freifunkrouter verwenden wie auch alle anderen Router eine Baudrate von 115200 8 N 1
+
+Weitergehende Informationen [Hier](https://openwrt.org/docs/techref/hardware/port.serial): https://openwrt.org/docs/techref/hardware/port.serial
+
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
