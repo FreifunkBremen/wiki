@@ -29,7 +29,7 @@ Einige Chipsätze benötigen Treiber. Diese bitte installieren und den enstehend
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
-### Welche Baudrate
+### Welche Baudrate ?
 
 Freifunkrouter verwenden wie auch alle anderen Router eine Baudrate von 115200 8 N 1
 
