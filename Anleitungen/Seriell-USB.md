@@ -2,9 +2,9 @@ Informationen zu seriellen USB Adaptern. **(WIKI-Eintrag in Arbeit 4/2024)**
 ## Inhalt
 [[_TOC_]]
 
-### Was geht?
+### Einleitung
 
-hier einige Bilder von verfügbaren TTL-USB Adaptern.
+Hier einige Bilder von verfügbaren TTL-USB Adaptern.
 Preise liegen zwischen 1 - 5 Euro.
 Beim Basteln haben wir mal wieder festgestellt, 1 Jahr nichts geflasht, schon sind wir wieder Anfänger.
 Bitte keine USB Verlängerungskabel verwenden, die Goldrandlösung ist das RASPI UART und eine Stiftleiste.
