@@ -1012,6 +1012,34 @@ Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) 
 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
 
+### 2023.2.3
+**Veröffentlichungsdatum**: 14.6.2024  
+**offizielle Versionshinweise**: [2023.2.3](https://gluon.readthedocs.io/en/v2023.2.x/releases/v2023.2.3.html)  
+**Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2023.2.x/user/supported_devices.html)  
+**Github-Repository**: [Commits](https://github.com/freifunk-gluon/gluon/commits/v2023.2.3)
+
+
+### 2023.2.2
+**Veröffentlichungsdatum**: 14.3.2024  
+**offizielle Versionshinweise**: [2023.2.2](https://gluon.readthedocs.io/en/v2023.2.x/releases/v2023.2.2.html)  
+**Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2023.2.x/user/supported_devices.html)  
+**Github-Repository**: [Commits](https://github.com/freifunk-gluon/gluon/commits/v2023.2.2)
+
+
+### 2023.2.1
+**Veröffentlichungsdatum**: 23.1.2024  
+**offizielle Versionshinweise**: [2023.2.2](https://gluon.readthedocs.io/en/v2023.2.x/releases/v2023.2.1.html)  
+**Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2023.2.x/user/supported_devices.html)  
+**Github-Repository**: [Commits](https://github.com/freifunk-gluon/gluon/commits/v2023.2.1)
+
+
+### 2023.2
+**Veröffentlichungsdatum**: 5.1.2024  
+**offizielle Versionshinweise**: [2023.2.2](https://gluon.readthedocs.io/en/v2023.2.x/releases/v2023.2.html)  
+**Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2023.2.x/user/supported_devices.html)  
+**Github-Repository**: [Commits](https://github.com/freifunk-gluon/gluon/commits/v2023.2.1)
+
+
 ### 2023.1.1
 **Veröffentlichungsdatum**: 10.10.2023  
 **offizielle Versionshinweise**: [2023.1.1](https://gluon.readthedocs.io/en/v2023.1.1/releases/v2023.1.1.html)  
