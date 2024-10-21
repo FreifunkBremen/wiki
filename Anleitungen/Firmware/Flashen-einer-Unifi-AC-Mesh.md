@@ -16,6 +16,9 @@ Die richtige Firmware von Ubiquiti herunterladen (3.7.58 / 3.8.3)
 https://www.ubnt.com/download/unifi/unifi-mesh/uap-ac-m
 Dann auf „SEE PAST FIRMWARE“ die „Unfi Firmware 3.7.58 for UAP-AC-LITE/M/…/… “ auswählen und herunterladen.
 Dieser Schritt ist leider manchmal notwendig.
+Aktuell gibt es nur Aktuelle Firmware unter:
+https://www.ui.com/download/software/uap-ac-m
+
 
 Der Reihe nach: 
 
