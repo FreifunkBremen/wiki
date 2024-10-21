@@ -132,3 +132,28 @@ Der Updatevorgang dauert in der Regel 1-2 Minuten.
 
 Nachdem die Freifunk Firmware erfolgreich eingespielt wurde, musst du nun deinen Freifunk Knoten konfigurieren.
 
+### Ubiquiti M-Serie/Flash-Anleitung kleine Ergänzung
+
+Ein Update auf OpenWrt oder Gluon für Freifunk kann direkt über das Webinterface erfolgen. Das Gerät wird dazu über ein Netzwerkkabel direkt mit dem PC verbunden, der PC bekommt eine feste IP wie z.B. 192.168.1.100. Das Webinterface ist dann wie folgend erreichbar:
+
+    IP-Adresse: https://192.168.1.20
+    Benutzername: ubnt
+    Passwort: ubnt
+
+Sollte das nicht funktionieren, kann das Gerät durch Drücken der Reset-Taste für etwa 10 Sekunden (bis die LEDs aufblinken) zurückgesetzt werden und ist dann unter dieser Adresse erreichbar.
+
+Zu beachten ist, dass die airOS-Firmwareversion nicht neuer als v5.5.10 sein darf (Downgrade siehe unten!)
+
+OpenWrtT/Gluon kann dann direkt über das Web-Interface über das factory-Image eingespielt werden.
+Firmware-Downgrade auf v5.5.10 (XM)
+
+Vor dem Flashen von OpenWRT oder Gluon auf die Geräte muss zwingend ein Downgrade der airOS-Firmware auf v5.5.10 erfolgen. Möchte man dazu v5.5.10 direkt flashen, erhält man auf der Weboberfläche bei neuerer Firmware allerdings den Fehler "Firmware image check failed. Error code: 43". Dieser Code 43 erscheint wegen einer nichtsignierten Firmware. Ein Downgrade auf nichtsignierte Firmware ist nur über den Umweg einer Beta-Firmware möglich, sobald einmal eine signierte Firmware eingespielt wurde.
+
+Ein Downgrade von z.B. v6.1.7 auf v5.5.10 kann in dieser Reihenfolge über das WebUI erfolgen (Per SSH ist übrigens genauso zwecklos, da gibt es ebenfalls Fehlermeldungen):
+
+    v6.0.6-beta https://www.ui.com/downloads/XN-fw-internal/v6.0.6/XM.v6.0.6-beta.30875.170526.0038.bin
+    v6.0.4 (unsigned) https://www.ui.com/downloads/XN-fw-internal/v6.0.4/XM.v6.0.4.30805.170505.1525.bin
+    v5.6.15 (unsigned) https://dl.ui.com/firmwares/XN-fw/v5.6.15/XM.v5.6.15.30572.170328.1107.bin
+    v5.5.10 (unsigned) https://www.ui.com/downloads/XN-fw-internal/v5.5.10/XM.v5.5.10.24241.141001.1649.bin
+
+Von v5.5.10 lässt sich über das WebUI die Freifunk-, Gluon- oder andere OpenWrt-Firmware einspielen. 
