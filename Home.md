@@ -21,10 +21,11 @@ Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffh
     * [[20.09.2024|Treffen/2024/2024_09_20]] fällt aus!
     * [[18.10.2024|Treffen/2024/2024_10_18]] ab 20 Uhr Mitgliederversammlung
     * [[15.11.2024|Treffen/2024/2024_11_15]]
-* der nächsten Treffen: jeden 3. Freitag
     * [[20.12.2024|Treffen/2024/2024_12_20]] fällt aus!
     * [[17.01.2025|Treffen/2025/2025_01_17]]
     * [[21.02.2025|Treffen/2025/2025_02_21]]
+* der nächsten Treffen: jeden 3. Freitag
+    * [[21.03.2025|Treffen/2025/2025_03_21]]
     
     
 * [Liste aller Treffen](/gollum/overview/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
