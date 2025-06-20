@@ -86,7 +86,7 @@ Wird dort das Alias-Beispiel von oben eingetragen, ist dieses für alle Benutzer
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 ### SSH Login auf einem Router vereinfachen.
-Siehe auch: http://wiki.bremen.freifunk.net/Anleitungen/SSH-Node-Verwaltung.
+Siehe auch: [http://wiki.bremen.freifunk.net/Anleitungen/SSH-Node-Verwaltung.md](http://wiki.bremen.freifunk.net/Anleitungen/SSH-Node-Verwaltung.md)
 
 Normalerweise öffnen wir eine SSH Verbindung in der Konsole mit 'SSH root@ipv6', dann Passwort oder Passphrase.
 Das möchte ich vereinfachen.
