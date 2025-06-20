@@ -120,3 +120,16 @@ uci commit gluon-node-info
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
+### Node upgraden
+Ich habe einen Key oder Passwort und einen alten Router aus der Kiste.
+
+Strom drauf, von einem gelben Port eine LAN-Verbindung zum Lapptop.
+Geht eine der Lampen vom LAN-Port an der Frontseite an?
+Wir brauchen den Namen von unserer ETH Schnittstelle. z.B. Ethernet 3 oder eth3
+
+In einer Shell pingen wir nun "ping6 ff02::1%eth3" und bekommen als Antwort die IP6 Adresse des Routers.
+Nun können wir mit SSH versuchen auf den Router zu kommen.
+ssh root@fe80::ea94:f6ff:feb9:bdfa
+Mit Key sollten wir jetzt auf dem Router sein.
+
+
