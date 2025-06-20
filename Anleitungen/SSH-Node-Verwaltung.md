@@ -1,5 +1,6 @@
 # SSH-Node-Verwaltung
 
+## Inhalt:
 [[_TOC_]]
 
 ## Vorbereitung
@@ -35,6 +36,8 @@ Die folgende Wiki-Seite von gluon (unserer Firmware-Basis) enthält die meisten 
 und [https://wiki.freifunk.net/Konsole](https://wiki.freifunk.net/Konsole)
 Diese Wiki-Seite versteht sich als Ergänzung der dort erklärten Befehle.
 
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
 ### Firmware automatisch per Autoupdater aktualisieren
 Mit dem Befehl `autoupdater` lässt sich der Autoupdater manuell außerhalb der regulären Tasks aufrufen. Er funktioniert dann ganz normal und wird, wenn ein Update vorhanden ist, mit der gleichen, vom Server dem Knoten zugeteilten, Wahrscheinlichkeit updaten.  
 Um ein Update zu erzwingen kann an den Befehl `-f` angehängt werden.  
@@ -55,6 +58,8 @@ Führe folgende Befehle angepasst aus:
 echo 3 > /proc/sys/vm/drop_caches
 sysupgrade [FIRMWAREFILE]
 ```
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
 ### Autoupdater Branch festlegen
 Wenn der Router nach dem Reboot wieder oben ist könnt ihr den Branch für den Autoupdater noch festlegen:
 ~~~
@@ -90,6 +95,8 @@ uci commit gluon-setup-mode
 reboot
 ~~~
 
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
 ### Geo Daten (Position) Ändern
 Am einfachten ist es, die Position auf der Freifunkkarte festzulegen.
 
@@ -102,7 +109,7 @@ Beispiel: Fernsehturm Utbremer Str. 91
 uci set gluon-node-info.@location[0]='location'; uci set gluon-node-info.@location[0].share_location='1'; uci set gluon-node-info.@location[0].latitude='53.095761940'; uci set gluon-node-info.@location[0].longitude='8.791882843'; uci commit gluon-node-info
 ~~~
 
-Gleichel Beispiel als Liste
+Gleiches Beispiel als Liste
 ~~~
 uci set gluon-node-info.@location[0]='location'
 uci set gluon-node-info.@location[0].share_location='1'
@@ -110,3 +117,6 @@ uci set gluon-node-info.@location[0].latitude='53.095761940'
 uci set gluon-node-info.@location[0].longitude='8.791882843'
 uci commit gluon-node-info
 ~~~
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
