@@ -1044,13 +1044,13 @@ Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfacht
 
 ### 2023.2.5
 **Veröffentlichungsdatum**: 30.5.2025  
-**offizielle Versionshinweise**: [2023.2.3](https://gluon.readthedocs.io/en/v2023.2.x/releases/v2023.2.5.html)  
+**offizielle Versionshinweise**: [2023.2.5](https://gluon.readthedocs.io/en/v2023.2.x/releases/v2023.2.5.html)  
 **Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2023.2.x/user/supported_devices.html)  
 **Github-Repository**: [Commits](https://github.com/freifunk-gluon/gluon/commits/v2023.2.5)
 
 ### 2023.2.4
 **Veröffentlichungsdatum**: 3.10.2024  
-**offizielle Versionshinweise**: [2023.2.3](https://gluon.readthedocs.io/en/v2023.2.x/releases/v2023.2.4.html)  
+**offizielle Versionshinweise**: [2023.2.4](https://gluon.readthedocs.io/en/v2023.2.x/releases/v2023.2.4.html)  
 **Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2023.2.x/user/supported_devices.html)  
 **Github-Repository**: [Commits](https://github.com/freifunk-gluon/gluon/commits/v2023.2.4)
 
