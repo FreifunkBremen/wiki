@@ -31,11 +31,25 @@ Branch        | aktuelle Version                                                
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
+### 2023.2.5+bremen1
+**Veröffentlichung auf dem `stable`-Branch**: noch nicht  
+**Veröffentlichung auf dem `testing`-Branch**: noch nicht  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2023.2.5+bremen1) / [Commits/Compare](https://github.com/FreifunkBremen/gluon-site-ffhb/compare/v2023.2.4+bremen1...v2023.2.5+bremen1)  
+**gluon-Version**: [2023.2.5](#2023-2-5)
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2023.2.5+bremen1/)
+
+### 2023.2.4+bremen1
+**Veröffentlichung auf dem `stable`-Branch**: noch nicht  
+**Veröffentlichung auf dem `testing`-Branch**: noch nicht  
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2023.2.4+bremen2) / [Commits/Compare](https://github.com/FreifunkBremen/gluon-site-ffhb/compare/v2023.2.3+bremen2...v2023.2.4+bremen1)  
+**gluon-Version**: [2023.2.4](#2023-2-4)
+**Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2023.2.4+bremen1/)
+
 ### 2023.2.3+bremen2
 **Veröffentlichung auf dem `stable`-Branch**: noch nicht  
 **Veröffentlichung auf dem `testing`-Branch**: noch nicht  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2023.2.3+bremen2) / [Commits/Compare](https://github.com/FreifunkBremen/gluon-site-ffhb/compare/v2023.1+bremen1...v2023.2.3+bremen2)  
-**gluon-Version**: [2023.2.3](#2023-2-3)  
+**gluon-Version**: [2023.2.3](#2023-2-3)
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2023.2.3+bremen2/)
 
 
