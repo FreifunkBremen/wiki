@@ -35,21 +35,21 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 **Veröffentlichung auf dem `stable`-Branch**: noch nicht  
 **Veröffentlichung auf dem `testing`-Branch**: noch nicht  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2023.2.5+bremen1) / [Commits/Compare](https://github.com/FreifunkBremen/gluon-site-ffhb/compare/v2023.2.4+bremen1...v2023.2.5+bremen1)  
-**gluon-Version**: [2023.2.5](#2023-2-5)
+**gluon-Version**: [2023.2.5](#2023-2-5)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2023.2.5+bremen1/)
 
 ### 2023.2.4+bremen1
 **Veröffentlichung auf dem `stable`-Branch**: noch nicht  
 **Veröffentlichung auf dem `testing`-Branch**: noch nicht  
-**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2023.2.4+bremen2) / [Commits/Compare](https://github.com/FreifunkBremen/gluon-site-ffhb/compare/v2023.2.3+bremen2...v2023.2.4+bremen1)  
-**gluon-Version**: [2023.2.4](#2023-2-4)
+**Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2023.2.4+bremen1) / [Commits/Compare](https://github.com/FreifunkBremen/gluon-site-ffhb/compare/v2023.2.3+bremen2...v2023.2.4+bremen1)  
+**gluon-Version**: [2023.2.4](#2023-2-4)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2023.2.4+bremen1/)
 
 ### 2023.2.3+bremen2
 **Veröffentlichung auf dem `stable`-Branch**: noch nicht  
 **Veröffentlichung auf dem `testing`-Branch**: noch nicht  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2023.2.3+bremen2) / [Commits/Compare](https://github.com/FreifunkBremen/gluon-site-ffhb/compare/v2023.1+bremen1...v2023.2.3+bremen2)  
-**gluon-Version**: [2023.2.3](#2023-2-3)
+**gluon-Version**: [2023.2.3](#2023-2-3)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2023.2.3+bremen2/)
 
 
@@ -1041,6 +1041,18 @@ Der Quellcode von Gluon liegt bei [Github](https://github.com/freifunk-gluon/glu
 Die Dokumentation ist auf [gluon.readthedocs.io](https://gluon.readthedocs.io/) einsehbar.
 
 Es folgt eine Liste aller Gluon Versionen mit einer übersetzten und vereinfachten Liste der Neuerungen und Fehlerkorrekturen.
+
+### 2023.2.5
+**Veröffentlichungsdatum**: 30.5.2025  
+**offizielle Versionshinweise**: [2023.2.3](https://gluon.readthedocs.io/en/v2023.2.x/releases/v2023.2.5.html)  
+**Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2023.2.x/user/supported_devices.html)  
+**Github-Repository**: [Commits](https://github.com/freifunk-gluon/gluon/commits/v2023.2.5)
+
+### 2023.2.4
+**Veröffentlichungsdatum**: 3.10.2024  
+**offizielle Versionshinweise**: [2023.2.3](https://gluon.readthedocs.io/en/v2023.2.x/releases/v2023.2.4.html)  
+**Unterstützte Hardware**: [Geräteliste](https://gluon.readthedocs.io/en/v2023.2.x/user/supported_devices.html)  
+**Github-Repository**: [Commits](https://github.com/freifunk-gluon/gluon/commits/v2023.2.4)
 
 ### 2023.2.3
 **Veröffentlichungsdatum**: 14.6.2024  
