@@ -26,8 +26,8 @@ Experimentelle Firmware-Versionen werden nicht offiziell unterstützt und werden
 
 Branch        | aktuelle Version                                                    | signed by
 ---           | ---                                                                 | ---
-**`stable`**  | [2021.1.2+bremen1](#2021-1-2-bremen1)     | `oliver`, `genofire`
-**`testing`** | [2021.1.2+bremen1](#2021-1-2-bremen1)     | `oliver`
+**`stable`**  | [2023.1.1+bremen1](#2023.1.1-bremen1)     | `oliver`, `genofire`
+**`testing`** | [2023.1.1+bremen1](#2023.1.1-bremen1)     | `oliver`
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
@@ -48,8 +48,8 @@ Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-sp
 
 
 ### 2023.1.1+bremen1
-**Veröffentlichung auf dem `stable`-Branch**: [noch nicht](https://downloads.bremen.freifunk.net/firmware/all/2023.1.1+bremen1/sysupgrade/stable.manifest)  
-**Veröffentlichung auf dem `testing`-Branch**: [noch nicht](https://downloads.bremen.freifunk.net/firmware/all/2023.1.1+bremen1/sysupgrade/testing.manifest)  
+**Veröffentlichung auf dem `stable`-Branch**: [22.06.2025](https://downloads.bremen.freifunk.net/firmware/all/2023.1.1+bremen1/sysupgrade/stable.manifest)  
+**Veröffentlichung auf dem `testing`-Branch**: [20.01.2024](https://downloads.bremen.freifunk.net/firmware/all/2023.1.1+bremen1/sysupgrade/testing.manifest)  
 **Github-Repository**: [Tag](https://github.com/FreifunkBremen/gluon-site-ffhb/releases/tag/v2023.1.1+bremen1) / [Commits/Compare](https://github.com/FreifunkBremen/gluon-site-ffhb/compare/v2023.1+bremen1...v2023.1.1+bremen1)  
 **gluon-Version**: [2023.1.1](#2023-1-1)  
 **Download**: [Images](http://downloads.bremen.freifunk.net/firmware/all/2023.1.1+bremen1/)
