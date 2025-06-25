@@ -49,7 +49,7 @@ Installation in der Konsole mit
 WSL --install
 ~~~
 
-(2 x Minus)und schon kann Windows Linux :-)
+(2 x Minus) und schon kann Windows Linux :-)
 
 Fall ein Befehl nicht funktioniert, wird ein Hinweis zum Nachinstallieren angegeben. Also keine Angst, mit WSL installieren ich kein vollumfängliches Ubuntu. Es reicht aber um Freifunkrouter zu Bedienen oder die Anleitungen aus dem WIKI auszuprobieren.
 
