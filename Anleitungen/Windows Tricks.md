@@ -35,6 +35,7 @@ start DEVMGMT.MSC
 
 2.) Das Verfahren eignet sich auch für andere Gerätetypen; insbesondere auch für inaktive Parallelschnittstellen
 
+Siehe z.B. Hier: [http://www.winfaq.de/](http://www.winfaq.de/faq_html/Content/tip1000/onlinefaq.php?h=tip1220.htm)
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
