@@ -41,6 +41,7 @@ Siehe z.B. Hier: [http://www.winfaq.de/](http://www.winfaq.de/faq_html/Content/t
 
 ### WSL
 Was ist WSL? Windows Subsystem Linux, eine Erweiterung der Windowskonsole.
+
 Schau mal hier: [https://learn.microsoft.com/de-de/windows/wsl/install](https://learn.microsoft.com/de-de/windows/wsl/install)
 Installation in der Konsole mit WSL --install und schon kann Windows Linux :-)
 
