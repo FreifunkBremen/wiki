@@ -26,8 +26,8 @@ Experimentelle Firmware-Versionen werden nicht offiziell unterstützt und werden
 
 Branch        | aktuelle Version                                                    | signed by
 ---           | ---                                                                 | ---
-**`stable`**  | [2023.1.1+bremen1](#2023-1-1-bremen1)     | `oliver`, `genofire`
-**`testing`** | [2023.1.1+bremen1](#2023-1-1-bremen1)     | `oliver`
+**`stable`**  | [2023.1.1+bremen1](#2023-1-1-bremen1)     | `genofire`, `janeric`, `oliver`
+**`testing`** | [2023.1.1+bremen1](#2023-1-1-bremen1)     | `genofire`, `oliver`
 
 Es folgt eine Liste aller Freifunk Bremen Firmware-Versionen mit allen Bremen-spezifischen Änderungen sowie bedeutenden Änderungen beim Sprung auf eine neue Gluon Basis.
 
