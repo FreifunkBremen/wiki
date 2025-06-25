@@ -36,6 +36,16 @@ start DEVMGMT.MSC
 2.) Das Verfahren eignet sich auch für andere Gerätetypen; insbesondere auch für inaktive Parallelschnittstellen
 
 
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
+
+### WSL
+Was ist WSL? Windows Subsystem Linux, eine Erweiterung der Windowskonsole.
+Schau mal hier: [https://learn.microsoft.com/de-de/windows/wsl/install](https://learn.microsoft.com/de-de/windows/wsl/install)
+Installation in der Konsole mit WSL --install und schon kann Windows Linux :-)
+
+Fall ein Befehl nicht funktioniert, wird ein Hinweis zum Nachinstallieren angegeben. Also keine Angst, mit WSL installieren ich kein vollumfängliches Ubuntu. Es reicht aber um Freifunkrouter zu Bedienen oder die Anleitungen aus dem WIKI auszuprobieren.
+
+**[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
