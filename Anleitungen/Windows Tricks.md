@@ -43,7 +43,13 @@ Siehe z.B. Hier: [http://www.winfaq.de/](http://www.winfaq.de/faq_html/Content/t
 Was ist WSL? Windows Subsystem Linux, eine Erweiterung der Windowskonsole.
 
 Schau mal hier: [https://learn.microsoft.com/de-de/windows/wsl/install](https://learn.microsoft.com/de-de/windows/wsl/install)
-Installation in der Konsole mit WSL --install und schon kann Windows Linux :-)
+
+Installation in der Konsole mit 
+~~~
+WSL --install
+~~~
+
+(2 x Minus)und schon kann Windows Linux :-)
 
 Fall ein Befehl nicht funktioniert, wird ein Hinweis zum Nachinstallieren angegeben. Also keine Angst, mit WSL installieren ich kein vollumfängliches Ubuntu. Es reicht aber um Freifunkrouter zu Bedienen oder die Anleitungen aus dem WIKI auszuprobieren.
 
