@@ -65,9 +65,17 @@ If the VM is powered on, disable and enable the Shared Folders feature from the 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 ### Alias
-Sich wiederholende Befehlsfolgen oder häufig benutze komplizierte Eingaben, verpacken wir als Alias.
+Sich wiederholende Befehlsfolgen oder häufig benutze komplizierte Eingaben, verpacken wir in ein Alias.
+
 https://wiki.ubuntuusers.de/alias/
-Damit diese Alias Namen permanent sind, geben wir dieses direkt in ~/.bash_aliases ein. Diese Datei liegt versteckt in unserem Homeverzeichnis.
+
+Unser Terminal (Bash) wird über mehrere Konfigdateien gesteuert.
+/etc/bash.bashrc    Globale Einstellung für Alle User
+/home/user/.bashrc  Lokale Einstellung für diesen User. 
+~/.bash_aliases     wird lokal aus dem Homeverzeichnis abgefragt und importiert.
+
+
+Damit diese Alias Namen permanent sind, geben wir dieses direkt in ~/.bash_aliases ein. Diese Datei liegt versteckt in unserem Homeverzeichnis. Alle Einstellungen sollten wir nur in '~/.bash_aliases' vornehmen.
 
 Beispiel: Bessere Lesbarkeit durch farbliche Ausgabe der Dateien über 'ls'
 
