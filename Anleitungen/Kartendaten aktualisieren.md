@@ -29,7 +29,7 @@ Diese Schritte müssen auf einem System ausgeführt werden, das genug Festplatte
 * die ganzen Befehle (oder zumindest die tilemaker-Befehle) sollten in einer `tmux`- oder `screen`-Session ausgeführt werden, damit die auch noch weiterlaufen, falls die SSH-Verbindung getrennt wird.
 * Software runterladen: [[https://github.com/systemed/tilemaker/releases/download/v2.0.0/tilemaker-ubuntu-16.04.zip]] und auspacken
 * aktuelle Kartendaten für Deutschland runterladen, von [[https://download.geofabrik.de/europe/germany-latest.osm.pbf]] , [[https://download.geofabrik.de/europe/germany-latest.osm.pbf]] 
-	* für Tests kann man auch z.B. [[https://download.geofabrik.de/europe/germany/bremen-latest.osm.pbf]] / [[https://geo2day.com/europe/germany/bremen.html]] runterladen; dann braucht man nur ca. 100 MB RAM
+	* für Tests kann man auch z.B. [[https://download.geofabrik.de/europe/germany/bremen-latest.osm.pbf]] / [[https://geo2day.com/europe/germany.html]] runterladen; dann braucht man nur ca. 100 MB RAM
 * Küstenlinien runterladen und auspacken (ohne diese Daten fehlen an manchen Stellen die Meeresküsten):
     * `wget https://osmdata.openstreetmap.de/download/water-polygons-split-4326.zip`
     * `unzip water-polygons-split-4326.zip`
