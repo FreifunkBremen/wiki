@@ -25,6 +25,13 @@ Warum Einzelteile?
 - Lüfter: Es gibt besonders Geräuscharme Lüfter, Lüfter sind aber nicht erforderlich.
 - Kühlkörpergehäuse, aus meiner Sicht, der Burner :-) [(3B+)](https://www.elv.de/joy-it-armor-gehaeuse-block-fuer-raspberry-pi-3-schutz-und-kuehlung-zugleich.html?utm_source=google&utm_medium=cpc&refid=GShopping?Gads_Shopping&gclid=CjwKCAjwqZPrBRBnEiwAmNJsNvANtVXfqRuPLPLzGS2CqQdZXWmnE5eZbqIZUJrgTrRyzrFxdivcWRoC7MEQAvD_BwE) [(4B)](https://www.reichelt.de/gehaeuse-fuer-raspberry-pi-4-alu-schwarz-rpi-case-alu07-p261677.html?&trstct=pos_13)
 
+Ergänzung zum Pi 5:
+- neues PI5 Netzteil kaufen, da 27W!
+- Am Anfang den angepriesenen Lüfter für 6,5€ verwenden
+- SSD Hat bringt deutlich mehr Geschwindigkeit.
+- 64 GB Speicher und es gibt nur sehr selten mal einen Hänger.
+- Der 5er hat von Haus aus einen AUS-Schalter
+
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
 ### Erstinstallation
@@ -32,6 +39,12 @@ Ich möchte nicht jedesmal einen Monitor und Tastatur anklemmen. Es funktioniert
 Ab 2016 sind jedoch beide Zugänge deaktiviert. In diesem Beispiel verwende ich 2018-11-13-raspbian-stretch-full.img oder neuer. Dieses Image wird auf die Mikro-SD geschrieben. Die Mikro-SD wird in einem Dateieditor geöffnet. Dort wird die Datei `config.txt` um den Eintrag `enable_uart=1` ergänzt. Jetzt steht nach dem Booten die serielle Schnittstelle zur Verfüfung. Für den sofortigen SSH Zugang wird eine leere Datei `ssh` (ohne .txt am Ende) angelegt. Nach dem Booten sehen wir auf unserem Heimrouter den angeschlossenen Pi und seine IP-Adresse. Jetzt SSH Zugriff starten. Beispiel pi@192.168.178.101 -p 22 unter Windows mit Putty/Kitty. user:`pi` pw:`raspberry`
 
 Die weiteren Konfigurationen im Terminal mit sudo `raspi-config` vornehmen.
+
+Ergänzung Pi 5
+Ob SSD oder blanke Mikro SD, keine Arbeit investieren, es wir nur ein LAN Kabel mit Internetzugang benötigt.
+Der PI5 startet quasi mit dem bekannten PI-Imager und fragt dich nach Benutzer Passwort, SSID, installation auf SSD oder SD.
+Klicki klick und die Kiste ist fertig eingerichtet.
+Probiert es aus, funktioniert echt toll.
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
@@ -58,6 +71,10 @@ network={
 }
 ~~~
  Das Tool zum Beschreiben von SD/Micro-SD Karten kann nicht nur das aktuelle Image automatisch Laden, sondern kann in einem versteckten Menü Strg+Shift+x fast alle Konfigparameter speichern und übertragen.
+
+Hinweis 2025:
+Der Pi-Imager funktioniert bestens und ist jetzt die erste Wahl.
+Debian 13 ist auf dem Markt, auf dem Raspi ist noch die 12er Aktuell. Wer den Spaß an dem kleinen Kumpel nicht verlieren möchte, sollte auf den PI5 wechseln und den die alten Kisten entsorgen oder zumindest nicht mehr am Internet betreiben. 
 
 **[------------------------------------------------------------------------------------------------------------------------- Zurück zum Inhalt:](#inhalt)**
 
