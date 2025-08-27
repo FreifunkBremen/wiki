@@ -89,7 +89,8 @@ Vor der Installation ggf. ein Backup / Kopie der Flashcard erstellen.
 sudo apt-get update
 sudo apt-get upgrade
 
-sudo apt-get install clamav
+# sudo apt-get install clamav
+sudo apt-get install clamav clamav-daemon
 sudo freshclam
 ~~~
 Autoupdate einrichten über crontab, hinten anhängen:
