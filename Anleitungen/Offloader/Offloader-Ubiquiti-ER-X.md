@@ -41,8 +41,8 @@ EdgeRouter X | EdgeRouter X-SFP
 - [https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_X_DS.pdf](https://dl.ubnt.com/datasheets/edgemax/EdgeRouter_X_DS.pdf)
 - [https://www.ubnt.com/edgemax/comparison/](https://www.ubnt.com/edgemax/comparison/) (Vergleich der Modelle)
 - [https://www.heise.de/preisvergleich/ubiquiti-edgerouter-er-x-a1271798.html](https://www.heise.de/preisvergleich/ubiquiti-edgerouter-er-x-a1271798.html)
-- [https://wiki.funkfeuer.at/wiki/Hardware/EdgeRouter_X](https://wiki.funkfeuer.at/wiki/Hardware/EdgeRouter_X)
-- [https://wiki.funkfeuer.at/wiki/Hardware/EdgeRouter_X-SFP](https://wiki.funkfeuer.at/wiki/Hardware/EdgeRouter_X-SFP)
+- [https://wiki.funkfeuer.at/wiki/Hardware/Router/EdgeRouter_X](https://wiki.funkfeuer.at/wiki/Hardware/Router/EdgeRouter_X)
+- [https://wiki.funkfeuer.at/wiki/Hardware/Router/EdgeRouter_X-SFP](https://wiki.funkfeuer.at/wiki/Hardware/Router/EdgeRouter_X-SFP)
 
 ### Links zu Anleitungen:
 - [https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image](https://github.com/oszilloskop/UBNT_ERX_Gluon_Factory-Image) (Empfehlenswert)
