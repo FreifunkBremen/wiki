@@ -16,13 +16,13 @@ Bei technischen Problemen kann auch der normale [Chat](irc://irc.hackint.org/ffh
 
 ##### Tagesordnungen
 * der letzten Treffen:
-    * [[20.06.2025|Treffen/2025/2025_06_20]]
-    * [[18.07.2025|Treffen/2025/2025_07_18]]
-    * [[19.09.2025|Treffen/2025/2025_09_19]]
-* der nächsten Treffen: jeden 3. Freitag
     * [[17.10.2025|Treffen/2025/2025_10_17]]
     * [[21.11.2025|Treffen/2025/2025_11_21]]
     * [[19.12.2025|Treffen/2025/2025_12_19]]
+* der nächsten Treffen: jeden 3. Freitag
+    * [[16.01.2026|Treffen/2026/2026_01_16]]
+    * [[20.02.2026|Treffen/2026/2026_02_20]]
+    * [[20.03.2026|Treffen/2026/2026_03_20]]
     
     
 * [Liste aller Treffen](/gollum/overview/Treffen/) mit Tagesordnungen und Protokollen (im Namensschema *Jahr*\_*Monat*\_*Tag* abgelegt)
